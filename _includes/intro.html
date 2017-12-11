@@ -1,0 +1,24 @@
+<!-- Begin Intro Section -->
+<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.eventImage }}');">
+    {% include navigation.html %}
+    <div class="overlay solid-overlay"></div>
+    <div class="content-wrapper">
+    <div class="jumbotron">
+        <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+            <h2><b>{{ site.eventTitle }}</b></h2>
+            <h1><b>{{ site.eventDate }}</b></h1>
+            <h5><a href="http://www.johnjay.cuny.edu/about-d4cs" target="_blank">{{ site.eventHost }}</a></h5>
+          </br>
+            {% for button in site.eventButtons %}
+            <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
+            {% endfor %}
+        </div>
+    </div>
+    <a href="#about" class="explore">
+        <svg class="icon icon-arrow-down" viewBox="0 0 32 32">
+            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-arrow-down"></use>
+        </svg>
+    </a>
+    </div>
+</section>
+<!-- End Intro Section -->

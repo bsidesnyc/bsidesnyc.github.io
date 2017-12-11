@@ -1,0 +1,21 @@
+<!-- Begin Contact Section -->
+<section id="contact" class="contact">
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <h3>{{ site.contactTitle }}</h3>
+            <div class="default-row float-left col-md-12">
+                <div class="default-details animated hiding" data-animation="{% if check == 0 %}fadeInRight{% else %}fadeInLeft{% endif %}" data-delay="0">
+                  <p>{{ site.contactTextTwitter }}
+                    <a href="https://twitter.com/{{ site.twitterAccount }}" target="_blank">
+                        <svg class="icon icon-twitter" viewBox="0 0 30 32">
+                            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                  {{ site.contactTextEmail}} <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Contact Section -->

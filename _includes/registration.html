@@ -1,0 +1,16 @@
+<!-- Begin Registration Section -->
+<section id="registration" class="registrations">
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="default-row float-left col-md-12">
+              <p>{{ site.ticketsFirstRoundText }}</p>
+              {% for button in site.eventButtons %}
+                {% if button.id == "tickets" %}
+                  <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Registration Section -->

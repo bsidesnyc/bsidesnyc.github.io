@@ -1,0 +1,21 @@
+-
+  group: "Platinum Sponsors"
+  elements:
+    - {name: "MWR InfoSecurity", description: "MWR InfoSecurity", link: "https://www.mwrinfosecurity.com", imageUrl: "mwr.png"}
+    - {name: "Virtue Security", description: "Virtue Security", link: "https://www.virtuesecurity.com", imageUrl: "virtue.png"}
+    - {name: "Cisco", description: "Cisco", link: "https://www.cisco.com", imageUrl: "cisco.png"}
+    - {name: "context", description: "context", link: "https://www.contextis.com", imageUrl: "context.png"}
+    - {name: "Mandiant", description: "Mandiant", link: "https://www.fireeye.com/services.html", imageUrl: "fireeye_mandiant.png"}
+    - {name: "Crowe Horwath", description: "Crowe Horwath", link: "https://www.crowehorwath.com", imageUrl: "crowe_horwath.png"}
+    - {name: "Red Balloon Security", description: "Red Balloon Security", link: "https://www.redballoonsecurity.com", imageUrl: "red_balloon.png"}
+    - {name: "Jet", description: "Jet", link: "https://www.jet.com", imageUrl: "jet.png"}
+-
+  group: "Gold Sponsors"
+  elements:
+    - {name: "F5", description: "F5 Networks", link: "https://f5.com", imageUrl: "f5.png"}
+    - {name: "OccamSec", description: "OccamSec", link: "http://occamsec.com", imageUrl: "occamsec.png"}
+    - {name: "Syncurity", description: "syncurity", link: "https://www.syncurity.net", imageUrl: "syncurity.png"}
+    - {name: "tCell", description: "tCell", link: "https://www.tcell.io", imageUrl: "tcell.png"}
+-
+  group: "Silver Sponsors"
+  elements:

@@ -1,0 +1,225 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="author" content="Oleh Zasadnyy, GDG Lviv">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ site.metaKeywords }}">
+    <meta name="google-site-verification" content="{{ site.siteVerification }}" />
+    <link rel="canonical" href="{{ site.url }}">
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="{{ site.twitterAccount }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image:src" content="{{ site.socialImageSrcTwitter | prepend: site.baseurl | prepend: site.url }}">
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:image" content="{{ site.socialImageSrcFacebook | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+
+    <title>{% if page.title %}{{ page.title }} &bull; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico" | prepend: site.baseurl }}">
+
+    <meta name="theme-color" content="#2b5797">
+
+    <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+
+<body>
+    <div id="preloader" class="preloader">
+        <div class="loader-gplus"></div>
+    </div>
+
+    <div id="st-container" class="st-container disable-scrolling">
+        <div class="st-pusher">
+            <div class="st-content">
+
+                {{ content }}
+
+                {% include footer.html %}
+
+            </div>
+        </div>
+    </div>
+
+    {% comment %}
+    =======================================
+    Modals
+    =======================================
+    {% endcomment %}
+
+    {% if page.modal != null %}
+      {% include speakers-modals.html %}
+      {% include cfp-board-modals.html %}
+      {% include organizers-modals.html %}
+    {% endif %}
+
+    {% include cfp-board-modals.html %}
+
+    {% if page.permalink == '/schedule/' %}
+        {% include sessions-modals.html %}
+    {% endif %}
+
+    {% comment %}
+    =======================================
+    JavaScript
+    =======================================
+    {% endcomment %}
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}><\/script>')
+    </script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script>
+    if (typeof($.fn.modal) === 'undefined') {
+        document.write('<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}><\/script>')
+    }
+    </script>
+
+    {% comment %}
+    =======================================
+    CTF
+    =======================================
+    {% endcomment %}
+
+    <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
+    {% if page.permalink == '/' or page.permalink == '/ctf/' %}
+    <script>
+        if ($(window).width() > 767) {
+            document.write('<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"><\/script>')
+        }
+    </script>
+
+    {% comment %}
+    =======================================
+    Logistics
+    =======================================
+    {% endcomment %}
+
+    {% elsif page.permalink == '/logistics/' %}
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry"></script>
+        <script type="text/javascript">
+            var autoDirectionEnabled = {% if site.logisticsMapAutoDirections %} true {% else %} false {% endif %};
+        </script>
+    {% endif %}
+
+    {% comment %}
+    =======================================
+    Waves effect
+    =======================================
+    {% endcomment %}
+
+    <script>
+        Waves.displayEffect();
+        {% if page.permalink == '/' %}
+            if ($(window).width() > 767) {
+                var googleMaps = 'index',
+                    eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates | replace:' ','' }}),
+                    centerMap = new google.maps.LatLng({{ site.mapCenterCoordinates | replace:' ','' }}),
+                    mobileCenterMap = new google.maps.LatLng({{ site.mapMobileCenterCoordinates | replace:' ','' }}),
+                    icon = '{{ site.baseurl }}/img/other/map-marker.svg';
+            } else {
+               var staticGoogleMaps = true,
+                eventPlaceCoordinates = '{{ site.eventPlaceCoordinates | replace:' ','' }}',
+                centerMapCoordinates = '{{ site.mapCenterCoordinates | replace:' ','' }}',
+                mobileCenterMapCoordinates = '{{ site.mapMobileCenterCoordinates | replace:' ','' }}',
+                icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
+            }
+            var twitterFeedUrl = '{{ site.twitterFeed }}';
+            $(document).ready(function () {
+                $(function () {
+                    if ($(window).width() > 767) {
+                        $("#typeout-text").typed({
+                            strings: [{{site.typeoutTextValues}}],
+                            typeSpeed: 150,
+                            backDelay: 900,
+                            loop: true
+                        });
+                    }
+                });
+                var rockstarSupporters = [
+                    {% for supporter in site.data.supporters %}
+                        {% if supporter.rockstar %}
+                        {name: "{{ supporter.name }} {{ supporter.surname }}", company: "{{ supporter.company }}", image: "{{ site.baseurl | append: '/img/supporters/' | append: supporter.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
+                        {% endif %}
+                    {% endfor %}
+                ];
+                rockstarSupporters.sort(function() {return 0.5 - Math.random()});
+                if(rockstarSupporters.length > 0) {
+                    var animationDelay = 1500,
+                        count = Math.min({{ site.rockstarSupportersCount }}, rockstarSupporters.length),
+                        colWidth = 12/count;
+                    for(i=0; i<count; i++) {
+                        var clearfix = '<div class="clearfix visible-xs"></div>';
+                        if ((i)%2 != 0) {
+                            clearfix = ""
+                        }
+                        $('#rockstar-supporter-title').after('<div class="col-md-'+ colWidth +' col-xs-6 rockstar-supporter-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-supporter"><div class="flow-img img-circle rockstar-supporter-img" style="background-image: url(' + rockstarSupporters[i].image + ')"></div><div class="name">' + rockstarSupporters[i].name + '</div><div class="sub">' + rockstarSupporters[i].company + '</div></div></div>' + clearfix);
+                        animationDelay -= 500;
+                    }
+                }
+            });
+        {% elsif page.permalink == '/logistics/' %}
+            var googleMaps = 'logistics',
+                eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates }}),
+                centerMap = new google.maps.LatLng({{ site.logisticsMapCenterCoordinates }}),
+                mobileCenterMap = new google.maps.LatLng({{ site.logisticsMapMobileCenterCoordinates }}),
+                icon = '{{ site.baseurl }}/img/other/map-marker.svg';
+        {% elsif page.permalink == '/ctf/' %}
+            if ($(window).width() > 767) {
+                var googleMaps = 'ctf',
+                    eventPlace = new google.maps.LatLng({{ site.ctfPlaceCoordinates }}),
+                    centerMap = new google.maps.LatLng({{ site.ctfMapCenterCoordinates }}),
+                    mobileCenterMap = new google.maps.LatLng({{ site.ctfMapMobileCenterCoordinates }}),
+                    icon = '{{ site.baseurl }}/img/other/map-marker.svg';
+            } else {
+               var staticGoogleMaps = true,
+                eventPlaceCoordinates = '{{ site.ctfPlaceCoordinates | replace:' ','' }}',
+                centerMapCoordinates = '{{ site.ctfMapCenterCoordinates | replace:' ','' }}',
+                mobileCenterMapCoordinates = '{{ site.ctfMapMobileCenterCoordinates | replace:' ','' }}',
+                icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
+            }
+
+        {% endif %}
+    </script>
+
+    {% comment %}
+    =======================================
+    Schedule
+    =======================================
+    {% endcomment %}
+
+    <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
+    {% if page.permalink == '/schedule/' %}
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var navHeight = $('#top-header').height();
+                var headerHeight = $('.track-header').first().height();
+                $('.stick-header').stick_in_parent({sticky_class: 'sticky', offset_top: navHeight});
+                $('.stick-label').stick_in_parent({offset_top: navHeight + headerHeight});
+            });
+        </script>
+    {% endif %}
+
+    {% include schema-event.html %}
+  </body>
+</html>

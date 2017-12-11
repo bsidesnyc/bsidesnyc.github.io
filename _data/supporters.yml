@@ -1,0 +1,78 @@
+#-
+#  name: "Lenny"
+#  surname: "Zeltser"
+#  title: "VP of Products at Minerva Labs"
+#  rockstar: true
+#  thumbnailUrl: "lenny_zeltser.jpg"
+#  twitter: "lennyzeltser"
+#-
+#  name: "Jamie"
+#  surname: "Levy"
+#  title: "Volatility Project, Core Developer"
+#  rockstar: true
+#  thumbnailUrl: "jamie_levy.jpg"
+#  twitter: "gleeda"
+-
+  name: "Veronica"
+  surname: "Valeros"
+  title: "Malware traffic researcher @ Cognitive Threat Analytics, Cisco"
+  thumbnailUrl: "veronica_valeros.jpg"
+  twitter: "verovaleros"
+-
+  name: "Sophia"
+  surname: "d’Antoine"
+  title: "Senior Security Researcher at Trail of Bits"
+  thumbnailUrl: "sophia_d_antoine.jpg"
+  twitter: "Calaquendi44"
+-
+  name: "Kelly"
+  surname: "Lum"
+  title: "Data Security Czar at Flatiron Health"
+  rockstar: true
+  thumbnailUrl: "kelly_lum.jpg"
+  twitter: "aloria"
+-
+  name: "Gadi"
+  surname: "Evron"
+  title: "Founder and CEO at Cymmetria"
+  thumbnailUrl: "gadi_evron.jpg"
+  twitter: "gadievron"
+-
+  name: "Brendan"
+  surname: "Dolan-Gavitt"
+  title: "Assistant Professor at NYU Tandon"
+  rockstar: true
+  thumbnailUrl: "brendan_dolan_gavitt.jpg"
+  twitter: "moyix"
+-
+  name: "Ismael"
+  surname: "Valenzuela"
+  title: "Principal Engineer at McAfee"
+  rockstar: true
+  thumbnailUrl: "ismael_valenzuela.jpg"
+  twitter: "aboutsecurity"
+-
+  name: "Leigh"
+  surname: "Honeywell"
+  title: "Technology Fellow at the ACLU"
+  rockstar: true
+  thumbnailUrl: "leigh_honeywell.png"
+  twitter: "hypatiadotca"
+-
+  name: "Kelly"
+  surname: "Shortridge"
+  title: ""
+  thumbnailUrl: "kelly_shortridge.jpg"
+  twitter: "swagitda_"
+-
+  name: "Nicole"
+  surname: "Becher"
+  title: ""
+  thumbnailUrl: "nicole_becher.jpg"
+  twitter: "thedeadrobots"
+-
+  name: "Christina"
+  surname: "Morillo"
+  title: ""
+  thumbnailUrl: "christina_morillo.jpg"
+  twitter: "divinetechygirl"

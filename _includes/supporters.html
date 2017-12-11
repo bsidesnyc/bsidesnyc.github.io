@@ -1,0 +1,22 @@
+<!-- Begin Supporters List-->
+<section id="supporters" class="supporters">
+  <div class="col-lg-10 col-lg-offset-1 text-center">
+      <h3 class="text-center animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"><b>{{ site.supportersTitle }}</b></h3>
+      <div class="row supporter-details">
+      {% for supporter in site.data.supporters %}
+        <div class="col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+          {% if supporter.twitter != null %}
+           <a href="https://twitter.com/{{ supporter.twitter }}" target="_blank">
+             <img class="img-circle" src="{{ site.baseurl }}/img/supporters/{{ supporter.thumbnailUrl}}" height="128" width="128">
+           </a>
+           {% else %}
+             <img class="img-circle" src="{{ site.baseurl }}/img/supporters/{{ supporter.thumbnailUrl}}" height="128" width="128">
+           {% endif %}
+            <p class="name"><b>{{ supporter.name }} {{ supporter.surname }}</b></p>
+            <p>{{ supporter.title }}</p>
+        </div>
+        {% endfor %}
+      </div>
+  </div>
+</section>
+<!-- End Supporters List -->

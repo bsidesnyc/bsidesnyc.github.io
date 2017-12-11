@@ -1,0 +1,26 @@
+<!-- Begin Direction Details-->
+<section id="direction-details" class="direction-details">
+    <h3>{{ site.directionDetailsTitle }}</h3>
+
+    <div class="content-wrapper">
+      <section class="image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.directionDetailsImage }}');">
+      <div class="overlay solid-overlay"></div>
+      </section>
+      <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-left">
+              {% assign animationDelay = 0 %}
+              {% for card in site.directionDetailsCards %}
+              {% assign colWidth = 12 | divided_by: forloop.length %}
+              <div class="col-md-{{ colWidth }} col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                  <div class="card">
+                      <h4>{{ card.title }}</h4>
+                      <p>{{ card.information }}</p>
+                  </div>
+              </div>
+              {% assign animationDelay = animationDelay | plus:500 %}
+              {% endfor %}
+    </div>
+
+
+</section>
+<!-- End Direction Details -->

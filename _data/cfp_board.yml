@@ -1,0 +1,35 @@
+-
+  id: 0
+  name: "Lenny"
+  surname: "Zeltser"
+  bio: "Lenny is a seasoned business and tech leader with extensive experience in information security. He builds innovative endpoint defense solutions as VP of Products at Minerva. Beforehand, Lenny served as a Director of Product Management at a Fortune 500 company with a focus on security software and services. Previously, he led the enterprise security consulting practice at a major cloud services provider. A frequent public speaker and writer, Lenny has co-authored books on network security and malicious software. He is also a senior instructor at SANS Institute. Lenny holds an MBA from MIT Sloan and a Computer Science degree from the University of Pennsylvania."
+  thumbnailUrl: "/cfp/lenny_zeltser.jpg"
+  twitter: "lennyzeltser"
+-
+  id: 1
+  name: "Jamie"
+  surname: "Levy"
+  bio: "Jamie Levy is a senior researcher, developer and board member of the Volatility Foundation. She worked on various R&D projects and forensic cases while previously working at Guidance Software, Inc, and later at Verizon Terremark.  Jamie has taught classes in Computer Forensics and Computer Science at Queens College (CUNY) and John Jay College (CUNY). She has a Masters in Forensic Computing from John Jay College and is an avid contributor to the open source Computer Forensics community. She is an active developer on the Volatility Framework.  In her day job, Jamie currently works as a Senior Security Researcher, where she leads hunting engagements."
+  thumbnailUrl: "/cfp/jamie_levy.jpg"
+  twitter: "gleeda"
+-
+  id: 2
+  name: "Vladimir"
+  surname: "Wolstencroft"
+  bio: "Vladimir Wolstencroft is a security consultant specialising in telecom and enterprise IT security, focusing on all aspects from reversing telecom elements to auditing signalling stacks. Previously working as a senior security consultant with Aura in New Zealand, head of training and telecom auditor with P1 Security in France, Vladimir now works with Twilio combining telecom  experience with the standards of IT security to help defend cloud and signalling infrastructures. Vladimir has previously delivered trainings and has spoken at RECON, HITB, Troopers, BSIDES, RMISC, H2HC, Day-Con, IIANZ and others around the topics of Telecom security, compromising and attacking cloud based apps such as Uber and Snapchat and reversing security appliances."
+  thumbnailUrl: "/cfp/vladimir_wolstencroft.png"
+  twitter:
+-
+  id: 3
+  name: "Glenn"
+  surname: "Edwards"
+  bio: "Glenn P. Edwards Jr. is a Principal Incident Response Consultant with FireEye where he specializes in Incident Response, Digital Forensics and Malware Analysis. Glenn holds a M.S degree in Digital Forensics from the University of Central Florida as well as a B.S. degree in Information Security and Privacy from High Point University."
+  thumbnailUrl: "/organizers/glenn.jpg"
+  twitter: "hiddenillusion"
+-
+  id: 4
+  name: "Brad"
+  surname: "Antoniewicz"
+  bio: "Brad Antoniewicz works in Cisco Umbrella’s security research group. He is an Adjunct Professor teaching Vulnerability Analysis and Exploitation and a Hacker in Residence at NYU’s Tandon School of Engineering. Antoniewicz is also a Contributing Author to both the Hacking Exposed and Hacking Exposed: Wireless series of books."
+  thumbnailUrl: "/organizers/brad.jpg"
+  twitter: "brad_anton"

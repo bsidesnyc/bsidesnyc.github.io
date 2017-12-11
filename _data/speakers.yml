@@ -1,0 +1,71 @@
+-
+  id: 0
+  name: "Dr. Richard"
+  surname: "Lovely"
+  company: "John Jay College"
+  title: "Intro on D4CS"
+  bio: "Richard Lovely is Director of the John Jay College Digital Forensics and Cybersecurity Program and an Associate Professor in the Department of Sociology at John Jay College, CUNY. He earned his Ph.D. at Yale University and a B.A. from the University of Southern Florida. Prior to his academic career he served as a U.S. Army Signal Corps instructor, a counter-intelligence officer with the US Army with a specialty in electronic counter-measures, and as a special agent with the US Secret Service. He also has experience as an international management consultant and facilitator for executive leadership training. On the academic and policy side of his career, he has worked as a research associate for the judicial system in Connecticut and has done research on search and seizure law, causes of serious violence, and organizational innovation. As well, he has also developed software applications for data retrieval and mining for institutional research on student data. Currently he teaches seminars in cybercriminology (CRJ/FCM 727) and data analysis (CRJ 716). His current research interests concern cybercrime, credentialing in forensics and security, the relationship of online privacy to social stigma, and educational outcomes assessment."
+  thumbnailUrl: lovely.jpg
+-
+  id: 1
+  name: "Runa"
+  surname: "Sandvik"
+  company: "The New York Times"
+  title: "Director of Information Security"
+  bio:
+  thumbnailUrl: runa_sandvik.jpg
+  slides:
+  twitter: "runasand"
+-
+  id: 2
+  name: "Quiessence"
+  surname: "Phillips"
+  company: "The City of New York"
+  title: "Deputy CISO"
+  thumbnailUrl: quiessence_phillips.png
+-
+  id: 3
+  name: "Lenny"
+  surname: "Zeltser"
+  company: "Minerva Labs"
+  title: "VP of Products"
+  sharedImg: true
+  thumbnailUrl: /cfp/lenny_zeltser.jpg
+  twitter: lennyzeltser
+-
+  id: 4
+  name: "Galina"
+  surname: "Antova"
+  company: "Claroty"
+  title: "Co-Founder"
+  thumbnailUrl: galina_antova.png
+-
+  id: 5
+  name: "Roselle"
+  surname: "Safran"
+  company: "Rosint Labs & EIR at Antecedent Ventures"
+  title: "President"
+  thumbnailUrl: roselle_safran.jpg
+-
+  id: 6
+  name: "Loren"
+  surname: "Mahler"
+  company: "Dealy Mahler Strategies"
+  title: "Founder"
+  thumbnailUrl: loren_mahler.jpg
+-
+  id: 7
+  name: "Kelly"
+  surname: "Shortridge"
+  company: ""
+  title: ""
+  sharedImg: true
+  thumbnailUrl: /supporters/kelly_shortridge.jpg
+  twitter: swagitda_
+-
+  id: 8
+  name: "Paul"
+  surname: "Vixie"
+  company: "Farsight Security"
+  title: "Chairman and CEO"
+  thumbnailUrl: paul_vixie.jpg

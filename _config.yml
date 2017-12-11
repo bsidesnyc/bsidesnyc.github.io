@@ -1,0 +1,299 @@
+################################################################################################
+# Requirements & Config.
+################################################################################################
+
+#-----------------------------------------------
+# Build Settings
+#-----------------------------------------------
+markdown: kramdown
+permalink: pretty
+exclude: ['README.md', 'LICENSE.txt', 'CNAME']
+
+#-----------------------------------------------
+# Plugins
+#-----------------------------------------------
+plugins:
+- jekyll-sitemap
+#- jekyll-menus
+
+safe: false
+
+################################################################################################
+# Site Settings
+################################################################################################
+title: "BSidesNYC"
+email: "bsides@bsidesnyc.org"
+twitterAccount: "@bsidesnyc"
+description: "BSides NYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community, and we truly strive to keep information free."
+url: "https://bsidesnyc.github.io" #bsidesnyc.org
+conYear: "2018"
+previousSponsorCount: "13"
+previousAttendeeCount: "400"
+
+#-----------------------------------------------
+# Footer
+#-----------------------------------------------
+socialLinks:
+ - {link: "https://twitter.com/bsidesnyc", icon: "twitter"}
+ - {link: "https://www.linkedin.com/company/bsidesnyc", icon: "linkedin"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "https://bsidesnyc.org", text: "BSidesNYC"}
+   - {link: "http://www.securitybsides.com", text: "Security BSides"}
+ -
+  title: "Contacts"
+  links:
+   - {link: "mailto:bsides@bsidesnyc.org", text: "bsides(at)bsidesnyc.org"}
+ -
+  title: "Policies"
+  links:
+   - {permalink: "/policies/", text: "Policies"}
+ -
+  title: "Press"
+  links:
+   - {permalink: "/#press", text: "Press"}
+
+#-----------------------------------------------
+# Head
+#-----------------------------------------------
+metaKeywords: "bsides, security, bsidesnyc, conference, nyc"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+#-----------------------------------------------
+# Navigation
+#-----------------------------------------------
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "/about/", text: "About"}
+ - {permalink: "/cfp/", text: "CFP"}
+ - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/sponsors/", text: "Sponsors"}
+ - {permalink: "/logistics/", text: "Logistics"}
+ - {permalink: "/ctf/", text: "CTF"}
+ - {permalink: "/contact/", text: "Contact"}
+bottomNavigationLinks:
+ - {permalink: "/cfp/", text: "Become a speaker"}
+rightNavigationButtons:
+ - {permalink: "/volunteers/", text: "Volunteer!"}
+
+################################################################################################
+# Block Data
+################################################################################################
+
+#-----------------------------------------------
+# About
+#-----------------------------------------------
+aboutTitle: "About BSidesNYC"
+aboutBlock:
+ - {title: "Conference", image: "bsides_nyc_logo.jpg", text: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free." }
+ - {title: "Villages", image: "tool.png", text: "Rather pick some locks or get hands on with some hardware hacking? We got ya covered." }
+ - {title: "CTF", image: "ctfd.png", text: "Think you have skillz? Test them against our Capture the Flag for bragging rights and prizes!" }
+
+#-----------------------------------------------
+# CFP Block
+#-----------------------------------------------
+cfpTitle: "Call For Papers"
+cfpBoardTitle: "CFP Board"
+cfpUrl: "https://bsidesnyc.org/cfp" #CHANGE
+cfpOpenDate: "August 08, 2017"
+cfpCloseDate: "November 06, 2017"
+cfpAcceptanceDate: "December 06, 2017"
+cfpDuration: "CFP submissions will be accepted from"
+cfpAcceptance: "Speaker acceptance notices will start being sent out on"
+cfpProcessReviewText: ["Our current conference timeline allocates ~3 months for our CFP to be open for submissions. While there is a little flexibility for late submissions, we generally <b>will not accept submissions after our CFP has been closed for 24+ hrs.</b>",
+
+"After our CFP has been closed, our CFP review board has ~1 month to look over and score all submissions.",
+
+"Based on the ratings from our CFP review board, the submissions with the highest score are put into our first round of acceptance notices.",
+
+"We allow ~1 week for these submitters to respond. <i>If we can not get a hold of, or hear back from, said submitter(s) then we move down our acceptance list</i>. Additionally, circumstatnces may arrise which prevent a submitter from being able or willing to present at our conference. If this occurs, we must once again continue down the acceptance list.",
+
+"This is usually resolved within a week or two, but as you can imagine, we can not send out rejection notices until we have enough talks to fill our schedule.", "Once we have enough acceptances, we will send out notices to those who did not make the final cut. Depending on the volume of CFP submissions, we may not be able to provide personal feedback for each CFP submission."]
+cfpProcessAcceptedText: ["Ideally, we will be able to give you 1+ month of acceptance notice so you can schedule any necessary travel arrangements. <b>If your attendance requires any visa paperwork, please let us know ahead of time</b>.",
+
+"We typically do not have a speaker party the day before the conference; However, speakers have set up their own dinners for those in town in previously years.",
+
+"~7-10 days after you receive your acceptance notice, you will be contacted to ask if you would like to have your bio and/or headshot published on our site. If so, please provide us with this information at this time.",
+
+"Additionally, we will be posting the speaker list and talk abstracts so please let us know if anything has changed (title, abstract etc.) A.S.A.P.",
+
+"As always, if you would like to have someone come to the conference with you, please just send us their information so we can register them."]
+
+#-----------------------------------------------
+# Contact
+#-----------------------------------------------
+contactTitle: "Need to get in touch?"
+contactTextTwitter: "Follow us on Twitter"
+contactTextEmail: "or email us at"
+
+#-----------------------------------------------
+# CTF
+#-----------------------------------------------
+ctfTitle: "CTF"
+ctfAboutTitle: "Capture the Flag"
+enableCtf: false
+ctfRows:
+ - {title: "CTF", image: "ctf-0.png", details: "Check back for details."} #CHANGE
+
+# CTF Judges
+ctfJudgesImage: "judges.jpg"
+ctfJudgesTitle: "Judges"
+
+# CTF Location
+ctfLocationBlockTitle: "Location"
+ctfLocationName: "..." #CHANGE
+ctfLocationLink: "#" #CHANGE
+
+# CTF Prizes
+ctfprizesTitle: "Prizes"
+ctfprizes:
+ - {title: "2nd Place", image: "prize-2.png", info: "prize1"}
+ - {title: "1nd Place", image: "prize-1.png", info: "prize2"}
+ - {title: "3nd Place", image: "prize-3.png", info: "prize3"}
+
+#-----------------------------------------------
+# Event Intro
+#-----------------------------------------------
+eventImage: "nyc_skyline.jpg"
+eventTitle: "BSidesNYC 2018"
+eventDate: "January 20, 2018"
+eventHost: "Hosted by D4CS@JJay"
+eventInfo: "Join us on January 20th, 2018! We are extremely pleased to have <a href=\"https://www.jjay.cuny.edu/about-d4cs\" target=\"_blank\">D4CS</a>, the Master of Science in Digital Forensics and Cybersecurity program, at John Jay College of Criminal Justice, as a partner in organizing and hosting BSidesNYC and we’re working hard to create another action-packed conference for you – expect even more technical security content by brilliant researchers, workshops, entrepreneur activities, and a brand new style of CTF!  To stay updated on volunteer opportunities, and other news, follow us on Twitter <a href=\"https://twitter.com/bsidesnyc\" target=\"_blank\">@BSidesNYC</a> and sign up for the mailing list."
+eventButtons:
+ - {permalink: "/cfp/", text: "Submit to CFP", id: "cfp"}
+ - {permalink: "/sponsors/", text: "Become a sponsor", id: "sponsors"}
+ - {permalink: "/registration/", text: "Get tickets", id: "tickets"}
+
+#-----------------------------------------------
+# Location Block
+#-----------------------------------------------
+locationBlockTitle: "Location"
+eventLocationName: "Digital Forensics and Cybersecurity Program @ John Jay College of Criminal Justice"
+eventStreetAddress: "524 W 59th Street"
+eventAddressLocality: "New York"
+eventAddressLocalityRegion: "NY"
+eventPostalCode: "10019"
+eventAddressCountry: "USA"
+eventStartTime: "2018-01-20T08:00"
+eventDoorTime: "09:00"
+eventEndTime: "2018-01-20T17:00"
+# @40.7709863,-73.9899653,17.38z
+eventPlaceCoordinates: "40.7709863, -73.9899653"
+mapCenterCoordinates: "40.7709863, -73.9899653"
+mapMobileCenterCoordinates: "40.7709863, -73.9899653"
+
+#-----------------------------------------------
+# Logistics | Directions
+#-----------------------------------------------
+directionsTitle: #"Find your way here"
+directionsDistance: "Distance"
+directionsDriving: "DRIVING"
+directionsWalking: "WALKING"
+directionsBicycling: "BICYCLING"
+directionsTransit: "TRANSIT"
+directionsFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: "40.7709863, -73.9899653"
+logisticsMapMobileCenterCoordinates: "40.7709863, -73.9899653"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details
+directionDetailsImage: "columbus_circle.jpg"
+directionDetailsTitle: "Get around NYC"
+directionDetailsCards:
+ - {title: "Airports", information: 'The conference is easily accessible from either <b>JFK</b> or <b>LGA</b> airports via public transportation (subway, bus, taxi) or ride-sharing services (uber, lyft etc.)'}
+ - {title: "Public Transit", information: "The closest subway station is <b>59 St. - Columbus Circle</b> (A,B,C & D lines). From this stop, it is less than a .5 mile walk."}
+
+#-----------------------------------------------
+# Partners
+#-----------------------------------------------
+partnersTitle: "Partners"
+
+#-----------------------------------------------
+# Policies
+#-----------------------------------------------
+policiesTitle: "Policies"
+
+#-----------------------------------------------
+# Speakers List
+#-----------------------------------------------
+showSessions: true
+
+#-----------------------------------------------
+# Sponsors
+#-----------------------------------------------
+sponsorsTitle: "Sponsors"
+sponsorsUrl: "/sponsors/"
+sponsorsButton: "Become a sponsor"
+
+#-----------------------------------------------
+# Sponsorship
+#-----------------------------------------------
+sponsorshipTitle: "Sponsorship"
+sponsorshipButton: "Download our Sponsorship Kit (PDF)"
+sponsorshipKitUrl: "/assets/BSidesNYC-2018-Sponsorship-Kit.pdf"
+
+#-----------------------------------------------
+# Statistic
+#-----------------------------------------------
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "400", specialCharacter: "", info: "attendees", detail: "from everywhere"}
+ - {count: "78", specialCharacter: "+", info: "CFP submissions", detail: "covering topics across the spectrum"}
+ - {count: "20", specialCharacter: "+", info: "speakers", detail: "from all over the world"}
+ - {count: "15", specialCharacter: "+", info: "presentations", detail: "for all interests"}
+ - {count: "13", specialCharacter: "", info: "sponsors", detail: "from various industries"}
+ - {count: "2", specialCharacter: "", info: "parallel tracks", detail: "plus an entrepreneur session, CTF & a lock pick village"}
+
+#-----------------------------------------------
+# Subscribe
+#-----------------------------------------------
+subscribeImage: #"subscribe.jpg"
+subscribeTitle: "Subscribe for updates"
+subscribeAction: "#" # CHANGE (e.g. - https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc)
+subscribeInfo: "Registration will be open around December. Number of tickets are limited. Stay tuned!"
+
+#-----------------------------------------------
+# Supporters
+#-----------------------------------------------
+supportersTitle: "Supporters"
+rockstarSupportersImage: "rockstar-supporters.jpg"
+rockstarSupportersCount: 4
+rockstarSupportersTitle: "Rockstar Supporters"
+rockstarSupportersButtonText: "See all supporters"
+
+#-----------------------------------------------
+# Registration | Tickets
+#-----------------------------------------------
+#registrationTitle:
+ticketsFirstRoundText: "The first round for registration will open at Wednesday, December 13th at 10am ET!! We can’t wait!"
+
+#-----------------------------------------------
+# Tweets Feed
+#-----------------------------------------------
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "What's Up?"
+twitterHashTag: "BSidesNYC"
+twitterFeed: "https://twitrss.me/bsidesnyc/?user=bsidesnyc"
+
+#-----------------------------------------------
+# Venue
+#-----------------------------------------------
+venueBlockTitle: "Venue"
+venueImageAtrium: "atrium.jpg"
+venueRoomImage1: "240.jpg"
+venueRoomImage2: "L615.jpg"
+venueRoomImage3: "L763.jpg"
+venueTitle: "John Jay College of Criminal Justice"
+venueFeatures: ["Guest Wi-Fi will be available.", "Lunch will be provided."]
+venueRooms:
+  - {id: "0", name: "Lynn & Jules Kroll Atrium", image: "atrium.jpg", link: "http://www.locationsnewyorkcity.com/mainlocation/lynn-jules-kroll-atrium/"}
+
+#-----------------------------------------------
+# Volunteers
+#-----------------------------------------------
+volunteerTitle: "Want to be involved?"
+volunteerText: "We are looking for individuals to help in a variety of areas – are you interested in lending a hand? If so, feel free to reach out to us via"

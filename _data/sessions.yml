@@ -1,0 +1,52 @@
+-
+  id: 999
+  title: ""
+-
+  id: 998
+  title: "Break"
+  place: "Hall"
+  service: true
+  description: "The best time to talk with speakers and attendees"
+-
+  id: 000
+  title: "Registration/Coffee"
+  description: "some<br>- notes."
+  speakers: []
+  presentation: "#slides"
+-
+  id: 001
+  title: "Opening Remarks"
+  description: "Opening Remarks & Intro to D4CS by Dr. Lovely"
+  speakers: [0, 2]
+
+-
+  id: 002
+  title: "Lunch Break"
+  place: "Atrium"
+  description: "A complimentary lunch will be provided."
+  service: true
+
+-
+  id: 003
+  title: "Closing Remarks"
+  description:
+  presentation: "#slides"
+-
+  id: 004
+  title: "After Party"
+  description: "After party @ ..."
+-
+  id: 005
+  title: "CTF / Lock Picking / Electronics Workshop / Embedded Exploitation"
+  description:
+-
+  id: 007
+  title: "Entrepreneur Track"
+  description: "Career 0day is back for 2018! We’re pulling in Entrepreneurs from product and services startups, VCs and others to share their wisdom for those starting their own security company!"
+  speakers: [3, 4, 5, 6, 7, 8]
+-
+  id: 010
+  title: "Keynote"
+  description:
+  speakers: [1]
+  presentation: "#slides"

@@ -1,0 +1,88 @@
+-
+  date: "2018-01-20"
+  dateReadable: "January 20"
+  tracks:
+    - {title: "Track 1 (L.63)", color: "#90be4e"}
+    - {title: "Track 2 (L.76)", color: "#03a9f4"}
+    - {title: "Villages (L.61)", color: "#e91e63"}
+  timeslots:
+    - {
+    	startTime: "08:00",
+    	endTime: "08:50",
+    	sessionIds: [000]
+    }
+    - {
+    	startTime: "08:50",
+    	endTime: "09:00",
+    	sessionIds: [001]
+    }
+    - {
+    	startTime: "09:00",
+    	endTime: "09:30",
+    	sessionIds: [010]
+    }
+    - {
+    	startTime: "09:30",
+    	endTime: "10:00",
+    	sessionIds: [999]
+    }
+    - {
+    	startTime: "10:00",
+    	endTime: "10:45",
+    	sessionIds: [999,999,007]
+    }
+    - {
+    	startTime: "10:45",
+    	endTime: "11:00",
+    	sessionIds: [998]
+    }
+    - {
+        startTime: "11:00",
+        endTime: "11:45",
+        sessionIds: [999,999,005]
+    }
+    - {
+        startTime: "11:45",
+        endTime: "13:00",
+        sessionIds: [002]
+    }
+    - {
+        startTime: "13:00",
+        endTime: "13:45",
+        sessionIds: [999,999,005]
+    }
+    - {
+        startTime: "14:00",
+        endTime: "14:45",
+        sessionIds: [999,999,005]
+    }
+    - {
+        startTime: "15:00",
+        endTime: "15:45",
+        sessionIds: [999,999,005]
+    }
+    - {
+        startTime: "15:45",
+        endTime: "16:00",
+        sessionIds: [998]
+    }
+    - {
+        startTime: "16:00",
+        endTime: "16:45",
+        sessionIds: [999,999,005]
+    }
+    - {
+        startTime: "17:00",
+        endTime: "17:45",
+        sessionIds: [999,999,005]
+    }
+    - {
+        startTime: "17:45",
+        endTime: "18:00",
+        sessionIds: [003]
+    }
+    - {
+        startTime: "18:00",
+        endTime: "?",
+        sessionIds: [004]
+    }
