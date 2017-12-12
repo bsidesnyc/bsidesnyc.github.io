@@ -174,7 +174,7 @@ eventButtons:
 #-----------------------------------------------
 locationBlockTitle: "Location"
 eventLocationName: "Digital Forensics and Cybersecurity Program @ John Jay College of Criminal Justice"
-eventStreetAddress: "524 W 59th Street"
+eventStreetAddress: "524 W 59th St."
 eventAddressLocality: "New York"
 eventAddressLocalityRegion: "NY"
 eventPostalCode: "10019"
