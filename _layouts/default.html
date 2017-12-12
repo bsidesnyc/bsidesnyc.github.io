@@ -102,7 +102,7 @@ layout: compress
     {% endcomment %}
 
     <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
-    {% if page.permalink == '/' or page.permalink == '/ctf/' %}
+    {% if page.permalink == '/' %}
     <script>
         if ($(window).width() > 767) {
             document.write('<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZLKTMdMVrh1zPyArjQ5tmD4BwKIrqshA"><\/script>')
