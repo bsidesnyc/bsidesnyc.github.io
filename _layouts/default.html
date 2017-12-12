@@ -105,7 +105,7 @@ layout: compress
     {% if page.permalink == '/' or page.permalink == '/ctf/' %}
     <script>
         if ($(window).width() > 767) {
-            document.write('<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZLKTMdMVrh1zPyArjQ5tmD4BwKIrqshA&callback=initMap&sensor=false"><\/script>')
+            document.write('<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZLKTMdMVrh1zPyArjQ5tmD4BwKIrqshA"><\/script>')
         }
     </script>
 
@@ -116,7 +116,7 @@ layout: compress
     {% endcomment %}
 
     {% elsif page.permalink == '/logistics/' %}
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZLKTMdMVrh1zPyArjQ5tmD4BwKIrqshA&callback=initMap&libraries=places,geometry"
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZLKTMdMVrh1zPyArjQ5tmD4BwKIrqshA&libraries=places,geometry"
   type="text/javascript"></script>
         <script type="text/javascript">
             var autoDirectionEnabled = {% if site.logisticsMapAutoDirections %} true {% else %} false {% endif %};
