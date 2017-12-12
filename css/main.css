@@ -3400,6 +3400,31 @@ nav li a:hover {
 .location-description time {
     display: inline-block
 }
+
+.location-description-address {
+    font-size: 16px;
+    /*padding: 0px 50px;*/
+    /*min-width: 100px;*/
+    /*left: 50px;*/
+    top: .5px;
+
+    -webkit-transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+    color: #717171;
+    border-radius: 1px;
+    background: #fff;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2)
+}
+
+.location-description-address ul {
+    margin-top: 5px;
+    padding: 0;
+    list-style: none
+}
+.location-description-address li {
+    margin-bottom: 5px
+}
 .canvas-map {
     position: absolute;
     top: 0;
@@ -3630,7 +3655,7 @@ nav li a:hover {
     color: #fff
 }
 .map-card {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     top: 450px;
     left: 50px;
@@ -3649,6 +3674,7 @@ nav li a:hover {
     -webkit-transform: translateY(-135px);
     transform: translateY(-135px)
 }
+
 .map-card .location-input-icon,
 .map-card .icon-geolocation,
 .map-card .icon-cross {
