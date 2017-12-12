@@ -167,6 +167,7 @@ eventButtons:
  - {permalink: "/cfp/", text: "Submit to CFP", id: "cfp"}
  - {permalink: "/sponsors/", text: "Become a sponsor", id: "sponsors"}
  - {permalink: "/registration/", text: "Get tickets", id: "tickets"}
+ - {permalink: "/volunteers/", text: "Volunteer!", id: "volunteers"}
 
 #-----------------------------------------------
 # Location Block
