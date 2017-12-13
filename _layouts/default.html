@@ -148,6 +148,7 @@ layout: compress
                 icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
             }
             var twitterFeedUrl = '{{ site.twitterFeed }}';
+
             $(document).ready(function () {
                 $(function () {
                     if ($(window).width() > 767) {
@@ -159,28 +160,60 @@ layout: compress
                         });
                     }
                 });
-                var rockstarSupporters = [
-                    {% for supporter in site.data.supporters %}
-                        {% if supporter.rockstar %}
-                        {name: "{{ supporter.name }} {{ supporter.surname }}", company: "{{ supporter.company }}", image: "{{ site.baseurl | append: '/img/supporters/' | append: supporter.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
+
+              var dynamicSpeakers = [
+                  {% for speaker in site.data.speakers %}
+                      {% if speaker.isDynamic %}
+                        {% if speaker.sharedImg == true %}
+                          {name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/' | append: speaker.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
+                        {% else %}
+                          {name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
                         {% endif %}
-                    {% endfor %}
-                ];
-                rockstarSupporters.sort(function() {return 0.5 - Math.random()});
-                if(rockstarSupporters.length > 0) {
-                    var animationDelay = 1500,
-                        count = Math.min({{ site.rockstarSupportersCount }}, rockstarSupporters.length),
-                        colWidth = 12/count;
-                    for(i=0; i<count; i++) {
-                        var clearfix = '<div class="clearfix visible-xs"></div>';
-                        if ((i)%2 != 0) {
-                            clearfix = ""
-                        }
-                        $('#rockstar-supporter-title').after('<div class="col-md-'+ colWidth +' col-xs-6 rockstar-supporter-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-supporter"><div class="flow-img img-circle rockstar-supporter-img" style="background-image: url(' + rockstarSupporters[i].image + ')"></div><div class="name">' + rockstarSupporters[i].name + '</div><div class="sub">' + rockstarSupporters[i].company + '</div></div></div>' + clearfix);
-                        animationDelay -= 500;
-                    }
+                      {% endif %}
+                  {% endfor %}
+              ];
+              dynamicSpeakers.sort(function() {return 0.5 - Math.random()});
+              if(dynamicSpeakers.length > 0) {
+                  var animationDelay = 1500,
+                      count = Math.min({{ site.dynamicSpeakersCount }}, dynamicSpeakers.length),
+                      colWidth = 12/count;
+                  for(i=0; i<count; i++) {
+                      var clearfix = '<div class="clearfix visible-xs"></div>';
+                      if ((i)%2 != 0) {
+                          clearfix = ""
+                      }
+                      $('#dynamic-speakers-title').after('<div class="col-md-'+ colWidth +' col-xs-6 dynamic-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="dynamic-speakers"><div class="flow-img img-circle dynamic-speakers-img" style="background-image: url(' + dynamicSpeakers[i].image + ')"></div><div class="name">' + dynamicSpeakers[i].name + '</div><div class="sub">' + dynamicSpeakers[i].company + '</div></div></div>' + clearfix);
+                      animationDelay -= 500;
                 }
+              }
+
+              var rockstarSupporters = [
+                  {% for supporter in site.data.supporters %}
+                      {% if supporter.isRockstar %}
+                        {% if speaker.sharedImg == true %}
+                      {name: "{{ supporter.name }} {{ supporter.surname }}", company: "{{ supporter.company }}", image: "{{ site.baseurl | append: '/img/' | append: supporter.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
+                        {% else %}
+                          {name: "{{ supporter.name }} {{ supporter.surname }}", company: "{{ supporter.company }}", image: "{{ site.baseurl | append: '/img/supporters/' | append: supporter.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
+                        {% endif %}
+                      {% endif %}
+                  {% endfor %}
+              ];
+              rockstarSupporters.sort(function() {return 0.5 - Math.random()});
+              if(rockstarSupporters.length > 0) {
+                  var animationDelay = 1500,
+                      count = Math.min({{ site.rockstarSupportersCount }}, rockstarSupporters.length),
+                      colWidth = 10/count;
+                  for(i=0; i<count; i++) {
+                      var clearfix = '<div class="clearfix visible-xs"></div>';
+                      if ((i)%2 != 0) {
+                          clearfix = ""
+                      }
+                      $('#rockstar-supporters-title').after('<div class="col-md-'+ colWidth +' col-xs-6 rockstar-supporters-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-supporter"><div class="flow-img img-circle rockstar-supporters-img" style="background-image: url(' + rockstarSupporters[i].image + ')"></div><div class="name">' + rockstarSupporters[i].name + '</div><div class="sub">' + rockstarSupporters[i].company + '</div></div></div>' + clearfix);
+                      animationDelay -= 500;
+                  }
+              }
             });
+
         {% elsif page.permalink == '/logistics/' %}
             var googleMaps = 'logistics',
                 eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates }}),

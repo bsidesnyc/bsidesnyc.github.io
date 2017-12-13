@@ -12,6 +12,7 @@
   surname: "Sandvik"
   company: "The New York Times"
   title: "Director of Information Security"
+  isDynamic: true
   bio:
   thumbnailUrl: runa_sandvik.jpg
   twitter: "runasand"
@@ -28,6 +29,7 @@
   surname: "Zeltser"
   company: "Minerva Labs"
   title: "VP of Products"
+  isDynamic: true
   sharedImg: true
   thumbnailUrl: /cfp/lenny_zeltser.jpg
   twitter: lennyzeltser
@@ -67,4 +69,5 @@
   surname: "Vixie"
   company: "Farsight Security"
   title: "Chairman and CEO"
+  isDynamic: true
   thumbnailUrl: paul_vixie.jpg

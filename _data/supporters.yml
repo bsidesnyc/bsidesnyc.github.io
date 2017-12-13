@@ -2,14 +2,14 @@
 #  name: "Lenny"
 #  surname: "Zeltser"
 #  title: "VP of Products at Minerva Labs"
-#  rockstar: true
+#  isRockstar: true
 #  thumbnailUrl: "lenny_zeltser.jpg"
 #  twitter: "lennyzeltser"
 #-
 #  name: "Jamie"
 #  surname: "Levy"
 #  title: "Volatility Project, Core Developer"
-#  rockstar: true
+#  isRockstar: true
 #  thumbnailUrl: "jamie_levy.jpg"
 #  twitter: "gleeda"
 -
@@ -28,7 +28,7 @@
   name: "Kelly"
   surname: "Lum"
   title: "Data Security Czar at Flatiron Health"
-  rockstar: true
+  isRockstar: true
   thumbnailUrl: "kelly_lum.jpg"
   twitter: "aloria"
 -
@@ -41,23 +41,30 @@
   name: "Brendan"
   surname: "Dolan-Gavitt"
   title: "Assistant Professor at NYU Tandon"
-  rockstar: true
+  isRockstar: true
   thumbnailUrl: "brendan_dolan_gavitt.jpg"
   twitter: "moyix"
 -
   name: "Ismael"
   surname: "Valenzuela"
   title: "Principal Engineer at McAfee"
-  rockstar: true
+  isRockstar: true
   thumbnailUrl: "ismael_valenzuela.jpg"
   twitter: "aboutsecurity"
 -
   name: "Leigh"
   surname: "Honeywell"
   title: "Technology Fellow at the ACLU"
-  rockstar: true
+  isRockstar: true
   thumbnailUrl: "leigh_honeywell.png"
   twitter: "hypatiadotca"
+-
+  name: "Christina"
+  surname: "Morillo"
+  title: ""
+  isRockstar: true
+  thumbnailUrl: "christina_morillo.jpg"
+  twitter: "divinetechygirl"
 -
   name: "Kelly"
   surname: "Shortridge"
@@ -70,9 +77,3 @@
   title: ""
   thumbnailUrl: "nicole_becher.jpg"
   twitter: "thedeadrobots"
--
-  name: "Christina"
-  surname: "Morillo"
-  title: ""
-  thumbnailUrl: "christina_morillo.jpg"
-  twitter: "divinetechygirl"

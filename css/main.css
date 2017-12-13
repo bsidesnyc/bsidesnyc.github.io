@@ -1481,6 +1481,12 @@ fieldset[disabled] .btn-primary.active {
     color: #337ab7;
     background-color: #fff
 }
+.btn-dark {
+    color: #000000;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 8px 20px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 8px 20px 1px rgba(0, 0, 0, 0.3)
+}
 .btn-success {
     color: #fff;
     background-color: #5cb85c;
@@ -2255,6 +2261,7 @@ button.close {
     transform: scale(0);
     pointer-events: none
 }
+
 .waves-effect.waves-light .waves-ripple {
     background: rgba(255, 255, 255, 0.4);
     background: radial-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 70%)
@@ -2265,6 +2272,7 @@ button.close {
 .waves-effect.waves-classic.waves-light .waves-ripple {
     background: rgba(255, 255, 255, 0.4)
 }
+
 .waves-notransition {
     -webkit-transition: none !important;
     transition: none !important
@@ -2735,6 +2743,14 @@ time {
     background-position: center center !important;
     background-size: cover !important
 }
+.image-section-no-img {
+    color: #000;
+    font-weight: 100;
+    background-repeat: no-repeat;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-color: #fff
+}
 .image-section.parallax {
     -webkit-box-shadow: inset 0 0 12px 3px rgba(0, 0, 0, 0.75);
     box-shadow: inset 0 0 12px 3px rgba(0, 0, 0, 0.75)
@@ -3198,7 +3214,7 @@ nav li a:hover {
     margin-bottom: 40px
 }
 .rockstar-supporters .name {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 1.1;
     margin: 10px 0 2px
 }
@@ -3207,10 +3223,28 @@ nav li a:hover {
     margin: 0 0 15px;
     color: #03a9f4
 }
-.rockstar-supporter {
+.rockstar-supporters {
     padding-bottom: 13px
 }
-.rockstar-supporter-img {
+.rockstar-supporters-img {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto
+}
+.dynamic-speakers .name {
+    font-size: 26px;
+    line-height: 1.1;
+    margin: 10px 0 2px
+}
+.dynamic-speakers .sub {
+    font-size: 18.2px;
+    margin: 0 0 15px;
+    color: #03a9f4
+}
+.dynamic-speakers {
+    padding-bottom: 13px
+}
+.dynamic-speakers-img {
     width: 140px;
     height: 140px;
     margin: 0 auto
@@ -5531,6 +5565,17 @@ nav li a:hover {
         width: 120px;
         height: 120px
     }
+    .dynamic-speakers .name {
+        font-size: 20px
+    }
+    .dynamic-speakers  .sub {
+        font-size: 16px
+    }
+    .dynamic-speaker-img {
+        width: 120px;
+        height: 120px
+    }
+
     .pricing-col {
         width: 100% !important;
         border: 1px #ddd solid
