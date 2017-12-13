@@ -3549,7 +3549,7 @@ nav li a:hover {
 .partners img {
     width: 100%;
     -webkit-transition: all 0.3s;
-    transition: all 0.3s;
+    transition: all 0.3s
     /*
     -webkit-filter: grayscale(1);
     filter: grayscale(1)
@@ -3575,7 +3575,7 @@ nav li a:hover {
 .sponsors img {
     width: 100%;
     -webkit-transition: all 0.3s;
-    transition: all 0.3s;
+    transition: all 0.3s
     /*
     -webkit-filter: grayscale(1);
     filter: grayscale(1)
