@@ -3,6 +3,7 @@
     <div class="content-wrapper">
         <div class="col-md-8 col-md-offset-2">
             <div class="default-row float-left col-md-12">
+              <p>{{ site.ticketsText }}</p> 
               <p>{{ site.ticketsFirstRoundText }}</p>
               {% for button in site.eventButtons %}
                 {% if button.id == "tickets" %}
