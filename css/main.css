@@ -3550,13 +3550,43 @@ nav li a:hover {
     width: 100%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    /*
     -webkit-filter: grayscale(1);
     filter: grayscale(1)
+    */
 }
+/*
 .partners img:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0)
 }
+*/
+.sponsors h5 {
+    margin-top: 30px
+}
+.sponsors .list-inline {
+    margin-bottom: 65px
+}
+.sponsors .list-inline li {
+    width: 16%;
+    max-width: 180px;
+    margin: 13px 7px
+}
+.sponsors img {
+    width: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    /*
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1)
+    */
+}
+/*
+.sponsors img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0)
+}
+*/
 .subscribe .email,
 .subscribe .button {
     width: 100%;
