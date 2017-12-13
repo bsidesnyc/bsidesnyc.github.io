@@ -2,7 +2,11 @@
 <section id="partners" class="partners">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h3><b>{{ site.partnersTitle }}</b></h3>
+            {% if page.permalink != '/' %}
+              <h4>{{ site.partnersTitle }}</h4>
+            {% else %}
+              <h3><b>{{ site.partnersTitle }}</b></h3>
+            {% endif %}
             {% for partner in site.data.partners %}
             {% if partnet.group != null %}
               <h5>{{ partner.group }}</h5>
