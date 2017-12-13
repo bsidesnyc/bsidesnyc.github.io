@@ -68,7 +68,6 @@ layout: compress
 
     {% if page.modal != null %}
       {% include speakers-modals.html %}
-      {% include cfp-board-modals.html %}
       {% include organizers-modals.html %}
     {% endif %}
 
@@ -102,18 +101,19 @@ layout: compress
     {% endcomment %}
 
     <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
-    {% if page.permalink == '/' %}
-    <script>
-        if ($(window).width() > 767) {
-            document.write('<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZLKTMdMVrh1zPyArjQ5tmD4BwKIrqshA"><\/script>')
-        }
-    </script>
 
-    {% comment %}
-    =======================================
-    Logistics
-    =======================================
-    {% endcomment %}
+    {% if page.permalink == '/' %}
+      <script>
+          if ($(window).width() > 767) {
+              document.write('<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZLKTMdMVrh1zPyArjQ5tmD4BwKIrqshA"><\/script>')
+          }
+      </script>
+
+      {% comment %}
+      =======================================
+      Logistics
+      =======================================
+      {% endcomment %}
 
     {% elsif page.permalink == '/logistics/' %}
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZLKTMdMVrh1zPyArjQ5tmD4BwKIrqshA&libraries=places,geometry"
@@ -122,8 +122,6 @@ layout: compress
             var autoDirectionEnabled = {% if site.logisticsMapAutoDirections %} true {% else %} false {% endif %};
         </script>
     {% endif %}
-
-
 
     {% comment %}
     =======================================
@@ -161,6 +159,12 @@ layout: compress
                     }
                 });
 
+              /*
+              =======================================
+              Speakers JS
+              =======================================
+              */
+
               var dynamicSpeakers = [
                   {% for speaker in site.data.speakers %}
                       {% if speaker.isDynamic %}
@@ -186,7 +190,11 @@ layout: compress
                       animationDelay -= 500;
                 }
               }
-
+              /*
+              =======================================
+              Supporters JS
+              =======================================
+              */
               var rockstarSupporters = [
                   {% for supporter in site.data.supporters %}
                       {% if supporter.isRockstar %}
@@ -213,13 +221,22 @@ layout: compress
                   }
               }
             });
-
+        /*
+        =======================================
+        Logistics JS
+        =======================================
+        */
         {% elsif page.permalink == '/logistics/' %}
             var googleMaps = 'logistics',
                 eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates }}),
                 centerMap = new google.maps.LatLng({{ site.logisticsMapCenterCoordinates }}),
                 mobileCenterMap = new google.maps.LatLng({{ site.logisticsMapMobileCenterCoordinates }}),
                 icon = '{{ site.baseurl }}/img/other/map-marker.svg';
+        /*
+        =======================================
+        CTF JS
+        =======================================
+        */
         {% elsif page.permalink == '/ctf/' %}
             if ($(window).width() > 767) {
                 var googleMaps = 'ctf',
@@ -234,7 +251,6 @@ layout: compress
                 mobileCenterMapCoordinates = '{{ site.ctfMapMobileCenterCoordinates | replace:' ','' }}',
                 icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
             }
-
         {% endif %}
     </script>
 
