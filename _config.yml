@@ -69,6 +69,7 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/about/", text: "About"}
  - {permalink: "/cfp/", text: "CFP"}
+ - {permalink: "/registration/", text: "Tickets"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/sponsors/", text: "Sponsors"}
