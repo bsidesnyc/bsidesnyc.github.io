@@ -51,10 +51,14 @@
                                                       {% else %}
                                                         <li itemprop="performer"><div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl }})"></div>
                                                       {% endif %}
-                                                    <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
-                                                        <span class="speaker-position">{{ speaker.company }}</span>
-                                                    </p>
-                                                    </li>
+                                                        <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
+                                                          {% if speaker.company != null %}
+                                                            <span class="speaker-position">{{ speaker.company }}</span>
+                                                          {% else %}
+                                                            <span class="speaker-position-empty"> </span>
+                                                          {% endif %}
+                                                        </p>
+                                                        </li>
                                                     {% endif %}
                                                 {% endfor %}
                                             {% endfor %}
@@ -62,15 +66,15 @@
                                     </div>
                                 </div>
                                 {% elsif slot == session.id and session.service != null %}
-                                <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height" data-slot-detail="{{ session.place }}">
-                                    <div class="color-line"></div>
-                                    <div class="slot-content">
-                                        <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
-                                        {% if session.description != null %}
-                                        <p class="service-description">{{ session.description }}</p>
-                                        {% endif %}
-                                    </div>
-                                </div>
+                                  <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height" data-slot-detail="{{ session.place }}">
+                                      <div class="color-line"></div>
+                                      <div class="slot-content">
+                                          <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
+                                          {% if session.description != null %}
+                                            <p class="service-description">{{ session.description }}</p>
+                                          {% endif %}
+                                      </div>
+                                  </div>
                                 {% endif %}
                             {% endfor %}
                         {% else %}

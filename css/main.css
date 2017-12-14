@@ -418,9 +418,12 @@ mark,
 .text-center {
     text-align: center
 }
+
 .text-justify {
-    text-align: justify
+  text-align: justify
+  /*text-justify: auto*/
 }
+
 .text-nowrap {
     white-space: nowrap
 }
@@ -4418,6 +4421,12 @@ nav li a:hover {
     line-height: 1;
     font-size: 12px;
     margin-top: -5px
+}
+.schedule .speaker-position-empty {
+    display: block;
+    line-height: 2;
+    font-size: 12px;
+    margin-top: 16px
 }
 .schedule-table {
     margin-bottom: 90px
