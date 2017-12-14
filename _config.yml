@@ -68,13 +68,13 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/about/", text: "About"}
- - {permalink: "/cfp/", text: "CFP"}
- - {permalink: "/registration/", text: "Tickets"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/sponsors/", text: "Sponsors"}
+ - {permalink: "/cfp/", text: "CFP"}
+ - {permalink: "/registration/", text: "Tickets"}
+# - {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/contact/", text: "Contact"}
 bottomNavigationLinks:
  - {permalink: "/cfp/", text: "Become a speaker"}

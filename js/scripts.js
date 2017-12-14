@@ -378,12 +378,14 @@
             }
 
             map = new google.maps.Map(document.getElementById('canvas-map'), mapOptions);
+
             var marker = new google.maps.Marker({
                 position: eventPlace,
                 animation: google.maps.Animation.DROP,
                 icon: icon,
                 map: map
             });
+
             markers.push(marker);
             var defaultMapOptions = {
                 name: 'Default Style'

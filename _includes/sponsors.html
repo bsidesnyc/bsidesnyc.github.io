@@ -1,5 +1,5 @@
 <!-- Begin Sponsors Section -->
-<section id="sponsors" class="partners">
+<section id="sponsors" class="sponsors">
     <div class="content-wrapper">
         <div class="col-lg-10 col-md-4 col-lg-offset-1">
             <h3><b>{{ site.sponsorsTitle }}</b></h3>
@@ -15,7 +15,9 @@
                 {% endfor %}
             </ul>
             {% endfor %}
-            <a href="{{ site.sponsorsUrl | prepend: site.baseurl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.sponsorsButton }}</a>
+            {% if page.permalink != '/sponsors/' %}
+              <a href="{{ site.sponsorsUrl | prepend: site.baseurl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.sponsorsButton }}</a>
+            {% endif %}
         </div>
     </div>
 </section>
