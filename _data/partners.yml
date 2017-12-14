@@ -5,3 +5,5 @@
     - {name: "WISP", description: "Women in Security and Privacy", link: "https://www.wisporg.com", imageUrl: "wisp.png"}
     - {name: "CTFd", description: "Capture the Flag", link: "https://ctfd.io", imageUrl: "ctfd.png"}
     - {name: "NYC Cyber Command", description: "New York City Cyber Command", link: "#", imageUrl: "nyc_cyber_command.jpg"}
+    - {name: "TOOOL", description: "The Open Organisation of Lockpickers", link: "https://toool.us", imageUrl: "tool.png"}
+    - {name: "A1", description: "Alpha One Labs", link: "http://www.alphaonelabs.com", imageUrl: "a1.png"}
