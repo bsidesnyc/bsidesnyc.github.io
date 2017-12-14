@@ -9,6 +9,8 @@
                         <div class="lily-head" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
                           {% if speaker.sharedImg == true %}
                             <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/' | append: speaker.thumbnailUrl }})">
+                          {% elsif speaker.thumbnailUrl == null %}
+                            <figure class="waves-effect waves-block waves-light" style="background-color: grey">
                           {% else %}
                             <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl }})">
                           {% endif %}
