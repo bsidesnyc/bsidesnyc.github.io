@@ -166,7 +166,7 @@ layout: compress
 
               var dynamicSpeakers = [
                   {% for speaker in site.data.speakers %}
-                      {% if speaker.isDynamic %}
+                      {% if speaker.isDynamic and speaker.thumbnailUrl != null %}
                         {% if speaker.sharedImg == true %}
                           {name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/' | append: speaker.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
                         {% else %}
@@ -196,7 +196,7 @@ layout: compress
               */
               var rockstarSupporters = [
                   {% for supporter in site.data.supporters %}
-                      {% if supporter.isRockstar %}
+                      {% if supporter.isRockstar and supporter.thumbnailUrl != null %}
                         {% if supporter.sharedImg == true %}
                           {name: "{{ supporter.name }} {{ supporter.surname }}", company: "{{ supporter.company }}", image: "{{ site.baseurl | append: '/img/' | append: supporter.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
                         {% else %}
