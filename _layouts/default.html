@@ -197,8 +197,8 @@ layout: compress
               var rockstarSupporters = [
                   {% for supporter in site.data.supporters %}
                       {% if supporter.isRockstar %}
-                        {% if speaker.sharedImg == true %}
-                      {name: "{{ supporter.name }} {{ supporter.surname }}", company: "{{ supporter.company }}", image: "{{ site.baseurl | append: '/img/' | append: supporter.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
+                        {% if supporter.sharedImg == true %}
+                          {name: "{{ supporter.name }} {{ supporter.surname }}", company: "{{ supporter.company }}", image: "{{ site.baseurl | append: '/img/' | append: supporter.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
                         {% else %}
                           {name: "{{ supporter.name }} {{ supporter.surname }}", company: "{{ supporter.company }}", image: "{{ site.baseurl | append: '/img/supporters/' | append: supporter.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
                         {% endif %}
@@ -209,7 +209,7 @@ layout: compress
               if(rockstarSupporters.length > 0) {
                   var animationDelay = 1500,
                       count = Math.min({{ site.rockstarSupportersCount }}, rockstarSupporters.length),
-                      colWidth = 10/count;
+                      colWidth = 12/count;
                   for(i=0; i<count; i++) {
                       var clearfix = '<div class="clearfix visible-xs"></div>';
                       if ((i)%2 != 0) {

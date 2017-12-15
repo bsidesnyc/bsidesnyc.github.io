@@ -3216,6 +3216,25 @@ nav li a:hover {
 .latest-news .post {
     margin-bottom: 40px
 }
+.supporters-details .name {
+    font-size: 18px;
+    line-height: 1.1;
+    margin: 10px 0 2px
+}
+.supporters-details .title {
+    font-size: 14px;
+    /*margin: 0 0 15px;*/
+    /*color: #03a9f4*/
+}
+.supporters-details .company {
+    font-size: 12px;
+    margin-bottom: 50px
+}
+.supporters-details-img {
+    width: 200px;
+    height: 200px
+    /*margin-top: 30px*/
+}
 .rockstar-supporters .name {
     font-size: 20px;
     line-height: 1.1;
@@ -3248,8 +3267,12 @@ nav li a:hover {
     padding-bottom: 13px
 }
 .dynamic-speakers-img {
+    /*
     width: 140px;
-    height: 140px;
+    height: 40px;
+    */
+    width: 175px;
+    height: 175px;
     margin: 0 auto
 }
 .pricing-col {

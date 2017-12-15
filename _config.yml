@@ -226,7 +226,7 @@ policiesTitle: "Policies"
 #-----------------------------------------------
 showSessions: true
 dynamicSpeakersImage: "rockstar-supporters.jpg"
-dynamicSpeakersCount: 5
+dynamicSpeakersCount: 6
 dynamicSpeakersTitle: "Dynamic and Engaging Speakers"
 dynamicSpeakersButtonText: "See all speakers"
 
@@ -269,7 +269,7 @@ subscribeInfo: "Registration will be open around December. Number of tickets are
 #-----------------------------------------------
 supportersTitle: "Supporters"
 rockstarSupportersImage: "rockstar-supporters.jpg"
-rockstarSupportersCount: 5
+rockstarSupportersCount: 6
 rockstarSupportersTitle: "Rockstar Supporters"
 rockstarSupportersButtonText: "See all supporters"
 
