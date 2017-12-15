@@ -17,9 +17,9 @@
 								{% for session_speaker in session.speakers %}
 									{% if session_speaker == speaker.id %}
 										<h4>{{ session.title }}</h4>
-										<p class="theme-description">{{ session.description }}</p>
-										{% if session.slides %}
-										<a class="theme-presentation" href="{{ session.slides }}" title="Presentation" target="_blank">Slides</a>
+										<p class="text-justify theme-description">{{ session.description }}</p>
+										{% if session.slides != null %}
+											<a class="theme-presentation" href="{{ session.slides }}" title="Presentation" target="_blank">Slides</a>
 										{% endif %}
 									{% endif %}
 								{% endfor %}
