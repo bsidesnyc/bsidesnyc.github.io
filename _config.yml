@@ -26,6 +26,7 @@ email: "bsides@bsidesnyc.org"
 twitterAccount: "@bsidesnyc"
 description: "BSides NYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community, and we truly strive to keep information free."
 url: "https://bsidesnyc.github.io" #bsidesnyc.org
+timezone: "America/New_York"
 conYear: "2018"
 previousSponsorCount: "13"
 previousAttendeeCount: "400"
@@ -73,6 +74,7 @@ navigationLinks:
  - {permalink: "/sponsors/", text: "Sponsors"}
  - {permalink: "/cfp/", text: "CFP"}
  - {permalink: "/registration/", text: "Tickets"}
+ - {permalink: "/volunteers/", text: "Volunteer"}
 # - {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/contact/", text: "Contact"}
@@ -275,7 +277,10 @@ rockstarSupportersButtonText: "See all supporters"
 # Registration | Tickets
 #-----------------------------------------------
 #registrationTitle:
-ticketsText: "Unable to expense other, costly conferences? No worries, at BSidesNYC we strive to make the cost of attendance free."
+ticketsOpenDate: "December 13, 2017 10:00:00"
+ticketsText: "Unable to expense other, costly conferences?
+<br />
+No worries, at BSidesNYC we strive to make the cost of attendance free."
 ticketsFirstRoundText: "The first round for registration will open on Wednesday, December 13th at 10am ET!! We can’t wait!"
 
 #-----------------------------------------------
