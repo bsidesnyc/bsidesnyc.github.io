@@ -11,6 +11,8 @@
 1. `jekyll serve -w`
 1. open web browser to http://127.0.0.1:4000 / http://localhost:4000
 
+_NOTE_: Changes made to `config.yml` requires jekyll to be restarted (`jekyll serve -w`) to be reflected locally
+
 # Making Changes
 
 - most info is contained in `_config.yml` and YAML files in `_data`
