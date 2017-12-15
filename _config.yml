@@ -261,7 +261,7 @@ statisticBlock:
 #-----------------------------------------------
 subscribeImage: #"subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
-subscribeAction: "#" # CHANGE (e.g. - https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc)
+subscribeAction: "https://bsidesnyc.us11.list-manage.com/subscribe/post?u=0538b2c81e2e35a4635056f7f&amp;id=731c810915"
 subscribeInfo: "Registration will be open around December. Number of tickets are limited. Stay tuned!"
 
 #-----------------------------------------------
