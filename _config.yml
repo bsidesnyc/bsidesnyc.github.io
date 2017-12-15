@@ -133,7 +133,7 @@ contactTitle: "Need to get in touch?"
 contactTextTwitter: "Follow us on Twitter"
 contactTextEmail: "or email us at"
 contactMailingListText: "Just looking to stay in the loop? Use the form below to get announcements on all things BSidesNYC."
-contactVolunteerMailingListText: "Looking to sign up as a volunteer? Head over to our <a href=\"/volunteers/\">volunteers page</a> and sign-up."
+contactVolunteersMailingListText: "Looking to sign up as a volunteer? Head over to our <a href=\"/volunteers/\">volunteers page</a> and sign-up."
 
 #-----------------------------------------------
 # CTF
@@ -312,5 +312,8 @@ venueRooms:
 #-----------------------------------------------
 # Volunteers
 #-----------------------------------------------
-volunteerTitle: "Want to be involved?"
-volunteerText: "We are looking for individuals to help in a variety of areas – are you interested in lending a hand? If so, use the form below to sign-up and we'll reach out to you when the conference nears."
+volunteersTitle: "Want to be involved?"
+volunteersText: "We are looking for individuals to help in a variety of areas – are you interested in lending a hand? If so, use the form below to sign-up and we'll reach out to you when the conference nears."
+volunteersSubscribeTitle: "Join the Team"
+volunteersSubscribeAction: "https://bsidesnyc.us11.list-manage.com/subscribe/post?u=0538b2c81e2e35a4635056f7f&amp;id=d6c9dd00a7"
+
