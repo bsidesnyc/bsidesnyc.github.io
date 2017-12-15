@@ -282,6 +282,9 @@ ticketsText: "Unable to expense other, costly conferences?
 <br />
 No worries, at BSidesNYC we strive to make the cost of attendance free."
 ticketsFirstRoundText: "The first round for registration will open on Wednesday, December 13th at 10am ET!! We can’t wait!"
+ticketsButtons:
+ - {link: "https://bsidesnyc.org/registration/", text: "Get Tickets!", id: "tickets_round_one"}
+ - {link: "https://bsidesnyc.org/registration/", text: "Get Tickets!", id: "tickets_round_two"}
 
 #-----------------------------------------------
 # Tweets Feed

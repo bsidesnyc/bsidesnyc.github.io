@@ -14,13 +14,13 @@
     {% if ticket_round_two_open_time != null and ticket_round_two_open_time > current_time %}
         {% for button in site.ticketsButtons %}
           {% if button.id == "tickets_round_one" %}
-            <a href="{{% if button.link != null %}} {{ button.link }} {% else %} {{ "#" }}{{% endif %}}" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">{{ button.text }}</a>
+            <a href="{% if button.link != null %} {{ button.link }} {% else %} {{ site.baseurl }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">{{ button.text }}</a>
           {% endif %}
         {% endfor %}
     {% else %}
         {% for button in site.ticketsButtons %}
           {% if button.id == "tickets_round_two" %}
-            <a href="{% if button.link != null %} {{ button.link }} {% else %} {{ "#" }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %} target="_blank" {% endif %}>{{ button.text }}2</a>
+            <a href="{% if button.link != null %} {{ button.link }} {% else %} {{ site.baseurl }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %} target="_blank" {% endif %}>{{ button.text }}</a>
           {% endif %}
         {% endfor %}
     {% endif %}
