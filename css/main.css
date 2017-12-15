@@ -3607,12 +3607,6 @@ nav li a:hover {
     filter: grayscale(1)
     */
 }
-/*
-.sponsors img:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0)
-}
-*/
 .subscribe .email,
 .subscribe .button {
     width: 100%;
