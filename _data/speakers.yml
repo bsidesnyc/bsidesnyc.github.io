@@ -68,7 +68,7 @@
   name: Paul
   surname: Vixie
   company: Farsight Security
-  title: Chairman and CEO"
+  title: Chairman and CEO
   bio:
   isDynamic: true
   thumbnailUrl: paul_vixie.jpg
