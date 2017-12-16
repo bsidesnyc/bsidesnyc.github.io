@@ -90,7 +90,7 @@ rightNavigationButtons:
 #-----------------------------------------------
 # About
 #-----------------------------------------------
-aboutTitle: "About BSidesNYC"
+aboutTitle: "What is BSidesNYC?"
 aboutBlock:
  - {title: "Conference", image: "bsides_nyc_logo.jpg", text: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free." }
  - {title: "Villages", image: "tool.png", text: "Rather pick some locks or get hands on with some hardware hacking? We got ya covered." }
