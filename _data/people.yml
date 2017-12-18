@@ -12,6 +12,17 @@
   supporter: false
 -
   id: 001
+  name: Quiessence
+  surname: Phillips
+  company: The City of New York
+  title: Deputy CISO
+  thumbnailUrl: quiessence_phillips.png
+  trackOpening: true
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 002
   name: Runa
   surname: Sandvik
   company: The New York Times
@@ -20,17 +31,6 @@
   bio:
   thumbnailUrl: runa_sandvik.jpg
   twitter: runasand
-  trackOpening: true
-  trackEntrepreneur: false
-  trackGeneral: false
-  supporter: false
--
-  id: 002
-  name: Quiessence
-  surname: Phillips
-  company: The City of New York
-  title: Deputy CISO
-  thumbnailUrl: quiessence_phillips.png
   trackOpening: true
   trackEntrepreneur: false
   trackGeneral: false
