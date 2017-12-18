@@ -292,10 +292,9 @@ ticketsButtons:
 #-----------------------------------------------
 # Tweets Feed
 #-----------------------------------------------
-tweetsFeedImage: "twitter-feed.jpg"
+#tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "BSidesNYC"
-twitterFeed: "https://twitrss.me/bsidesnyc/?user=bsidesnyc"
 
 #-----------------------------------------------
 # Venue
