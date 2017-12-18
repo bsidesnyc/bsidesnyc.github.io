@@ -39,7 +39,7 @@
 													<span class="position">{{ speaker.company }}</span>
 												{% endif %}
 											</p>
-											<p class="about text-justify">{{ speaker.bio }}
+											<p class="about text-justify">
 												{% if speaker.twitter != null %}
 														<a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">
 																<svg class="icon icon-twitter" viewBox="0 0 30 32">
@@ -48,16 +48,15 @@
 														</a>
 												{% endif %}
 											</p>
+											{% if speaker.bio != null %}
+												<p class="about text-justify">{{ speaker.bio }}</p>
+											{% endif %}
 										</div>
 									</div>
 									{% endif %}
 								{% endfor %}
 							{% endfor %}
 						</div>
-
-
-
-
 						<div class="people-details">
 							{% for partner in site.data.partners %}
 								{% for element in partner.elements %}
@@ -78,10 +77,6 @@
 								{% endfor %}
 							{% endfor %}
 						</div>
-
-
-
-
 					</div>
 				</div>
 			</div>
