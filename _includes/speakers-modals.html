@@ -37,7 +37,15 @@
 								</div>
 								<div class="col-md-10 col-sm-10 details">
 									<p class="name">{{ speaker.name }} {{ speaker.surname }}
-										<span class="position">{{ speaker.title }}, <i>{{ speaker.company }}</i></span>
+										{% if speaker.title != null and speaker.company != null %}
+											<span class="position">{{ speaker.title }}, <i>{{ speaker.company }}</i></span>
+										{% elsif speaker.title != null %}
+											<span class="position">{{ speaker.title }}</span>
+										{% else %}
+											<span class="position">{{ speaker.company }}</span>
+										{% endif %}
+									</p>
+									<p class="about text-justify">{{ speaker.bio }}
 										{% if speaker.twitter != null %}
 												<a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">
 														<svg class="icon icon-twitter" viewBox="0 0 30 32">

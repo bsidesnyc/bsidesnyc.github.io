@@ -78,8 +78,8 @@ navigationLinks:
 # - {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/contact/", text: "Contact"}
-bottomNavigationLinks:
- - {permalink: "/cfp/", text: "Become a speaker"}
+#bottomNavigationLinks:
+# - {permalink: "/cfp/", text: "Become a speaker"}
 rightNavigationButtons:
  - {permalink: "/volunteers/", text: "Volunteer!"}
 
@@ -314,12 +314,13 @@ subscribeInfo: "Registration will be open around December. Number of tickets are
 #-----------------------------------------------
 # Registration | Tickets
 #-----------------------------------------------
-#registrationTitle:
+#flip this to make a quick change whether we have tickets open or closed
+ticketsOpen: false
 ticketsOpenDate: "December 13, 2017 10:00:00"
 ticketsText: "Unable to expense other, costly conferences?
 <br />
 No worries, at BSidesNYC we strive to make the cost of attendance free."
-ticketsFirstRoundText: "The first round for registration will open on Wednesday, December 13th at 10am ET!! We can’t wait!"
+ticketsUpdateText: "Our first round of tickets sold out! Stay tuned for updates on additional opportunities to grab one."
 ticketsButtons:
  - {link: "https://bsidesnyc.org/registration/", text: "Get Tickets!", id: "tickets_round_one"}
  - {link: "https://bsidesnyc.org/registration/", text: "Get Tickets!", id: "tickets_round_two"}
@@ -352,4 +353,3 @@ volunteersTitle: "Want to be involved?"
 volunteersText: "We are looking for individuals to help in a variety of areas – are you interested in lending a hand? If so, use the form below to sign-up and we'll reach out to you when the conference nears."
 volunteersSubscribeTitle: "Join the Team"
 volunteersSubscribeAction: "https://bsidesnyc.us11.list-manage.com/subscribe/post?u=0538b2c81e2e35a4635056f7f&amp;id=d6c9dd00a7"
-

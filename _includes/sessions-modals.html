@@ -14,7 +14,7 @@
 						<h4>{{ session.title }}</h4>
 						<p class="theme-description">{{ session.description }}</p>
 						{% if session.presentation %}
-						<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
+							<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
 						{% endif %}
 						<hr>
 						<div class="people-details">
@@ -31,7 +31,13 @@
 										</div>
 										<div class="col-md-10 col-sm-10 details">
 											<p class="name">{{ speaker.name }} {{ speaker.surname }}
-												<span class="position">{{ speaker.title }}, <i>{{ speaker.company }}</i></span>
+												{% if speaker.title != null and speaker.company != null %}
+													<span class="position">{{ speaker.title }}, <i>{{ speaker.company }}</i></span>
+												{% elsif speaker.title != null %}
+													<span class="position">{{ speaker.title }}</span>
+												{% else %}
+													<span class="position">{{ speaker.company }}</span>
+												{% endif %}
 											</p>
 											<p class="about text-justify">{{ speaker.bio }}
 												{% if speaker.twitter != null %}
@@ -48,6 +54,34 @@
 								{% endfor %}
 							{% endfor %}
 						</div>
+
+
+
+
+						<div class="people-details">
+							{% for partner in site.data.partners %}
+								{% for element in partner.elements %}
+									{% for session_partner in session.speakers %}
+										{% if session_partner.partnerName == element.name %}
+											<div class="row">
+												<div class="col-md-2 col-sm-2">
+														<div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/partners/' | append: element.imageUrl }})"></div>
+												</div>
+												<div class="col-md-10 col-sm-10 details">
+													<p class="name">{{ element.name }}</p>
+													<p class="about text-justify">{{ session_partner.description }}
+													</p>
+												</div>
+											</div>
+										{% endif %}
+									{% endfor %}
+								{% endfor %}
+							{% endfor %}
+						</div>
+
+
+
+
 					</div>
 				</div>
 			</div>
