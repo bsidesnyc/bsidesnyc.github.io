@@ -9,23 +9,22 @@
             <h1><b>{{ site.eventDate }}</b></h1>
             <h5><a href="http://www.johnjay.cuny.edu/about-d4cs" target="_blank">{{ site.eventHost }}</a></h5>
           </br>
-            {% for button in site.eventButtons %}
-              {% assign cfp_close_time = site.cfpCloseDate | date: "%s" %}
-              {% assign current_time = 'now' | date: "%s "%}
+          {% for button in site.eventButtons %}
+            {% assign cfp_close_time = site.cfpCloseDate | date: "%s" %}
+            {% assign current_time = 'now' | date: "%s "%}
 
-              {% if current_time > cfp_close_time %}
-                {% if button.id == "volunteers" %}
-                  <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
-                {% endif %}
-              {% elsif button.id == "cfp" %}
-                <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
-                {% endif %}
-
-              {% if button.id != "cfp" and button.id != "volunteers"%}
+            {% if current_time > cfp_close_time %}
+              {% if button.id == "volunteers" %}
                 <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
               {% endif %}
-            {% endfor %}
-        </div>
+            {% elsif button.id == "cfp" %}
+              <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
+              {% endif %}
+            {% if button.id != "cfp" and button.id != "volunteers"%}
+              <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
+            {% endif %}
+          {% endfor %}
+      </div>
     </div>
     <a href="#about" class="explore">
         <svg class="icon icon-arrow-down" viewBox="0 0 32 32">
