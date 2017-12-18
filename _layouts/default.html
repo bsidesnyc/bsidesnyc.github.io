@@ -179,7 +179,7 @@ layout: compress
               if(dynamicSpeakers.length > 0) {
                   var animationDelay = 1500,
                       count = Math.min({{ site.dynamicSpeakersCount }}, dynamicSpeakers.length),
-                      colWidth = 12/count;
+                      colWidth = (Math.min({{ site.dynamicSpeakersCount }}, dynamicSpeakers.length) * 2)/count;
                   for(i=0; i<count; i++) {
                       var clearfix = '<div class="clearfix visible-xs"></div>';
                       if ((i)%2 != 0) {
@@ -209,7 +209,7 @@ layout: compress
               if(rockstarSupporters.length > 0) {
                   var animationDelay = 1500,
                       count = Math.min({{ site.rockstarSupportersCount }}, rockstarSupporters.length),
-                      colWidth = 12/count;
+                      colWidth = (count *2)/count;
                   for(i=0; i<count; i++) {
                       var clearfix = '<div class="clearfix visible-xs"></div>';
                       if ((i)%2 != 0) {

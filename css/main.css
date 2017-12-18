@@ -3100,8 +3100,10 @@ nav li a:hover {
     font-weight: 100;
     margin-bottom: 15px
 }
+
 .top-section-hero .jumbotron .btn {
-    margin: 0 3px
+    /*margin: 0 3px*/
+    margin: 3px
 }
 .typeout-fallback {
     display: none
@@ -3254,7 +3256,7 @@ nav li a:hover {
     margin: 0 auto
 }
 .dynamic-speakers .name {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 1.1;
     margin: 10px 0 2px
 }
@@ -3267,12 +3269,8 @@ nav li a:hover {
     padding-bottom: 13px
 }
 .dynamic-speakers-img {
-    /*
     width: 140px;
-    height: 40px;
-    */
-    width: 175px;
-    height: 175px;
+    height: 140px;
     margin: 0 auto
 }
 .pricing-col {
