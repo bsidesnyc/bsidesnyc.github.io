@@ -284,7 +284,6 @@ ticketsOpenDate: "December 13, 2017 10:00:00"
 ticketsText: "Unable to expense other, costly conferences?
 <br />
 No worries, at BSidesNYC we strive to make the cost of attendance free."
-ticketsFirstRoundText: "The first round for registration will open on Wednesday, December 13th at 10am ET!! We can’t wait!"
 ticketsUpdateText: "Our first round of tickets sold out! Stay tuned for updates on additional opportunities to grab one."
 ticketsButtons:
  - {link: "https://bsidesnyc.org/registration/", text: "Get Tickets!", id: "tickets_round_one"}
