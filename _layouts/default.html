@@ -199,7 +199,6 @@ layout: compress
               function getCard(person, width, delay, addClass) {
                 var card = document.createElement('div');
 
-                /* Fixes a bug when width is float */
                 card.className = 'col-md-' + width + ' animated hiding';
                 card.setAttribute('data-animation', 'fadeInUp');
                 card.setAttribute('data-delay', delay);
@@ -244,7 +243,8 @@ layout: compress
                     var card_div = document.getElementById(divName);
                     var animationDelay = 0;
                     var count = Math.min(configCount, people.length);
-                    var colWidth = 12/configCountPerRow;
+                    /* Fixes a bug when width is float */
+                    var colWidth = Math.floor(12/configCountPerRow);
 
                     var clearfix = document.createElement('div');
                     clearfix.className = 'clearfix visible-xs';
