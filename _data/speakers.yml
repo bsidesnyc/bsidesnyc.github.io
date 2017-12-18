@@ -81,6 +81,7 @@
   company: Cylance
   title: Technical director of red team services
   bio: "Robert Portvliet is technical director of red team services at Cylance with over 8 years’ experience in various disciplines of penetration testing. His focus is on embedded systems and wireless penetration testing and reverse engineering. Prior to joining Cylance, he was the network security service line lead for Foundstone and taught the ‘Ultimate Hacking: Wireless’ class at Blackhat 2011-2013"
+  isDynamic: true
   thumbnailUrl: robert_portvliet.jpg
   twitter: rportvliet
 -
@@ -161,8 +162,10 @@
   company: MailChimp
   title: Senior Security Operations Engineer
   bio: "Kendra has over five years of experience in several areas of Information Security including user administration, security operations and compliance. She focuses primarily on Incident Response and user education. Kendra holds a Bachelor’s degree in Digital Forensics and the CISSP certification.
-
+ <br />
+ <br />
 Kendra speaks regularly at Security related events and is an advocate for practicing proper security hygiene. In her free time she enjoys drinking wine and memorizing movie lines."
+  isDynamic: true
   thumbnailUrl: kendra_cooley.jpg
   twitter: 4n6Kendra
 -
