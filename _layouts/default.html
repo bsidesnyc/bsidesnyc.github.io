@@ -157,43 +157,146 @@ layout: compress
                         });
                     }
                 });
-
               /*
               =======================================
-              Speakers JS
+              Speakers Opening JS
               =======================================
+              Moving this whole section outside of jQuery, which will speed up the load time++
               */
 
-              var dynamicSpeakers = [
-                  {% for speaker in site.data.speakers %}
-                      {% if speaker.isDynamic and speaker.thumbnailUrl != null %}
-                        {% if speaker.sharedImg == true %}
-                          {name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/' | append: speaker.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
+              /* 
+                 This fixes a bug in the original code where the
+                 end of loop check gets thrown off when the filter
+                 is applied ( if speaker.isDynamic etc... )
+              */
+              var allPeople = [
+                  {% for person in site.data.people %}
+                      {
+                          name: "{{ person.name }} {{ person.surname }}", 
+                        company: "{{ person.company }}",
+                        trackOpening: {{ person.trackOpening }},
+                        trackEntrepreneur: {{ person.trackEntrepreneur }},
+                        trackGeneral: {{ person.trackGeneral }},
+                        supporter : {{ person.supporter }},
+                        {% if person.thumbnailUrl != null %}
+
+                            {% if person.sharedImg == true %}
+                                image: "{{ site.baseurl | append: '/img/' | append: person.thumbnailUrl }}"
+                            {% else %}
+                                image: "{{ site.baseurl | append: '/img/speakers/' | append: person.thumbnailUrl }}"
+                            {% endif %}
                         {% else %}
-                          {name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
+                            image: null
                         {% endif %}
-                      {% endif %}
+                      }{% if forloop.index != forloop.length %},{% endif %}
                   {% endfor %}
               ];
-              dynamicSpeakers.sort(function() {return 0.5 - Math.random()});
-              if(dynamicSpeakers.length > 0) {
-                  var animationDelay = 1500,
-                      count = Math.min({{ site.dynamicSpeakersCount }}, dynamicSpeakers.length),
-                      colWidth = (Math.min({{ site.dynamicSpeakersCount }}, dynamicSpeakers.length) * 2)/count;
-                  for(i=0; i<count; i++) {
-                      var clearfix = '<div class="clearfix visible-xs"></div>';
-                      if ((i)%2 != 0) {
-                          clearfix = ""
-                      }
-                      $('#dynamic-speakers-title').after('<div class="col-md-'+ colWidth +' col-xs-6 dynamic-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="dynamic-speakers"><div class="flow-img img-circle dynamic-speakers-img" style="background-image: url(' + dynamicSpeakers[i].image + ')"></div><div class="name">' + dynamicSpeakers[i].name + '</div><div class="sub">' + dynamicSpeakers[i].company + '</div></div></div>' + clearfix);
-                      animationDelay -= 500;
-                }
-              }
-              /*
-              =======================================
-              Supporters JS
-              =======================================
+            
+              /* 
+                 This is standardizes the Cards shown for speakers,
+                 supporters, etc..
               */
+              function getCard(person, width, delay, addClass) {
+                var card = document.createElement('div');
+
+                card.className = 'col-md-' + width + ' animated hiding';
+                card.setAttribute('data-animation', 'fadeInUp');
+                card.setAttribute('data-delay', delay);
+
+                var headshot = document.createElement('div');
+                headshot.className = 'flow-img img-circle ' + addClass;
+                headshot.setAttribute('style', 'background-image: url(' + person.image + ')');
+
+                card.append(headshot);
+
+                var name = document.createElement('div');
+                name.className = 'name';
+                name.innerText = person.name;
+
+                card.append(name);
+
+                var company = document.createElement('div');
+                company.className = 'sub';
+                company.innerText = person.company;
+
+                card.append(company);
+
+                return card;
+              }
+
+              function buildCardSection(filter, divName, headShotClass, sort, configCount, configCountPerRow) {
+                  /* Build up the people applicable to this card section */
+                  var people = [];
+                  for ( var s=0; s<allPeople.length; s++ ) {
+                      if ( allPeople[s].image != null ) {
+                          if ( allPeople[s][filter] ) {
+                              people.push(allPeople[s]);
+                          }
+                      }
+                  }
+
+                if ( sort ) {
+                    people.sort(function() {return 0.5 - Math.random()}); 
+                }
+            
+                if ( people.length > 0 ) {
+                    var card_div = document.getElementById(divName);
+                    var animationDelay = 0;
+                    var count = Math.min(configCount, people.length);
+                    /* Fixes a bug when width is float */
+                    var colWidth = Math.floor(12/configCountPerRow);
+
+                    var clearfix = document.createElement('div');
+                    clearfix.className = 'clearfix visible-xs';
+                    
+                    for(var i=0; i<count; i++) {
+                      var card = getCard(people[i], colWidth, 
+                              animationDelay, headShotClass);
+
+                      card_div.append(card);
+
+                      if ( i % 2 != 0 ) {
+                          card_div.append(clearfix);
+                      }
+                      animationDelay += 400;
+                    }
+                }
+            }
+
+           /* 
+             For the Speakers Opening Section
+           */  
+            buildCardSection('trackOpening', 'speakers-opening-list', 
+                    'speakers-opening-img', {{ site.speakersOpeningSort }}, 
+                    {{ site.speakersOpeningCount }}, 
+                    {{ site.speakersOpeningCountPerLine }});
+
+           /* 
+             For the Speakers Entrepreneur Section
+           */  
+            buildCardSection('trackEntrepreneur', 'speakers-entrepreneur-list', 
+                    'speakers-entrepreneur-img', {{ site.speakersEntrepreneurSort }}, 
+                    {{ site.speakersEntrepreneurCount }}, 
+                    {{ site.speakersEntrepreneurCountPerLine }});
+
+           /* 
+             For the Speakers General Section
+           */  
+            buildCardSection('trackGeneral', 'speakers-general-list', 
+                    'speakers-general-img', {{ site.speakersGeneralSort }}, 
+                    {{ site.speakersGeneralCount }}, 
+                    {{ site.speakersGeneralCountPerLine }});
+
+           /* 
+             For the Supporters Section
+           */  
+            buildCardSection('supporter', 'supporters-list', 
+                    'supporters-img', {{ site.supportersSort }}, 
+                    {{ site.supportersCount }}, 
+                    {{ site.supportersCountPerLine }});
+
+
+            /*
               var rockstarSupporters = [
                   {% for supporter in site.data.supporters %}
                       {% if supporter.isRockstar and supporter.thumbnailUrl != null %}
@@ -219,6 +322,7 @@ layout: compress
                       animationDelay -= 500;
                   }
               }
+            */
             });
         /*
         =======================================

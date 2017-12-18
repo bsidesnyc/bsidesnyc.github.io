@@ -9,8 +9,20 @@
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
+  supporter: false
 -
   id: 001
+  name: Quiessence
+  surname: Phillips
+  company: The City of New York
+  title: Deputy CISO
+  thumbnailUrl: quiessence_phillips.png
+  trackOpening: true
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 002
   name: Runa
   surname: Sandvik
   company: The New York Times
@@ -22,18 +34,42 @@
   trackOpening: true
   trackEntrepreneur: false
   trackGeneral: false
--
-  id: 002
-  name: Quiessence
-  surname: Phillips
-  company: The City of New York
-  title: Deputy CISO
-  thumbnailUrl: quiessence_phillips.png
-  trackOpening: true
-  trackEntrepreneur: false
-  trackGeneral: false
+  supporter: false
 -
   id: 003
+  name: Galina
+  surname: Antova
+  company: Claroty
+  title: Co-Founder
+  thumbnailUrl: galina_antova.png
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
+-
+  id: 004
+  name: Roselle
+  surname: Safran
+  company: Rosint Labs & EIR at Antecedent Ventures
+  title: President
+  thumbnailUrl: roselle_safran.jpg
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
+-
+  id: 005
+  name: Loren
+  surname: Mahler
+  company: Dealy Mahler Strategies
+  title: Founder
+  thumbnailUrl: loren_mahler.jpg
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
+-
+  id: 006
   name: Lenny
   surname: Zeltser
   company: Minerva Labs
@@ -46,36 +82,7 @@
   trackOpening: false
   trackEntrepreneur: true
   trackGeneral: true
--
-  id: 004
-  name: Galina
-  surname: Antova
-  company: Claroty
-  title: Co-Founder
-  thumbnailUrl: galina_antova.png
-  trackOpening: false
-  trackEntrepreneur: true
-  trackGeneral: false
--
-  id: 005
-  name: Roselle
-  surname: Safran
-  company: Rosint Labs & EIR at Antecedent Ventures
-  title: President
-  thumbnailUrl: roselle_safran.jpg
-  trackOpening: false
-  trackEntrepreneur: true
-  trackGeneral: false
--
-  id: 006
-  name: Loren
-  surname: Mahler
-  company: Dealy Mahler Strategies
-  title: Founder
-  thumbnailUrl: loren_mahler.jpg
-  trackOpening: false
-  trackEntrepreneur: true
-  trackGeneral: false
+  supporter: false
 -
   id: 007
   name: Kelly
@@ -88,6 +95,7 @@
   trackOpening: false
   trackEntrepreneur: true
   trackGeneral: false
+  supporter: false 
 -
   id: 008
   name: Paul
@@ -101,6 +109,7 @@
   trackOpening: false
   trackEntrepreneur: true
   trackGeneral: true
+  supporter: false
 -
   id: 009
   name: Robert
@@ -114,10 +123,11 @@
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
+  supporter: false
 -
   id: 010
   name: Paul
-  surname: Jaramillo
+  surname: D'Jaramillo
   company: CrowdStrike
   title:
   bio:
@@ -126,6 +136,7 @@
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
+  supporter: false
 -
   id: 011
   name: Dmitry
@@ -139,6 +150,7 @@
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
+  supporter: false
 -
   id: 012
   name: Brandon
@@ -151,6 +163,7 @@
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
+  supporter: false
 -
   id: 013
   name: Andrew
@@ -163,6 +176,7 @@
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
+  supporter: false
 -
   id: 014
   name: Julian
@@ -174,6 +188,7 @@
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
+  supporter: false
 -
   id: 015
   name: Justin
@@ -185,6 +200,7 @@
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
+  supporter: false
 -
   id: 016
   name: David
@@ -197,6 +213,7 @@
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
+  supporter: false
 -
   id: 017
   name: Mauricio
@@ -209,6 +226,7 @@
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
+  supporter: false
 -
   id: 018
   name: Kendra
@@ -225,6 +243,7 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
+  supporter: false
 -
   id: 021
   name: Katie
@@ -237,6 +256,7 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
+  supporter: false
 -
   id: 022
   name: Stuart
@@ -249,6 +269,7 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
+  supporter: false
 -
   id: 023
   name: Richard
@@ -261,6 +282,7 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
+  supporter: false
 -
   id: 024
   name: Santiago
@@ -268,12 +290,11 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   company: Kaspersky Lab Latin America
   title: Security Analyst | Global Research and Analysis Team (GReAT)
   bio: "Santiago Pontiroli joined Kaspersky Lab as a Security Researcher in October 2013. His principal responsibilities include the analysis and investigation of security threats in the SOLA region (South of Latin America), web application security, the development of automatization tools stemming from threat intelligence studies and the reverse engineering of programs with malicious code."
-  isDynamic: true
   thumbnailUrl: santiago_pontiroli.jpg
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
-  twitter: spontiroli
+  supporter: false
 -
   id: 025
   name: Roel
@@ -286,3 +307,141 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
+  supporter: false
+-
+  id: 026
+  name: "Jamie"
+  surname: "Levy"
+  title: "Senior researcher, developer & board member"
+  company: "The Volatility Foundation"
+  isRockstar: true
+  sharedImg: true
+  thumbnailUrl: /cfp/jamie_levy.jpg
+  twitter: "gleeda"
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: true 
+-
+  id: 027
+  name: "Veronica"
+  surname: "Valeros"
+  title: "Malware traffic researcher"
+  company: "Cognitive Threat Analytics, Cisco"
+  isRockstar: true
+  sharedImg: true
+  thumbnailUrl: /supporters/veronica_valeros.jpg
+  twitter: "verovaleros"
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: true
+-
+  id: 028
+  name: "Sophia"
+  surname: "d’Antoine"
+  title: "Senior Security Researcher"
+  company: "Trail of Bits"
+  sharedImg: true
+  thumbnailUrl: /supporters/sophia_d_antoine.jpg
+  twitter: "Calaquendi44"
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: true
+-
+  id: 029
+  name: "Kelly"
+  surname: "Lum"
+  title: "Data Security Czar"
+  company: "Flatiron Health"
+  isRockstar: true
+  sharedImg: true
+  thumbnailUrl: /supporters/kelly_lum.jpg
+  twitter: "aloria"
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: true
+-
+  id: 030
+  name: "Gadi"
+  surname: "Evron"
+  title: "Founder and CEO"
+  company: "Cymmetria"
+  sharedImg: true
+  thumbnailUrl: /supporters/gadi_evron.jpg
+  twitter: "gadievron"
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: true
+-
+  id: 031
+  name: "Brendan"
+  surname: "Dolan-Gavitt"
+  title: "Assistant Professor"
+  company: "NYU Tandon"
+  isRockstar: true
+  sharedImg: true
+  thumbnailUrl: /supporters/brendan_dolan_gavitt.jpg
+  twitter: "moyix"
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: true
+-
+  id: 032
+  name: "Ismael"
+  surname: "Valenzuela"
+  title: "Principal Engineer"
+  company: "McAfee"
+  isRockstar: true
+  sharedImg: true
+  thumbnailUrl: /supporters/ismael_valenzuela.jpg
+  twitter: "aboutsecurity"
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: true
+-
+  id: 033
+  name: "Leigh"
+  surname: "Honeywell"
+  title: "Technology Fellow"
+  company: "ACLU"
+  isRockstar: true
+  sharedImg: true
+  thumbnailUrl: /supporters/leigh_honeywell.png
+  twitter: "hypatiadotca"
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: true
+-
+  id: 034
+  name: "Christina"
+  surname: "Morillo"
+  title:
+  company:
+  isRockstar: true
+  sharedImg: true
+  thumbnailUrl: /supporters/christina_morillo.jpg
+  twitter: "divinetechygirl"
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: true
+-
+  id: 035
+  name: "Nicole"
+  surname: "Becher"
+  title:
+  company:
+  sharedImg: true
+  thumbnailUrl: /supporters/nicole_becher.jpg
+  twitter: "thedeadrobots"
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: true

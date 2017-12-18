@@ -1,27 +1,13 @@
-<!-- Begin Supporters List-->
-<section id="supporters" class="supporters">
-  <div class="col-lg-14 col-lg-offset-1">
-      <h3 class="text-center animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"></h3>
-      <div class="row supporters-details">
-      {% for supporter in site.data.supporters %}
-        <div class="col-md-3 col-sm-7 col-xs-12 cols-centered appear-animation text-center">
-          {% if supporter.twitter != null %}
-           <a href="https://twitter.com/{{ supporter.twitter }}" target="_blank">
-             <img class="img-circle supporters-details-img" src="{% if supporter.sharedImg != null %} {{ site.baseurl }}/img/{{ supporter.thumbnailUrl }} {% else %} {{ site.baseurl }}/img/supporters/{{ supporter.thumbnailUrl }} {% endif %}">
-           </a>
-           {% else %}
-             <img class="img-circle supporters-details-img" src="{% if supporter.sharedImg != null %} {{ site.baseurl }}/img/{{ supporter.thumbnailUrl }} {% else %} {{ site.baseurl }}/img/supporters/{{ supporter.thumbnailUrl }} {% endif %}">
-           {% endif %}
-            <div class="name"><b>{{ supporter.name }} {{ supporter.surname }}</b></div>
-            {% if supporter.company != null %}
-              <div class="title">{{ supporter.title }}</div>
-              <div class="company">{{ supporter.company }}</div>
-            {% else %}
-              <div class="title">{{ supporter.title }}</div>
-            {% endif %}
-        </div>
-        {% endfor %}
-      </div>
-  </div>
+<!-- Begin Rockstar supporters Section -->
+<section id="supporters" class="supporters image-section parallax" style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.supportersImage }});">
+    <div class="overlay solid-overlay"></div>
+	<div class="content-wrapper">
+		<div class="col-lg-10 col-lg-offset-1 supporters-list">
+			<h3 id="supporters-title"><b>{{ site.supportersTitle }}</b></h3>
+            <div id="supporters-list"><div>
+
+			<div class="clearfix"></div>
+		</div>
+	</div>
 </section>
-<!-- End Supporters List -->
+<!-- End Rockstar Supporters Section -->

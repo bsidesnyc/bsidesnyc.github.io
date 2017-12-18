@@ -3275,23 +3275,50 @@ nav li a:hover {
     height: 140px;
     margin: 0 auto
 }
-.dynamic-speakers .name {
+.dynamic-speakers .name, 
+.speakers-opening .name, 
+.speakers-general .name, 
+.supporters .name, 
+.speakers-entrepreneur .name {
     font-size: 20px;
     line-height: 1.1;
     margin: 10px 0 2px
 }
-.dynamic-speakers .sub {
+.dynamic-speakers .sub, 
+.speakers-opening .sub, 
+.speakers-general .sub,
+.supporters .sub,
+.speakers-entrepreneur .sub {
     font-size: 18.2px;
     margin: 0 0 15px;
     color: #03a9f4
 }
-.dynamic-speakers {
+.dynamic-speakers,
+.speakers-opening,
+.speakers-general,
+.supporters,
+.speakers-entrepreneur {
     padding-bottom: 13px
 }
-.dynamic-speakers-img {
-    width: 140px;
-    height: 140px;
+.speakers-opening-img {
+    width: 225px;
+    height: 225px;
     margin: 0 auto
+}
+
+.dynamic-speakers-img, 
+.speakers-general-img,
+.supporters-img,
+.speakers-entrepreneur-img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto
+}
+.speakers-entrepreneur-subtitle {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 auto;
+    padding-bottom: 12px;
 }
 .pricing-col {
     overflow: hidden;
@@ -6030,5 +6057,5 @@ nav li a:hover {
     }
     .hidden-md {
         display: none !important
-    }
+    
 }
