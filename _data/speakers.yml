@@ -87,7 +87,7 @@
 -
   id: 010
   name: Paul
-  surname: D'Jaramillo
+  surname: Jaramillo
   company: CrowdStrike
   title:
   bio:
@@ -202,7 +202,9 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   company: Kaspersky Lab Latin America
   title: Security Analyst | Global Research and Analysis Team (GReAT)
   bio: "Santiago Pontiroli joined Kaspersky Lab as a Security Researcher in October 2013. His principal responsibilities include the analysis and investigation of security threats in the SOLA region (South of Latin America), web application security, the development of automatization tools stemming from threat intelligence studies and the reverse engineering of programs with malicious code."
+  isDynamic: true
   thumbnailUrl: santiago_pontiroli.jpg
+  twitter: spontiroli
 -
   id: 025
   name: Roel
