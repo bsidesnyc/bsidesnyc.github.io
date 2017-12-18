@@ -45,7 +45,7 @@
   twitter: lennyzeltser
   trackOpening: false
   trackEntrepreneur: true
-  trackGeneral: true
+  trackGeneral: false
 -
   id: 004
   name: Galina
