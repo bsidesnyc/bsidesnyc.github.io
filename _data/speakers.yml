@@ -157,10 +157,12 @@
   id: 018
   name: Kendra
   surname: Cooley
-  company: Duo
-  title:
-  bio:
-  thumbnailUrl:
+  company: MailChimp
+  title: Senior Security Operations Engineer
+  bio: "Kendra has over five years of experience in several areas of Information Security including user administration, security operations and compliance. She focuses primarily on Incident Response and user education. Kendra holds a Bachelor’s degree in Digital Forensics and the CISSP certification.
+
+Kendra speaks regularly at Security related events and is an advocate for practicing proper security hygiene. In her free time she enjoys drinking wine and memorizing movie lines."
+  thumbnailUrl: kendra_cooley.jpg
   twitter: 4n6Kendra
 -
   id: 021
