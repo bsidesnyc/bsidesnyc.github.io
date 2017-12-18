@@ -2884,7 +2884,7 @@ time {
     padding: 0
 }
 .logo {
-    background-image: url("../img/sprites/logos.svg");
+    /*background-image: url("../img/sprites/logos.svg");*/
     background-repeat: no-repeat
 }
 .logo.logo-dark {
@@ -2959,7 +2959,9 @@ time {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.15)
 }
 .top-header.after-scroll .overlay {
-    opacity: 1
+  opacity: 1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s
 }
 .top-header .overlay {
     opacity: 0;
@@ -2987,6 +2989,24 @@ time {
     transform: scale(0.7);
     vertical-align: middle
 }
+.no-logo {
+    display: inline-block;
+    float: left;
+    width: 185px;
+    height: 60px;
+    margin-right: 20px;
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    vertical-align: middle
+}
+.no-logo-navbar {
+    width: 185px;
+    height: 100px;
+    margin: 20px;
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    vertical-align: middle
+}
 .logo-navbar {
     width: 185px;
     height: 60px;
@@ -3001,7 +3021,7 @@ time {
 }
 nav ul {
     float: left;
-    margin: 0;
+    margin-bottom: 30px;
     padding: 0;
     list-style: none;
     text-align: left;
