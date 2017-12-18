@@ -51,14 +51,8 @@
   id: 008
   title: "Embedded Exploitation"
   description:
-
 -
-  id: 011
-  title: "Electronics Workshop"
-  description: "some description"
-  partners:
--
-  id: 007
+  id: 009
   title: "Entrepreneur Track"
   description: "Career 0day is back for 2018! We’re pulling in Entrepreneurs from product and services startups, VCs and others to share their wisdom for those starting their own security company!"
   speakers: [003, 004, 005, 006, 007, 008]
