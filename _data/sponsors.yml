@@ -17,8 +17,7 @@
     - {name: "Syncurity", description: "syncurity", link: "https://www.syncurity.net", imageUrl: "syncurity.png"}
     - {name: "tCell", description: "tCell", link: "https://www.tcell.io", imageUrl: "tcell.png"}
     - {name: "Cybereason", description: "Cybereason", link: "https://www.cybereason.com", imageUrl: "cybereason.png"}
-    - {name: "L.J. Kushner", description: "L. J. Kushner & Associates, LLC", link: "http://ljkushner.com/candidates/", imageUrl: "lj_kushner.jpg"}
-
 -
   group: "Silver Sponsors"
   elements:
+    - {name: "L.J. Kushner", description: "L. J. Kushner & Associates, LLC", link: "http://ljkushner.com/candidates/", imageUrl: "lj_kushner.jpg"}
