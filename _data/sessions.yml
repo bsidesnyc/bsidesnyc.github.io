@@ -142,11 +142,8 @@
   presentation:
 -
   id: 019
-  title: "Hunting Lateral Movement"
-  description: "After obtaining an initial foothold on an environment, attackers are forced to embark in lateral movement techniques in order to be successful in identifying and exfiltrating sensitive information. To stay ahead of the bad guys, the Blue team needs to have a clear understanding of these techniques as well as the forensic artifacts these techniques leave behind on the victim hosts. Armed with this knowledge, we can proactively hunt for lateral movement in the environment before exfiltration can occur.
-  <br />
-  <br />
-  This presentation will analyze Lateral Movement from both a Red and Blue team perspective and introduce Oriana, a lateral movement hunting tool that can assist the Blue team in catching the adversary."
+  title: "Hunting for Lateral Movement"
+  description: "After obtaining an initial foothold on an environment, attackers are forced to embark in lateral movement techniques in order to be successful in identifying and exfiltrating sensitive information. To stay ahead of the bad guys, the Blue team needs to have a clear understanding of these techniques as well as the forensic artifacts these techniques leave behind on the victim hosts. Armed with this knowledge, we can proactively hunt for lateral movement in the environment before exfiltration can occur. This presentation will analyze Lateral Movement from both a Red and Blue team perspective and introduce Oriana, a lateral movement hunting tool that can assist the Blue team in catching the adversary."
   speakers: [017]
   presentation:
 -
