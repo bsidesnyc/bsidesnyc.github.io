@@ -227,55 +227,55 @@ policiesTitle: "Policies"
 # Speakers List
 #-----------------------------------------------
 showSessions: true
-dynamicSpeakersImage: "rockstar-supporters.jpg"
-dynamicSpeakersCount: 6
-dynamicSpeakersTitle: "Dynamic and Engaging Speakers"
-dynamicSpeakersButtonText: "See all speakers"
 
 #-----------------------------------------------
 # Speakers Opening List
 #-----------------------------------------------
 speakersOpeningImage: "rockstar-supporters.jpg"
-speakersOpeningCount: 100 
-speakersOpeningCountPerLine: 2 
+speakersOpeningCount: 100
+speakersOpeningCountPerLine: 2
 speakersOpeningTitle: "Opening and Keynotes"
 speakersOpeningButtonText: "See all speakers"
 speakersOpeningShowButton: false
 speakersOpeningSort: false
+speakersOpeningShowAll: true
 
 #-----------------------------------------------
 # Speakers Entrepreneur List
 #-----------------------------------------------
 speakersEntrepreneurImage: "rockstar-supporters.jpg"
-speakersEntrepreneurCount: 100 
-speakersEntrepreneurCountPerLine: 3 
+speakersEntrepreneurCount: 100
+speakersEntrepreneurCountPerLine: 3
 speakersEntrepreneurTitle: "Entrepreneur Track"
 speakersEntrepreneurSubtitle: "Think of it as career 0-day :)"
 speakersEntrepreneurButtonText: "See all speakers"
 speakersEntrepreneurShowButton: false
 speakersEntrepreneurSort: false
+speakersEntrepreneurShowAll: true
 
 #-----------------------------------------------
 # Speakers General List
 #-----------------------------------------------
 speakersGeneralImage: "rockstar-supporters.jpg"
-speakersGeneralCount: 6 
-speakersGeneralCountPerLine: 3 
+speakersGeneralCount: 6
+speakersGeneralCountPerLine: 3
 speakersGeneralTitle: "Technical Talks"
 speakersGeneralButtonText: "See all speakers"
-speakersGeneralShowButton: true 
-speakersGeneralSort: true 
+speakersGeneralShowButton: true
+speakersGeneralSort: true
+speakersGeneralShowAll: true
 
 #-----------------------------------------------
 # Supporters List (Show all)
 #-----------------------------------------------
 supportersImage: "rockstar-supporters.jpg"
-supportersCount: 100 
-supportersCountPerLine: 3 
+supportersCount: 100
+supportersCountPerLine: 3
 supportersTitle: "Rockstar Supporters"
 supportersButtonText: "See all speakers"
-supportersShowButton: false 
-supportersSort: true 
+supportersShowButton: false
+supportersSort: true
+supportersShowAll: false
 
 #-----------------------------------------------
 # Sponsors

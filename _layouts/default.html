@@ -223,7 +223,7 @@ layout: compress
                 return card;
               }
 
-              function buildCardSection(filter, divName, headShotClass, sort, configCount, configCountPerRow) {
+              function buildCardSection(filter, divName, headShotClass, sort, configCount, configCountPerRow, showAll) {
                   /* Build up the people applicable to this card section */
                   var people = [];
                   for ( var s=0; s<allPeople.length; s++ ) {
@@ -241,7 +241,12 @@ layout: compress
                 if ( people.length > 0 ) {
                     var card_div = document.getElementById(divName);
                     var animationDelay = 0;
-                    var count = Math.min(configCount, people.length);
+                    if ( showAll ) {
+                      var count = Math.min(configCount, people.length);
+                    } else {
+                      var count = Math.min(6, people.length);
+                    }
+
                     /* Fixes a bug when width is float */
                     var colWidth = Math.floor(12/configCountPerRow);
 
@@ -268,7 +273,8 @@ layout: compress
             buildCardSection('trackOpening', 'speakers-opening-list',
                     'speakers-opening-img', {{ site.speakersOpeningSort }},
                     {{ site.speakersOpeningCount }},
-                    {{ site.speakersOpeningCountPerLine }});
+                    {{ site.speakersOpeningCountPerLine }},
+                    {{ site.speakersOpeningShowAll }});
 
            /*
              For the Speakers Entrepreneur Section
@@ -276,7 +282,8 @@ layout: compress
             buildCardSection('trackEntrepreneur', 'speakers-entrepreneur-list',
                     'speakers-entrepreneur-img', {{ site.speakersEntrepreneurSort }},
                     {{ site.speakersEntrepreneurCount }},
-                    {{ site.speakersEntrepreneurCountPerLine }});
+                    {{ site.speakersEntrepreneurCountPerLine }},
+                    {{ site.speakersEntrepreneurShowAll }});
 
            /*
              For the Speakers General Section
@@ -284,7 +291,8 @@ layout: compress
             buildCardSection('trackGeneral', 'speakers-general-list',
                     'speakers-general-img', {{ site.speakersGeneralSort }},
                     {{ site.speakersGeneralCount }},
-                    {{ site.speakersGeneralCountPerLine }});
+                    {{ site.speakersGeneralCountPerLine }},
+                    {{ site.speakersGeneralShowAll }});
 
            /*
              For the Supporters Section
@@ -292,7 +300,8 @@ layout: compress
             buildCardSection('supporter', 'supporters-list',
                     'supporters-img', {{ site.supportersSort }},
                     {{ site.supportersCount }},
-                    {{ site.supportersCountPerLine }});
+                    {{ site.supportersCountPerLine }},
+                    {{ site.supportersShowAll }});
             });
         /*
         =======================================
