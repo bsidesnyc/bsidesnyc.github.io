@@ -129,6 +129,183 @@ layout: compress
     {% endcomment %}
 
     <script>
+      $(document).ready(function () {
+          $(function () {
+              if ($(window).width() > 767) {
+                  $("#typeout-text").typed({
+                      strings: [{{site.typeoutTextValues}}],
+                      typeSpeed: 150,
+                      backDelay: 900,
+                      loop: true
+                  });
+              }
+          });
+        /*
+        =======================================
+        Speakers Opening JS
+        =======================================
+        Moving this whole section outside of jQuery, which will speed up the load time++
+        */
+
+        /*
+           This fixes a bug in the original code where the
+           end of loop check gets thrown off when the filter
+           is applied ( if speaker.isDynamic etc... )
+        */
+        var allPeople = [
+            {% for person in site.data.people %}
+                {
+                  name: "{{ person.name }} {{ person.surname }}",
+                  company: "{{ person.company }}",
+                  trackOpening: {{ person.trackOpening }},
+                  trackEntrepreneur: {{ person.trackEntrepreneur }},
+                  trackGeneral: {{ person.trackGeneral }},
+                  supporter : {{ person.supporter }},
+                  {% if person.thumbnailUrl != null %}
+                      {% if person.sharedImg == true %}
+                          image: "{{ site.baseurl | append: '/img/' | append: person.thumbnailUrl }}"
+                      {% else %}
+                          image: "{{ site.baseurl | append: '/img/people/' | append: person.thumbnailUrl }}"
+                      {% endif %}
+                  {% else %}
+                      image: null
+                  {% endif %}
+                }{% if forloop.index != forloop.length %},{% endif %}
+            {% endfor %}
+        ];
+
+        /*
+           This standardizes the Cards shown for speakers,
+           supporters, etc..
+        */
+        function getCard(person, width, delay, addClass) {
+          var card = document.createElement('div');
+
+          card.className = 'col-md-' + width + ' animated hiding';
+          card.setAttribute('data-animation', 'fadeInUp');
+          card.setAttribute('data-delay', delay);
+
+          var headshot = document.createElement('div');
+          headshot.className = 'flow-img img-circle ' + addClass;
+          headshot.setAttribute('style', 'background-image: url(' + person.image + ')');
+
+          card.append(headshot);
+
+          var name = document.createElement('div');
+          name.className = 'name';
+          name.innerText = person.name;
+
+          card.append(name);
+
+          var company = document.createElement('div');
+          company.className = 'sub';
+          company.innerText = person.company;
+
+          card.append(company);
+
+          return card;
+        }
+
+        function buildCardSection(filter, divName, headShotClass, sort, configCount, configCountPerRow, showAll) {
+            /* Build up the people applicable to this card section */
+            var people = [];
+            for ( var s=0; s<allPeople.length; s++ ) {
+                if ( allPeople[s].image != null ) {
+                    if ( allPeople[s][filter] ) {
+                        people.push(allPeople[s]);
+                    }
+                }
+            }
+
+          if ( sort ) {
+              people.sort(function() {return 0.5 - Math.random()});
+          }
+
+          if ( people.length > 0 ) {
+              var card_div = document.getElementById(divName);
+              var animationDelay = 0;
+              if ( showAll ) {
+                var count = Math.min(configCount, people.length);
+              } else {
+                if ( showAll) {
+                  var count = Math.min(6, people.length);
+                } else {
+                  /*
+                  stupid way to check URI and show all images on page other
+                    than / ; rendering `showAll` only relevant on / .
+                  */
+                  var permalink_text = document.documentURI;
+                  if ( permalink_text.includes("/supporters/")) {
+                    var count = Math.min(configCount, people.length);
+                  } else {
+                    var count = Math.min(6, people.length);
+                  }
+                }
+              }
+
+              /* Fixes a bug when width is float */
+              var colWidth = Math.floor(12/configCountPerRow);
+
+              var clearfix = document.createElement('div');
+              clearfix.className = 'clearfix visible-xs';
+
+              for(var i=0; i<count; i++) {
+                var card = getCard(people[i], colWidth,
+                        animationDelay, headShotClass);
+
+                card_div.append(card);
+
+                if ( i % 2 != 0 ) {
+                    card_div.append(clearfix);
+                }
+                animationDelay += 400;
+              }
+          }
+      }
+
+     {% if page.permalink == "/" %}
+       /*
+         For the Speakers Opening Section
+       */
+        buildCardSection('trackOpening', 'speakers-opening-list',
+                'speakers-opening-img', {{ site.speakersOpeningSort }},
+                {{ site.speakersOpeningCount }},
+                {{ site.speakersOpeningCountPerLine }},
+                {{ site.speakersOpeningShowAll }});
+
+       /*
+         For the Speakers Entrepreneur Section
+       */
+        buildCardSection('trackEntrepreneur', 'speakers-entrepreneur-list',
+                'speakers-entrepreneur-img', {{ site.speakersEntrepreneurSort }},
+                {{ site.speakersEntrepreneurCount }},
+                {{ site.speakersEntrepreneurCountPerLine }},
+                {{ site.speakersEntrepreneurShowAll }});
+
+       /*
+         For the Speakers General Section
+       */
+        buildCardSection('trackGeneral', 'speakers-general-list',
+                'speakers-general-img', {{ site.speakersGeneralSort }},
+                {{ site.speakersGeneralCount }},
+                {{ site.speakersGeneralCountPerLine }},
+                {{ site.speakersGeneralShowAll }});
+      {% endif %}
+
+      {% if page.permalink == "/" or page.permalink == "/supporters/" %}
+         /*
+           For the Supporters Section
+         */
+          buildCardSection('supporter', 'supporters-list',
+                  'supporters-img', {{ site.supportersSort }},
+                  {{ site.supportersCount }},
+                  {{ site.supportersCountPerLine }},
+                  {{ site.supportersShowAll }});
+      {% endif %}
+      });
+    </script>
+
+    <script>
         Waves.displayEffect();
         {% if page.permalink == '/' %}
             if ($(window).width() > 767) {
@@ -146,163 +323,6 @@ layout: compress
             }
             var twitterFeedUrl = '{{ site.twitterFeed }}';
 
-            $(document).ready(function () {
-                $(function () {
-                    if ($(window).width() > 767) {
-                        $("#typeout-text").typed({
-                            strings: [{{site.typeoutTextValues}}],
-                            typeSpeed: 150,
-                            backDelay: 900,
-                            loop: true
-                        });
-                    }
-                });
-              /*
-              =======================================
-              Speakers Opening JS
-              =======================================
-              Moving this whole section outside of jQuery, which will speed up the load time++
-              */
-
-              /*
-                 This fixes a bug in the original code where the
-                 end of loop check gets thrown off when the filter
-                 is applied ( if speaker.isDynamic etc... )
-              */
-              var allPeople = [
-                  {% for person in site.data.people %}
-                      {
-                        name: "{{ person.name }} {{ person.surname }}",
-                        company: "{{ person.company }}",
-                        trackOpening: {{ person.trackOpening }},
-                        trackEntrepreneur: {{ person.trackEntrepreneur }},
-                        trackGeneral: {{ person.trackGeneral }},
-                        supporter : {{ person.supporter }},
-                        {% if person.thumbnailUrl != null %}
-                            {% if person.sharedImg == true %}
-                                image: "{{ site.baseurl | append: '/img/' | append: person.thumbnailUrl }}"
-                            {% else %}
-                                image: "{{ site.baseurl | append: '/img/people/' | append: person.thumbnailUrl }}"
-                            {% endif %}
-                        {% else %}
-                            image: null
-                        {% endif %}
-                      }{% if forloop.index != forloop.length %},{% endif %}
-                  {% endfor %}
-              ];
-
-              /*
-                 This standardizes the Cards shown for speakers,
-                 supporters, etc..
-              */
-              function getCard(person, width, delay, addClass) {
-                var card = document.createElement('div');
-
-                card.className = 'col-md-' + width + ' animated hiding';
-                card.setAttribute('data-animation', 'fadeInUp');
-                card.setAttribute('data-delay', delay);
-
-                var headshot = document.createElement('div');
-                headshot.className = 'flow-img img-circle ' + addClass;
-                headshot.setAttribute('style', 'background-image: url(' + person.image + ')');
-
-                card.append(headshot);
-
-                var name = document.createElement('div');
-                name.className = 'name';
-                name.innerText = person.name;
-
-                card.append(name);
-
-                var company = document.createElement('div');
-                company.className = 'sub';
-                company.innerText = person.company;
-
-                card.append(company);
-
-                return card;
-              }
-
-              function buildCardSection(filter, divName, headShotClass, sort, configCount, configCountPerRow, showAll) {
-                  /* Build up the people applicable to this card section */
-                  var people = [];
-                  for ( var s=0; s<allPeople.length; s++ ) {
-                      if ( allPeople[s].image != null ) {
-                          if ( allPeople[s][filter] ) {
-                              people.push(allPeople[s]);
-                          }
-                      }
-                  }
-
-                if ( sort ) {
-                    people.sort(function() {return 0.5 - Math.random()});
-                }
-
-                if ( people.length > 0 ) {
-                    var card_div = document.getElementById(divName);
-                    var animationDelay = 0;
-                    if ( showAll ) {
-                      var count = Math.min(configCount, people.length);
-                    } else {
-                      var count = Math.min(6, people.length);
-                    }
-
-                    /* Fixes a bug when width is float */
-                    var colWidth = Math.floor(12/configCountPerRow);
-
-                    var clearfix = document.createElement('div');
-                    clearfix.className = 'clearfix visible-xs';
-
-                    for(var i=0; i<count; i++) {
-                      var card = getCard(people[i], colWidth,
-                              animationDelay, headShotClass);
-
-                      card_div.append(card);
-
-                      if ( i % 2 != 0 ) {
-                          card_div.append(clearfix);
-                      }
-                      animationDelay += 400;
-                    }
-                }
-            }
-
-           /*
-             For the Speakers Opening Section
-           */
-            buildCardSection('trackOpening', 'speakers-opening-list',
-                    'speakers-opening-img', {{ site.speakersOpeningSort }},
-                    {{ site.speakersOpeningCount }},
-                    {{ site.speakersOpeningCountPerLine }},
-                    {{ site.speakersOpeningShowAll }});
-
-           /*
-             For the Speakers Entrepreneur Section
-           */
-            buildCardSection('trackEntrepreneur', 'speakers-entrepreneur-list',
-                    'speakers-entrepreneur-img', {{ site.speakersEntrepreneurSort }},
-                    {{ site.speakersEntrepreneurCount }},
-                    {{ site.speakersEntrepreneurCountPerLine }},
-                    {{ site.speakersEntrepreneurShowAll }});
-
-           /*
-             For the Speakers General Section
-           */
-            buildCardSection('trackGeneral', 'speakers-general-list',
-                    'speakers-general-img', {{ site.speakersGeneralSort }},
-                    {{ site.speakersGeneralCount }},
-                    {{ site.speakersGeneralCountPerLine }},
-                    {{ site.speakersGeneralShowAll }});
-
-           /*
-             For the Supporters Section
-           */
-            buildCardSection('supporter', 'supporters-list',
-                    'supporters-img', {{ site.supportersSort }},
-                    {{ site.supportersCount }},
-                    {{ site.supportersCountPerLine }},
-                    {{ site.supportersShowAll }});
-            });
         /*
         =======================================
         Logistics JS
