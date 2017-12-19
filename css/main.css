@@ -2989,27 +2989,10 @@ time {
     transform: scale(0.7);
     vertical-align: middle
 }
-.no-logo {
-    display: inline-block;
-    float: left;
-    width: 185px;
-    height: 60px;
-    margin-right: 20px;
-    -webkit-transform: scale(0.7);
-    transform: scale(0.7);
-    vertical-align: middle
-}
-.no-logo-navbar {
-    width: 185px;
-    height: 100px;
-    margin: 20px;
-    -webkit-transform: scale(0.6);
-    transform: scale(0.6);
-    vertical-align: middle
-}
+
 .logo-navbar {
     width: 185px;
-    height: 60px;
+    height: 26px;
     margin: 8px 20px 0 -10px;
     -webkit-transform: scale(0.6);
     transform: scale(0.6);
@@ -3275,17 +3258,17 @@ nav li a:hover {
     height: 140px;
     margin: 0 auto
 }
-.dynamic-speakers .name, 
-.speakers-opening .name, 
-.speakers-general .name, 
-.supporters .name, 
+.dynamic-speakers .name,
+.speakers-opening .name,
+.speakers-general .name,
+.supporters .name,
 .speakers-entrepreneur .name {
     font-size: 20px;
     line-height: 1.1;
     margin: 10px 0 2px
 }
-.dynamic-speakers .sub, 
-.speakers-opening .sub, 
+.dynamic-speakers .sub,
+.speakers-opening .sub,
 .speakers-general .sub,
 .supporters .sub,
 .speakers-entrepreneur .sub {
@@ -3306,7 +3289,7 @@ nav li a:hover {
     margin: 0 auto
 }
 
-.dynamic-speakers-img, 
+.dynamic-speakers-img,
 .speakers-general-img,
 .supporters-img,
 .speakers-entrepreneur-img {
@@ -6057,5 +6040,5 @@ nav li a:hover {
     }
     .hidden-md {
         display: none !important
-    
+
 }
