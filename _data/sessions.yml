@@ -17,7 +17,7 @@
   id: 001
   title: "Opening Remarks"
   description: "Opening Remarks & Intro to D4CS by Dr. Lovely"
-  speakers: [000, 002]
+  speakers: [042, 037]
 -
   id: 002
   title: "Lunch Break"
@@ -55,12 +55,12 @@
   id: 009
   title: "Entrepreneur Track"
   description: "Career 0day is back for 2018! We’re pulling in Entrepreneurs from product and services startups, VCs and others to share their wisdom for those starting their own security company!"
-  speakers: [003, 004, 005, 006, 007, 008]
+  speakers: [006, 008, 026, 039, 040, 041]
 -
   id: 010
   title: "Keynote"
   description:
-  speakers: [001]
+  speakers: [038]
   presentation:
 -
   id: 011

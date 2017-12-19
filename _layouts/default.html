@@ -164,7 +164,7 @@ layout: compress
               Moving this whole section outside of jQuery, which will speed up the load time++
               */
 
-              /* 
+              /*
                  This fixes a bug in the original code where the
                  end of loop check gets thrown off when the filter
                  is applied ( if speaker.isDynamic etc... )
@@ -172,18 +172,17 @@ layout: compress
               var allPeople = [
                   {% for person in site.data.people %}
                       {
-                          name: "{{ person.name }} {{ person.surname }}", 
+                        name: "{{ person.name }} {{ person.surname }}",
                         company: "{{ person.company }}",
                         trackOpening: {{ person.trackOpening }},
                         trackEntrepreneur: {{ person.trackEntrepreneur }},
                         trackGeneral: {{ person.trackGeneral }},
                         supporter : {{ person.supporter }},
                         {% if person.thumbnailUrl != null %}
-
                             {% if person.sharedImg == true %}
                                 image: "{{ site.baseurl | append: '/img/' | append: person.thumbnailUrl }}"
                             {% else %}
-                                image: "{{ site.baseurl | append: '/img/speakers/' | append: person.thumbnailUrl }}"
+                                image: "{{ site.baseurl | append: '/img/people/' | append: person.thumbnailUrl }}"
                             {% endif %}
                         {% else %}
                             image: null
@@ -191,9 +190,9 @@ layout: compress
                       }{% if forloop.index != forloop.length %},{% endif %}
                   {% endfor %}
               ];
-            
-              /* 
-                 This is standardizes the Cards shown for speakers,
+
+              /*
+                 This standardizes the Cards shown for speakers,
                  supporters, etc..
               */
               function getCard(person, width, delay, addClass) {
@@ -236,9 +235,9 @@ layout: compress
                   }
 
                 if ( sort ) {
-                    people.sort(function() {return 0.5 - Math.random()}); 
+                    people.sort(function() {return 0.5 - Math.random()});
                 }
-            
+
                 if ( people.length > 0 ) {
                     var card_div = document.getElementById(divName);
                     var animationDelay = 0;
@@ -248,9 +247,9 @@ layout: compress
 
                     var clearfix = document.createElement('div');
                     clearfix.className = 'clearfix visible-xs';
-                    
+
                     for(var i=0; i<count; i++) {
-                      var card = getCard(people[i], colWidth, 
+                      var card = getCard(people[i], colWidth,
                               animationDelay, headShotClass);
 
                       card_div.append(card);
@@ -263,36 +262,36 @@ layout: compress
                 }
             }
 
-           /* 
+           /*
              For the Speakers Opening Section
-           */  
-            buildCardSection('trackOpening', 'speakers-opening-list', 
-                    'speakers-opening-img', {{ site.speakersOpeningSort }}, 
-                    {{ site.speakersOpeningCount }}, 
+           */
+            buildCardSection('trackOpening', 'speakers-opening-list',
+                    'speakers-opening-img', {{ site.speakersOpeningSort }},
+                    {{ site.speakersOpeningCount }},
                     {{ site.speakersOpeningCountPerLine }});
 
-           /* 
+           /*
              For the Speakers Entrepreneur Section
-           */  
-            buildCardSection('trackEntrepreneur', 'speakers-entrepreneur-list', 
-                    'speakers-entrepreneur-img', {{ site.speakersEntrepreneurSort }}, 
-                    {{ site.speakersEntrepreneurCount }}, 
+           */
+            buildCardSection('trackEntrepreneur', 'speakers-entrepreneur-list',
+                    'speakers-entrepreneur-img', {{ site.speakersEntrepreneurSort }},
+                    {{ site.speakersEntrepreneurCount }},
                     {{ site.speakersEntrepreneurCountPerLine }});
 
-           /* 
+           /*
              For the Speakers General Section
-           */  
-            buildCardSection('trackGeneral', 'speakers-general-list', 
-                    'speakers-general-img', {{ site.speakersGeneralSort }}, 
-                    {{ site.speakersGeneralCount }}, 
+           */
+            buildCardSection('trackGeneral', 'speakers-general-list',
+                    'speakers-general-img', {{ site.speakersGeneralSort }},
+                    {{ site.speakersGeneralCount }},
                     {{ site.speakersGeneralCountPerLine }});
 
-           /* 
+           /*
              For the Supporters Section
-           */  
-            buildCardSection('supporter', 'supporters-list', 
-                    'supporters-img', {{ site.supportersSort }}, 
-                    {{ site.supportersCount }}, 
+           */
+            buildCardSection('supporter', 'supporters-list',
+                    'supporters-img', {{ site.supportersSort }},
+                    {{ site.supportersCount }},
                     {{ site.supportersCountPerLine }});
 
 

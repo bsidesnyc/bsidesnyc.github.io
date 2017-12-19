@@ -1,73 +1,108 @@
 -
   id: 000
-  name: Dr. Richard
-  surname: Lovely
-  company: John Jay College
-  title: Intro on D4CS
-  bio: "Richard Lovely is Director of the John Jay College Digital Forensics and Cybersecurity Program and an Associate Professor in the Department of Sociology at John Jay College, CUNY. He earned his Ph.D. at Yale University and a B.A. from the University of Southern Florida. Prior to his academic career he served as a U.S. Army Signal Corps instructor, a counter-intelligence officer with the US Army with a specialty in electronic counter-measures, and as a special agent with the US Secret Service. He also has experience as an international management consultant and facilitator for executive leadership training. On the academic and policy side of his career, he has worked as a research associate for the judicial system in Connecticut and has done research on search and seizure law, causes of serious violence, and organizational innovation. As well, he has also developed software applications for data retrieval and mining for institutional research on student data. Currently he teaches seminars in cybercriminology (CRJ/FCM 727) and data analysis (CRJ 716). His current research interests concern cybercrime, credentialing in forensics and security, the relationship of online privacy to social stigma, and educational outcomes assessment."
-  thumbnailUrl: lovely.jpg
+  name: Glenn
+  surname: Edwards
+  company: FireEye
+  title: Principal Incident Response Consultant
+  bio: "Glenn P. Edwards Jr. is a Principal Incident Response Consultant with FireEye where he specializes in Incident Response, Digital Forensics and Malware Analysis. Glenn holds a M.S degree in Digital Forensics from the University of Central Florida as well as a B.S. degree in Information Security and Privacy from High Point University."
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/glenn.jpg
+  twitter: hiddenillusion
+  isOrganizer: true
+  isFounder: true
+  cfpBoard: true
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
   supporter: false
 -
   id: 001
-  name: Quiessence
-  surname: Phillips
-  company: The City of New York
-  title: Deputy CISO
-  thumbnailUrl: quiessence_phillips.png
-  trackOpening: true
+  name: Brad
+  surname: Antoniewicz
+  company: Cisco
+  title:
+  bio: "Brad Antoniewicz works in Cisco Umbrella’s security research group. He is an Adjunct Professor teaching Vulnerability Analysis and Exploitation and a Hacker in Residence at NYU’s Tandon School of Engineering. Antoniewicz is also a Contributing Author to both the Hacking Exposed and Hacking Exposed: Wireless series of books."
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/brad.jpg
+  twitter: brad_anton
+  isOrganizer: true
+  isFounder: true
+  cfpBoard: true
+  trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
   supporter: false
 -
   id: 002
-  name: Runa
-  surname: Sandvik
-  company: The New York Times
-  title: Director of Information Security
-  isDynamic: true
-  bio:
-  thumbnailUrl: runa_sandvik.jpg
-  twitter: runasand
-  trackOpening: true
+  name: Brian
+  surname: McHenry
+  company: F5
+  title:
+  bio: "Brian McHenry has almost 20 years of experience in the field of information technology, from early days in software validation and then desktop support to startups to global NOCs and everything in between. Since 2008, he has focused his passion for solving problems while working for F5 Networks as part of their technical sales team. Currently, McHenry works as a Security Solutions Architect, spending his time on speaking engagements, hacking in the lab on new solutions, and helping to shape the future of F5 security product offerings."
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/brian.jpg
+  twitter: bamchenry
+  isOrganizer: true
+  isFounder: true
+  cfpBoard: false
+  trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
   supporter: false
 -
   id: 003
-  name: Galina
-  surname: Antova
-  company: Claroty
-  title: Co-Founder
-  thumbnailUrl: galina_antova.png
+  name: Janine
+  surname: Medina
+  company:
+  title: Coordinator extraordinaire
+  bio: "Coordinator extraordinaire who makes things go at BSidesNYC. If you want to know more, you’ll have to ask her yourself"
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/janine.jpg
+  twitter:
+  isOrganizer: true
+  isFounder: false
+  cfpBoard: false
   trackOpening: false
-  trackEntrepreneur: true
+  trackEntrepreneur: false
   trackGeneral: false
   supporter: false
 -
   id: 004
-  name: Roselle
-  surname: Safran
-  company: Rosint Labs & EIR at Antecedent Ventures
-  title: President
-  thumbnailUrl: roselle_safran.jpg
+  name: Dave
+  surname: Giancaspro
+  company:
+  title:
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/dave.png
+  twitter:
+  isOrganizer: true
+  cfpBoard: false
   trackOpening: false
-  trackEntrepreneur: true
+  trackEntrepreneur: false
   trackGeneral: false
   supporter: false
 -
   id: 005
-  name: Loren
-  surname: Mahler
-  company: Dealy Mahler Strategies
-  title: Founder
-  thumbnailUrl: loren_mahler.jpg
+  name: Jamie
+  surname: Levy
+  company: The Volatility Foundation
+  title: Senior researcher, developer & board member
+  bio: "Jamie Levy is a senior researcher, developer and board member of the Volatility Foundation. She worked on various R&D projects and forensic cases while previously working at Guidance Software, Inc, and later at Verizon Terremark.  Jamie has taught classes in Computer Forensics and Computer Science at Queens College (CUNY) and John Jay College (CUNY). She has a Masters in Forensic Computing from John Jay College and is an avid contributor to the open source Computer Forensics community. She is an active developer on the Volatility Framework.  In her day job, Jamie currently works as a Senior Security Researcher, where she leads hunting engagements."
+  isDynamic: true
+  sharedImg: true
+  thumbnailUrl: /cfp/jamie_levy.jpg
+  twitter: gleeda
+  cfpBoard: true
   trackOpening: false
-  trackEntrepreneur: true
+  trackEntrepreneur: false
   trackGeneral: false
-  supporter: false
+  supporter: true
 -
   id: 006
   name: Lenny
@@ -79,23 +114,27 @@
   sharedImg: true
   thumbnailUrl: /cfp/lenny_zeltser.jpg
   twitter: lennyzeltser
-  trackOpening: false
-  trackEntrepreneur: true
-  trackGeneral: true
-  supporter: false
--
-  id: 007
-  name: Kelly
-  surname: Shortridge
-  company:
-  title:
-  sharedImg: true
-  thumbnailUrl: /supporters/kelly_shortridge.jpg
-  twitter: swagitda_
+  cfpBoard: true
   trackOpening: false
   trackEntrepreneur: true
   trackGeneral: false
-  supporter: false 
+  supporter: false
+-
+  id: 007
+  name: Vladimir
+  surname: Wolstencroft
+  company: Twilio
+  title: Senior Security Consultant
+  bio: "Vladimir Wolstencroft is a security consultant specialising in telecom and enterprise IT security, focusing on all aspects from reversing telecom elements to auditing signalling stacks. Previously working as a senior security consultant with Aura in New Zealand, head of training and telecom auditor with P1 Security in France, Vladimir now works with Twilio combining telecom  experience with the standards of IT security to help defend cloud and signalling infrastructures. Vladimir has previously delivered trainings and has spoken at RECON, HITB, Troopers, BSIDES, RMISC, H2HC, Day-Con, IIANZ and others around the topics of Telecom security, compromising and attacking cloud based apps such as Uber and Snapchat and reversing security appliances."
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /cfp/vladimir_wolstencroft.png
+  twitter: false
+  cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
 -
   id: 008
   name: Paul
@@ -104,6 +143,7 @@
   title: Chairman and CEO
   bio:
   isDynamic: true
+  sharedImg: false
   thumbnailUrl: paul_vixie.jpg
   twitter:
   trackOpening: false
@@ -127,7 +167,7 @@
 -
   id: 010
   name: Paul
-  surname: D'Jaramillo
+  surname: Jaramillo
   company: CrowdStrike
   title:
   bio:
@@ -234,9 +274,9 @@
   company: MailChimp
   title: Senior Security Operations Engineer
   bio: "Kendra has over five years of experience in several areas of Information Security including user administration, security operations and compliance. She focuses primarily on Incident Response and user education. Kendra holds a Bachelor’s degree in Digital Forensics and the CISSP certification.
- <br />
- <br />
-Kendra speaks regularly at Security related events and is an advocate for practicing proper security hygiene. In her free time she enjoys drinking wine and memorizing movie lines."
+  <br />
+  <br />
+  Kendra speaks regularly at Security related events and is an advocate for practicing proper security hygiene. In her free time she enjoys drinking wine and memorizing movie lines."
   isDynamic: true
   thumbnailUrl: kendra_cooley.jpg
   twitter: 4n6Kendra
@@ -310,18 +350,18 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   supporter: false
 -
   id: 026
-  name: "Jamie"
-  surname: "Levy"
-  title: "Senior researcher, developer & board member"
-  company: "The Volatility Foundation"
-  isRockstar: true
-  sharedImg: true
-  thumbnailUrl: /cfp/jamie_levy.jpg
-  twitter: "gleeda"
+  name: Kelly
+  surname: Shortridge
+  company:
+  title:
+  sharedImg: false
+  thumbnailUrl: kelly_shortridge.jpg
+  twitter: swagitda_
   trackOpening: false
-  trackEntrepreneur: false
+  trackEntrepreneur: true
   trackGeneral: false
-  supporter: true 
+  supporter: false
+  #can't be a supporter and talk, image shows up twice
 -
   id: 027
   name: "Veronica"
@@ -329,8 +369,8 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   title: "Malware traffic researcher"
   company: "Cognitive Threat Analytics, Cisco"
   isRockstar: true
-  sharedImg: true
-  thumbnailUrl: /supporters/veronica_valeros.jpg
+  sharedImg: false
+  thumbnailUrl: veronica_valeros.jpg
   twitter: "verovaleros"
   trackOpening: false
   trackEntrepreneur: false
@@ -342,8 +382,8 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   surname: "d’Antoine"
   title: "Senior Security Researcher"
   company: "Trail of Bits"
-  sharedImg: true
-  thumbnailUrl: /supporters/sophia_d_antoine.jpg
+  sharedImg: false
+  thumbnailUrl: sophia_d_antoine.jpg
   twitter: "Calaquendi44"
   trackOpening: false
   trackEntrepreneur: false
@@ -356,8 +396,8 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   title: "Data Security Czar"
   company: "Flatiron Health"
   isRockstar: true
-  sharedImg: true
-  thumbnailUrl: /supporters/kelly_lum.jpg
+  sharedImg: false
+  thumbnailUrl: kelly_lum.jpg
   twitter: "aloria"
   trackOpening: false
   trackEntrepreneur: false
@@ -369,8 +409,8 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   surname: "Evron"
   title: "Founder and CEO"
   company: "Cymmetria"
-  sharedImg: true
-  thumbnailUrl: /supporters/gadi_evron.jpg
+  sharedImg: false
+  thumbnailUrl: gadi_evron.jpg
   twitter: "gadievron"
   trackOpening: false
   trackEntrepreneur: false
@@ -383,8 +423,8 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   title: "Assistant Professor"
   company: "NYU Tandon"
   isRockstar: true
-  sharedImg: true
-  thumbnailUrl: /supporters/brendan_dolan_gavitt.jpg
+  sharedImg: false
+  thumbnailUrl: brendan_dolan_gavitt.jpg
   twitter: "moyix"
   trackOpening: false
   trackEntrepreneur: false
@@ -397,8 +437,8 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   title: "Principal Engineer"
   company: "McAfee"
   isRockstar: true
-  sharedImg: true
-  thumbnailUrl: /supporters/ismael_valenzuela.jpg
+  sharedImg: false
+  thumbnailUrl: ismael_valenzuela.jpg
   twitter: "aboutsecurity"
   trackOpening: false
   trackEntrepreneur: false
@@ -411,8 +451,8 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   title: "Technology Fellow"
   company: "ACLU"
   isRockstar: true
-  sharedImg: true
-  thumbnailUrl: /supporters/leigh_honeywell.png
+  sharedImg: false
+  thumbnailUrl: leigh_honeywell.png
   twitter: "hypatiadotca"
   trackOpening: false
   trackEntrepreneur: false
@@ -425,8 +465,8 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   title:
   company:
   isRockstar: true
-  sharedImg: true
-  thumbnailUrl: /supporters/christina_morillo.jpg
+  sharedImg: false
+  thumbnailUrl: christina_morillo.jpg
   twitter: "divinetechygirl"
   trackOpening: false
   trackEntrepreneur: false
@@ -438,10 +478,99 @@ Kendra speaks regularly at Security related events and is an advocate for practi
   surname: "Becher"
   title:
   company:
-  sharedImg: true
-  thumbnailUrl: /supporters/nicole_becher.jpg
+  sharedImg: false
+  thumbnailUrl: nicole_becher.jpg
   twitter: "thedeadrobots"
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
   supporter: true
+-
+  id: 036
+  name: Dr. Richard
+  surname: Lovely
+  company: John Jay College
+  title: Intro on D4CS
+  bio: "Richard Lovely is Director of the John Jay College Digital Forensics and Cybersecurity Program and an Associate Professor in the Department of Sociology at John Jay College, CUNY. He earned his Ph.D. at Yale University and a B.A. from the University of Southern Florida. Prior to his academic career he served as a U.S. Army Signal Corps instructor, a counter-intelligence officer with the US Army with a specialty in electronic counter-measures, and as a special agent with the US Secret Service. He also has experience as an international management consultant and facilitator for executive leadership training. On the academic and policy side of his career, he has worked as a research associate for the judicial system in Connecticut and has done research on search and seizure law, causes of serious violence, and organizational innovation. As well, he has also developed software applications for data retrieval and mining for institutional research on student data. Currently he teaches seminars in cybercriminology (CRJ/FCM 727) and data analysis (CRJ 716). His current research interests concern cybercrime, credentialing in forensics and security, the relationship of online privacy to social stigma, and educational outcomes assessment."
+  thumbnailUrl: lovely.jpg
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 037
+  name: Quiessence
+  surname: Phillips
+  company: The City of New York
+  title: Deputy CISO
+  thumbnailUrl: quiessence_phillips.png
+  trackOpening: true
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 038
+  name: Runa
+  surname: Sandvik
+  company: The New York Times
+  title: Director of Information Security
+  isDynamic: true
+  bio:
+  thumbnailUrl: runa_sandvik.jpg
+  twitter: runasand
+  trackOpening: true
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 039
+  name: Galina
+  surname: Antova
+  company: Claroty
+  title: Co-Founder
+  thumbnailUrl: galina_antova.png
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
+-
+  id: 040
+  name: Roselle
+  surname: Safran
+  company: Rosint Labs & EIR at Antecedent Ventures
+  title: President
+  thumbnailUrl: roselle_safran.jpg
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
+-
+  id: 041
+  name: Loren
+  surname: Mahler
+  company: Dealy Mahler Strategies
+  title: Founder
+  thumbnailUrl: loren_mahler.jpg
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
+-
+  id: 042
+  name: Dr. Richard
+  surname: Lovely
+  company: John Jay College
+  title: Director of the John Jay College Digital Forensics & Cybersecurity Program
+  bio: "Richard Lovely is Director of the John Jay College Digital Forensics and Cybersecurity Program and an Associate Professor in the Department of Sociology at John Jay College, CUNY. He earned his Ph.D. at Yale University and a B.A. from the University of Southern Florida. Prior to his academic career he served as a U.S. Army Signal Corps instructor, a counter-intelligence officer with the US Army with a specialty in electronic counter-measures, and as a special agent with the US Secret Service. He also has experience as an international management consultant and facilitator for executive leadership training. On the academic and policy side of his career, he has worked as a research associate for the judicial system in Connecticut and has done research on search and seizure law, causes of serious violence, and organizational innovation. As well, he has also developed software applications for data retrieval and mining for institutional research on student data. Currently he teaches seminars in cybercriminology (CRJ/FCM 727) and data analysis (CRJ 716). His current research interests concern cybercrime, credentialing in forensics and security, the relationship of online privacy to social stigma, and educational outcomes assessment."
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/lovely.jpg
+  twitter:
+  isOrganizer: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false

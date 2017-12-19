@@ -2,28 +2,30 @@
 <section id="cfp-board" class="cf-board">
   <div class="col-lg-10 col-lg-offset-1 text-center">
       <h4 class="text-center animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">{{ site.cfpBoardTitle }}</h4>
-      {% for boardMember in site.data.cfp_board %}
-        <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
-            <div class="zoe-effect" data-toggle="modal" data-target="#boardMemberDetail-{{ boardMember.id }}">
-                <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/' | append: boardMember.thumbnailUrl }})">
-                  <div class="overlay solid-overlay"></div>
-                  <figcaption>
-                      <div class="col-md-8 col-xs-8 text-left">
-                          <h2 class="name">{{ boardMember.name }} <span>{{ boardMember.surname }}</span></h2>
-                          <div class="clearfix"></div>
-                          <span class="position">{{ boardMember.title }}</span>
-                      </div>
-                      {% if boardMember.twitter != null %}
-                          <a href="https://twitter.com/{{ boardMember.twitter }}" target="_blank">
-                              <svg class="icon icon-twitter" viewBox="0 0 30 32">
-                                  <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
-                              </svg>
-                          </a>
-                      {% endif %}
-                  </figcaption>
-              </figure>
-          </div>
-      </div>
+      {% for boardMember in site.data.people %}
+        {% if boardMember.cfpBoard == true %}
+          <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+              <div class="zoe-effect" data-toggle="modal" data-target="#boardMemberDetail-{{ boardMember.id }}">
+                  <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/' | append: boardMember.thumbnailUrl }})">
+                    <div class="overlay solid-overlay"></div>
+                    <figcaption>
+                        <div class="col-md-8 col-xs-8 text-left">
+                            <h2 class="name">{{ boardMember.name }} <span>{{ boardMember.surname }}</span></h2>
+                            <div class="clearfix"></div>
+                            <span class="position">{{ boardMember.title }}</span>
+                        </div>
+                        {% if boardMember.twitter != null %}
+                            <a href="https://twitter.com/{{ boardMember.twitter }}" target="_blank">
+                                <svg class="icon icon-twitter" viewBox="0 0 30 32">
+                                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        {% endif %}
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
 </section>

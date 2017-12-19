@@ -1,43 +1,45 @@
 <!-- Begin Organizers Modals -->
 <div class="modals" class="modals">
-	{% for organizerMember in site.data.organizers%}
-		<div class="modal fade text-left people-modal" id="organizerMemberDetail-{{ organizerMember.id }}" tabindex="-1" role="dialog" aria-labelledby="organizerMemberDetailLabel-{{ organizerMember.id }}" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-body">
-						<div class="close">
-							<svg class="icon icon-cross" viewBox="0 0 32 32">
-								<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"></use>
-							</svg>
-							<div class="close-mask" data-dismiss="modal"></div>
-						</div>
-						<div class="people-details">
-							<div class="row">
-								<div class="col-md-2 col-sm-2">
-									<div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: "/img/organizers/" | append: organizerMember.thumbnailUrl }})"></div>
-								</div>
-								<div class="col-md-10 col-sm-10 details">
-									<p class="name">{{ organizerMember.name }} {{ organizerMember.surname }}
-										{% if organizerMember.twitter != null %}
-											<span class="position">
-												<a href="https://twitter.com/{{ organizerMember.twitter }}" target="_blank">
-														<svg class="icon icon-twitter" viewBox="0 0 30 32">
-																<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
-														</svg>
-												</a>
-											</span>
+	{% for organizerMember in site.data.people%}
+		{% if organizerMember.isOrganizer == true %}
+			<div class="modal fade text-left people-modal" id="organizerMemberDetail-{{ organizerMember.id }}" tabindex="-1" role="dialog" aria-labelledby="organizerMemberDetailLabel-{{ organizerMember.id }}" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body">
+							<div class="close">
+								<svg class="icon icon-cross" viewBox="0 0 32 32">
+									<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"></use>
+								</svg>
+								<div class="close-mask" data-dismiss="modal"></div>
+							</div>
+							<div class="people-details">
+								<div class="row">
+									<div class="col-md-2 col-sm-2">
+										<div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: "/img/organizers/" | append: organizerMember.thumbnailUrl }})"></div>
+									</div>
+									<div class="col-md-10 col-sm-10 details">
+										<p class="name">{{ organizerMember.name }} {{ organizerMember.surname }}
+											{% if organizerMember.twitter != null %}
+												<span class="position">
+													<a href="https://twitter.com/{{ organizerMember.twitter }}" target="_blank">
+															<svg class="icon icon-twitter" viewBox="0 0 30 32">
+																	<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
+															</svg>
+													</a>
+												</span>
+											{% endif %}
+										</p>
+										{% if organizerMember.bio != null %}
+											<p class="about text-justify">{{ organizerMember.bio }}</p>
 										{% endif %}
-									</p>
-									{% if organizerMember.bio != null %}
-										<p class="about text-justify">{{ organizerMember.bio }}</p>
-									{% endif %}
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		{% endif %}
 	{% endfor %}
 </div>
 <!-- End Organizers Modals -->
