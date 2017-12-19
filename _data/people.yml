@@ -490,9 +490,16 @@
   name: Dr. Richard
   surname: Lovely
   company: John Jay College
-  title: Intro on D4CS
+  title: Director of the John Jay College Digital Forensics & Cybersecurity Program
   bio: "Richard Lovely is Director of the John Jay College Digital Forensics and Cybersecurity Program and an Associate Professor in the Department of Sociology at John Jay College, CUNY. He earned his Ph.D. at Yale University and a B.A. from the University of Southern Florida. Prior to his academic career he served as a U.S. Army Signal Corps instructor, a counter-intelligence officer with the US Army with a specialty in electronic counter-measures, and as a special agent with the US Secret Service. He also has experience as an international management consultant and facilitator for executive leadership training. On the academic and policy side of his career, he has worked as a research associate for the judicial system in Connecticut and has done research on search and seizure law, causes of serious violence, and organizational innovation. As well, he has also developed software applications for data retrieval and mining for institutional research on student data. Currently he teaches seminars in cybercriminology (CRJ/FCM 727) and data analysis (CRJ 716). His current research interests concern cybercrime, credentialing in forensics and security, the relationship of online privacy to social stigma, and educational outcomes assessment."
-  thumbnailUrl: lovely.jpg
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/lovely.jpg
+  twitter:
+  isOrganizer: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
@@ -553,24 +560,5 @@
   thumbnailUrl: loren_mahler.jpg
   trackOpening: false
   trackEntrepreneur: true
-  trackGeneral: false
-  supporter: false
--
-  id: 042
-  name: Dr. Richard
-  surname: Lovely
-  company: John Jay College
-  title: Director of the John Jay College Digital Forensics & Cybersecurity Program
-  bio: "Richard Lovely is Director of the John Jay College Digital Forensics and Cybersecurity Program and an Associate Professor in the Department of Sociology at John Jay College, CUNY. He earned his Ph.D. at Yale University and a B.A. from the University of Southern Florida. Prior to his academic career he served as a U.S. Army Signal Corps instructor, a counter-intelligence officer with the US Army with a specialty in electronic counter-measures, and as a special agent with the US Secret Service. He also has experience as an international management consultant and facilitator for executive leadership training. On the academic and policy side of his career, he has worked as a research associate for the judicial system in Connecticut and has done research on search and seizure law, causes of serious violence, and organizational innovation. As well, he has also developed software applications for data retrieval and mining for institutional research on student data. Currently he teaches seminars in cybercriminology (CRJ/FCM 727) and data analysis (CRJ 716). His current research interests concern cybercrime, credentialing in forensics and security, the relationship of online privacy to social stigma, and educational outcomes assessment."
-  isDynamic: false
-  sharedImg: true
-  thumbnailUrl: /organizers/lovely.jpg
-  twitter:
-  isOrganizer: true
-  isFounder: false
-  subTeam: true
-  cfpBoard: false
-  trackOpening: false
-  trackEntrepreneur: false
   trackGeneral: false
   supporter: false
