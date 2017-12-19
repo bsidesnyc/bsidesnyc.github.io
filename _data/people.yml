@@ -562,3 +562,17 @@
   trackEntrepreneur: true
   trackGeneral: false
   supporter: false
+-
+  id: 042
+  name: Amber
+  surname: Baldet
+  company: JPMorgan
+  title: Blockchain Program Lead
+  isDynamic: true
+  bio:
+  thumbnailUrl: amber_baldet.jpg
+  twitter: AmberBaldet
+  trackOpening: true
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
