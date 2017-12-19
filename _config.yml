@@ -268,7 +268,7 @@ speakersGeneralShowAll: true
 #-----------------------------------------------
 # Supporters List (Show all)
 #-----------------------------------------------
-supportersImage: "rockstar-supporters.jpg"
+supportersImage: "coding.jpg"
 supportersCount: 100
 supportersCountPerLine: 3
 supportersTitle: "Rockstar Supporters"
