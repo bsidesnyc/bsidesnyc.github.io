@@ -199,7 +199,12 @@ layout: compress
 
           var company = document.createElement('div');
           company.className = 'sub';
-          company.innerText = person.company;
+
+          if ( person.company ) {
+            company.innerText = person.company;
+          } else {
+            company.innerText = "\n";
+          }
 
           card.append(company);
 
