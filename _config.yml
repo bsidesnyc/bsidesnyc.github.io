@@ -272,8 +272,8 @@ supportersImage: "rockstar-supporters.jpg"
 supportersCount: 100
 supportersCountPerLine: 3
 supportersTitle: "Rockstar Supporters"
-supportersButtonText: "See all speakers"
-supportersShowButton: false
+supportersButtonText: "See all supporters"
+supportersShowButton: true
 supportersSort: true
 supportersShowAll: false
 
