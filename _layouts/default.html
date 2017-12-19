@@ -293,35 +293,6 @@ layout: compress
                     'supporters-img', {{ site.supportersSort }},
                     {{ site.supportersCount }},
                     {{ site.supportersCountPerLine }});
-
-
-            /*
-              var rockstarSupporters = [
-                  {% for supporter in site.data.supporters %}
-                      {% if supporter.isRockstar and supporter.thumbnailUrl != null %}
-                        {% if supporter.sharedImg == true %}
-                          {name: "{{ supporter.name }} {{ supporter.surname }}", company: "{{ supporter.company }}", image: "{{ site.baseurl | append: '/img/' | append: supporter.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
-                        {% else %}
-                          {name: "{{ supporter.name }} {{ supporter.surname }}", company: "{{ supporter.company }}", image: "{{ site.baseurl | append: '/img/supporters/' | append: supporter.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
-                        {% endif %}
-                      {% endif %}
-                  {% endfor %}
-              ];
-              rockstarSupporters.sort(function() {return 0.5 - Math.random()});
-              if(rockstarSupporters.length > 0) {
-                  var animationDelay = 1500,
-                      count = Math.min({{ site.rockstarSupportersCount }}, rockstarSupporters.length),
-                      colWidth = (count *2)/count;
-                  for(i=0; i<count; i++) {
-                      var clearfix = '<div class="clearfix visible-xs"></div>';
-                      if ((i)%2 != 0) {
-                          clearfix = ""
-                      }
-                      $('#rockstar-supporters-title').after('<div class="col-md-'+ colWidth +' col-xs-6 rockstar-supporters-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-supporter"><div class="flow-img img-circle rockstar-supporters-img" style="background-image: url(' + rockstarSupporters[i].image + ')"></div><div class="name">' + rockstarSupporters[i].name + '</div><div class="sub">' + rockstarSupporters[i].company + '</div></div></div>' + clearfix);
-                      animationDelay -= 500;
-                  }
-              }
-            */
             });
         /*
         =======================================
