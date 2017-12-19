@@ -233,7 +233,7 @@ showSessions: true
 #-----------------------------------------------
 speakersOpeningImage: "rockstar-supporters.jpg"
 speakersOpeningCount: 100
-speakersOpeningCountPerLine: 2
+speakersOpeningCountPerLine: 3
 speakersOpeningTitle: "Opening and Keynotes"
 speakersOpeningButtonText: "See all speakers"
 speakersOpeningShowButton: false
@@ -258,7 +258,7 @@ speakersEntrepreneurShowAll: true
 #-----------------------------------------------
 speakersGeneralImage: "rockstar-supporters.jpg"
 speakersGeneralCount: 6
-speakersGeneralCountPerLine: 3
+speakersGeneralCountPerLine: 4
 speakersGeneralTitle: "Technical Talks"
 speakersGeneralButtonText: "See all speakers"
 speakersGeneralShowButton: true
