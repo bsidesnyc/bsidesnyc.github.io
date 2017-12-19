@@ -1,86 +1,94 @@
 <!-- Begin Sessions Modals -->
 <div class="modals" class="modals">
-	{% for session in site.data.sessions %}
-		<div class="modal fade text-left people-modal" id="sessionDetail-{{ session.id }}" tabindex="-1" role="dialog" aria-labelledby="sessionDetailLabel-{{ session.id }}" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-body">
-						<div class="close">
-							<svg class="icon icon-cross" viewBox="0 0 32 32">
-								<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"></use>
-							</svg>
-							<div class="close-mask" data-dismiss="modal"></div>
-						</div>
-						<h4>{{ session.title }}</h4>
-						<p class="theme-description">{{ session.description }}</p>
-						{% if session.presentation %}
-							<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
-						{% endif %}
-						<hr>
-						<div class="people-details">
-							{% for speaker in site.data.people %}
-								{% for session_speaker in session.speakers %}
-									{% if session_speaker == speaker.id %}
-									<div class="row">
-										<div class="col-md-2 col-sm-2">
-											{% if speaker.sharedImg == true %}
-												<div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/' | append: speaker.thumbnailUrl }})"></div>
-											{% else %}
-												<div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>
-											{% endif %}
-										</div>
-										<div class="col-md-10 col-sm-10 details">
-											<p class="name">{{ speaker.name }} {{ speaker.surname }}
-												{% if speaker.title != null and speaker.company != null %}
-													<span class="position">{{ speaker.title }}, <i>{{ speaker.company }}</i></span>
-												{% elsif speaker.title != null %}
-													<span class="position">{{ speaker.title }}</span>
-												{% else %}
-													<span class="position">{{ speaker.company }}</span>
-												{% endif %}
-											</p>
-											<p class="about text-justify">
-												{% if speaker.twitter != null %}
-														<a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">
-																<svg class="icon icon-twitter" viewBox="0 0 30 32">
-																		<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
-																</svg>
-														</a>
-												{% endif %}
-											</p>
-											{% if speaker.bio != null %}
-												<p class="about text-justify">{{ speaker.bio }}</p>
-											{% endif %}
-										</div>
-									</div>
-									{% endif %}
-								{% endfor %}
-							{% endfor %}
-						</div>
-						<div class="people-details">
-							{% for partner in site.data.partners %}
-								{% for element in partner.elements %}
-									{% for session_partner in session.speakers %}
-										{% if session_partner.partnerName == element.name %}
-											<div class="row">
-												<div class="col-md-2 col-sm-2">
-														<div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/partners/' | append: element.imageUrl }})"></div>
-												</div>
-												<div class="col-md-10 col-sm-10 details">
-													<p class="name">{{ element.name }}</p>
-													<p class="about text-justify">{{ session_partner.description }}
-													</p>
-												</div>
-											</div>
-										{% endif %}
-									{% endfor %}
-								{% endfor %}
-							{% endfor %}
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	{% endfor %}
+  {% for session in site.data.sessions %}
+    <div class="modal fade text-left people-modal" id="sessionDetail-{{ session.id }}" tabindex="-1" role="dialog" aria-labelledby="sessionDetailLabel-{{ session.id }}" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="close">
+              <svg class="icon icon-cross" viewBox="0 0 32 32">
+                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"></use>
+              </svg>
+              <div class="close-mask" data-dismiss="modal"></div>
+            </div>
+            <h4>{{ session.title }}</h4>
+            <p class="theme-description">{{ session.description }}</p>
+            {% if session.presentation %}
+              <a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
+            {% endif %}
+            <hr>
+            <div class="people-details">
+              {% for speaker in site.data.people %}
+                {% for session_speaker in session.speakers %}
+                  {% if session_speaker == speaker.id %}
+                  <div class="row">
+                    <div class="col-md-2 col-sm-2">
+                      {% if speaker.sharedImg == true %}
+                        <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/' | append: speaker.thumbnailUrl }})"></div>
+                      {% else %}
+                        <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>
+                      {% endif %}
+                    </div>
+                    <div class="col-md-10 col-sm-10 details">
+                      <p class="name">{{ speaker.name }} {{ speaker.surname }}
+                        {% if speaker.title != null and speaker.company != null %}
+                          <span class="position">{{ speaker.title }}, <i>{{ speaker.company }}</i></span>
+                        {% elsif speaker.title != null %}
+                          <span class="position">{{ speaker.title }}</span>
+                        {% else %}
+                          <span class="position">{{ speaker.company }}</span>
+                        {% endif %}
+                      </p>
+                      <p class="about text-justify">
+                        {% if speaker.twitter != null %}
+                            <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">
+                                <svg class="icon icon-twitter" viewBox="0 0 30 32">
+                                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        {% endif %}
+                      </p>
+                      {% if speaker.bio != null %}
+                        <p class="about text-justify">{{ speaker.bio }}</p>
+                      {% endif %}
+                    </div>
+                  </div>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            </div>
+            <div class="people-details">
+              {% for partner in site.data.partners %}
+                {% for session_partner_id in session.partners %}
+                  {% if session_partner_id == partner.id %}
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        {% if partner.link != null %}
+                          <a href="{{ partner.link }}" target="_blank">
+                            <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/partners/' | append: partner.imageUrl }})"></div>
+                          </a>
+                        {% else %}
+                          <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/partners/' | append: partner.imageUrl }})"></div>
+                        {% endif %}
+                      </div>
+                      <div class="col-md-10 col-sm-10 details">
+                        <p class="name">{{ partner.villageName }}</p>
+                        {% if partner.nameLong %}
+                          <p class="position">{{ partner.nameLong }}</p>
+                        {% endif %}
+                        <p class="about text-justify">
+                          {{ partner.description }}
+                        </p>
+                      </div>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
 </div>
 <!-- End Speakers Modals -->
