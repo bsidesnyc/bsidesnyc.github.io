@@ -1,27 +1,23 @@
 <!-- Begin Partners Section -->
 <section id="partners" class="partners">
-    <div class="content-wrapper">
-        <div class="col-lg-10 col-lg-offset-1">
-            {% if page.permalink != '/' %}
-              <h4>{{ site.partnersTitle }}</h4>
-            {% else %}
-              <h3><b>{{ site.partnersTitle }}</b></h3>
-            {% endif %}
-            {% for partner in site.data.partners %}
-            {% if partnet.group != null %}
-              <h5>{{ partner.group }}</h5>
-            {% endif %}
-            <ul class="list-inline">
-                {% for element in partner.elements %}
-                <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
-                    <a href="{{ element.link }}" target="_blank">
-                        <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
-            {% endfor %}
-        </div>
+  <div class="content-wrapper">
+    <div class="col-lg-10 col-lg-offset-1">
+      {% if page.permalink != '/' %}
+        <h4>{{ site.partnersTitle }}</h4>
+      {% else %}
+        <h3><b>{{ site.partnersTitle }}</b></h3>
+      {% endif %}
+
+      <ul class="list-inline">
+        {% for partner in site.data.partners %}
+          <li>
+            <a href="{{ partner.link }}" target="_blank">
+                <img src="{{ site.baseurl }}/img/partners/{{ partner.imageUrl }}" title="{{ partner.description }}" alt="{{ partner.name }}">
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
+  </div>
 </section>
 <!-- End Partners Section -->

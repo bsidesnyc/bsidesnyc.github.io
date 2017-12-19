@@ -35,22 +35,11 @@
   description: "After party @ ..."
 -
   id: 005
-  title: "CTF"
+  title: "Villages"
   description:
-  partners:
-    - {name: "CTF", partnerName: "CTFd", description: ""}
--
-  id: 006
-  title: "Lock Picking"
-  description:
--
-  id: 007
-  title: "Electronics Workshop"
-  description:
--
-  id: 008
-  title: "Embedded Exploitation"
-  description:
+  village: true
+  partners: [002, 004, 005]
+
 -
   id: 009
   title: "Entrepreneur Track"

@@ -1,9 +1,48 @@
 -
-  group: "Partners"
-  elements:
-    - {name: "WSC", description: "Women\\’s Society of Cyberjutsu", link: "http://womenscyberjutsu.org", imageUrl: "wsc.png"}
-    - {name: "WISP", description: "Women in Security and Privacy", link: "https://www.wisporg.com", imageUrl: "wisp.png"}
-    - {name: "CTFd", description: "Capture the Flag", link: "https://ctfd.io", imageUrl: "ctfd.png"}
-    - {name: "NYC Cyber Command", description: "New York City Cyber Command", link: "#", imageUrl: "nyc_cyber_command.jpg"}
-    - {name: "TOOOL", description: "The Open Organisation of Lockpickers", link: "https://toool.us", imageUrl: "tool.png"}
-    - {name: "A1", description: "Alpha One Labs", link: "http://www.alphaonelabs.com", imageUrl: "a1.jpg"}
+  id: 000
+  name: WSC
+  nameLong: "Women’s Society of Cyberjutsu"
+  description:
+  link: http://womenscyberjutsu.org
+  imageUrl: wsc.png
+-
+  id: 001
+  name: WISP
+  nameLong: "Women in Security and Privacy"
+  description:
+  link: https://www.wisporg.com
+  imageUrl: wisp.png
+-
+  id: 002
+  name: CTFd
+  nameLong:
+  villageName: "Capture the Flag"
+  description: "Think you have skillz? This year's CTF is being run by the awesome folks over at Jet.com ."
+  link: https://ctfd.io
+  imageUrl: ctfd.png
+-
+  id: 003
+  name: NYC Cyber Command
+  nameLong: "New York City Cyber Command"
+  description:
+  link:
+  imageUrl: nyc_cyber_command.jpg
+-
+  id: 004
+  name: TOOOL
+  nameLong: "The Open Organisation of Lockpickers"
+  villageName: "Lock Pick Village"
+  description: "Want to tinker with locks and tools the likes of which you've only seen in movies featuring police, spies, and secret agents? Then come on by the Lockpick Village, run by The Open Organisation Of Lockpickers, where you will have the opportunity to learn hands-on how the fundamental hardware of physical security operates and how it can be compromised."
+  link: https://toool.us
+  imageUrl: tool.png
+-
+  id: 005
+  name: A1
+  nameLong: "Alpha One Labs"
+  villageName: "Electronics Workshop"
+  description: "Our friends over at Alpha One Labs will be out in full force teaching the basics of electronics and soldering! We'll have soldering irons stations set up so you can build your very own kit, and the a fastest solder competition for a TV-B Gone! Get the solder flowing and learn the core components of electronics at the Electronics workshop!
+  <br />
+  <br />
+  Alpha One Labs is a New York State Certified Educational Non Profit Organization and is a hackerspace was founded in July 2009-  aiming to provide a fun, tool rich space for users of all ages and interests to work on projects together."
+  link: http://www.alphaonelabs.com
+  imageUrl: a1.jpg
