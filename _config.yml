@@ -25,7 +25,7 @@ title: "BSidesNYC"
 email: "bsides@bsidesnyc.org"
 twitterAccount: "@bsidesnyc"
 description: "BSides NYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community, and we truly strive to keep information free."
-url: "https://bsidesnyc.github.io" #bsidesnyc.org
+url: "https://bsidesnyc.org" #https://bsidesnyc.github.io
 timezone: "America/New_York"
 conYear: "2018"
 previousSponsorCount: "13"
@@ -41,7 +41,7 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "https://bsidesnyc.org", text: "BSidesNYC"}
+   - {permalink: "/", text: "BSidesNYC"}
    - {link: "http://www.securitybsides.com", text: "Security BSides"}
  -
   title: "Contacts"
@@ -101,7 +101,7 @@ aboutBlock:
 #-----------------------------------------------
 cfpTitle: "Call For Papers"
 cfpBoardTitle: "CFP Board"
-cfpUrl: "https://bsidesnyc.org/cfp" #CHANGE
+cfpUrl: "/cfp/"
 cfpOpenDate: "August 08, 2017"
 cfpCloseDate: "November 06, 2017"
 cfpAcceptanceDate: "December 06, 2017"
@@ -322,8 +322,8 @@ ticketsText: "Unable to expense other, costly conferences?
 No worries, at BSidesNYC we strive to make the cost of attendance free."
 ticketsUpdateText: "Our first round of tickets sold out! Stay tuned for updates on additional opportunities to grab one."
 ticketsButtons:
- - {link: "https://bsidesnyc.org/registration/", text: "Get Tickets!", id: "tickets_round_one"}
- - {link: "https://bsidesnyc.org/registration/", text: "Get Tickets!", id: "tickets_round_two"}
+ - {permalink: "/registration/", text: "Get Tickets!", id: "tickets_round_one"}
+ - {permalink: "/registration/", text: "Get Tickets!", id: "tickets_round_two"}
 
 #-----------------------------------------------
 # Tweets Feed
