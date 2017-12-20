@@ -17,6 +17,7 @@
     - {name: "Syncurity", description: "syncurity", link: "https://www.syncurity.net", imageUrl: "syncurity.png"}
     - {name: "tCell", description: "tCell", link: "https://www.tcell.io", imageUrl: "tcell.png"}
     - {name: "Cybereason", description: "Cybereason", link: "https://www.cybereason.com", imageUrl: "cybereason.png"}
+    - {name: "MongoDB", description: "MongoDB", link: "https://www.mongodb.com", imageUrl: "mongodb.jpg"}
 -
   group: "Silver Sponsors"
   elements:
