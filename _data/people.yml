@@ -196,8 +196,8 @@
   name: Brandon
   surname: Arvanaghi
   company: Gemini
-  title:
-  bio:
+  title: Security Engineer
+  bio: "Brandon Arvanaghi is a security engineer at Gemini. Before Gemini, Brandon was a security consultant at Mandiant. Brandon has written tools to detect webshells, obfuscated malware, and to evade sandboxes in every language. He is the author of SessionGopher, CheckPlease, and a contributor to PowerShell Empire. Prior to working in the security industry, Brandon conducted research on automated attack plan generation at Vanderbilt University."
   thumbnailUrl: brandon_arvanaghi.png
   twitter: Arvanaghi
   trackOpening: false
@@ -209,9 +209,9 @@
   name: Andrew
   surname: Johnston
   company: Mandiant
-  title:
-  bio:
-  thumbnailUrl:
+  title: Proactive Consultant
+  bio: "Andrew Johnston is a proactive consultant with Mandiant, a division of FireEye. His work focuses on gaining access to critical places and systems through covert tactics. Andrew also is the lead researcher of a team at Fordham University focused on using artificial intelligence to solve problems in the counterterrorism and national defense sphere. He holds a bachelor's degree from Fordham University with a dual major in computer science and applied mathematics."
+  thumbnailUrl: andrew_johnston.png
   twitter:
   trackOpening: false
   trackEntrepreneur: false
