@@ -4,7 +4,7 @@
   tracks:
     - {title: "Track 1 (L.63)", color: "#90be4e"}
     - {title: "Track 2 (L.76)", color: "#03a9f4"}
-    - {title: "Villages (L.61)", color: "#e91e63"}
+    - {title: "Track 3 (L.61)", color: "#e91e63"}
   timeslots:
     - {
     	startTime: "08:00",
