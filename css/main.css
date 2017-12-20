@@ -522,7 +522,8 @@ ol ol {
     padding-left: 0;
     list-style: none
 }
-.list-inline {
+.list-inline,
+.list-inline-large {
     padding-left: 0;
     list-style: none;
     margin-left: -5px
@@ -531,6 +532,11 @@ ol ol {
     display: inline-block;
     padding-left: 5px;
     padding-right: 5px
+}
+.list-inline-large>li {
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px
 }
 dl {
     margin-top: 0;
@@ -3621,10 +3627,19 @@ nav li a:hover {
 .sponsors .list-inline {
     margin-bottom: 65px
 }
-.sponsors .list-inline li {
+.sponsors .list-inline li  {
     width: 16%;
     max-width: 180px;
     margin: 13px 7px
+}
+.sponsors .list-inline-large {
+    margin-bottom: 100px
+}
+.sponsors .list-inline-large li  {
+    width: 16%;
+    max-width: 180px;
+    max-height: 180px;
+    margin: 20px
 }
 .sponsors img {
     width: 100%;

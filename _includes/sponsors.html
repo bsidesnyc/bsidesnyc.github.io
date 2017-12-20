@@ -1,24 +1,46 @@
 <!-- Begin Sponsors Section -->
 <section id="sponsors" class="partners">
-    <div class="content-wrapper">
-        <div class="col-lg-10 col-lg-offset-1">
-            <h3><b>{{ site.sponsorsTitle }}</b></h3>
-            {% for sponsor in site.data.sponsors %}
-            <h5>{{ sponsor.group }}</h5>
+  <div class="content-wrapper">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h3><b>{{ site.sponsorsTitle }}</b></h3>
+      {% for sponsor in site.data.sponsors %}
+        <h5>{{ sponsor.group }}</h5>
+        {% if sponsor.group == "Platinum Sponsors" %}
+          <ul class="list-inline-large">
+            {% for element in sponsor.elements %}
+              <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
+                  <a href="{{ element.link }}" target="_blank">
+                    <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
+                  </a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% elsif sponsor.group == "Gold Sponsors" %}
             <ul class="list-inline">
-                {% for element in sponsor.elements %}
+              {% for element in sponsor.elements %}
                 <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
                     <a href="{{ element.link }}" target="_blank">
-                        <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
+                      <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
                     </a>
                 </li>
-                {% endfor %}
+              {% endfor %}
             </ul>
+        {% else %}
+          <ul class="list-inline">
+            {% for element in sponsor.elements %}
+              <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
+                  <a href="{{ element.link }}" target="_blank">
+                    <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
+                  </a>
+              </li>
             {% endfor %}
-            {% if page.permalink != '/sponsors/' %}
-              <a href="{{ site.sponsorsUrl | prepend: site.baseurl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.sponsorsButton }}</a>
-            {% endif %}
-        </div>
+          </ul>
+        {% endif %}
+      {% endfor %}
+      {% if page.permalink != '/sponsors/' %}
+        <a href="{{ site.sponsorsUrl | prepend: site.baseurl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.sponsorsButton }}</a>
+      {% endif %}
     </div>
+  </div>
 </section>
 <!-- End Sponsors Section -->
