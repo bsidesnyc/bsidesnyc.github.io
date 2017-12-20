@@ -4,31 +4,33 @@
 -
   id: 998
   title: "Break"
-  place: "Hall"
+  location: "Atrium"
+  description:
   service: true
-  description: "The best time to talk with speakers and attendees"
 -
   id: 000
   title: "Registration/Coffee"
+  location: "Atrium"
   description:
-  speakers:
-  presentation:
+  service: true
 -
   id: 001
   title: "Opening Remarks"
   description: "Opening Remarks & Intro to D4CS by Dr. Lovely"
+  location: "Atrium"
   speakers: [036, 037]
 -
   id: 002
   title: "Lunch Break"
-  place: "Atrium"
+  location: "Atrium"
   description: "A complimentary lunch will be provided."
   service: true
 -
   id: 003
   title: "Closing Remarks"
   description:
-  presentation:
+  location: "Atrium"
+  service: true
 -
   id: 004
   title: "After Party"
@@ -44,7 +46,8 @@
   id: 009
   title: "Entrepreneur Track"
   description: "Career 0day is back for 2018! We’re pulling in Entrepreneurs from product and services startups, VCs and others to share their wisdom for those starting their own security company!"
-  speakers: [006, 008, 026, 039, 040, 041]
+  panel: true
+  speakers: [006, 008, 026, 039, 040, 041, 043]
 -
   id: 010
   title: "Keynote"

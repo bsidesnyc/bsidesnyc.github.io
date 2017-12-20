@@ -577,3 +577,17 @@
   trackEntrepreneur: false
   trackGeneral: false
   supporter: false
+-
+  id: 043
+  name: Irena
+  surname: Damsky
+  company: ThreatSTOP
+  title: VP Research
+  isDynamic: true
+  bio: "Irena Damsky is an Israeli security and intelligence researcher with a disturbing affection to cats and unicorns. When she is not busy watching cartoons she is the VP Research for ThreatSTOP running the security analysis team and making the internet safer for everyone. In the past she used to work for Check Point, reached a rank of Captain (now in reserve) in the Israeli Defense forces and even managed to earn both an Bsc and Msc in computer science."
+  thumbnailUrl: irena_damsky.jpg
+  twitter: damskyirena
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
