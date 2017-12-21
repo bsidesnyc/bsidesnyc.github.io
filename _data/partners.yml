@@ -56,3 +56,10 @@
   imageUrl: /sponsors/red_balloon.png
   sharedImg: true
   isSponsor: true
+-
+  id: 007
+  name: Hack NYC
+  nameLong:
+  description:
+  link: http://hacknyc.com
+  imageUrl: hacknyc.png
