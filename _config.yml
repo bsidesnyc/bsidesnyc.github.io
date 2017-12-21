@@ -244,7 +244,7 @@ speakersOpeningShowAll: true
 # Speakers Entrepreneur List
 #-----------------------------------------------
 speakersEntrepreneurImage: "rockstar-supporters.jpg"
-speakersEntrepreneurCount: 100
+speakersEntrepreneurCount: 6
 speakersEntrepreneurCountPerLine: 3
 speakersEntrepreneurTitle: "Entrepreneur Track"
 speakersEntrepreneurSubtitle: "Think of it as career 0-day :)"
@@ -258,7 +258,7 @@ speakersEntrepreneurShowAll: true
 #-----------------------------------------------
 speakersGeneralImage: "rockstar-supporters.jpg"
 speakersGeneralCount: 6
-speakersGeneralCountPerLine: 4
+speakersGeneralCountPerLine: 3
 speakersGeneralTitle: "Technical Talks"
 speakersGeneralButtonText: "See all speakers"
 speakersGeneralShowButton: true
@@ -269,7 +269,7 @@ speakersGeneralShowAll: true
 # Supporters List (Show all)
 #-----------------------------------------------
 supportersImage: "coding.jpg"
-supportersCount: 100
+supportersCount: 6
 supportersCountPerLine: 3
 supportersTitle: "Rockstar Supporters"
 supportersButtonText: "See all supporters"
