@@ -10,11 +10,21 @@
 
       <ul class="list-inline">
         {% for partner in site.data.partners %}
-          <li>
-            <a href="{{ partner.link }}" target="_blank">
-                <img src="{{ site.baseurl }}/img/partners/{{ partner.imageUrl }}" title="{{ partner.description }}" alt="{{ partner.name }}">
-            </a>
-          </li>
+          {% if partner.isSponsor != true %}
+            {% if partner.sharedImg %}
+            <li>
+              <a href="{{ partner.link }}" target="_blank">
+                  <img src="{{ site.baseurl }} | append: '/img/' | append: {{ partner.imageUrl }}" title="{{ partner.nameLong }}" alt="{{ partner.name }}">
+              </a>
+            </li>
+            {% else %}
+              <li>
+                <a href="{{ partner.link }}" target="_blank">
+                    <img src="{{ site.baseurl }}/img/partners/{{ partner.imageUrl }}" title="{{ partner.nameLong }}" alt="{{ partner.name }}">
+                </a>
+              </li>
+            {% endif %}
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
