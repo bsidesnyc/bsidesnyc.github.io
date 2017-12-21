@@ -65,10 +65,18 @@
                       <div class="col-md-2 col-sm-2">
                         {% if partner.link != null %}
                           <a href="{{ partner.link }}" target="_blank">
-                            <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/partners/' | append: partner.imageUrl }})"></div>
+                            {% if partner.sharedImg %}
+                              <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/' | append: partner.imageUrl }})"></div>
+                            {% else %}
+                              <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/partners/' | append: partner.imageUrl }})"></div>
+                            {% endif %}
                           </a>
                         {% else %}
-                          <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/partners/' | append: partner.imageUrl }})"></div>
+                          {% if partner.sharedImg %}
+                            <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/' | append: partner.imageUrl }})"></div>
+                          {% else %}
+                            <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/partners/' | append: partner.imageUrl }})"></div>
+                          {% endif %}
                         {% endif %}
                       </div>
                       <div class="col-md-10 col-sm-10 details">
