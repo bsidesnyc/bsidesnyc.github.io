@@ -240,7 +240,7 @@ speakersOpeningCountPerLine: 3
 speakersOpeningTitle: "Opening and Keynotes"
 speakersOpeningButtonText: "See all speakers"
 speakersOpeningShowButton: false
-speakersOpeningSort: false
+speakersOpeningSort: true
 speakersOpeningShowAll: true
 
 #-----------------------------------------------
@@ -251,9 +251,9 @@ speakersEntrepreneurCount: 6
 speakersEntrepreneurCountPerLine: 3
 speakersEntrepreneurTitle: "Entrepreneur Track"
 speakersEntrepreneurSubtitle: "Think of it as career 0-day :)"
-speakersEntrepreneurButtonText: "See all speakers"
-speakersEntrepreneurShowButton: false
-speakersEntrepreneurSort: false
+speakersEntrepreneurButtonText: "See all entrepreneurs"
+speakersEntrepreneurShowButton: true
+speakersEntrepreneurSort: true
 speakersEntrepreneurShowAll: true
 
 #-----------------------------------------------
