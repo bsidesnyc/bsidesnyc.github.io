@@ -9,31 +9,24 @@ layout: compress
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <meta name="author" content="Oleh Zasadnyy, GDG Lviv">
+    <meta name="author" content="@hiddenillusion">
     <meta name="description" content="{{ site.description }}">
     <meta name="keywords" content="{{ site.metaKeywords }}">
-    <meta name="google-site-verification" content="{{ site.siteVerification }}" />
     <link rel="canonical" href="{{ site.url }}">
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="{{ site.twitterAccount }}">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image:src" content="{{ site.socialImageSrcTwitter | prepend: site.baseurl | prepend: site.url }}">
-    <!-- Social: Facebook / Open Graph -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    <meta property="og:site_name" content="{{ site.title }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ site.url }}" />
-    <meta property="og:image" content="{{ site.socialImageSrcFacebook | prepend: site.baseurl | prepend: site.url }}" />
-    <meta property="og:description" content="{{ site.description }}" />
+    <meta name="twitter:image:src" content="{{ "/img/favicons/favicon.png" | prepend: site.baseurl }}">
 
     <title>{% if page.title %}{{ page.title }} &bull; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico" | prepend: site.baseurl }}">
 
     <meta name="theme-color" content="#2b5797">
 
-    <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <!-- update the versioning # below to force browsers to reload this CSS file, else some crappy rendering may occur in between -->
+    <link href="{{ "/css/main.css" | prepend: site.baseurl }}?v=0.1" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
