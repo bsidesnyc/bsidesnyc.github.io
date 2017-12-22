@@ -806,3 +806,22 @@
   trackEntrepreneur: true
   trackGeneral: false
   supporter: false
+-
+  id: 044
+  name: Mikala
+  surname: Vidal
+  company: Uplevel Security
+  title: Vice President of Marketing
+  bio: "Mikala Vidal is the vice president of marketing at Uplevel Security, an adaptive system of record and intelligence for modern security operations. In previous roles she’s helped cybersecurity companies like Cato Networks, Intralinks (acquired by Synchronoss), Exabeam, WatchDox (acquired by BlackBerry), NSFOCUS and Waterfall Security stand out in crowded markets, generate awareness, and gain market traction through targeted and effective storytelling. She is a data-driven marketer who believes that transparency and authenticity are instrumental in making a company and its marketing successful."
+  isDynamic: false
+  sharedImg: false
+  thumbnailUrl: mikala_vidal.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
