@@ -11,6 +11,7 @@
   twitter: hiddenillusion
   isOrganizer: true
   isFounder: true
+  subTeam: false
   cfpBoard: true
   trackOpening: false
   trackEntrepreneur: false
@@ -29,6 +30,7 @@
   twitter: brad_anton
   isOrganizer: true
   isFounder: true
+  subTeam: false
   cfpBoard: true
   trackOpening: false
   trackEntrepreneur: false
@@ -47,6 +49,7 @@
   twitter: bamchenry
   isOrganizer: true
   isFounder: true
+  subTeam: false
   cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
@@ -65,6 +68,7 @@
   twitter:
   isOrganizer: true
   isFounder: false
+  subTeam: true
   cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
@@ -82,6 +86,8 @@
   thumbnailUrl: /organizers/dave.png
   twitter:
   isOrganizer: true
+  isFounder: false
+  subTeam: true
   cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
@@ -98,6 +104,9 @@
   sharedImg: true
   thumbnailUrl: /cfp/jamie_levy.jpg
   twitter: gleeda
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
   cfpBoard: true
   trackOpening: false
   trackEntrepreneur: false
@@ -114,6 +123,9 @@
   sharedImg: true
   thumbnailUrl: /cfp/lenny_zeltser.jpg
   twitter: lennyzeltser
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
   cfpBoard: true
   trackOpening: false
   trackEntrepreneur: true
@@ -130,6 +142,9 @@
   sharedImg: true
   thumbnailUrl: /cfp/vladimir_wolstencroft.png
   twitter: false
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
   cfpBoard: true
   trackOpening: false
   trackEntrepreneur: false
@@ -146,6 +161,10 @@
   sharedImg: false
   thumbnailUrl: paul_vixie.jpg
   twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: true
   trackGeneral: true
@@ -158,8 +177,13 @@
   title: Technical director of red team services
   bio: "Robert Portvliet is technical director of red team services at Cylance with over 8 years’ experience in various disciplines of penetration testing. His focus is on embedded systems and wireless penetration testing and reverse engineering. Prior to joining Cylance, he was the network security service line lead for Foundstone and taught the ‘Ultimate Hacking: Wireless’ class at Blackhat 2011-2013"
   isDynamic: true
+  sharedImg: false
   thumbnailUrl: robert_portvliet.jpg
   twitter: rportvliet
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -171,8 +195,14 @@
   company: CrowdStrike
   title:
   bio:
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl:
   twitter: DFIR_Janitor
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -191,8 +221,13 @@
   <br />
   Dmitry has more than 17 years of experience in IT security across a wide variety of roles and is fluent in English, Spanish and Russian. He’s been working in analysis of targeted attacks for financial institutions, producing intelligence reports."
   isDynamic: true
+  sharedImg: false
   thumbnailUrl: dmitry_bestuzhev.jpg
   twitter: dimitribest
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -204,8 +239,14 @@
   company: Gemini
   title: Security Engineer
   bio: "Brandon Arvanaghi is a security engineer at Gemini. Before Gemini, Brandon was a security consultant at Mandiant. Brandon has written tools to detect webshells, obfuscated malware, and to evade sandboxes in every language. He is the author of SessionGopher, CheckPlease, and a contributor to PowerShell Empire. Prior to working in the security industry, Brandon conducted research on automated attack plan generation at Vanderbilt University."
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl: brandon_arvanaghi.png
   twitter: Arvanaghi
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -217,8 +258,14 @@
   company: Mandiant
   title: Proactive Consultant
   bio: "Andrew Johnston is a proactive consultant with Mandiant, a division of FireEye. His work focuses on gaining access to critical places and systems through covert tactics. Andrew also is the lead researcher of a team at Fordham University focused on using artificial intelligence to solve problems in the counterterrorism and national defense sphere. He holds a bachelor's degree from Fordham University with a dual major in computer science and applied mathematics."
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl: andrew_johnston.png
   twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -230,8 +277,14 @@
   company: Automatic Playbook Testing
   title:
   bio: "Julian Cohen is a risk philosopher. He has passion for creating thoughtful and effective security programs. Julian has been making a name for himself speaking about attackers and the necessity of focusing on offensive security tactics ever since he popped into this world. He is also putting all these ideas into practice at his startup, \"Automatic Playbook Testing.\" In a previous life, Julian was a super spy hacker and an urban explorer."
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl:
   twitter: HockeyInJune
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -243,8 +296,14 @@
   company: Zenefits
   title: CISO
   bio: "Justin Berman is the CISO of Zenefits, but he’s not your typical CISO.  Justin thinks very deeply about security concepts and processes that most take for granted.  Reflecting on every detail of his program allows him to make more informed decisions where it matters most.  Justin cares genuinely about the wellbeing of his team and the efficacy of his program.  In a previous life, Justin was a professional photographer and a professional chef."
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl:
   twitter: justinmberman
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -256,8 +315,14 @@
   company: MWR InfoSecurity
   title:
   bio:
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl:
   twitter: nmonkee
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -269,8 +334,14 @@
   company:
   title:
   bio: "Mauricio Velazco (@mvelazco) is a Peruvian, Infosec Geek who started his career as a penetration tester and moved to defense 5 years ago. He currently leads the Threat Management team at a financial services company in New York."
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl:
   twitter: mvelazco
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -286,8 +357,13 @@
   <br />
   Kendra speaks regularly at Security related events and is an advocate for practicing proper security hygiene. In her free time she enjoys drinking wine and memorizing movie lines."
   isDynamic: true
+  sharedImg: false
   thumbnailUrl: kendra_cooley.jpg
   twitter: 4n6Kendra
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -299,8 +375,14 @@
   company: MWR InfoSecurity
   title:
   bio:
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl:
   twitter: _sigil
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -312,8 +394,14 @@
   company: MWR InfoSecurity
   title:
   bio:
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl:
   twitter: ukstufus
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -325,8 +413,14 @@
   company:
   title:
   bio:
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl:
   twitter: RichardLethin
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -338,7 +432,14 @@
   company: Kaspersky Lab Latin America
   title: Security Analyst | Global Research and Analysis Team (GReAT)
   bio: "Santiago Pontiroli joined Kaspersky Lab as a Security Researcher in October 2013. His principal responsibilities include the analysis and investigation of security threats in the SOLA region (South of Latin America), web application security, the development of automatization tools stemming from threat intelligence studies and the reverse engineering of programs with malicious code."
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl: santiago_pontiroli.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -350,8 +451,14 @@
   company: The Celsus Advisory Group
   title:
   bio:
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl:
   twitter: Schouw
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: true
@@ -362,9 +469,15 @@
   surname: Shortridge
   company:
   title:
+  bio:
+  isDynamic: false
   sharedImg: false
   thumbnailUrl: kelly_shortridge.jpg
   twitter: swagitda_
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: true
   trackGeneral: false
@@ -374,12 +487,17 @@
   id: 027
   name: "Veronica"
   surname: "Valeros"
-  title: "Malware traffic researcher"
   company: "Cognitive Threat Analytics, Cisco"
-  isRockstar: true
+  title: "Malware traffic researcher"
+  bio:
+  isDynamic: true
   sharedImg: false
   thumbnailUrl: veronica_valeros.jpg
   twitter: "verovaleros"
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
@@ -388,11 +506,17 @@
   id: 028
   name: "Sophia"
   surname: "d’Antoine"
-  title: "Senior Security Researcher"
   company: "Trail of Bits"
+  title: "Senior Security Researcher"
+  bio:
+  isDynamic: false
   sharedImg: false
   thumbnailUrl: sophia_d_antoine.jpg
   twitter: "Calaquendi44"
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
@@ -401,12 +525,17 @@
   id: 029
   name: "Kelly"
   surname: "Lum"
-  title: "Data Security Czar"
   company: "Flatiron Health"
-  isRockstar: true
+  title: "Data Security Czar"
+  bio:
+  isDynamic: true
   sharedImg: false
   thumbnailUrl: kelly_lum.jpg
   twitter: "aloria"
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
@@ -415,11 +544,17 @@
   id: 030
   name: "Gadi"
   surname: "Evron"
-  title: "Founder and CEO"
   company: "Cymmetria"
+  title: "Founder and CEO"
+  bio:
+  isDynamic: false
   sharedImg: false
   thumbnailUrl: gadi_evron.jpg
   twitter: "gadievron"
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
@@ -428,12 +563,17 @@
   id: 031
   name: "Brendan"
   surname: "Dolan-Gavitt"
-  title: "Assistant Professor"
   company: "NYU Tandon"
-  isRockstar: true
+  title: "Assistant Professor"
+  bio:
+  isDynamic: true
   sharedImg: false
   thumbnailUrl: brendan_dolan_gavitt.jpg
   twitter: "moyix"
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
@@ -442,12 +582,17 @@
   id: 032
   name: "Ismael"
   surname: "Valenzuela"
-  title: "Principal Engineer"
   company: "McAfee"
-  isRockstar: true
+  title: "Principal Engineer"
+  bio:
+  isDynamic: true
   sharedImg: false
   thumbnailUrl: ismael_valenzuela.jpg
   twitter: "aboutsecurity"
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
@@ -456,12 +601,17 @@
   id: 033
   name: "Leigh"
   surname: "Honeywell"
-  title: "Technology Fellow"
   company: "ACLU"
-  isRockstar: true
+  title: "Technology Fellow"
+  bio:
+  isDynamic: true
   sharedImg: false
   thumbnailUrl: leigh_honeywell.png
   twitter: "hypatiadotca"
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
@@ -470,12 +620,17 @@
   id: 034
   name: "Christina"
   surname: "Morillo"
-  title:
   company:
-  isRockstar: true
+  title:
+  bio:
+  isDynamic: true
   sharedImg: false
   thumbnailUrl: christina_morillo.jpg
   twitter: "divinetechygirl"
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
@@ -484,11 +639,17 @@
   id: 035
   name: "Nicole"
   surname: "Becher"
-  title:
   company:
+  title:
+  bio:
+  isDynamic: false
   sharedImg: false
   thumbnailUrl: nicole_becher.jpg
   twitter: "thedeadrobots"
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
@@ -518,8 +679,15 @@
   surname: Phillips
   company: The City of New York
   title: Deputy CISO
+  bio:
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl: quiessence_phillips.png
   twitter: itsquiessence
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: true
   trackEntrepreneur: false
   trackGeneral: false
@@ -530,10 +698,15 @@
   surname: Sandvik
   company: The New York Times
   title: Director of Information Security
-  isDynamic: true
   bio:
+  isDynamic: true
+  sharedImg: false
   thumbnailUrl: runa_sandvik.jpg
   twitter: runasand
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: true
   trackEntrepreneur: false
   trackGeneral: false
@@ -544,7 +717,15 @@
   surname: Antova
   company: Claroty
   title: Co-Founder
+  bio:
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl: galina_antova.png
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: true
   trackGeneral: false
@@ -555,7 +736,15 @@
   surname: Safran
   company: Rosint Labs & EIR at Antecedent Ventures
   title: President
+  bio:
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl: roselle_safran.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: true
   trackGeneral: false
@@ -566,7 +755,15 @@
   surname: Mahler
   company: Dealy Mahler Strategies
   title: Founder
+  bio:
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl: loren_mahler.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: true
   trackGeneral: false
@@ -577,10 +774,15 @@
   surname: Baldet
   company: JPMorgan
   title: Blockchain Program Lead
-  isDynamic: true
   bio:
+  isDynamic: true
+  sharedImg: false
   thumbnailUrl: amber_baldet.jpg
   twitter: AmberBaldet
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: true
   trackEntrepreneur: false
   trackGeneral: false
@@ -591,10 +793,15 @@
   surname: Damsky
   company: ThreatSTOP
   title: VP Research
-  isDynamic: true
   bio: "Irena Damsky is an Israeli security and intelligence researcher with a disturbing affection to cats and unicorns. When she is not busy watching cartoons she is the VP Research for ThreatSTOP running the security analysis team and making the internet safer for everyone. In the past she used to work for Check Point, reached a rank of Captain (now in reserve) in the Israeli Defense forces and even managed to earn both an Bsc and Msc in computer science."
+  isDynamic: false
+  sharedImg: false
   thumbnailUrl: irena_damsky.jpg
   twitter: damskyirena
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: true
   trackGeneral: false
