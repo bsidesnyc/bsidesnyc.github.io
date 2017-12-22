@@ -234,14 +234,15 @@ showSessions: true
 #-----------------------------------------------
 # Speakers Opening List
 #-----------------------------------------------
-speakersOpeningImage: "rockstar-supporters.jpg"
-speakersOpeningCount: 100
+speakersOpeningImage:
+speakersOpeningCount: 6
 speakersOpeningCountPerLine: 3
 speakersOpeningTitle: "Opening and Keynotes"
 speakersOpeningButtonText: "See all speakers"
 speakersOpeningShowButton: false
 speakersOpeningSort: true
 speakersOpeningShowAll: true
+speakersOpeningShowAllOnIndex: false
 
 #-----------------------------------------------
 # Speakers Entrepreneur List
@@ -254,19 +255,21 @@ speakersEntrepreneurSubtitle: "Think of it as career 0-day :)"
 speakersEntrepreneurButtonText: "See all entrepreneurs"
 speakersEntrepreneurShowButton: true
 speakersEntrepreneurSort: true
-speakersEntrepreneurShowAll: true
+speakersEntrepreneurShowAll: false
+speakersEntrepreneurShowAllOnIndex: false
 
 #-----------------------------------------------
 # Speakers General List
 #-----------------------------------------------
-speakersGeneralImage: "rockstar-supporters.jpg"
+speakersGeneralImage:
 speakersGeneralCount: 6
 speakersGeneralCountPerLine: 3
 speakersGeneralTitle: "Technical Talks"
 speakersGeneralButtonText: "See all speakers"
 speakersGeneralShowButton: true
 speakersGeneralSort: true
-speakersGeneralShowAll: true
+speakersGeneralShowAll: false
+speakersGeneralShowAllOnIndex: false
 
 #-----------------------------------------------
 # Supporters List (Show all)
@@ -278,7 +281,8 @@ supportersTitle: "Rockstar Supporters"
 supportersButtonText: "See all supporters"
 supportersShowButton: true
 supportersSort: true
-supportersShowAll: false
+supportersShowAll: true
+supportersShowAllOnIndex: false
 
 #-----------------------------------------------
 # Sponsors

@@ -214,7 +214,7 @@ layout: compress
           return card;
         }
 
-        function buildCardSection(filter, divName, headShotClass, sort, configCount, configCountPerRow, showAll) {
+        function buildCardSection(filter, divName, headShotClass, sort, configCount, configCountPerRow, showAll, showAllOnIndex) {
             /* Build up the people applicable to this card section */
             var people = [];
             for ( var s=0; s<allPeople.length; s++ ) {
@@ -232,22 +232,31 @@ layout: compress
           if ( people.length > 0 ) {
               var card_div = document.getElementById(divName);
               var animationDelay = 0;
-              if ( showAll ) {
-                var count = Math.min(configCount, people.length);
-              } else {
-                if ( showAll) {
-                  var count = Math.min(6, people.length);
+              /*
+
+              `site.<section name>ShowAll` - should be used in pages other than /
+              `site.<section name>ShowAllOnIndex` - should be used to show all images on /
+              `site.<section name>GeneralCount` - value used if `site.<section name>ShowAll` is null
+
+              If you want all pictures to show on on Index,
+              then flip `showAllOnIndex` to _true_ . Otherwise,
+              `showAll` is used on a permalink by permalink basis
+              (other need to be added besides _supporters_ if warranted)
+              which will control how many images to display on pages
+              whose permalink != /
+              */
+              var permalink_text = document.documentURI;
+              if ( permalink_text.includes("/supporters/")) {
+                if ( showAll ) {
+                  var count = people.length;
                 } else {
-                  /*
-                  stupid way to check URI and show all images on page other
-                    than / ; rendering `showAll` only relevant on / .
-                  */
-                  var permalink_text = document.documentURI;
-                  if ( permalink_text.includes("/supporters/")) {
-                    var count = Math.min(configCount, people.length);
-                  } else {
-                    var count = Math.min(6, people.length);
-                  }
+                  var count = Math.min(configCount, people.length);
+                }
+              } else {
+                if ( showAllOnIndex ) {
+                  var count = people.length;
+                } else {
+                  var count = Math.min(configCount, people.length);
                 }
               }
 
@@ -279,8 +288,8 @@ layout: compress
                 'speakers-opening-img', {{ site.speakersOpeningSort }},
                 {{ site.speakersOpeningCount }},
                 {{ site.speakersOpeningCountPerLine }},
-                {{ site.speakersOpeningShowAll }});
-
+                {{ site.speakersOpeningShowAll }},
+                {{ site.speakersOpeningShowAllOnIndex }});
        /*
          For the Speakers Entrepreneur Section
        */
@@ -288,7 +297,8 @@ layout: compress
                 'speakers-entrepreneur-img', {{ site.speakersEntrepreneurSort }},
                 {{ site.speakersEntrepreneurCount }},
                 {{ site.speakersEntrepreneurCountPerLine }},
-                {{ site.speakersEntrepreneurShowAll }});
+                {{ site.speakersEntrepreneurShowAll }},
+                {{ site.speakersEntrepreneurShowAllOnIndex }});
 
        /*
          For the Speakers General Section
@@ -297,7 +307,8 @@ layout: compress
                 'speakers-general-img', {{ site.speakersGeneralSort }},
                 {{ site.speakersGeneralCount }},
                 {{ site.speakersGeneralCountPerLine }},
-                {{ site.speakersGeneralShowAll }});
+                {{ site.speakersGeneralShowAll }},
+                {{ site.speakersGeneralShowAllOnIndex }});
       {% endif %}
 
       {% if page.permalink == "/" or page.permalink == "/supporters/" %}
@@ -308,7 +319,8 @@ layout: compress
                   'supporters-img', {{ site.supportersSort }},
                   {{ site.supportersCount }},
                   {{ site.supportersCountPerLine }},
-                  {{ site.supportersShowAll }});
+                  {{ site.supportersShowAll }},
+                  {{ site.supportersShowAllOnIndex }});
       {% endif %}
       });
     </script>
