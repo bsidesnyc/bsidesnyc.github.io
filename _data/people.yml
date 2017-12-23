@@ -825,3 +825,41 @@
   trackEntrepreneur: true
   trackGeneral: false
   supporter: false
+-
+  id: 045
+  name: Kevin 
+  surname: Chung 
+  company: CTFd 
+  title: Founder
+  bio:
+  isDynamic: false
+  sharedImg: false
+  thumbnailUrl: kevin_chung.jpeg
+  twitter: kchungco
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
+-
+  id: 046
+  name: Nicole 
+  surname: Enslein
+  company: Sublime Communications
+  title: Founder and CEO
+  bio: "As CEO & Founder of Sublime Communications, Nicole Enslein has successfully launched brands, reinvented well-known brands, and created new brands and product categories for Fortune 500 companies. As the Agency of Record for Cylance, a leading cyber security company, she led the development of a multi-channel global advertising campaign, which in a single year generated incredible growth and recognition for the company. Over the course of the past year she has led the team to become the AOR for Eureka and Cyberforce, a cyber security master reseller, the media buying AOR for Mimecast, and AOR for Averon, a fully automated mobile security solution. She also works with other cyber security companies including ProtectWise and Optiv. Prior to Sublime Communications, as Director of National Advertising for UPS, she developed a new strategy to reposition and update the company. “What can Brown do for you?” became the campaign, which successfully supported the brand for years. Along the way she managed a diverse portfolio of brands for major companies including: Pfizer, GlaxoSmithKline, Johnson & Johnson, Wyeth, L’Oreal, Citibank, TD Ameritrade, Bayer, AstraZeneca, Ferring Pharmaceuticals, Andrew Jergens, Liz Claiborne, Brown-Forman, Ferrero Rocher, Waterford Wedgwood and Boar’s Head Provisions. She has also worked at many of the big agencies: J. Walter Thompson, Bozell, McCann-Erickson, Bates and Hill Holliday. Among her biggest successes was exceeding revenue projections for Pfizer Consumer Healthcare, launching a new category and product portfolio for the consumer healthcare division, as well as supporting existing brands Benadryl, Sudafed, PediaCare, Neosporin and Unisom. She worked on the EFFIE Award-winning campaign that introduced SmithKline’s NicoDerm CQ, catapulting it to category leadership. She also has strong product innovation expertise having patented technology for Pfizer."
+  isDynamic: false
+  sharedImg: false
+  thumbnailUrl: nicole_enslein.jpg
+  twitter: NEnslein
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
