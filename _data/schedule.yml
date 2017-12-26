@@ -2,9 +2,10 @@
   date: "2018-01-20"
   dateReadable: "January 20"
   tracks:
-    - {title: "Track 1 (L.63)", color: "#90be4e"}
-    - {title: "Track 2 (L.76)", color: "#03a9f4"}
-    - {title: "Track 3 (L.61)", color: "#e91e63"}
+    - {title: "Track 1", room: "L.63", color: "#3cb371"}
+    - {title: "Track 2", room: "L.76", color: "#03a9f4"}
+    - {title: "Entrepreneur Track", room: "L.61", color: "#e91e63"}
+    - {title: "Villages", room: "Moot Court", color: "#000000"}
   timeslots:
     - {
     	startTime: "08:00",
@@ -29,7 +30,7 @@
     - {
     	startTime: "10:00",
     	endTime: "10:45",
-    	sessionIds: [020,014,009]
+    	sessionIds: [020,014,009,005]
     }
     - {
     	startTime: "10:45",
@@ -39,7 +40,7 @@
     - {
         startTime: "11:00",
         endTime: "11:45",
-        sessionIds: [013,016,005]
+        sessionIds: [013,016,009,005]
     }
     - {
         startTime: "11:45",
@@ -49,17 +50,17 @@
     - {
         startTime: "13:00",
         endTime: "13:45",
-        sessionIds: [017,015,005]
+        sessionIds: [017,015,009,005]
     }
     - {
         startTime: "14:00",
         endTime: "14:45",
-        sessionIds: [012,023,005]
+        sessionIds: [012,023,009,005]
     }
     - {
         startTime: "15:00",
         endTime: "15:45",
-        sessionIds: [024,018,005]
+        sessionIds: [024,018,009,005]
     }
     - {
         startTime: "15:45",
@@ -69,12 +70,12 @@
     - {
         startTime: "16:00",
         endTime: "16:45",
-        sessionIds: [022,019,005]
+        sessionIds: [022,019,009,005]
     }
     - {
         startTime: "17:00",
         endTime: "17:45",
-        sessionIds: [025,021,005]
+        sessionIds: [025,021,009,005]
     }
     - {
         startTime: "17:45",
