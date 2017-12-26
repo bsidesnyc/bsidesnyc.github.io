@@ -34,7 +34,11 @@
 -
   id: 004
   title: "After Party"
-  description: "After party @ ..."
+  location: "Locaton T.B.D."
+  description: "Hosted by <a href=\"https://www.redballoonsecurity.com\" target=\"_blank\">Red Balloon Security</a>"
+  service: true
+  isHosted: true
+  imgUrl: /sponsors/red_balloon.png
 -
   id: 005
   title: "Villages"
