@@ -4,21 +4,19 @@
     {% for day in site.data.schedule %}
       <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">
         <!-- schedule top menu -->
-        <h4 class="schedule-table-heading">{{ day.dateReadable }}</h4>
+        <h4 class="schedule-table-heading">{{ day.date | date: "%B %d, %Y" }}</h4>
         <div class="timeslot track-header stick-header">
           <div class="track-header-label">Day {{ forloop.index }}</div>
-
           <div class="timeslot-elements flexbox-wrapper">
             {% for track in day.tracks %}
               {% assign trackColWidth = 12 | divided_by: forloop.length %}
-
               <div class="track-header-slot col-md-{{ trackColWidth }} flexbox-item-height hidden-xs">
-                <h5 class="track-header-title">{{ track.title }} {{ track.room }}</h5>
-                <p class="slot-detail track-room">{{ track.room }}</p>
+                <h5 class="track-header-title">{{ track.title }}</h5>
+                <p class="track-room">{{ track.room }}</p>
               </div>
             {% endfor %}
             <div class="track-header-slot col-xs-12 visible-xs">
-              <h5 class="slot-detail track-header-title track-room"></h5>
+              <h5 class="slot-detail track-header-title"></h5>
             </div>
           </div>
         </div>
@@ -43,7 +41,7 @@
                   {% if slot != 404 %}
                     {% for session in site.data.sessions %}
                       {% if slot == session.id and session.service == null %}
-                        <div id="session-{{ session.id }}" class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height" data-slot-detail="{{ day.tracks[slotIndex].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
+                        <div id="session-{{ session.id }}" class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height" data-slot-detail="{{ day.tracks[slotIndex].title }} ({{ day.tracks[slotIndex].room }})" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
                             <div class="color-line" style="background: {{ day.tracks[slotIndex].color }}"></div>
                             <div class="slot-content" style="border-right-color: {{ day.tracks[slotIndex].color }}">
                               {% if session.village != true and session.panel != true %}
@@ -101,7 +99,7 @@
                           </div>
                       <!-- Handle services -->
                       {% elsif slot == session.id and session.service != null %}
-                        <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height" data-slot-detail="{{ session.place }}">
+                        <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height" data-slot-detail="{{ session.location }}">
                           <div class="color-line"></div>
                           <div class="slot-content">
                             <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>

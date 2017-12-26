@@ -4618,6 +4618,12 @@ nav li a:hover {
     margin: 0;
     padding-right: 20px
 }
+.track-room {
+    font-size: 14px;
+    font-weight: 100;
+    margin: 0;
+    padding-right: 20px
+}
 .track-header-slot,
 .slot {
     padding: 10px 15px 10px;
@@ -5996,6 +6002,12 @@ nav li a:hover {
     .track-header-title {
         font-size: 18px
     }
+    .track-room {
+        font-size: 14px;
+        font-weight: 100;
+        margin: 0;
+        padding-right: 20px
+    }
     .track-header-slot,
     .slot {
         border-top: 0;
@@ -6013,7 +6025,7 @@ nav li a:hover {
         min-height: 90px;
         border-right-width: 5px;
         border-right-style: solid;
-        border-right-color: #ccc
+        border-right-color: #F4D03F
     }
     .slot-content:hover {
         -webkit-transform: translateY(0);
