@@ -4467,6 +4467,37 @@ nav li a:hover {
     display: inline-block;
     padding-right: 3px
 }
+.people-modal .partner-details .row {
+    margin-top: 20px
+}
+.people-modal .partner-details .partner-img {
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    height: 100px;
+    width: 120px;
+}
+.people-modal .partner-details .details {
+    padding-left: 30px
+}
+.people-modal .partner-details .name {
+    margin-bottom: 9px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #212121
+}
+.people-modal .partner-details .position {
+    font-weight: 300;
+    color: #757575
+}
+.people-modal .partner-details .social {
+    padding: 0;
+    list-style: none
+}
+.people-modal .partner-details .social li {
+    display: inline-block;
+    padding-right: 3px
+}
 .modal-ribbon-wrapper {
     margin-bottom: 5px
 }
@@ -5890,6 +5921,11 @@ nav li a:hover {
         font-size: 29px
     }
     .people-modal .people-details .people-img {
+        width: 120px;
+        height: 120px;
+        margin: 10px auto
+    }
+    .people-modal .people-details .partner-img {
         width: 120px;
         height: 120px;
         margin: 10px auto

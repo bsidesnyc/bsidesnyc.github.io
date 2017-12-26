@@ -57,7 +57,7 @@
                 {% endfor %}
               {% endfor %}
             </div>
-            <div class="people-details">
+            <div class="partner-details">
               {% for partner in site.data.partners %}
                 {% for session_partner_id in session.partners %}
                   {% if session_partner_id == partner.id %}
@@ -66,16 +66,16 @@
                         {% if partner.link != null %}
                           <a href="{{ partner.link }}" target="_blank">
                             {% if partner.sharedImg %}
-                              <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/' | append: partner.imageUrl }})"></div>
+                              <div class="partner-img" style="background-image: url({{ site.baseurl | append: '/img/' | append: partner.imageUrl }})"></div>
                             {% else %}
-                              <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/partners/' | append: partner.imageUrl }})"></div>
+                              <div class="partner-img" style="background-image: url({{ site.baseurl | append: '/img/partners/' | append: partner.imageUrl }})"></div>
                             {% endif %}
                           </a>
                         {% else %}
                           {% if partner.sharedImg %}
-                            <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/' | append: partner.imageUrl }})"></div>
+                            <div class="partner-img" style="background-image: url({{ site.baseurl | append: '/img/' | append: partner.imageUrl }})"></div>
                           {% else %}
-                            <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/partners/' | append: partner.imageUrl }})"></div>
+                            <div class="partner-img" style="background-image: url({{ site.baseurl | append: '/img/partners/' | append: partner.imageUrl }})"></div>
                           {% endif %}
                         {% endif %}
                       </div>
