@@ -193,11 +193,17 @@
   name: Paul
   surname: Jaramillo
   company: CrowdStrike
-  title:
-  bio:
+  title: Principal Consultant
+  bio: "Paul Jaramillo has over ten years of experience conducting incident response and enterprise security operations, including a career with the U.S. Department of Energy’s National Nuclear Security Administration. As a Principal Consultant based out of CrowdStrike’s St. Louis office, Paul participates in customer engagements ranging from breach response to proactive compromise and adversary assessments. Along with the Midwest office, Paul helps customers in taking the fight to the adversary.
+<br />
+<br />
+Prior to his work at CrowdStrike, Paul was Sr. Manager of IT Security for a Fortune 500 energy company. In this role, he led a global team responsible for incident response, digital forensics, IT security risk management, security operations, and security awareness. Paul also was responsible for building a 10 person, 24/7 global incident response capability at a Fortune 100 international manufacturer. In addition, he has spent time on the offensive side of security as a pen tester for a Fortune 10 conglomerate, as well as 10 years in the telecommunications industry.
+<br />
+<br /> 
+Paul has a Bachelors of Business Administration in Management Information Systems from the University of Oklahoma, which he attended as a National Merit and Regents scholarship recipient. Paul currently holds his CISSP and GCFA certification and has previously held EnCE, CCNA, and C|EH certifications. While working for the government, he held both DoD Top Secret and DoE Q clearances. Paul is also the founder of the St. Louis security conference ArchCON. Paul has most recently spoken at BsidesNOLA, ArchCon, BsidesSanDiego and the SANS Threat Hunting Summit."
   isDynamic: false
   sharedImg: false
-  thumbnailUrl:
+  thumbnailUrl: paul_jaramillo.jpg
   twitter: DFIR_Janitor
   isOrganizer: false
   isFounder: false
