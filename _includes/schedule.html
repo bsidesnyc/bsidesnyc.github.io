@@ -13,10 +13,12 @@
               {% assign trackColWidth = 12 | divided_by: forloop.length %}
 
               <div class="track-header-slot col-md-{{ trackColWidth }} flexbox-item-height hidden-xs">
-                <h5 class="track-header-title">{{ track.title }}</h5>
+                <h5 class="track-header-title">{{ track.title }} {{ track.room }}</h5>
+                <p class="slot-detail track-room">{{ track.room }}</p>
               </div>
             {% endfor %}
             <div class="track-header-slot col-xs-12 visible-xs">
+              <h5 class="slot-detail track-header-title track-room"></h5>
             </div>
           </div>
         </div>
@@ -107,9 +109,17 @@
                               <span class="service-location">{{ session.location }}</span>
                             {% endif %}
 
-                            {% if session.description != null %}
+                            {% if session.isHosted and session.description != null %}
+                              <ul class="slot-speakers">
+                                <li itemprop="host">
+                                  <div class="host-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/' | append: session.imgUrl }})"></div>
+                                </li>
+                                <li><p class="host-name">{{ session.description }}</p></li>
+                              </ul>
+                            {% elsif session.description != null %}
                               <p class="service-description">{{ session.description }}</p>
                             {% endif %}
+
                           </div>
                         </div>
                       {% endif %}
