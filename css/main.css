@@ -4626,6 +4626,7 @@ nav li a:hover {
 }
 .track-header-slot,
 .slot {
+    overflow: auto;
     padding: 10px 15px 10px;
     text-align: left;
     -webkit-transition: all 0.3s;
