@@ -72,10 +72,10 @@ navigationLinks:
 # - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/sponsors/", text: "Sponsors"}
- - {permalink: "/cfp/", text: "CFP"}
  - {permalink: "/registration/", text: "Tickets"}
  - {permalink: "/volunteers/", text: "Volunteer"}
-# - {permalink: "/ctf/", text: "CTF"}
+ - {permalink: "/cfp/", text: "CFP"}
+ - {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/contact/", text: "Contact"}
 #bottomNavigationLinks:
@@ -141,24 +141,24 @@ contactVolunteersMailingListText: "Looking to sign up as a volunteer? Head over 
 ctfTitle: "CTF"
 ctfAboutTitle: "Capture the Flag"
 enableCtf: false
-ctfRows:
- - {title: "CTF", image: "ctf-0.png", details: "Check back for details."} #CHANGE
+ctfHostedBy: "<a href=\"https://www.jet.com\" target=\"_blank\">Jet.com</a>, in collaboration with Hack The Box."
+ctfRules: ["The CTF is a single VM on a VPN network, hosted on <a href=\"https://www.hackthebox.eu\" target=\"_blank\">Hack The Box</a>'s upcoming CTF platform.",
+  "The CTF will start once the keynotes conclude. Players may set up their HTB CTF profiles prior; However, the CTF VM will not be started until after the ketnotes.",
+  "This is not a team-based CTF - each contestant will be given a single IP address and a unique *.ovpn file once you log into the CTF Platform.",
+  "The box contains <b>10 challenges</b> that include webapp and binary exploitation, and some crypto.",
+  "The top <b>3</b> players with the most flags at <b>17:00 ET</b> win.",
+  "Ties will be settled flag submission time."
+  ]
 
 # CTF Judges
-ctfJudgesImage: "judges.jpg"
+ctfJudgesImage: "ctf.jpg"
 ctfJudgesTitle: "Judges"
 
-# CTF Location
-ctfLocationBlockTitle: "Location"
-ctfLocationName: "..." #CHANGE
-ctfLocationLink: "#" #CHANGE
-
 # CTF Prizes
-ctfprizesTitle: "Prizes"
-ctfprizes:
- - {title: "2nd Place", image: "prize-2.png", info: "prize1"}
- - {title: "1nd Place", image: "prize-1.png", info: "prize2"}
- - {title: "3nd Place", image: "prize-3.png", info: "prize3"}
+ctfPrizesTitle: "Prizes"
+ctfPrizesInfo: "Each winner will have the ability to choose a <a href=\"https://hakshop.com/collections/hak5-field-kits\" target=\"_blank\">Hak5 Field Kit</a> of their choice."
+ctfPrizes:
+# - {title: "1nd Place", image: "kit1.jpg", info: "prize1"}
 
 #-----------------------------------------------
 # Event Intro

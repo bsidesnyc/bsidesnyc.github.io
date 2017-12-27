@@ -354,25 +354,6 @@ layout: compress
                 centerMap = new google.maps.LatLng({{ site.logisticsMapCenterCoordinates }}),
                 mobileCenterMap = new google.maps.LatLng({{ site.logisticsMapMobileCenterCoordinates }}),
                 icon = '{{ site.baseurl }}/img/other/map-marker.svg';
-        /*
-        =======================================
-        CTF JS
-        =======================================
-        */
-        {% elsif page.permalink == '/ctf/' %}
-            if ($(window).width() > 767) {
-                var googleMaps = 'ctf',
-                    eventPlace = new google.maps.LatLng({{ site.ctfPlaceCoordinates }}),
-                    centerMap = new google.maps.LatLng({{ site.ctfMapCenterCoordinates }}),
-                    mobileCenterMap = new google.maps.LatLng({{ site.ctfMapMobileCenterCoordinates }}),
-                    icon = '{{ site.baseurl }}/img/other/map-marker.svg';
-            } else {
-               var staticGoogleMaps = true,
-                eventPlaceCoordinates = '{{ site.ctfPlaceCoordinates | replace:' ','' }}',
-                centerMapCoordinates = '{{ site.ctfMapCenterCoordinates | replace:' ','' }}',
-                mobileCenterMapCoordinates = '{{ site.ctfMapMobileCenterCoordinates | replace:' ','' }}',
-                icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
-            }
         {% endif %}
     </script>
 

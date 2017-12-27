@@ -1,22 +1,27 @@
 <!-- Begin About CTF Section -->
-<section id="about-ctf" class="about-ctf image-section parallax" style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.ctfJudgesImage }});">
-    <div class="overlay solid-overlay"></div>>
-    <div class="content-wrapper">
-        <div class="col-md-8 col-md-offset-2">
-            <h3>{{ site.ctfAboutTitle }}</h3>
-            {% for row in site.ctfRows %}
-            {% assign check = forloop.index0 | modulo:2 %}
-            <div class="ctf-row {% if check == 0 %}float-left{% else %}float-right{% endif %} col-md-12">
-                <div class="ctf-img-wrapper animated hiding" data-animation="{% if check == 0 %}fadeInLeft{% else %}fadeInRight{% endif %}" data-delay="0">
-                    <img class="img-responsive" src="{{ site.baseurl }}/img/ctf/{{ row.image }}">
-                </div>
-                <div class="ctf-details animated hiding" data-animation="{% if check == 0 %}fadeInRight{% else %}fadeInLeft{% endif %}" data-delay="0">
-                    <!--<h4>{{ row.title }}</h4>-->
-                    <p>{{ row.details }}</p>
-                </div>
-            </div>
+<section id="about-ctf" class="about-ctf" style="background-color: white">
+  <div class="content-wrapper text-left">
+    <div class="col-md-8 col-md-offset-2">
+      <h3>{{ site.ctfAboutTitle }}</h3>
+      <h6>This years CTF is hosted by the awesome folks over at {{ site.ctfHostedBy }}</h6>
+      <br />
+      <h4>Rules</h4>
+      <div class="default-row text-left text-justify">
+        {% assign animationDelay = 0 %}
+        <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+          <div class="card">
+            <ul>
+            {% for rule in site.ctfRules %}
+              <li><p>{{ rule }}</p></li>
             {% endfor %}
+          </ul>
+          </div>
         </div>
+        {% assign animationDelay = animationDelay | plus:500 %}
+      </div>
+      <h4>{{ site.ctfPrizesTitle }}</h4>
+      <p>{{ site.ctfPrizesInfo }}</p>
     </div>
+  </div>
 </section>
 <!-- End About CTF Section -->
