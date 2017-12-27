@@ -86,7 +86,7 @@
   name: CTF
   nameLong:
   villageName: "Capture the Flag"
-  description: "Think you have skillz? This year's CTF is being run by the awesome folks over at Jet.com, in collaboration with Hack The Box."
+  description: "Think you have skillz? This year's CTF is being run by the awesome folks over at Jet.com, in collaboration with Hack The Box. Got your yellow glasses on and extra energry drinks handy? Head over to the <a href=\"https://bsidesnyc.org/ctf/\" target=\"_blank\">CTF</a> page for further details."
   link: https://www.hackthebox.eu
   imageUrl: /ctf/htb.png
   sharedImg: true
