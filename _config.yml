@@ -69,7 +69,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/about/", text: "About"}
-# - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/sponsors/", text: "Sponsors"}
  - {permalink: "/registration/", text: "Tickets"}
@@ -140,7 +140,6 @@ contactVolunteersMailingListText: "Looking to sign up as a volunteer? Head over 
 #-----------------------------------------------
 ctfTitle: "CTF"
 ctfAboutTitle: "Capture the Flag"
-enableCtf: false
 ctfHostedBy: "<a href=\"https://www.jet.com\" target=\"_blank\">Jet.com</a>, in collaboration with Hack The Box."
 ctfRules: ["The CTF is a single VM on a VPN network, hosted on <a href=\"https://www.hackthebox.eu\" target=\"_blank\">Hack The Box</a>'s upcoming CTF platform.",
   "The CTF will start once the keynotes conclude. Players may set up their HTB CTF profiles prior; However, the CTF VM will not be started until after the ketnotes.",
@@ -190,7 +189,6 @@ eventAddressCountry: "USA"
 eventStartTime: "2018-01-20T08:00"
 eventDoorTime: "09:00"
 eventEndTime: "2018-01-20T17:00"
-# @40.7709863,-73.9899653,17.38z
 eventPlaceCoordinates: "40.7709863, -73.9899653"
 mapCenterCoordinates: "40.7709863, -73.9899653"
 mapMobileCenterCoordinates: "40.7709863, -73.9899653"
