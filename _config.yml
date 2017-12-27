@@ -164,7 +164,7 @@ ctfprizes:
 # Event Intro
 #-----------------------------------------------
 eventImage: "nyc_skyline.jpg"
-eventTitle: "BSidesNYC 2018"
+eventTitle: "BSidesNYC"
 eventDate: "January 20, 2018"
 eventHost:
   - name: "D4CS @ John Jay College"
