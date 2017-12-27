@@ -2,31 +2,42 @@
   id: 000
   name: WSC
   nameLong: "Women’s Society of Cyberjutsu"
+  villageName:
   description:
   link: http://womenscyberjutsu.org
   imageUrl: wsc.png
+  sharedImg: false
+  isSponsor: false
 -
   id: 001
   name: WISP
   nameLong: "Women in Security and Privacy"
+  villageName:
   description:
   link: https://www.wisporg.com
   imageUrl: wisp.png
+  sharedImg: false
+  isSponsor: false
 -
   id: 002
   name: CTFd
   nameLong:
-  villageName: "Capture the Flag"
-  description: "Think you have skillz? This year's CTF is being run by the awesome folks over at Jet.com ."
+  villageName: "Visual CTF"
+  description: "Want to participate in a CTF, but don't want to miss out on talks? Try out our visual CTF!"
   link: https://ctfd.io
   imageUrl: ctfd.png
+  sharedImg: false
+  isSponsor: false
 -
   id: 003
   name: NYC Cyber Command
   nameLong: "New York City Cyber Command"
+  villageName:
   description:
   link:
   imageUrl: nyc_cyber_command.jpg
+  sharedImg: false
+  isSponsor: false
 -
   id: 004
   name: TOOOL
@@ -35,6 +46,8 @@
   description: "Want to tinker with locks and tools the likes of which you've only seen in movies featuring police, spies, and secret agents? Then come on by the Lockpick Village, run by The Open Organisation Of Lockpickers, where you will have the opportunity to learn hands-on how the fundamental hardware of physical security operates and how it can be compromised."
   link: https://toool.us
   imageUrl: tool.png
+  sharedImg: false
+  isSponsor: false
 -
   id: 005
   name: A1
@@ -46,6 +59,8 @@
   Alpha One Labs is a New York State Certified Educational Non Profit Organization and is a hackerspace was founded in July 2009-  aiming to provide a fun, tool rich space for users of all ages and interests to work on projects together."
   link: http://www.alphaonelabs.com
   imageUrl: a1.jpg
+  sharedImg: false
+  isSponsor: false
 -
   id: 006
   name: Red Balloon Security
@@ -60,6 +75,19 @@
   id: 007
   name: Hack NYC
   nameLong:
+  villageName:
   description:
   link: http://hacknyc.com
   imageUrl: hacknyc.png
+  sharedImg: false
+  isSponsor: false
+-
+  id: 008
+  name: CTF
+  nameLong:
+  villageName: "Capture the Flag"
+  description: "Think you have skillz? This year's CTF is being run by the awesome folks over at Jet.com, in collaboration with Hack The Box."
+  link: https://www.hackthebox.eu
+  imageUrl: /ctf/htb.png
+  sharedImg: true
+  isSponsor: false
