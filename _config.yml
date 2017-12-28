@@ -146,7 +146,7 @@ ctfRules: ["The CTF is a single VM on a VPN network, hosted on <a href=\"https:/
   "This is not a team-based CTF - each contestant will be given a single IP address and a unique *.ovpn file once you log into the CTF Platform.",
   "The box contains <b>10 challenges</b> that include webapp and binary exploitation, and some crypto.",
   "The top <b>3</b> players with the most flags at <b>17:00 ET</b> win.",
-  "Ties will be settled flag submission time."
+  "Ties will be settled by flag submission time."
   ]
 
 # CTF Judges
