@@ -250,7 +250,9 @@ img {
 .img-circle {
     border-radius: 50%
 }
-
+.img-circle-small {
+    border-radius: 20%
+}
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -3204,7 +3206,8 @@ nav li a:hover {
     background: 0
 }
 .about-details img {
-    width: 128px
+    max-width: 200px;
+    height: 125px
 }
 .about-details p {
     text-justify: auto;
@@ -4467,8 +4470,9 @@ nav li a:hover {
 }
 .people-modal .partner-details .partner-img {
     overflow: hidden;
+    background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     height: 100px;
     width: 120px;
 }
@@ -4679,6 +4683,22 @@ nav li a:hover {
 .service-description {
     margin-top: 15px
 }
+.img-circle-embedded {
+  padding: 5px;
+  font: bold 25px/100px Georgia, Serif;
+  color: #777;
+  background: #fff;
+  border: 5px solid #fff;
+  height: 100px;
+  width: 150px;
+  border-radius: 50px;
+  box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+}
+.about-ctf .ctf-host img {
+  padding: 5px;
+  height: 100px;
+  width: 150px;
+}
 .ctf-row {
     margin-bottom: 90px
 }
@@ -4704,7 +4724,6 @@ nav li a:hover {
 .ctf-details p {
     font-size: 16px
 }
-
 .default-row {
     margin-bottom: 90px
 }
@@ -4740,7 +4759,6 @@ nav li a:hover {
     float: left;
     text-align: left;
 }
-
 .judge {
     margin-bottom: 45px
 }
@@ -6142,5 +6160,5 @@ nav li a:hover {
     }
     .hidden-md {
         display: none !important
-
+    }
 }
