@@ -1,34 +1,33 @@
 <!-- Begin CFP Submissions List-->
+
 <section id="cfp" class="team">
-  <div class="text-center">
-    <h4 class="animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">CFP Submissions</h4>
+  <div class="col-lg-10 col-lg-offset-1 text-center">
+      <hr />
+      <h4>CFP Submissions</h4>
+      <hr />
+      {% assign cfp_close_time = site.cfpCloseDate | date: "%s" %}
+      {% assign current_time = 'now' | date: "%s "%}
 
-    <br />
-    {% assign cfp_close_time = site.cfpCloseDate | date: "%s" %}
-    {% assign current_time = 'now' | date: "%s "%}
+      {% if current_time > cfp_close_time %}
+        <h6>The CFP for BSidesNYC {{ site.conYear }} is now <b>closed</b>. Thanks to all who submitted!</h6>
+      {% else %}
+        <h6>The CFP for BSidesNYC {{ site.conYear }} is now <b>open</b>! Please use this <a href="{{ site.cfpUrl}}">form</a> to submit.</h6>
+      {% endif %}
 
-    {% if current_time > cfp_close_time %}
-      <h6>The CFP for BSidesNYC {{ site.conYear }} is now <b>closed</b>. Thanks to all who submitted!</h6>
-    {% else %}
-      <h6>The CFP for BSidesNYC {{ site.conYear }} is now <b>open</b>! Please use this <a href="{{ site.cfpUrl}}">form</a> to submit.</h6>
-    {% endif %}
-  </div>
+      <br />
 
-  <div class="col-lg-12 text-left">
-      {% assign animationDelay = 0 %}
-      <div class="col-lg-5 col-lg-offset-3 animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-          <div class="card">
-            <ul>
-              <li><p>{{ site.cfpDuration }} <u>{{ site.cfpOpenDate }}</u> until <u>{{ site.cfpCloseDate }}</u>.</p></li>
-            </ul>
-          </div>
-          <div class="card">
-            <ul>
-              <li><p>{{ site.cfpAcceptance }} <u>{{ site.cfpAcceptanceDate }}</u>.</p></li>
-            </ul>
-          </div>
+      <div class="default-row text-left text-justify">
+        <div class="card">
+          <ul>
+            <li><p>{{ site.cfpDuration }} <u>{{ site.cfpOpenDate }}</u> until <u>{{ site.cfpCloseDate }}</u>.</p></li>
+        </ul>
+        </div>
+        <div class="card">
+          <ul>
+            <li><p>{{ site.cfpAcceptance }} <u>{{ site.cfpAcceptanceDate }}</u>.</p></li>
+        </ul>
+        </div>
       </div>
-      {% assign animationDelay = animationDelay | plus:500 %}
   </div>
 </section>
 <!-- End CFP Submissions List -->

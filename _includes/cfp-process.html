@@ -1,38 +1,34 @@
 <!-- Begin CFP Process List-->
-<section id="cfp-process" class="team">
-  <div class="text-center">
-    <h4 class="text-center">CFP Process</h4>
+<section id="cfp-process" class="cf-board">
+  <div class="col-lg-10 col-lg-offset-1 text-center">
+      <hr />
+      <h4>CFP Process</h4>
+      <hr />
   </div>
 
-  <h5>CFP Review</h5>
-  <div class="default-row text-left">
-      {% assign animationDelay = 0 %}
-      <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-          <div class="card">
-            <ul>
-            {% for part in site.cfpProcessReviewText %}
-              <li><p>{{ part }}</p></li>
-            {% endfor %}
-          </ul>
-          </div>
+  <div class="col-lg-10 col-lg-offset-1 text-center">
+    <h5>CFP Review</h5>
+    <div class="default-row text-left text-justify">
+      <div class="card">
+        <ul>
+        {% for part in site.cfpProcessReviewText %}
+          <li><p>{{ part }}</p></li>
+        {% endfor %}
+      </ul>
       </div>
-      {% assign animationDelay = animationDelay | plus:500 %}
-  </div>
+    </div>
 
-  <h5>Accepted Speakers</h5>
+    <h5>Accepted Speakers</h5>
 
-  <div class="default-row text-left">
-      {% assign animationDelay = 0 %}
-      <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-          <div class="card">
-            <ul>
-            {% for part in site.cfpProcessAcceptedText %}
-              <li><p>{{ part }}</p></li>
-            {% endfor %}
-          </ul>
-          </div>
+    <div class="default-row text-left text-justify">
+      <div class="card">
+        <ul>
+        {% for part in site.cfpProcessAcceptedText %}
+          <li><p>{{ part }}</p></li>
+        {% endfor %}
+      </ul>
       </div>
-      {% assign animationDelay = animationDelay | plus:500 %}
+    </div>
   </div>
 </section>
 <!-- End CFP Process List -->

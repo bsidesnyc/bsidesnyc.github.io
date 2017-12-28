@@ -1,22 +1,21 @@
 <!-- Begin Contact Section -->
 <section id="contact" class="contact">
+  <div class="col-md-8 col-md-offset-2">
+    <h3 class="text-center">{{ site.contactTitle }}</h3>
     <div class="content-wrapper">
-        <div class="col-lg-16 col-lg-offset-2 col-md-8 col-md-offset-2">
-            <h3>{{ site.contactTitle }}</h3>
-            <div class="float-left animated hiding text-justify" data-animation="{% if check == 0 %}fadeInRight{% else %}fadeInLeft{% endif %}" data-delay="0">
-                  <p>{{ site.contactTextTwitter }}
-                    <a href="https://twitter.com/{{ site.twitterAccount }}" target="_blank">
-                        <svg class="icon icon-twitter" viewBox="0 0 30 32">
-                            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
-                        </svg>
-                    </a>
-                  {{ site.contactTextEmail}} <a href="mailto:{{ site.email }}">{{ site.email }}</a>. {{ site.contactMailingListText }}
-                    <br />
-                    <br />
-                  {{ site.contactVolunteersMailingListText }}
-                  </p>
-            </div>
-        </div>
+      <p class="text-left text-justify">
+        {{ site.contactTextTwitter }}
+          <a href="https://twitter.com/{{ site.twitterAccount }}" target="_blank">
+              <svg class="icon icon-twitter" viewBox="0 0 30 32">
+                  <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
+              </svg>
+          </a>
+        {{ site.contactTextEmail}} <a href="mailto:{{ site.email }}">{{ site.email }}</a>. {{ site.contactMailingListText }}
+          <br />
+          <br />
+        {{ site.contactVolunteersMailingListText }}
+      </p>
     </div>
+  </div>
 </section>
 <!-- End Contact Section -->

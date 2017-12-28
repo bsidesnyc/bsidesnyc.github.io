@@ -1,7 +1,6 @@
 <!-- Begin Registration Section -->
 <section id="registration" class="registration">
-  <div class="col-lg-16 col-lg-offset-2 col-md-8 col-md-offset-2">
-    <div class="float-left animated hiding text-justify" data-animation="{% if check == 0 %}fadeInRight{% else %}fadeInLeft{% endif %}" data-delay="0">
+  <div class="col-md-8 col-md-offset-2 text-justify">
       <p>{{ site.ticketsText }}</p>
 
       <br />
@@ -9,30 +8,31 @@
       {% assign ticket_round_two_open_time = site.ticketsRoundTwoOpenDate | date: "%s" %}
       {% assign current_time = 'now' | date: "%s "%}
 
-      {% if current_time > ticket_open_time %}
-        <p>Registration for BSidesNYC {{ site.conYear }} is now <b>open</b>!</p>
-        {% if site.ticketsOpen != null and site.ticketsOpen == false %}
-          <p>{{ site.ticketsUpdateText }}</p>
-        {% else %}
-          <p>Please use this link to get tickets:</p>
-          {% if ticket_round_two_open_time != null and ticket_round_two_open_time > current_time %}
-              {% for button in site.ticketsButtons %}
-                {% if button.id == "tickets_round_one" %}
-                  <a href="{% if button.link != null %} {{ button.link }} {% else %} {{ site.baseurl }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">{{ button.text }}</a>
-                {% endif %}
-              {% endfor %}
+      <div class="content-wrapper text-left text-justify">
+        {% if current_time > ticket_open_time %}
+          <p>Registration for BSidesNYC {{ site.conYear }} is now <b>open</b>!</p>
+          {% if site.ticketsOpen != null and site.ticketsOpen == false %}
+            <p>{{ site.ticketsUpdateText }}</p>
           {% else %}
-              {% for button in site.ticketsButtons %}
-                {% if button.id == "tickets_round_two" %}
-                  <a href="{% if button.link != null %} {{ button.link }} {% else %} {{ site.baseurl }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %} target="_blank" {% endif %}>{{ button.text }}</a>
-                {% endif %}
-              {% endfor %}
+            <p>Please use this link to get tickets:</p>
+            {% if ticket_round_two_open_time != null and ticket_round_two_open_time > current_time %}
+                {% for button in site.ticketsButtons %}
+                  {% if button.id == "tickets_round_one" %}
+                    <a href="{% if button.link != null %} {{ button.link }} {% else %} {{ site.baseurl }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">{{ button.text }}</a>
+                  {% endif %}
+                {% endfor %}
+            {% else %}
+                {% for button in site.ticketsButtons %}
+                  {% if button.id == "tickets_round_two" %}
+                    <a href="{% if button.link != null %} {{ button.link }} {% else %} {{ site.baseurl }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %} target="_blank" {% endif %}>{{ button.text }}</a>
+                  {% endif %}
+                {% endfor %}
+            {% endif %}
           {% endif %}
+        {% else %}
+          <p>Registration for BSidesNYC {{ site.conYear }} will be open on <b>{{ site.ticketsOpenDate }}</b>.</p>
         {% endif %}
-      {% else %}
-        <p>Registration for BSidesNYC {{ site.conYear }} will be open on <b>{{ site.ticketsOpenDate }}</b>.</p>
-      {% endif %}
-    </div>
+      </div>
   </div>
 </section>
 <!-- End Registration Section -->
