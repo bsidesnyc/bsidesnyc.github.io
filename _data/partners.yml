@@ -20,16 +20,6 @@
   isSponsor: false
 -
   id: 002
-  name: CTFd
-  nameLong:
-  villageName: "Visual CTF"
-  description: "Want to participate in a CTF, but don't want to miss out on talks? Try out our visual CTF!"
-  link: https://ctfd.io
-  imageUrl: ctfd.png
-  sharedImg: false
-  isSponsor: false
--
-  id: 003
   name: NYC Cyber Command
   nameLong: "New York City Cyber Command"
   villageName:
@@ -39,7 +29,7 @@
   sharedImg: false
   isSponsor: false
 -
-  id: 004
+  id: 003
   name: TOOOL
   nameLong: "The Open Organisation of Lockpickers"
   villageName: "Lock Pick"
@@ -49,7 +39,7 @@
   sharedImg: false
   isSponsor: false
 -
-  id: 005
+  id: 004
   name: A1
   nameLong: "Alpha One Labs"
   villageName: "Electronics Workshop"
@@ -62,7 +52,7 @@
   sharedImg: false
   isSponsor: false
 -
-  id: 006
+  id: 005
   name: Red Balloon Security
   nameLong: "Red Balloon Security"
   villageName: "Embedded Exploitation"
@@ -72,7 +62,7 @@
   sharedImg: true
   isSponsor: true
 -
-  id: 007
+  id: 006
   name: Hack NYC
   nameLong:
   villageName:
@@ -82,13 +72,23 @@
   sharedImg: false
   isSponsor: false
 -
-  id: 008
+  id: 007
   name: CTF
   nameLong:
   villageName: "Capture the Flag"
   description: "Think you have skillz? This year's CTF is being run by the awesome folks over at Jet.com, in collaboration with Hack The Box. Got your yellow glasses on and extra energry drinks handy? Head over to the <a href=\"https://bsidesnyc.org/ctf/\" target=\"_blank\">CTF</a> page for further details."
   link: https://www.hackthebox.eu
-  imageUrl: /ctf/htb.png
-  sharedImg: true
+  imageUrl: htb.png
+  sharedImg: false
   isSponsor: false
   hideOnPartners: true
+-
+  id: 008
+  name: CTFd
+  nameLong:
+  villageName: "Visual CTF"
+  description: "Want to participate in a CTF, but don't want to miss out on talks? Try out our visual CTF!"
+  link: https://ctfd.io
+  imageUrl: ctfd.png
+  sharedImg: false
+  isSponsor: false
