@@ -94,7 +94,7 @@ aboutTitle: "What is BSidesNYC?"
 aboutBlock:
  - {title: "Conference", image: "bsides_nyc_logo.jpg", text: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free." }
  - {title: "Villages", image: "tool.png", text: "Rather pick some locks or get hands on with some hardware hacking? We got ya covered." }
- - {title: "CTF", image: "ctfd.png", text: "Think you have skillz? Test them against our Capture the Flag for bragging rights and prizes!" }
+ - {title: "CTF", image: "htb.png", text: "Think you have skillz? This year we have two Capture the Flag challenges to help you gain bragging rights and win prizes!" }
 
 #-----------------------------------------------
 # CFP Block
@@ -141,6 +141,8 @@ contactVolunteersMailingListText: "Looking to sign up as a volunteer? Head over 
 ctfTitle: "CTF"
 ctfAboutTitle: "Capture the Flag"
 ctfHostedBy: "<a href=\"https://www.jet.com\" target=\"_blank\">Jet.com</a>, in collaboration with Hack The Box."
+ctfHostedByImage: "/sponsors/jet.png"
+ctfCollaboratedWithImage: "/partners/htb.png"
 ctfInfo: ["This is not a team-based CTF - each haxor for themselves",
   "The CTF is a single VM on a VPN network, hosted on <a href=\"https://www.hackthebox.eu\" target=\"_blank\">Hack The Box</a>'s upcoming CTF platform.",
   "The CTF will start once the keynotes conclude. Players may set up their HTB CTF profiles prior; However, the CTF VM will not be started until after the ketnotes.",
@@ -150,10 +152,7 @@ ctfInfo: ["This is not a team-based CTF - each haxor for themselves",
   "Ties will be settled by flag submission time."
   ]
 ctfRules: ["Official rules will be outlined closer to the start of the conference."]
-
-# CTF Judges
-ctfJudgesImage: "ctf.jpg"
-ctfJudgesTitle: "Judges"
+ctfImage: "ctf.jpg"
 
 # CTF Prizes
 ctfPrizesTitle: "Prizes"
