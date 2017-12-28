@@ -314,7 +314,7 @@ statisticBlock:
 subscribeImage: #"subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
 subscribeAction: "https://bsidesnyc.us11.list-manage.com/subscribe/post?u=0538b2c81e2e35a4635056f7f&amp;id=731c810915"
-subscribeInfo: "Registration will be open around December. Number of tickets are limited. Stay tuned!"
+subscribeInfo: "We'll only use your email for BSidesNYC announcements. We respect privacy, and don't provide anyone (including sponsors) with this type of information."
 
 #-----------------------------------------------
 # Registration | Tickets
