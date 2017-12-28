@@ -141,13 +141,15 @@ contactVolunteersMailingListText: "Looking to sign up as a volunteer? Head over 
 ctfTitle: "CTF"
 ctfAboutTitle: "Capture the Flag"
 ctfHostedBy: "<a href=\"https://www.jet.com\" target=\"_blank\">Jet.com</a>, in collaboration with Hack The Box."
-ctfRules: ["The CTF is a single VM on a VPN network, hosted on <a href=\"https://www.hackthebox.eu\" target=\"_blank\">Hack The Box</a>'s upcoming CTF platform.",
+ctfInfo: ["This is not a team-based CTF - each haxor for themselves",
+  "The CTF is a single VM on a VPN network, hosted on <a href=\"https://www.hackthebox.eu\" target=\"_blank\">Hack The Box</a>'s upcoming CTF platform.",
   "The CTF will start once the keynotes conclude. Players may set up their HTB CTF profiles prior; However, the CTF VM will not be started until after the ketnotes.",
-  "This is not a team-based CTF - each contestant will be given a single IP address and a unique *.ovpn file once you log into the CTF Platform.",
+  "All participants will be given a single IP address and a ovpn file, which can be obtained from within their control panel on HTB's CTF Platform.",
   "The box contains <b>10 challenges</b> that include webapp and binary exploitation, and some crypto.",
   "The top <b>3</b> players with the most flags at <b>17:00 ET</b> win.",
   "Ties will be settled by flag submission time."
   ]
+ctfRules: ["Official rules will be outlined closer to the start of the conference."]
 
 # CTF Judges
 ctfJudgesImage: "ctf.jpg"

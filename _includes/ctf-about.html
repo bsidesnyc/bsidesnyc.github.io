@@ -5,6 +5,20 @@
       <h3>{{ site.ctfAboutTitle }}</h3>
       <h6>This years CTF is hosted by the awesome folks over at {{ site.ctfHostedBy }}</h6>
       <br />
+      <h4>Details</h4>
+      <div class="default-row text-left text-justify">
+        {% assign animationDelay = 0 %}
+        <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+          <div class="card">
+            <ul>
+            {% for detail in site.ctfInfo %}
+              <li><p>{{ detail }}</p></li>
+            {% endfor %}
+          </ul>
+          </div>
+        </div>
+        {% assign animationDelay = animationDelay | plus:500 %}
+      </div>
       <h4>Rules</h4>
       <div class="default-row text-left text-justify">
         {% assign animationDelay = 0 %}
