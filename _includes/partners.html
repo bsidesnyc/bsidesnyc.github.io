@@ -10,7 +10,7 @@
 
       <ul class="list-inline">
         {% for partner in site.data.partners %}
-          {% if partner.isSponsor != true %}
+          {% if partner.isSponsor != true and partner.hideOnPartners != true %}
             {% if partner.sharedImg %}
             <li>
               <a href="{{ partner.link }}" target="_blank">

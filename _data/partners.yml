@@ -91,3 +91,4 @@
   imageUrl: /ctf/htb.png
   sharedImg: true
   isSponsor: false
+  hideOnPartners: true
