@@ -199,7 +199,7 @@
 <br />
 Prior to his work at CrowdStrike, Paul was Sr. Manager of IT Security for a Fortune 500 energy company. In this role, he led a global team responsible for incident response, digital forensics, IT security risk management, security operations, and security awareness. Paul also was responsible for building a 10 person, 24/7 global incident response capability at a Fortune 100 international manufacturer. In addition, he has spent time on the offensive side of security as a pen tester for a Fortune 10 conglomerate, as well as 10 years in the telecommunications industry.
 <br />
-<br /> 
+<br />
 Paul has a Bachelors of Business Administration in Management Information Systems from the University of Oklahoma, which he attended as a National Merit and Regents scholarship recipient. Paul currently holds his CISSP and GCFA certification and has previously held EnCE, CCNA, and C|EH certifications. While working for the government, he held both DoD Top Secret and DoE Q clearances. Paul is also the founder of the St. Louis security conference ArchCON. Paul has most recently spoken at BsidesNOLA, ArchCon, BsidesSanDiego and the SANS Threat Hunting Summit."
   isDynamic: false
   sharedImg: false
@@ -416,12 +416,12 @@ Paul has a Bachelors of Business Administration in Management Information System
   id: 023
   name: Richard
   surname: Lethin
-  company:
-  title:
-  bio:
+  company: Reservoir Labs
+  title: President
+  bio: "Richard Lethin is President at Reservoir Labs, a private research laboratory in New York City.  Reservoir performs R&D for in the area of high performance computing, which includes projects developing new technologies for high speed communication processing with applications to cyber security.  Some of these results are available as products, including the ENSIGN tensor decomposition tool and the R-Scope networks sensor.  Richard formed Reservoir after completing his Ph.D. at the MIT AI Laboratory in 1997, where for his thesis he contributed to the development and analysis of a massively parallel message-driven computing system called the J-Machine, under the supervision of Professor William Dally.  Prior to MIT, Richard worked as an engineer at the startup company Multiflow, founded by Dr. Josh Fisher, John O’Donnell and John Ruttenberg, that developed the world’s first of the now ubiquitous Very Large Instruction Word (VLIW) computer architectures, and where he was responsible for the floating point data paths. Richard is also Associate Professor (Adjunct) in Electrical Engineering at Yale, where he teaches courses including Computer Architecture for Cognitive Computing."
   isDynamic: false
   sharedImg: false
-  thumbnailUrl:
+  thumbnailUrl: richard_lethin.jpg
   twitter: RichardLethin
   isOrganizer: false
   isFounder: false
@@ -833,9 +833,9 @@ Paul has a Bachelors of Business Administration in Management Information System
   supporter: false
 -
   id: 045
-  name: Kevin 
-  surname: Chung 
-  company: CTFd 
+  name: Kevin
+  surname: Chung
+  company: CTFd
   title: Founder
   bio:
   isDynamic: false
@@ -852,7 +852,7 @@ Paul has a Bachelors of Business Administration in Management Information System
   supporter: false
 -
   id: 046
-  name: Nicole 
+  name: Nicole
   surname: Enslein
   company: Sublime Communications
   title: Founder and CEO
