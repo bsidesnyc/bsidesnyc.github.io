@@ -97,11 +97,11 @@
   name: NYC Mesh
   nameLong:
   villageName: "Mesh Networking"
-  description: "NYC Mesh is a community owned, neural network, which consists of Wi-Fi router "nodes" and "supernodes" spread throughout the city. The network connects directly to the internet backbone, so we do not rely on an ISP.
+  description: "NYC Mesh is a community owned, neural network, which consists of Wi-Fi router \"nodes\" and \"supernodes\" spread throughout the city. The network connects directly to the internet backbone, so we do not rely on an ISP.
   <br />
   <br />
   Have your attention yet? Stop by and learn more."
   link: http://nycmesh.net
-  imageUrl: ctfd.png
+  imageUrl: nyc_mesh.png
   sharedImg: false
   isSponsor: false
