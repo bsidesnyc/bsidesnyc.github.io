@@ -26,6 +26,9 @@
             {% endif %}
           {% endfor %}
       </div>
+      {% if site.ticketsNextReleaseDate %}
+        Next round of tickets released on <b>{{ site.ticketsNextReleaseDate }} ET</b>
+      {% endif %}
     </div>
     <a href="#about" class="explore">
         <svg class="icon icon-arrow-down" viewBox="0 0 32 32">

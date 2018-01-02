@@ -5,17 +5,21 @@
 
       <br />
       {% assign ticket_open_time = site.ticketsOpenDate | date: "%s" %}
-      {% assign ticket_round_two_open_time = site.ticketsRoundTwoOpenDate | date: "%s" %}
+      {% assign next_ticket_open_time = site.ticketsNextReleaseDate | date: "%s" %}
       {% assign current_time = 'now' | date: "%s "%}
 
       <div class="content-wrapper text-left text-justify">
         {% if current_time > ticket_open_time %}
           <p>Registration for BSidesNYC {{ site.conYear }} is now <b>open</b>!</p>
           {% if site.ticketsOpen != null and site.ticketsOpen == false %}
-            <p>{{ site.ticketsUpdateText }}</p>
+            {% if site.ticketsNextReleaseDate %}
+              <p>{{ site.ticketsNextReleaseText }}<b>{{ site.ticketsNextReleaseDate }} ET</b>!</p>
+            {% else %}
+              <p>{{ site.ticketsUpdateText }}</p>
+            {% endif %}
           {% else %}
             <p>Please use this link to get tickets:</p>
-            {% if ticket_round_two_open_time != null and ticket_round_two_open_time > current_time %}
+            {% if next_ticket_open_time != null and next_ticket_open_time > current_time %}
                 {% for button in site.ticketsButtons %}
                   {% if button.id == "tickets_round_one" %}
                     <a href="{% if button.link != null %} {{ button.link }} {% else %} {{ site.baseurl }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">{{ button.text }}</a>
