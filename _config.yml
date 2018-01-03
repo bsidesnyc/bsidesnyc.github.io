@@ -46,6 +46,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
+   - {permalink: "/contact/", text: "Contact Us"}
    - {link: "mailto:bsides@bsidesnyc.org", text: "bsides(at)bsidesnyc.org"}
  -
   title: "Policies"
@@ -77,7 +78,6 @@ navigationLinks:
  - {permalink: "/cfp/", text: "CFP"}
  - {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/contact/", text: "Contact"}
 #bottomNavigationLinks:
 # - {permalink: "/cfp/", text: "Become a speaker"}
 rightNavigationButtons:
