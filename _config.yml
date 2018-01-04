@@ -56,7 +56,7 @@ footerBlocks:
  -
   title: "Press"
   links:
-   - {permalink: "/#press", text: "Press"}
+   - {permalink: "/assets/BSidesNYC-2018-Press-Release.pdf", text: "Press Release"}
 
 #-----------------------------------------------
 # Head
