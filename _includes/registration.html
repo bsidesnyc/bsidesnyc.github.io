@@ -1,8 +1,8 @@
 <!-- Begin Registration Section -->
 <section id="registration" class="registration">
   <div class="col-md-8 col-md-offset-2 text-justify">
-      <p>{{ site.ticketsText }}</p>
-
+      <!-- make sure site.data.ticketsText has _2_ new lines per every 1 \n unless you want each line right under each other-->
+      <p>{{ site.ticketsText | newline_to_br }}</p>
       <br />
       {% assign ticket_open_time = site.ticketsOpenDate | date: "%s" %}
       {% assign next_ticket_open_time = site.ticketsNextReleaseDate | date: "%s" %}

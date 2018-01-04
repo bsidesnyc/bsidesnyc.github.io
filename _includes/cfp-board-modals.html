@@ -30,7 +30,8 @@
 											{% endif %}
 										</p>
 										{% if boardMember.bio != null %}
-											<p class="about text-justify">{{ boardMember.bio }}</p>
+											<!-- make sure each `bio` has _2_ new lines per every 1 \n unless you want each line right under each other-->
+											<p class="about text-justify">{{ boardMember.bio | newline_to_br }}</p>
 										{% endif %}
 									</div>
 								</div>

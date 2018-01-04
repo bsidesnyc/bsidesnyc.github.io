@@ -18,7 +18,8 @@
 										{% for session_speaker in session.speakers %}
 											{% if session_speaker == speaker.id %}
 												<h4>{{ session.title }}</h4>
-												<p class="text-justify theme-description">{{ session.description }}</p>
+												<!-- make sure each `description` has _2_ new lines per every 1 \n unless you want each line right under each other-->
+												<p class="text-justify theme-description">{{ session.description | newline_to_br }}</p>
 												{% if session.slides != null %}
 													<a class="theme-presentation" href="{{ session.slides }}" title="Presentation" target="_blank">Slides</a>
 												{% endif %}
@@ -56,7 +57,8 @@
 												{% endif %}
 											</p>
 											{% if speaker.bio != null %}
-												<p class="about text-justify">{{ speaker.bio }}</p>
+												<!-- make sure each `bio` has _2_ new lines per every 1 \n unless you want each line right under each other-->
+												<p class="about text-justify">{{ speaker.bio | newline_to_br }}</p>
 											{% endif %}
 										</div>
 									</div>

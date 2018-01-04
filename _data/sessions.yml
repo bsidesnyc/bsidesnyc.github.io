@@ -74,14 +74,14 @@
   id: 013
   title: "Open Up and Say 0x41414141: Attacking Medical Devices"
   description: "Network accessible medical devices are ubiquitous in today’s clinical environment. These devices can be of great aid to healthcare professionals in assessing, treating and monitoring a patient’s condition. However, they can also fall victim to a number of systemic vulnerabilities that can expose personal health information or PHI, compromise the integrity of patient data in transit, and affect the availability of the devices themselves.
-  <br />
-  <br />
+
+
   This talk looks at the methodology and approach to penetration testing of modern medical devices. It will provide an overview of the various stages of a medical device assessment, including discovery and analysis of a device’s remote and local attack surface, reverse engineering and exploitation of proprietary network protocols, vulnerability discovery in network services, compromising supporting systems, attacking common wireless protocols, exploitation of hardware debug interfaces and bus protocols and assessing proprietary wireless technologies.
-  <br />
-  <br />
+
+
   It will also cover a number of real world vulnerabilities that the speaker has discovered during medical device penetration testing assessments. These include weak cryptographic implementations, device impersonation and data manipulation vulnerabilities in proprietary protocols, unauthenticated database interfaces, hardcoded credentials/keys and other sensitive information stored in firmware/binaries and the susceptibility of medical devices to remote denial of service attacks.
-  <br />
-  <br />
+
+
   The talk will conclude with some suggestions on how some of the most common classes of medical device vulnerabilities might be remediated by vendors and also how hospitals and other healthcare providers can defend their medical devices in the meantime."
   speakers: [009]
   presentation:
@@ -107,17 +107,17 @@
   id: 017
   title: "Threat-Based Risk Management"
   description: "The security industry has been talking about powerful concepts like good threat intelligence and attacker cost for a long time now, but most organizations are not using these concepts in their security programs, causing them to waste money, time, and energy on efforts that do not stop real attackers.
-  <br />
-  <br />
+
+
   In this talk, we describe a security program built around adversary intelligence that actually matters.  We describe how this program generates more accurate and precise priorities and objectives. We demonstrate how these new risk profiles, attacker playbooks, and attacker cost models can help inform better controls, strategies, and policies.
-  <br />
-  <br />
+
+
   We focus on picking the controls that are most effective at reducing the risk of successful execution of the playbooks that attackers use everyday.  This is only possible with a security program built around attacker intelligence.
-  <br />
-  <br />
+
+
   We take a deep dive into the practicalities of implementation of these concepts at your organization.  What metrics matter to show to management, how this impacts hiring, and how this modifies core workflows in the security team.
-  <br />
-  <br />
+
+
   Finally, we will close with some of the concrete challenges we encountered in implementing this program and some suggestions on how to work around them."
   speakers: [014,015]
   presentation:
@@ -125,14 +125,14 @@
   id: 018
   title: "Taste the Rainbow(Teaming)"
   description: "Adversarial Simulation, Red Team, Threat Emulation, Blue Team, Targeted Attack Simulation, Purple Team or Gold Team - So many labels and buzzwords. No matter what you call it or whatever color shirt you wear / team you identify most with - this talk offers something for you; no matter the camp you are in.
-  <br />
-  <br />
+
+
   At MWR we've spent many years robbing banks, pulling off casino heists, breaching merchants, bringing down Critical National Infrastructure (CNI), flooding mines, stealing all the things and doxing big corps. But more importantly, we've also helped many of those clients make sure none of the stuff we did, could happen for real.
-  <br />
-  <br />
+
+
   This presentation will take you on a journey showing you how our TTP's have evolved over the past few years - why we've evolved them, what works now, what doesn't and why - we'll also give you insights into what's coming next. There will be takeaways for everyone - whether your looking to up your offensive game, or as a defender looking to get a heads up on whats gonna be hitting you soon (as well as what to do about it!).
-  <br />
-  <br />
+
+
   Having delivered assessments all around the world over several years; as part of and separate to regulatory frameworks such as CBEST, TIBER, iCAST, we've sparred with some heavy hitters and a lot of lessons have been learned - we'd like to share some of these with you. There might just be some entertaining tales too - like that one time we were fingered as a new and shiny Russian APT..."
   speakers: [016]
   presentation:
@@ -170,8 +170,8 @@
   id: 024
   title: "Threat hunting .NET malware with YARA"
   description: "YARA has recently included a module that enables researchers the creation of more fine grained rules for malware written for the .NET framework. These files contain valuable metadata embedded which can enable us to pinpoint a specific threat and reduce our number of false positives detections.
-  <br />
-  <br />
+
+
   This presentation will focus on the peculiarities of obtaining indicators of compromise from .NET malware samples and writing reliable YARA rules using its latest module. I’ll be showing real world examples and releasing a convenient tool that can query metadata information from large sets of .NET files"
   speakers: [024]
   presentation:
@@ -179,8 +179,8 @@
   id: 025
   title: "2FA was part of the solution, now it's part of the problem"
   description: "In recent years more services and people have moved to two-factor authentication. While everybody loves talking about the advantages of 2FA, little attention has been given to its downsides. Attackers have started adapting to ubiquitous 2FA and are finding new ways to take over accounts ranging anywhere from email to online banking and (crypto currency) trading services.
-  <br />
-  <br />
+
+
   In this talk we will show how attackers can exploit various 2FA and account recovery implementation issues to hijack accounts. We will also propose defensive measures for both architects and end-users."
   speakers: [025]
   presentation:

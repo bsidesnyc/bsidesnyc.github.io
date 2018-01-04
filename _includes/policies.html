@@ -4,12 +4,14 @@
         <div class="col-md-8 col-md-offset-2">
             <div class="text-left text-justify float-left col-md-12">
                 {% for policy in site.data.policies %}
-                 <h5>{{ policy.name }}</h5>
-                  <p>{{ policy.text }}
-                  </p>
+                  <h5>{{ policy.name }}</h5>
+                  <!-- make sure each `line` has _2_ new lines per every 1 \n unless you want each line right under each other-->
+                  {% for line in policy.text %}
+                    <p>{{ line | newline_to_br }}</p>
                   {% endfor %}
-                </div>
-            </div>
-        </div>
+                {% endfor %}
+              </div>
+          </div>
+    </div>
 </section>
 <!-- End Policies Section -->

@@ -195,11 +195,11 @@
   company: CrowdStrike
   title: Principal Consultant
   bio: "Paul Jaramillo has over ten years of experience conducting incident response and enterprise security operations, including a career with the U.S. Department of Energy’s National Nuclear Security Administration. As a Principal Consultant based out of CrowdStrike’s St. Louis office, Paul participates in customer engagements ranging from breach response to proactive compromise and adversary assessments. Along with the Midwest office, Paul helps customers in taking the fight to the adversary.
-<br />
-<br />
+
+
 Prior to his work at CrowdStrike, Paul was Sr. Manager of IT Security for a Fortune 500 energy company. In this role, he led a global team responsible for incident response, digital forensics, IT security risk management, security operations, and security awareness. Paul also was responsible for building a 10 person, 24/7 global incident response capability at a Fortune 100 international manufacturer. In addition, he has spent time on the offensive side of security as a pen tester for a Fortune 10 conglomerate, as well as 10 years in the telecommunications industry.
-<br />
-<br />
+
+
 Paul has a Bachelors of Business Administration in Management Information Systems from the University of Oklahoma, which he attended as a National Merit and Regents scholarship recipient. Paul currently holds his CISSP and GCFA certification and has previously held EnCE, CCNA, and C|EH certifications. While working for the government, he held both DoD Top Secret and DoE Q clearances. Paul is also the founder of the St. Louis security conference ArchCON. Paul has most recently spoken at BsidesNOLA, ArchCon, BsidesSanDiego and the SANS Threat Hunting Summit."
   isDynamic: false
   sharedImg: false
@@ -220,11 +220,11 @@ Paul has a Bachelors of Business Administration in Management Information System
   company: Kaspersky
   title: Head of Global Research and Analysis Team for Latin America
   bio: "Dmitry Bestuzhev serves as Head of Kaspersky Lab’s Global Research and Analysis Team for Latin America, where he oversees the anti-malware development and investigations of the company’s experts in the region. Dmitry joined Kaspersky Lab in 2007 as a Malware Analyst and was responsible for monitoring the local threat landscape and providing preliminary analyses before going on to become Senior Regional Researcher for the Latin American region in 2008. In 2010, he was appointed to his current role.
-  <br />
-  <br />
+
+
   In addition to supervising the work of the network of experts in Latin America, Dmitry’s current role also includes producing reports and forecasts for the region and is frequently sought out by international media and organizations for his expert commentary on IT security. Dmitry’s wide field of expertise covers everything from online fraud, through the use of social networking sites by cybercriminals, to corporate security and cyberwar and cyber espionage. Additionally, Dmitry participates in various educational initiatives throughout Latin America.
-  <br />
-  <br />
+
+
   Dmitry has more than 17 years of experience in IT security across a wide variety of roles and is fluent in English, Spanish and Russian. He’s been working in analysis of targeted attacks for financial institutions, producing intelligence reports."
   isDynamic: true
   sharedImg: false
@@ -359,8 +359,8 @@ Paul has a Bachelors of Business Administration in Management Information System
   company: MailChimp
   title: Senior Security Operations Engineer
   bio: "Kendra has over five years of experience in several areas of Information Security including user administration, security operations and compliance. She focuses primarily on Incident Response and user education. Kendra holds a Bachelor’s degree in Digital Forensics and the CISSP certification.
-  <br />
-  <br />
+
+
   Kendra speaks regularly at Security related events and is an advocate for practicing proper security hygiene. In her free time she enjoys drinking wine and memorizing movie lines."
   isDynamic: true
   sharedImg: false
