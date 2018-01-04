@@ -2,6 +2,7 @@
 
 - template : https://github.com/gdg-x/zeppelin
 - additional stock images are from Google Images, [unsplash](https://unsplash.com) & [pixabay](https://pixabay.com)
+- slack automatic invitation via [slack-invite-automation](https://github.com/outsideris/slack-invite-automation), heroku & Google reCaptcha
 
 ## Local Development
 
