@@ -18,6 +18,7 @@
     - {name: "tCell", description: "tCell", link: "https://www.tcell.io", imageUrl: "tcell.png"}
     - {name: "Cybereason", description: "Cybereason", link: "https://www.cybereason.com", imageUrl: "cybereason.png"}
     - {name: "MongoDB", description: "MongoDB", link: "https://www.mongodb.com", imageUrl: "mongodb.jpg"}
+    - {name: "Red Canary", description: "Red Canary", link: "https://www.redcanary.com", imageUrl: "red_canary.png"}    
 -
   group: "Silver Sponsors"
   elements:
