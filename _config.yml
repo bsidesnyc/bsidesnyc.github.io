@@ -56,7 +56,7 @@ footerBlocks:
  -
   title: "Press"
   links:
-   - {permalink: "/assets/BSidesNYC-2018-Press-Release.pdf", text: "Press Release"}
+   - {permalink: "/press/", text: "Press Release"}
 
 #-----------------------------------------------
 # Head
@@ -227,6 +227,12 @@ partnersTitle: "Partners"
 policiesTitle: "Policies"
 
 #-----------------------------------------------
+# Press
+#-----------------------------------------------
+pressTitle: "Press Release"
+pressReleaseFile: "/assets/BSidesNYC-2018-Press-Release.pdf"
+
+#-----------------------------------------------
 # Speakers List
 #-----------------------------------------------
 showSessions: true
@@ -325,7 +331,7 @@ subscribeInfo: "We'll only use your email for BSidesNYC announcements. We respec
 ticketsOpen: false
 ticketsOpenDate: "December 13, 2017 10:00:00"
 ticketsText: "Unable to expense other, costly conferences?
-<br />
+
 No worries, at BSidesNYC we strive to make the cost of attendance free."
 ticketsUpdateText: "Our first round of tickets sold out! Stay tuned for updates on additional opportunities to grab one."
 ticketsNextReleaseDate: "January 9th, 2018 10:00"

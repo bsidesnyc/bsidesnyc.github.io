@@ -1,0 +1,19 @@
+<!-- Begin Press Section -->
+<section id="press" class="press">
+  <div class="col-md-8 col-md-offset-2">
+    <h3 class="text-center">{{ site.pressTitle }}</h3>
+    <div class="content-wrapper">
+      <p class="text-left text-justify">
+        <!-- make sure site.data.press.yml has _2_ new lines per every 1 \n -->
+        {{ site.data.press | newline_to_br }}
+        <!-- Adding the EOF here instead of in site.data.press.yml -->
+        <br />
+        ###
+        <br />
+        <br />
+        A PDF version is also available <a href="{{ site.baseurl }}{{ site.pressReleaseFile }}" target="_blank">here</a>.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- End Press Section -->
