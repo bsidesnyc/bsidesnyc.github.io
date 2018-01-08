@@ -108,3 +108,13 @@
   imageUrl: nyc_mesh.png
   sharedImg: false
   isSponsor: false
+-
+  id: 010
+  name: NinjaJobs
+  nameLong:
+  villageName:
+  description:
+  link: https://ninjajobs.org
+  imageUrl: ninjajobs.png
+  sharedImg: false
+  isSponsor: false
