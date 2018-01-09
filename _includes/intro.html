@@ -1,6 +1,11 @@
 <!-- Begin Intro Section -->
 <section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.eventImage }}');">
     {% include navigation.html %}
+
+    {% assign current_time = 'now' | date: "%s "%}
+    {% assign cfp_close_time = site.cfpCloseDate | date: "%s" %}
+    {% assign next_ticket_open_time = site.ticketsOpenDate | date: "%s" %}
+
     <div class="overlay solid-overlay"></div>
     <div class="content-wrapper">
     <div class="jumbotron">
@@ -11,22 +16,20 @@
             {{ site.eventHost[0].link }}
           </br>
           {% for button in site.eventButtons %}
-            {% assign cfp_close_time = site.cfpCloseDate | date: "%s" %}
-            {% assign current_time = 'now' | date: "%s "%}
-
-            {% if current_time > cfp_close_time %}
-              {% if button.id == "volunteers" %}
-                <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
-              {% endif %}
-            {% elsif button.id == "cfp" %}
+            {% if current_time < cfp_close_time and button.id == "cfp" %}
               <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
-              {% endif %}
-            {% if button.id != "cfp" and button.id != "volunteers"%}
+            {% endif %}
+
+            {% if current_time < next_ticket_open_time and button.id == "tickets" %}
+              <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
+            {% endif %}
+
+            {% if button.id != "cfp" and button.id != "tickets" %}
               <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
             {% endif %}
           {% endfor %}
       </div>
-      {% if site.ticketsNextReleaseDate %}
+      {% if site.ticketsNextReleaseDate and current_time < next_ticket_open_time %}
         Next round of tickets released on <b>{{ site.ticketsNextReleaseDate }} ET</b>
       {% endif %}
     </div>
