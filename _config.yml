@@ -328,7 +328,7 @@ subscribeInfo: "We'll only use your email for BSidesNYC announcements. We respec
 # Registration | Tickets
 #-----------------------------------------------
 # flip this to make a quick change whether we have tickets open or closed
-ticketsOpen: true
+ticketsOpen: false
 ticketsOpenDate: "December 13, 2017 10:00:00"
 ticketsText: "Unable to expense other, costly conferences?
 
