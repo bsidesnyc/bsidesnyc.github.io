@@ -333,12 +333,12 @@ ticketsOpenDate: "December 13, 2017 10:00:00"
 ticketsText: "Unable to expense other, costly conferences?
 
 No worries, at BSidesNYC we strive to make the cost of attendance free."
-ticketsUpdateText: "Our first round of tickets sold out! Stay tuned for updates on additional opportunities to grab one."
-ticketsNextReleaseDate: "January 9th, 2018 10:00"
+ticketsUpdateText: "Aw snap - looks like all of our tickets were snatched up! Stay tuned for updates on additional opportunities to grab one."
+ticketsNextReleaseDate: "January 9th, 2018 10:00:00"
 ticketsNextReleaseText: "Didn't get a ticket during our first round? No need to pout - revisit this page for our next round of tickets on "
 # add EventBrite URL to `link` when `ticketsOpen` is set to `true`
 ticketsButtons:
- - {link: "/registration/", text: "Get Tickets!", id: "tickets_button_external"}
+ - {link: "https://bsidesnyc.eventbrite.com", text: "Get Tickets!", id: "tickets_button_external"}
 
 #-----------------------------------------------
 # Tweets Feed

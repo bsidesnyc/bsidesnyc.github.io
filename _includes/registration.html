@@ -4,21 +4,27 @@
       <!-- make sure site.data.ticketsText has _2_ new lines per every 1 \n unless you want each line right under each other-->
       <p>{{ site.ticketsText | newline_to_br }}</p>
       <br />
-      {% assign ticket_open_time = site.ticketsOpenDate | date: "%s" %}
-      <!-- need to add a check for site.ticketsNextReleaseDate for automatic displaying of ticket button-->
-      {% assign next_ticket_open_time = site.ticketsNextReleaseDate | date: "%s" %}
       {% assign current_time = 'now' | date: "%s "%}
+      {% assign ticket_open_time = site.ticketsOpenDate | date: "%s" %}
+
+      {% if site.ticketsNextReleaseDate == null %}
+        {% assign next_ticket_open_time = site.ticketsOpenDate | date: "%s" %}
+      {% else %}
+        {% assign next_ticket_open_time = site.ticketsNextReleaseDate | date: "%s" %}
+      {% endif %}
 
       <div class="content-wrapper text-left text-justify">
         {% if current_time > ticket_open_time %}
           <p>Registration for BSidesNYC {{ site.conYear }} is now <b>open</b>!</p>
           {% if site.ticketsOpen != null and site.ticketsOpen == false %}
-            {% if site.ticketsNextReleaseDate %}
+            {% if site.ticketsNextReleaseDate and current_time < next_ticket_open_time %}
               <p>{{ site.ticketsNextReleaseText }}<b>{{ site.ticketsNextReleaseDate }} ET</b>!</p>
             {% else %}
               <p>{{ site.ticketsUpdateText }}</p>
             {% endif %}
           {% else %}
+            <!-- if you want this to be automatic based on `site.ticketsNextReleaseDate`, wrap in same if statement from above,
+              otherwise just having `site.ticketsOpen` == true will lead to this text -->
             <p>Want to attend our awesome conference? Use this link to
               {% for button in site.ticketsButtons %}
                 {% if button.id == "tickets_button_external" %}
