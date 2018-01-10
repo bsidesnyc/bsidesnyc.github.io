@@ -24,3 +24,4 @@
   elements:
     - {name: "NSA", description: "The National Security Agency", link: "https://www.nsa.gov/careers/", imageUrl: "nsa.png"}
     - {name: "L.J. Kushner", description: "L. J. Kushner & Associates, LLC", link: "http://ljkushner.com/candidates/", imageUrl: "lj_kushner.jpg"}
+    - {name: "Senrio", description: "Senrio", link: "https://senr.io", imageUrl: "senrio.png"}
