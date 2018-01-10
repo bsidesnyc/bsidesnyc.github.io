@@ -57,6 +57,7 @@ footerBlocks:
   title: "Press"
   links:
    - {permalink: "/press/", text: "Press Release"}
+   - {permalink: "/press-pass/", text: "Press Passes"}
 
 #-----------------------------------------------
 # Head
@@ -231,6 +232,7 @@ policiesTitle: "Policies"
 #-----------------------------------------------
 pressTitle: "Press Release"
 pressReleaseFile: "/assets/BSidesNYC-2018-Press-Release.pdf"
+pressPassText: "Are you a reporter, writer or blogger looking to cover BSidesNYC? If so, we can issue you a press pass - just email us at"
 
 #-----------------------------------------------
 # Speakers List
