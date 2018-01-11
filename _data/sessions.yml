@@ -4,32 +4,32 @@
 -
   id: 998
   title: "Break"
-  location: "Atrium"
+  location: "Hound Square"
   description:
   service: true
 -
   id: 000
-  title: "Registration/Coffee"
-  location: "Atrium"
+  title: "Registration / Coffee"
+  location: "Atrium / Hound Square"
   description:
   service: true
 -
   id: 001
   title: "Opening Remarks"
   description: "Opening Remarks and Intros to D4CS & NYC Cyber Command"
-  location: "Atrium"
+  location: "L.63"
   speakers: [036, 037]
 -
   id: 002
   title: "Lunch Break"
-  location: "Atrium"
+  location: "Hound Square"
   description: "A complimentary lunch will be provided."
   service: true
 -
   id: 003
   title: "Closing Remarks"
   description:
-  location: "Atrium"
+  location: "L.63"
   service: true
 -
   id: 004
