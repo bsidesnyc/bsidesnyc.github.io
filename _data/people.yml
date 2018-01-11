@@ -869,3 +869,22 @@ Paul has a Bachelors of Business Administration in Management Information System
   trackEntrepreneur: true
   trackGeneral: false
   supporter: false
+-
+  id: 047
+  name: Jessica
+  surname: Santana
+  company: New York On Tech
+  title: Co-Founder & Director
+  bio: "Jessica Santana is an entrepreneur, technologist, writer and philanthropist who is passionate about people, products and building community. In 2014, she co-founded New York On Tech (NYOT), an award winning organization that creates pathways for underrepresented students into degrees and careers in tech. NYOT's work has been featured in media outlets such as Forbes, CNN and Huffington Post. Jessica has presented and spoken to over 50 different audiences and been named a Forbes 30 Under 30, Wells Fargo Millennial Activist, Ashoka / American Express Emerging Innovator, Pahara Institute Next-Gen Leader, Camelback Ventures Social Innovation Fellow and a World Economic Forum Global Shaper. Jessica is a member of the NationSwell Council and one of the ambassadors for the NCWIT and Televisa Foundation's TECHNOLOchicas initiative. Prior to NYOT, she worked as a technology consultant for global brands that include Accenture and Deloitte. She worked on digital projects for financial services organizations and federal agencies in New York and Washington D.C. Her specialties are in product strategy, design and management. She completed the JPMorganChase Global Enterprise Technology Leadership program and was recognized as a Deloitte Future Leaders Apprentice and a Morgan Stanley Emerging Leader. She graduated with degrees in Accounting and Information Technology from Syracuse University."
+  isDynamic: false
+  sharedImg: false
+  thumbnailUrl: jessica_santana.png
+  twitter: JessWorldwide
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
