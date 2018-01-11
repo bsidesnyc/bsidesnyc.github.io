@@ -14,6 +14,7 @@
             <h1><b>{{ site.eventDate }}</b></h1>
             <h5>Hosted by <a href="{{ site.eventHost[2].link }}" target="_blank" alt="{{ site.eventHost[1].nameLong }}">{{ site.eventHost[0].name }}</a></h5>
             {{ site.eventHost[0].link }}
+          {{ site.eventStreetAddress }}, {{ site.eventAddressLocality }}, {{ site.eventAddressLocalityRegion }} {{ site.eventPostalCode }}  
           </br>
           {% for button in site.eventButtons %}
             {% if current_time < cfp_close_time and button.id == "cfp" %}
