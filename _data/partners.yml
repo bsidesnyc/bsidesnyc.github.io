@@ -118,3 +118,13 @@
   imageUrl: ninjajobs.png
   sharedImg: false
   isSponsor: false
+-
+  id: 011
+  name: Tor
+  nameLong: Tor Project
+  villageName:
+  description:
+  link: https://www.torproject.org
+  imageUrl: tor.png
+  sharedImg: false
+  isSponsor: false
