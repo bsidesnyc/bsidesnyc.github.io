@@ -888,3 +888,22 @@ Paul has a Bachelors of Business Administration in Management Information System
   trackEntrepreneur: true
   trackGeneral: false
   supporter: false
+-
+  id: 048
+  name: Omri
+  surname: Moyal
+  company: Minerva Labs
+  title: Co-Founder, VP Research
+  bio: "Omri is a curiosity-driven researcher and malware expert. Prior to Minerva Labs, Omri served as CTO of ClearSky Cybersecurity, where he led the development and implementation of a wide spread cyber intelligence monitoring network and was head of the Incident Response Team. In his previous roles Omri gained global experience and extensive expertise in reverse engineering, malware research and testing advanced malware solutions in both laboratory and enterprise production environments. Omri served in the Israel Defense Forces (IDF) Intelligence Unit and studied for a BSc in Computer and Information Sciences."
+  isDynamic: false
+  sharedImg: false
+  thumbnailUrl: omri_moyal.png
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
