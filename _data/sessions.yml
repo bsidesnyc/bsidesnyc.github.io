@@ -5,13 +5,13 @@
   id: 998
   title: "Break"
   location: "Hound Square"
-  description:
+  description: "Coffee, beverages and fresh baked goods will be provided."
   service: true
 -
   id: 000
   title: "Registration / Coffee"
   location: "Atrium / Hound Square"
-  description:
+  description: "An arrangement of fresh fruit and granola bars will be provided."
   service: true
 -
   id: 001
