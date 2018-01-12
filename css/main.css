@@ -2987,15 +2987,27 @@ time {
     -webkit-transform: translateY(1px);
     transform: translateY(1px)
 }
+
+.logo-intro img{
+    /*
+    max-width: 600px;
+    */
+    max-width: 600px;
+}
+
+.logo-intro .overlay{
+  background: rgba(37, 32, 31, 0.8);
+}
+
 .logo-header .logo {
+    width: 185;
+    height: 85;
     display: inline-block;
-    float: left;
-    width: 185px;
-    height: 60px;
     margin-right: 20px;
     -webkit-transform: scale(0.7);
     transform: scale(0.7);
     vertical-align: middle
+
 }
 
 .logo-navbar {
@@ -4822,6 +4834,7 @@ nav li a:hover {
     margin-top: 8px;
     display: block
 }
+
 @media print {
     *,
     *:before,
@@ -4921,6 +4934,7 @@ nav li a:hover {
         display: none !important
     }
 }
+/* Tablets -> Computers */
 @media (min-width: 768px) {
     .lead {
         font-size: 21px
@@ -5195,8 +5209,8 @@ nav li a:hover {
     .schedule .host-name {
         margin-left: 100px
     }
-
 }
+/* Computers */
 @media (min-width: 992px) {
     .container {
         width: 970px
@@ -5372,6 +5386,7 @@ nav li a:hover {
         width: 900px
     }
 }
+/* Computers */
 @media (min-width: 1200px) {
     .container {
         width: 1170px
@@ -5597,6 +5612,7 @@ nav li a:hover {
         line-height: 46px
     }
 }
+/* Tablets -> Computers */
 @media screen and (min-width: 768px) {
     .jumbotron {
         padding: 48px 0
@@ -5614,6 +5630,8 @@ nav li a:hover {
         padding-bottom: 0
     }
 }
+
+/* Cell phones */
 @media (max-width: 767px) {
     .visible-xs {
         display: block !important
@@ -5676,6 +5694,9 @@ nav li a:hover {
     .logo-header .logo {
         -webkit-transform: scale(0.6);
         transform: scale(0.6)
+    }
+    .logo-intro img{
+        max-width: 90%;
     }
     nav {
         position: fixed;

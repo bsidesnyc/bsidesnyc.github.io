@@ -30,6 +30,7 @@ timezone: "America/New_York"
 conYear: "2018"
 previousSponsorCount: "13"
 previousAttendeeCount: "400"
+logoImage: "/about/logo_white.png"
 
 #-----------------------------------------------
 # Footer
@@ -94,8 +95,8 @@ rightNavigationButtons:
 #-----------------------------------------------
 aboutTitle: "What is BSidesNYC?"
 aboutBlock:
- - {title: "Conference", image: "bsides_nyc_logo.jpg", text: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free." }
- - {title: "Villages", image: "tool.png", text: "Rather pick some locks or get hands on with some hardware hacking? We got ya covered." }
+ - {title: "Conference", image: "logo_black.png", text: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free." }
+ - {title: "Villages", image: "toool.png", text: "Rather pick some locks or get hands on with some hardware hacking? We got ya covered." }
  - {title: "CTF", image: "htb.png", text: "Think you have skillz? This year we have two Capture the Flag challenges to help you gain bragging rights and win prizes!" }
 
 #-----------------------------------------------
