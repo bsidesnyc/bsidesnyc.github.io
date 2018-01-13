@@ -5698,6 +5698,9 @@ nav li a:hover {
     .logo-intro img{
         max-width: 90%;
     }
+    .about-details img {
+        max-width: 90%;
+    }
     nav {
         position: fixed;
         z-index: 100;
