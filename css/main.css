@@ -3000,14 +3000,14 @@ time {
 }
 
 .logo-header .logo {
-    width: 185;
-    height: 85;
     display: inline-block;
+    float: left;
+    width: 185px;
+    height: 60px;
     margin-right: 20px;
     -webkit-transform: scale(0.7);
     transform: scale(0.7);
     vertical-align: middle
-
 }
 
 .logo-navbar {
