@@ -907,3 +907,22 @@ Paul has a Bachelors of Business Administration in Management Information System
   trackEntrepreneur: true
   trackGeneral: false
   supporter: false
+-
+  id: 049
+  name: Adrian
+  surname: Mahieu
+  company: Cortex Insight
+  title: Co-Founder and CEO
+  bio: "Adrian has many years experience working within the security functions of industries and understands the business side of security. Building and running companies & events in a number of vertical sectors has given him the skills and experience to lead the Cortex Insight team. Adrian also founded alien8 Security, the European distributor for Immunity Inc. He is the Co-founder and Event Director of ‘44CON’ and Founder of Infosec in the City taking place in Singapore in May 2018. Adrian has a MSc in Information Security from Royal Holloway and a BSc in Computer Science."
+  isDynamic: false
+  sharedImg: false
+  thumbnailUrl: adrian_mahieu.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
