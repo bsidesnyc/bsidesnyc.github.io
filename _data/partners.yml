@@ -128,3 +128,13 @@
   imageUrl: tor.png
   sharedImg: false
   isSponsor: false
+-
+  id: 012
+  name: Low Voltage Labs
+  nameLong:
+  villageName:
+  description:
+  link: http://lowvoltagelabs.com
+  imageUrl: low_voltage_labs.png
+  sharedImg: false
+  isSponsor: false
