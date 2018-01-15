@@ -138,3 +138,13 @@
   imageUrl: low_voltage_labs.png
   sharedImg: false
   isSponsor: false
+-
+  id: 013
+  name: EWF
+  nameLong: Executive Women's Forum
+  villageName:
+  description:
+  link: http://www.ewf-usa.com
+  imageUrl: ewf.jpg
+  sharedImg: false
+  isSponsor: false
