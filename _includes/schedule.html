@@ -3,6 +3,13 @@
   <div class="content-wrapper">
     {% for day in site.data.schedule %}
       <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">
+        {% for timeslot in day.timeslots %}
+          {% if timeslot.recordingService %}
+            <div class="track-header-slot col-xs-12 visible-xs">
+              <h5 class="slot-detail track-header-title"></h5>
+            </div>
+          {% endif %}
+        {% endfor %}
         <!-- schedule top menu -->
         <h4 class="schedule-table-heading">{{ day.date | date: "%B %d, %Y" }}</h4>
         <div class="timeslot track-header stick-header">
@@ -44,57 +51,99 @@
                         <div id="session-{{ session.id }}" class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height" data-slot-detail="{{ day.tracks[slotIndex].title }} ({{ day.tracks[slotIndex].room }})" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
                             <div class="color-line" style="background: {{ day.tracks[slotIndex].color }}"></div>
                             <div class="slot-content" style="border-right-color: {{ day.tracks[slotIndex].color }}">
-                              {% if session.village != true and session.panel != true %}
-                                <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
-                              {% endif %}
-                              <ul class="slot-speakers">
-                                <!-- Handle villages -->
-                                {% if session.village == true %}
-                                  {% for session_partner_id in session.partners %}
-                                    {% for partner in site.data.partners %}
-                                      {% if session_partner_id == partner.id %}
-                                        <li itemprop="performer">
-                                          {% if partner.sharedImg %}
-                                            <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/' | append: partner.imageUrl }})"></div>
-                                          {% else %}
-                                            <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/partners/' | append: partner.imageUrl }})"></div>
-                                          {% endif %}
-                                          <p class="speaker-name">{{ partner.villageName }}</p>
-                                          <span class="speaker-position-empty"> </span>
-                                        </li>
-                                      {% endif %}
-                                    {% endfor %}
-                                  {% endfor %}
-                                <!-- Handle speakers -->
-                                {% else %}
-                                  {% for speaker in site.data.people %}
-                                    {% for session_speaker in session.speakers %}
-                                      {% if session_speaker == speaker.id %}
-                                        {% if speaker.thumbnailUrl != null %}
-                                          {% if speaker.sharedImg == true %}
-                                            <li itemprop="performer">
-                                              <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/' | append: speaker.thumbnailUrl }})"></div>
+                              <!-- Handle split sessions -->
+                              {% if session.isSharedSession %}
+                                <!-- Handle split session titles -->
+                                {% for slot_split in session.slot_splits %}
+                                  {% if forloop.first != true %}
+                                    <hr>
+                                  {% endif %}
+                                  <h6 class="slot-title" itemprop="name">{{ slot_split.title }}</h6>
+                                  <ul class="slot-speakers">
+                                    {% for speaker in site.data.people %}
+                                      <!-- Handle split session speakers -->
+                                      {% for session_speaker in slot_split.speakers %}
+                                        {% if session_speaker == speaker.id %}
+                                          {% if speaker.thumbnailUrl != null %}
+                                            {% if speaker.sharedImg == true %}
+                                              <li itemprop="performer">
+                                                <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/' | append: speaker.thumbnailUrl }})"></div>
+                                            {% else %}
+                                              <li itemprop="performer">
+                                                <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>
+                                            {% endif %}
                                           {% else %}
                                             <li itemprop="performer">
-                                              <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>
+                                              <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/other/stormtrooper.jpg'}})"></div>
                                           {% endif %}
-                                        {% else %}
-                                          <li itemprop="performer">
-                                            <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/other/stormtrooper.jpg'}})"></div>
+                                          <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
+                                            {% if speaker.company != null %}
+                                              <span class="speaker-position">{{ speaker.company }}</span>
+                                            {% else %}
+                                              <span class="speaker-position-empty"> </span>
+                                            {% endif %}
+                                          </p>
+                                          </li>
                                         {% endif %}
-                                        <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
-                                          {% if speaker.company != null %}
-                                            <span class="speaker-position">{{ speaker.company }}</span>
-                                          {% else %}
-                                            <span class="speaker-position-empty"> </span>
-                                          {% endif %}
-                                        </p>
-                                        </li>
-                                      {% endif %}
+                                      {% endfor %}
                                     {% endfor %}
-                                  {% endfor %}
+                                  </ul>
+                                {% endfor %}
+                              <!-- Handle regular titles -->
+                              {% else %}
+                                {% if session.village != true and session.panel != true %}
+                                  <h6 class="slot-title" itemprop="name">{{ session.title }}</h6>
                                 {% endif %}
-                              </ul>
+                                <ul class="slot-speakers">
+                                  <!-- Handle villages -->
+                                  {% if session.village == true %}
+                                    {% for session_partner_id in session.partners %}
+                                      {% for partner in site.data.partners %}
+                                        {% if session_partner_id == partner.id %}
+                                          <li itemprop="performer">
+                                            {% if partner.sharedImg %}
+                                              <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/' | append: partner.imageUrl }})"></div>
+                                            {% else %}
+                                              <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/partners/' | append: partner.imageUrl }})"></div>
+                                            {% endif %}
+                                            <p class="speaker-name">{{ partner.villageName }}</p>
+                                            <span class="speaker-position-empty"> </span>
+                                          </li>
+                                        {% endif %}
+                                      {% endfor %}
+                                    {% endfor %}
+                                  <!-- Handle speakers -->
+                                  {% else %}
+                                    {% for speaker in site.data.people %}
+                                      <!-- Handle regulsr session speakers -->
+                                      {% for session_speaker in session.speakers %}
+                                        {% if session_speaker == speaker.id %}
+                                          {% if speaker.thumbnailUrl != null %}
+                                            {% if speaker.sharedImg == true %}
+                                              <li itemprop="performer">
+                                                <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/' | append: speaker.thumbnailUrl }})"></div>
+                                            {% else %}
+                                              <li itemprop="performer">
+                                                <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>
+                                            {% endif %}
+                                          {% else %}
+                                            <li itemprop="performer">
+                                              <div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/other/stormtrooper.jpg'}})"></div>
+                                          {% endif %}
+                                          <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
+                                            {% if speaker.company != null %}
+                                              <span class="speaker-position">{{ speaker.company }}</span>
+                                            {% else %}
+                                              <span class="speaker-position-empty"> </span>
+                                            {% endif %}
+                                          </p>
+                                          </li>
+                                        {% endif %}
+                                      {% endfor %}
+                                    {% endfor %}
+                                  {% endif %}
+                                </ul>
+                              {% endif %}
                             </div>
                           </div>
                       <!-- Handle services -->

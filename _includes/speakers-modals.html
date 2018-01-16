@@ -15,16 +15,34 @@
 								</div>
 								{% if site.showSessions %}
 									{% for session in site.data.sessions %}
-										{% for session_speaker in session.speakers %}
-											{% if session_speaker == speaker.id %}
-												<h4>{{ session.title }}</h4>
-												<!-- make sure each `description` has _2_ new lines per every 1 \n unless you want each line right under each other-->
-												<p class="text-justify theme-description">{{ session.description | newline_to_br }}</p>
-												{% if session.slides != null %}
-													<a class="theme-presentation" href="{{ session.slides }}" title="Presentation" target="_blank">Slides</a>
+										{% if session.isSharedSession %}
+											<!-- Handle split session titles -->
+											{% for slot_split in session.slot_splits %}
+												{% for session_speaker in slot_split.speakers %}
+													{% if session_speaker == speaker.id %}
+														<h4>{{ slot_split.title }}</h4>
+														<p class="text-justify theme-description">{{ slot_split.slot }}</p>
+														<!-- make sure each `description` has _2_ new lines per every 1 \n unless you want each line right under each other-->
+														<p class="text-justify theme-description">{{ slot_split.description | newline_to_br }}</p>
+														{% if slot_split.slides != null %}
+															<a class="theme-presentation" href="{{ slot_split.slides }}" title="Presentation" target="_blank">Slides</a>
+														{% endif %}
+													{% endif %}
+												{% endfor %}
+											{% endfor %}
+										{% else %}
+											<!-- Handle regular session titles -->
+											{% for session_speaker in session.speakers %}
+												{% if session_speaker == speaker.id %}
+													<h4>{{ session.title }}</h4>
+													<!-- make sure each `description` has _2_ new lines per every 1 \n unless you want each line right under each other-->
+													<p class="text-justify theme-description">{{ session.description | newline_to_br }}</p>
+													{% if session.slides != null %}
+														<a class="theme-presentation" href="{{ session.slides }}" title="Presentation" target="_blank">Slides</a>
+													{% endif %}
 												{% endif %}
-											{% endif %}
-										{% endfor %}
+											{% endfor %}
+										{% endif %}
 									{% endfor %}
 									<hr>
 								{% endif %}

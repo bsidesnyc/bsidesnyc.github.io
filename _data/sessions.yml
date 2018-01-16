@@ -45,13 +45,11 @@
   description:
   village: true
   partners: [003, 004, 005, 007, 008, 009]
-
 -
   id: 009
   title: "Entrepreneur Track"
   description: "Career 0day is back for 2018! We’re pulling in Entrepreneurs from product and services startups, VCs and others to share their wisdom for those starting their own security company!"
   panel: true
-  speakers: [006, 008, 026, 039, 040, 041, 043, 044, 045, 046, 047, 048, 049, 050]
 -
   id: 010
   title: "Keynote"
@@ -184,3 +182,100 @@
   In this talk we will show how attackers can exploit various 2FA and account recovery implementation issues to hijack accounts. We will also propose defensive measures for both architects and end-users."
   speakers: [025]
   presentation:
+-
+  id: 026
+  isSharedSession: true
+  slot_splits:
+    - slot: 10:05-10:30
+      title: "Return Oriented: A 2017 Market Round Up"
+      description:
+      speakers: [026]
+      presentation:
+    - slot: 10:30-10:50
+      title: "The Things No One Tells You About Launching a Startup"
+      description:
+      speakers: [041]
+      presentation:
+-
+  id: 027
+  isSharedSession: true
+  slot_splits:
+    - slot: 11:00-11:25
+      title: "Creating a New Security Product Category"
+      description:
+      speakers: [039]
+      presentation:
+    - slot: 11:25-11:50
+      title: "Bootstrapping"
+      description:
+      speakers: [008]
+      presentation:
+-
+  id: 028
+  isSharedSession: true
+  slot_splits:
+  - slot: 13:00-13:25
+    title: "Venture Capital in Security"
+    description:
+    speakers: [040]
+  - slot: 13:25-13:50
+    title: "Marketing and Advertising for Security Startups"
+    description:
+    speakers: [046]
+    presentation:
+-
+  id: 029
+  isSharedSession: true
+  slot_splits:
+  - slot: 14:00-14:25
+    title: "Entrepreneur Panel"
+    description:
+    speakers: [044, 006, 048, 050, 051]
+    presentation:
+  - slot: 14:25-14:50
+    title: "Startup Panel"
+    description:
+    speakers:
+    presentation:
+-
+  id: 030
+  isSharedSession: true
+  slot_splits:
+  - slot: 15:00-15:25
+    title: "Product Management for Security Products"
+    description:
+    speakers: [006]
+    presentation:
+  - slot: 15:25-15:50
+    title: "Growing & Monetizing Your Open Source Side Project"
+    description:
+    speakers: [045]
+    presentation:
+-
+  id: 031
+  isSharedSession: true
+  slot_splits:
+  - slot: 16:00-16:25
+    title: "How Security Startups Can Help Build the Next Generation of Cyber Security Leaders"
+    description:
+    speakers: [047]
+    presentation:
+  - slot: 16:25-16:50
+    title: "Sales: How long until you really need it?"
+    description:
+    speakers: [049]
+    presentation:
+-
+  id: 032
+  isSharedSession: true
+  slot_splits:
+  - slot: 17:00-17:25
+    title: Startup Security Research
+    description:
+    speakers: [043, 048]
+    presentation:
+  - slot: 17:25-17:50
+    title: "The Numbers behind BSidesNYC"
+    description:
+    speakers: [001]
+    presentation:
