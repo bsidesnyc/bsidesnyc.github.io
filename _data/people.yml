@@ -930,13 +930,32 @@ Paul has a Bachelors of Business Administration in Management Information System
   id: 050
   name: Regine
   surname: Gilbert
-  company: 
+  company:
   title: Sr. UX Design Consultant
   bio: "Regine Gilbert is a user experience designer, educator, and international public speaker in NYC with over 10 years of experience working in the technology arena. Currently, she is a Sr. UX Design Consultant. Regine has a strong belief in making the world a more accessible place--one that starts and ends with the user.  She started her career in design as a fashion designer, then quickly evolved into working in a corporate information technology setting before returning to the world of design. She is passionate about accessibility, design and technology."
   isDynamic: false
   sharedImg: false
   thumbnailUrl: regine_gilbert.png
   twitter: reg_inee
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
+-
+  id: 051
+  name: Joe
+  surname: Bernik
+  company:
+  title:
+  bio:
+  isDynamic: false
+  sharedImg: false
+  thumbnailUrl:
+  twitter:
   isOrganizer: false
   isFounder: false
   subTeam: false
