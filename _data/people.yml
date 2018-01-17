@@ -949,12 +949,24 @@ Paul has a Bachelors of Business Administration in Management Information System
   id: 051
   name: Joe
   surname: Bernik
-  company:
-  title:
-  bio:
+  company: McAfee
+  title: Chief Strategist
+  bio: "Joe Bernik has over two decades of experience creating and implementing cyber security management
+  programs at global financial institutions. While serving as CISO and head of information risk and security
+  at ABN AMRO Bank, Fifth Third Bank and BNY Mellon, Mr., Bernik lead global teams dedicated to
+  protecting customer data, complying with data-related laws and regulations, and managing incident
+  response programs. Mr. Bernik started his career with the US Defense Department of Defense (DOD)
+  securing military systems.
+
+
+  Joe has is an avid speaker and writer and has held posts on several industry groups including the
+  Federal Reserve Council on Fraud the Financial Services Information Sharing and Analysis Center
+  (FS-ISAC) and the Open Web Application Security Project (OWASP). Mr. Bernik holds a bachelors in
+  information systems from the University of Mary Washington and has completed graduate studies in
+  business administration at The City University of New York."
   isDynamic: false
   sharedImg: false
-  thumbnailUrl:
+  thumbnailUrl: joe_bernik.png
   twitter:
   isOrganizer: false
   isFounder: false
