@@ -84,7 +84,7 @@ navigationLinks:
 #bottomNavigationLinks:
 # - {permalink: "/cfp/", text: "Become a speaker"}
 rightNavigationButtons:
- - {permalink: "/volunteers/", text: "Volunteer!"}
+# - {permalink: "/volunteers/", text: "Volunteer!"}
 # - {link: "http://bit.ly/bsidesnyclive", text: "Live Stream!"}
 
 ################################################################################################
