@@ -15,8 +15,14 @@
               <!-- Handle split sessons -->
               {% for slot_split in session.slot_splits %}
                 <h4>{{ slot_split.title }}</h4>
+                <span class="theme-metadata"><span class="caption">Slot: </span>{{ slot_split.slot | newline_to_br }}</span>
+                <!-- By default, entrepreneur sessions are _not_ going to be recorded/streamed unless speaker has their own means to be -->
+                {% if slot_split.recorded != null and slot_split.recorded == true %}
+                  <span class="theme-metadata"><span class="caption">Recorded: </span>True</span>
+                {% else %}
+                  <span class="theme-metadata"><span class="caption">Recorded: </span>False</span>
+                {% endif %}
                 <!-- make sure each `description` has _2_ new lines per every 1 \n unless you want each line right under each other-->
-                <p class="theme-description text-justify">{{ slot_split.slot | newline_to_br }}</p>
                 <p class="theme-description text-justify">{{ slot_split.description | newline_to_br }}</p>
                 {% if slot_split.presentation %}
                   <a class="theme-presentation" href="{{ slot_split.presentation }}" title="Presentation" target="_blank">View presentation</a>
@@ -67,6 +73,12 @@
             {% else %}
               <!-- Handle regular sessions -->
               <h4>{{ session.title }}</h4>
+              <!-- By default, technical sessions are going to be recorded/streamed unless speaker wishes not to be -->
+              {% if session.recorded != null and session.recorded == false %}
+                <span class="theme-metadata"><span class="caption">Recorded: </span>False</span>
+              {% else %}
+                <span class="theme-metadata"><span class="caption">Recorded: </span>True</span>
+              {% endif %}
               <!-- make sure each `description` has _2_ new lines per every 1 \n unless you want each line right under each other-->
               <p class="theme-description text-justify">{{ session.description | newline_to_br }}</p>
               {% if session.presentation %}
