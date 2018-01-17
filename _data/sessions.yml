@@ -127,6 +127,7 @@
 
   Finally, we will close with some of the concrete challenges we encountered in implementing this program and some suggestions on how to work around them."
   speakers: [014,015]
+  recorded: false
   presentation:
 -
   id: 018
@@ -172,6 +173,7 @@
   title: "Moving Graph Analytics to Higher Dimensions to Discover Network Activity / Anomalies that are implicit in behavior - Connections in High Dimensions"
   description: "Advanced mathematics made simpler: Spectral Hypergraph Analysis for mortals.  Imagine lighting up and \"shining\" your network logs through a special prism that would separate behaviors into a \"spectrum\" that would indicate to you things that are going on on your network.   Some of the those things might be important discoveries with security implications.  Doing this would be like how astronomers determine the materials that are burning in a distant star, using a special telescope to get the spectrum of that star's light.  It turns out that there is a mathematical way to do this on network logs, involving a generalization of the Fourier Transform over high dimensional graphs.  This talk will explain this technology in accessible ways, and show examples of its use in discovering \"bad stuff\" on a very large network."
   speakers: [023]
+  recorded: false
   presentation:
 -
   id: 024
@@ -190,6 +192,7 @@
 
   In this talk we will show how attackers can exploit various 2FA and account recovery implementation issues to hijack accounts. We will also propose defensive measures for both architects and end-users."
   speakers: [025]
+  recorded: false
   presentation:
 -
   id: 026
@@ -268,6 +271,7 @@
     title: "How Security Startups Can Help Build the Next Generation of Cyber Security Leaders"
     description:
     speakers: [047]
+    recorded: true
     presentation:
   - slot: 16:25-16:50
     title: "Sales: How long until you really need it?"
