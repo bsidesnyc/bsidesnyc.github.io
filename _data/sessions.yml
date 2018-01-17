@@ -251,8 +251,8 @@
   isSharedSession: true
   slot_splits:
   - slot: 15:00-15:25
-    title: "Product Management for Security Products"
-    description:
+    title: "Product Management of Security Solutions"
+    description: "Established enterprises as well as startups have much to consider when deciding how to build, deliver and maintain information security products that make sense for their businesses and customers. The individuals tasked with creating and overseeing such offerings often have \"product management\" in their titles. What do these people do? What skills do they possess? This session explores the mindset of a product manager who focuses on information security solutions. Those new to this discipline will better understand whether they should consider such a role. Those already tasked with managing security solutions will benefit from hearing about a lightweight framework that can help them make better decisions about their products."
     speakers: [006]
     presentation:
   - slot: 15:25-15:50
