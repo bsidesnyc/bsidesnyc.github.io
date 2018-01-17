@@ -46,6 +46,15 @@
   village: true
   partners: [003, 004, 005, 007, 008, 009]
 -
+  id: 006
+  title:
+  location:
+  description: "Video services provided by <a href=\"https://www.internetsociety.org\" target=\"_blank\">Internet Society</a>"
+  service: true
+  isHosted: true
+  isAd: true
+  imgUrl: /partners/isoc.png
+-
   id: 009
   title: "Entrepreneur Track"
   description: "Career 0day is back for 2018! We’re pulling in Entrepreneurs from product and services startups, VCs and others to share their wisdom for those starting their own security company!"

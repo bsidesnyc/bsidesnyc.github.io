@@ -82,3 +82,7 @@
         endTime: "?",
         sessionIds: [004]
     }
+    - {
+      recordingService: true,
+    	sessionIds: [006]
+    }
