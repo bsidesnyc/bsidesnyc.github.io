@@ -7,7 +7,7 @@
                 {% for speaker in sorted_speakers %}
                   {% if speaker.trackOpening == true or speaker.trackEntrepreneur == true or speaker.trackGeneral == true %}
                     <div class="effect-wrapper appear-animation col-md-4 col-sm-6 col-xs-12">
-                        <div class="lily-effect">
+                        <div class="lily-effect ribbon-activator">
                             <div class="lily-head" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
                               {% if speaker.sharedImg == true %}
                                 <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/' | append: speaker.thumbnailUrl }})">
@@ -16,11 +16,28 @@
                               {% else %}
                                 <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})">
                               {% endif %}
-                                    <div class="overlay solid-overlay"></div>
-                                    <figcaption>
-                                        <h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
-                                        <p class="position">{{ speaker.company }}</p>
-                                    </figcaption>
+                                  <div class="overlay solid-overlay"></div>
+                                  <ul class="ribbon-wrapper">
+                                    {% if speaker.trackEntrepreneur == true %}
+                                      <li class="entrepreneur-track">
+                                          <p class="ribbon full-title">Entrepreneur</p>
+                                      </li>
+                                    {% endif %}
+                                    {% if speaker.trackGeneral == true %}
+                                      <li class="general-track">
+                                          <p class="ribbon full-title">Technical</p>
+                                      </li>
+                                    {% endif %}
+                                    {% if speaker.trackKeynote == true %}
+                                      <li class="opening">
+                                          <p class="ribbon full-title">Keynote</p>
+                                      </li>
+                                    {% endif %}
+                                  </ul>
+                                  <figcaption>
+                                      <h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
+                                      <p class="position">{{ speaker.company }}</p>
+                                  </figcaption>
                                 </figure>
                             </div>
                             <div class="lily-bottom">

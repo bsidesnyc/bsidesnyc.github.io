@@ -4329,9 +4329,8 @@ nav li a:hover {
     background: transparent
 }
 
-.ribbon-wrapper {
+.ribbon-wrapper ul {
     position: absolute;
-    z-index: 5;
     right: 0;
     margin-top: 10px;
     list-style: none
@@ -4350,17 +4349,17 @@ nav li a:hover {
     -webkit-transition-delay: .15s;
     transition-delay: .15s
 }
-.ribbon-wrapper .gdg {
-    border-right: 4px solid #427fed
+.ribbon-wrapper .entrepreneur-track {
+    /*border-right: 4px solid #e91e63*/
 }
-.ribbon-wrapper .gdgw {
+.ribbon-wrapper .general-track {
+    /*border-right: 4px solid #3cb371*/
+}
+.ribbon-wrapper .keynote {
+    /*border-right: 4px solid #03a9f4*/
+}
+.ribbon-wrapper .recorded {
     border-right: 4px solid #ed2c82
-}
-.ribbon-wrapper .gde {
-    border-right: 4px solid #db4437
-}
-.ribbon-wrapper .wt {
-    border-right: 4px solid #72e1b3
 }
 .ribbon-wrapper .ribbon {
     font-size: 13px;
@@ -4381,13 +4380,17 @@ nav li a:hover {
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2)
 }
+/*
 .ribbon-activator:hover .ribbon-wrapper .abbr {
     -webkit-transform: translateX(100%);
     transform: translateX(100%)
 }
+*/
 .ribbon-wrapper .full-title {
+    /*
     clear: both;
     margin-top: -22px;
+    */
     -webkit-transform: translateX(100%);
     transform: translateX(100%)
 }
