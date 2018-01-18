@@ -31,6 +31,7 @@ conYear: "2018"
 previousSponsorCount: "13"
 previousAttendeeCount: "400"
 logoImage: "/about/logo_white.png"
+#logoImageHead: "/about/logo_black.png"
 
 #-----------------------------------------------
 # Footer
@@ -71,7 +72,6 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 # Navigation
 #-----------------------------------------------
 navigationLinks:
- - {permalink: "/", text: "Home"}
  - {permalink: "/about/", text: "About"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
@@ -85,7 +85,6 @@ navigationLinks:
 # - {permalink: "/cfp/", text: "Become a speaker"}
 rightNavigationButtons:
 # - {permalink: "/volunteers/", text: "Volunteer!"}
-# - {link: "http://bit.ly/bsidesnyclive", text: "Live Stream!"}
 
 ################################################################################################
 # Block Data
@@ -187,6 +186,7 @@ eventButtons:
  - {permalink: "/sponsors/", text: "Become a sponsor", id: "sponsors"}
  - {permalink: "/registration/", text: "Get tickets", id: "tickets"}
  - {permalink: "/volunteers/", text: "Volunteer!", id: "volunteers"}
+# - {link: "http://bit.ly/bsidesnyclive", text: "Live Stream!"}
 
 #-----------------------------------------------
 # Location Block
