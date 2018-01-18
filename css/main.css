@@ -3041,6 +3041,7 @@ nav li {
     padding: 0 3px;
     vertical-align: middle
 }
+
 nav li a {
     font-size: 12.5px;
     font-weight: 300;
@@ -5388,6 +5389,13 @@ nav li a:hover {
     }
     .modal-lg {
         width: 900px
+    }
+    nav li {
+        padding: 0 8px;
+    }
+    nav li a {
+        font-size: 13px;
+        font-weight: 300;
     }
 }
 /* Computers */
