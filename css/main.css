@@ -4149,7 +4149,6 @@ nav li a:hover {
 .lily-effect:hover .overlay {
     background: rgba(0, 0, 0, 0.3)
 }
-
 .lily-effect figure {
     overflow: hidden;
     width: 100%;
@@ -4157,7 +4156,7 @@ nav li a:hover {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     background-position: -30px;
-    background-size: 115%
+    background-size: 115%;
 }
 .lily-effect figcaption {
     font-size: 16px;
@@ -4167,7 +4166,6 @@ nav li a:hover {
     height: 50%;
     padding: 32px 16px;
     text-transform: uppercase;
-    color: #fff
 }
 .lily-effect figcaption h2 {
     font-size: 20px;
@@ -4177,7 +4175,11 @@ nav li a:hover {
     transition: all 0.3s;
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
-    word-spacing: -2px
+    word-spacing: -2px;
+    color: #000;
+}
+.lily-effect:hover figcaption h2 {
+    color: #fff;
 }
 .lily-effect figcaption h2 span {
     font-weight: 600;
@@ -4191,9 +4193,12 @@ nav li a:hover {
     letter-spacing: 1px;
     color: rgba(255, 255, 255, 0.9);
     -webkit-transform: translateY(20px);
-    transform: translateY(20px)
+    transform: translateY(20px);
+    color: #000
 }
-
+.lily-effect:hover figcaption .position {
+    color: #fff;
+}
 .lily-effect .overlay {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -5979,9 +5984,6 @@ nav li a:hover {
     .lily-effect:hover figcaption p {
         -webkit-transform: translateY(-25px);
         transform: translateY(-25px)
-    }
-    .lily-effect:hover .overlay {
-        background: transparent
     }
     .lily-effect figure {
         background-position: center left;
