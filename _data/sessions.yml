@@ -237,31 +237,23 @@
     presentation:
 -
   id: 029
-  isSharedSession: true
-  slot_splits:
-  - slot: 14:00-14:25
-    title: "Entrepreneur Panel"
-    description:
-    speakers: [044, 006, 048, 050, 051]
-    presentation:
-  - slot: 14:25-14:50
-    title: "Startup Panel"
-    description:
-    speakers:
-    presentation:
+  title: "Startup Panel"
+  description:
+  speakers: [044, 006, 048, 050, 051]
+  presentation:
 -
   id: 030
   isSharedSession: true
   slot_splits:
   - slot: 15:00-15:25
-    title: "Product Management of Security Solutions"
-    description: "Established enterprises as well as startups have much to consider when deciding how to build, deliver and maintain information security products that make sense for their businesses and customers. The individuals tasked with creating and overseeing such offerings often have \"product management\" in their titles. What do these people do? What skills do they possess? This session explores the mindset of a product manager who focuses on information security solutions. Those new to this discipline will better understand whether they should consider such a role. Those already tasked with managing security solutions will benefit from hearing about a lightweight framework that can help them make better decisions about their products."
-    speakers: [006]
-    presentation:
-  - slot: 15:25-15:50
     title: "Growing & Monetizing Your Open Source Side Project"
     description:
     speakers: [045]
+    presentation:
+  - slot: 15:25-15:50
+    title: "Sales: How long until you really need it?"
+    description:
+    speakers: [049]
     presentation:
 -
   id: 031
@@ -274,21 +266,21 @@
     recorded: true
     presentation:
   - slot: 16:25-16:50
-    title: "Sales: How long until you really need it?"
-    description:
-    speakers: [049]
+    title: "Product Management of Security Solutions"
+    description: "Established enterprises as well as startups have much to consider when deciding how to build, deliver and maintain information security products that make sense for their businesses and customers. The individuals tasked with creating and overseeing such offerings often have \"product management\" in their titles. What do these people do? What skills do they possess? This session explores the mindset of a product manager who focuses on information security solutions. Those new to this discipline will better understand whether they should consider such a role. Those already tasked with managing security solutions will benefit from hearing about a lightweight framework that can help them make better decisions about their products."
+    speakers: [006]
     presentation:
 -
   id: 032
   isSharedSession: true
   slot_splits:
   - slot: 17:00-17:25
+    title: "(From) Concept to Profit"
+    description:
+    speakers: [052]
+    presentation:
+  - slot: 17:25-17:50
     title: Startup Security Research
     description:
     speakers: [043, 048]
-    presentation:
-  - slot: 17:25-17:50
-    title: "The Numbers behind BSidesNYC"
-    description:
-    speakers: [001]
     presentation:
