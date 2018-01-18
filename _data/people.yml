@@ -978,3 +978,42 @@ Paul has a Bachelors of Business Administration in Management Information System
   trackEntrepreneur: true
   trackGeneral: false
   supporter: false
+-
+  id: 052
+  name: Ryan
+  surname: Young
+  company: Atlantic IT Group
+  title: Chief Operating Officer
+  bio: "As co-founder and COO of Atlantic IT Group, Ryan uses his entrepreneurial, strategy, sales, branding, and leadership experience to help customers isolate and implement break through security and IT technology infrastructure solutions to reduce complexity and streamline business operations.
+  In addition, Ryan serves as an investor and board member on several technology start-up companies overseeing their go-to- market strategy and business development. Some of these technology verticals include:
+
+
+    - Security
+
+    - Smart A/V
+
+    - IoT
+
+    - Artificial intelligence
+
+    - WAN infrastructure
+
+    - Open-source software
+
+
+  Before devoting his efforts to Atlantic IT Group, Ryan was a co-founder and COO of TorreyPoint, a network consultancy which became an $85M+/year company that was ranked #10 in Silicon Valley and #755 in America on Inc's Fastest Growing Companies list in 2012. Torrey Point was sold to FishNet Security in 2013, which was subsequently merged with Accuvant Security to become North America's largest private security company, Optiv.
+  Ryan’s portfolio of customers include some of the largest enterprise, service provider and public sector brands in the world.
+
+  "
+  isDynamic: false
+  sharedImg: false
+  thumbnailUrl: ryan_young.png
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
