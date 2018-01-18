@@ -14,6 +14,7 @@
             $('.animated').removeClass('animated').removeClass('hiding');
             $('.stat span').removeClass('timer');
             $('.timeslot-label').addClass('stick-label');
+            $('#logo-header .logo').removeClass('logo-light');
         }
         if ($(window).height() < 512) {
             $('#bottom-navlinks').removeClass('bottom-navlinks').addClass('bottom-navlinks-small');
@@ -172,7 +173,6 @@
                 }
             });
         }
-
 
         //Side menu
         var container = $('.st-container');

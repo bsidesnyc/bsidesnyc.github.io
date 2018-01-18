@@ -26,7 +26,7 @@ layout: compress
     <meta name="theme-color" content="#2b5797">
 
     <!-- update the versioning # below to force browsers to reload this CSS file, else some crappy rendering may occur in between -->
-    <link href="{{ "/css/main.css" | prepend: site.baseurl }}?v=0.9" rel="stylesheet">
+    <link href="{{ "/css/main.css" | prepend: site.baseurl }}?v=1.0" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -96,15 +96,29 @@ layout: compress
     }
     </script>
 
-    {% comment %}
-    =======================================
-    CTF
-    =======================================
-    {% endcomment %}
-
     <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
 
     {% if page.permalink == '/' %}
+
+      {% comment %}
+      =======================================
+      Main menu
+      =======================================
+      {% endcomment %}
+
+      <script type="text/javascript">
+          $(document).ready(function() {
+              $(window).load(function() {
+                $('#logo-header .logo').removeClass('logo-light');
+              })});
+      </script>
+
+      {% comment %}
+      =======================================
+      CTF
+      =======================================
+      {% endcomment %}
+
       <script>
           if ($(window).width() > 767) {
               document.write('<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZLKTMdMVrh1zPyArjQ5tmD4BwKIrqshA"><\/script>')
