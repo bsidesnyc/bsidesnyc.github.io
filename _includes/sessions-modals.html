@@ -74,10 +74,12 @@
               <!-- Handle regular sessions -->
               <h4>{{ session.title }}</h4>
               <!-- By default, technical sessions are going to be recorded/streamed unless speaker wishes not to be -->
-              {% if session.recorded != null and session.recorded == false %}
-                <span class="theme-metadata"><span class="caption">Recorded: </span>False</span>
-              {% else %}
-                <span class="theme-metadata"><span class="caption">Recorded: </span>True</span>
+              {% if session.village != true %}
+                {% if session.recorded != null and session.recorded == false %}
+                  <span class="theme-metadata"><span class="caption">Recorded: </span>False</span>
+                {% else %}
+                  <span class="theme-metadata"><span class="caption">Recorded: </span>True</span>
+                {% endif %}
               {% endif %}
               <!-- make sure each `description` has _2_ new lines per every 1 \n unless you want each line right under each other-->
               <p class="theme-description text-justify">{{ session.description | newline_to_br }}</p>
