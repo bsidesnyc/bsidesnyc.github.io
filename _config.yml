@@ -183,10 +183,10 @@ eventHost:
 eventInfo: "Join us on January 20th, 2018! We are extremely pleased to have <a href=\"https://www.jjay.cuny.edu/about-d4cs\" target=\"_blank\">D4CS</a>, the Master of Science in Digital Forensics and Cybersecurity program, at John Jay College of Criminal Justice, as a partner in organizing and hosting BSidesNYC and we’re working hard to create another action-packed conference for you – expect even more technical security content by brilliant researchers, workshops, entrepreneur activities, and a brand new style of CTF!  To stay updated on volunteer opportunities, and other news, follow us on Twitter <a href=\"https://twitter.com/bsidesnyc\" target=\"_blank\">@BSidesNYC</a> and sign up for the mailing list."
 eventButtons:
  - {permalink: "/cfp/", text: "Submit to CFP", id: "cfp"}
- - {permalink: "/sponsors/", text: "Become a sponsor", id: "sponsors"}
  - {permalink: "/registration/", text: "Get tickets", id: "tickets"}
- - {permalink: "/volunteers/", text: "Volunteer!", id: "volunteers"}
-# - {link: "http://bit.ly/bsidesnyclive", text: "Live Stream!"}
+ # - {permalink: "/sponsors/", text: "Become a sponsor", id: "sponsors"}
+ # - {permalink: "/volunteers/", text: "Volunteer!", id: "volunteers"}
+ - {link: "http://bit.ly/bsidesnyclive", text: "Watch via Live Streams!", id: "live-stream"}
 
 #-----------------------------------------------
 # Location Block
