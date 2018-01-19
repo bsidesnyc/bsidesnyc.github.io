@@ -25,7 +25,7 @@
                 <!-- make sure each `description` has _2_ new lines per every 1 \n unless you want each line right under each other-->
                 <p class="theme-description text-justify">{{ slot_split.description | newline_to_br }}</p>
                 {% if slot_split.presentation %}
-                  <a class="theme-presentation" href="{{ slot_split.presentation }}" title="Presentation" target="_blank">View presentation</a>
+                  <a class="theme-presentation" href="https://github.com/bsidesnyc/BSidesNYC{{ site.conYear }}/blob/master/Presentations/{{ slot_split.presentation }}" title="Presentation" target="_blank">View presentation</a>
                 {% endif %}
                 <hr>
                 <div class="people-details">
@@ -84,7 +84,7 @@
               <!-- make sure each `description` has _2_ new lines per every 1 \n unless you want each line right under each other-->
               <p class="theme-description text-justify">{{ session.description | newline_to_br }}</p>
               {% if session.presentation %}
-                <a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
+                <a class="theme-presentation" href="https://github.com/bsidesnyc/BSidesNYC{{ site.conYear }}/blob/master/Presentations/{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
               {% endif %}
               <hr>
               <div class="people-details">
