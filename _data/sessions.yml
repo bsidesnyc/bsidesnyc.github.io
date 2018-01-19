@@ -149,6 +149,7 @@
   title: "Hunting for Lateral Movement"
   description: "After obtaining an initial foothold on an environment, attackers are forced to embark in lateral movement techniques in order to be successful in identifying and exfiltrating sensitive information. To stay ahead of the bad guys, the Blue team needs to have a clear understanding of these techniques as well as the forensic artifacts these techniques leave behind on the victim hosts. Armed with this knowledge, we can proactively hunt for lateral movement in the environment before exfiltration can occur. This presentation will analyze Lateral Movement from both a Red and Blue team perspective and introduce Oriana, a lateral movement hunting tool that can assist the Blue team in catching the adversary."
   speakers: [017]
+  recorded: false
   presentation:
 -
   id: 020
@@ -167,6 +168,7 @@
   title: "I Want To Break Free"
   description: "These days, most adversaries will attempt to run code somewhere on your network in order to establish a command and control channel; application whitelisting is a key security control. This talk will demonstrate a number of common and less common techniques for being able to run code or interact with a locked down environment, seen through the eyes of an operational simulated attacker."
   speakers: [022]
+  recorded: false
   presentation:
 -
   id: 023
@@ -241,6 +243,7 @@
   title: "Startup Panel"
   description:
   speakers: [044, 006, 048, 050, 051]
+  recorded: false
   presentation:
 -
   id: 030
