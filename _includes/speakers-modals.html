@@ -20,15 +20,17 @@
 											{% for slot_split in session.slot_splits %}
 												{% for session_speaker in slot_split.speakers %}
 													{% if session_speaker == speaker.id %}
-														<h4>{{ slot_split.title }}</h4>
+														<a class="theme-title" href="{{ site.baseurl }}/schedule/#session-{{ session.id }}">
+															<h4>{{ slot_split.title }}</h4>
+														</a>
 														{% if slot_split.slot != null %}
 															<span class="theme-metadata"><span class="caption">Time slot: </span>{{ slot_split.slot }}</span>
 														{% endif %}
 														<!-- make sure each `description` has _2_ new lines per every 1 \n unless you want each line right under each other-->
 														<p class="text-justify theme-description">{{ slot_split.description | newline_to_br }}</p>
 														{% if slot_split.presentation %}
-						                  <a class="theme-presentation" href="https://github.com/bsidesnyc/BSidesNYC{{ site.conYear }}/blob/master/Presentations/{{ slot_split.presentation }}" title="Presentation" target="_blank">View presentation</a>
-						                {% endif %}
+															<a class="theme-presentation" href="https://github.com/bsidesnyc/BSidesNYC{{ site.conYear }}/blob/master/Presentations/{{ slot_split.presentation }}" title="Presentation" target="_blank">View presentation</a>
+														{% endif %}
 													{% endif %}
 												{% endfor %}
 											{% endfor %}
@@ -36,7 +38,9 @@
 											<!-- Handle regular session titles -->
 											{% for session_speaker in session.speakers %}
 												{% if session_speaker == speaker.id %}
-													<h4>{{ session.title }}</h4>
+													<a class="theme-title" href="{{ site.baseurl }}/schedule/#session-{{ session.id }}">
+														<h4>{{ session.title }}</h4>
+													</a>
 													<!-- make sure each `description` has _2_ new lines per every 1 \n unless you want each line right under each other-->
 													<p class="text-justify theme-description">{{ session.description | newline_to_br }}</p>
 													{% if session.presentation %}

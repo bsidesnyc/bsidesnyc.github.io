@@ -4444,6 +4444,14 @@ nav li a:hover {
     font-size: 14px;
     margin-right: 10px
 }
+.people-modal .theme-title h4{
+  font-size: 35px;
+  font-weight: 300;
+  color: #212121
+}
+.people-modal .theme-title:hover h4{
+  color: inherit;
+}
 .people-modal .theme-metadata .caption {
     color: #212121
 }

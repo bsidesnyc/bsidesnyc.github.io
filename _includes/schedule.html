@@ -108,7 +108,7 @@
                                 <!-- Handle speakers -->
                                 {% else %}
                                   {% for speaker in site.data.people %}
-                                    <!-- Handle regulsr session speakers -->
+                                    <!-- Handle regular session speakers -->
                                     {% for session_speaker in session.speakers %}
                                       {% if session_speaker == speaker.id %}
                                         {% if speaker.thumbnailUrl != null %}

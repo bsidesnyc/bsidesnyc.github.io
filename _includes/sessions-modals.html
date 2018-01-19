@@ -15,7 +15,7 @@
               <!-- Handle split sessons -->
               {% for slot_split in session.slot_splits %}
                 <h4>{{ slot_split.title }}</h4>
-                <span class="theme-metadata"><span class="caption">Slot: </span>{{ slot_split.slot | newline_to_br }}</span>
+                <span class="theme-metadata"><span class="caption">Time slot: </span>{{ slot_split.slot | newline_to_br }}</span>
                 <!-- By default, entrepreneur sessions are _not_ going to be recorded/streamed unless speaker has their own means to be -->
                 {% if slot_split.recorded != null and slot_split.recorded == true %}
                   <span class="theme-metadata"><span class="caption">Recorded: </span>True</span>
