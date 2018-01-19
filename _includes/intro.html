@@ -19,7 +19,12 @@
           {{ site.eventHost[0].link }}
           </br>
           {{ site.eventStreetAddress }}, {{ site.eventAddressLocality }}, {{ site.eventAddressLocalityRegion }} {{ site.eventPostalCode }}
-          </br>
+          <a href="{{ site.eventNavigationLink }}" target="_blank">
+			<svg class="icon icon-navigate" viewBox="0 0 30 32">
+			  <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-navigate"></use>
+			</svg>
+		  </a>
+		  </br>
           {% for button in site.eventButtons %}
             {% if current_time < cfp_close_time and button.id == "cfp" %}
               <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>

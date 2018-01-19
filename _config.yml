@@ -199,6 +199,7 @@ eventAddressLocality: "New York"
 eventAddressLocalityRegion: "NY"
 eventPostalCode: "10019"
 eventAddressCountry: "USA"
+eventNavigationLink: https://goo.gl/maps/7rZwmKZ4LCw
 eventStartTime: "2018-01-20T08:00"
 eventDoorTime: "09:00"
 eventEndTime: "2018-01-20T17:00"
