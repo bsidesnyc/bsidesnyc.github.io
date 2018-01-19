@@ -146,8 +146,8 @@ ctfAboutTitle: "Capture the Flag"
 ctfHostedBy: "<a href=\"https://www.jet.com\" target=\"_blank\">Jet.com</a>, in collaboration with Hack The Box."
 ctfHostedByImage: "/sponsors/jet.png"
 ctfCollaboratedWithImage: "/partners/htb.png"
-ctfInfo: ["This is not a team-based CTF - each haxor for themselves.",
-  "All participants are required to access the CTF platform via the venue Internet connection. IP filtering will be configured, so no remote users will be able to participate.",
+ctfInfo: ["All participants are <u>required to access the CTF platform via the venue Internet connection</u>. IP filtering will be configured, so no remote users will be able to participate.",
+  "This is not a team-based CTF - each haxor for themselves (<b>single-person team</b>). If you add more team members after joining, you will be unable to submit flags.",
   "The CTF is a single VM on a VPN network, hosted on <a href=\"https://ctf.hackthebox.eu\" target=\"_blank\">Hack The Box</a>'s CTF platform. <u>UDP traffic on port 1337 must be allowed</u>.",
   "The CTF will start once the keynotes conclude. Players may set up their HTB CTF profiles prior via <a href=\"https://ctf.hackthebox.eu\" target=\"_blank\">https://ctf.hackthebox.eu</a>; However, the CTF VM will not be started until after the keynotes.",
   "All participants will be given a single IP address and a ovpn file, which can be obtained from within their control panel on HTB's CTF Platform via Flag 1. Armed with only this information, participants will have to enumerate and hack their way in.",
