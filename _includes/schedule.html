@@ -146,9 +146,16 @@
                         <div class="slot-content">
                           <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
                           {% if session.location != null %}
-                            <span class="service-location">{{ session.location }}</span>
+                            <span class="service-location">{{ session.location }}
+                              {% if session.navigationLink %}
+                                <a href="{{ session.navigationLink }}" target="_blank">
+                                  <svg class="icon icon-navigate" viewBox="0 0 30 32">
+                                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-navigate"></use>
+                                  </svg>
+                                </a>
+                              {% endif %}
+                            </span>
                           {% endif %}
-
                           {% if session.isHosted and session.description != null %}
                             <ul class="slot-speakers">
                               <li itemprop="host">

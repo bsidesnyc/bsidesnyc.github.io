@@ -34,7 +34,8 @@
 -
   id: 004
   title: "After Party"
-  location: "Locaton T.B.D."
+  location: "336 W 37th St. Suite 1080 (10th floor), New York, NY 10018"
+  navigationLink: "https://goo.gl/maps/f7pDqrrfxps"
   description: "Hosted by <a href=\"https://www.redballoonsecurity.com\" target=\"_blank\">Red Balloon Security</a>"
   service: true
   isHosted: true
