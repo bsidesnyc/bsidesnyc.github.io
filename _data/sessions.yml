@@ -98,7 +98,7 @@
   title: "The Politics of Intelligence: Applying History to Modern Day Cyber Threat Intelligence"
   description: "How many organizations have an effective strategic threat intelligence operation? Many have failed and many struggle to obtain executive buy in or even mild interest in any of their cyber threat intelligence reports. By examining the history of the POTUS's use of intelligence, some powerful lessons can be learned. For instance, one president created and relied on his own private intelligence group of peers. Another president ignored SIGINT completely because of a preference for \"cloaks and daggers\". Yet another president, told the intelligence community their analysis will support a decision he has already made! These are all important insights into executive leadership, their psychology, and how best to serve their intelligence needs. This presentation will highlight and summarize several key lessons which can be applied to create or improve upon a strategic threat intelligence program."
   speakers: [010]
-  presentation:
+  presentation: "Paul Jaramillo - The Politics of Intelligence - Applying History to Modern Day Cyber Threat Intelligence.pdf"
 -
   id: 015
   title: "Moving like a Spook through Walls Or how to be only a shadow for APT detectors"
