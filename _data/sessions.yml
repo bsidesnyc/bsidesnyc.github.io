@@ -177,7 +177,7 @@
   description: "Advanced mathematics made simpler: Spectral Hypergraph Analysis for mortals.  Imagine lighting up and \"shining\" your network logs through a special prism that would separate behaviors into a \"spectrum\" that would indicate to you things that are going on on your network.   Some of the those things might be important discoveries with security implications.  Doing this would be like how astronomers determine the materials that are burning in a distant star, using a special telescope to get the spectrum of that star's light.  It turns out that there is a mathematical way to do this on network logs, involving a generalization of the Fourier Transform over high dimensional graphs.  This talk will explain this technology in accessible ways, and show examples of its use in discovering \"bad stuff\" on a very large network."
   speakers: [023]
   recorded: false
-  presentation:
+  presentation: "Reservoir Lethin - Moving Graph Analytics to Higher Dimensions to Discover Network Activity / Anomalies that are implicit in behavior - Connections in High Dimensions.pdf"
 -
   id: 024
   title: "Threat hunting .NET malware with YARA"
