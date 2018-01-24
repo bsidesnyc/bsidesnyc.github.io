@@ -322,11 +322,11 @@ sponsorshipKitUrl: "/assets/BSidesNYC-2018-Sponsorship-Kit.pdf"
 #-----------------------------------------------
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "400", specialCharacter: "", info: "attendees", detail: "from everywhere"}
+ - {count: "600", specialCharacter: "", info: "attendees", detail: "from everywhere"}
  - {count: "78", specialCharacter: "+", info: "CFP submissions", detail: "covering topics across the spectrum"}
  - {count: "20", specialCharacter: "+", info: "speakers", detail: "from all over the world"}
  - {count: "15", specialCharacter: "+", info: "presentations", detail: "for all interests"}
- - {count: "13", specialCharacter: "", info: "sponsors", detail: "from various industries"}
+ - {count: "20", specialCharacter: "", info: "sponsors", detail: "from various industries"}
  - {count: "2", specialCharacter: "", info: "parallel tracks", detail: "plus an entrepreneur session, CTF & a lock pick village"}
 
 #-----------------------------------------------
