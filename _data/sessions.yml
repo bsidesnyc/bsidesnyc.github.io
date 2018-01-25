@@ -132,7 +132,7 @@
   presentation: "Julian Cohen and Justin Berman - Threat-Based Risk Management.pdf"
 -
   id: 018
-  title: "Taste the Rainbow(Teaming)"
+  title: "Taste the Rainbow"
   description: "Adversarial Simulation, Red Team, Threat Emulation, Blue Team, Targeted Attack Simulation, Purple Team or Gold Team - So many labels and buzzwords. No matter what you call it or whatever color shirt you wear / team you identify most with - this talk offers something for you; no matter the camp you are in.
 
 
@@ -144,7 +144,7 @@
 
   Having delivered assessments all around the world over several years; as part of and separate to regulatory frameworks such as CBEST, TIBER, iCAST, we've sparred with some heavy hitters and a lot of lessons have been learned - we'd like to share some of these with you. There might just be some entertaining tales too - like that one time we were fingered as a new and shiny Russian APT..."
   speakers: [016]
-  presentation:
+  presentation: "Dave Hartley - Taste The Rainbow.pdf"
 -
   id: 019
   title: "Hunting for Lateral Movement"
