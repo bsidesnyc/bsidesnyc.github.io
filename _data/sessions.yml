@@ -186,7 +186,7 @@
 
   This presentation will focus on the peculiarities of obtaining indicators of compromise from .NET malware samples and writing reliable YARA rules using its latest module. I’ll be showing real world examples and releasing a convenient tool that can query metadata information from large sets of .NET files"
   speakers: [024]
-  presentation:
+  presentation: "Santiago Pontiroli - Threat hunting .NET malware with YARA.pdf"
 -
   id: 025
   title: "2FA was part of the solution, now it's part of the problem"
