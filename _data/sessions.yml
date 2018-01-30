@@ -92,7 +92,7 @@
 
   The talk will conclude with some suggestions on how some of the most common classes of medical device vulnerabilities might be remediated by vendors and also how hospitals and other healthcare providers can defend their medical devices in the meantime."
   speakers: [009]
-  presentation:
+  presentation: "Robert Portvliet - Open Up and Say 0×41414141 - Attacking Medical Devices.pdf"
 -
   id: 014
   title: "The Politics of Intelligence: Applying History to Modern Day Cyber Threat Intelligence"
