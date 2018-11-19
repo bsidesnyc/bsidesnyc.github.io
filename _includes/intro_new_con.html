@@ -1,0 +1,17 @@
+<!-- Begin Intro Section -->
+<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.eventImage }}');">
+    {% include navigation.html %}
+    <div class="overlay solid-overlay"></div>
+    <div class="content-wrapper">
+    <div class="jumbotron">
+        <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+          <div class="logo-intro">
+            <img src="{{ site.baseurl | append: '/img/' | append: site.logoImage }}">
+          </div>
+          <!--<h2><b>{{ site.eventTitle }}</b></h2>-->
+          <h1><b>{{ site.eventDate }}</b></h1>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- End Intro Section -->

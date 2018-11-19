@@ -12,7 +12,7 @@ exclude: ['README.md', 'LICENSE.txt', 'CNAME']
 #-----------------------------------------------
 # Plugins
 #-----------------------------------------------
-plugins:
+plugins_dir:
 - jekyll-sitemap
 #- jekyll-menus
 
@@ -27,7 +27,7 @@ twitterAccount: "@bsidesnyc"
 description: "BSides NYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community, and we truly strive to keep information free."
 url: "https://bsidesnyc.org" #https://bsidesnyc.github.io
 timezone: "America/New_York"
-conYear: "2018"
+conYear: "2020"
 previousSponsorCount: "13"
 previousAttendeeCount: "400"
 logoImage: "/about/logo_white.png"
@@ -73,17 +73,10 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 #-----------------------------------------------
 navigationLinks:
  - {permalink: "/about/", text: "About"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/sponsors/", text: "Sponsors"}
- - {permalink: "/registration/", text: "Tickets"}
  - {permalink: "/volunteers/", text: "Volunteer"}
- - {permalink: "/cfp/", text: "CFP"}
- - {permalink: "/ctf/", text: "CTF"}
- - {permalink: "/logistics/", text: "Logistics"}
 #bottomNavigationLinks:
 # - {permalink: "/cfp/", text: "Become a speaker"}
-rightNavigationButtons:
+#rightNavigationButtons:
 # - {permalink: "/volunteers/", text: "Volunteer!"}
 
 ################################################################################################
@@ -100,36 +93,6 @@ aboutBlock:
  - {title: "CTF", image: "htb.png", text: "Think you have skillz? This year we have two Capture the Flag challenges to help you gain bragging rights and win prizes!" }
 
 #-----------------------------------------------
-# CFP Block
-#-----------------------------------------------
-cfpTitle: "Call For Papers"
-cfpBoardTitle: "CFP Board"
-cfpUrl: "/cfp/"
-cfpOpenDate: "August 08, 2017"
-cfpCloseDate: "November 06, 2017"
-cfpAcceptanceDate: "December 06, 2017"
-cfpDuration: "CFP submissions will be accepted from"
-cfpAcceptance: "Speaker acceptance notices will start being sent out on"
-cfpProcessReviewText: ["Our current conference timeline allocates ~3 months for our CFP to be open for submissions. While there is a little flexibility for late submissions, we generally <b>will not accept submissions after our CFP has been closed for 24+ hrs.</b>",
-
-"After our CFP has been closed, our CFP review board has ~1 month to look over and score all submissions.",
-
-"Based on the ratings from our CFP review board, the submissions with the highest score are put into our first round of acceptance notices.",
-
-"We allow ~1 week for these submitters to respond. <i>If we can not get a hold of, or hear back from, said submitter(s) then we move down our acceptance list</i>. Additionally, circumstatnces may arrise which prevent a submitter from being able or willing to present at our conference. If this occurs, we must once again continue down the acceptance list.",
-
-"This is usually resolved within a week or two, but as you can imagine, we can not send out rejection notices until we have enough talks to fill our schedule.", "Once we have enough acceptances, we will send out notices to those who did not make the final cut. Depending on the volume of CFP submissions, we may not be able to provide personal feedback for each CFP submission."]
-cfpProcessAcceptedText: ["Ideally, we will be able to give you 1+ month of acceptance notice so you can schedule any necessary travel arrangements. <b>If your attendance requires any visa paperwork, please let us know ahead of time</b>.",
-
-"We typically do not have a speaker party the day before the conference; However, speakers have set up their own dinners for those in town in previous years.",
-
-"~7-10 days after you receive your acceptance notice, you will be contacted to ask if you would like to have your bio and/or headshot published on our site. If so, please provide us with this information at this time.",
-
-"Additionally, we will be posting the speaker list and talk abstracts so please let us know if anything has changed (title, abstract etc.) A.S.A.P.",
-
-"As always, if you would like to have someone come to the conference with you, please just send us their information so we can register them."]
-
-#-----------------------------------------------
 # Contact
 #-----------------------------------------------
 contactTitle: "Need to get in touch?"
@@ -139,195 +102,12 @@ contactMailingListText: "Just looking to stay in the loop? Use the form below to
 contactVolunteersMailingListText: "Looking to sign up as a volunteer? Head over to our <a href=\"/volunteers/\">volunteers page</a> and sign-up."
 
 #-----------------------------------------------
-# CTF
-#-----------------------------------------------
-ctfTitle: "CTF"
-ctfAboutTitle: "Capture the Flag"
-ctfHostedBy: "<a href=\"https://www.jet.com\" target=\"_blank\">Jet.com</a>, in collaboration with Hack The Box."
-ctfHostedByImage: "/sponsors/jet.png"
-ctfCollaboratedWithImage: "/partners/htb.png"
-ctfInfo: ["All participants are <u>required to access the CTF platform via the venue Internet connection</u>. IP filtering will be configured, so no remote users will be able to participate.",
-  "This is not a team-based CTF - each haxor for themselves (<b>single-person team</b>). If you add more team members after joining, you will be unable to submit flags.",
-  "The CTF is a single VM on a VPN network, hosted on <a href=\"https://ctf.hackthebox.eu\" target=\"_blank\">Hack The Box</a>'s CTF platform. <u>UDP traffic on port 1337 must be allowed</u>.",
-  "The CTF will start once the keynotes conclude. Players may set up their HTB CTF profiles prior via <a href=\"https://ctf.hackthebox.eu\" target=\"_blank\">https://ctf.hackthebox.eu</a>; However, the CTF VM will not be started until after the keynotes.",
-  "All participants will be given a single IP address and a ovpn file, which can be obtained from within their control panel on HTB's CTF Platform via Flag 1. Armed with only this information, participants will have to enumerate and hack their way in.",
-  "The VM contains <b>10 flags</b> with varying difficulty in the areas of webapp, binary exploitation and crypto.",
-  "All flags are in the format ​<u>JET{fl4g_t3xt_h3r3}</u>.",
-  "Some flags are sequential, meaning in order to get flag3 you should have flag2 etc., some are semi-sequential and one is completely independent."
-  ]
-ctfRules: ["The following user accounts and home directories are <b>out of scope</b>: ​<u>ch4p</u>, <u>blink</u>​, ​<u>g0blin​</u>​, <u>forgp</u>​​, <u>​xero</u>​ ​and <u>root</u>​. Everything else is considered in-scope.",
-  "All participants must compete using the same (provided) VM.",
-  "Participants <u>should not</u> killl processes they did not spawn themselves (e.g. - other participants shells).",
-  "Participants should clean up their exploits after they acquire the flag. If they don’t, they risk assisting others with their leftovers.",
-  "<b>DoS in any form is strictly prohibited</b>.",
-  "The top <b>3</b> players with the most flags at <b>17:00 ET</b> win.",
-  "Ties will be settled by flag submission time."
-]
-ctfImage: "ctf.jpg"
-
-# CTF Prizes
-ctfPrizesTitle: "Prizes"
-ctfPrizesInfo: "Each winner will have the ability to choose a <a href=\"https://hakshop.com/collections/hak5-field-kits\" target=\"_blank\">Hak5 Field Kit</a> of their choice."
-ctfPrizes:
-# - {title: "1nd Place", image: "kit1.jpg", info: "prize1"}
-
-#-----------------------------------------------
 # Event Intro
 #-----------------------------------------------
 eventImage: "nyc_skyline.jpg"
 eventTitle: "BSidesNYC"
-eventDate: "January 20, 2018"
-eventHost:
-  - name: "D4CS @ John Jay College"
-  - nameLong: "The Master of Science in Digital Forensics and Cybersecurity program, at John Jay College of Criminal Justice"
-  - link: https://www.jjay.cuny.edu/about-d4cs
-eventInfo: "Join us on January 20th, 2018! We are extremely pleased to have <a href=\"https://www.jjay.cuny.edu/about-d4cs\" target=\"_blank\">D4CS</a>, the Master of Science in Digital Forensics and Cybersecurity program, at John Jay College of Criminal Justice, as a partner in organizing and hosting BSidesNYC and we’re working hard to create another action-packed conference for you – expect even more technical security content by brilliant researchers, workshops, entrepreneur activities, and a brand new style of CTF!  To stay updated on volunteer opportunities, and other news, follow us on Twitter <a href=\"https://twitter.com/bsidesnyc\" target=\"_blank\">@BSidesNYC</a> and sign up for the mailing list."
-eventButtons:
- - {permalink: "/cfp/", text: "Submit to CFP", id: "cfp"}
- - {permalink: "/registration/", text: "Get tickets", id: "tickets"}
- # - {permalink: "/sponsors/", text: "Become a sponsor", id: "sponsors"}
- # - {permalink: "/volunteers/", text: "Volunteer!", id: "volunteers"}
- - {link: "http://bit.ly/bsidesnyclive", text: "Watch via Live Streams!", id: "live-stream"}
-
-#-----------------------------------------------
-# Location Block
-#-----------------------------------------------
-locationBlockTitle: "Location"
-eventLocationName: "Digital Forensics and Cybersecurity Program @ John Jay College of Criminal Justice"
-eventStreetAddress: "524 W 59th St."
-eventAddressLocality: "New York"
-eventAddressLocalityRegion: "NY"
-eventPostalCode: "10019"
-eventAddressCountry: "USA"
-eventNavigationLink: https://goo.gl/maps/7vwHt4ARqjr
-eventStartTime: "2018-01-20T08:00"
-eventDoorTime: "09:00"
-eventEndTime: "2018-01-20T17:00"
-eventPlaceCoordinates: "40.7709863, -73.9899653"
-mapCenterCoordinates: "40.7709863, -73.9899653"
-mapMobileCenterCoordinates: "40.7709863, -73.9899653"
-
-#-----------------------------------------------
-# Logistics | Directions
-#-----------------------------------------------
-directionsTitle: #"Find your way here"
-directionsDistance: "Distance"
-directionsDriving: "DRIVING"
-directionsWalking: "WALKING"
-directionsBicycling: "BICYCLING"
-directionsTransit: "TRANSIT"
-directionsFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "40.7709863, -73.9899653"
-logisticsMapMobileCenterCoordinates: "40.7709863, -73.9899653"
-logisticsMapAutoDirections: false
-
-# Logistics Direction Details
-directionDetailsImage: "columbus_circle.jpg"
-directionDetailsTitle: "Get around NYC"
-directionDetailsCards:
- - {title: "Airports", information: 'The conference is easily accessible from either <b>JFK</b> or <b>LGA</b> airports via public transportation (subway, bus, taxi) or ride-sharing services (uber, lyft etc.)'}
- - {title: "Public Transit", information: "The closest subway station is <b>59 St. - Columbus Circle</b> (A,B,C & D lines). From this stop, it is less than a .5 mile walk."}
-
-#-----------------------------------------------
-# Partners
-#-----------------------------------------------
-partnersTitle: "Partners"
-
-#-----------------------------------------------
-# Policies
-#-----------------------------------------------
-policiesTitle: "Policies"
-
-#-----------------------------------------------
-# Press
-#-----------------------------------------------
-pressTitle: "Press Release"
-pressReleaseFile: "/assets/BSidesNYC-2018-Press-Release.pdf"
-pressPassText: "Are you a reporter, writer or blogger looking to cover BSidesNYC? If so, we can issue you a press pass - just email us at"
-
-#-----------------------------------------------
-# Speakers List
-#-----------------------------------------------
-showSessions: true
-
-#-----------------------------------------------
-# Speakers Opening List
-#-----------------------------------------------
-speakersOpeningImage:
-speakersOpeningCount: 6
-speakersOpeningCountPerLine: 3
-speakersOpeningTitle: "Opening and Keynotes"
-speakersOpeningButtonText: "See all speakers"
-speakersOpeningShowButton: false
-speakersOpeningSort: true
-speakersOpeningShowAll: true
-speakersOpeningShowAllOnIndex: false
-
-#-----------------------------------------------
-# Speakers Entrepreneur List
-#-----------------------------------------------
-speakersEntrepreneurImage: "rockstar-supporters.jpg"
-speakersEntrepreneurCount: 6
-speakersEntrepreneurCountPerLine: 3
-speakersEntrepreneurTitle: "Entrepreneur Track"
-speakersEntrepreneurSubtitle: "Think of it as career 0-day :)"
-speakersEntrepreneurButtonText: "See all entrepreneurs"
-speakersEntrepreneurShowButton: true
-speakersEntrepreneurSort: true
-speakersEntrepreneurShowAll: false
-speakersEntrepreneurShowAllOnIndex: false
-
-#-----------------------------------------------
-# Speakers General List
-#-----------------------------------------------
-speakersGeneralImage:
-speakersGeneralCount: 6
-speakersGeneralCountPerLine: 3
-speakersGeneralTitle: "Technical Talks"
-speakersGeneralButtonText: "See all speakers"
-speakersGeneralShowButton: true
-speakersGeneralSort: true
-speakersGeneralShowAll: false
-speakersGeneralShowAllOnIndex: false
-
-#-----------------------------------------------
-# Supporters List (Show all)
-#-----------------------------------------------
-supportersImage: "coding.jpg"
-supportersCount: 6
-supportersCountPerLine: 3
-supportersTitle: "Rockstar Supporters"
-supportersButtonText: "See all supporters"
-supportersShowButton: true
-supportersSort: true
-supportersShowAll: true
-supportersShowAllOnIndex: false
-
-#-----------------------------------------------
-# Sponsors
-#-----------------------------------------------
-sponsorsTitle: "Sponsors"
-sponsorsUrl: "/sponsors/"
-sponsorsButton: "Become a sponsor"
-
-#-----------------------------------------------
-# Sponsorship
-#-----------------------------------------------
-sponsorshipTitle: "Sponsorship"
-sponsorshipButton: "Download our Sponsorship Kit (PDF)"
-sponsorshipKitUrl: "/assets/BSidesNYC-2018-Sponsorship-Kit.pdf"
-
-#-----------------------------------------------
-# Statistic
-#-----------------------------------------------
-statisticBlockImage: "statistic.jpg"
-statisticBlock:
- - {count: "600", specialCharacter: "", info: "attendees", detail: "from everywhere"}
- - {count: "78", specialCharacter: "+", info: "CFP submissions", detail: "covering topics across the spectrum"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from all over the world"}
- - {count: "15", specialCharacter: "+", info: "presentations", detail: "for all interests"}
- - {count: "20", specialCharacter: "", info: "sponsors", detail: "from various industries"}
- - {count: "2", specialCharacter: "", info: "parallel tracks", detail: "plus an entrepreneur session, CTF & a lock pick village"}
+eventDate: "January, 2020"
+eventInfo: "The next BSidesNYC will take place in January, 2010.  To stay updated on volunteer opportunities, and other news, follow us on Twitter <a href=\"https://twitter.com/bsidesnyc\" target=\"_blank\">@BSidesNYC</a> and sign up for the mailing list."
 
 #-----------------------------------------------
 # Subscribe
@@ -352,26 +132,6 @@ ticketsNextReleaseText: "Didn't get a ticket during our first round? No need to 
 # add EventBrite URL to `link` when `ticketsOpen` is set to `true`
 ticketsButtons:
  - {link: "https://bsidesnyc.eventbrite.com", text: "Get Tickets!", id: "tickets_button_external"}
-
-#-----------------------------------------------
-# Tweets Feed
-#-----------------------------------------------
-#tweetsFeedImage: "twitter-feed.jpg"
-tweetsFeedTitle: "What's Up?"
-twitterHashTag: "BSidesNYC"
-
-#-----------------------------------------------
-# Venue
-#-----------------------------------------------
-venueBlockTitle: "Venue"
-venueImageAtrium: "atrium.jpg"
-venueRoomImage1: "240.jpg"
-venueRoomImage2: "L615.jpg"
-venueRoomImage3: "L763.jpg"
-venueTitle: "John Jay College of Criminal Justice"
-venueFeatures: ["Guest Wi-Fi will be available.", "Lunch will be provided."]
-venueRooms:
-  - {id: "0", name: "Lynn & Jules Kroll Atrium", image: "atrium.jpg", link: "http://www.locationsnewyorkcity.com/mainlocation/lynn-jules-kroll-atrium/"}
 
 #-----------------------------------------------
 # Volunteers
