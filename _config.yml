@@ -27,7 +27,7 @@ twitterAccount: "@bsidesnyc"
 description: "BSides NYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community, and we truly strive to keep information free."
 url: "https://bsidesnyc.org" #https://bsidesnyc.github.io
 timezone: "America/New_York"
-conYear: "2020"
+conYear: "2023"
 previousSponsorCount: "13"
 previousAttendeeCount: "400"
 logoImage: "/about/logo_white.png"
@@ -58,7 +58,6 @@ footerBlocks:
  -
   title: "Press"
   links:
-   - {permalink: "/press/", text: "Press Release"}
    - {permalink: "/press-pass/", text: "Press Passes"}
 
 #-----------------------------------------------
@@ -90,7 +89,6 @@ aboutTitle: "What is BSidesNYC?"
 aboutBlock:
  - {title: "Conference", image: "logo_black.png", text: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free." }
  - {title: "Villages", image: "toool.png", text: "Rather pick some locks or get hands on with some hardware hacking? We got ya covered." }
- - {title: "CTF", image: "htb.png", text: "Think you have skillz? This year we have two Capture the Flag challenges to help you gain bragging rights and win prizes!" }
 
 #-----------------------------------------------
 # Contact
@@ -106,8 +104,8 @@ contactVolunteersMailingListText: "Looking to sign up as a volunteer? Head over 
 #-----------------------------------------------
 eventImage: "nyc_skyline.jpg"
 eventTitle: "BSidesNYC"
-eventDate: "October, 2020"
-eventInfo: "The next BSidesNYC will take place in October, 2020.  To stay updated on volunteer opportunities, and other news, follow us on Twitter <a href=\"https://twitter.com/bsidesnyc\" target=\"_blank\">@BSidesNYC</a> and sign up for the mailing list."
+eventDate: "April 22, 2023"
+eventInfo: "The next BSidesNYC will take place in April 22, 2023.  To stay updated on volunteer opportunities, and other news, follow us on Twitter <a href=\"https://twitter.com/bsidesnyc\" target=\"_blank\">@BSidesNYC</a> and sign up for the mailing list."
 
 #-----------------------------------------------
 # Subscribe
