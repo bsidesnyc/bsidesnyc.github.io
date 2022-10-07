@@ -73,8 +73,8 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 navigationLinks:
  - {permalink: "/about/", text: "About"}
  - {permalink: "/volunteers/", text: "Volunteer"}
-#bottomNavigationLinks:
-# - {permalink: "/cfp/", text: "Become a speaker"}
+bottomNavigationLinks:
+ - {permalink: "/cfp/", text: "Become a speaker"}
 #rightNavigationButtons:
 # - {permalink: "/volunteers/", text: "Volunteer!"}
 
@@ -89,6 +89,36 @@ aboutTitle: "What is BSidesNYC?"
 aboutBlock:
  - {title: "Conference", image: "logo_black.png", text: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free." }
  - {title: "Villages", image: "toool.png", text: "Rather pick some locks or get hands on with some hardware hacking? We got ya covered." }
+
+#-----------------------------------------------
+# CFP Block
+#-----------------------------------------------
+cfpTitle: "Call For Papers"
+cfpBoardTitle: "CFP Board"
+cfpUrl: "/cfp/"
+cfpOpenDate: "November 08, 2022"
+cfpCloseDate: "February 06, 2023"
+cfpAcceptanceDate: "March 08, 2023"
+cfpDuration: "CFP submissions will be accepted from"
+cfpAcceptance: "Speaker acceptance notices will start being sent out on"
+cfpProcessReviewText: ["Our current conference timeline allocates ~3 months for our CFP to be open for submissions. While there is a little flexibility for late submissions, we generally <b>will not accept submissions after our CFP has been closed for 24+ hrs.</b>",
+
+"After our CFP has been closed, our CFP review board has ~1 month to look over and score all submissions.",
+
+"Based on the ratings from our CFP review board, the submissions with the highest score are put into our first round of acceptance notices.",
+
+"We allow ~1 week for these submitters to respond. <i>If we can not get a hold of, or hear back from, said submitter(s) then we move down our acceptance list</i>. Additionally, circumstatnces may arrise which prevent a submitter from being able or willing to present at our conference. If this occurs, we must once again continue down the acceptance list.",
+
+"This is usually resolved within a week or two, but as you can imagine, we can not send out rejection notices until we have enough talks to fill our schedule.", "Once we have enough acceptances, we will send out notices to those who did not make the final cut. Depending on the volume of CFP submissions, we may not be able to provide personal feedback for each CFP submission."]
+cfpProcessAcceptedText: ["Ideally, we will be able to give you 1+ month of acceptance notice so you can schedule any necessary travel arrangements. <b>If your attendance requires any visa paperwork, please let us know ahead of time</b>.",
+
+"We typically do not have a speaker party the day before the conference; However, speakers have set up their own dinners for those in town in previous years.",
+
+"~7-10 days after you receive your acceptance notice, you will be contacted to ask if you would like to have your bio and/or headshot published on our site. If so, please provide us with this information at this time.",
+
+"Additionally, we will be posting the speaker list and talk abstracts so please let us know if anything has changed (title, abstract etc.) A.S.A.P.",
+
+"As always, if you would like to have someone come to the conference with you, please just send us their information so we can register them."]
 
 #-----------------------------------------------
 # Contact
