@@ -73,7 +73,6 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 navigationLinks:
  - {permalink: "/about/", text: "About"}
  - {permalink: "/volunteers/", text: "Volunteer"}
- - {permalink: "/volunteers/", text: "Volunteer"}
  - {permalink: "/cfp/", text: "CFP"}
 bottomNavigationLinks:
  - {permalink: "/cfp/", text: "Become a speaker"}
