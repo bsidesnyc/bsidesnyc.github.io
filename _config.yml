@@ -73,8 +73,8 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 navigationLinks:
  - {permalink: "/about/", text: "About"}
  - {permalink: "/volunteers/", text: "Volunteer"}
- - {permalink: "/volunteers/", text: "Volunteer"}
  - {permalink: "/cfp/", text: "CFP"}
+ - {permalink: "/villages/", text: "Villages"}
 bottomNavigationLinks:
  - {permalink: "/cfp/", text: "Become a speaker"}
 rightNavigationButtons:
@@ -121,6 +121,23 @@ cfpProcessAcceptedText: ["Ideally, we will be able to give you 1+ month of accep
 "Additionally, we will be posting the speaker list and talk abstracts so please let us know if anything has changed (title, abstract etc.) A.S.A.P.",
 
 "As always, if you would like to have someone come to the conference with you, please just send us their information so we can register them."]
+
+#-----------------------------------------------
+# Villages
+#-----------------------------------------------
+villagesCfvTitle: "Villages Cfv Title Here"
+villagesUrl: "/villages/"
+villagesBlock:
+ - {title: "What's a Village?", image: "bsides_village.jfif", text: "Villages are open spaces divided up by topic that host hands-on activities, demos, and workshops throughout the conference. They are generally less formal than the standard tracks and offer an alternative learning environment from the straight talk/lecture structure. They're also a great place to socialize and make contacts in the community!" }
+ - {title: "Host a Village!", image: "toool.png", subtitle: "Interested in hosting a Village at BsidesNYC? Awesome! Please email us at ", text: "Here are a few things you should know:", villagesCfvBullets: [
+ "Villages are expected to run throughout the conference and need to be staffed appropriately (let us know if you need help with this).",
+ "Villages should generally include hands-on events and activities, workshops, demos, etc., and should not be just another speaking track.",
+ "Space is limited - use it wisely!"] }
+
+
+#villagesCfvText: "I"
+#villagesCfvBullets: ["Villages hours of operation should match con hours","We are looking for Villages with hands on events and activities, workshops, AMA's with experts, walkthroughs, etc. Not speaking tracks all weekend","Space & Stages are limited, and the one thing we cannot easily make more of. You will need to use your space wisely.",]
+#villagesOverviewText: ""
 
 #-----------------------------------------------
 # Contact
