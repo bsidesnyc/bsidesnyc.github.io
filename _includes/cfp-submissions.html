@@ -9,8 +9,10 @@
       {% assign cfp_close_time = site.cfpCloseDate | date: "%s" %}
       {% assign current_time = 'now' | date: "%s" %}
 
-      {% if cfp_open_time > current_time or current_time > cfp_close_time %}
+      {% if current_time > cfp_close_time %}
         <h6>The CFP for BSidesNYC {{ site.conYear }} is now <b>closed</b>. Thanks to all who submitted!</h6>
+      {% elsif cfp_open_time > current_time %}
+        <h6>The CFP for BSidesNYC {{ site.conYear }} opens on <b>{{ site.cfpOpenDate }}</b>. Check back then!</h6>
       {% else %}
         <h6>The CFP for BSidesNYC {{ site.conYear }} is now <b>open</b>! Please use this <a href="{{ site.cfpUrl}}">form</a> to submit.</h6>
       {% endif %}
