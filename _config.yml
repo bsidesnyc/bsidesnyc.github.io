@@ -97,7 +97,7 @@ aboutBlock:
 #-----------------------------------------------
 cfpTitle: "Call For Papers"
 cfpBoardTitle: "CFP Board"
-cfpUrl: "/cfp/"
+cfpUrl: "https://docs.google.com/forms/d/e/1FAIpQLSes8dIfojKqXatyC6lNug41d_jsnio0LdIZRlFWms9sbWiUxw/viewform?usp=sf_link"
 cfpOpenDate: "November 08, 2022"
 cfpCloseDate: "February 06, 2023"
 cfpAcceptanceDate: "March 08, 2023"
