@@ -2,8 +2,8 @@
   id: 000
   name: Glenn
   surname: Edwards
-  company: FireEye
-  title: Technical Director
+  company: Block
+  title: Incident Response Engineer
   bio: "Glenn P. Edwards Jr. is an Incident Response Engineer at Block where he specializes in Incident Response and Digital Forensics. Glenn holds a M.S degree in Digital Forensics from the University of Central Florida as well as a B.S. degree in Information Security and Privacy from High Point University."
   isDynamic: false
   sharedImg: true
@@ -15,5 +15,121 @@
   cfpBoard: true
   trackOpening: false
   trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 001
+  name: Brad
+  surname: Antoniewicz
+  company: Block
+  title: Detection Engineering Manager
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl:
+  twitter: brad_anton
+  isOrganizer: true
+  isFounder: true
+  subTeam: false
+  cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 002
+  name: Dave
+  surname: Giancaspro
+  company:
+  title:
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/dave.png
+  twitter:
+  isOrganizer: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 003
+  name: uu
+  surname:
+  company:
+  title:
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl:
+  twitter:
+  isOrganizer: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+ -
+  id: 004
+  name: Jamie
+  surname: Levy
+  company:
+  title:
+  bio: ""
+  isDynamic: true
+  sharedImg: true
+  thumbnailUrl:
+  twitter: gleeda
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: true
+-
+  id: 005
+  name: Lenny
+  surname: Zeltser
+  company: Axonius
+  title: CISO at Axonius. Author and Faculty Fellow at SANS Institute
+  bio: "I design security solutions and shepherd them to a sustainable state. I used to be hands-on in many areas of cybersecurity and IT. Now I focus on strategy and leadership, treating security as an enabler that helps people and companies achieve their goals. As the CISO of Axonius, I lead the security program to earn customers’ trust and fuel the company’s growth. Earlier, I built security products and services. I’m also a Faculty Fellow at SANS Institute, where I help professionals develop malware analysis skills.
+
+  To learn more about me, explore my blog at zeltser.com. You can connect with me on Twitter at https://twitter.com/lennyzeltser or Mastodon at https://infosec.exchange/@lennyzeltser."
+  isDynamic: true
+  sharedImg: true
+  thumbnailUrl: /cfp/lenny_zeltser.jpg
+  twitter: lennyzeltser
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
+-
+  id: 006
+  name: Shweta
+  surname: Jain
+  company: John Jay College of Criminal Justice
+  title:
+  bio: ""
+  isDynamic: true
+  sharedImg: true
+  thumbnailUrl:
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: true
   trackGeneral: false
   supporter: false
