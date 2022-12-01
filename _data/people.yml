@@ -22,11 +22,11 @@
   name: Brad
   surname: Antoniewicz
   company: Block
-  title: Detection Engineering Manager
+  title: Detection and Response Lead
   bio: ""
   isDynamic: false
   sharedImg: true
-  thumbnailUrl:
+  thumbnailUrl: /organizers/brad.jpg
   twitter: brad_anton
   isOrganizer: true
   isFounder: true
@@ -100,6 +100,7 @@
   company: Axonius
   title: CISO at Axonius. Author and Faculty Fellow at SANS Institute
   bio: "I design security solutions and shepherd them to a sustainable state. I used to be hands-on in many areas of cybersecurity and IT. Now I focus on strategy and leadership, treating security as an enabler that helps people and companies achieve their goals. As the CISO of Axonius, I lead the security program to earn customers’ trust and fuel the company’s growth. Earlier, I built security products and services. I’m also a Faculty Fellow at SANS Institute, where I help professionals develop malware analysis skills.
+
 
   To learn more about me, explore my blog at zeltser.com. You can connect with me on Twitter at https://twitter.com/lennyzeltser or Mastodon at https://infosec.exchange/@lennyzeltser."
   isDynamic: true
