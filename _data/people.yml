@@ -9,7 +9,7 @@
   sharedImg: true
   thumbnailUrl: /organizers/glenn.jpg
   twitter: hiddenillusion
-  isOrganizer: true
+  isOrganizer: false
   isFounder: true
   subTeam: false
   cfpBoard: true
@@ -28,7 +28,7 @@
   sharedImg: true
   thumbnailUrl: /organizers/brad.jpg
   twitter: brad_anton
-  isOrganizer: true
+  isOrganizer: false
   isFounder: true
   subTeam: false
   cfpBoard: true
@@ -57,19 +57,19 @@
   supporter: false
 -
   id: 003
-  name: uu
-  surname:
+  name: Huxley
+  surname: Barbee
   company:
   title:
   bio:
   isDynamic: false
   sharedImg: true
-  thumbnailUrl:
-  twitter:
+  thumbnailUrl: /organizers/huxley.jpg
+  twitter: huxley_barbee
   isOrganizer: true
   isFounder: false
   subTeam: true
-  cfpBoard: true
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
@@ -83,7 +83,7 @@
   bio: ""
   isDynamic: true
   sharedImg: true
-  thumbnailUrl:
+  thumbnailUrl: /cfp/jamie_levy.jpg
   twitter: gleeda
   isOrganizer: false
   isFounder: false
@@ -132,5 +132,43 @@
   cfpBoard: true
   trackOpening: false
   trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
+-
+  id: 007
+  name: Brian
+  surname: McHenry
+  company: F5
+  title: Global Lead
+  bio: "Brian McHenry has over 20 years of experience as an information technology professional, from early days in software validation and desktop support to dot-com startups and global NOCs and everything in between. Since 2008, he has focused his passion for solving problems while working for F5 Networks. Currently, McHenry is F5's global lead for customer solutions, spending his time on speaking engagements, hacking in the lab on new solutions, and helping to shape the future of F5 security product offerings."
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/brian.jpg
+  twitter: bamchenry
+  isOrganizer: false
+  isFounder: true
+  subTeam: false
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 008
+  name: Janine
+  surname: Medina
+  company:
+  title: Coordinator extraordinaire
+  bio: "Coordinator extraordinaire who makes things go at BSidesNYC. If you want to know more, you’ll have to ask her yourself"
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /cfp/janine.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: false
   trackGeneral: false
   supporter: false
