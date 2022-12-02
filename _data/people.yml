@@ -83,7 +83,7 @@
   bio: ""
   isDynamic: true
   sharedImg: true
-  thumbnailUrl: /cfp/jamie_levy.jpg
+  thumbnailUrl: 
   twitter: gleeda
   isOrganizer: false
   isFounder: false
@@ -124,7 +124,7 @@
   bio: ""
   isDynamic: true
   sharedImg: true
-  thumbnailUrl:
+  thumbnailUrl: /cfp/shweta.jpg
   twitter:
   isOrganizer: false
   isFounder: false
@@ -162,7 +162,7 @@
   bio: "Coordinator extraordinaire who makes things go at BSidesNYC. If you want to know more, you’ll have to ask her yourself"
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /cfp/janine.jpg
+  thumbnailUrl:
   twitter:
   isOrganizer: false
   isFounder: false
