@@ -41,7 +41,7 @@
   name: Dave
   surname: Giancaspro
   company:
-  title:
+  title: Vulnerability and Threat Analyst
   bio:
   isDynamic: false
   sharedImg: true
@@ -60,7 +60,7 @@
   name: Huxley
   surname: Barbee
   company:
-  title:
+  title: Security Evangelist
   bio:
   isDynamic: false
   sharedImg: true
@@ -120,7 +120,7 @@
   name: Shweta
   surname: Jain
   company: John Jay College of Criminal Justice
-  title:
+  title: Professor, Director of D4CS
   bio: ""
   isDynamic: true
   sharedImg: true
@@ -139,7 +139,7 @@
   name: Brian
   surname: McHenry
   company: F5
-  title: Global Lead
+  title: VP of Product
   bio: "Brian McHenry has over 20 years of experience as an information technology professional, from early days in software validation and desktop support to dot-com startups and global NOCs and everything in between. Since 2008, he has focused his passion for solving problems while working for F5 Networks. Currently, McHenry is F5's global lead for customer solutions, spending his time on speaking engagements, hacking in the lab on new solutions, and helping to shape the future of F5 security product offerings."
   isDynamic: false
   sharedImg: true
@@ -168,6 +168,25 @@
   isFounder: false
   subTeam: true
   cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 009
+  name: Aaron
+  surname: Varone
+  company:
+  title: Incident Response Director
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/aaron.jpg
+  twitter:
+  isOrganizer: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
