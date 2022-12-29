@@ -143,7 +143,6 @@ eventInfo: "The next BSidesNYC will take place in April 22, 2023.  To stay updat
 #-----------------------------------------------
 subscribeImage: #"subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
-subscribeAction: "https://bsidesnyc.us11.list-manage.com/subscribe/post?u=0538b2c81e2e35a4635056f7f&amp;id=731c810915"
 subscribeInfo: "We'll only use your email for BSidesNYC announcements. We respect privacy, and don't provide anyone (including sponsors) with this type of information."
 
 #-----------------------------------------------
@@ -171,4 +170,3 @@ volunteersText: "We are looking for individuals to help in a variety of areas â€
 
 Over email? Join our <a href=\"https://join.slack.com/t/bsidesnyc/shared_invite/zt-1lbapliq9-Sym1TaYpxh3zmfalcdYHjw\" target=\"_blank\">Slack</a> workspace instead."
 volunteersSubscribeTitle: "Join the Team"
-volunteersSubscribeAction: "https://bsidesnyc.us11.list-manage.com/subscribe/post?u=0538b2c81e2e35a4635056f7f&amp;id=d6c9dd00a7"
