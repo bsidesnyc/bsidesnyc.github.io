@@ -142,6 +142,24 @@ eventButtons:
  - {permalink: "/sponsors/", text: "Become a sponsor", id: "sponsors"}
 
 #-----------------------------------------------
+# Location Block
+#-----------------------------------------------
+locationBlockTitle: "Location"
+eventLocationName: "Digital Forensics and Cybersecurity Program @ John Jay College of Criminal Justice"
+eventStreetAddress: "524 W 59th St."
+eventAddressLocality: "New York"
+eventAddressLocalityRegion: "NY"
+eventPostalCode: "10019"
+eventAddressCountry: "USA"
+eventNavigationLink: https://goo.gl/maps/7vwHt4ARqjr
+eventStartTime: "2018-01-20T08:00"
+eventDoorTime: "09:00"
+eventEndTime: "2018-01-20T17:00"
+eventPlaceCoordinates: "40.7709863, -73.9899653"
+mapCenterCoordinates: "40.7709863, -73.9899653"
+mapMobileCenterCoordinates: "40.7709863, -73.9899653"
+
+#-----------------------------------------------
 # Sponsors
 #-----------------------------------------------
 sponsorsTitle: "Sponsors"
@@ -177,6 +195,19 @@ ticketsNextReleaseText: "Didn't get a ticket during our first round? No need to 
 # add EventBrite URL to `link` when `ticketsOpen` is set to `true`
 ticketsButtons:
  - {link: "https://bsidesnyc.eventbrite.com", text: "Get Tickets!", id: "tickets_button_external"}
+
+#-----------------------------------------------
+# Venue
+#-----------------------------------------------
+venueBlockTitle: "Venue"
+venueImageAtrium: "atrium.jpg"
+venueRoomImage1: "240.jpg"
+venueRoomImage2: "L615.jpg"
+venueRoomImage3: "L763.jpg"
+venueTitle: "John Jay College of Criminal Justice"
+venueFeatures: ["Guest Wi-Fi will be available." ]
+venueRooms:
+  - {id: "0", name: "Lynn & Jules Kroll Atrium", image: "atrium.jpg", link: "http://www.locationsnewyorkcity.com/mainlocation/lynn-jules-kroll-atrium/"}
 
 #-----------------------------------------------
 # Volunteers
