@@ -91,7 +91,7 @@ rightNavigationButtons:
 aboutTitle: "What is BSidesNYC?"
 aboutBlock:
  - {title: "Conference", image: "logo_black.png", text: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free." }
- - {title: "Villages", image: "toool.png", text: "Rather pick some locks or get hands on with some hardware hacking? We got ya covered." }
+ - {title: "Villages", image: "bsides_village.jfif", text: "Rather pick some locks or get hands on with some hardware hacking? We got ya covered." }
 
 #-----------------------------------------------
 # CFP Block
