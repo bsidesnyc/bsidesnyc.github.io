@@ -14,7 +14,9 @@
       {% elsif cfp_open_time > current_time %}
         <h6>The CFP for BSidesNYC {{ site.conYear }} opens on <b>{{ site.cfpOpenDate }}</b>. Check back then!</h6>
       {% else %}
-        <h6>The CFP for BSidesNYC {{ site.conYear }} is now <b>open</b>! Please use this <a href="{{ site.cfpUrl}}">form</a> to submit.</h6>
+        <h6>The CFP for BSidesNYC {{ site.conYear }} is now <b>open</b>!</h6>
+        <h6>Please use this <a href="{{ site.cfpUrl}}"><b>form</b></a> to submit.</h6>
+        <h6>The event is on {{ site.eventDate }}.</h6>
       {% endif %}
 
       <br />

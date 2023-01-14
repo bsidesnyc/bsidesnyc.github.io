@@ -28,8 +28,8 @@ description: "BSides NYC is an Information / Security conference that’s differ
 url: "https://bsidesnyc.org" #https://bsidesnyc.github.io
 timezone: "America/New_York"
 conYear: "2023"
-previousSponsorCount: "13"
-previousAttendeeCount: "400"
+previousSponsorCount: "22"
+previousAttendeeCount: "600"
 logoImage: "/about/logo_white.png"
 #logoImageHead: "/about/logo_black.png"
 
@@ -49,7 +49,7 @@ footerBlocks:
   title: "Contacts"
   links:
    - {permalink: "/contact/", text: "Contact Us"}
-   - {link: "https://bsidesnyc-slack.herokuapp.com", text: "Join our Slack"}
+   - {link: "https://join.slack.com/t/bsidesnyc/shared_invite/zt-1lbapliq9-Sym1TaYpxh3zmfalcdYHjw", text: "Join our Slack"}
    - {link: "mailto:bsides@bsidesnyc.org", text: "bsides(at)bsidesnyc.org"}
  -
   title: "Policies"
@@ -72,6 +72,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 #-----------------------------------------------
 navigationLinks:
  - {permalink: "/about/", text: "About"}
+ - {permalink: "/sponsors/", text: "Sponsors"}
  - {permalink: "/volunteers/", text: "Volunteer"}
  - {permalink: "/cfp/", text: "CFP"}
  - {permalink: "/villages/", text: "Villages"}
@@ -145,7 +146,7 @@ villagesBlock:
 contactTitle: "Need to get in touch?"
 contactTextTwitter: "Follow us on Twitter"
 contactTextEmail: "or email us at"
-contactMailingListText: "Just looking to stay in the loop? Use the form below to get announcements on all things BSidesNYC or join our <a href=\"https://bsidesnyc-slack.herokuapp.com\" target=\"_blank\">Slack</a> workspace."
+contactMailingListText: "Just looking to stay in the loop? Use the form below to get announcements on all things BSidesNYC or join our <a href=\"https://join.slack.com/t/bsidesnyc/shared_invite/zt-1lbapliq9-Sym1TaYpxh3zmfalcdYHjw\" target=\"_blank\">Slack</a> workspace."
 contactVolunteersMailingListText: "Looking to sign up as a volunteer? Head over to our <a href=\"/volunteers/\">volunteers page</a> and sign-up."
 
 #-----------------------------------------------
@@ -155,13 +156,46 @@ eventImage: "nyc_skyline.jpg"
 eventTitle: "BSidesNYC"
 eventDate: "April 22, 2023"
 eventInfo: "The next BSidesNYC will take place in April 22, 2023.  To stay updated on volunteer opportunities, and other news, follow us on Twitter <a href=\"https://twitter.com/bsidesnyc\" target=\"_blank\">@BSidesNYC</a> and sign up for the mailing list."
+eventButtons:
+ - {permalink: "/sponsors/", text: "Become a sponsor", id: "sponsors"}
+
+#-----------------------------------------------
+# Location Block
+#-----------------------------------------------
+locationBlockTitle: "Location"
+eventLocationName: "Digital Forensics and Cybersecurity Program @ John Jay College of Criminal Justice"
+eventStreetAddress: "524 W 59th St."
+eventAddressLocality: "New York"
+eventAddressLocalityRegion: "NY"
+eventPostalCode: "10019"
+eventAddressCountry: "USA"
+eventNavigationLink: https://goo.gl/maps/7vwHt4ARqjr
+eventStartTime: "2023-04-22T08:00"
+eventDoorTime: "09:00"
+eventEndTime: "2023-04-22T17:00"
+eventPlaceCoordinates: "40.7709863, -73.9899653"
+mapCenterCoordinates: "40.7709863, -73.9899653"
+mapMobileCenterCoordinates: "40.7709863, -73.9899653"
+
+#-----------------------------------------------
+# Sponsors
+#-----------------------------------------------
+sponsorsTitle: "Sponsors"
+sponsorsUrl: "/sponsors/"
+sponsorsButton: "Become a sponsor"
+
+#-----------------------------------------------
+# Sponsorship
+#-----------------------------------------------
+sponsorshipTitle: "Sponsorship"
+sponsorshipButton: "Download our Sponsorship Kit (PDF)"
+sponsorshipKitUrl: "/assets/BSidesNYC-2023-Sponsorship-Kit.pdf"
 
 #-----------------------------------------------
 # Subscribe
 #-----------------------------------------------
 subscribeImage: #"subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
-subscribeAction: "https://bsidesnyc.us11.list-manage.com/subscribe/post?u=0538b2c81e2e35a4635056f7f&amp;id=731c810915"
 subscribeInfo: "We'll only use your email for BSidesNYC announcements. We respect privacy, and don't provide anyone (including sponsors) with this type of information."
 
 #-----------------------------------------------
@@ -181,12 +215,24 @@ ticketsButtons:
  - {link: "https://bsidesnyc.eventbrite.com", text: "Get Tickets!", id: "tickets_button_external"}
 
 #-----------------------------------------------
+# Venue
+#-----------------------------------------------
+venueBlockTitle: "Venue"
+venueImageAtrium: "atrium.jpg"
+venueRoomImage1: "240.jpg"
+venueRoomImage2: "L615.jpg"
+venueRoomImage3: "L763.jpg"
+venueTitle: "John Jay College of Criminal Justice"
+venueFeatures: ["Guest Wi-Fi will be available." ]
+venueRooms:
+  - {id: "0", name: "Lynn & Jules Kroll Atrium", image: "atrium.jpg", link: "http://www.locationsnewyorkcity.com/mainlocation/lynn-jules-kroll-atrium/"}
+
+#-----------------------------------------------
 # Volunteers
 #-----------------------------------------------
 volunteersTitle: "Want to be involved?"
 volunteersText: "We are looking for individuals to help in a variety of areas – are you interested in lending a hand? If so, use the form below to sign-up and we'll reach out to you when the conference nears.
 
 
-Over email? Join our <a href=\"https://bsidesnyc-slack.herokuapp.com\" target=\"_blank\">Slack</a> workspace instead."
+Over email? Join our <a href=\"https://join.slack.com/t/bsidesnyc/shared_invite/zt-1lbapliq9-Sym1TaYpxh3zmfalcdYHjw\" target=\"_blank\">Slack</a> workspace instead."
 volunteersSubscribeTitle: "Join the Team"
-volunteersSubscribeAction: "https://bsidesnyc.us11.list-manage.com/subscribe/post?u=0538b2c81e2e35a4635056f7f&amp;id=d6c9dd00a7"

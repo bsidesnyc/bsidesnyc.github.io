@@ -2,17 +2,191 @@
   id: 000
   name: Glenn
   surname: Edwards
-  company: FireEye
-  title: Technical Director
+  company: Block
+  title: Incident Response Engineer
   bio: "Glenn P. Edwards Jr. is an Incident Response Engineer at Block where he specializes in Incident Response and Digital Forensics. Glenn holds a M.S degree in Digital Forensics from the University of Central Florida as well as a B.S. degree in Information Security and Privacy from High Point University."
   isDynamic: false
   sharedImg: true
   thumbnailUrl: /organizers/glenn.jpg
   twitter: hiddenillusion
-  isOrganizer: true
+  isOrganizer: false
   isFounder: true
   subTeam: false
   cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 001
+  name: Brad
+  surname: Antoniewicz
+  company: Block
+  title: Detection and Response Lead
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/brad.jpg
+  twitter: brad_anton
+  isOrganizer: false
+  isFounder: true
+  subTeam: false
+  cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 002
+  name: Dave
+  surname: Giancaspro
+  company:
+  title: Vulnerability and Threat Analyst
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/dave.png
+  twitter:
+  isOrganizer: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 003
+  name: Huxley
+  surname: Barbee
+  company:
+  title: Security Evangelist
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/huxley.jpg
+  twitter: huxley_barbee
+  isOrganizer: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 004
+  name: Jamie
+  surname: Levy
+  company:
+  title:
+  bio: ""
+  isDynamic: true
+  sharedImg: true
+  thumbnailUrl: /cfp/jamie.jpg
+  twitter: gleeda
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: true
+-
+  id: 005
+  name: Lenny
+  surname: Zeltser
+  company: Axonius
+  title: CISO at Axonius. Author and Faculty Fellow at SANS Institute
+  bio: "I design security solutions and shepherd them to a sustainable state. I used to be hands-on in many areas of cybersecurity and IT. Now I focus on strategy and leadership, treating security as an enabler that helps people and companies achieve their goals. As the CISO of Axonius, I lead the security program to earn customers’ trust and fuel the company’s growth. Earlier, I built security products and services. I’m also a Faculty Fellow at SANS Institute, where I help professionals develop malware analysis skills.
+
+
+  To learn more about me, explore my blog at zeltser.com. You can connect with me on Twitter at https://twitter.com/lennyzeltser or Mastodon at https://infosec.exchange/@lennyzeltser."
+  isDynamic: true
+  sharedImg: true
+  thumbnailUrl: /cfp/lenny_zeltser.jpg
+  twitter: lennyzeltser
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
+-
+  id: 006
+  name: Shweta
+  surname: Jain
+  company: John Jay College of Criminal Justice
+  title: Professor, Director of D4CS
+  bio: ""
+  isDynamic: true
+  sharedImg: true
+  thumbnailUrl: /cfp/shweta.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: false
+  cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: true
+  trackGeneral: false
+  supporter: false
+-
+  id: 007
+  name: Brian
+  surname: McHenry
+  company: F5
+  title: VP of Product
+  bio: "Brian McHenry has over 20 years of experience as an information technology professional, from early days in software validation and desktop support to dot-com startups and global NOCs and everything in between. Since 2008, he has focused his passion for solving problems while working for F5 Networks. Currently, McHenry is F5's global lead for customer solutions, spending his time on speaking engagements, hacking in the lab on new solutions, and helping to shape the future of F5 security product offerings."
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/brian.jpg
+  twitter: bamchenry
+  isOrganizer: false
+  isFounder: true
+  subTeam: false
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 008
+  name: Janine
+  surname: Medina
+  company:
+  title: Coordinator extraordinaire
+  bio: "Coordinator extraordinaire who makes things go at BSidesNYC. If you want to know more, you’ll have to ask her yourself"
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /cfp/janine.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: true
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 009
+  name: Aaron
+  surname: Varrone
+  company:
+  title: Incident Response Director
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/aaron.jpg
+  twitter:
+  isOrganizer: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false

@@ -8,7 +8,7 @@
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Organizers</h4>
             {% for organizerMember in site.data.people %}
-              {% if organizerMember.isFounder == true %}
+              {% if organizerMember.isOrganizer == true %}
                 <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
                     <div class="zoe-effect" data-toggle="modal" data-target="#organizerMemberDetail-{{ organizerMember.id }}">
                         <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/' | append: organizerMember.thumbnailUrl }})">
@@ -35,9 +35,9 @@
         </div>
 
         <div class="col-lg-10 col-lg-offset-1 text-center">
-            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Program Committee</h4>
+            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Founding Organizers</h4>
             {% for organizerMember in site.data.people %}
-              {% if organizerMember.isOrganizer == true % and organizerMember.isFounder != true %}
+              {% if organizerMember.isFounder == true %}
                 <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
                     <div class="zoe-effect" data-toggle="modal" data-target="#organizerMemberDetail-{{ organizerMember.id }}">
                         <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/' | append: organizerMember.thumbnailUrl }})">
