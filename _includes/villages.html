@@ -1,0 +1,28 @@
+<!-- Begin Villages section-->
+<section id="villages" class="villages">
+  <div class="content-wrapper">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h4 align="center">{{ site.villagesCvfTitle }}</h4>
+          <div class="row villages-details">
+              {% for villageSection in site.villagesBlock %}
+                {% assign colWidth = 12 | divided_by: forloop.length %}
+                <div class="col-md-{{ colWidth }} col-xs-6">
+                  <h4>{{ villageSection.title }}</h4>
+                  <img class="img-circle-small" align="center" src="{{ site.baseurl }}/img/other/{{ villageSection.image }}" alt="{{ villageSection.title }}" width="200" height="200">
+                  <br><br>
+                  {% if villageSection.subtitle != null %}<p class="text-left text-justify"><b>{{ villageSection.subtitle}} <a href="mailto:{{ site.email }}">{{ site.email }}</a></b></p>{% endif %}
+                  <p class="text-left text-justify">{{ villageSection.text }}</p>
+                  <ul class="text-left text-justify">
+                    {% for rule in villageSection.villagesCfvBullets %}
+                      <li><p>{{ rule }}</p></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% assign check = forloop.index | modulo:2 %}
+              {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
+            {% endfor %}
+          </div>
+      </div>
+  </div>
+</section>
+<!-- End Villages section -->
