@@ -76,6 +76,7 @@ navigationLinks:
  - {permalink: "/volunteers/", text: "Volunteer"}
  - {permalink: "/cfp/", text: "CFP"}
  - {permalink: "/villages/", text: "Villages"}
+ - {permalink: "/logistics/", text: "Getting Here"}
 bottomNavigationLinks:
  - {permalink: "/cfp/", text: "Become a speaker"}
 rightNavigationButtons:
@@ -176,6 +177,27 @@ eventEndTime: "2023-04-22T17:00"
 eventPlaceCoordinates: "40.7709863, -73.9899653"
 mapCenterCoordinates: "40.7709863, -73.9899653"
 mapMobileCenterCoordinates: "40.7709863, -73.9899653"
+
+#-----------------------------------------------
+# Logistics | Directions
+#-----------------------------------------------
+directionsTitle: #"Find your way here"
+directionsDistance: "Distance"
+directionsDriving: "DRIVING"
+directionsWalking: "WALKING"
+directionsBicycling: "BICYCLING"
+directionsTransit: "TRANSIT"
+directionsFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: "40.7709863, -73.9899653"
+logisticsMapMobileCenterCoordinates: "40.7709863, -73.9899653"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details
+directionDetailsImage: "columbus_circle.jpg"
+directionDetailsTitle: "Get around NYC"
+directionDetailsCards:
+ - {title: "Airports", information: 'The conference is easily accessible from either <b>JFK</b> or <b>LGA</b> airports via public transportation (subway, bus, taxi) or ride-sharing services (uber, lyft etc.)'}
+ - {title: "Public Transit", information: "The closest subway station is <b>59 St. - Columbus Circle</b> (A,B,C & D lines). From this stop, it is less than a .5 mile walk."}
 
 #-----------------------------------------------
 # Sponsors
