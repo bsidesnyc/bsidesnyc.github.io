@@ -79,8 +79,8 @@
   name: Jamie
   surname: Levy
   company:
-  title:
-  bio: ""
+  title: Director of R&D at Huntress
+  bio: "Jamie Levy is the Director of R&D at Huntress. Jamie is also a senior researcher, developer and board member of the Volatility Foundation.  She has worked over 15 years in the digital forensics industry, conducting investigations as well as building out software solutions.  Jamie is also a co-author of The Art of Memory Forensics, the first book of its kind covering various facets of how to investigate RAM artifacts."
   isDynamic: true
   sharedImg: true
   thumbnailUrl: /cfp/jamie.jpg
