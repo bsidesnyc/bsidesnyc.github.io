@@ -1,31 +1,15 @@
 -
   group: "Platinum Sponsors"
   elements:
-    - {name: "MWR InfoSecurity", description: "MWR InfoSecurity", link: "https://www.mwrinfosecurity.com", imageUrl: "mwr.png"}
-    - {name: "Virtue Security", description: "Virtue Security", link: "https://www.virtuesecurity.com", imageUrl: "virtue.png"}
-    - {name: "Cisco", description: "Cisco", link: "https://www.cisco.com", imageUrl: "cisco.png"}
-    - {name: "context", description: "context", link: "https://www.contextis.com", imageUrl: "context.png"}
-    - {name: "Mandiant", description: "Mandiant", link: "https://www.fireeye.com/services.html", imageUrl: "fireeye_mandiant.png"}
-    - {name: "Crowe Horwath", description: "Crowe Horwath", link: "https://www.crowehorwath.com", imageUrl: "crowe_horwath.png"}
-    - {name: "Red Balloon Security", description: "Red Balloon Security", link: "https://www.redballoonsecurity.com", imageUrl: "red_balloon.png"}
-    - {name: "Jet", description: "Jet", link: "https://www.jet.com", imageUrl: "jet.png"}
+    - {name: "Confiant", description: "Confiant", link: "https://www.confiant.com/", imageUrl: "confiant.png"}
+    - {name: "SpecterOps", description: "SpecterOps", link: "https://specterops.io/", imageUrl: "specterops.png"}
+    - {name: "Artico", description: "Artico Search", link: "https://www.articosearch.com/", imageUrl: "artico.png"}
+    - {name: "open", description: "", link: "/sponsors/", imageUrl: "blank.png"}
 -
   group: "Gold Sponsors"
   elements:
-    - {name: "F5", description: "F5 Networks", link: "https://f5.com", imageUrl: "f5.png"}
-    - {name: "OccamSec", description: "OccamSec", link: "http://occamsec.com", imageUrl: "occamsec.png"}
-    - {name: "Syncurity", description: "syncurity", link: "https://www.syncurity.net", imageUrl: "syncurity.png"}
-    - {name: "tCell", description: "tCell", link: "https://www.tcell.io", imageUrl: "tcell.png"}
-    - {name: "Cybereason", description: "Cybereason", link: "https://www.cybereason.com", imageUrl: "cybereason.png"}
-    - {name: "MongoDB", description: "MongoDB", link: "https://www.mongodb.com", imageUrl: "mongodb.jpg"}
-    - {name: "Red Canary", description: "Red Canary", link: "https://www.redcanary.com", imageUrl: "red_canary.png"}
+    - {name: "open", description: "", link: "/sponsors/", imageUrl: "blank.png"}
 -
   group: "Silver Sponsors"
   elements:
-    - {name: "NSA", description: "The National Security Agency", link: "https://www.nsa.gov/careers/", imageUrl: "nsa.png"}
-    - {name: "L.J. Kushner", description: "L. J. Kushner & Associates, LLC", link: "http://ljkushner.com/candidates/", imageUrl: "lj_kushner.jpg"}
-    - {name: "Senrio", description: "Senrio", link: "https://senr.io", imageUrl: "senrio.png"}
-    - {name: "Cortex Insight", description: "Cortex Insight", link: "https://cortexinsight.com", imageUrl: "cortex_insight.png"}
-    - {name: "enSilo", description: "enSilo", link: "https://www.ensilo.com", imageUrl: "ensilo.jpg"}
-    - {name: "Dispel", description: "Dispel", link: "https://dispel.io", imageUrl: "dispel.png"}
-    - {name: "Splunk", description: "Splunk", link: "https://www.splunk.com", imageUrl: "splunk.png"}
+    - {name: "open", description: "", link: "/sponsors/", imageUrl: "blank.png"}
