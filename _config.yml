@@ -200,6 +200,11 @@ directionDetailsCards:
  - {title: "Public Transit", information: "The closest subway station is <b>59 St. - Columbus Circle</b> (A,B,C & D lines). From this stop, it is less than a .5 mile walk."}
 
 #-----------------------------------------------
+# Partners
+#-----------------------------------------------
+partnersTitle: "Partners"
+
+#-----------------------------------------------
 # Sponsors
 #-----------------------------------------------
 sponsorsTitle: "Sponsors"
