@@ -8,3 +8,13 @@
   imageUrl: helpnet.png
   sharedImg: false
   isSponsor: false
+-
+  id: 001
+  name: NYIS
+  nameLong: "NY Information Security Meetup"
+  villageName:
+  description:
+  link: https://nyis.us/
+  imageUrl: nyis.png
+  sharedImg: false
+  isSponsor: false
