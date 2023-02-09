@@ -18,3 +18,13 @@
   imageUrl: nyis.png
   sharedImg: false
   isSponsor: false
+-
+  id: 002
+  name: Cyberjutsu
+  nameLong: "Women's Society of Cyberjutsu"
+  villageName:
+  description:
+  link: https://womenscyberjutsu.org/
+  imageUrl: cyberjutsu.png
+  sharedImg: false
+  isSponsor: false

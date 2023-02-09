@@ -6,8 +6,9 @@
     - {name: "Artico", description: "Artico Search", link: "https://www.articosearch.com/", imageUrl: "artico.png"}
     - {name: "OccamSec", description: "OccamSec", link: "https://occamsec.com/", imageUrl: "occam.png"}
     - {name: "Material", description: "Material Security", link: "https://material.security/", imageUrl: "material.png"}
-    - {name: "Synack", description: "Synack", link: "https://www.synack.com/", imageUrl: "synack.png"}
-    - {name: "open", description: "", link: "/sponsors/", imageUrl: "onlyOne.png"}
+    - {name: "Synack", description: "Synack", link: "https://www.synack.com/red-team", imageUrl: "synack.png"}
+    - {name: "Revbits", description: "Revbits", link: "https://revbits.com/", imageUrl: "revbits.png"}
+    - {name: "SolCyber", description: "SolCyber", link: "https://solcyber.com/", imageUrl: "solcyber.png"}
 -
   group: "Gold Sponsors"
   elements:
@@ -15,4 +16,5 @@
 -
   group: "Silver Sponsors"
   elements:
+    - {name: "IncludeSecurity", description: "IncludeSecurity", link: "https://includesecurity.com/", imageUrl: "includesecurity.png"}
     - {name: "open", description: "", link: "/sponsors/", imageUrl: "blank.png"}
