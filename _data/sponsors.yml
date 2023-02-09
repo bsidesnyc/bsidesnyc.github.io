@@ -16,5 +16,5 @@
 -
   group: "Silver Sponsors"
   elements:
-    - {name: "IncludeSecurity", description: "IncludeSecurity", link: "https://includesecurity.com/", imageUrl: "includesecurity.png"}
+    - {name: "IncludeSecurity", description: "IncludeSecurity", link: "https://includesecurity.com/", imageUrl: "includeSecurity.png"}
     - {name: "open", description: "", link: "/sponsors/", imageUrl: "blank.png"}
