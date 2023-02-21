@@ -9,6 +9,8 @@
     - {name: "Synack", description: "Synack", link: "https://www.synack.com/red-team", imageUrl: "synack.png"}
     - {name: "Revbits", description: "Revbits", link: "https://revbits.com/", imageUrl: "revbits.png"}
     - {name: "SolCyber", description: "SolCyber", link: "https://solcyber.com/", imageUrl: "solcyber.png"}
+    - {name: "mSOC", description: "mSOC", link: "https://www.msoc.io/", imageUrl: "msoc.png"}
+    - {name: "Block", description: "Block, Inc.", link: "https://block.xyz/", imageUrl: "block.png"}
 -
   group: "Gold Sponsors"
   elements:
@@ -17,4 +19,5 @@
   group: "Silver Sponsors"
   elements:
     - {name: "IncludeSecurity", description: "IncludeSecurity", link: "https://includesecurity.com/", imageUrl: "includeSecurity.png"}
+    - {name: "Justworks", description: "Justworks", link: "https://www.justworks.com/", imageUrl: "justworks.png"}
     - {name: "open", description: "", link: "/sponsors/", imageUrl: "blank.png"}
