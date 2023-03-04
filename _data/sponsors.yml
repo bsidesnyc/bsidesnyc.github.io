@@ -14,10 +14,12 @@
 -
   group: "Gold Sponsors"
   elements:
+    - {name: "Tanium", description: "Tanium", link: "https://tanium.com/", imageUrl: "tanium.png"}
     - {name: "open", description: "", link: "/sponsors/", imageUrl: "blank.png"}
 -
   group: "Silver Sponsors"
   elements:
     - {name: "IncludeSecurity", description: "IncludeSecurity", link: "https://includesecurity.com/", imageUrl: "includeSecurity.png"}
     - {name: "Justworks", description: "Justworks", link: "https://www.justworks.com/", imageUrl: "justworks.png"}
+    - {name: "ComplianceCow", description: "ComplianceCow", link: "https://compliancecow.com/", imageUrl: "compliancecow.png"}
     - {name: "open", description: "", link: "/sponsors/", imageUrl: "blank.png"}
