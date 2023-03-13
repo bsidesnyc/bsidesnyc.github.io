@@ -22,4 +22,5 @@
     - {name: "IncludeSecurity", description: "IncludeSecurity", link: "https://includesecurity.com/", imageUrl: "includeSecurity.png"}
     - {name: "Justworks", description: "Justworks", link: "https://www.justworks.com/", imageUrl: "justworks.png"}
     - {name: "ComplianceCow", description: "ComplianceCow", link: "https://compliancecow.com/", imageUrl: "compliancecow.png"}
+    - {name: "SecureCodeWarrior", description: "SecureCodeWarrior", link: "https://www.securecodewarrior.com/", imageUrl: "securecodewarrior.png"}
     - {name: "open", description: "", link: "/sponsors/", imageUrl: "blank.png"}
