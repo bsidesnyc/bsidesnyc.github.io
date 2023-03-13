@@ -63,7 +63,7 @@
   title: Security Evangelist
   bio:
   isDynamic: false
-  sharedImg: false
+  sharedImg: true
   thumbnailUrl: /organizers/huxley.jpg
   twitter: huxley_barbee
   isOrganizer: true
