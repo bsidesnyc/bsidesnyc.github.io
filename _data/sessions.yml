@@ -9,30 +9,34 @@
   service: true
 -
   id: 000
-  title: "Registration / Coffee"
-  location: "Atrium / Hound Square"
-  description: "An arrangement of fresh fruit and granola bars will be provided."
+  title: "Speaker/Sponsor/Village Registration Starts"
+  location: "Atrium"
+  description: "Come through the 59th Street entrance"
   service: true
 -
   id: 001
-  title: "Opening Remarks"
-  description: "Opening Remarks and Intros to D4CS & NYC Cyber Command"
-  location: "L.63"
-  speakers: [036, 037]
--
-  id: 002
-  title: "Lunch Break"
-  location: "Hound Square"
-  description: "A complimentary lunch will be provided."
+  title: "General Registration Starts"
+  location: "Atrium"
+  description: "Come through the 59th Street entrance"
   service: true
 -
+  id: 002
+  title: "Opening Remarks"
+  description: "Opening Remarks and Intros to D4CS"
+  speakers: [003, 006]
+-
   id: 003
-  title: "Closing Remarks"
-  description:
-  location: "L.63"
+  title: "Lunch Break"
+  location: ""
+  description: ""
   service: true
 -
   id: 004
+  title: "Closing Remarks"
+  description: "We will be announcing the winners of the CTF(s) and raffles."
+  speakers: [003]
+-
+  id: 005
   title: "After Party"
   location: "336 W 37th St. Suite 1080 (10th floor), New York, NY 10018"
   navigationLink: "https://goo.gl/maps/f7pDqrrfxps"
@@ -41,13 +45,13 @@
   isHosted: true
   imgUrl: /sponsors/red_balloon.png
 -
-  id: 005
+  id: 006
   title: "Villages"
   description:
   village: true
   partners: [003, 004, 005, 007, 008, 009]
 -
-  id: 006
+  id: 007
   title:
   location:
   description: "Video services provided by <a href=\"https://www.internetsociety.org\" target=\"_blank\">Internet Society</a>"
@@ -56,236 +60,98 @@
   isAd: true
   imgUrl: /partners/isoc.png
 -
-  id: 009
-  title: "Entrepreneur Track"
-  description: "Career 0day is back for 2018! We’re pulling in Entrepreneurs from product and services startups, VCs and others to share their wisdom for those starting their own security company!"
-  panel: true
--
   id: 010
   title: "Keynote"
   description:
-  speakers: [038]
-  presentation:
--
-  id: 011
-  title: "Keynote"
-  description:
-  speakers: [042]
+  speakers: [012]
   presentation:
 -
   id: 012
-  title: "firewalls-- threat or menace?"
-  description: "Internet communications is cyclic; provisioning and security decisions are not made with one-off traffic units in mind. Traditional in-path firewalls are for this reason often stateful, but the value-add from such state-keeping comes with a healthy downside: the state-keeping is a new attack surface. Given the fate-sharing that goes on behind a firewall, if an attack against some internal resource has the capability of bringing the firewall down and thus affecting other internal resources, then the firewall implicitly becomes an effective force-multiplier for the attacker. There are other ways to do security, which take better account of an attacker's capabilities and alternatives. For example, protocol-aware rate limiting may offer cheaper deployment cost with a better worst-case outcome."
-  speakers: [008]
+  title: "Analyzing volatile memory on a Google Kubernetes Engine node"
+  description: "My talk focuses on how we can access and analyze volatile memory in the kernel on a Google Kubernetes Engine (GKE) node using AVML. The purpose of this is to collect a memory snapshot to get granular information about running processes and activities on the GKE node as well as pods and containers running on that node. By using the memory snapshot we can troubleshoot current node activities or use it to collect additional information as part of a security investigation. I will also cover how this method is applicable to other cloud instances running Linux distributions that are supported by AVML."
+  speakers: [013]
   presentation:
 -
   id: 013
-  title: "Open Up and Say 0x41414141: Attacking Medical Devices"
-  description: "Network accessible medical devices are ubiquitous in today’s clinical environment. These devices can be of great aid to healthcare professionals in assessing, treating and monitoring a patient’s condition. However, they can also fall victim to a number of systemic vulnerabilities that can expose personal health information or PHI, compromise the integrity of patient data in transit, and affect the availability of the devices themselves.
+  title: "Low Code High Risk: Enterprise Domination via Low Code Abuse"
+  description: "Why focus on heavily guarded crown jewels when you can dominate an organization through its shadow IT?
+Low-Code applications have become a reality in the enterprise, with surveys showing that most enterprise apps are now built outside of IT, with lacking security practices. Unsurprisingly, attackers have figured out ways to leverage these platforms for their gain.
 
+In this talk, we demonstrate a host of attack techniques found in the wild, where enterprise No-Code platforms are leveraged and abused for every step in the cyber killchain. You will learn how attackers perform an account takeover by making the user simply click a link, move laterally and escalate privileges with zero network traffic, leave behind an untraceable backdoor, and automate data exfiltration, to name a few capabilities. All capabilities will be demonstrated with POCs, and their source code will be shared.
 
-  This talk looks at the methodology and approach to penetration testing of modern medical devices. It will provide an overview of the various stages of a medical device assessment, including discovery and analysis of a device’s remote and local attack surface, reverse engineering and exploitation of proprietary network protocols, vulnerability discovery in network services, compromising supporting systems, attacking common wireless protocols, exploitation of hardware debug interfaces and bus protocols and assessing proprietary wireless technologies.
+Next, we will drop two isolation-breaking vulnerabilities that allow for privilege escalation and cross-tenant access. We will explain how these vulnerabilities were discovered and assess their pre-discovery impact.
 
-
-  It will also cover a number of real world vulnerabilities that the speaker has discovered during medical device penetration testing assessments. These include weak cryptographic implementations, device impersonation and data manipulation vulnerabilities in proprietary protocols, unauthenticated database interfaces, hardcoded credentials/keys and other sensitive information stored in firmware/binaries and the susceptibility of medical devices to remote denial of service attacks.
-
-
-  The talk will conclude with some suggestions on how some of the most common classes of medical device vulnerabilities might be remediated by vendors and also how hospitals and other healthcare providers can defend their medical devices in the meantime."
-  speakers: [009]
-  presentation: "Robert Portvliet - Open Up and Say 0×41414141 - Attacking Medical Devices.pdf"
+Finally, we will introduce an open-source recon tool that identifies opportunities for lateral movement and privilege escalation through low-code platforms."
+  speakers: [014]
 -
   id: 014
-  title: "The Politics of Intelligence: Applying History to Modern Day Cyber Threat Intelligence"
-  description: "How many organizations have an effective strategic threat intelligence operation? Many have failed and many struggle to obtain executive buy in or even mild interest in any of their cyber threat intelligence reports. By examining the history of the POTUS's use of intelligence, some powerful lessons can be learned. For instance, one president created and relied on his own private intelligence group of peers. Another president ignored SIGINT completely because of a preference for \"cloaks and daggers\". Yet another president, told the intelligence community their analysis will support a decision he has already made! These are all important insights into executive leadership, their psychology, and how best to serve their intelligence needs. This presentation will highlight and summarize several key lessons which can be applied to create or improve upon a strategic threat intelligence program."
-  speakers: [010]
-  presentation: "Paul Jaramillo - The Politics of Intelligence - Applying History to Modern Day Cyber Threat Intelligence.pdf"
+  title: "xIoT Hacking Demonstrations & Strategies to Disappoint Bad Actors"
+  description: "We’ll demonstrate several hacks against xIoT, or Extended Internet of Things, devices. For those who would say, “But they’re just security cameras monitoring the parking garage, wireless access points in the cafeteria, or PLCs controlling robotic welding arms; what harm can they cause?” - this will illuminate that harm. We’ll share stories from the trenches involving cybercriminals, nation-state actors, and defenders. Our presentation will detail findings from over six years of xIoT threat research spanning millions of production devices in enterprises and government agencies around the world. We’ll identify various steps organizations can take to mitigate risk while embracing a Things-connected world."
+  speakers: [015]
 -
   id: 015
-  title: "Moving like a Spook through Walls Or how to be only a shadow for APT detectors"
-  description: "Not matter what APT threat actor operate in the victims network, there is something in common they share and it's Internet for data exfiltration. I'd like to present a few Anti-APT techniques used by the threat actors in LatAm, Eastern Europe and other regions to bypass detections. All techniques are from real campaigns we track on."
-  speakers: [011]
-  presentation:
+  title: "Pen Testing for NOT Dummies"
+  description: "Penetration testing is vital to cybersecurity defenses, but safeguarding your systems isn’t easy. Methodologies include automated, continuous, and manual pen tests. How do you ensure that you pick the right solution to meet your needs? I will draw on my 2+ decades of experience and discuss the complexities, techniques, and limitations of pen testing, and how to understand what and how to test."
+  speakers: [018]
 -
   id: 016
-  title: "Evading C2 Detection with Asymmetry"
-  description: "Detecting callouts to command-and-control (C2) servers used to be straightforward, but attackers in your network have found ways to communicate with the outside world even under the heaviest of scrutiny. In this talk, we discuss ways to use popular websites as means of getting commands and exfiltrating information. We examine the applications of asymmetric communication, from Internet-accessible computers to embedded devices to air-gapped systems. Finally, we give some suggestions to defenders, and discuss how to detect and mitigate risks that enable asymmetric malware."
-  speakers: [012,013]
-  presentation:
+  title: "Hacking Serverless Applications: A Treasure Map for Uncharted Waters"
+  description: "Serverless technology eliminates the need for development teams to provision servers, passing the responsibility for some security threats to the cloud provider and freeing-up developers to concentrate on building logic and producing value quickly. But even without servers, serverless functions still execute code, which can lead to a cloud disaster, if not done right.
+
+In this talk, we will discuss common risks and challenges in serverless environments. I will introduce techniques used by attackers to exploit Serverless apps in unconventional ways. I will also demonstrate exploits of recently discovered CVE, targeting cloud functions."
+  speakers: [021]
 -
   id: 017
-  title: "Threat-Based Risk Management"
-  description: "The security industry has been talking about powerful concepts like good threat intelligence and attacker cost for a long time now, but most organizations are not using these concepts in their security programs, causing them to waste money, time, and energy on efforts that do not stop real attackers.
-
-
-  In this talk, we describe a security program built around adversary intelligence that actually matters.  We describe how this program generates more accurate and precise priorities and objectives. We demonstrate how these new risk profiles, attacker playbooks, and attacker cost models can help inform better controls, strategies, and policies.
-
-
-  We focus on picking the controls that are most effective at reducing the risk of successful execution of the playbooks that attackers use everyday.  This is only possible with a security program built around attacker intelligence.
-
-
-  We take a deep dive into the practicalities of implementation of these concepts at your organization.  What metrics matter to show to management, how this impacts hiring, and how this modifies core workflows in the security team.
-
-
-  Finally, we will close with some of the concrete challenges we encountered in implementing this program and some suggestions on how to work around them."
-  speakers: [014,015]
-  recorded: false
-  presentation: "Julian Cohen and Justin Berman - Threat-Based Risk Management.pdf"
+  title: "Infrastructure as Remote Code Execution: How to abuse Terraform to elevate access"
+  description: "This talk will focus on ways to abuse the use of Terraform to elevate privileges, expose data, and gain further footholds in environments from a developer's perspective. We'll cover the common uses of Terraform and how a malicious actor could abuse Terraform and even bypass security controls to execute unapproved code. This talk will include multiple demos of ways to exploit Terraform cloud."
+  speakers: [020]
 -
   id: 018
-  title: "Taste the Rainbow"
-  description: "Adversarial Simulation, Red Team, Threat Emulation, Blue Team, Targeted Attack Simulation, Purple Team or Gold Team - So many labels and buzzwords. No matter what you call it or whatever color shirt you wear / team you identify most with - this talk offers something for you; no matter the camp you are in.
-
-
-  At MWR we've spent many years robbing banks, pulling off casino heists, breaching merchants, bringing down Critical National Infrastructure (CNI), flooding mines, stealing all the things and doxing big corps. But more importantly, we've also helped many of those clients make sure none of the stuff we did, could happen for real.
-
-
-  This presentation will take you on a journey showing you how our TTP's have evolved over the past few years - why we've evolved them, what works now, what doesn't and why - we'll also give you insights into what's coming next. There will be takeaways for everyone - whether your looking to up your offensive game, or as a defender looking to get a heads up on whats gonna be hitting you soon (as well as what to do about it!).
-
-
-  Having delivered assessments all around the world over several years; as part of and separate to regulatory frameworks such as CBEST, TIBER, iCAST, we've sparred with some heavy hitters and a lot of lessons have been learned - we'd like to share some of these with you. There might just be some entertaining tales too - like that one time we were fingered as a new and shiny Russian APT..."
-  speakers: [016]
-  presentation: "Dave Hartley - Taste The Rainbow.pdf"
+  title: "Save the Environment (Variable): Hijacking Legitimate Applications with a Minimal Footprint"
+  description: "DLL Hijacking, a well-known technique for executing malicious payloads via trusted executables, has been scrutinised extensively, to the point where defenses are in a much better position to detect malicious use. In this presentation, we take a closer look at how process-level Environment Variables can be abused for taking over legitimate applications.Taking a systemic approach, we demonstrate that 80+ Windows-native executables are vulnerable to this special type of DLL Hijacking. As this raises opportunities for UAC bypass and Privilege Escalation, we discuss the value and further implications of this technique. We also look at preventative/defensive measures, especially for this type of DLL Hijacking, but also for DLL Hijacking more broadly."
+  speakers: [027]
 -
   id: 019
-  title: "Hunting for Lateral Movement"
-  description: "After obtaining an initial foothold on an environment, attackers are forced to embark in lateral movement techniques in order to be successful in identifying and exfiltrating sensitive information. To stay ahead of the bad guys, the Blue team needs to have a clear understanding of these techniques as well as the forensic artifacts these techniques leave behind on the victim hosts. Armed with this knowledge, we can proactively hunt for lateral movement in the environment before exfiltration can occur. This presentation will analyze Lateral Movement from both a Red and Blue team perspective and introduce Oriana, a lateral movement hunting tool that can assist the Blue team in catching the adversary."
-  speakers: [017]
-  recorded: false
-  presentation:
+  title: "The Rise and Fall of the Trickbot and Conti Empires"
+  description: "In a post-mortem analysis of Trickbot/Conti gangs, I'll detail our unique view into their operations, methods, and lives. Real time access to Conti Leaks was just one of many tools in our arsenal. Our work and unique vantage point has prevented a significant portion of the gang’s crimes. This story is about our journey, process, and insights into one of the most notorious cybergangs of our time."
+  speakers: [018]
 -
   id: 020
-  title: "Practical Analysis of Awareness"
-  description: "Many organizations participate in Security Awareness training. Whether it is something that is produced internally or supplied by a third-party vendor, the goals are the same: educate the user to prevent becoming the next big breach in the news. We all know the phrase ‘you can’t patch humans’, but what metrics can we use to see if our awareness efforts are effective? Believe it or not, Security Analysts have access to a lot of valuable information that can show us just how effective these programs are… and no, I’m not just talking about the results of your last phishing campaign."
-  speakers: [018]
-  presentation:
+  title: "Is Machete dead or alive? A resurrection in pandemic times"
+  description: >
+    While living in Ecuador, I discovered Ragua by myself. I manually found the very first sample in a military facility in Quito, and I called it "Machete." Team "Lechuzas" (crew name) behind Machete was active for a while until they got too exposed. So they disappeared. During COVID, Machete returned and went wild, running offensive cyber-mercenaries operations targeting Prosecutors' Offices and other Governments Institutions in Latin America. It received funds from the highest bidder and built fake Websites exposing stolen sensitive information for public opinion manipulation. But when enough is enough? Machete also went Ransomware. This presentation will provide historical context on Machete along with the latest Ops and its IOCs, Detection Rules, and TTPs.
+  speakers: [016]
 -
   id: 021
-  title: "Signal Safari: Investigating RF Controls with RTL-SDR"
-  description: "Cranes, trains, building controls, oil rigs, and …ceiling fans? Recent developments have made secure wireless protocols more common, but the fact is there’s still a swarm of simpler RF controls in the wireless world around us. Luckily, the onset of Software Defined Radios (SDRs) means analyzing these insecure signals is easier than ever! We'll explore the basics of capturing and reversing simple RF control signals with the affordable RTL-SDR. With a little exploration through this menagerie of signals, we can unravel the mysteries of their operation and better understand what risk they pose to the environments we protect."
-  speakers: [021]
-  presentation:
+  title: "Broken links - Behind the scenes of Supply Chain breaches"
+  description: "Supply Chain attacks are all over the news as several high profile breaches highlight CI/CD pipelines as a prime target. The supply chain links the developer’s laptop, via the SCM, through CI/CD and finally the running application in production.
+
+We’ve all heard about the SolarWinds breach, but what can be done to prevent such an attack? In this talk, we dive behind the scenes of similar attacks through the lens of SLSA (Supply chain Levels for Software Artifacts), a threat model designed to tackle these emergent threats."
+  speakers: [019]
 -
   id: 022
-  title: "I Want To Break Free"
-  description: "These days, most adversaries will attempt to run code somewhere on your network in order to establish a command and control channel; application whitelisting is a key security control. This talk will demonstrate a number of common and less common techniques for being able to run code or interact with a locked down environment, seen through the eyes of an operational simulated attacker."
-  speakers: [022]
-  recorded: false
-  presentation:
--
-  id: 023
-  title: "Moving Graph Analytics to Higher Dimensions to Discover Network Activity / Anomalies that are implicit in behavior - Connections in High Dimensions"
-  description: "Advanced mathematics made simpler: Spectral Hypergraph Analysis for mortals.  Imagine lighting up and \"shining\" your network logs through a special prism that would separate behaviors into a \"spectrum\" that would indicate to you things that are going on on your network.   Some of the those things might be important discoveries with security implications.  Doing this would be like how astronomers determine the materials that are burning in a distant star, using a special telescope to get the spectrum of that star's light.  It turns out that there is a mathematical way to do this on network logs, involving a generalization of the Fourier Transform over high dimensional graphs.  This talk will explain this technology in accessible ways, and show examples of its use in discovering \"bad stuff\" on a very large network."
-  speakers: [023]
-  recorded: false
-  presentation: "Reservoir Lethin - Moving Graph Analytics to Higher Dimensions to Discover Network Activity : Anomalies that are implicit in behavior - Connections in High Dimensions.pdf"
+  title: "Analyzing volatile memory on a Google Kubernetes Engine node"
+  description: "My talk focuses on how we can access and analyze volatile memory in the kernel on a Google Kubernetes Engine (GKE) node using AVML. The purpose of this is to collect a memory snapshot to get granular information about running processes and activities on the GKE node as well as pods and containers running on that node. By using the memory snapshot we can troubleshoot current node activities or use it to collect additional information as part of a security investigation. I will also cover how this method is applicable to other cloud instances running Linux distributions that are supported by AVML."
+  speakers: [013]
 -
   id: 024
-  title: "Threat hunting .NET malware with YARA"
-  description: "YARA has recently included a module that enables researchers the creation of more fine grained rules for malware written for the .NET framework. These files contain valuable metadata embedded which can enable us to pinpoint a specific threat and reduce our number of false positives detections.
-
-
-  This presentation will focus on the peculiarities of obtaining indicators of compromise from .NET malware samples and writing reliable YARA rules using its latest module. I’ll be showing real world examples and releasing a convenient tool that can query metadata information from large sets of .NET files"
-  speakers: [024]
-  presentation: "Santiago Pontiroli - Threat hunting .NET malware with YARA.pdf"
+  title: "Trusted Types: Defending against DOM XSS at Scale"
+  description: "In a world where complex JavaScript clientside code is the norm, defending against DOM XSS remains a top priority for developers and organizations. Trusted Types, a browser-level runtime defense against dangerous DOM sink API usages, is currently the best defense we have against large classes of DOM XSS, but has a reputation for being difficult to deploy (even more difficult than Content Security Policy). We will talk about the philosophy and the journey behind how we scaled Trusted Types rollouts across hundreds of webapps and billions of users at Google and the current challenges for wider adoption of defenses against DOM XSS in the ecosystem."
+  speakers: [030]
 -
   id: 025
-  title: "2FA was part of the solution, now it's part of the problem"
-  description: "In recent years more services and people have moved to two-factor authentication. While everybody loves talking about the advantages of 2FA, little attention has been given to its downsides. Attackers have started adapting to ubiquitous 2FA and are finding new ways to take over accounts ranging anywhere from email to online banking and (crypto currency) trading services.
-
-
-  In this talk we will show how attackers can exploit various 2FA and account recovery implementation issues to hijack accounts. We will also propose defensive measures for both architects and end-users."
-  speakers: [025]
-  recorded: false
-  presentation:
+  title: "The Metrics Mess: Why the Lack of Clear and Common KPIs is Undermining SecOps (and How We Can Fix It)"
+  description: "Critical SOC KPIs?  MTTD.  MTTR.  Right? 
+Except… “Detect” starts from compromise? Or Alert? 
+One “expert” says “Respond” means “time to resolve an incident” but defines neither “resolve” nor “incident.” 
+Time-To- Qualify?  Identify?  Triage?  Contain?  Resolve?  Recover?  
+I run SOC/CIRT for a F500. My vendors all use different words. Metrics don’t align. It’s ridiculous. I’ve tabulated 30+ sources and… no one has a frickin’ clue.
+We need a common language, like ATT&CK gives TTPs.  If “a problem well-defined is half-solved” we’re doing a crap job solving this. EVERYONE’S Security suffers as a result. I’ve diagramed one possible solution as a conversation-starter."
+  speakers: [024]
 -
   id: 026
-  isSharedSession: true
-  slot_splits:
-    - slot: 10:05-10:30
-      title: "Return Oriented: A 2017 Market Round Up"
-      description:
-      speakers: [026]
-      presentation:
-    - slot: 10:30-10:50
-      title: "The Things No One Tells You About Launching a Startup"
-      description:
-      speakers: [041]
-      presentation:
--
-  id: 027
-  isSharedSession: true
-  slot_splits:
-    - slot: 11:00-11:25
-      title: "Creating a New Security Product Category"
-      description:
-      speakers: [039]
-      presentation:
-    - slot: 11:25-11:50
-      title: "Bootstrapping"
-      description:
-      speakers: [008]
-      presentation:
--
-  id: 028
-  isSharedSession: true
-  slot_splits:
-  - slot: 13:00-13:25
-    title: "Venture Capital in Security"
-    description:
-    speakers: [040]
-    presentation: "Roselle Safran - Venture Capital In Security.pdf"
-  - slot: 13:25-13:50
-    title: "Marketing and Advertising for Security Startups"
-    description:
-    speakers: [046]
-    presentation:
--
-  id: 029
-  title: "Startup Panel"
-  description:
-  speakers: [044, 006, 048, 050, 051]
-  recorded: false
-  presentation:
--
-  id: 030
-  isSharedSession: true
-  slot_splits:
-  - slot: 15:00-15:25
-    title: "Growing & Monetizing Your Open Source Side Project"
-    description:
-    speakers: [045]
-    presentation:
-  - slot: 15:25-15:50
-    title: "Sales: How long until you really need it?"
-    description:
-    speakers: [049]
-    presentation:
--
-  id: 031
-  isSharedSession: true
-  slot_splits:
-  - slot: 16:00-16:25
-    title: "How Security Startups Can Help Build the Next Generation of Cyber Security Leaders"
-    description:
-    speakers: [047]
-    recorded: true
-    presentation:
-  - slot: 16:25-16:50
-    title: "Product Management of Security Solutions"
-    description: "Established enterprises as well as startups have much to consider when deciding how to build, deliver and maintain information security products that make sense for their businesses and customers. The individuals tasked with creating and overseeing such offerings often have \"product management\" in their titles. What do these people do? What skills do they possess? This session explores the mindset of a product manager who focuses on information security solutions. Those new to this discipline will better understand whether they should consider such a role. Those already tasked with managing security solutions will benefit from hearing about a lightweight framework that can help them make better decisions about their products."
-    speakers: [006]
-    presentation:
--
-  id: 032
-  isSharedSession: true
-  slot_splits:
-  - slot: 17:00-17:25
-    title: "(From) Concept to Profit"
-    description:
-    speakers: [052]
-    presentation:
-  - slot: 17:25-17:50
-    title: Startup Security Research
-    description:
-    speakers: [043, 048]
-    presentation:
+  title: "The Intersection of Threat Intelligence and Vulnerability Management"
+  description: "Many cyber environments have different capabilities, but they can be siloed and specific. Having an intelligence focused program isn’t always a feasible solution. In this talk we will be taking two important functional areas, Threat Intelligence and Vulnerability Management, and exploring how both programs can benefit and build each other’s defenses. 
+
+By using threat intelligence to provide vital context to vulnerabilities, you will not only better understand the likelihood of being exploited, but you will also have a stronger understanding of your environment to enable timely decisions. This talk benefits everyone from analyst to C-level decision maker."
+  speakers: [031]

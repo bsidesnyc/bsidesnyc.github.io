@@ -10,12 +10,12 @@
   isSponsor: false
 -
   id: 001
-  name: NYIS
-  nameLong: "NY Information Security Meetup"
+  name: CTFd
+  nameLong: "CTFd"
   villageName:
   description:
-  link: https://nyis.us/
-  imageUrl: nyis.png
+  link: https://ctfd.io/
+  imageUrl: ctfd.png
   sharedImg: false
   isSponsor: false
 -
@@ -26,5 +26,35 @@
   description:
   link: https://womenscyberjutsu.org/
   imageUrl: cyberjutsu.png
+  sharedImg: false
+  isSponsor: false
+-
+  id: 003
+  name: NYC Resistor
+  nameLong: "NYC Resistor"
+  villageName:
+  description:
+  link: https://www.nycresistor.com/
+  imageUrl: nycresistor.png
+  sharedImg: false
+  isSponsor: false
+-
+  id: 004
+  name: CyberSN
+  nameLong: "CyberSN"
+  villageName:
+  description:
+  link: https://cybersn.com/
+  imageUrl: cybersn.svg
+  sharedImg: false
+  isSponsor: false
+-
+  id: 005
+  name: NinjaJobs
+  nameLong: "NinjaJobs"
+  villageName:
+  description:
+  link: https://ninjajobs.org/
+  imageUrl: ninjajobs.png
   sharedImg: false
   isSponsor: false
