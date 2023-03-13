@@ -72,6 +72,8 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 #-----------------------------------------------
 navigationLinks:
  - {permalink: "/about/", text: "About"}
+ - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/sponsors/", text: "Sponsors"}
  - {permalink: "/volunteers/", text: "Volunteer"}
  - {permalink: "/cfp/", text: "CFP"}
@@ -91,8 +93,7 @@ rightNavigationButtons:
 #-----------------------------------------------
 aboutTitle: "What is BSidesNYC?"
 aboutBlock:
- - {title: "Conference", image: "logo_black.png", text: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free." }
- - {title: "Villages", image: "bsides_village.jfif", text: "Rather pick some locks or get hands on with some hardware hacking? We got ya covered." }
+ - {title: "", image: "", text: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free." }
 
 #-----------------------------------------------
 # CFP Block

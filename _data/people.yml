@@ -63,7 +63,7 @@
   title: Security Evangelist
   bio:
   isDynamic: false
-  sharedImg: true
+  sharedImg: false
   thumbnailUrl: /organizers/huxley.jpg
   twitter: huxley_barbee
   isOrganizer: true
@@ -112,7 +112,7 @@
   subTeam: false
   cfpBoard: true
   trackOpening: false
-  trackEntrepreneur: true
+  trackEntrepreneur: false
   trackGeneral: false
   supporter: false
 -
@@ -131,7 +131,7 @@
   subTeam: false
   cfpBoard: true
   trackOpening: false
-  trackEntrepreneur: true
+  trackEntrepreneur: false
   trackGeneral: false
   supporter: false
 -
@@ -141,13 +141,13 @@
   company: F5
   title: VP of Product
   bio: "Brian McHenry has over 20 years of experience as an information technology professional, from early days in software validation and desktop support to dot-com startups and global NOCs and everything in between. Since 2008, he has focused his passion for solving problems while working for F5 Networks. Currently, McHenry is F5's global lead for customer solutions, spending his time on speaking engagements, hacking in the lab on new solutions, and helping to shape the future of F5 security product offerings."
-  isDynamic: false
+  isDynamic: true
   sharedImg: true
   thumbnailUrl: /organizers/brian.jpg
   twitter: bamchenry
   isOrganizer: false
   isFounder: true
-  subTeam: false
+  subTeam: true
   cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
@@ -183,11 +183,432 @@
   sharedImg: true
   thumbnailUrl: /organizers/aaron.jpg
   twitter:
-  isOrganizer: true
+  isOrganizer: false
+  isPlanner: true
   isFounder: false
   subTeam: true
   cfpBoard: false
   trackOpening: false
   trackEntrepreneur: false
   trackGeneral: false
+  supporter: false
+-
+  id: 010
+  name: Augs
+  surname:
+  company:
+  title:
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/augs.jpg
+  twitter:
+  isOrganizer: false
+  isPlanner: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 011
+  name: BSS
+  surname: 
+  company: Two Sigma
+  title: Head of Risk Management
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/bss.jpg
+  twitter:
+  isOrganizer: false
+  isPlanner: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 012
+  name: Lance
+  surname: James
+  company: Unit 2221b
+  title: CEO
+  bio: 'Lance James is a highly experienced information security specialist with over 25 years in the field. He has a programming, network security, digital forensics, malware research, cryptography, counterintelligence, and executive leadership background. He provides advisory services to government agencies and Fortune 500 companies and is known for his contributions to the evolution of security practices and counterintelligence tactics. James has written for several industry publications and is a sought-after keynote speaker globally. He has been featured on MSNBC and an episode of "Mr. Robot" and delivered a Ted Talk on "How Attackers Can Use Your Brain Against You in Psy-Ops."'
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/lance_james.jpg
+  twitter: 
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: true
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 013
+  name: Marcus
+  surname: Hallberg
+  company:
+  title: 
+  bio: "My name is Marcus, a security engineer at heart, and I work for Spotify in Stockholm, Sweden.  My childhood hero was Sherlock Holmes and as an adult I've tried to fill those shoes by working with cybersecurity detection and response.  When I have time off I enjoy rock climbing, folk dancing and cross-country skiing.  Looking to meet all the awesome minds at BSidesNYC!"
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/marcus_hallberg.png
+  twitter: "@monrava89"
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 014
+  name: Michael
+  surname: Bargury
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/michael_bargury.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 015
+  name: Brian
+  surname: Contos
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/brian_cantos.jpg
+  twitter: '@BrianContos'
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 016
+  name: Dmitry
+  surname: Bestuzhev
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/dmitry_bestuzhev.jpg
+  twitter: '@dimitribest'
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 017
+  name: Beck
+  surname: Norris
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/beck_norris.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 018
+  name: Alex
+  surname: Holden
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/alex_holden.jpg
+  twitter: '@holdsecurity'
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 019
+  name: François
+  surname: Proulx
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/francois_proulx.jpg
+  twitter: '@francoisproulx'
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 020
+  name: Michael
+  surname: McCabe
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/michael_mccabe.jpg
+  twitter: '@mccabe615'
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 021
+  name: Mateo
+  surname: Rossi
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/mateo_rossi.jpg
+  twitter: '@ottimorosi'
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 022
+  name: MaoSui
+  surname:
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/maosui.jpg
+  twitter: 
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 023
+  name: Jackie Burns
+  surname: Koven
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/jackie_burns_coven.jpg
+  twitter: '@JBurnsKoven'
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 024
+  name: Eric
+  surname:
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/eric.jpg
+  twitter: 
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 025
+  name: Aditya
+  surname: Patel
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/aditya_patel.jpg
+  twitter: 
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 026
+  name: Ian
+  surname:
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/ian.jpg
+  twitter: '@advemuian'
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 027
+  name: Wietze
+  surname: Beukema
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/wietze_beukema.jpg
+  twitter: '@wietze'
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 028
+  name: Jessie
+  surname: Jameson
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/jessie_jameson.png
+  twitter: '@_r1ng3r_'
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 029
+  name: Checco
+  surname:
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/john_checco.jpg
+  twitter: '@j_checco'
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 030
+  name: Aaron
+  surname: Shim
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/aaron_shim.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 031
+  name: v33na
+  surname:
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/v33na.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
   supporter: false
