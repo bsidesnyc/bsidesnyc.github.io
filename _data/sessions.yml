@@ -155,3 +155,47 @@ We need a common language, like ATT&CK gives TTPs.  If “a problem well-defined
 
 By using threat intelligence to provide vital context to vulnerabilities, you will not only better understand the likelihood of being exploited, but you will also have a stronger understanding of your environment to enable timely decisions. This talk benefits everyone from analyst to C-level decision maker."
   speakers: [031]
+-
+  id: 027
+  title: "Closing the Gap vs Adversaries With Community Resources"
+  description: 'Identifying adversary behaviors that matter to your organization has always been a difficult task. The purpose of this talk is to help close that gap by exploring adversary behaviors communicated through MITRE ATT&CK and Tidal Cyber. Traditionally, teams have had to wade through large volumes of unstructured CTI to surface the most relevant groups, software, or campaigns, adding so much time that the exercise becomes prohibitive. We will demo and show how structured metadata around threats, such as motivations, sectors, and victim locations unlocks achievable "threat profiling", and how pivoting to relevant techniques, procedures, defenses, and tests allows teams to take action in line with their unique profile.'
+  speakers: [026]
+-
+  id: 028
+  title: "Hunting for RomCom RAT inside of the context of the war in Ukraine"
+  description: 'A few hours before the Ukraine war officially began, apparently, a Russian-sponsored wiper campaign occurred. During the following weeks and months, we saw several operations and weapons used against Ukraine. One of them is the RomCom RAT. The threat actor behind it used different initial access schemes to compromise the Ukrainian military and governmental entities. In our presentation, we will describe how we hunted it each time the threat actor changed its network infrastructure and how the RomCom RAT works inside the TO (theater of operations).'
+  speakers: [016]
+-
+  id: 029
+  title: "The FBI Citizen's Academy: Outreach Experience"
+  description: "I will walk participants through what it's like to apply for and then be selected to participate in the FBI Citizen's Academy, from my vantage as a participant and a graduate of the Class of 2022. I'll then outline the FBI's involvement with: FATS (firearms training, both virtual and field-based), the Infraguard, our regional forensics computer crime lab, human trafficking, drug cases, murder, kidnapping, international and domestic terrorism, hate crimes, bomb threats, gangs, public corruption, white collar crimes, weapons of mass destruction, radicalization, counterterrorism and counterintelligence. I'll conclude with a Q&A session. I'm hopeful that this will dispel some myths about the FBI in who they are and what they do, and provide an additional outreach point of contact for anyone who would wish to get involved."
+  speakers: [032]
+-
+  id: 030
+  title: "Modern Day Automobile Safety: Rescue Ops using CanBus"
+  description: 'CanBus has shifted the entire automotive industry into a ccommunication-centric operation. Yet, firefighters and rescue personnel are still using the same physical techniques for rescue. Why can vehicles not support "FF mode" like elevators and other large systems?'
+  speakers: [029]
+-
+  id: 031
+  title: "BTC as an IOC: Using Blockchain for Attribution"
+  description: 'Incident attribution is riddled with controversy and folly for even the most seasoned analysts. Leaked code, commodity malware, and the rapid rebranding of ransomware strains have further complicated the task. Blockchain intelligence can help visualize the underground ecosystem and attack kill chain, lending to unique financial footprints of specific threat actors or groups – not to mention where scammed, extorted, or stolen funds go. This talk covers examples of how blockchain forensics can unmask ransomware rebrands and threat actors leveraging multiple monikers and crimes.'
+  speakers: [023]
+-
+  id: 032
+  title: "The Dark Side of ChatGPT: Balancing Innovation and Security in the Age of Generative AI"
+  description: "ChatGPT is here to stay. With the increasing reliance on Artificial Intelligence everywhere, it is crucial to consider the security and privacy implications of generative AI.
+
+The talk will cover potential misuse of AI: spreading false information, abusing its capabilities to assist with security attacks such as phishing or malware, and the difficulties in detecting and mitigating malicious input and output.
+
+The goal of this talk is to increase awareness and understanding of the security challenges with generative AIs. And to encourage efforts to ensure the safe and secure use of these powerful tools. Yes, tools."
+  speakers: [025]
+-
+  id: 033
+  title: "Beyond the Buzz: SBOMs, AI, and DataOps for Organizational Resilience in a Post-Log4j World"
+  description: "Supply chain compromises and ransomware attacks have presented new sources of cyber risk which are magnified in the context of the ubiquity of data and automation. However, with new threats come new technologies and concepts; software bills of materials (SBOMs) and AI/ML enabled operations have become increasingly popular as potential countermeasures for the evolving threat landscape. We'll spend part of this talk discussing SBOMs and AI/ML tools for cybersecurity workflows (including cautionary tales), and wrap up with a discussion of the soft underbelly of all emergent tools and strategies: validation, verification, and effective prescriptive data science and operations."
+  speakers: [028]
+-
+  id: 034
+  title: "A Chess Tournament: China/Russia Underground Ecosystem Comparison"
+  description: "Both Chinese and Russian-speaking actors continue to pose threats to organizations globally. It is critical for cybersecurity specialists to be prepared against these threat actors by understanding underground ecosystems and seeing how they evolve through a clear lens. The case studies covered in this presentation will shed light on the connections between geopolitical events and underground activities. Information and data analysis included in this presentation will help cybersecurity specialists and network defenders predict future trends and protect their organizations against threats originating from both China and Russia."
+  speakers: [022]
