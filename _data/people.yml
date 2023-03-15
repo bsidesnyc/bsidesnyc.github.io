@@ -214,14 +214,14 @@
   supporter: false
 -
   id: 011
-  name: BSS
+  name: Brian Smith-Sweeney
   surname: 
   company: Two Sigma
-  title: Head of Risk Management
+  title: Head of Security Risk Management
   bio:
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /organizers/bss.jpg
+  thumbnailUrl: /organizers/bss.png
   twitter:
   isOrganizer: false
   isPlanner: true
@@ -603,6 +603,25 @@
   isDynamic: false
   sharedImg: true
   thumbnailUrl: /speakers/v33na.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 032
+  name: Beck Norris
+  surname:
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/beck_norris.jpg
   twitter:
   isOrganizer: false
   isFounder: false
