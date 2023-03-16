@@ -242,6 +242,7 @@ ticketsUpdateText: "Aw snap - looks like all of our tickets were snatched up! St
 # add EventBrite URL to `link` when `ticketsOpen` is set to `true`
 ticketsButtons:
  - {link: "https://bsidesnyc.eventbrite.com", text: "Get Tickets!", id: "tickets_button_external"}
+priceInfo: 'Tickets will cost $15+fees. If you register with a .edu email address AND check in at the conference, the $15 (not the fees) will be refunded automatically by mid-May.'
 
 #-----------------------------------------------
 # Venue
