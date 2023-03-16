@@ -73,6 +73,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 navigationLinks:
  - {permalink: "/about/", text: "About"}
  - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/sponsors/", text: "Sponsors"}
  - {permalink: "/volunteers/", text: "Volunteer"}
@@ -231,13 +232,13 @@ subscribeInfo: "We'll only use your email for BSidesNYC announcements. We respec
 #-----------------------------------------------
 # flip this to make a quick change whether we have tickets open or closed
 ticketsOpen: false
-ticketsOpenDate: "December 13, 2017 10:00:00"
+ticketsOpenDate: "March 31, 2023 8:00:00"
 ticketsText: "Unable to expense other, costly conferences?
 
-No worries, at BSidesNYC we strive to make the cost of attendance free."
+No worries, at BSidesNYC we strive to make the cost of attendance minimal."
 ticketsUpdateText: "Aw snap - looks like all of our tickets were snatched up! Stay tuned for updates on additional opportunities to grab one."
-ticketsNextReleaseDate: "January 9th, 2018 10:00:00"
-ticketsNextReleaseText: "Didn't get a ticket during our first round? No need to pout - revisit this page for our next round of tickets on "
+#ticketsNextReleaseDate: "January 9th, 2018 10:00:00"
+#ticketsNextReleaseText: "Didn't get a ticket during our first round? No need to pout - revisit this page for our next round of tickets on "
 # add EventBrite URL to `link` when `ticketsOpen` is set to `true`
 ticketsButtons:
  - {link: "https://bsidesnyc.eventbrite.com", text: "Get Tickets!", id: "tickets_button_external"}
