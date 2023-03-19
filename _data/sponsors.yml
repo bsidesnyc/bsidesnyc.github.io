@@ -15,6 +15,7 @@
   group: "Gold Sponsors"
   elements:
     - {name: "Tanium", description: "Tanium", link: "https://tanium.com/", imageUrl: "tanium.png"}
+    - {name: "Huntress", description: "Huntress", link: "https://www.huntress.com/", imageUrl: "huntress.png"}
     - {name: "open", description: "", link: "/sponsors/", imageUrl: "blank.png"}
 -
   group: "Silver Sponsors"

@@ -117,10 +117,9 @@ In this talk, we will discuss common risks and challenges in serverless environm
   speakers: [018]
 -
   id: 020
-  title: "Is Machete dead or alive? A resurrection in pandemic times"
-  description: >
-    While living in Ecuador, I discovered Ragua by myself. I manually found the very first sample in a military facility in Quito, and I called it "Machete." Team "Lechuzas" (crew name) behind Machete was active for a while until they got too exposed. So they disappeared. During COVID, Machete returned and went wild, running offensive cyber-mercenaries operations targeting Prosecutors' Offices and other Governments Institutions in Latin America. It received funds from the highest bidder and built fake Websites exposing stolen sensitive information for public opinion manipulation. But when enough is enough? Machete also went Ransomware. This presentation will provide historical context on Machete along with the latest Ops and its IOCs, Detection Rules, and TTPs.
-  speakers: [016]
+  title: "Elements of an Effective Software Supply Chain Strategy"
+  description: "Are you developing software? If so, there’s a good chance that generating a Software Bill of Materials (SBOM) is in your future. Fears of vulnerabilities in the software supply chain  have accelerated demands for SBOMs by customers. This presentation will explain what an SBOM is, who is asking for them, what they are going to do with them, the standard formats in which they are issued, and how to generate them. It will also describe how SBOMs fit into vulnerability disclosure and remediation processes and add transparency to the software supply chain. "
+  speakers: [034]
 -
   id: 021
   title: "Broken links - Behind the scenes of Supply Chain breaches"
@@ -198,4 +197,19 @@ The goal of this talk is to increase awareness and understanding of the security
   id: 034
   title: "A Chess Tournament: China/Russia Underground Ecosystem Comparison"
   description: "Both Chinese and Russian-speaking actors continue to pose threats to organizations globally. It is critical for cybersecurity specialists to be prepared against these threat actors by understanding underground ecosystems and seeing how they evolve through a clear lens. The case studies covered in this presentation will shed light on the connections between geopolitical events and underground activities. Information and data analysis included in this presentation will help cybersecurity specialists and network defenders predict future trends and protect their organizations against threats originating from both China and Russia."
-  speakers: [022]
+  speakers: [022,033]
+-
+  id: 035
+  title: "A few tricks to Anonymizing your Red Team "
+  description: "Adding onto my 2019 Derby con talk about using pre-paid cards to gain hosting infrastructure.  This talk will  detail a few other ways to anonymize Red Team activities. Such as, self-destroying drop box’s to hinder IR; OPSEC notes about using infrastructure with Tor access; highlighting trackers to avoid when cloning a site and ways to avoid brand monitoring; ways to build better concealment for drop boxes; OPSEC concealment with infrastructure , TLS and LTE service. I will also review what no longer works from my 2019 talk as related to anonymous accounts."
+  speakers: [036]
+-
+  id: 036
+  title: "Backdoors & Breaches (2 hour session)"
+  description: "You will learn how to play Backdoors & Breaches from Black Hills Information Security. The workshop trainers have been trained by BHIS."
+  speakers: [037,038,039]
+-
+  id: 037
+  title: "Ransomware From ATT&CK to Zcash: An Interactive Simulation (2 hour session)"
+  description: "You will learn how to play Backdoors & Breaches from Black Hills Information Security. The workshop trainers have been trained by BHIS."
+  speakers: [040]
