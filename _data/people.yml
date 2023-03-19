@@ -352,7 +352,7 @@
   surname: Holden
   company:
   title: 
-  bio: ""
+  bio: "Alex Holden is the founder and CISO of Hold Security, LLC. Under his leadership, Hold Security played a pivotal role in information security and threat intelligence, becoming one of the most recognizable names in its field. Mr. Holden researches minds and techniques of cyber criminals and helps our society to build better defenses against cyber-attacks."
   isDynamic: false
   sharedImg: true
   thumbnailUrl: /speakers/alex_holden.jpg
@@ -424,11 +424,11 @@
   supporter: false
 -
   id: 022
-  name: MaoSui
+  name: Mao Sui
   surname:
   company:
   title: 
-  bio: ""
+  bio: "Mao Sui and Oxana are Senior Analysts at LookingGlass Cyber Solutions. With their multi-lingual skills and deep understanding of cultural nuances, they conduct research into Chinese and Cantonese – speaking cyberspace, and Russian-speaking cybercrime world, respectively. Their other focus areas include tracking threat actor behaviors, TTPs, ransomware groups, and cybercrime toolkits to develop actionable analyses that provide valuable insights for decision-makers."
   isDynamic: false
   sharedImg: true
   thumbnailUrl: /speakers/maosui.jpg
@@ -447,10 +447,10 @@
   surname: Koven
   company:
   title: 
-  bio: ""
+  bio: "Jackie Burns Koven is the Head of Cyber Threat Intelligence at Chainalysis, leading the team that tracks cybercriminals and nation state actors stealing, scamming, and extorting cryptocurrency. She spends most of her time combing the blockchain for financial signatures of threat actors and mapping out the underground economy. She is a member of the Ransomware Task Force, which unites key stakeholders across industry, government, and civil society to innovate new solutions countering the ransomware threat. Prior to Chainalysis, she served in the U.S. Intelligence Community."
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/jackie_burns_coven.jpg
+  thumbnailUrl: /speakers/jackie_burns_koven.png
   twitter: '@JBurnsKoven'
   isOrganizer: false
   isFounder: false
@@ -576,14 +576,14 @@
   supporter: false
 -
   id: 030
-  name: Aaron
-  surname: Shim
+  name: Patrick Mathews
+  surname:
   company:
   title: 
   bio: ""
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/aaron_shim.jpg
+  thumbnailUrl: /speakers/patrick_mathews.jpg
   twitter:
   isOrganizer: false
   isFounder: false
@@ -622,6 +622,158 @@
   isDynamic: false
   sharedImg: true
   thumbnailUrl: /speakers/beck_norris.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 033
+  name: Oxana
+  surname:
+  company:
+  title: 
+  bio: "Mao Sui and Oxana are Senior Analysts at LookingGlass Cyber Solutions. With their multi-lingual skills and deep understanding of cultural nuances, they conduct research into Chinese and Cantonese – speaking cyberspace, and Russian-speaking cybercrime world, respectively. Their other focus areas include tracking threat actor behaviors, TTPs, ransomware groups, and cybercrime toolkits to develop actionable analyses that provide valuable insights for decision-makers."
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/oxana.png
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 034
+  name: Anita
+  surname: "D'Amico"
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/anita_damico.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 035
+  name: Jake
+  surname: 
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/jake.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 036
+  name: Patrick
+  surname: 
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/patrick.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 037
+  name: D
+  surname: Niu
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/blank.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 038
+  name: t0mQuixote
+  surname: 
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/blank.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 039
+  name: Dennis
+  surname: Murphy
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/blank.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 040
+  name: Harry 
+  surname: Halikis
+  company:
+  title: 
+  bio: ""
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/harry_halikis.jpg
   twitter:
   isOrganizer: false
   isFounder: false
