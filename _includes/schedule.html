@@ -85,7 +85,7 @@
                             <!-- Handle regular titles -->
                             {% else %}
                               {% if session.village != true and session.panel != true %}
-                                <h6 class="slot-title" itemprop="name">{{ session.title }}</h6>
+                                <h6 class="slot-title" itemprop="name">{{ session.title }}</h6><a href="https://twitter.com/share?text=%23BsidesNYC {{ session.title }}" target="_blank"> <svg class="icon icon-twitter" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.svg#icon-twitter"></use> </svg> </a>
                               {% endif %}
                               <ul class="slot-speakers">
                                 <!-- Handle villages -->
