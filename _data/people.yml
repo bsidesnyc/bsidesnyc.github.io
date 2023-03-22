@@ -386,14 +386,20 @@
   supporter: false
 -
   id: 020
-  name: Michael
+  name: Mike
   surname: McCabe
   company:
   title: 
-  bio: ""
+  bio: "Michael McCabe is the founder and President of Cloud Security Partners.  He founded Cloud Security Partners in 2017 where he uses his 15 years of experience to help create and implement security solutions for clients. Michael’s focus on Cloud Native software security coupled with his experience in Cloud Infrastructure and Security enables Mike to help companies navigate their security challenges by creating unique and client-tailored solutions. 
+
+Michael has led teams within startups and large financial institutions, guiding them through their security journeys. Michael’s experience in secure code review and dynamic security testing allows him to help clients identify their risk across applications and infrastructure alike. 
+
+Michael is a chapter leader of the OWASP Northern Virginia chapter, where he coordinates speakers and meetups which hosted industry-leading experts. In a addition to that, he has spoken at numerous conferences about subjects across Application Security, Cloud Security and more. He is also the co-host of the Relating to DevSecOps podcast focusing on how to create security solutions that work for real world problems.
+
+When not chasing his two young sons around, he enjoys biking and being an amateur mechanic."
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/michael_mccabe.jpg
+  thumbnailUrl: /speakers/mike_mccabe.jpeg
   twitter: '@mccabe615'
   isOrganizer: false
   isFounder: false
@@ -405,7 +411,7 @@
   supporter: false
 -
   id: 021
-  name: Mateo
+  name: Matteo
   surname: Rossi
   company:
   title: 
@@ -575,63 +581,6 @@
   trackGeneral: true
   supporter: false
 -
-  id: 030
-  name: Patrick Mathews
-  surname:
-  company:
-  title: 
-  bio: ""
-  isDynamic: false
-  sharedImg: true
-  thumbnailUrl: /speakers/patrick_mathews.jpg
-  twitter:
-  isOrganizer: false
-  isFounder: false
-  subTeam: true
-  cfpBoard: false
-  trackOpening: false
-  trackEntrepreneur: false
-  trackGeneral: true
-  supporter: false
--
-  id: 031
-  name: v33na
-  surname:
-  company:
-  title: 
-  bio: ""
-  isDynamic: false
-  sharedImg: true
-  thumbnailUrl: /speakers/v33na.jpg
-  twitter:
-  isOrganizer: false
-  isFounder: false
-  subTeam: true
-  cfpBoard: false
-  trackOpening: false
-  trackEntrepreneur: false
-  trackGeneral: true
-  supporter: false
--
-  id: 032
-  name: Beck Norris
-  surname:
-  company:
-  title: 
-  bio: ""
-  isDynamic: false
-  sharedImg: true
-  thumbnailUrl: /speakers/beck_norris.jpg
-  twitter:
-  isOrganizer: false
-  isFounder: false
-  subTeam: true
-  cfpBoard: false
-  trackOpening: false
-  trackEntrepreneur: false
-  trackGeneral: true
-  supporter: false
--
   id: 033
   name: Oxana
   surname:
@@ -728,33 +677,15 @@
   supporter: false
 -
   id: 038
-  name: t0mQuixote
-  surname: 
+  name: Tom
+  surname: Goodheart
   company:
   title: 
-  bio: ""
+  bio: "Tom Goodheart started in security after studying economics at Wagner College on Staten Island. A life longer tinkerer Tom spends a majority of his time working on his home lab, hiking, scuba diving, and cooking. Currently, Tom works on JP Morgan and Chase's Attack Analysis Team triaging the variety of alerts an organization of that size offers.
+"
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/blank.jpg
-  twitter:
-  isOrganizer: false
-  isFounder: false
-  subTeam: true
-  cfpBoard: false
-  trackOpening: false
-  trackEntrepreneur: false
-  trackGeneral: true
-  supporter: false
--
-  id: 039
-  name: Dennis
-  surname: Murphy
-  company:
-  title: 
-  bio: ""
-  isDynamic: false
-  sharedImg: true
-  thumbnailUrl: /speakers/blank.jpg
+  thumbnailUrl: /speakers/tom_goodheart.jpeg
   twitter:
   isOrganizer: false
   isFounder: false
@@ -774,6 +705,82 @@
   isDynamic: false
   sharedImg: true
   thumbnailUrl: /speakers/harry_halikis.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 041
+  name: Abi
+  surname: Wedell
+  company:
+  title: 
+  bio: "Hunting Threat Actors using OSINT Forensics"
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/abi_wedell.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 042
+  name: Susan
+  surname: Peediyakkal
+  company:
+  title: 
+  bio: "Building the Foundations of a Threat Intelligence Program"
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/susan_peediyakkal.jpg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 043
+  name: Dennis
+  surname: Murphy
+  company:
+  title: 
+  bio: "Dennis Murphy started his career in 1993 as a Control System Engineer, specializing in designing, installing, and maintaining process automation networks in dozens of industry segments, including the Electric Utility sector. In 2005, Mr. Murphy shifted his focus to from designing to securing control system networks, working on R&D projects to secure US critical infrastructure as a member of BAE Systems. In 2015, Mr. Murphy joined SecurityMatters as the first US employee, responsible for the design, installation and support of Intrusion Detection Systems built specifically for OT networks. Mr. Murphy has installed OT specific IDS systems at multiple US electric utility and oil & gas companies, specializing in the integration of OT specific alerts into existing Security Operation Centers and creation of bespoke workflows and playbooks. In 2021, Mr. Murphy joined National Grid as the Lead OT Security Engineer for the Digital Substation group in the US, responsible for securing OT networks with IDS systems and adapting IT-based security solutions to install an edge compute element to field sites. Mr. Murphy, a father of three who currently resides in New Hampshire with his wife, is an active member of the Appalachian Mountain Club, seeking to hike all forty-eight 4000-ft. peaks in NH. Mr. Murphy also enjoys sailing the New England coastline in his free time.  "
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/dennis_murphy.jpeg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 044
+  name: Kevin
+  surname: Apolinario
+  company:
+  title: 
+  bio: "I worked for an MSP environment, apple store, department of education, and multiple hedge funds. I also have about 12 years of restaurant experience and did 4 years for the NYPD volunteer. Train students, military veterans and provide hands-on training. Tech Trainer for Jobskillshare and Boots to books. My passion is helping others break into IT/Cybersecurity. I recently created a Udemy course which has helped over 12,000 students learn the on demand skills needed to work IT Support."
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/kevin_apolinario.png
   twitter:
   isOrganizer: false
   isFounder: false

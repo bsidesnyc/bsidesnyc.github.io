@@ -163,12 +163,12 @@ By using threat intelligence to provide vital context to vulnerabilities, you wi
   id: 028
   title: "Hunting for RomCom RAT inside of the context of the war in Ukraine"
   description: 'A few hours before the Ukraine war officially began, apparently, a Russian-sponsored wiper campaign occurred. During the following weeks and months, we saw several operations and weapons used against Ukraine. One of them is the RomCom RAT. The threat actor behind it used different initial access schemes to compromise the Ukrainian military and governmental entities. In our presentation, we will describe how we hunted it each time the threat actor changed its network infrastructure and how the RomCom RAT works inside the TO (theater of operations).'
-  speakers: [016]
+  speakers: [016,035]
 -
   id: 029
   title: "The FBI Citizen's Academy: Outreach Experience"
   description: "I will walk participants through what it's like to apply for and then be selected to participate in the FBI Citizen's Academy, from my vantage as a participant and a graduate of the Class of 2022. I'll then outline the FBI's involvement with: FATS (firearms training, both virtual and field-based), the Infraguard, our regional forensics computer crime lab, human trafficking, drug cases, murder, kidnapping, international and domestic terrorism, hate crimes, bomb threats, gangs, public corruption, white collar crimes, weapons of mass destruction, radicalization, counterterrorism and counterintelligence. I'll conclude with a Q&A session. I'm hopeful that this will dispel some myths about the FBI in who they are and what they do, and provide an additional outreach point of contact for anyone who would wish to get involved."
-  speakers: [032]
+  speakers: [017]
 -
   id: 030
   title: "Modern Day Automobile Safety: Rescue Ops using CanBus"
@@ -207,9 +207,25 @@ The goal of this talk is to increase awareness and understanding of the security
   id: 036
   title: "Backdoors & Breaches (2 hour session)"
   description: "You will learn how to play Backdoors & Breaches from Black Hills Information Security. The workshop trainers have been trained by BHIS."
-  speakers: [037,038,039]
+  speakers: [037,038,043]
 -
   id: 037
   title: "Ransomware From ATT&CK to Zcash: An Interactive Simulation (2 hour session)"
   description: "You will learn how to play Backdoors & Breaches from Black Hills Information Security. The workshop trainers have been trained by BHIS."
   speakers: [040]
+-
+  id: 038
+  title: "From Fast Food to Helpdesk to Cybersecurity "
+  description: "how to market yourself, resume, linkedin, applying for jobs, connecting with people."
+  speakers: [044]
+-
+  id: 039
+  title: "Building the Foundations of a Threat Intelligence Program"
+  description: ""
+  speakers: [042]
+-
+  id: 040
+  title: "Hunting Threat Actors using OSINT Forensics"
+  description: "Little attention is given to tracking the perpetrators of cyber-attacks in the world of forensics. Using real world examples, I will present some OSINT methods to trace the location and identity of threat actors, including revealing deleted parts of screenshots/PDFs, discerning fake accounts, finding suspicious VPN addresses,  uncovering identities from pseudonyms; using account leaks, search engine analytics, maps, social media, images and more. I will also present the results of my original research of thousands of leaked accounts, into identifying gender, age and predicted passwords in use, which can assist in threat actor identification. 
+"
+  speakers: [041]
