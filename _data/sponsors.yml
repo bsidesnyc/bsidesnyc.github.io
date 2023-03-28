@@ -16,6 +16,8 @@
   elements:
     - {name: "Tanium", description: "Tanium", link: "https://tanium.com/", imageUrl: "tanium.png"}
     - {name: "Huntress", description: "Huntress", link: "https://www.huntress.com/", imageUrl: "huntress.png"}
+    - {name: "F5", description: "F5", link: "https://www.f5.com/", imageUrl: "f5.png"}
+    - {name: "Sublime Security", description: "Sublime Security", link: "https://www.sublime.security/", imageUrl: "sublime.png"}
     - {name: "open", description: "", link: "/sponsors/", imageUrl: "blank.png"}
 -
   group: "Silver Sponsors"
@@ -24,4 +26,5 @@
     - {name: "Justworks", description: "Justworks", link: "https://www.justworks.com/", imageUrl: "justworks.png"}
     - {name: "ComplianceCow", description: "ComplianceCow", link: "https://compliancecow.com/", imageUrl: "compliancecow.png"}
     - {name: "SecureCodeWarrior", description: "SecureCodeWarrior", link: "https://www.securecodewarrior.com/", imageUrl: "securecodewarrior.png"}
+    - {name: "Elteni", description: "Elteni", link: "https://www.elteni.com/", imageUrl: "elteni.png"}
     - {name: "open", description: "", link: "/sponsors/", imageUrl: "blank.png"}
