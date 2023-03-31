@@ -14,17 +14,6 @@
       {% endif %}
 
       <div class="content-wrapper text-left text-justify">
-        {% if current_time > ticket_open_time %}
-          <p>Registration for BSidesNYC {{ site.conYear }} is now <b>open</b>!</p>
-          {% if site.ticketsOpen != null and site.ticketsOpen == false %}
-            {% if site.ticketsNextReleaseDate and current_time < next_ticket_open_time %}
-              <p>{{ site.ticketsNextReleaseText }}<b>{{ site.ticketsNextReleaseDate }} ET</b>!</p>
-            {% else %}
-              <p>{{ site.ticketsUpdateText }}</p>
-            {% endif %}
-          {% else %}
-            <!-- if you want this to be automatic based on `site.ticketsNextReleaseDate`, wrap in same if statement from above,
-              otherwise just having `site.ticketsOpen` == true will lead to this text -->
             <p>Want to attend our awesome conference? Use this link to
               {% for button in site.ticketsButtons %}
                 {% if button.id == "tickets_button_external" %}
@@ -32,10 +21,6 @@
                 {% endif %}
               {% endfor %}
             </p>
-          {% endif %}
-        {% else %}
-          <p>Come back to this page after <b>{{ site.ticketsOpenDate }}</b> and you will see a button here to buy tickets. {{ site.priceInfo }}</p>
-        {% endif %}
       </div>
   </div>
 </section>
