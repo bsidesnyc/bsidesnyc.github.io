@@ -229,3 +229,8 @@ The goal of this talk is to increase awareness and understanding of the security
   description: "Little attention is given to tracking the perpetrators of cyber-attacks in the world of forensics. Using real world examples, I will present some OSINT methods to trace the location and identity of threat actors, including revealing deleted parts of screenshots/PDFs, discerning fake accounts, finding suspicious VPN addresses,  uncovering identities from pseudonyms; using account leaks, search engine analytics, maps, social media, images and more. I will also present the results of my original research of thousands of leaked accounts, into identifying gender, age and predicted passwords in use, which can assist in threat actor identification. 
 "
   speakers: [041]
+-
+  id: 041
+  title: "It's the Economy, Stupid: Tackling technical debt in times of economic uncertainty"
+  description: "No matter the number of weeks between my submitting this abstract and you reading it, we’ve probably seen about as many wrong market predictions as we’ve seen CVEs. Economic uncertainty is… not great, but it does give security teams and CEOs a potential common language– if we can learn to speak their dialect. In this crash course, you’ll learn how to explain true zero trust to your boss’s boss’s boss so it actually gets funded, and maybe– just maybe– we can start tackling 30+ years of market-driven technical debt. Come for the hot takes, stay for the strategy."
+  speakers: [045]

@@ -276,10 +276,10 @@
   surname: Bargury
   company:
   title: 
-  bio: ""
+  bio: "Michael Bargury is a security researcher passionate about all things related to cloud, SaaS and low-code security, and spends his time finding ways they could go wrong. He is the Co-Founder and CTO of Zenity, where he helps companies secure their low-code/no-code apps. In the past, he headed security product efforts at Azure focused on IoT, APIs and IaC. He also leads the OWASP low-code security project and writes about it on DarkReading. Michael is a regular speaker at RSAC, OWASP, BSides and DEFCON.  "
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/michael_bargury.jpg
+  thumbnailUrl: /speakers/michael_bargury.jpeg
   twitter:
   isOrganizer: false
   isFounder: false
@@ -421,13 +421,13 @@ When not chasing his two young sons around, he enjoys biking and being an amateu
 -
   id: 021
   name: Matteo
-  surname: Rossi
+  surname: Rosi
   company:
   title: 
-  bio: ""
+  bio: "Matteo Rosi, Security Researcher at Contrast Security, is a passionate cyber-security professional with 20 years of experience in the field. Prior to Contrast, he worked as Cyber Security Expert and SOC Manager at Telepass, helping organisations to design and implement all security capabilities and particularly the incident response process. Matteo holds a PhD in Computer Engineering from The University of Florence, the city where he lives with Corinna and their two sons. When Matteo isn't working hard at Contrast Security, you'll find him enjoying dying again and again in Elden Ring.  "
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/mateo_rossi.jpg
+  thumbnailUrl: /speakers/matteo_rosi.jpeg
   twitter: '@ottimorosi'
   isOrganizer: false
   isFounder: false
@@ -653,13 +653,13 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
 -
   id: 036
   name: Patrick
-  surname: 
+  surname: Matthews 
   company:
   title: 
-  bio: ""
+  bio: "A chaotic good lead security consultant with Nettitude.  Who tends to get distracted with hardware, malware and trying to do well to those around me. Over my career I have held positions in most areas of IT, such as a programmer, SOC operator, network, and system administrator. I currently hold a number of industry certificates that allows me to bypass HR role qualification filters. When I'm not on my computer, I pretend to be a farmer and beekeeper."
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/patrick.jpg
+  thumbnailUrl: /speakers/patrick_matthews.jpeg
   twitter:
   isOrganizer: false
   isFounder: false
@@ -711,13 +711,17 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
 -
   id: 040
   name: Harry 
-  surname: Halikis
+  surname: Halikias
   company:
   title: 
-  bio: ""
+  bio: "As a seasoned professional with over 15 years of experience in cybersecurity and privacy, I am a frequent public speaker and thought leader on the importance of protecting sensitive information. I hold a Master’s Degree in Cybersecurity and numerous certifications, including the CISSP, which have enabled me to comprehensively understand the latest technologies and best practices in the industry.
+
+I am passionate about privacy and believe it is a fundamental right for everyone. I am committed to protecting personal and sensitive data and ensuring that people's information is secure and kept confidential.
+
+As a senior leader in the field, I am dedicated to staying at the forefront of emerging trends and technologies to provide the best possible defense against cyber threats. I am constantly seeking new opportunities to learn, grow, and share my expertise with others, so let's connect."
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/harry_halikis.jpg
+  thumbnailUrl: /speakers/harry_halikias.jpg
   twitter:
   isOrganizer: false
   isFounder: false
@@ -794,6 +798,25 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
   isDynamic: false
   sharedImg: true
   thumbnailUrl: /speakers/kevin_apolinario.png
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 045
+  name: Ariel
+  surname: Robinson
+  company:
+  title: 
+  bio: 
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/ariel_robinson.png
   twitter:
   isOrganizer: false
   isFounder: false

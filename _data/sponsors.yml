@@ -27,4 +27,5 @@
     - {name: "ComplianceCow", description: "ComplianceCow", link: "https://compliancecow.com/", imageUrl: "compliancecow.png"}
     - {name: "SecureCodeWarrior", description: "SecureCodeWarrior", link: "https://www.securecodewarrior.com/", imageUrl: "securecodewarrior.png"}
     - {name: "Elteni", description: "Elteni", link: "https://www.elteni.com/", imageUrl: "elteni.png"}
+    - {name: "CREST", description: "CREST", link: "https://www.crest-approved.org/", imageUrl: "crest.jpg"}
     - {name: "open", description: "", link: "/sponsors/", imageUrl: "blank.png"}
