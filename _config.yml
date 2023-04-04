@@ -129,7 +129,8 @@ cfpProcessAcceptedText: ["Ideally, we will be able to give you 1+ month of accep
 #-----------------------------------------------
 # Villages
 #-----------------------------------------------
-villagesCfvTitle: "Villages Cfv Title Here"
+villagesAboutTitle: "About Villages"
+villagesTitle: "BSidesNYC 2023 Villages"
 villagesUrl: "/villages/"
 villagesBlock:
  - {title: "What's a Village?", image: "bsides_village.jfif", text: "Villages are open spaces divided up by topic that host hands-on activities, demos, and workshops throughout the conference. They are generally less formal than the standard tracks and offer an alternative learning environment from the straight talk/lecture structure. They're also a great place to socialize and make contacts in the community!" }
