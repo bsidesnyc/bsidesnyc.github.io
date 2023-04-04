@@ -500,10 +500,10 @@ When not chasing his two young sons around, he enjoys biking and being an amateu
   surname: Patel
   company:
   title: 
-  bio: ""
+  bio: "Aditya is a Security Leader at Amazon, with over 15 years of experience in software and cybersecurity. He is an expert in cloud security, vulnerability and risk management, and threat modeling for enterprises. As a member of the Security Technical Field Community within AWS, Aditya has led numerous enterprise customers in building their cloud security programs. He is also an Amazon Certified Senior Speaker and speaks at local security and global AWS events on various technical topics related to security, privacy, and compliance. He also writes a popular security blog at https://secwale.com."
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/aditya_patel.jpg
+  thumbnailUrl: /speakers/aditya_patel.jpeg
   twitter: 
   isOrganizer: false
   isFounder: false
@@ -618,10 +618,10 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
   surname: "D'Amico"
   company:
   title: 
-  bio: ""
+  bio: 'Dr. Anita D’Amico is Vice President of Cross-Portfolio Solutions and Strategy at Synopsys Software Integrity Group, where she is responsible for software supply chain risk management. Prior to that, she was CEO of Code Dx, Inc., an application security startup.  Her roots are in experimental psychology and human factors. She has conducted extensive research and published work on the intersection of technology and human decision making, including how to visualize complex cybersecurity data.  She got her start in cybersecurity at Northrop Grumman, where she launched its first Information Warfare team. Anita was named as one of "100 Fascinating Females Fighting Cybercrime” in the book “Women Know Cyber.”'
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/anita_damico.jpg
+  thumbnailUrl: /speakers/anita_damico.jpeg
   twitter:
   isOrganizer: false
   isFounder: false
@@ -675,10 +675,10 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
   surname: Niu
   company:
   title: 
-  bio: ""
+  bio: "D is a software engineer at Datadog, working mostly on dependency security, kubernetes runtime integrity, and threat intel research. She graduated from Duke University with a degree in Computer Science in 2021 and spends most of her free time doing yoga."
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/blank.jpg
+  thumbnailUrl: /speakers/d_niu.png
   twitter:
   isOrganizer: false
   isFounder: false
@@ -734,13 +734,13 @@ As a senior leader in the field, I am dedicated to staying at the forefront of e
 -
   id: 041
   name: Abi
-  surname: Wedell
+  surname: Wadell
   company:
   title: 
   bio: "Abi is the founder of Inquirix which provides tailored OSINT services having more than two decades of experience in open source data gathering, attack surface testing, threat assessment and investigations. Abi's recent research has focused on improving OSINT techniques in forensic investigations and vulnerability assessments, attack recon behaviour detection and credential analysis and testing. She has made a number of vulnerability findings which have facilitated data exposure assessments, blue teaming and created tools to help in this work."
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/abi_wedell.jpeg
+  thumbnailUrl: /speakers/abi_wadell.jpeg
   twitter:
   isOrganizer: false
   isFounder: false
@@ -813,10 +813,10 @@ As a senior leader in the field, I am dedicated to staying at the forefront of e
   surname: Robinson
   company:
   title: 
-  bio: 
+  bio: After a multi-year hiatus of zoom birthdays and remote happy hours, nationally-recognized security speaker Ariel Robinson is back on the circuit with a host of new talks, trainings, and pandemic puppy pics. (He was planned before the pandemic, okay?) With an academic background in cognitive science and linguistics, Ariel has built a career out of using pictures and small words to translate highly technical concepts between vastly different stakeholders (most of whom have little in common besides appearing vaguely humanoid). Ariel's work has brought her face-to-face with some of society's most dangerous members, from Marines, to lawyers, to seven year old's at a birthday party after cake. Outside of her current role as a senior security product manager, Ariel draws, paints, and climbs really big rocks. 
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/ariel_robinson.png
+  thumbnailUrl: /speakers/ariel_robinson.jpeg
   twitter:
   isOrganizer: false
   isFounder: false
