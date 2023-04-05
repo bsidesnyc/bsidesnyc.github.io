@@ -22,7 +22,7 @@
   id: 002
   name: Cyberjutsu
   nameLong: "Women's Society of Cyberjutsu"
-  villageName:
+  villageName: "Women's Society of Cyberjutsu"
   description:
   link: https://womenscyberjutsu.org/
   imageUrl: cyberjutsu.png
@@ -32,7 +32,7 @@
   id: 003
   name: NYC Resistor
   nameLong: "NYC Resistor"
-  villageName:
+  villageName: "NYC Resistor"
   description:
   link: https://www.nycresistor.com/
   imageUrl: nycresistor.png
@@ -42,7 +42,7 @@
   id: 004
   name: CyberSN
   nameLong: "CyberSN"
-  villageName:
+  villageName: "CyberSN"
   description:
   link: https://cybersn.com/
   imageUrl: cybersn.svg
@@ -56,5 +56,15 @@
   description:
   link: https://ninjajobs.org/
   imageUrl: ninjajobs.png
+  sharedImg: false
+  isSponsor: false
+-
+  id: 006
+  name: BIC
+  nameLong: "Blacks in Cybersecurity"
+  villageName: "Blacks in Cybersecurity"
+  description:
+  link: https://www.blacksincyberconf.com/
+  imageUrl: banner_bic_hq.png
   sharedImg: false
   isSponsor: false

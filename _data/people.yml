@@ -214,8 +214,8 @@
   supporter: false
 -
   id: 011
-  name: Brian Smith-Sweeney
-  surname: 
+  name: Brian
+  surname: Smith-Sweeney
   company: Two Sigma
   title: Head of Security Risk Management
   bio:
@@ -242,7 +242,7 @@
   isDynamic: false
   sharedImg: true
   thumbnailUrl: /speakers/lance_james.jpg
-  twitter: 
+  twitter:
   isOrganizer: false
   isFounder: false
   subTeam: true
@@ -256,7 +256,7 @@
   name: Marcus
   surname: Hallberg
   company:
-  title: 
+  title:
   bio: "My name is Marcus, a security engineer at heart, and I work for Spotify in Stockholm, Sweden.  My childhood hero was Sherlock Holmes and as an adult I've tried to fill those shoes by working with cybersecurity detection and response.  When I have time off I enjoy rock climbing, folk dancing and cross-country skiing.  Looking to meet all the awesome minds at BSidesNYC!"
   isDynamic: false
   sharedImg: true
@@ -275,7 +275,7 @@
   name: Michael
   surname: Bargury
   company:
-  title: 
+  title:
   bio: "Michael Bargury is a security researcher passionate about all things related to cloud, SaaS and low-code security, and spends his time finding ways they could go wrong. He is the Co-Founder and CTO of Zenity, where he helps companies secure their low-code/no-code apps. In the past, he headed security product efforts at Azure focused on IoT, APIs and IaC. He also leads the OWASP low-code security project and writes about it on DarkReading. Michael is a regular speaker at RSAC, OWASP, BSides and DEFCON.  "
   isDynamic: false
   sharedImg: true
@@ -294,10 +294,10 @@
   name: Brian
   surname: Contos
   company:
-  title: 
+  title:
   bio: "Brian Contos, Chief Strategy Officer, Sevco Security
 
-With two IPOs & eight acquisitions, Brian has helped build some of the most successful security companies in the world. He has over 25 years in the security industry as a security company entrepreneur, board advisor, investor, and author. After getting his start with the Defense Information Systems Agency (DISA) and later Bell Labs, Brian began the process of building security startups and taking multiple companies through successful IPOs and acquisitions, including Riptech, ArcSight, Imperva, McAfee, Solera Networks, Cylance, JASK, Verodin, and Mandiant. 
+With two IPOs & eight acquisitions, Brian has helped build some of the most successful security companies in the world. He has over 25 years in the security industry as a security company entrepreneur, board advisor, investor, and author. After getting his start with the Defense Information Systems Agency (DISA) and later Bell Labs, Brian began the process of building security startups and taking multiple companies through successful IPOs and acquisitions, including Riptech, ArcSight, Imperva, McAfee, Solera Networks, Cylance, JASK, Verodin, and Mandiant.
 
 Brian has worked in over 50 countries across six continents. He authored the book Enemy at the Water Cooler and co-authored Physical & Logical Security Convergence with former NSA Deputy Director William Crowell. He was featured in the cyberwar documentary 5 Eyes alongside General Michael Hayden, former NSA, and CIA Director. Brian writes for Forbes and regularly presents at conferences like Black Hat, RSA, OWASP, and BSides."
   isDynamic: false
@@ -317,7 +317,7 @@ Brian has worked in over 50 countries across six continents. He authored the boo
   name: Dmitry
   surname:
   company:
-  title: 
+  title:
   bio: "Dmitry Bestuzhev is BlackBerry's Senior Director, leading the Cyberthreat Intelligence team responsible for tracking large-scale cyber incidents, espionage, and cyber-crime-motivated campaigns.
 
 
@@ -341,7 +341,7 @@ Before joining BlackBerry, Dmitry oversaw the Global Research and Analysis Team 
   name: Beck (blither)
   surname:
   company:
-  title: 
+  title:
   bio: "Beck (blither) has spent over a decade in cyber security, with a consistent blue-team theme of protecting internal assets, platforms, technologies and people throughout the duration of her career. She's passionate in making the world a more risk-averse place through effectively implementing cyber security practices, in both the literal and figurative sense. In her non-cyber life, she enjoys playing with machinery of various sorts and to varying degrees, fixing broken things, creating things, and spending time with her favorite people and four-legged friends."
   isDynamic: false
   sharedImg: true
@@ -360,7 +360,7 @@ Before joining BlackBerry, Dmitry oversaw the Global Research and Analysis Team 
   name: Alex
   surname: Holden
   company:
-  title: 
+  title:
   bio: "Alex Holden is the founder and CISO of Hold Security, LLC. Under his leadership, Hold Security played a pivotal role in information security and threat intelligence, becoming one of the most recognizable names in its field. Mr. Holden researches minds and techniques of cyber criminals and helps our society to build better defenses against cyber-attacks."
   isDynamic: false
   sharedImg: true
@@ -379,7 +379,7 @@ Before joining BlackBerry, Dmitry oversaw the Global Research and Analysis Team 
   name: François
   surname: Proulx
   company:
-  title: 
+  title:
   bio: "François is a Senior Product Security Engineer for BoostSecurity, where he leads the Supply Chain research team. With over 10 years of experience in building AppSec programs for large corporations (such as Intel) and small startups he has been in the heat of the action as the DevSecOps movement took shape. François is one of founders of the NorthSec conference in Montreal, Canada and a challenge designer for their CTF.  "
   isDynamic: false
   sharedImg: true
@@ -398,10 +398,10 @@ Before joining BlackBerry, Dmitry oversaw the Global Research and Analysis Team 
   name: Mike
   surname: McCabe
   company:
-  title: 
-  bio: "Michael McCabe is the founder and President of Cloud Security Partners.  He founded Cloud Security Partners in 2017 where he uses his 15 years of experience to help create and implement security solutions for clients. Michael’s focus on Cloud Native software security coupled with his experience in Cloud Infrastructure and Security enables Mike to help companies navigate their security challenges by creating unique and client-tailored solutions. 
+  title:
+  bio: "Michael McCabe is the founder and President of Cloud Security Partners.  He founded Cloud Security Partners in 2017 where he uses his 15 years of experience to help create and implement security solutions for clients. Michael’s focus on Cloud Native software security coupled with his experience in Cloud Infrastructure and Security enables Mike to help companies navigate their security challenges by creating unique and client-tailored solutions.
 
-Michael has led teams within startups and large financial institutions, guiding them through their security journeys. Michael’s experience in secure code review and dynamic security testing allows him to help clients identify their risk across applications and infrastructure alike. 
+Michael has led teams within startups and large financial institutions, guiding them through their security journeys. Michael’s experience in secure code review and dynamic security testing allows him to help clients identify their risk across applications and infrastructure alike.
 
 Michael is a chapter leader of the OWASP Northern Virginia chapter, where he coordinates speakers and meetups which hosted industry-leading experts. In a addition to that, he has spoken at numerous conferences about subjects across Application Security, Cloud Security and more. He is also the co-host of the Relating to DevSecOps podcast focusing on how to create security solutions that work for real world problems.
 
@@ -423,7 +423,7 @@ When not chasing his two young sons around, he enjoys biking and being an amateu
   name: Matteo
   surname: Rosi
   company:
-  title: 
+  title:
   bio: "Matteo Rosi, Security Researcher at Contrast Security, is a passionate cyber-security professional with 20 years of experience in the field. Prior to Contrast, he worked as Cyber Security Expert and SOC Manager at Telepass, helping organisations to design and implement all security capabilities and particularly the incident response process. Matteo holds a PhD in Computer Engineering from The University of Florence, the city where he lives with Corinna and their two sons. When Matteo isn't working hard at Contrast Security, you'll find him enjoying dying again and again in Elden Ring.  "
   isDynamic: false
   sharedImg: true
@@ -442,12 +442,12 @@ When not chasing his two young sons around, he enjoys biking and being an amateu
   name: Mao Sui
   surname:
   company:
-  title: 
+  title:
   bio: "Mao Sui and Oxana are Senior Analysts at LookingGlass Cyber Solutions. With their multi-lingual skills and deep understanding of cultural nuances, they conduct research into Chinese and Cantonese – speaking cyberspace, and Russian-speaking cybercrime world, respectively. Their other focus areas include tracking threat actor behaviors, TTPs, ransomware groups, and cybercrime toolkits to develop actionable analyses that provide valuable insights for decision-makers."
   isDynamic: false
   sharedImg: true
   thumbnailUrl: /speakers/maosui.jpg
-  twitter: 
+  twitter:
   isOrganizer: false
   isFounder: false
   subTeam: true
@@ -461,7 +461,7 @@ When not chasing his two young sons around, he enjoys biking and being an amateu
   name: Jackie Burns
   surname: Koven
   company:
-  title: 
+  title:
   bio: "Jackie Burns Koven is the Head of Cyber Threat Intelligence at Chainalysis, leading the team that tracks cybercriminals and nation state actors stealing, scamming, and extorting cryptocurrency. She spends most of her time combing the blockchain for financial signatures of threat actors and mapping out the underground economy. She is a member of the Ransomware Task Force, which unites key stakeholders across industry, government, and civil society to innovate new solutions countering the ransomware threat. Prior to Chainalysis, she served in the U.S. Intelligence Community."
   isDynamic: false
   sharedImg: true
@@ -480,12 +480,12 @@ When not chasing his two young sons around, he enjoys biking and being an amateu
   name: Eric
   surname:
   company:
-  title: 
+  title:
   bio: ""
   isDynamic: false
   sharedImg: true
   thumbnailUrl: /speakers/eric.jpg
-  twitter: 
+  twitter:
   isOrganizer: false
   isFounder: false
   subTeam: true
@@ -499,12 +499,12 @@ When not chasing his two young sons around, he enjoys biking and being an amateu
   name: Aditya
   surname: Patel
   company:
-  title: 
+  title:
   bio: "Aditya is a Security Leader at Amazon, with over 15 years of experience in software and cybersecurity. He is an expert in cloud security, vulnerability and risk management, and threat modeling for enterprises. As a member of the Security Technical Field Community within AWS, Aditya has led numerous enterprise customers in building their cloud security programs. He is also an Amazon Certified Senior Speaker and speaks at local security and global AWS events on various technical topics related to security, privacy, and compliance. He also writes a popular security blog at https://secwale.com."
   isDynamic: false
   sharedImg: true
   thumbnailUrl: /speakers/aditya_patel.jpeg
-  twitter: 
+  twitter:
   isOrganizer: false
   isFounder: false
   subTeam: true
@@ -518,7 +518,7 @@ When not chasing his two young sons around, he enjoys biking and being an amateu
   name: Ian
   surname: Davila
   company:
-  title: 
+  title:
   bio: "Ian Davila is a Lead Adversary Emulation Engineer for Tidal Cyber who is passionate about helping organizations adopt a Threat-Informed Defense. Before joining Tidal Cyber, Ian was a Cyber Security Engineer for The MITRE Corporation.
 
 Ian advanced MITRE ATT&CK® where he researched, developed, and reviewed techniques for the Enterprise domain as a Technique Research Lead. He also supported the software development team of ATT&CK. Ian was part of ATT&CK Evaluations for two Enterprise offerings where he led evaluations and emulated malware used by adversaries.
@@ -541,7 +541,7 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
   name: Wietze
   surname: Beukema
   company:
-  title: 
+  title:
   bio: ""
   isDynamic: false
   sharedImg: true
@@ -560,7 +560,7 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
   name: Jessie
   surname: Jameson
   company:
-  title: 
+  title:
   bio: ""
   isDynamic: false
   sharedImg: true
@@ -579,7 +579,7 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
   name: Checco
   surname:
   company:
-  title: 
+  title:
   bio: ""
   isDynamic: false
   sharedImg: true
@@ -598,7 +598,7 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
   name: Oxana
   surname:
   company:
-  title: 
+  title:
   bio: "Mao Sui and Oxana are Senior Analysts at LookingGlass Cyber Solutions. With their multi-lingual skills and deep understanding of cultural nuances, they conduct research into Chinese and Cantonese – speaking cyberspace, and Russian-speaking cybercrime world, respectively. Their other focus areas include tracking threat actor behaviors, TTPs, ransomware groups, and cybercrime toolkits to develop actionable analyses that provide valuable insights for decision-makers."
   isDynamic: false
   sharedImg: true
@@ -617,7 +617,7 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
   name: Anita
   surname: "D'Amico"
   company:
-  title: 
+  title:
   bio: 'Dr. Anita D’Amico is Vice President of Cross-Portfolio Solutions and Strategy at Synopsys Software Integrity Group, where she is responsible for software supply chain risk management. Prior to that, she was CEO of Code Dx, Inc., an application security startup.  Her roots are in experimental psychology and human factors. She has conducted extensive research and published work on the intersection of technology and human decision making, including how to visualize complex cybersecurity data.  She got her start in cybersecurity at Northrop Grumman, where she launched its first Information Warfare team. Anita was named as one of "100 Fascinating Females Fighting Cybercrime” in the book “Women Know Cyber.”'
   isDynamic: false
   sharedImg: true
@@ -636,7 +636,7 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
   name: Jacob
   surname: Faires
   company:
-  title: 
+  title:
   bio: "Jacob Faires is a Senior Threat Researcher with BlackBerry’s Threat Research & Intelligence team. Jacob collaborates with data scientists, engineers, and intelligence analysts to actively monitor threats and develop cutting edge research focused internally and externally on the evolving threat landscape. Jacob has nearly two decades of experience in the information and technology security sector. Prior to joining BlackBerry, Jacob was a Senior Threat Researcher with NTT’s Global Threat Intelligence Center (GTIC) where he tracked threat actors and advanced persistent threats (APTs), incident response, extended detection and response (XDR) data, and data net flow analysis to effectively identify threat actors and provide detection to NTT clients."
   isDynamic: false
   sharedImg: true
@@ -653,9 +653,9 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
 -
   id: 036
   name: Patrick
-  surname: Matthews 
+  surname: Matthews
   company:
-  title: 
+  title:
   bio: "A chaotic good lead security consultant with Nettitude.  Who tends to get distracted with hardware, malware and trying to do well to those around me. Over my career I have held positions in most areas of IT, such as a programmer, SOC operator, network, and system administrator. I currently hold a number of industry certificates that allows me to bypass HR role qualification filters. When I'm not on my computer, I pretend to be a farmer and beekeeper."
   isDynamic: false
   sharedImg: true
@@ -674,7 +674,7 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
   name: D
   surname: Niu
   company:
-  title: 
+  title:
   bio: "D is a software engineer at Datadog, working mostly on dependency security, kubernetes runtime integrity, and threat intel research. She graduated from Duke University with a degree in Computer Science in 2021 and spends most of her free time doing yoga."
   isDynamic: false
   sharedImg: true
@@ -693,7 +693,7 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
   name: Tom
   surname: Goodheart
   company:
-  title: 
+  title:
   bio: "Tom Goodheart started in security after studying economics at Wagner College on Staten Island. A life longer tinkerer Tom spends a majority of his time working on his home lab, hiking, scuba diving, and cooking. Currently, Tom works on JP Morgan and Chase's Attack Analysis Team triaging the variety of alerts an organization of that size offers.
 "
   isDynamic: false
@@ -710,10 +710,10 @@ Ian began his career in Cyber Security in 2015 by competing in CTFs while comple
   supporter: false
 -
   id: 040
-  name: Harry 
+  name: Harry
   surname: Halikias
   company:
-  title: 
+  title:
   bio: "As a seasoned professional with over 15 years of experience in cybersecurity and privacy, I am a frequent public speaker and thought leader on the importance of protecting sensitive information. I hold a Master’s Degree in Cybersecurity and numerous certifications, including the CISSP, which have enabled me to comprehensively understand the latest technologies and best practices in the industry.
 
 I am passionate about privacy and believe it is a fundamental right for everyone. I am committed to protecting personal and sensitive data and ensuring that people's information is secure and kept confidential.
@@ -736,7 +736,7 @@ As a senior leader in the field, I am dedicated to staying at the forefront of e
   name: Abi
   surname: Wadell
   company:
-  title: 
+  title:
   bio: "Abi is the founder of Inquirix which provides tailored OSINT services having more than two decades of experience in open source data gathering, attack surface testing, threat assessment and investigations. Abi's recent research has focused on improving OSINT techniques in forensic investigations and vulnerability assessments, attack recon behaviour detection and credential analysis and testing. She has made a number of vulnerability findings which have facilitated data exposure assessments, blue teaming and created tools to help in this work."
   isDynamic: false
   sharedImg: true
@@ -755,7 +755,7 @@ As a senior leader in the field, I am dedicated to staying at the forefront of e
   name: Susan
   surname: Peediyakkal
   company:
-  title: 
+  title:
   bio: "Building the Foundations of a Threat Intelligence Program"
   isDynamic: false
   sharedImg: true
@@ -774,7 +774,7 @@ As a senior leader in the field, I am dedicated to staying at the forefront of e
   name: Dennis
   surname: Murphy
   company:
-  title: 
+  title:
   bio: "Dennis Murphy started his career in 1993 as a Control System Engineer, specializing in designing, installing, and maintaining process automation networks in dozens of industry segments, including the Electric Utility sector. In 2005, Mr. Murphy shifted his focus to from designing to securing control system networks, working on R&D projects to secure US critical infrastructure as a member of BAE Systems. In 2015, Mr. Murphy joined SecurityMatters as the first US employee, responsible for the design, installation and support of Intrusion Detection Systems built specifically for OT networks. Mr. Murphy has installed OT specific IDS systems at multiple US electric utility and oil & gas companies, specializing in the integration of OT specific alerts into existing Security Operation Centers and creation of bespoke workflows and playbooks. In 2021, Mr. Murphy joined National Grid as the Lead OT Security Engineer for the Digital Substation group in the US, responsible for securing OT networks with IDS systems and adapting IT-based security solutions to install an edge compute element to field sites. Mr. Murphy, a father of three who currently resides in New Hampshire with his wife, is an active member of the Appalachian Mountain Club, seeking to hike all forty-eight 4000-ft. peaks in NH. Mr. Murphy also enjoys sailing the New England coastline in his free time.  "
   isDynamic: false
   sharedImg: true
@@ -793,7 +793,7 @@ As a senior leader in the field, I am dedicated to staying at the forefront of e
   name: Kevin
   surname: Apolinario
   company:
-  title: 
+  title:
   bio: "I worked for an MSP environment, apple store, department of education, and multiple hedge funds. I also have about 12 years of restaurant experience and did 4 years for the NYPD volunteer. Train students, military veterans and provide hands-on training. Tech Trainer for Jobskillshare and Boots to books. My passion is helping others break into IT/Cybersecurity. I recently created a Udemy course which has helped over 12,000 students learn the on demand skills needed to work IT Support."
   isDynamic: false
   sharedImg: true
@@ -812,8 +812,8 @@ As a senior leader in the field, I am dedicated to staying at the forefront of e
   name: Ariel
   surname: Robinson
   company:
-  title: 
-  bio: After a multi-year hiatus of zoom birthdays and remote happy hours, nationally-recognized security speaker Ariel Robinson is back on the circuit with a host of new talks, trainings, and pandemic puppy pics. (He was planned before the pandemic, okay?) With an academic background in cognitive science and linguistics, Ariel has built a career out of using pictures and small words to translate highly technical concepts between vastly different stakeholders (most of whom have little in common besides appearing vaguely humanoid). Ariel's work has brought her face-to-face with some of society's most dangerous members, from Marines, to lawyers, to seven year old's at a birthday party after cake. Outside of her current role as a senior security product manager, Ariel draws, paints, and climbs really big rocks. 
+  title:
+  bio: After a multi-year hiatus of zoom birthdays and remote happy hours, nationally-recognized security speaker Ariel Robinson is back on the circuit with a host of new talks, trainings, and pandemic puppy pics. (He was planned before the pandemic, okay?) With an academic background in cognitive science and linguistics, Ariel has built a career out of using pictures and small words to translate highly technical concepts between vastly different stakeholders (most of whom have little in common besides appearing vaguely humanoid). Ariel's work has brought her face-to-face with some of society's most dangerous members, from Marines, to lawyers, to seven year old's at a birthday party after cake. Outside of her current role as a senior security product manager, Ariel draws, paints, and climbs really big rocks.
   isDynamic: false
   sharedImg: true
   thumbnailUrl: /speakers/ariel_robinson.jpeg

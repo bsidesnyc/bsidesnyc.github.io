@@ -1,4 +1,0 @@
--
-  elements:
-    - {name: "BIC", description: "Blacks In Cybersecurity", link: "https://www.blacksincyberconf.com/", imageUrl: "banner_bic_hq.png"}
-    - {name: "NYC Resistor", description: "NYC Resistor", link: "https://www.nycresistor.com/", imageUrl: "nycresistor.png"}
