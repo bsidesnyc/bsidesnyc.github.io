@@ -52,7 +52,7 @@
   id: 005
   name: NinjaJobs
   nameLong: "NinjaJobs"
-  villageName:
+  villageName: "NinjaJobs"
   description:
   link: https://ninjajobs.org/
   imageUrl: ninjajobs.png
