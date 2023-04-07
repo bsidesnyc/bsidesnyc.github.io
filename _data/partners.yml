@@ -44,7 +44,7 @@
   nameLong: "CyberSN"
   villageName: "CyberSN"
   description:
-  link: https://cybersn.com/
+  link: https://cybersn.com/sign-up?utm_campaign=CSN%20%7C%20Event%20%7C%20BSides%20NYC%202023&utm_source=bsidesny%20website&utm_medium=referral
   imageUrl: cybersn.svg
   sharedImg: false
   isSponsor: false
@@ -66,5 +66,25 @@
   description:
   link: https://www.blacksincyberconf.com/
   imageUrl: banner_bic_hq.png
+  sharedImg: false
+  isSponsor: false
+-
+  id: 007
+  name: WiCys
+  nameLong: "Women in Cybersecurity"
+  villageName: "Women in Cybersecurity"
+  description:
+  link: https://www.wicysnymetro.org/
+  imageUrl: wicys.png
+  sharedImg: false
+  isSponsor: false
+-
+  id: 008
+  name: WIPS
+  nameLong: "Women in Security and Privacy"
+  villageName: "Women in Security and Privacy"
+  description:
+  link: https://www.wisporg.com/
+  imageUrl: wisp.png
   sharedImg: false
   isSponsor: false

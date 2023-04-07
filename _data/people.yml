@@ -478,13 +478,13 @@ When not chasing his two young sons around, he enjoys biking and being an amateu
 -
   id: 024
   name: Eric
-  surname:
+  surname: Olson
   company:
   title:
-  bio: ""
+  bio: "Eric helped pioneer the Cyber Intelligence space beginning in 1999, when he worked to develop some of the world's first technologies and methods for mass-scale collection and exploitation of online content for threat identification. Since then, Eric has led technology, development, and product management teams delivering hardware, software and services at a variety of cybersecurity and defense firms.  He currently oversees the Threat Intelligence, Threat Hunting, SOC and CSIRT for JetBlue Airways in New York.  "
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/eric.jpg
+  thumbnailUrl: /speakers/eric_olson.png
   twitter:
   isOrganizer: false
   isFounder: false
@@ -756,10 +756,11 @@ As a senior leader in the field, I am dedicated to staying at the forefront of e
   surname: Peediyakkal
   company:
   title:
-  bio: "Building the Foundations of a Threat Intelligence Program"
+  bio: "With nearly 20 years of IT and cybersecurity experience, focused primarily on Cyber Threat Intelligence (CTI), V. Susan Peediyakkal draws on her significant knowledge from working with various intelligence operations in the federal government, commercial, and international domains. Susan's career began in the US Air Force where she has served 20 years, both active and reserve, before retiring in 2021. She joined NASA in October 2020 as the InfoSec Operations Manager for Ames Research Center and recently transitioned to her new role as Service Management Practice Lead for the Cybersecurity Services (CyS) Service Line. 
+An active member of the cybersecurity community; Susan is the founder and director of BSides Sacramento, was named a 2020-2022 technologist fellow for the National Security Institute (NSI) at George Mason University, and appointed to the advisory board for CSU Chico's Executive Program. In March 2018, Susan was named one of “10 Women in Security You May Not Know But Should” by one of the most widely-read cyber security news sites on the Web, Dark Reading.  "
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: /speakers/susan_peediyakkal.jpg
+  thumbnailUrl: /speakers/susan_peediyakkal.jpeg
   twitter:
   isOrganizer: false
   isFounder: false
@@ -817,6 +818,54 @@ As a senior leader in the field, I am dedicated to staying at the forefront of e
   isDynamic: false
   sharedImg: true
   thumbnailUrl: /speakers/ariel_robinson.jpeg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 046
+  name: Adrianna
+  surname: Iadarola
+  company:
+  title:
+  bio: "Adrianna Iadarola is a seasoned cybersecurity professional and business leader with over 15 years of experience in the industry. As the Managing Director at CyberSN, a leading cybersecurity staffing and recruitment firm, Adrianna is responsible for overseeing the company's day-to-day operations, strategic planning, and business development initiatives.
+
+Throughout her career, Adrianna has established herself as a respected thought leader and expert in the field of cybersecurity. She is widely recognized for her ability to navigate the complex and ever-evolving cybersecurity landscape, and her deep knowledge of industry trends, best practices, and emerging technologies.
+
+Prior to joining CyberSN, Adrianna held a variety of senior leadership roles in the IT and Cybersecurity industry, 
+
+Adrianna is also a passionate advocate for diversity and inclusion in the cybersecurity industry. She is an ambassador for Secure Diversity, a non-profit organization dedicated to empowering and supporting women in cybersecurity."
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/adrianna_iadarola.jpeg
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 047
+  name: Jacob
+  surname: Colacion
+  company:
+  title:
+  bio: "Meet Jacob, CyberSN's Lead Recruiter and job-matching platform champion. Jacob stumbled into the cybersecurity field via referral after college, and since then, he's been captivated. He appreciates being part of the community and has had some of the most enlightening conversations with cybersecurity professionals. As the lead of a team of four recruiters, Jacob thrives on placing candidates into their next career move. From kick-off calls with hiring managers to crafting job descriptions and offering resume advice, he and his team strive to provide value wherever applicable. 
+
+One of Jacob's proudest accomplishments is the opportunity to train and educate junior recruiters. He's watched them transform and develop, serving the community with a positive and genuine attitude. Jacob's passion for matching professionals to their dream job led him to champion CyberSN's Job Matching Platform. By creating a shared taxonomy between hiring managers and professionals, the platform fosters transparency and stronger matching.
+
+In his free time, Jacob loves attending Bay Area events, especially OWASP, and tinkering around with TryHackMe. He's also an avid reader and enjoys exploring new topics in psychology, science fiction, and buddhism. You'll often find him strolling through San Francisco, enjoying some dim sum and stumbling upon live music.  "
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /speakers/jacob_colacion.jpeg
   twitter:
   isOrganizer: false
   isFounder: false
