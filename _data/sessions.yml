@@ -220,8 +220,10 @@ The goal of this talk is to increase awareness and understanding of the security
   speakers: [044]
 -
   id: 039
-  title: "Building the Foundations of a Threat Intelligence Program"
-  description: ""
+  title: "Building the Foundations of a Cyber Threat Intelligence Program (2 hour session)"
+  description: "This workshop is designed to provide participants with a comprehensive understanding of the process and best practices for building a robust Cyber Threat Intelligence (CTI) program. The workshop will cover various aspects of threat intelligence including data collection, analysis, and dissemination. Participants will learn about the importance of threat intelligence in the current threat landscape, and how to establish an effective program that can help mitigate risks and prevent attacks.
+
+Through interactive discussions and case studies, participants will gain insights into the tools and techniques required for collecting, analyzing, and reporting on threat intelligence. The workshop is ideal for security professionals, threat analysts, and anyone responsible for managing security risks. Participants will come away with a solid understanding of the key components of a successful threat intelligence program, and how to implement them in their own organizations."
   speakers: [042]
 -
   id: 040
@@ -234,3 +236,18 @@ The goal of this talk is to increase awareness and understanding of the security
   title: "It's the Economy, Stupid: Tackling technical debt in times of economic uncertainty"
   description: "No matter the number of weeks between my submitting this abstract and you reading it, we’ve probably seen about as many wrong market predictions as we’ve seen CVEs. Economic uncertainty is… not great, but it does give security teams and CEOs a potential common language– if we can learn to speak their dialect. In this crash course, you’ll learn how to explain true zero trust to your boss’s boss’s boss so it actually gets funded, and maybe– just maybe– we can start tackling 30+ years of market-driven technical debt. Come for the hot takes, stay for the strategy."
   speakers: [045]
+-
+  id: 042
+  title: "State of the Cyber Jobs Market"
+  description: "State of the Cyber Jobs Market"
+  speakers: [046]
+-
+  id: 043
+  title: "The Job Searching and Hiring (for those with experience)"
+  description: "The Job Searching and Hiring (for those with experience)"
+  speakers: [046]
+-
+  id: 044
+  title: "The Job Searching and Hiring (for those new to security)"
+  description: "The Job Searching and Hiring (for those new to security)"
+  speakers: [047]
