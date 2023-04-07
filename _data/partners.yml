@@ -82,7 +82,7 @@
   id: 008
   name: WIPS
   nameLong: "Women in Security and Privacy"
-  villageName: "Women in Security and Privacy"
+  villageName:
   description:
   link: https://www.wisporg.com/
   imageUrl: wisp.png
