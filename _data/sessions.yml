@@ -210,8 +210,9 @@ The goal of this talk is to increase awareness and understanding of the security
   speakers: [037,038,043]
 -
   id: 037
+  recorded: false
   title: "Ransomware From ATT&CK to Zcash: An Interactive Simulation (2 hour session)"
-  description: "You will learn how to play Backdoors & Breaches from Black Hills Information Security. The workshop trainers have been trained by BHIS."
+  description: "Are you ready to take on one of the most formidable cybersecurity challenges of our time? Ransomware has emerged as a massive threat, stretching organizational defenses across Cybersecurity, IT, Legal, Finance, and even daily workplace interactions.<p> Don't miss this interactive tabletop-style simulation at BSides NYC 2023! Dive into a realistic ransomware scenario and collaborate with fellow participants to determine the most effective actions.<p> <b>Top Reasons to Attend:</b><p> Real-World Experience: Gain firsthand exposure to critical decision-making during a ransomware incident and acquire practical tabletop experience to strengthen your organization's defenses.<p> In-Depth Education: Deepen your understanding of ransomware and learn about the tactics employed by attackers to maximize their profits.<p> Unparalleled Networking: Engage with industry peers in a dynamic, problem-solving environment and potentially discover your next career opportunity.<p> Hands-On Interaction: You're not just an observer; you're an active participant influencing the outcome of the simulation.<p> <b>Who Should Attend?</b><p> An Inclusive Session for All: This engaging workshop is designed to accommodate professionals across various backgrounds and experience levels, including those in incident response, threat and vulnerability management, training and awareness, privacy, legal, data analysis, and communications, as well as students.<p> Don't miss this chance to sharpen your skills and expand your network. See you at BSides NYC 2023!"
   speakers: [040]
 -
   id: 038
