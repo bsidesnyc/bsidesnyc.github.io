@@ -162,6 +162,7 @@ By using threat intelligence to provide vital context to vulnerabilities, you wi
 -
   id: 028
   title: "Hunting for RomCom RAT inside of the context of the war in Ukraine"
+  recorded: false
   description: 'A few hours before the Ukraine war officially began, apparently, a Russian-sponsored wiper campaign occurred. During the following weeks and months, we saw several operations and weapons used against Ukraine. One of them is the RomCom RAT. The threat actor behind it used different initial access schemes to compromise the Ukrainian military and governmental entities. In our presentation, we will describe how we hunted it each time the threat actor changed its network infrastructure and how the RomCom RAT works inside the TO (theater of operations).'
   speakers: [016,035]
 -
@@ -195,6 +196,7 @@ The goal of this talk is to increase awareness and understanding of the security
   speakers: [028]
 -
   id: 034
+  recorded: false
   title: "A Chess Tournament: China/Russia Underground Ecosystem Comparison"
   description: "Both Chinese and Russian-speaking actors continue to pose threats to organizations globally. It is critical for cybersecurity specialists to be prepared against these threat actors by understanding underground ecosystems and seeing how they evolve through a clear lens. The case studies covered in this presentation will shed light on the connections between geopolitical events and underground activities. Information and data analysis included in this presentation will help cybersecurity specialists and network defenders predict future trends and protect their organizations against threats originating from both China and Russia."
   speakers: [022,033]
