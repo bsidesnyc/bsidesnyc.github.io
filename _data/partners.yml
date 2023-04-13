@@ -44,7 +44,7 @@
   nameLong: "CyberSN"
   villageName: "CyberSN"
   description:
-  link: https://cybersn.com/sign-up?utm_campaign=CSN%20%7C%20Event%20%7C%20BSides%20NYC%202023&utm_source=bsidesny%20website&utm_medium=referral
+  link: https://hubs.la/Q01KBW-x0
   imageUrl: cybersn.svg
   sharedImg: false
   isSponsor: false
@@ -86,16 +86,6 @@
   description:
   link: https://www.wisporg.com/
   imageUrl: wisp.png
-  sharedImg: false
-  isSponsor: false
--
-  id: 009
-  name: HirePurpose
-  nameLong: "HirePurpose"
-  villageName: "HirePurpose"
-  description:
-  link: https://www.hirepurpose.ai/
-  imageUrl: hirepurpose.png
   sharedImg: false
   isSponsor: false
 -
