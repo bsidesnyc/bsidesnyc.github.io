@@ -80,11 +80,31 @@
   isSponsor: false
 -
   id: 008
-  name: WIPS
+  name: WISP
   nameLong: "Women in Security and Privacy"
   villageName:
   description:
   link: https://www.wisporg.com/
   imageUrl: wisp.png
+  sharedImg: false
+  isSponsor: false
+-
+  id: 009
+  name: HirePurpose
+  nameLong: "HirePurpose"
+  villageName: "HirePurpose"
+  description:
+  link: https://www.hirepurpose.ai/
+  imageUrl: hirepurpose.png
+  sharedImg: false
+  isSponsor: false
+-
+  id: 010
+  name: BCA
+  nameLong: "Black Cybersecurity Association"
+  villageName: "Black Cybersecurity Association"
+  description:
+  link: https://blackcybersecurityassociation.org/
+  imageUrl: bca.png
   sharedImg: false
   isSponsor: false
