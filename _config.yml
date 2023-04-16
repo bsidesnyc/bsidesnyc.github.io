@@ -202,6 +202,10 @@ directionDetailsCards:
  - {title: "Airports", information: 'The conference is easily accessible from either <b>JFK</b> or <b>LGA</b> airports via public transportation (subway, bus, taxi) or ride-sharing services (uber, lyft etc.)'}
  - {title: "Public Transit", information: "The closest subway station is <b>59 St. - Columbus Circle</b> (A,B,C & D lines). From this stop, it is less than a .5 mile walk."}
 
+# Logistics Venue Map
+venueMapTitle: "Get around John Jay College"
+venueMapImage: "map.png"
+
 #-----------------------------------------------
 # Partners
 #-----------------------------------------------
