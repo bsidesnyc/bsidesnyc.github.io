@@ -194,10 +194,10 @@
   supporter: false
 -
   id: 010
-  name: Augs
-  surname:
-  company:
-  title:
+  name: August
+  surname: Huber
+  company: Cruise Automation
+  title: Security Engineer
   bio:
   isDynamic: false
   sharedImg: true
