@@ -1,0 +1,22 @@
+<!-- Begin Food Truck Location Section -->
+<section id="foodtruck-location" class="foodtruck-location">
+    <div id="canvas-map" class="canvas-map"></div>
+    <h3>Lunch</h3>
+    <div class="content-wrapper col-lg-10 col-lg-offset-1">
+      <div class="row">
+         <p>{{ site.foodtruckBlurb }}</p>
+         <a href="https://maps.google.com/maps?ll={{ site.foodtruckCoordinates | replace:' ',''}}&z=17&t=m&hl=en-US&gl=US&mapclient=embed&q={{ site.foodtruckStreetAddress | replace:' ','%20' | replace:',','%2C'}}%2C%20{{ site.foodtruckAddressLocality | replace:' ','%20' | replace:',','%2C'}}" class="view-on-map" target="_blank">{{ site.foodtruckButtonText }}</a>
+      </row>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0">
+            <h5 class="location-name">{{ site.foodtruck1Name }}</h5>
+        <p class="location-address">{{ site.foodtruck1Description }}</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0">
+            <h5 class="location-name">{{ site.foodtruck2Name }}</h5>
+        <p class="location-address">{{ site.foodtruck2Description }}</p>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- End Hackathon Location Section -->
