@@ -271,3 +271,17 @@ volunteersText: "We are looking for individuals to help in a variety of areas â€
 
 Over email? Join our <a href=\"https://join.slack.com/t/bsidesnyc/shared_invite/zt-1lbapliq9-Sym1TaYpxh3zmfalcdYHjw\" target=\"_blank\">Slack</a> workspace instead."
 volunteersSubscribeTitle: "Join the Team"
+
+
+#-----------------------------------------------
+# Food Trucks
+#-----------------------------------------------
+foodtruckBlurb: "Food Trucks are outside on the north west portion of W58th Street between 10th and 11th Avenues"
+foodtruckCoordinates: 40.7709122,-73.9899159
+foodtruckStreetAddress: 40.770603, -73.989948
+foodtruckLocality: New York, NY
+foodtruckButtonText: View Map
+foodtruck1Name: Wraps and Kebabs
+foodtruck1Description: Wraps & Kebabs food truck is the first & only Halal Authentic Egyptian food truck in NYC
+foodtruck2Name: Stufâ€™d
+foodtruck2Description: Gourmet Street Eats, sandwiches and grilled cheese.
