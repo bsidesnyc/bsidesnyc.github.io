@@ -83,7 +83,7 @@ navigationLinks:
 bottomNavigationLinks:
  - {permalink: "/cfp/", text: "Become a speaker"}
 rightNavigationButtons:
- - {permalink: "/volunteers/", text: "Volunteer!"}
+ - {permalink: "https://livestream.com/internetsociety/bsidesnyc2023", text: "Red Track Livestream"}
 
 ################################################################################################
 # Block Data

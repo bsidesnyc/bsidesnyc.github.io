@@ -98,3 +98,14 @@
   imageUrl: bca.png
   sharedImg: false
   isSponsor: false
+-
+  id: 11
+  name: ISOC
+  nameLong: "Internet Society"
+  villageName:
+  description:
+  link: "https://www.internetsociety.org/"
+  imageUrl: "isoc.png"
+  sharedImg: false
+  isSponsor: false
+
