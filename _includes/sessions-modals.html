@@ -27,8 +27,11 @@
                 {% if slot_split.presentation %}
                   <a class="theme-presentation" href="https://github.com/bsidesnyc/BSidesNYC{{ site.conYear }}/blob/master/Presentations/{{ slot_split.presentation }}" title="Presentation" target="_blank">View presentation</a>
                 {% endif %}
+                {% if slot_split.presentation && session.recording %}
+                  <br />
+                {% endif %}
                 {% if slot_split.recording %}
-                  <a class="theme-recording" href="{{ slot_split.recording }}" title="Recording" target="_blank">View Recording</a>
+                  <a class="theme-recording" href="{{ slot_split.recording }}" title="Recording" target="_blank">View recording</a>
                 {% endif %}
                 <hr>
                 <div class="people-details">
@@ -89,8 +92,11 @@
               {% if session.presentation %}
                 <a class="theme-presentation" href="https://github.com/bsidesnyc/BSidesNYC{{ site.conYear }}/blob/master/Presentations/{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
               {% endif %}
+              {% if session.presentation && session.recording %}
+                 <br />
+              {% endif %}
               {% if session.recording %}
-                <a class="theme-recording" href="{{ session.recording }}" title="Recording" target="_blank">View Recording</a>
+                <a class="theme-recording" href="{{ session.recording }}" title="Recording" target="_blank">View recording</a>
               {% endif %}
               <hr>
               <div class="people-details">

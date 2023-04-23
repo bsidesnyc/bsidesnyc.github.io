@@ -72,7 +72,6 @@
   title: "Analyzing volatile memory on a Google Kubernetes Engine node"
   description: "My talk focuses on how we can access and analyze volatile memory in the kernel on a Google Kubernetes Engine (GKE) node using AVML. The purpose of this is to collect a memory snapshot to get granular information about running processes and activities on the GKE node as well as pods and containers running on that node. By using the memory snapshot we can troubleshoot current node activities or use it to collect additional information as part of a security investigation. I will also cover how this method is applicable to other cloud instances running Linux distributions that are supported by AVML."
   speakers: [013]
-  presentation:
 -
   id: 013
   title: "Low Code High Risk: Enterprise Domination via Low Code Abuse"

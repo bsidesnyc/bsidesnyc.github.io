@@ -4464,6 +4464,9 @@ nav li a:hover {
 .people-modal .theme-presentation {
     font-size: 15px
 }
+.people-modal .theme-recording {
+    font-size: 15px
+}
 .people-modal .people-details .row {
     margin-top: 20px
 }
