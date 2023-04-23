@@ -24,6 +24,7 @@
   title: "Opening Remarks"
   description: "Opening Remarks and Intros to D4CS"
   speakers: [003, 006]
+  recording: https://livestream.com/internetsociety/bsidesnyc2023/videos/235932852
 -
   id: 003
   title: "Lunch Break"
@@ -35,6 +36,7 @@
   title: "Closing Remarks"
   description: "We will be announcing the winners of the CTF(s) and raffles."
   speakers: [003]
+  recording: https://livestream.com/internetsociety/bsidesnyc2023/videos/235922342
 -
   id: 005
   title: "After Party"
@@ -64,7 +66,7 @@
   title: "Keynote"
   description:
   speakers: [012]
-  presentation:
+  recording: https://livestream.com/internetsociety/bsidesnyc2023/videos/235932862
 -
   id: 012
   title: "Analyzing volatile memory on a Google Kubernetes Engine node"
@@ -83,16 +85,19 @@ Next, we will drop two isolation-breaking vulnerabilities that allow for privile
 
 Finally, we will introduce an open-source recon tool that identifies opportunities for lateral movement and privilege escalation through low-code platforms."
   speakers: [014]
+  recording: https://livestream.com/internetsociety/bsidesnyc2023/videos/235932890
 -
   id: 014
   title: "xIoT Hacking Demonstrations & Strategies to Disappoint Bad Actors"
   description: "We’ll demonstrate several hacks against xIoT, or Extended Internet of Things, devices. For those who would say, “But they’re just security cameras monitoring the parking garage, wireless access points in the cafeteria, or PLCs controlling robotic welding arms; what harm can they cause?” - this will illuminate that harm. We’ll share stories from the trenches involving cybercriminals, nation-state actors, and defenders. Our presentation will detail findings from over six years of xIoT threat research spanning millions of production devices in enterprises and government agencies around the world. We’ll identify various steps organizations can take to mitigate risk while embracing a Things-connected world."
   speakers: [015]
+  recording: https://livestream.com/internetsociety/bsidesnyc2023/videos/235932909
 -
   id: 015
   title: "Pen Testing for NOT Dummies"
   description: "Penetration testing is vital to cybersecurity defenses, but safeguarding your systems isn’t easy. Methodologies include automated, continuous, and manual pen tests. How do you ensure that you pick the right solution to meet your needs? I will draw on my 2+ decades of experience and discuss the complexities, techniques, and limitations of pen testing, and how to understand what and how to test."
   speakers: [018]
+  recording: https://livestream.com/internetsociety/bsidesnyc2023/videos/235932924
 -
   id: 016
   title: "Hacking Serverless Applications: A Treasure Map for Uncharted Waters"
@@ -100,16 +105,19 @@ Finally, we will introduce an open-source recon tool that identifies opportuniti
 
 In this talk, we will discuss common risks and challenges in serverless environments. I will introduce techniques used by attackers to exploit Serverless apps in unconventional ways. I will also demonstrate exploits of recently discovered CVE, targeting cloud functions."
   speakers: [021]
+  recording: https://livestream.com/internetsociety/bsidesnyc2023/videos/235932932
 -
   id: 017
   title: "Infrastructure as Remote Code Execution: How to abuse Terraform to elevate access"
   description: "This talk will focus on ways to abuse the use of Terraform to elevate privileges, expose data, and gain further footholds in environments from a developer's perspective. We'll cover the common uses of Terraform and how a malicious actor could abuse Terraform and even bypass security controls to execute unapproved code. This talk will include multiple demos of ways to exploit Terraform cloud."
   speakers: [020]
+  recording: https://livestream.com/internetsociety/bsidesnyc2023/videos/235932953
 -
   id: 018
   title: "Save the Environment (Variable): Hijacking Legitimate Applications with a Minimal Footprint"
   description: "DLL Hijacking, a well-known technique for executing malicious payloads via trusted executables, has been scrutinised extensively, to the point where defenses are in a much better position to detect malicious use. In this presentation, we take a closer look at how process-level Environment Variables can be abused for taking over legitimate applications.Taking a systemic approach, we demonstrate that 80+ Windows-native executables are vulnerable to this special type of DLL Hijacking. As this raises opportunities for UAC bypass and Privilege Escalation, we discuss the value and further implications of this technique. We also look at preventative/defensive measures, especially for this type of DLL Hijacking, but also for DLL Hijacking more broadly."
   speakers: [027]
+  recording: https://livestream.com/internetsociety/bsidesnyc2023/videos/235932964
 -
   id: 019
   title: "The Rise and Fall of the Trickbot and Conti Empires"
@@ -205,6 +213,7 @@ The goal of this talk is to increase awareness and understanding of the security
   title: "A few tricks to Anonymizing your Red Team "
   description: "Adding onto my 2019 Derby con talk about using pre-paid cards to gain hosting infrastructure.  This talk will  detail a few other ways to anonymize Red Team activities. Such as, self-destroying drop box’s to hinder IR; OPSEC notes about using infrastructure with Tor access; highlighting trackers to avoid when cloning a site and ways to avoid brand monitoring; ways to build better concealment for drop boxes; OPSEC concealment with infrastructure , TLS and LTE service. I will also review what no longer works from my 2019 talk as related to anonymous accounts."
   speakers: [036]
+  recording: https://livestream.com/internetsociety/bsidesnyc2023/videos/235932987
 -
   id: 036
   title: "Backdoors & Breaches (2 hour session)"

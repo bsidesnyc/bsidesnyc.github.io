@@ -27,6 +27,9 @@
                 {% if slot_split.presentation %}
                   <a class="theme-presentation" href="https://github.com/bsidesnyc/BSidesNYC{{ site.conYear }}/blob/master/Presentations/{{ slot_split.presentation }}" title="Presentation" target="_blank">View presentation</a>
                 {% endif %}
+                {% if slot_split.recording %}
+                  <a class="theme-recording" href="{{ slot_split.recording }}" title="Recording" target="_blank">View Recording</a>
+                {% endif %}
                 <hr>
                 <div class="people-details">
                   {% for speaker in site.data.people %}
@@ -85,6 +88,9 @@
               <p class="theme-description text-justify">{{ session.description | newline_to_br }}</p>
               {% if session.presentation %}
                 <a class="theme-presentation" href="https://github.com/bsidesnyc/BSidesNYC{{ site.conYear }}/blob/master/Presentations/{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
+              {% endif %}
+              {% if session.recording %}
+                <a class="theme-recording" href="{{ session.recording }}" title="Recording" target="_blank">View Recording</a>
               {% endif %}
               <hr>
               <div class="people-details">
