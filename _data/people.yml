@@ -873,3 +873,41 @@ In his free time, Jacob loves attending Bay Area events, especially OWASP, and t
   trackEntrepreneur: false
   trackGeneral: true
   supporter: false
+-
+  id: 048
+  name: Adam
+  surname: Mayer
+  company:
+  title:
+  bio: Adam Mayer is a longtime NYCR member and former 3D printer manufacturer. They currently teach classes in electronic salvage and SMT soldering techniques.  They spend way too much time thinking about manufacturing, repurposing e-waste, and building robots out of trash.
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl:
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 049
+  name: Gene
+  surname: Radin
+  company:
+  title:
+  bio: Gene Radin is the Head of Product for a startup that collects and processes sensitive data. He’s spent the last 15 years working in Product Management roles where he’s been responsible for the design and delivery of web-based services that depend on and generate sensitive data. He’s been involved in many aspects of new and mature product development, ranging from strategy to content, design and a lot of testing! He is a proponent of digital privacy rights and volunteers his time to support related initiatives through education, advocacy on public policy, and art.
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl:
+  twitter:
+  isOrganizer: false
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
