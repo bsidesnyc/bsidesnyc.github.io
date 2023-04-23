@@ -80,9 +80,9 @@ navigationLinks:
  - {permalink: "/cfp/", text: "CFP"}
  - {permalink: "/villages/", text: "Villages"}
  - {permalink: "/logistics/", text: "Getting Here"}
-bottomNavigationLinks:
+#bottomNavigationLinks:
 # - {permalink: "/cfp/", text: "Become a speaker"}
-rightNavigationButtons:
+#rightNavigationButtons:
 # - {permalink: "https://livestream.com/internetsociety/bsidesnyc2023", text: "Red Track Livestream"}
 
 ################################################################################################
