@@ -2803,6 +2803,12 @@ time {
 .overlay.white-solid {
     background: rgba(255, 255, 255, 0.9)
 }
+.overlay.black-white-solid {
+    background: rgba(255, 255, 255, 0.9)
+}
+#subscribe h4, span {
+    color: black;
+}
 .overlay.gradient-overlay {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.32)), color-stop(32%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.64)));
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0) 32%, rgba(0, 0, 0, 0.64) 100%)
@@ -6208,3 +6214,4 @@ nav li a:hover {
         display: none !important
     }
 }
+
