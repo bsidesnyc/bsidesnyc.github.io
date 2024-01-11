@@ -72,14 +72,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 #-----------------------------------------------
 navigationLinks:
  - {permalink: "/about/", text: "About"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/registration/", text: "Registration"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/sponsors/", text: "Sponsors"}
  - {permalink: "/volunteers/", text: "Volunteer"}
- - {permalink: "/cfp/", text: "CFP"}
- - {permalink: "/villages/", text: "Villages"}
- - {permalink: "/logistics/", text: "Getting Here"}
 bottomNavigationLinks:
  - {permalink: "https://livestream.com/internetsociety/bsidesnyc2023", text: "Red Track Livestream"}
 rightNavigationButtons:
@@ -158,7 +151,7 @@ contactVolunteersMailingListText: "Looking to sign up as a volunteer? Head over 
 #-----------------------------------------------
 eventImage: "nyc_skyline.jpg"
 eventTitle: "BSidesNYC"
-eventDate: "April 22, 2023"
+eventDate: "Announcing the 2024 conference soon"
 eventInfo: "The next BSidesNYC will take place in April 22, 2023.  To stay updated on volunteer opportunities, and other news, follow us on Twitter <a href=\"https://twitter.com/bsidesnyc\" target=\"_blank\">@BSidesNYC</a> and sign up for the mailing list."
 eventButtons:
  - {permalink: "/sponsors/", text: "Become a sponsor", id: "sponsors"}
@@ -230,13 +223,13 @@ sponsorshipKitUrl: "/assets/BSidesNYC-2023-Sponsorship-Kit.pdf"
 #-----------------------------------------------
 subscribeImage: #"subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
-subscribeInfo: "We'll only use your email for BSidesNYC announcements. We respect privacy, and don't provide anyone (including sponsors) with this type of information."
+subscribeInfo: "^^^ Please ignore this message above from our mailing list provider. We use the free edition, so this get embedded.<p>We'll only use your email for BSidesNYC announcements. We respect privacy, and don't provide anyone (including sponsors) with this type of information."
 
 #-----------------------------------------------
 # Registration | Tickets
 #-----------------------------------------------
 # flip this to make a quick change whether we have tickets open or closed
-ticketsOpen: true
+ticketsOpen: false
 ticketsOpenDate: "March 31, 2023 8:00:00"
 ticketsText: "Unable to expense other, costly conferences?
 
