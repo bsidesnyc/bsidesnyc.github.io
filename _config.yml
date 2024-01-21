@@ -72,6 +72,8 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 #-----------------------------------------------
 navigationLinks:
  - {permalink: "/about/", text: "About"}
+ - {permalink: "/sponsors/", text: "Sponsors"}
+ - {permalink: "/cfp/", text: "CFP"}
  - {permalink: "/volunteers/", text: "Volunteer"}
 bottomNavigationLinks:
  - {permalink: "https://livestream.com/internetsociety/bsidesnyc2023", text: "Red Track Livestream"}
@@ -151,8 +153,8 @@ contactVolunteersMailingListText: "Looking to sign up as a volunteer? Head over 
 #-----------------------------------------------
 eventImage: "nyc_skyline.jpg"
 eventTitle: "BSidesNYC"
-eventDate: "Announcing the 2024 conference soon"
-eventInfo: "The next BSidesNYC will take place in April 22, 2023.  To stay updated on volunteer opportunities, and other news, follow us on Twitter <a href=\"https://twitter.com/bsidesnyc\" target=\"_blank\">@BSidesNYC</a> and sign up for the mailing list."
+eventDate: "19 October 2024"
+eventInfo: "The next BSidesNYC will take place in 19 October 2024. To stay updated on volunteer opportunities, and other news, follow us on Twitter <a href=\"https://twitter.com/bsidesnyc\" target=\"_blank\">@BSidesNYC</a> and sign up for the mailing list."
 eventButtons:
  - {permalink: "/sponsors/", text: "Become a sponsor", id: "sponsors"}
 
@@ -207,7 +209,7 @@ partnersTitle: "Partners"
 #-----------------------------------------------
 # Sponsors
 #-----------------------------------------------
-sponsorsTitle: "Sponsors"
+sponsorsTitle: "Sponsorship kits will be available in Feburary 2024."
 sponsorsUrl: "/sponsors/"
 sponsorsButton: "Become a sponsor"
 
