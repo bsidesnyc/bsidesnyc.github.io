@@ -29,7 +29,7 @@ url: "https://bsidesnyc.org" #https://bsidesnyc.github.io
 timezone: "America/New_York"
 conYear: "2023"
 previousSponsorCount: "22"
-previousAttendeeCount: "600"
+previousAttendeeCount: "800"
 logoImage: "/about/logo_white.png"
 #logoImageHead: "/about/logo_black.png"
 
@@ -215,10 +215,10 @@ sponsorsButton: "Become a sponsor"
 
 #-----------------------------------------------
 # Sponsorship
-#-----------------------------------------------
-sponsorshipTitle: "Sponsorship"
-sponsorshipButton: "Download our Sponsorship Kit (PDF)"
-sponsorshipKitUrl: "/assets/BSidesNYC-2023-Sponsorship-Kit.pdf"
+
+sponsorshipTitle: "Want to sponsor?"
+sponsorshipButton: "Download Prospectus"
+sponsorshipKitUrl: "/assets/BSidesNYC-2024-Sponsorship-Prospectus.pdf"
 
 #-----------------------------------------------
 # Subscribe
