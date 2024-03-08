@@ -1,0 +1,5 @@
+-
+  group: "Megabit Sponsors"
+  elements:
+    - {name: "Akto", description: "Akto", link: "https://www.akto.io/", imageUrl: "aktoLogo.svg"}
+    - {name: "Trout", description: "Trout", link: "https://www.trout.software/", imageUrl: "troutLogo.svg"}
