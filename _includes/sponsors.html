@@ -5,7 +5,7 @@
       <h5><b>{{ site.sponsorsTitle }}</b></h5>
       {% for sponsor in site.data.sponsors %}
         <h5>{{ sponsor.group }}</h5>
-        {% if sponsor.group == "Platinum Sponsors" %}
+        {% if sponsor.group == "Gigabit Sponsors" %}
           <ul class="list-inline-large">
             {% for element in sponsor.elements %}
               <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
@@ -15,7 +15,7 @@
               </li>
             {% endfor %}
           </ul>
-        {% elsif sponsor.group == "Gold Sponsors" %}
+        {% elsif sponsor.group == "Megabit Sponsors" %}
             <ul class="list-inline">
               {% for element in sponsor.elements %}
                 <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
