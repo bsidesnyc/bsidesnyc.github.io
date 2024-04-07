@@ -49,7 +49,7 @@ footerBlocks:
   title: "Contacts"
   links:
    - {permalink: "/contact/", text: "Contact Us"}
-   - {link: "https://join.slack.com/t/bsidesnyc/shared_invite/zt-1lbapliq9-Sym1TaYpxh3zmfalcdYHjw", text: "Join our Slack"}
+   - {link: "https://join.slack.com/t/bsidesnyc/shared_invite/zt-2g5pte0rr-apFan_yKvoAWMHF_OM67IA", text: "Join our Slack"}
    - {link: "mailto:bsides@bsidesnyc.org", text: "bsides(at)bsidesnyc.org"}
  -
   title: "Policies"
