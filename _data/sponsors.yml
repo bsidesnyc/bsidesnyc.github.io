@@ -1,4 +1,9 @@
 -
+  group: "Gigabit Sponsors"
+  elements:
+    - {name: "Deepfactor", description: "Deepfactor", link: "https://www.deepfactor.io/", imageUrl: "deepfactorLogo.svg"}
+    - {name: "DropzoneAI", description: "DropzoneAI", link: "https://www.dropzone.ai/", imageUrl: "dropzoneLogo.svg"}
+-
   group: "Megabit Sponsors"
   elements:
     - {name: "Akto", description: "Akto", link: "https://www.akto.io/", imageUrl: "aktoLogo.svg"}
