@@ -7,4 +7,7 @@
   group: "Megabit Sponsors"
   elements:
     - {name: "Akto", description: "Akto", link: "https://www.akto.io/", imageUrl: "aktoLogo.svg"}
+    - {name: "Breez", description: "Breez", link: "https://breezsecurity.io/", imageUrl: "breezLogo.png"}
+    - {name: "Impart", description: "Impart", link: "https://www.impart.security/", imageUrl: "impartLogo.svg"}
+    - {name: "Stellar", description: "Stellar", link: "https://stellarcyber.ai/", imageUrl: "stellarLogo.png"}
     - {name: "Trout", description: "Trout", link: "https://www.trout.software/", imageUrl: "troutLogo.svg"}
