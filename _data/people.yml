@@ -47,7 +47,7 @@
   sharedImg: true
   thumbnailUrl: /organizers/dave.png
   twitter:
-  isOrganizer: true
+  isOrganizer: false
   isFounder: false
   subTeam: true
   cfpBoard: true
@@ -59,13 +59,14 @@
   id: 003
   name: Huxley
   surname: Barbee
-  company:
-  title: Security Evangelist
-  bio:
+  company: BSidesNYC
+  title: Lead Organizer
+  bio: Huxley Barbee has been a fixture of the security community for over 20 years. Professionally, he was a security consultant working with customers in finance, insurance, manufacturing, and higher education. Currently, he leads the security engineering group at a fintech company. Beyond the day job, he is also active in the security and hacker community. He started attending DEF CON in the late 90s, has spoken at many conferences throughout the US, and is the lead organizer for BSidesNYC. He lives in New York. You should connect with him on social media, buy him a drink, or both.
   isDynamic: false
   sharedImg: true
   thumbnailUrl: /organizers/huxley.jpg
   twitter: huxley_barbee
+  linkedin: jhbarbee
   isOrganizer: true
   isFounder: false
   subTeam: true
@@ -80,13 +81,15 @@
   surname: Levy
   company:
   title: Director of R&D at Huntress
-  bio: "Jamie Levy is the Director of R&D at Huntress. Jamie is also a senior researcher, developer and board member of the Volatility Foundation.  She has worked over 15 years in the digital forensics industry, conducting investigations as well as building out software solutions.  Jamie is also a co-author of The Art of Memory Forensics, the first book of its kind covering various facets of how to investigate RAM artifacts."
-  isDynamic: true
+  bio: Jamie Levy is the Director of Adversary Tactics at Huntress. Jamie is also a longtime researcher, developer and board member of the Volatility Foundation. She has worked over 15 years in the digital forensics industry, conducting investigations as well as building out software solutions. Jamie is also a co-author of The Art of Memory Forensics, the first book of its kind covering various facets of how to investigate RAM artifacts.
+  isDynamic: false
   sharedImg: true
-  thumbnailUrl: /cfp/jamie.jpg
+  thumbnailUrl: /cfp/jamie_levy.png
   twitter: gleeda
+  linkedin: jlevy77
   isOrganizer: false
   isFounder: false
+  isTechCfp: true
   subTeam: false
   cfpBoard: true
   trackOpening: false
@@ -138,8 +141,8 @@
   id: 007
   name: Brian
   surname: McHenry
-  company: F5
-  title: VP of Product
+  company: Check Point Software
+  title: Global Head of Cloud Security Engineering 
   bio: "Brian McHenry has over 20 years of experience as an information technology professional, from early days in software validation and desktop support to dot-com startups and global NOCs and everything in between. Since 2008, he has focused his passion for solving problems while working for F5 Networks. Currently, McHenry is F5's global lead for customer solutions, spending his time on speaking engagements, hacking in the lab on new solutions, and helping to shape the future of F5 security product offerings."
   isDynamic: true
   sharedImg: true
@@ -147,6 +150,7 @@
   twitter: bamchenry
   isOrganizer: false
   isFounder: true
+  isEntrepreneurCfp: true
   subTeam: true
   cfpBoard: false
   trackOpening: false
@@ -907,6 +911,220 @@ In his free time, Jacob loves attending Bay Area events, especially OWASP, and t
   twitter:
   isOrganizer: false
   isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 050
+  name: Andrew
+  surname: Case
+  company: Volexity
+  title: Director of Research
+  bio: Andrew Case is the Director of Research at Volexity and has significant experience in incident response handling and malware analysis. He has conducted numerous large-scale investigations that span enterprises and industries. Case is a core developer of the Volatility memory analysis framework, and a co-author of the highly popular and technical forensics analysis book "The Art of Memory Forensics - Detecting Malware and Threats in Windows, Linux, and Mac Memory."
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /cfp/andrew_case.jpg
+  twitter: attrc
+  linkedin: andrewcase
+  isOrganizer: false
+  isFounder: false
+  isTechCfp: true
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 051
+  name: Dan
+  surname: Guido
+  company: Trail of Bits
+  title: CEO
+  bio: Dan Guido, CEO and founder of Trail of Bits, has dedicated his career to addressing software security challenges through cutting-edge research. Since its inception in 2012, Dan has grown the company to include 125 engineers, spearheaded industry-leading cryptography, AI, and blockchain security practices, and fine-tuned open-source tools for endpoint security. In 2023, iVerify, a tool created by Trail of Bits to combat mobile spyware, spun out as its own dedicated company. As part of the CFTC Technology Advisory Committee, Dan lends his expertise in navigating the complexities of cybersecurity risks, specifically in emerging technologies like AI and blockchain. Beyond his leadership roles at Trail of Bits and CFTC, Dan serves on the boards of five startups and shapes cybersecurity policy through collaborations with CFR, RAND, CNAS, and Harvard. He also organizes Empire Hacking, connecting 1,700 NYC-based cybersecurity experts. His creation, AlgoVPN, reigns as the top choice for self-hosted VPNs with 27k stars on Github. Prior to Trail of Bits, Dan was the Hacker in Residence at NYU where he taught courses in offensive software exploitation, consulted at iSEC Partners (now NCC Group), and worked as an incident responder for the Federal Reserve. In recognition of his accomplishments, Dan was inducted into the SFS Hall of Fame by DHS CISA in 2021.
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /cfp/dan_guido.jpg
+  twitter: dguido
+  linkedin: danguido
+  isOrganizer: false
+  isFounder: false
+  isTechCfp: true
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 052
+  name: Jase T.
+  surname: English
+  company: 
+  title: Manager, Cyber Security Engineering
+  bio: A seasoned information systems professional within the higher education industry. Dedicated to process development and administration of information security for personnel (PII) & assets via configuration, vulnerability, & patch management as well as consolidated log review. Skilled in network access & monitoring, active directory, storage & data protection systems, virtualization, and MS Azure cloud computing. Strong business development professional with instruction from Columbia University - Fu Foundation School of Engineering and Applied Science. 
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /cfp/jase_english.jpg
+  twitter: killagorilla36
+  linkedin: jtenglish36
+  isOrganizer: false
+  isFounder: false
+  isTechCfp: true
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 053
+  name: Jessica
+  surname: Hyde
+  company: 
+  title: 
+  bio: 
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /cfp/jessica_hyde.jpg
+  twitter: B1N2H3X
+  linkedin: hydejessica
+  isOrganizer: false
+  isFounder: false
+  isTechCfp: true
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 054
+  name: John
+  surname: Hammond
+  company: Huntress
+  title: Security Researcher
+  bio: John Hammond is a cybersecurity researcher, educator and content creator. As part of the Research & Development Threat Operations team at Huntress, John spends his days analyzing malware and making hackers earn their access. Previously, as a Department of Defense Cyber Training Academy instructor, he taught the Cyber Threat Emulation course, educating both civilian and military members on offensive Python, PowerShell, other scripting languages and the adversarial mindset. He has developed training material and information security challenges for events such as PicoCTF and competitions at DEFCON US. John speaks at security conferences such as BsidesNoVA, to students at colleges such as the US Naval Academy, and other online events including the SANS Holiday Hack Challenge/KringleCon. He is an online YouTube personality showcasing programming tutorials, CTF video walkthroughs and other cyber security content.
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /cfp/john_hammond.png
+  twitter: _johnhammond
+  linkedin: johnhammond010
+  isOrganizer: false
+  isFounder: false
+  isTechCfp: true
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 055
+  name: Mari
+  surname: DeGrazia
+  company: ZeroFox
+  title: Directory, Incident Response
+  bio: Mari DeGrazia is a Director of Incident Response at ZeroFox, which provides cyber security services on a global scale. Throughout her career, Mari has investigated high-profile breach cases, worked civil and criminal cases and provided testimony as an expert witness. She has written and released numerous programs/scripts to the forensics community; presented her research at industry conferences; and is a published author in several magazines. She is also a certified SANS instructor where she loves sharing her knowledge with students. She holds several industry certifications in addition to earning a B.S. in Computer Science from Hawaii Pacific University.
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /cfp/mari_degrazia.png
+  twitter: maridegrazia
+  linkedin: mari-degrazia
+  isOrganizer: false
+  isFounder: false
+  isTechCfp: true
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 056
+  name: Carrie
+  surname: Landry
+  company: Turngate
+  title: VP and Head of Marketing
+  bio: Carrie shapes go-to-market strategies for emerging cybersecurity companies. With a background in large enterprise, Carrie's recent focus is on early start-ups, with expertise in cybersecurity companies spanning from seed round to Series C. She has brought two products to market, and spends her extra time in photography and martial arts.
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /cfp/carrie_landry.jpg
+  twitter: Carrie_Landry_
+  linkedin: carrie-andry
+  isOrganizer: false
+  isFounder: false
+  isTechCfp: false
+  isEntrepreneurCfp: true
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 057
+  name: Chris
+  surname: Kirsch
+  company: 
+  title: 
+  bio: 
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: 
+  twitter: 
+  linkedin: 
+  isOrganizer: false
+  isFounder: false
+  isTechCfp: false
+  isEntrepreneurCfp: true
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 058
+  name: Justin
+  surname: Massey
+  company: Relay Hawk
+  title: Founder
+  bio: Justin Massey has managed IT networks, performed penetration tests, and secured infrastructure and applications at startups. Now, he runs Relay Hawk, a cybersecurity company that reduces the likelihood and impact of cybersecurity attacks on call centers.
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: 
+  twitter: jmassey09
+  linkedin: justinmassey09
+  isOrganizer: false
+  isFounder: false
+  isTechCfp: false
+  isEntrepreneurCfp: true
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  supporter: false
+-
+  id: 059
+  name: Justin
+  surname: Shattuck
+  company: 
+  title: 
+  bio: 
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: 
+  twitter: 
+  linkedin: 
+  isOrganizer: false
+  isFounder: false
+  isTechCfp: false
+  isEntrepreneurCfp: true
   subTeam: true
   cfpBoard: false
   trackOpening: false
