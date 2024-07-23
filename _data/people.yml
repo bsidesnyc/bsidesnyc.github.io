@@ -1069,14 +1069,14 @@ In his free time, Jacob loves attending Bay Area events, especially OWASP, and t
   id: 057
   name: Chris
   surname: Kirsch
-  company: 
-  title: 
-  bio: 
+  company: Cyber Marketing Clinic
+  title: Founder & Marketing Strategy Consultant
+  bio: Chris Kirsch is founder and CEO of Cyber Marketing Clinic (<a href="https://cybermarketingclinic.com">cybermarketingclinic.com</a>), where he works with tech companies on product marketing, PLG motions, and pricing strategy. Previously, he was the co-founder and CEO of runZero, a cyber asset management company he co-founded with Metasploit creator HD Moore. Chris started his career at an InfoSec startup in Germany and has since worked for PGP, nCipher, Rapid7, and Veracode. He has a passion for OSINT and Social Engineering. In 2017, he earned the Black Badge for winning the Social Engineering Capture the Flag competition at DEF CON, the world’s largest hacker conference.
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: 
-  twitter: 
-  linkedin: 
+  thumbnailUrl: /cfp/chris_kirsch.png
+  twitter: chris_kirsch
+  linkedin: ckirsch
   isOrganizer: false
   isFounder: false
   isTechCfp: false
@@ -1096,7 +1096,7 @@ In his free time, Jacob loves attending Bay Area events, especially OWASP, and t
   bio: Justin Massey has managed IT networks, performed penetration tests, and secured infrastructure and applications at startups. Now, he runs Relay Hawk, a cybersecurity company that reduces the likelihood and impact of cybersecurity attacks on call centers.
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: 
+  thumbnailUrl: /cfp/justin_massey.jpg
   twitter: jmassey09
   linkedin: justinmassey09
   isOrganizer: false
@@ -1113,14 +1113,14 @@ In his free time, Jacob loves attending Bay Area events, especially OWASP, and t
   id: 059
   name: Justin
   surname: Shattuck
-  company: 
-  title: 
-  bio: 
+  company: Resilience
+  title: Chief Security Officer
+  bio: Justin Shattuck has been a diligent security threat hunter for the last 15 years and has assisted law enforcement agencies in tracking some of the industry’s most notable threat actors. Prior to Resilience, Justin used his relentless pursuit of data hoarding to architect and lead engineering teams responsible for creating security solutions such as Services (SaaS) in DDoS mitigation, Web Application Firewalls, and IDS/IPS and Threat Intelligence.  
   isDynamic: false
   sharedImg: true
-  thumbnailUrl: 
-  twitter: 
-  linkedin: 
+  thumbnailUrl: /cfp/justin_shattuck.jpg
+  twitter: sh4t
+  linkedin: justinshattuck
   isOrganizer: false
   isFounder: false
   isTechCfp: false
