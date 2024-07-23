@@ -143,10 +143,10 @@
   surname: McHenry
   company: Check Point Software
   title: Global Head of Cloud Security Engineering 
-  bio: "Brian McHenry has over 20 years of experience as an information technology professional, from early days in software validation and desktop support to dot-com startups and global NOCs and everything in between. Since 2008, he has focused his passion for solving problems while working for F5 Networks. Currently, McHenry is F5's global lead for customer solutions, spending his time on speaking engagements, hacking in the lab on new solutions, and helping to shape the future of F5 security product offerings."
+  bio: Brian McHenry is the Global Head of Cloud Security Engineering at Check Point, leading all pre-sales and customer success functions for Check Point’s CloudGuard portfolio.  Formerly the VP of Product Management for WAF & API Security at F5, Brian is passionate about aligning product strategies and solutions to more secure business outcomes. Additionally, he is a co-founder of the New York City chapter of Security B-Sides (BSidesNYC.org), an organization dedicated to making cybersecurity careers and conferences more equitable and accessible.
   isDynamic: true
   sharedImg: true
-  thumbnailUrl: /organizers/brian.jpg
+  thumbnailUrl: /organizers/brian.png
   twitter: bamchenry
   isOrganizer: false
   isFounder: true
