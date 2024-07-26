@@ -4,6 +4,7 @@
     - {name: "Deepfactor", description: "Deepfactor", link: "https://www.deepfactor.io/", imageUrl: "deepfactorLogo.svg"}
     - {name: "DropzoneAI", description: "DropzoneAI", link: "https://www.dropzone.ai/", imageUrl: "dropzoneLogo.svg"}
     - {name: "Pixee", description: "Pixee", link: "https://www.pixee.ai/", imageUrl: "pixeeLogo.png"}
+    - {name: "Virtue", description: "Virtue", link: "https://www.virtuesecurity.com/", imageUrl: "virtueLogo.png"}
 -
   group: "Megabit Sponsors"
   elements:
