@@ -75,6 +75,7 @@ navigationLinks:
  - {permalink: "/sponsors/", text: "Sponsors"}
  - {permalink: "/cfp/", text: "CFP"}
  - {permalink: "/volunteers/", text: "Volunteer"}
+ - {permalink: "/logistics/", text: "Getting Here"}
 bottomNavigationLinks:
  - {permalink: "https://livestream.com/internetsociety/bsidesnyc2023", text: "Red Track Livestream"}
 rightNavigationButtons:
