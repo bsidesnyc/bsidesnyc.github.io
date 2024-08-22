@@ -3,7 +3,10 @@
   elements:
     - {name: "Deepfactor", description: "Deepfactor", link: "https://www.deepfactor.io/", imageUrl: "deepfactorLogo.svg"}
     - {name: "DropzoneAI", description: "DropzoneAI", link: "https://www.dropzone.ai/", imageUrl: "dropzoneLogo.svg"}
+    - {name: "Permiso", description: "Permiso", link: "https://www.permiso.io/", imageUrl: "permisoLogo.svg"}
     - {name: "Pixee", description: "Pixee", link: "https://www.pixee.ai/", imageUrl: "pixeeLogo.png"}
+    - {name: "Tigera", description: "Tigera", link: "https://www.tigera.io/", imageUrl: "tigeraLogo.png"}
+    - {name: "Tines", description: "Tines", link: "https://www.tines.io/", imageUrl: "tinesLogo.png"}
     - {name: "Virtue", description: "Virtue", link: "https://www.virtuesecurity.com/", imageUrl: "virtueLogo.png"}
 -
   group: "Megabit Sponsors"
@@ -11,6 +14,7 @@
     - {name: "Akto", description: "Akto", link: "https://www.akto.io/", imageUrl: "aktoLogo.svg"}
     - {name: "Breez", description: "Breez", link: "https://breezsecurity.io/", imageUrl: "breezLogo.png"}
     - {name: "Impart", description: "Impart", link: "https://www.impart.security/", imageUrl: "impartLogo.svg"}
+    - {name: "Sandfly", description: "Sandfly", link: "https://www.sandflysecurity.com/", imageUrl: "sandflyLogo.svg"}
     - {name: "Splx", description: "Splx", link: "https://www.splx.ai/", imageUrl: "splxaiLogo.svg"}
     - {name: "Stellar", description: "Stellar", link: "https://stellarcyber.ai/", imageUrl: "stellarLogo.png"}
     - {name: "Trout", description: "Trout", link: "https://www.trout.software/", imageUrl: "troutLogo.svg"}
