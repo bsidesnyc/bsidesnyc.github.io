@@ -255,7 +255,13 @@ img {
 }
 
 .img-circle {
-    border-radius: 50%
+    border-radius: 50%;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+
 }
 
 hr {
@@ -2937,6 +2943,14 @@ time {
     transition: all .5s
 }
 
+.icon-top {
+    vertical-align: top;
+}
+
+.icon-space {
+    padding: 10px;
+}
+
 .icon-vk:hover {
     fill: #4c75a3
 }
@@ -3297,6 +3311,9 @@ nav li a.current,nav li a:hover {
 
 .about-details p {
     margin-top: 10px
+}
+.about-caption {
+    padding-bottom: 40px;
 }
 
 .statistic .stat {
