@@ -92,46 +92,27 @@ layout: compress
 
     <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
 
+    {% if page.permalink == '/' or page.permalink == '/venue/' %}
+      <script>
+          if ($(window).width() > 767) {
+              document.write('<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZLKTMdMVrh1zPyArjQ5tmD4BwKIrqshA"><\/script>')
+          }
+      </script>
+    {% endif %}
+
+    {% if page.permalink == '/venue/' %}
+        <script type="text/javascript">
+            var autoDirectionEnabled = {% if site.logisticsMapAutoDirections %} true {% else %} false {% endif %};
+        </script>
+    {% endif %}
+
     {% if page.permalink == '/' %}
-
-      {% comment %}
-      =======================================
-      Main menu
-      =======================================
-      {% endcomment %}
-
       <script type="text/javascript">
           $(document).ready(function() {
               $(window).load(function() {
                 $('#logo-header .logo').removeClass('logo-light');
               })});
       </script>
-
-      {% comment %}
-      =======================================
-      CTF
-      =======================================
-      {% endcomment %}
-
-      <script>
-          if ($(window).width() > 767) {
-              document.write('<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZLKTMdMVrh1zPyArjQ5tmD4BwKIrqshA"><\/script>')
-          }
-      </script>
-
-      {% comment %}
-      =======================================
-      Logistics
-      =======================================
-      {% endcomment %}
-
-    {% elsif page.permalink == '/logistics/' %}
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZLKTMdMVrh1zPyArjQ5tmD4BwKIrqshA&libraries=places,geometry"
-  type="text/javascript"></script>
-        <script type="text/javascript">
-            var autoDirectionEnabled = {% if site.logisticsMapAutoDirections %} true {% else %} false {% endif %};
-        </script>
-
     {% endif %}
 
     {% comment %}
@@ -155,7 +136,7 @@ layout: compress
     </script>
     <script>
         Waves.displayEffect();
-        {% if page.permalink == '/' %}
+        {% if page.permalink == '/' or page.permalink == '/venue/' %}
             if ($(window).width() > 767) {
                 var googleMaps = 'index',
                     eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates | replace:' ','' }}),
