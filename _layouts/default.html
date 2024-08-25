@@ -26,24 +26,29 @@ layout: compress
     <meta name="theme-color" content="#2b5797">
 
     <!-- update the versioning # below to force browsers to reload this CSS file, else some crappy rendering may occur in between -->
-    <link href="{{ "/css/main.css" | prepend: site.baseurl }}?v=1.3" rel="stylesheet">
+    <link href="{{ "/css/main.css" | prepend: site.baseurl }}?v=0.2" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
+        
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="{{ "/js/utils.js" | prepend: site.baseurl }}"></script>
 
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111440396-1"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    <!-- 
+        Page-dependant Javascript
+    -->
+    {% if page.permalink == '/speakers/' %}
+        <script src="{{ "/js/speakers.js" | prepend: site.baseurl }}"></script>
+        <script>
+            onLoad("{{ site.sessionizeJsonAllData }}", "{{ site.baseurl }}");
+        </script>
+    {% elsif page.permalink == '/schedule/' %}
+        <script src="{{ "/js/schedule.js" | prepend: site.baseurl }}"></script>
+        <script>
+            scheduleBuilder("{{ site.sessionizeJsonScheduleGrid }}", "{{ site.baseurl }}", "schedules");
+            scheduleBuilder("{{ site.sessionizeJsonSpeakerList }}", "{{ site.baseurl }}", "speakerBackfill");
+        </script>
+    {% endif %}
 
-        gtag('config', 'UA-111440396-1');
-      </script>
 </head>
 
 <body>
@@ -84,17 +89,6 @@ layout: compress
     JavaScript
     =======================================
     {% endcomment %}
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}><\/script>')
-    </script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script>
-    if (typeof($.fn.modal) === 'undefined') {
-        document.write('<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}><\/script>')
-    }
-    </script>
 
     <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
 
@@ -137,6 +131,7 @@ layout: compress
         <script type="text/javascript">
             var autoDirectionEnabled = {% if site.logisticsMapAutoDirections %} true {% else %} false {% endif %};
         </script>
+
     {% endif %}
 
     {% comment %}
@@ -156,189 +151,8 @@ layout: compress
                       loop: true
                   });
               }
-          });
-        /*
-        =======================================
-        Speakers Opening JS
-        =======================================
-        Moving this whole section outside of jQuery, which will speed up the load time++
-        */
-
-        /*
-           This fixes a bug in the original code where the
-           end of loop check gets thrown off when the filter
-           is applied ( if speaker.isDynamic etc... )
-        */
-        var allPeople = [
-            {% for person in site.data.people %}
-                {
-                  name: "{{ person.name }} {{ person.surname }}",
-                  company: "{{ person.company }}",
-                  trackOpening: {{ person.trackOpening }},
-                  trackEntrepreneur: {{ person.trackEntrepreneur }},
-                  trackGeneral: {{ person.trackGeneral }},
-                  supporter : {{ person.supporter }},
-                  {% if person.thumbnailUrl != null %}
-                      {% if person.sharedImg == true %}
-                          image: "{{ site.baseurl | append: '/img/' | append: person.thumbnailUrl }}"
-                      {% else %}
-                          image: "{{ site.baseurl | append: '/img/people/' | append: person.thumbnailUrl }}"
-                      {% endif %}
-                  {% else %}
-                      image: null
-                  {% endif %}
-                }{% if forloop.index != forloop.length %},{% endif %}
-            {% endfor %}
-        ];
-
-        /*
-           This standardizes the Cards shown for speakers,
-           supporters, etc..
-        */
-        function getCard(person, width, delay, addClass) {
-          var card = document.createElement('div');
-
-          card.className = 'col-md-' + width + ' animated hiding';
-          card.setAttribute('data-animation', 'fadeInUp');
-          card.setAttribute('data-delay', delay);
-
-          var headshot = document.createElement('div');
-          headshot.className = 'flow-img img-circle ' + addClass;
-          headshot.setAttribute('style', 'background-image: url(' + person.image + ')');
-
-          card.append(headshot);
-
-          var name = document.createElement('div');
-          name.className = 'name';
-          name.innerText = person.name;
-
-          card.append(name);
-
-          var company = document.createElement('div');
-          company.className = 'sub';
-
-          if ( person.company ) {
-            company.innerText = person.company;
-          } else {
-            company.innerText = "\n";
-          }
-
-          card.append(company);
-
-          return card;
-        }
-
-        function buildCardSection(filter, divName, headShotClass, sort, configCount, configCountPerRow, showAll, showAllOnIndex) {
-            /* Build up the people applicable to this card section */
-            var people = [];
-            for ( var s=0; s<allPeople.length; s++ ) {
-                if ( allPeople[s].image != null ) {
-                    if ( allPeople[s][filter] ) {
-                        people.push(allPeople[s]);
-                    }
-                }
-            }
-
-          if ( sort ) {
-              people.sort(function() {return 0.5 - Math.random()});
-          }
-
-          if ( people.length > 0 ) {
-              var card_div = document.getElementById(divName);
-              var animationDelay = 0;
-              /*
-
-              `site.<section name>ShowAll` - should be used in pages other than /
-              `site.<section name>ShowAllOnIndex` - should be used to show all images on /
-              `site.<section name>GeneralCount` - value used if `site.<section name>ShowAll` is null
-
-              If you want all pictures to show on on Index,
-              then flip `showAllOnIndex` to _true_ . Otherwise,
-              `showAll` is used on a permalink by permalink basis
-              (other need to be added besides _supporters_ if warranted)
-              which will control how many images to display on pages
-              whose permalink != /
-              */
-              var permalink_text = document.documentURI;
-              if ( permalink_text.includes("/supporters/")) {
-                if ( showAll ) {
-                  var count = people.length;
-                } else {
-                  var count = Math.min(configCount, people.length);
-                }
-              } else {
-                if ( showAllOnIndex ) {
-                  var count = people.length;
-                } else {
-                  var count = Math.min(configCount, people.length);
-                }
-              }
-
-              /* Fixes a bug when width is float */
-              var colWidth = Math.floor(12/configCountPerRow);
-
-              var clearfix = document.createElement('div');
-              clearfix.className = 'clearfix visible-xs';
-
-              for(var i=0; i<count; i++) {
-                var card = getCard(people[i], colWidth,
-                        animationDelay, headShotClass);
-
-                card_div.append(card);
-
-                if ( i % 2 != 0 ) {
-                    card_div.append(clearfix);
-                }
-                animationDelay += 400;
-              }
-          }
-      }
-
-     {% if page.permalink == "/" %}
-       /*
-         For the Speakers Opening Section
-       */
-        buildCardSection('trackOpening', 'speakers-opening-list',
-                'speakers-opening-img', {{ site.speakersOpeningSort }},
-                {{ site.speakersOpeningCount }},
-                {{ site.speakersOpeningCountPerLine }},
-                {{ site.speakersOpeningShowAll }},
-                {{ site.speakersOpeningShowAllOnIndex }});
-       /*
-         For the Speakers Entrepreneur Section
-       */
-        buildCardSection('trackEntrepreneur', 'speakers-entrepreneur-list',
-                'speakers-entrepreneur-img', {{ site.speakersEntrepreneurSort }},
-                {{ site.speakersEntrepreneurCount }},
-                {{ site.speakersEntrepreneurCountPerLine }},
-                {{ site.speakersEntrepreneurShowAll }},
-                {{ site.speakersEntrepreneurShowAllOnIndex }});
-
-       /*
-         For the Speakers General Section
-       */
-        buildCardSection('trackGeneral', 'speakers-general-list',
-                'speakers-general-img', {{ site.speakersGeneralSort }},
-                {{ site.speakersGeneralCount }},
-                {{ site.speakersGeneralCountPerLine }},
-                {{ site.speakersGeneralShowAll }},
-                {{ site.speakersGeneralShowAllOnIndex }});
-      {% endif %}
-
-      {% if page.permalink == "/" or page.permalink == "/supporters/" %}
-         /*
-           For the Supporters Section
-         */
-          buildCardSection('supporter', 'supporters-list',
-                  'supporters-img', {{ site.supportersSort }},
-                  {{ site.supportersCount }},
-                  {{ site.supportersCountPerLine }},
-                  {{ site.supportersShowAll }},
-                  {{ site.supportersShowAllOnIndex }});
-      {% endif %}
-      });
+                  }); });
     </script>
-
     <script>
         Waves.displayEffect();
         {% if page.permalink == '/' %}
@@ -356,39 +170,12 @@ layout: compress
                 icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
             }
             var twitterFeedUrl = '{{ site.twitterFeed }}';
+       {% endif %}
 
-        /*
-        =======================================
-        Logistics JS
-        =======================================
-        */
-        {% elsif page.permalink == '/logistics/' %}
-            var googleMaps = 'logistics',
-                eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates }}),
-                centerMap = new google.maps.LatLng({{ site.logisticsMapCenterCoordinates }}),
-                mobileCenterMap = new google.maps.LatLng({{ site.logisticsMapMobileCenterCoordinates }}),
-                icon = '{{ site.baseurl }}/img/other/map-marker.svg';
-        {% endif %}
     </script>
 
-    {% comment %}
-    =======================================
-    Schedule
-    =======================================
-    {% endcomment %}
-
     <script src="{{ "/js/scripts.js" | prepend: site.baseurl }}"></script>
-    {% if page.permalink == '/schedule/' %}
-        <script type="text/javascript">
-            $(document).ready(function () {
-                var navHeight = $('#top-header').height();
-                var headerHeight = $('.track-header').first().height();
-                $('.stick-header').stick_in_parent({sticky_class: 'sticky', offset_top: navHeight});
-                $('.stick-label').stick_in_parent({offset_top: navHeight + headerHeight});
-            });
-        </script>
-    {% endif %}
+    <script src="{{ "/js/slider.js" | prepend: site.baseurl }}"></script>
 
-    {% include schema-event.html %}
   </body>
 </html>

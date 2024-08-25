@@ -1,11 +1,6 @@
 <!-- Begin Intro Section -->
 <section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.eventImage }}');">
     {% include navigation.html %}
-
-    {% assign current_time = 'now' | date: "%s "%}
-    {% assign cfp_close_time = site.cfpCloseDate | date: "%s" %}
-    {% assign next_ticket_open_time = site.ticketsOpenDate | date: "%s" %}
-
     <div class="overlay solid-overlay"></div>
     <div class="content-wrapper">
     <div class="jumbotron">
@@ -14,40 +9,10 @@
             <img src="{{ site.baseurl | append: '/img/' | append: site.logoImage }}">
           </div>
           <!--<h2><b>{{ site.eventTitle }}</b></h2>-->
-          <h1><b>{{ site.eventDate }}</b></h1>
-          <h5>Hosted by <a href="{{ site.eventHost[2].link }}" target="_blank" alt="{{ site.eventHost[1].nameLong }}">{{ site.eventHost[0].name }}</a></h5>
-          {{ site.eventHost[0].link }}
-          </br>
-          {{ site.eventStreetAddress }}, {{ site.eventAddressLocality }}, {{ site.eventAddressLocalityRegion }} {{ site.eventPostalCode }}
-          <a href="{{ site.eventNavigationLink }}" target="_blank">
-            <svg class="icon icon-navigate" viewBox="0 0 30 32">
-              <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-navigate"></use>
-            </svg>
-          </a>
-          </br>
-          {% for button in site.eventButtons %}
-            {% if current_time < cfp_close_time and button.id == "cfp" %}
-              <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
-            {% endif %}
-
-            {% if current_time < next_ticket_open_time and button.id == "tickets" %}
-              <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
-            {% endif %}
-
-            {% if button.id != "cfp" and button.id != "tickets" %}
-              <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
-            {% endif %}
-          {% endfor %}
-      </div>
-      {% if site.ticketsNextReleaseDate and current_time < next_ticket_open_time %}
-        Next round of tickets released on <b>{{ site.ticketsNextReleaseDate }} ET</b>
-      {% endif %}
+          <h4><b>{{ site.eventDate }}</b><br>
+          <small>at John Jay College of Criminal Justice</small></h4>
+        </div>
     </div>
-    <a href="#about" class="explore">
-        <svg class="icon icon-arrow-down" viewBox="0 0 32 32">
-            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-arrow-down"></use>
-        </svg>
-    </a>
     </div>
 </section>
 <!-- End Intro Section -->
