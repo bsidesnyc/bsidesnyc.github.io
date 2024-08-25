@@ -254,6 +254,7 @@
 
     //Google maps
     if (typeof googleMaps !== 'undefined') {
+        console.log("brad");
         var map, autocomplete, directionsDisplay, geocoder, polyline, origin;
         var markers = [];
         var directionsService = new google.maps.DirectionsService();
