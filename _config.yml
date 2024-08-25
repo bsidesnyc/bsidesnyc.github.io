@@ -71,14 +71,13 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 # Navigation
 #-----------------------------------------------
 navigationLinks:
- - {permalink: "/about/", text: "About"}
+ - {permalink: "/venue/", text: "Venue"}
+ - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/sponsors/", text: "Sponsors"}
  - {permalink: "/cfp/", text: "CFP"}
+ - {permalink: "/about/", text: "About"}
 # - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/volunteers/", text: "Volunteer"}
- - {permalink: "/venue/", text: "Venue"}
 bottomNavigationLinks:
 rightNavigationButtons:
 
@@ -89,9 +88,21 @@ rightNavigationButtons:
 #-----------------------------------------------
 # About
 #-----------------------------------------------
-aboutTitle: "What is BSidesNYC?"
+aboutTitle: "About BSidesNYC"
+aboutCaption: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free."
 aboutBlock:
- - {title: "", image: "", text: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free." }
+  - {title: "Conference", image: "conference.jpg", text: "Three technical tracks based on the themes of Red Teams, Blue Teams, and Other content. Plus an Entreprenuer track for the bold!" }
+  - {title: "Workshops", image: "workshops.jpg", text: "Hands-on workshops for attendees to develop real world skills" }
+  - {title: "Capture The Flag", image: "ctf.jpg", text: "Multiple CTFs with varying levels of technical depth." }
+  - {title: "Villages", image: "villages.jpg", text: "Learn how to lockpick, solder, and about local community-driven organizations." }
+
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "700", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
+ - {count: "45", specialCharacter: "+", info: "hours", detail: "of security content"}
+ - {count: "58", specialCharacter: "+", info: "speakers", detail: "from across the world"}
+ - {count: "5", specialCharacter: "", info: "parallel tracks", detail: "plus villages"}
 
 #-----------------------------------------------
 # CFP Block
@@ -261,11 +272,8 @@ venueRooms:
 #-----------------------------------------------
 # Volunteers
 #-----------------------------------------------
-volunteersTitle: "Want to be involved?"
-volunteersText: "We are looking for individuals to help in a variety of areas – are you interested in lending a hand? If so, use the form below to sign-up and we'll reach out to you when the conference nears.
-
-
-Over email? Join our <a href=\"https://join.slack.com/t/bsidesnyc/shared_invite/zt-2g5pte0rr-apFan_yKvoAWMHF_OM67IA\" target=\"_blank\">Slack</a> workspace instead."
+volunteersTitle: "Want to Volunteer?"
+volunteersSlackUrl: https://join.slack.com/t/bsidesnyc/shared_invite/zt-2g5pte0rr-apFan_yKvoAWMHF_OM67IA
 volunteersSubscribeTitle: "Join the Team"
 
 
@@ -281,6 +289,12 @@ foodtruck1Name: Wraps and Kebabs
 foodtruck1Description: Wraps & Kebabs food truck is the first & only Halal Authentic Egyptian food truck in NYC
 foodtruck2Name: Stuf’d
 foodtruck2Description: Gourmet Street Eats, sandwiches and grilled cheese.
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: ""
+twitterHashTag: "bsidesnyc"
+twitterFeed: ""
 
 #-----------------------------------------------
 # Sessionize Links

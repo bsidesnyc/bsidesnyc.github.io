@@ -26,7 +26,7 @@ layout: compress
     <meta name="theme-color" content="#2b5797">
 
     <!-- update the versioning # below to force browsers to reload this CSS file, else some crappy rendering may occur in between -->
-    <link href="{{ "/css/main.css" | prepend: site.baseurl }}?v=0.2" rel="stylesheet">
+    <link href="{{ "/css/main.css" | prepend: site.baseurl }}?v=0.3" rel="stylesheet">
 
         
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -76,7 +76,7 @@ layout: compress
 
     {% if page.modal != null %}
       {% include speakers-modals.html %}
-      {% include organizers-modals.html %}
+      {% include team-modals.html %}
       {% include cfp-board-modals.html %}
     {% endif %}
 
