@@ -71,13 +71,13 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 # Navigation
 #-----------------------------------------------
 navigationLinks:
- - {permalink: "/about/", text: "About"}
+ - {permalink: "/venue/", text: "Venue"}
+ - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/sponsors/", text: "Sponsors"}
  - {permalink: "/cfp/", text: "CFP"}
+ - {permalink: "/about/", text: "About"}
 # - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/venue/", text: "Venue"}
 bottomNavigationLinks:
 rightNavigationButtons:
 
