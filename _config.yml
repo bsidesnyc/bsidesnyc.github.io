@@ -75,12 +75,12 @@ navigationLinks:
  - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/sponsors/", text: "Sponsors"}
  - {permalink: "/cfp/", text: "CFP"}
+# - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/volunteers/", text: "Volunteer"}
- - {permalink: "/logistics/", text: "Getting Here"}
+ - {permalink: "/venue/", text: "Venue"}
 bottomNavigationLinks:
- - {permalink: "https://livestream.com/internetsociety/bsidesnyc2023", text: "Red Track Livestream"}
 rightNavigationButtons:
- - {permalink: "https://livestream.com/internetsociety/bsidesnyc2023", text: "Red Track Livestream"}
 
 ################################################################################################
 # Block Data
@@ -190,10 +190,11 @@ logisticsMapAutoDirections: false
 
 # Logistics Direction Details
 directionDetailsImage: "columbus_circle.jpg"
-directionDetailsTitle: "Get around NYC"
+directionDetailsTitle: "Getting Here"
 directionDetailsCards:
- - {title: "Airports", information: 'The conference is easily accessible from either <b>JFK</b> or <b>LGA</b> airports via public transportation (subway, bus, taxi) or ride-sharing services (uber, lyft etc.)'}
+ - {title: "Airports", information: 'The conference is easily accessible from the <b>JFK</b>, <b>LGA</b>, or <b>EWR</b> airports via public transportation (subway, bus, taxi) or ride-sharing services (uber, lyft etc.)'}
  - {title: "Public Transit", information: "The closest subway station is <b>59 St. - Columbus Circle</b> (A,B,C & D lines). From this stop, it is less than a .5 mile walk."}
+ - {title: "Hotels", information: "<a href='https://www.marriott.com/en-us/hotels/nycft-fairfield-inn-and-suites-new-york-manhattan-central-park/overview/'>Fairfield Inn & Suites New York Manhattan/Central Park</a> is right next door."}
 
 # Logistics Venue Map
 venueMapTitle: "Get around John Jay College"
@@ -245,11 +246,13 @@ priceInfo: 'Tickets will cost $15+fees. If you register with a .edu email addres
 #-----------------------------------------------
 # Venue
 #-----------------------------------------------
-venueBlockTitle: "Venue"
+venueBlockTitle: "John Jay College of Criminal Justice"
+venueBlockAddress: "524 W. 59th Street, New York, NY"
 venueImageAtrium: "atrium.jpg"
 venueRoomImage1: "240.jpg"
 venueRoomImage2: "L615.jpg"
 venueRoomImage3: "L763.jpg"
+venueRoomImage4: "bsidesnyc-johnjay-moot.jpg"
 venueTitle: "John Jay College of Criminal Justice"
 venueFeatures: ["Guest Wi-Fi will be available." ]
 venueRooms:
@@ -278,3 +281,11 @@ foodtruck1Name: Wraps and Kebabs
 foodtruck1Description: Wraps & Kebabs food truck is the first & only Halal Authentic Egyptian food truck in NYC
 foodtruck2Name: Stuf’d
 foodtruck2Description: Gourmet Street Eats, sandwiches and grilled cheese.
+
+#-----------------------------------------------
+# Sessionize Links
+#-----------------------------------------------
+sessionizeJsonSpeakerList: https://sessionize.com/api/v2/1kzdzu2h/view/Speakers
+sessionizeJsonSessionList: https://sessionize.com/api/v2/1kzdzu2h/view/Sessions
+sessionizeJsonAllData: https://sessionize.com/api/v2/1kzdzu2h/view/All
+sessionizeJsonScheduleGrid: https://sessionize.com/api/v2/1kzdzu2h/view/GridSmart
