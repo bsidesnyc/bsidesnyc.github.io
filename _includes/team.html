@@ -6,39 +6,6 @@
         </div>
 
         <div class="col-lg-10 col-lg-offset-1 text-center">
-            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Organizers</h4>
-            {% for organizerMember in site.data.people %}
-              {% if organizerMember.isOrganizer == true %}
-                <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
-                  {% if organizerMember.title == "Lead Organizer" %} 
-                    <div class="zoe-effect" data-toggle="modal" data-target="#organizerMemberDetail-{{ organizerMember.id }}" style="border-bottom: 10px solid #FFC300">
-                  {% else %}
-                    <div class="zoe-effect" data-toggle="modal" data-target="#organizerMemberDetail-{{ organizerMember.id }}">
-                  {% endif %}
-                        <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/' | append: organizerMember.thumbnailUrl }})">
-                            <div class="overlay solid-overlay"></div>
-                            <figcaption>
-                                <div class="col-md-8 col-xs-8 text-left">
-                                    <h2 class="name">{{ organizerMember.name }} <span>{{ organizerMember.surname }}</span></h2>
-                                    <div class="clearfix"></div>
-                                    <span class="position">{{ organizerMember.title }}</span>
-                                </div>
-                                {% for social in organizerMember.social %}
-                                <a href="{{ social["link"] }}" target="_blank">
-                                    <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
-                                        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
-                                    </svg>
-                                </a>
-                                {% endfor %}
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-              {% endif %}
-          {% endfor %}
-        </div>
-
-        <div class="col-lg-10 col-lg-offset-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Technical CFP Committee</h4>
             {% for organizerMember in site.data.people %}
               {% if organizerMember.isTechCfp == true %}
@@ -95,6 +62,40 @@
               {% endif %}
           {% endfor %}
         </div>
+
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Organizers</h4>
+            {% for organizerMember in site.data.people %}
+              {% if organizerMember.isOrganizer == true %}
+                <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+                  {% if organizerMember.title == "Lead Organizer" %} 
+                    <div class="zoe-effect" data-toggle="modal" data-target="#organizerMemberDetail-{{ organizerMember.id }}" style="border-bottom: 10px solid #FFC300">
+                  {% else %}
+                    <div class="zoe-effect" data-toggle="modal" data-target="#organizerMemberDetail-{{ organizerMember.id }}">
+                  {% endif %}
+                        <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/' | append: organizerMember.thumbnailUrl }})">
+                            <div class="overlay solid-overlay"></div>
+                            <figcaption>
+                                <div class="col-md-8 col-xs-8 text-left">
+                                    <h2 class="name">{{ organizerMember.name }} <span>{{ organizerMember.surname }}</span></h2>
+                                    <div class="clearfix"></div>
+                                    <span class="position">{{ organizerMember.title }}</span>
+                                </div>
+                                {% for social in organizerMember.social %}
+                                <a href="{{ social["link"] }}" target="_blank">
+                                    <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+                                        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
+                                    </svg>
+                                </a>
+                                {% endfor %}
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+              {% endif %}
+          {% endfor %}
+        </div>
+
 
     </div>
 </section>
