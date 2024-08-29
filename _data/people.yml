@@ -1,3 +1,47 @@
+- bio: Huxley Barbee has been a fixture of the security community for over 20 years.
+    Professionally, he was a security consultant working with customers in finance,
+    insurance, manufacturing, and higher education. Currently, he leads the security
+    engineering group at a fintech company. Beyond the day job, he is also active
+    in the security and hacker community. He started attending DEF CON in the late
+    90s, has spoken at many conferences throughout the US, and is the lead organizer
+    for BSidesNYC. He lives in New York. You should connect with him on social media,
+    buy him a drink, or both.
+  cfpBoard: false
+  company: BSidesNYC
+  id: 47
+  isDynamic: false
+  isFounder: false
+  isOrganizer: true
+  linkedin: jhbarbee
+  name: Huxley
+  sharedImg: true
+  subTeam: true
+  supporter: false
+  surname: Barbee
+  thumbnailUrl: /organizers/huxley.jpg
+  title: Lead Organizer
+  trackEntrepreneur: false
+  trackGeneral: false
+  trackOpening: false
+  twitter: huxley_barbee
+- bio: null
+  cfpBoard: true
+  company: null
+  id: 2
+  isDynamic: false
+  isFounder: false
+  isOrganizer: true
+  name: Dave
+  sharedImg: true
+  subTeam: true
+  supporter: false
+  surname: Giancaspro
+  thumbnailUrl: /organizers/dave.png
+  title: Vulnerability and Threat Analyst
+  trackEntrepreneur: false
+  trackGeneral: false
+  trackOpening: false
+  twitter: null
 - bio: Glenn P. Edwards Jr. is an Incident Response Engineer at Block where he specializes
     in Incident Response and Digital Forensics. Glenn holds a M.S degree in Digital
     Forensics from the University of Central Florida as well as a B.S. degree in Information
@@ -25,7 +69,7 @@
   id: 1
   isDynamic: false
   isFounder: true
-  isOrganizer: false
+  isOrganizer: true
   name: Brad
   sharedImg: true
   subTeam: false
@@ -37,50 +81,6 @@
   trackGeneral: false
   trackOpening: false
   twitter: brad_anton
-- bio: null
-  cfpBoard: true
-  company: null
-  id: 2
-  isDynamic: false
-  isFounder: false
-  isOrganizer: false
-  name: Dave
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: Giancaspro
-  thumbnailUrl: /organizers/dave.png
-  title: Vulnerability and Threat Analyst
-  trackEntrepreneur: false
-  trackGeneral: false
-  trackOpening: false
-  twitter: null
-- bio: Huxley Barbee has been a fixture of the security community for over 20 years.
-    Professionally, he was a security consultant working with customers in finance,
-    insurance, manufacturing, and higher education. Currently, he leads the security
-    engineering group at a fintech company. Beyond the day job, he is also active
-    in the security and hacker community. He started attending DEF CON in the late
-    90s, has spoken at many conferences throughout the US, and is the lead organizer
-    for BSidesNYC. He lives in New York. You should connect with him on social media,
-    buy him a drink, or both.
-  cfpBoard: false
-  company: BSidesNYC
-  id: 3
-  isDynamic: false
-  isFounder: false
-  isOrganizer: true
-  linkedin: jhbarbee
-  name: Huxley
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: Barbee
-  thumbnailUrl: /organizers/huxley.jpg
-  title: Lead Organizer
-  trackEntrepreneur: false
-  trackGeneral: false
-  trackOpening: false
-  twitter: huxley_barbee
 - bio: Jamie Levy is the Director of Adversary Tactics at Huntress. Jamie is also
     a longtime researcher, developer and board member of the Volatility Foundation.
     She has worked over 15 years in the digital forensics industry, conducting investigations
@@ -460,3 +460,81 @@
   trackGeneral: true
   trackOpening: false
   twitter: sh4t
+-
+  id: 010
+  name: August
+  surname: Huber
+  company: Cruise Automation
+  title: Security Engineer
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/augs.jpg
+  twitter:
+  isOrganizer: true
+  isPlanner: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 011
+  name: Brian
+  surname: Smith-Sweeney
+  company: Two Sigma
+  title: Head of Security Risk Management
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/bss.jpeg
+  twitter:
+  isOrganizer: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 012
+  name: Pearce
+  surname: Barry
+  company: Pura
+  title: 
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/pearce.jpg
+  twitter:
+  isOrganizer: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 009
+  name: Aaron
+  surname: Varrone
+  company:
+  title: Incident Response Director
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/aaron.jpg
+  twitter:
+  isOrganizer: true
+  isPlanner: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
