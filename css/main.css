@@ -4269,8 +4269,8 @@ nav li a.current,nav li a:hover {
 }
 
 .lily-effect:hover figure {
-    background-position: center left;
-    background-size: 105%
+    /* background-position: center left; */
+    background-size: 100%
 }
 
 .lily-effect:hover figcaption h2,.lily-effect:hover figcaption .position {
@@ -4298,8 +4298,18 @@ nav li a.current,nav li a:hover {
     height: 100%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    background-position: -30px;
-    background-size: 115%
+    background-position: -5px; 
+    background-size: 100%
+}
+
+.lily-effect figure.figure-circle {
+    overflow: hidden;
+    width: 55%;
+    height: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-position: top; 
+    background-size: 100%
 }
 
 .lily-effect figcaption {
@@ -4350,6 +4360,11 @@ nav li a.current,nav li a:hover {
 
 .lily-effect .lily-head {
     height: 200px
+}
+
+.lily-effect .lily-head.lily-head-dark {
+    height: 200px;
+    background: #333;
 }
 
 .lily-effect .lily-bottom {

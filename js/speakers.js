@@ -54,6 +54,7 @@ function addSpeakerToList(speaker, sessions, rooms) {
     effectWrapper.classList.add("col-md-4");
     effectWrapper.classList.add("col-sm-6");
     effectWrapper.classList.add("col-xs-12");
+    effectWrapper.classList.add("text-right");
 
     var lilyEffect = document.createElement("div");
     lilyEffect.classList.add("lily-effect");
@@ -61,13 +62,21 @@ function addSpeakerToList(speaker, sessions, rooms) {
 
     var lilyHeader = document.createElement("div");
     lilyHeader.classList.add("lily-head");
+    lilyHeader.classList.add("lily-head-dark");
+    lilyHeader.classList.add("waves-effect");
+    lilyHeader.classList.add("waves-block");
+    lilyHeader.classList.add("waves-light");
     lilyHeader.setAttribute("data-toggle", "modal");
     lilyHeader.setAttribute("data-target", "#speakerDetail-" + speaker.id );
 
     var speakerHeadshot = document.createElement("figure");
+    /*
     speakerHeadshot.classList.add("waves-effect");
     speakerHeadshot.classList.add("waves-block");
     speakerHeadshot.classList.add("waves-light");
+    */
+    speakerHeadshot.classList.add("figure-circle");
+    speakerHeadshot.classList.add("img-circle");
     if ( speaker.profilePicture != null ) {
         speakerHeadshot.setAttribute("style", "background-image: url(" + speaker.profilePicture + ")");
     }
