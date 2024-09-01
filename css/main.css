@@ -2734,7 +2734,8 @@ time {
     color: #fff;
     font-weight: 100;
     background-repeat: no-repeat;
-    background-position: center center !important;
+    /* background-position: center center !important; */
+    background-position: 0% 25% !important;
     background-size: cover !important
 }
 
