@@ -294,5 +294,3 @@ function populateSpeakers(allData, baseUrl) {
     }
     sliderHandlers();
 }
-
-
