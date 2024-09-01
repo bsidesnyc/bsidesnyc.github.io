@@ -288,6 +288,7 @@ function addSpeakerToModal(speaker, sessions, rooms, baseUrl) {
 }
 
 function populateSpeakers(allData, baseUrl) {
+    console.log(allData);
     for (var i=0; i<allData["speakers"].length; i++) {
         addSpeakerToList(allData["speakers"][i], allData["sessions"], allData["rooms"]);
         addSpeakerToModal(allData["speakers"][i], allData["sessions"], allData["rooms"], baseUrl);
