@@ -1,3 +1,47 @@
+- bio: Huxley Barbee has been a fixture of the security community for over 20 years.
+    Professionally, he was a security consultant working with customers in finance,
+    insurance, manufacturing, and higher education. Currently, he leads the security
+    engineering group at a fintech company. Beyond the day job, he is also active
+    in the security and hacker community. He started attending DEF CON in the late
+    90s, has spoken at many conferences throughout the US, and is the lead organizer
+    for BSidesNYC. He lives in New York. You should connect with him on social media,
+    buy him a drink, or both.
+  cfpBoard: false
+  company: BSidesNYC
+  id: 47
+  isDynamic: false
+  isFounder: false
+  isOrganizer: true
+  linkedin: jhbarbee
+  name: Huxley
+  sharedImg: true
+  subTeam: true
+  supporter: false
+  surname: Barbee
+  thumbnailUrl: /organizers/huxley.jpg
+  title: Lead Organizer
+  trackEntrepreneur: false
+  trackGeneral: false
+  trackOpening: false
+  twitter: huxley_barbee
+- bio: null
+  cfpBoard: true
+  company: null
+  id: 2
+  isDynamic: false
+  isFounder: false
+  isOrganizer: true
+  name: Dave
+  sharedImg: true
+  subTeam: true
+  supporter: false
+  surname: Giancaspro
+  thumbnailUrl: /organizers/dave.png
+  title: Vulnerability and Threat Analyst
+  trackEntrepreneur: false
+  trackGeneral: false
+  trackOpening: false
+  twitter: null
 - bio: Glenn P. Edwards Jr. is an Incident Response Engineer at Block where he specializes
     in Incident Response and Digital Forensics. Glenn holds a M.S degree in Digital
     Forensics from the University of Central Florida as well as a B.S. degree in Information
@@ -25,7 +69,7 @@
   id: 1
   isDynamic: false
   isFounder: true
-  isOrganizer: false
+  isOrganizer: true
   name: Brad
   sharedImg: true
   subTeam: false
@@ -37,50 +81,6 @@
   trackGeneral: false
   trackOpening: false
   twitter: brad_anton
-- bio: null
-  cfpBoard: true
-  company: null
-  id: 2
-  isDynamic: false
-  isFounder: false
-  isOrganizer: false
-  name: Dave
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: Giancaspro
-  thumbnailUrl: /organizers/dave.png
-  title: Vulnerability and Threat Analyst
-  trackEntrepreneur: false
-  trackGeneral: false
-  trackOpening: false
-  twitter: null
-- bio: Huxley Barbee has been a fixture of the security community for over 20 years.
-    Professionally, he was a security consultant working with customers in finance,
-    insurance, manufacturing, and higher education. Currently, he leads the security
-    engineering group at a fintech company. Beyond the day job, he is also active
-    in the security and hacker community. He started attending DEF CON in the late
-    90s, has spoken at many conferences throughout the US, and is the lead organizer
-    for BSidesNYC. He lives in New York. You should connect with him on social media,
-    buy him a drink, or both.
-  cfpBoard: false
-  company: BSidesNYC
-  id: 3
-  isDynamic: false
-  isFounder: false
-  isOrganizer: true
-  linkedin: jhbarbee
-  name: Huxley
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: Barbee
-  thumbnailUrl: /organizers/huxley.jpg
-  title: Lead Organizer
-  trackEntrepreneur: false
-  trackGeneral: false
-  trackOpening: false
-  twitter: huxley_barbee
 - bio: Jamie Levy is the Director of Adversary Tactics at Huntress. Jamie is also
     a longtime researcher, developer and board member of the Volatility Foundation.
     She has worked over 15 years in the digital forensics industry, conducting investigations
@@ -183,25 +183,6 @@
   trackGeneral: false
   trackOpening: false
   twitter: bamchenry
-- bio: "Coordinator extraordinaire who makes things go at BSidesNYC. If you want to\
-    \ know more, you\u2019ll have to ask her yourself"
-  cfpBoard: true
-  company: null
-  id: 008
-  isDynamic: false
-  isFounder: false
-  isOrganizer: false
-  name: Janine
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: Medina
-  thumbnailUrl: /cfp/janine.jpg
-  title: Coordinator extraordinaire
-  trackEntrepreneur: false
-  trackGeneral: false
-  trackOpening: false
-  twitter: null
 - bio: Andrew Case is the Director of Research at Volexity and has significant experience
     in incident response handling and malware analysis. He has conducted numerous
     large-scale investigations that span enterprises and industries. Case is a core
@@ -376,3 +357,184 @@
   trackGeneral: true
   trackOpening: false
   twitter: maridegrazia
+- bio: Carrie shapes go-to-market strategies for emerging cybersecurity companies.
+    With a background in large enterprise, Carrie's recent focus is on early start-ups,
+    with expertise in cybersecurity companies spanning from seed round to Series C. She
+    has brought two products to market, and spends her extra time in photography and
+    martial arts.
+  cfpBoard: false
+  company: Turngate
+  id: 56
+  isDynamic: false
+  isEntrepreneurCfp: true
+  isFounder: false
+  isOrganizer: false
+  isTechCfp: false
+  linkedin: carrie-andry
+  name: Carrie
+  sharedImg: true
+  subTeam: true
+  supporter: false
+  surname: Landry
+  thumbnailUrl: /cfp/carrie_landry.jpg
+  title: VP and Head of Marketing
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  twitter: Carrie_Landry_
+- bio: Chris Kirsch is founder and CEO of Cyber Marketing Clinic
+    (<a href="https://cybermarketingclinic.com">cybermarketingclinic.com</a>), where
+    he works with tech companies on product marketing, PLG motions, and pricing strategy.
+    Previously, he was the co-founder and CEO of runZero, a cyber asset management company
+    he co-founded with Metasploit creator HD Moore. Chris started his career at an InfoSec
+    startup in Germany and has since worked for PGP, nCipher, Rapid7, and Veracode. He has
+    a passion for OSINT and Social Engineering. In 2017, he earned the Black Badge for
+    winning the Social Engineering Capture the Flag competition at DEF CON, the world’s
+    largest hacker conference.
+  cfpBoard: false
+  company: Cyber Marketing Clinic
+  id: 57
+  isDynamic: false
+  isEntrepreneurCfp: true
+  isOrganizer: false
+  isFounder: false
+  isTechCfp: false
+  linkedin: ckirsch
+  name: Chris
+  supporter: false
+  surname: Kirsch
+  sharedImg: true
+  subTeam: true
+  thumbnailUrl: /cfp/chris_kirsch.png
+  title: Founder & Marketing Strategy Consultant
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: true
+  twitter: chris_kirsch
+- bio: Justin Massey has managed IT networks, performed penetration tests, and secured
+    infrastructure and applications at startups. Now, he runs Relay Hawk, a cybersecurity
+    company that reduces the likelihood and impact of cybersecurity attacks on call centers.
+  cfpBoard: false
+  company: Relay Hawk
+  id: 58
+  isDynamic: false
+  isEntrepreneurCfp: true
+  isFounder: false
+  isOrganizer: false
+  isTechCfp: false
+  linkedin: justinmassey09
+  name: Justin
+  surname: Massey
+  sharedImg: true
+  subTeam: true
+  supporter: false
+  thumbnailUrl: /cfp/justin_massey.jpg
+  title: Founder
+  trackEntrepreneur: false
+  trackGeneral: true
+  trackOpening: false
+  twitter: jmassey09
+- bio: Justin Shattuck has been a diligent security threat hunter for the last 15 years
+    and has assisted law enforcement agencies in tracking some of the industry’s most
+    notable threat actors. Prior to Resilience, Justin used his relentless pursuit of
+    data hoarding to architect and lead engineering teams responsible for creating
+    security solutions such as Services (SaaS) in DDoS mitigation, Web Application
+    Firewalls, and IDS/IPS and Threat Intelligence.  
+  cfpBoard: false
+  company: Resilience
+  id: 059
+  isDynamic: false
+  isEntrepreneurCfp: true
+  isFounder: false
+  isOrganizer: false
+  isTechCfp: false
+  linkedin: justinshattuck
+  name: Justin
+  surname: Shattuck
+  sharedImg: true
+  subTeam: true
+  supporter: false
+  thumbnailUrl: /cfp/justin_shattuck.jpg
+  title: Chief Security Officer
+  trackEntrepreneur: false
+  trackGeneral: true
+  trackOpening: false
+  twitter: sh4t
+-
+  id: 010
+  name: August
+  surname: Huber
+  company: Cruise Automation
+  title: Security Engineer
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/augs.jpg
+  twitter:
+  isOrganizer: true
+  isPlanner: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 011
+  name: Brian
+  surname: Smith-Sweeney
+  company: Two Sigma
+  title: Head of Security Risk Management
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/bss.jpeg
+  twitter:
+  isOrganizer: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 012
+  name: Pearce
+  surname: Barry
+  company: Pura
+  title: 
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/pearce.jpg
+  twitter:
+  isOrganizer: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
+-
+  id: 009
+  name: Aaron
+  surname: Varrone
+  company:
+  title: Incident Response Director
+  bio:
+  isDynamic: false
+  sharedImg: true
+  thumbnailUrl: /organizers/aaron.jpg
+  twitter:
+  isOrganizer: true
+  isPlanner: true
+  isFounder: false
+  subTeam: true
+  cfpBoard: false
+  trackOpening: false
+  trackEntrepreneur: false
+  trackGeneral: false
+  supporter: false
