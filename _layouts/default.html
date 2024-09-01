@@ -37,9 +37,11 @@ layout: compress
         Page-dependant Javascript
     -->
     {% if page.permalink == '/speakers/' %}
+        <script src="{{ "/js/schedule.js" | prepend: site.baseurl }}"></script>
         <script src="{{ "/js/speakers.js" | prepend: site.baseurl }}"></script>
         <script>
             onLoad("{{ site.sessionizeJsonAllData }}", "{{ site.baseurl }}");
+            scheduleBuilder("{{ site.sessionizeJsonSpeakerList }}", "{{ site.baseurl }}", "speakerBackfill");
         </script>
     {% elsif page.permalink == '/schedule/' %}
         <script src="{{ "/js/schedule.js" | prepend: site.baseurl }}"></script>

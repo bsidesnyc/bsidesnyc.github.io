@@ -191,52 +191,6 @@ function addSpeakerSessionToModal(speaker, sessions, rooms, modalBody) {
 
 }
 
-function addSpeakerPeopleDetails(speaker, modalBody) {
-    var peopleDetails = document.createElement("div");
-    peopleDetails.classList.add("people-details");
-
-    var row = document.createElement("div");
-    row.classList.add("row");
-
-    var headshot = document.createElement("div");
-    headshot.classList.add("col-md-2");
-    headshot.classList.add("col-sm-2");
-
-    var speakerHeadshot = document.createElement("div");
-    speakerHeadshot.classList.add("flow-img");
-    speakerHeadshot.classList.add("img-circle");
-    speakerHeadshot.classList.add("people-img");
-    if ( speaker.profilePicture != null ) {
-        speakerHeadshot.setAttribute("style", "background-image: url(" + speaker.profilePicture + ")");
-    }
-    headshot.append(speakerHeadshot);
-    row.append(headshot);
-
-    var details = document.createElement("div");
-    details.classList.add("col-md-10")
-    details.classList.add("col-sm-10")
-    details.classList.add("details")
-    
-    var name = document.createElement("p");
-    name.classList.add("name");
-    name.innerText = speaker.fullName;
-
-    var tagline = document.createElement("span");
-    tagline.classList.add("position");
-    tagline.innerText = speaker.tagLine;
-    name.append(tagline);
-    details.append(name);
-
-    var bio = document.createElement("p");
-    bio.classList.add("about");
-    bio.innerText = speaker.bio;
-    details.append(bio);
-    row.append(details);
-
-    peopleDetails.append(row);
-    modalBody.append(peopleDetails);
-}
-
 function addSpeakerToModal(speaker, sessions, rooms, baseUrl) {
     var modal = document.createElement("div");
     modal.classList.add("modal");
@@ -282,7 +236,7 @@ function addSpeakerToModal(speaker, sessions, rooms, baseUrl) {
     modalBody.append(close);
 
     addSpeakerSessionToModal(speaker, sessions, rooms, modalBody);
-    addSpeakerPeopleDetails(speaker, modalBody);
+    addSpeakerToSessionModal(speaker.id, speaker.fullName, modalBody, baseUrl);
 
     modalContent.append(modalBody);
     modalDialog.append(modalContent);
@@ -293,7 +247,6 @@ function addSpeakerToModal(speaker, sessions, rooms, baseUrl) {
 }
 
 function populateSpeakers(allData, baseUrl) {
-    console.log(allData);
     for (var i=0; i<allData["speakers"].length; i++) {
         addSpeakerToList(allData["speakers"][i], allData["sessions"], allData["rooms"]);
         addSpeakerToModal(allData["speakers"][i], allData["sessions"], allData["rooms"], baseUrl);
