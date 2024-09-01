@@ -169,7 +169,12 @@ function addSpeakerSessionToModal(speaker, sessions, rooms, modalBody) {
                         var caption = document.createElement("span");
                         caption.classList.add("caption");
                         caption.innerText = "Track: ";
-                        room.append(caption, rooms[y].name);
+                        room.append(caption, getTrackNameAndRoom(rooms[y].name));
+
+                        var captionTime = document.createElement("span");
+                        captionTime.classList.add("caption");
+                        captionTime.innerText = "Time: " + getStartEndString(sessions[x]);
+                        room.append( document.createElement("br"), captionTime);
                         break;
                     }
                 }

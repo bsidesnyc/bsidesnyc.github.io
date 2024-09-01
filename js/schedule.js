@@ -21,30 +21,6 @@ function scheduleBuilder(endpoint, baseUrl, target) {
     oReq.send();
 }
 
-function getTrackLength(trackName) {
-    if ( trackName == "Workshops" ) {
-        return 2
-    }
-    return 1
-}
-
-function getTrackNameAndRoom(trackName) {
-    if ( trackName == "Tech - Red" ) {
-        return "Red (L.63)";
-    }
-    else if ( trackName == "Tech - Blue" ) {
-        return "Blue (L2.84)";
-    }
-    else if ( trackName == "Tech - Other" ) {
-        return "Other (L2.85)";
-    } else if (trackName == "Workshop") {
-        return "Workshop (L.61)";
-    } else if (trackName == "Entrepreneur") {
-        return "Entrepreneur (L.76)";
-    }
-
-    return trackName;
-}
 
 function sessionizeScheduleGetTrackHeading(dayNumber, rooms) {
     /*
@@ -97,19 +73,6 @@ function sessionizeScheduleGetDayHeading(dayNumber, daySchedule) {
     var scheduleDay = new Date(daySchedule.date);
     heading.innerText = scheduleDay.toLocaleDateString("en-US", options);
     return heading;
-}
-
-function getStartEndString(session) {
-    var start = new Date(session.startsAt);
-    var end = new Date(session.endsAt);
-
-    return start.getHours() + 
-        ":" + 
-        padMinutes(start) + 
-        " - " + 
-        end.getHours() + 
-        ":" + 
-        padMinutes(end);
 }
 
 function sessionizeScheduleGetTimeslotElement(room, timeslotRooms, trackColWidth, baseUrl) {
@@ -188,24 +151,20 @@ function sessionizeScheduleGetTimeslotElement(room, timeslotRooms, trackColWidth
                 var speakerPosition = document.createElement("span");
                 speakerPosition.classList.add("speaker-position");
                 speakerPosition.id = "speakerPosition-" + session.speakers[z].id;
-                speakerPosition.innerText = undefined; 
+                speakerPosition.innerText = undefined;
+   
                 speakerName.append(session.speakers[z].name, speakerPosition);
                 slotSpeakers.append(speakerName);
             }
             slotContent.append(slotSpeakers);
             trackSlot.append(slotContent);
+        } else {
+            //trackSlot.classList.add("hidden-xs");
+            //trackSlot.classList.add("blank-col");
         }
     }
 
     return trackSlot;
-
-}
-
-function padMinutes(time) {
-    if ( time.getMinutes() < 10 ) {
-        return "0" + time.getMinutes();
-    }
-    return time.getMinutes();
 
 }
 
@@ -325,7 +284,7 @@ function addSessionToSessionModal(sessionId, sessionTitle, sessionDescription, t
 
 }
 
-function addSpeakerToSessionModal(speakerId, speakerFullName, modalBody) {
+function addSpeakerToSessionModal(speakerId, speakerFullName, modalBody, baseUrl) {
     var peopleDetails = document.createElement("div");
     peopleDetails.classList.add("people-details");
 
@@ -359,6 +318,10 @@ function addSpeakerToSessionModal(speakerId, speakerFullName, modalBody) {
     tagline.classList.add("position");
     name.append(tagline);
     details.append(name);
+
+    var pronouns = document.createElement("small");
+    pronouns.id = "speakerPronouns-" + speakerId;
+    details.append(pronouns);
 
     var bio = document.createElement("p");
     bio.id = "speakerBio-" + speakerId;
@@ -418,7 +381,7 @@ function createSessionModal(modalSectionId, sessionId, sessionTitle, sessionDesc
 
     addSessionToSessionModal(sessionId, sessionTitle, sessionDescription, trackName, session, modalBody);
     for ( var i=0; i<speakers.length; i++ ) {
-        addSpeakerToSessionModal(speakers[i].id, speakers[i].name, modalBody);
+        addSpeakerToSessionModal(speakers[i].id, speakers[i].name, modalBody, baseUrl);
     }
 
     modalContent.append(modalBody);
@@ -450,6 +413,69 @@ var waitForElm = function (selector, speaker) {
     });
 }
 
+function getTwitterIcon(handle, baseUrl) {
+    var twitterLink = document.createElement("a");
+    twitterLink.href = "https://x.com/" + encodeURIComponent(normalizeTwitter(handle));
+
+    const svgIcon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svgIcon.classList.add("icon");
+    svgIcon.classList.add("icon-twitter");
+    svgIcon.setAttribute("viewBox", "0 0 30 32");
+
+    const icon = document.createElementNS("http://www.w3.org/2000/svg", "use");
+    icon.setAttribute("href", baseUrl + "/img/sprites/sprites.svg#icon-twitter");
+    svgIcon.append(icon);
+    twitterLink.append(svgIcon);
+
+    return twitterLink;
+
+}
+
+function normalizeTwitter(handle) {
+    if ( handle.startsWith("@") ) {
+        return handle.substring(1);
+    }
+    
+    if ( handle.startsWith("http") ) {
+        var parts = handle.split("/");
+        return parts.at(-1);
+    }
+
+    return handle;
+}
+
+function backfillSpeakerPronouns(speaker, element) {
+    var categoryPronounsId = 75424;
+    for ( var i=0; i<speaker.categories.length; i++ ) {
+        if ( speaker.categories[i].id === categoryPronounsId ) {
+            for ( var x=0; x<speaker.categories[i].categoryItems.length; x++ ) {
+                var pronouns = speaker.categories[i].categoryItems[x].name;
+                if ( pronouns != null ) {
+                    element.innerText = "Pronouns: " + pronouns;
+                }
+            }
+        }
+    }
+}
+
+function backfillSpeakerSocial(speaker, tagLineElement, baseUrl) {
+    var socialMediaQuestionId = 75843;
+    var socialMediaTwitter = "Twitter/X";
+
+    for (var i=0; i<speaker.questionAnswers.length; i++) {
+        if ( speaker.questionAnswers[i].id === socialMediaQuestionId ) {
+            if ( speaker.questionAnswers[i].question === "Twitter/X" ) {
+                var twitterHandle = speaker.questionAnswers[i].answer;
+                if ( twitterHandle != null ) {
+                    var twitter = getTwitterIcon(twitterHandle, baseUrl);
+                    tagLineElement.append(twitter);
+                }
+            }
+        }
+    }
+
+}
+
 function backfillSpeakerDetails(speakers, baseUrl) {
     for (var i=0; i<speakers.length; i++) {
         /*
@@ -478,10 +504,17 @@ function backfillSpeakerDetails(speakers, baseUrl) {
         waitForElm("#speakerTagLine-" + speakers[i].id, speakers[i]).then((result) => {
             var [element, speaker] = result;
             element.innerText = speaker.tagLine;
+            backfillSpeakerSocial(speaker, element, baseUrl);
         });
+
         waitForElm("#speakerBio-" + speakers[i].id, speakers[i]).then((result) => {
             var [element, speaker] = result;
             element.innerText = speaker.bio;
+        });
+
+        waitForElm("#speakerPronouns-" + speakers[i].id, speakers[i]).then((result) => {
+            var [element, speaker] = result;
+            backfillSpeakerPronouns(speaker, element);
         });
     }
 }

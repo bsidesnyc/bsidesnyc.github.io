@@ -6345,24 +6345,24 @@ nav li a.current,nav li a:hover {
         border-right-style: solid;
         border-right-color: #ccc
     }
-    .slot-content.tech-blue{
-        border-right-color: #0000ff
+    .slot-content.tech-blue {
+        border-right-color: #0000ff /* Blue */ 
+    }
+
+    .slot-content.tech-red {
+        border-right-color: #ff0000 /* Red */
     }
 
     .slot-content.tech-other {
-        border-right-color: #ff0000
-    }
-
-    .slot-content.tech-other {
-        border-right-color: #ffa500
+        border-right-color: #ffa500 /* Orange */
     }
 
     .slot-content.entrepreneur {
-        border-right-color: #00ff00
+        border-right-color: #00ff00 /* Lime */
     }
 
     .slot-content.workshop {
-        border-right-color: #ffc0cb
+        border-right-color: #ffc0cb /* Pink */
     }
 
 
