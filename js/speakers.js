@@ -54,6 +54,7 @@ function addSpeakerToList(speaker, sessions, rooms) {
     effectWrapper.classList.add("col-md-4");
     effectWrapper.classList.add("col-sm-6");
     effectWrapper.classList.add("col-xs-12");
+    effectWrapper.classList.add("text-right");
 
     var lilyEffect = document.createElement("div");
     lilyEffect.classList.add("lily-effect");
@@ -61,13 +62,21 @@ function addSpeakerToList(speaker, sessions, rooms) {
 
     var lilyHeader = document.createElement("div");
     lilyHeader.classList.add("lily-head");
+    lilyHeader.classList.add("lily-head-dark");
+    lilyHeader.classList.add("waves-effect");
+    lilyHeader.classList.add("waves-block");
+    lilyHeader.classList.add("waves-light");
     lilyHeader.setAttribute("data-toggle", "modal");
     lilyHeader.setAttribute("data-target", "#speakerDetail-" + speaker.id );
 
     var speakerHeadshot = document.createElement("figure");
+    /*
     speakerHeadshot.classList.add("waves-effect");
     speakerHeadshot.classList.add("waves-block");
     speakerHeadshot.classList.add("waves-light");
+    */
+    speakerHeadshot.classList.add("figure-circle");
+    speakerHeadshot.classList.add("img-circle");
     if ( speaker.profilePicture != null ) {
         speakerHeadshot.setAttribute("style", "background-image: url(" + speaker.profilePicture + ")");
     }
@@ -160,7 +169,12 @@ function addSpeakerSessionToModal(speaker, sessions, rooms, modalBody) {
                         var caption = document.createElement("span");
                         caption.classList.add("caption");
                         caption.innerText = "Track: ";
-                        room.append(caption, rooms[y].name);
+                        room.append(caption, getTrackNameAndRoom(rooms[y].name));
+
+                        var captionTime = document.createElement("span");
+                        captionTime.classList.add("caption");
+                        captionTime.innerText = "Time: " + getStartEndString(sessions[x]);
+                        room.append( document.createElement("br"), captionTime);
                         break;
                     }
                 }
@@ -175,52 +189,6 @@ function addSpeakerSessionToModal(speaker, sessions, rooms, modalBody) {
         }
     }
 
-}
-
-function addSpeakerPeopleDetails(speaker, modalBody) {
-    var peopleDetails = document.createElement("div");
-    peopleDetails.classList.add("people-details");
-
-    var row = document.createElement("div");
-    row.classList.add("row");
-
-    var headshot = document.createElement("div");
-    headshot.classList.add("col-md-2");
-    headshot.classList.add("col-sm-2");
-
-    var speakerHeadshot = document.createElement("div");
-    speakerHeadshot.classList.add("flow-img");
-    speakerHeadshot.classList.add("img-circle");
-    speakerHeadshot.classList.add("people-img");
-    if ( speaker.profilePicture != null ) {
-        speakerHeadshot.setAttribute("style", "background-image: url(" + speaker.profilePicture + ")");
-    }
-    headshot.append(speakerHeadshot);
-    row.append(headshot);
-
-    var details = document.createElement("div");
-    details.classList.add("col-md-10")
-    details.classList.add("col-sm-10")
-    details.classList.add("details")
-    
-    var name = document.createElement("p");
-    name.classList.add("name");
-    name.innerText = speaker.fullName;
-
-    var tagline = document.createElement("span");
-    tagline.classList.add("position");
-    tagline.innerText = speaker.tagLine;
-    name.append(tagline);
-    details.append(name);
-
-    var bio = document.createElement("p");
-    bio.classList.add("about");
-    bio.innerText = speaker.bio;
-    details.append(bio);
-    row.append(details);
-
-    peopleDetails.append(row);
-    modalBody.append(peopleDetails);
 }
 
 function addSpeakerToModal(speaker, sessions, rooms, baseUrl) {
@@ -268,7 +236,7 @@ function addSpeakerToModal(speaker, sessions, rooms, baseUrl) {
     modalBody.append(close);
 
     addSpeakerSessionToModal(speaker, sessions, rooms, modalBody);
-    addSpeakerPeopleDetails(speaker, modalBody);
+    addSpeakerToSessionModal(speaker.id, speaker.fullName, modalBody, baseUrl);
 
     modalContent.append(modalBody);
     modalDialog.append(modalContent);
@@ -285,5 +253,3 @@ function populateSpeakers(allData, baseUrl) {
     }
     sliderHandlers();
 }
-
-

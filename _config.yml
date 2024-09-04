@@ -72,12 +72,12 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 #-----------------------------------------------
 navigationLinks:
  - {permalink: "/venue/", text: "Venue"}
+ - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/sponsors/", text: "Sponsors"}
  - {permalink: "/cfp/", text: "CFP"}
  - {permalink: "/about/", text: "About"}
-# - {permalink: "/schedule/", text: "Schedule"}
 bottomNavigationLinks:
 rightNavigationButtons:
 
@@ -302,4 +302,5 @@ twitterFeed: ""
 sessionizeJsonSpeakerList: https://sessionize.com/api/v2/1kzdzu2h/view/Speakers
 sessionizeJsonSessionList: https://sessionize.com/api/v2/1kzdzu2h/view/Sessions
 sessionizeJsonAllData: https://sessionize.com/api/v2/1kzdzu2h/view/All
+# Important: Select "Use UTC timezone for schedule" for the schedule grid in sessionize
 sessionizeJsonScheduleGrid: https://sessionize.com/api/v2/1kzdzu2h/view/GridSmart
