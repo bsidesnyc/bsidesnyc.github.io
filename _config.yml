@@ -32,6 +32,7 @@ previousSponsorCount: "22"
 previousAttendeeCount: "800"
 logoImage: "/about/logo_white.png"
 #logoImageHead: "/about/logo_black.png"
+checkinMessage: "General attendee check-in opens at 8:30am ET. Speakers, sponsors, villages, CTF organizers are welcome to come early at 8:00am ET to give extra time for set up."
 
 #-----------------------------------------------
 # Footer
@@ -73,6 +74,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 navigationLinks:
  - {permalink: "/venue/", text: "Venue"}
  - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/sponsors/", text: "Sponsors"}
