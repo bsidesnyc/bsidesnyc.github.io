@@ -1,0 +1,30 @@
+<!-- Begin Villages About Section -->
+<section id="villages" class="villages">
+    <div class="content-wrapper">
+        <div class="col-lg-6 col-lg-offset-3 col-xs-12">
+            <h3>Villages</h3>
+
+            {% for village in site.villages %}
+            <div class="row villages-row">
+                <div class="col-lg-4 villages-img-wrapper">
+                    <a href="{{ village.url }}" class="villages-img-wrapper">
+                        <img class="img-responsive" src="{{ site.baseurl }}/img/villages/{{ village.logo }}">
+                    </a>
+                    {% if village.url %}
+                    <a class="villages-url text-left" href="{{ village.url }}">Learn More</a>
+                    {% endif %}
+                </div>
+                <div class="col-lg-8 text-left">
+                    <h4 class="village-title">{{ village.title }}</h4>
+                    {% if village.handson %}
+                    <p class="villages-label villages-label-info">Hands On</p>
+                    {% endif %}
+                    <p class="village-text">{{ village.description }}</p>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</section>
+<!-- End Villages About Section -->

@@ -4969,6 +4969,43 @@ nav li a.current,nav li a:hover {
     font-size: 16px
 }
 
+.villages-img-wrapper {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.villages-img-wrapper a img {
+    max-width: 250px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.villages-row {
+    margin-bottom: 10% 
+}
+
+.villages-url {
+    margin-top: 5% 
+}
+
+.villages-label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.villages-label-info {
+    background-color: #5bc0de;
+}
+
 .hackathon-row {
     margin-bottom: 90px
 }
