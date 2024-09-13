@@ -5,6 +5,12 @@
             <h3>Villages</h3>
 
             {% for village in site.villages %}
+            <div class="row villages-row hidden-lg hidden-md">
+                <div class="col-xs-12">
+                    <h4 class="village-title">{{ village.title }}</h4>
+                </div>
+                
+            </div>
             <div class="row villages-row">
                 <div class="col-lg-4 villages-img-wrapper">
                     <a href="{{ village.url }}" class="villages-img-wrapper">
@@ -14,8 +20,8 @@
                     <a class="villages-url text-left" href="{{ village.url }}">Learn More</a>
                     {% endif %}
                 </div>
-                <div class="col-lg-8 text-left">
-                    <h4 class="village-title">{{ village.title }}</h4>
+                <div class="col-lg-8 text-left-xs-center">
+                    <h4 class="village-title hidden-xs">{{ village.title }}</h4>
                     {% if village.handson %}
                     <p class="villages-label villages-label-info">Hands On</p>
                     {% endif %}
