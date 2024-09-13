@@ -394,14 +394,14 @@ function createSessionModal(modalSectionId, sessionId, sessionTitle, sessionDesc
 }
 var waitForElm = function (selector, speaker) {
     return new Promise(resolve => {
-        if (document.querySelector(selector)) {
-            return resolve([document.querySelector(selector), speaker]);
+        if (document.querySelectorAll(selector).length > 0) {
+            return resolve([document.querySelectorAll(selector), speaker]);
         }
 
         const observer = new MutationObserver(mutations => {
-            if (document.querySelector(selector)) {
+            if (document.querySelectorAll(selector).length > 0) {
                 observer.disconnect();
-                resolve([document.querySelector(selector), speaker]);
+                resolve([document.querySelectorAll(selector), speaker]);
             }
         });
 
@@ -482,39 +482,51 @@ function backfillSpeakerDetails(speakers, baseUrl) {
          * Backfill items on the schedule first
          */
         waitForElm("#speakerImage-" + speakers[i].id, speakers[i]).then((result) => {
-            var [element, speaker] = result;
-            if ( speaker.profilePicture != null ) {
-                element.setAttribute("style", "background-image: url(" + speaker.profilePicture + ")");
+            var [elements, speaker] = result;
+            for (var i=0; i<elements.length; i++ ) {
+                if ( speaker.profilePicture != null ) {
+                    elements[i].setAttribute("style", "background-image: url(" + speaker.profilePicture + ")");
+                }
             }
         });
         waitForElm("#speakerPosition-" + speakers[i].id, speakers[i]).then((result) => {
-            var [element, speaker] = result;
-            element.innerText = speaker.tagLine;
+            var [elements, speaker] = result;
+            for (var i=0; i<elements.length; i++ ) {
+                elements[i].innerText = speaker.tagLine;
+            }
         });
 
         /* 
          * Backfill items on the modals
          */
         waitForElm("#speakerProfileUrl-" + speakers[i].id, speakers[i]).then((result) => {
-            var [element, speaker] = result;
-            if ( speaker.profilePicture != null ) {
-                element.setAttribute("style", "background-image: url(" + speaker.profilePicture + ")");
+            var [elements, speaker] = result;
+            for (var i=0; i<elements.length; i++ ) {
+                if ( speaker.profilePicture != null ) {
+                    elements[i].setAttribute("style", "background-image: url(" + speaker.profilePicture + ")");
+                }
             }
         });
         waitForElm("#speakerTagLine-" + speakers[i].id, speakers[i]).then((result) => {
-            var [element, speaker] = result;
-            element.innerText = speaker.tagLine;
-            backfillSpeakerSocial(speaker, element, baseUrl);
+            var [elements, speaker] = result;
+            for (var i=0; i<elements.length; i++ ) {
+                elements[i].innerText = speaker.tagLine;
+                backfillSpeakerSocial(speaker, elements[i], baseUrl);
+            }
         });
 
         waitForElm("#speakerBio-" + speakers[i].id, speakers[i]).then((result) => {
-            var [element, speaker] = result;
-            element.innerText = speaker.bio;
+            var [elements, speaker] = result;
+            for (var i=0; i<elements.length; i++ ) {
+                elements[i].innerText = speaker.bio;
+            }
         });
 
         waitForElm("#speakerPronouns-" + speakers[i].id, speakers[i]).then((result) => {
-            var [element, speaker] = result;
-            backfillSpeakerPronouns(speaker, element);
+            var [elements, speaker] = result;
+            for (var i=0; i<elements.length; i++ ) {
+                backfillSpeakerPronouns(speaker, elements[i]);
+            }
         });
     }
 }
