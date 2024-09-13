@@ -9,6 +9,7 @@ function scheduleBuilder(endpoint, baseUrl, target) {
         if ( oReq.readyState === XMLHttpRequest.DONE ) {
             if ( oReq.status === 200 ) {
                 var result = JSON.parse(oReq.responseText);
+                console.log(result);
                 if ( target === "speakerBackfill" ) {
                     backfillSpeakerDetails(result, baseUrl);
                 } else {
@@ -431,6 +432,36 @@ function getTwitterIcon(handle, baseUrl) {
 
 }
 
+function isValidUrl(userInput) {
+    try {
+        new URL(userInput);
+        return true;
+    } catch (error) {
+        return false;
+    }
+}
+
+function getLinkedInIcon(url, baseUrl) {
+    if ( ! isValidUrl(url) ) {
+        console.log("Invalid LinkedIn URL: " + url)
+        return null
+    }
+    var link = document.createElement("a");
+    link.href = url;
+
+    const svgIcon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svgIcon.classList.add("icon");
+    svgIcon.classList.add("icon-twitter");
+    svgIcon.setAttribute("viewBox", "0 0 30 32");
+
+    const icon = document.createElementNS("http://www.w3.org/2000/svg", "use");
+    icon.setAttribute("href", baseUrl + "/img/sprites/sprites.svg#icon-linkedin");
+    svgIcon.append(icon);
+    link.append(svgIcon);
+
+    return link;
+}
+
 function normalizeTwitter(handle) {
     if ( handle.startsWith("@") ) {
         return handle.substring(1);
@@ -459,6 +490,9 @@ function backfillSpeakerPronouns(speaker, element) {
 }
 
 function backfillSpeakerSocial(speaker, tagLineElement, baseUrl) {
+    /*
+     * Twitter 
+     */
     var socialMediaQuestionId = 75843;
     var socialMediaTwitter = "Twitter/X";
 
@@ -473,6 +507,18 @@ function backfillSpeakerSocial(speaker, tagLineElement, baseUrl) {
             }
         }
     }
+
+    /* 
+     * LinkedIn
+     */
+    for (var i=0; i<speaker.links.length; i++) {
+        if ( speaker.links[i].linkType === "LinkedIn" ) {
+            var linkedIn = getLinkedInIcon(speaker.links[i].url, baseUrl);
+            tagLineElement.append(linkedIn);
+        }
+    }
+
+    
 
 }
 
