@@ -3,6 +3,8 @@
   elements:
     - {name: "Deepfactor", description: "Deepfactor", link: "https://www.deepfactor.io/", imageUrl: "deepfactorLogo.svg"}
     - {name: "DropzoneAI", description: "DropzoneAI", link: "https://www.dropzone.ai/", imageUrl: "dropzoneLogo.svg"}
+    - {name: "Myrror", description: "Myrror", link: "https://www.myrror.security/", imageUrl: "myrrorLogo.svg"}
+    - {name: "Nullify", description: "Nullify", link: "https://www.nullify.ai/", imageUrl: "nullifyLogo.svg"}
     - {name: "Permiso", description: "Permiso", link: "https://www.permiso.io/", imageUrl: "permisoLogo.svg"}
     - {name: "Pixee", description: "Pixee", link: "https://www.pixee.ai/", imageUrl: "pixeeLogo.png"}
     - {name: "Tigera", description: "Tigera", link: "https://www.tigera.io/", imageUrl: "tigeraLogo.png"}
