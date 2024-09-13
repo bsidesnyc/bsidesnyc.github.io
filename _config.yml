@@ -32,6 +32,7 @@ previousSponsorCount: "22"
 previousAttendeeCount: "800"
 logoImage: "/about/logo_white.png"
 #logoImageHead: "/about/logo_black.png"
+checkinMessage: "General attendee check-in opens at 8:30am ET. Speakers, sponsors, villages, CTF organizers are welcome to come early at 8:00am ET to give extra time for set up."
 
 #-----------------------------------------------
 # Footer
@@ -73,6 +74,8 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 navigationLinks:
  - {permalink: "/venue/", text: "Venue"}
  - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/villages/", text: "Villages"}
+ - {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/sponsors/", text: "Sponsors"}
@@ -92,9 +95,8 @@ aboutTitle: "About BSidesNYC"
 aboutCaption: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free."
 aboutBlock:
   - {title: "Conference", image: "conference.jpg", text: "Three technical tracks based on the themes of Red Teams, Blue Teams, and Other content. Plus an Entreprenuer track for the bold!" }
-  - {title: "Workshops", image: "workshops.jpg", text: "Hands-on workshops for attendees to develop real world skills" }
-  - {title: "Capture The Flag", image: "ctf.jpg", text: "Multiple CTFs with varying levels of technical depth." }
   - {title: "Villages", image: "villages.jpg", text: "Learn how to lockpick, solder, and about local community-driven organizations." }
+  - {title: "Capture The Flag", image: "ctf.jpg", text: "Multiple CTFs with varying levels of technical depth." }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -136,18 +138,37 @@ cfpProcessAcceptedText: ["Acceptance notice go out over a month ahead of the con
 villagesAboutTitle: "About Villages"
 villagesTitle: "BSidesNYC 2023 Villages"
 villagesUrl: "/villages/"
-villagesBlock:
- - {title: "What's a Village?", image: "bsides_village.jfif", text: "Villages are open spaces divided up by topic that host hands-on activities, demos, and workshops throughout the conference. They are generally less formal than the standard tracks and offer an alternative learning environment from the straight talk/lecture structure. They're also a great place to socialize and make contacts in the community!" }
- - {title: "Host a Village!", image: "stormtrooper.jpg", subtitle: "Interested in hosting a Village at BsidesNYC? Awesome! Please email us at ", text: "Here are a few things you should know:", villagesCfvBullets: [
- "Villages are expected to run throughout the conference and need to be staffed appropriately (let us know if you need help with this).",
- "Villages should generally include hands-on events and activities, workshops, demos, etc., and should not be just another speaking track.",
- "Space is limited - use it wisely!"] }
-
-
-#villagesCfvText: "I"
-#villagesCfvBullets: ["Villages hours of operation should match con hours","We are looking for Villages with hands on events and activities, workshops, AMA's with experts, walkthroughs, etc. Not speaking tracks all weekend","Space & Stages are limited, and the one thing we cannot easily make more of. You will need to use your space wisely.",]
-#villagesOverviewText: ""
-
+villages:
+  - title: "NYC Resistor"
+    url: "https://www.nycresistor.com"
+    logo: "nycresistor.png"
+    handson: true
+    description: "We Learn, Share, and Make things. NYC Resistor is a hacker collective with a shared space located in Boerum Hill, Brooklyn. We meet regularly to share knowledge, hack on projects together, and build community."
+  - title: "Industrial Control System (ICS) Village"
+    url: "https://www.icsvillage.com/"
+    logo: "ics.png"
+    handson: true
+    description: "We bring you real components such as programmable logic controllers (PLC), human-machine interfaces (HMI), remote telemetry units (RTU), and actuators to simulate a realistic environment by using commonly used components throughout different industrial sectors. You will be able to connect your machine to the different industrial components and networks and try to assess these ICS devices with common security scanners to sniff the industrial traffic, and more!"
+  - title: "Aerospace Village"
+    url: "https://www.aerospacevillage.org/"
+    logo: "aerospace.svg"
+    handson: true
+    description: "The Aerospace Village is a diverse community of hackers, engineers, pilots, policy leaders and more from across both the public and private sectors. We believe the flying public deserves safe, reliable, and trustworthy air travel, which is highly dependent on secure aviation and space operations."
+  - title: "Blacks In Cybersecurity™"
+    url: "https://www.blacksincyberconf.com/"
+    logo: "bic.png"
+    handson: false 
+    description: "Blacks In Cybersecurity™ is a meetup group and conference series to help highlight and elevate the Black community in Cybersecurity. The official mission of Blacks In Cybersecurity™ (BIC) is to encourage the participation of the Black community in Cybersecurity."
+  - title: "Women's Society of Cyberjutsu"
+    url: "https://womenscyberjutsu.org/"
+    logo: "cyberjutsu.png"
+    handson: false
+    description: "Women’s Society of Cyberjutsu (WSC) is a National 501(c)3 non-profit community, focused on empowering women to succeed in the cybersecurity industry. WSC’s mission is to advance women in cybersecurity careers by providing programs and partnerships that promote hands-on training, networking, education, mentoring, resource-sharing and other professional opportunities."
+  - title: "The Diana Initiative"
+    url: "https://www.dianainitiative.org/"
+    logo: "diana.jpg"
+    handson: false
+    description: "The Diana Initiative is a diversity-driven conference committed to helping all underrepresented people in Information Security. The Diana Initiative features multiple speaker tracks, capture-the-flag competitions, villages with hands-on activities, and workshops."
 #-----------------------------------------------
 # Contact
 #-----------------------------------------------
@@ -304,3 +325,4 @@ sessionizeJsonSessionList: https://sessionize.com/api/v2/1kzdzu2h/view/Sessions
 sessionizeJsonAllData: https://sessionize.com/api/v2/1kzdzu2h/view/All
 # Important: Select "Use UTC timezone for schedule" for the schedule grid in sessionize
 sessionizeJsonScheduleGrid: https://sessionize.com/api/v2/1kzdzu2h/view/GridSmart
+

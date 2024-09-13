@@ -369,6 +369,9 @@ mark,.mark {
 .text-left {
     text-align: left
 }
+.text-left-xs-center {
+    text-align: left
+}
 
 .text-right {
     text-align: right
@@ -3361,6 +3364,138 @@ nav li a.current,nav li a:hover {
     margin: 0 auto
 }
 
+.ctf-col {
+    overflow: hidden;
+    margin-bottom: 26px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    border: 1px #ddd solid;
+    /* border-right: none */
+}
+
+.ctf-col:last-child {
+    border-right: 1px #ddd solid;
+    border-left: none
+}
+
+.ctf-col.ctf-col-featured {
+    top: -27px
+}
+
+.ctf-col.ctf-col-featured:not(:first-child) {
+    margin-left: 0;
+    border: solid 1px #4285f4
+}
+
+.ctf-col.ctf-col-featured .ctf-ribbon {
+    background: #4285f4
+}
+
+.ctf-col.ctf-col-featured .title {
+    margin-bottom: 33px
+}
+
+.ctf-col.ctf-col-featured .price {
+    margin-bottom: 30px;
+    color: #4285f4
+}
+
+.ctf-col.ctf-col-featured .ctf-content {
+    padding-top: 2px
+}
+
+.ctf-col.ctf-col-featured .button {
+    margin-top: 45px;
+    background: #4285f4
+}
+
+.ctf-col.ctf-col-featured .button:hover {
+    background: #3266d5
+}
+
+.ctf-col.ctf-col-featured .button.disabled:hover {
+    background: #4285f4
+}
+
+.ctf-col .title {
+    font-size: 32px;
+    font-weight: 100;
+    margin: 0;
+    padding: 20px 0;
+    background: #f2f2f2
+}
+
+.ctf-col .price {
+    margin: 30px 0 10px;
+    padding: 26px 0;
+    font-size: 65px;
+    font-weight: 100;
+    color: #000
+}
+
+.ctf-col .currency {
+    font-size: 32px
+}
+
+.ctf-col .button {
+    font-size: 32px;
+    display: block;
+    margin-top: 30px;
+    padding: 7px 25px 10px;
+    color: #fff;
+    background: #333;
+    font-weight: 100;
+    text-decoration: none
+}
+
+.ctf-col .button:hover {
+    background: #4d4d4d
+}
+
+.ctf-col .button.disabled:hover {
+    background: #333
+}
+
+.ctf-col .button.fallback {
+    font-size: 18px;
+    line-height: 1.4
+}
+
+.ctf-col .ctf-ribbon {
+    position: absolute;
+    top: 10px;
+    right: -45px;
+    padding: 5px 50px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: #fff;
+    background: #333
+}
+
+.ctf-content {
+    font-weight: 300
+}
+
+.ctf-content ul {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 0
+}
+
+.ctf-content li {
+    padding: 16px 0;
+    list-style: none;
+    border-bottom: solid 1px #ddd
+}
+
+.ctf-content li:last-child {
+    border-bottom: none
+}
+
 .pricing-col {
     overflow: hidden;
     margin-bottom: 26px;
@@ -4794,6 +4929,86 @@ nav li a.current,nav li a:hover {
     margin-top: 15px
 }
 
+.ctf-row {
+    margin-bottom: 90px
+}
+
+.ctf-row .ctf-img-wrapper {
+    justify-content: center;
+
+}
+
+.ctf-row.float-right .ctf-img-wrapper {
+    float: right
+}
+
+.ctf-row.float-right .ctf-details {
+    text-align: right;
+    margin-left: 0;
+    margin-right: 300px
+}
+
+.ctf-row-logo {
+    margin-bottom: 45px;
+}
+
+.ctf-img-wrapper {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.ctf-img-wrapper img {
+    max-width: 250px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.ctf-details {
+    /* text-align: left; */
+    /* margin-left: 300px */
+}
+
+.ctf-details p {
+    font-size: 16px
+}
+
+.villages-img-wrapper {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.villages-img-wrapper a img {
+    max-width: 250px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.villages-row {
+    margin-bottom: 10% 
+}
+
+.villages-url {
+    margin-top: 5% 
+}
+
+.villages-label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.villages-label-info {
+    background-color: #5bc0de;
+}
+
 .hackathon-row {
     margin-bottom: 90px
 }
@@ -4864,7 +5079,7 @@ nav li a.current,nav li a:hover {
 
 .prize-img-wrapper img {
     max-width: 250px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .hackathon-location {
@@ -6409,6 +6624,9 @@ nav li a.current,nav li a:hover {
 
     .prize-img-wrapper img {
         max-width: 110px
+    }
+    .text-left-xs-center {
+        text-align: center;
     }
 }
 
