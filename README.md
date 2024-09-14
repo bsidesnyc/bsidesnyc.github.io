@@ -1,4 +1,4 @@
-# Website for BSidesNYC
+# Website for BSidesNYC 
 
 - template : https://github.com/gdg-x/zeppelin
 - additional stock images are from Google Images, [unsplash](https://unsplash.com) & [pixabay](https://pixabay.com)
