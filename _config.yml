@@ -263,7 +263,7 @@ subscribeInfo: "^^^ Please ignore this message above from our mailing list provi
 #-----------------------------------------------
 # flip this to make a quick change whether we have tickets open or closed
 ticketsOpen: false
-ticketsOpenDate: "September 15, 2024 8:00:00"
+ticketsOpenDate: "September 15, 2024 8:00:00 PM"
 ticketsText: "Unable to expense other, costly conferences?
 
 No worries, at BSidesNYC we strive to make the cost of attendance minimal."
