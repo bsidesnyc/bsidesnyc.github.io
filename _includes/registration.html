@@ -18,10 +18,11 @@
 	<h5>Ticket sales open on {{ next_ticket_open }}.</h5>
       {% else %}
           <div class="content-wrapper text-left text-justify">
-                <p>Want to attend our awesome conference? Use this link to
+		<center><h5>{{ site.priceInfo }}</h5></center>
+                <p>
                   {% for button in site.ticketsButtons %}
                     {% if button.id == "tickets_button_external" %}
-                      <a href="{{ button.link }}" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">{{ button.text }}</a>
+                      <center><a href="{{ button.link }}" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank"><h4>{{ button.text }}</h4></a></center>
                     {% endif %}
                   {% endfor %}
                 </p>

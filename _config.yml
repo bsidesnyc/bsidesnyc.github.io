@@ -263,7 +263,7 @@ subscribeInfo: "^^^ Please ignore this message above from our mailing list provi
 #-----------------------------------------------
 # flip this to make a quick change whether we have tickets open or closed
 ticketsOpen: false
-ticketsOpenDate: "September 15, 2024 8:00:00 PM"
+ticketsOpenDate: "September 15, 2024 20:00:00"
 ticketsText: "Unable to expense other, costly conferences?
 
 No worries, at BSidesNYC we strive to make the cost of attendance minimal."
@@ -272,8 +272,8 @@ ticketsUpdateText: "Aw snap - looks like all of our tickets were snatched up! St
 #ticketsNextReleaseText: "Didn't get a ticket during our first round? No need to pout - revisit this page for our next round of tickets on "
 # add EventBrite URL to `link` when `ticketsOpen` is set to `true`
 ticketsButtons:
- - {link: "https://bsidesnyc.eventbrite.com", text: "Get Tickets!", id: "tickets_button_external"}
-priceInfo: 'Tickets will cost $15+fees. If you register with a .edu email address AND check in at the conference, the $15 (not the fees) will be refunded automatically by mid-May.'
+ - {link: "https://www.ticketleap.events/tickets/bsidesnyc/bsidesnyc-0x04", text: "Get Tickets!", id: "tickets_button_external"}
+priceInfo: 'Tickets are FREE! If you want to support the conference, you can donate when you register for your ticket.'
 
 #-----------------------------------------------
 # Venue
