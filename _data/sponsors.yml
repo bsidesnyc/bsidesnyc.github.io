@@ -17,6 +17,7 @@
     - {name: "Breez", description: "Breez", link: "https://breezsecurity.io/", imageUrl: "breezLogo.png"}
     - {name: "Impart", description: "Impart", link: "https://www.impart.security/", imageUrl: "impartLogo.svg"}
     - {name: "Jit", description: "Jit", link: "https://www.jit.io/", imageUrl: "jitLogo.png"}
+    - {name: "Opal", description: "Opal", link: "https://opal.dev/", imageUrl: "opalLogo.png"}
     - {name: "Sandfly", description: "Sandfly", link: "https://www.sandflysecurity.com/", imageUrl: "sandflyLogo.svg"}
     - {name: "Splx", description: "Splx", link: "https://www.splx.ai/", imageUrl: "splxaiLogo.svg"}
     - {name: "Stellar", description: "Stellar", link: "https://stellarcyber.ai/", imageUrl: "stellarLogo.png"}
