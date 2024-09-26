@@ -13,8 +13,11 @@
 -
   group: "Megabit Sponsors"
   elements:
+    - {name: "Airmdr", description: "Airmdr", link: "https://airmdr.com/", imageUrl: "airmdrLogo.svg"}
     - {name: "Akto", description: "Akto", link: "https://www.akto.io/", imageUrl: "aktoLogo.svg"}
     - {name: "Breez", description: "Breez", link: "https://breezsecurity.io/", imageUrl: "breezLogo.png"}
+    - {name: "Bright", description: "Bright", link: "https://brightsec.com/", imageUrl: "brightLogo.svg"}
+    - {name: "Hunters", description: "Hunters", link: "https://www.hunters.security/", imageUrl: "huntersLogo.svg"}
     - {name: "Impart", description: "Impart", link: "https://www.impart.security/", imageUrl: "impartLogo.svg"}
     - {name: "Jit", description: "Jit", link: "https://www.jit.io/", imageUrl: "jitLogo.png"}
     - {name: "Opal", description: "Opal", link: "https://opal.dev/", imageUrl: "opalLogo.png"}
