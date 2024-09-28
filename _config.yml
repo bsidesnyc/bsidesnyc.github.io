@@ -302,19 +302,52 @@ volunteersTitle: "Want to Volunteer?"
 volunteersSlackUrl: https://join.slack.com/t/bsidesnyc/shared_invite/zt-2g5pte0rr-apFan_yKvoAWMHF_OM67IA
 volunteersSubscribeTitle: "Join the Team"
 
-
 #-----------------------------------------------
-# Food Trucks
+# CTF 
 #-----------------------------------------------
-foodtruckBlurb: "Food Trucks are outside on the north west portion of W58th Street between 10th and 11th Avenues"
-foodtruckCoordinates: 40.7709122,-73.9899159
-foodtruckStreetAddress: 40.770603, -73.989948
-foodtruckLocality: New York, NY
-foodtruckButtonText: View Map
-foodtruck1Name: Wraps and Kebabs
-foodtruck1Description: Wraps & Kebabs food truck is the first & only Halal Authentic Egyptian food truck in NYC
-foodtruck2Name: Stuf’d
-foodtruck2Description: Gourmet Street Eats, sandwiches and grilled cheese.
+ctfHeader: Game On! 
+ctfHeaderMessage: We are so excited to offer multiple Capture The Flag (CTF) competitions. Play one or play them all! All CTFs require a laptop and have both offensive and defensive challenges.
+ctfHeaderMessageFloor: Visit the CTF on the 9th floor
+# Really we don't want an odd number of CTFs. If we have odd, it'll look a little strange 
+# on the desktop version
+ctfs:
+  #
+  # CTFd 
+  #
+  - logo: ctfd.svg
+    header: Play Whenever
+    features:
+      - Jeopardy-Style CTF
+      - Reverse engineering, vulnerable web applications, and more
+      - Play all day or casually pick up a challenge
+      - Individual or team-based
+      - Compare your progress against others on leaderboard
+    registration: # No more than 2 registration buttons
+      - url: https://ctfd.io
+        disabled: true 
+        title: Register Now
+    registrationMessage: Registration opens day of event
+    url: https://ctfd.io
+  #
+  # Pros Vs Joes
+  #
+  - logo: PvJlogo.png 
+    header: Full Day Event
+    features:
+      - Register before BSidesNYC to participate
+      - Offensive vs Defensive Style CTF
+      - Team based activities
+      - "\"Joes\" learn and face challenges"
+      - "\"Pros\" flex their skills and help the Joes"
+    registration: # No more than 2 registration buttons
+      - url: https://forms.gle/68pwNwQARzPMuMjY7 
+        disabled: false
+        title: Pro Registration 
+      - url: https://forms.gle/MaHcxPg9nZPDv98X9 
+        disabled: false
+        title: Joe Registration
+    registrationMessage: 
+    url: http://prosversusjoes.net/
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
