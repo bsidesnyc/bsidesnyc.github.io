@@ -391,6 +391,21 @@ function populateSchedule(scheduleGrid, baseUrl) {
     sessionizeSchedule(scheduleGrid, baseUrl);
 }
 
+function getSessionLevel(session) {
+    var categoryLevelId = 75411;
+    for ( var i=0; i<session.categories.length; i++ ) {
+        if ( session.categories[i].id === categoryLevelId ) {
+            for ( var x=0; x<session.categories[i].categoryItems.length; x++ ) {
+                var level = session.categories[i].categoryItems[x].name;
+                if ( level != null ) {
+                    return level;
+                }
+            }
+        }
+    }
+    return "Not provided - Open to All";
+}
+
 function addSessionToSessionModal(sessionId, sessionTitle, sessionDescription, trackName, session, modalBody) {
     var title = document.createElement("h4");
     title.innerText = sessionTitle;
@@ -408,6 +423,11 @@ function addSessionToSessionModal(sessionId, sessionTitle, sessionDescription, t
     captionTime.classList.add("caption");
     captionTime.innerText = "Time: " + getStartEndString(session);
     room.append( document.createElement("br"), captionTime);
+
+    var level = document.createElement("span");
+    level.classList.add("caption");
+    level.innerText = "Session Level: " + getSessionLevel(session);
+    room.append( document.createElement("br"), level);
     modalBody.append(room);
 
     var description = document.createElement("p");
