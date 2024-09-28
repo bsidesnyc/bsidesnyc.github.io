@@ -233,10 +233,6 @@ directionDetailsCards:
  - {title: "Public Transit", information: "The closest subway station is <b>59 St. - Columbus Circle</b> (A,B,C & D lines). From this stop, it is less than a .5 mile walk."}
  - {title: "Hotels", information: "<a href='https://www.marriott.com/en-us/hotels/nycft-fairfield-inn-and-suites-new-york-manhattan-central-park/overview/'>Fairfield Inn & Suites New York Manhattan/Central Park</a> is right next door."}
 
-# Logistics Venue Map
-venueMapTitle: "Get around John Jay College"
-venueMapImage: "map.png"
-
 #-----------------------------------------------
 # Partners
 #-----------------------------------------------
@@ -283,17 +279,23 @@ priceInfo: 'Tickets are FREE! If you want to support the conference, you can don
 #-----------------------------------------------
 # Venue
 #-----------------------------------------------
-venueBlockTitle: "John Jay College of Criminal Justice"
-venueBlockAddress: "524 W. 59th Street, New York, NY"
-venueImageAtrium: "atrium.jpg"
-venueRoomImage1: "240.jpg"
-venueRoomImage2: "L615.jpg"
-venueRoomImage3: "L763.jpg"
-venueRoomImage4: "bsidesnyc-johnjay-moot.jpg"
-venueTitle: "John Jay College of Criminal Justice"
-venueFeatures: ["Guest Wi-Fi will be available." ]
-venueRooms:
-  - {id: "0", name: "Lynn & Jules Kroll Atrium", image: "atrium.jpg", link: "http://www.locationsnewyorkcity.com/mainlocation/lynn-jules-kroll-atrium/"}
+venueTitle: John Jay College of Criminal Justice
+venueAddress: 524 W. 59th Street, New York, NY
+venuePhotosPrimary: atrium.jpg
+venuePhotosSecondary:
+  - 240.jpg
+  - L615.jpg
+  - L763.jpg
+venueMapsIntro: "Tracks are split across multiple floors. You'll enter and register on the Ground floor where the Red Track (L.63), Keynote (L.63), and Entrepreneur Track (L.61) are. Go down via stairs or elevator to Lower Level (L2) for the Blue Track (L2.84) and Other Track (L2.85). Go up via elevator to the 6th Floor for the Villages (Moot Court) and to the 9th for CTF."
+venueFloorMaps:
+  - name: Ground Floor (L)
+    image: bsidesnyc-johnjay-ground-floor.png
+  - name: Lower Level (L2)
+    image: bsidesnyc-johnjay-L2.png
+  - name: 6th Floor
+    image: bsidesnyc-johnjay-6th.png
+  - name: 9th Floor
+    image: bsidesnyc-johnjay-9th.png
 
 #-----------------------------------------------
 # Volunteers
@@ -302,19 +304,52 @@ volunteersTitle: "Want to Volunteer?"
 volunteersSlackUrl: https://join.slack.com/t/bsidesnyc/shared_invite/zt-2g5pte0rr-apFan_yKvoAWMHF_OM67IA
 volunteersSubscribeTitle: "Join the Team"
 
-
 #-----------------------------------------------
-# Food Trucks
+# CTF 
 #-----------------------------------------------
-foodtruckBlurb: "Food Trucks are outside on the north west portion of W58th Street between 10th and 11th Avenues"
-foodtruckCoordinates: 40.7709122,-73.9899159
-foodtruckStreetAddress: 40.770603, -73.989948
-foodtruckLocality: New York, NY
-foodtruckButtonText: View Map
-foodtruck1Name: Wraps and Kebabs
-foodtruck1Description: Wraps & Kebabs food truck is the first & only Halal Authentic Egyptian food truck in NYC
-foodtruck2Name: Stuf’d
-foodtruck2Description: Gourmet Street Eats, sandwiches and grilled cheese.
+ctfHeader: Game On! 
+ctfHeaderMessage: We are so excited to offer multiple Capture The Flag (CTF) competitions. Play one or play them all! All CTFs require a laptop and have both offensive and defensive challenges.
+ctfHeaderMessageFloor: Visit the CTF on the 9th floor
+# Really we don't want an odd number of CTFs. If we have odd, it'll look a little strange 
+# on the desktop version
+ctfs:
+  #
+  # CTFd 
+  #
+  - logo: ctfd.svg
+    header: Play Whenever
+    features:
+      - Jeopardy-Style CTF
+      - Reverse engineering, vulnerable web applications, and more
+      - Play all day or casually pick up a challenge
+      - Individual or team-based
+      - Compare your progress against others on leaderboard
+    registration: # No more than 2 registration buttons
+      - url: https://ctfd.io
+        disabled: true 
+        title: Register Now
+    registrationMessage: Registration opens day of event
+    url: https://ctfd.io
+  #
+  # Pros Vs Joes
+  #
+  - logo: PvJlogo.png 
+    header: Full Day Event
+    features:
+      - Register before BSidesNYC to participate
+      - Offensive vs Defensive Style CTF
+      - Team based activities
+      - "\"Joes\" learn and face challenges"
+      - "\"Pros\" flex their skills and help the Joes"
+    registration: # No more than 2 registration buttons
+      - url: https://forms.gle/68pwNwQARzPMuMjY7 
+        disabled: false
+        title: Pro Registration 
+      - url: https://forms.gle/MaHcxPg9nZPDv98X9 
+        disabled: false
+        title: Joe Registration
+    registrationMessage: 
+    url: http://prosversusjoes.net/
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"

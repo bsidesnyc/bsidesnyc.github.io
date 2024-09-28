@@ -2,27 +2,23 @@
 <section id="venue">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h4>{{ site.venueBlockTitle }}</h4>
-            <p>{{ site.venueBlockAddress }}</p>
+            <h4>{{ site.venueTitle }}</h4>
+            <p>{{ site.venueAddress }}</p>
             
             <div class="row venue-row">
                 <div class="col-md-8 col-sm-8 venue-col">
                     <div class="venue-elem-wrapper">
-                        <div class="venue-elem image-section venue-big-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl }}/img/venue/{{ site.venueImageAtrium }})"></div>
+                        <div class="venue-elem image-section venue-big-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl }}/img/venue/{{ site.venuePhotosPrimary }})"></div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 venue-col venue-small-col">
+
+                    {% for image in site.venuePhotosSecondary %}
                     <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
-                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="150" style="background-image: url({{ site.baseurl }}/img/venue/{{ site.venueRoomImage1 }})"></div>
+                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="150" style="background-image: url({{ site.baseurl }}/img/venue/{{ image }})"></div>
                     </div>
-                    <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
-                        <div class="venue-elem image-section venume-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl }}/img/venue/{{ site.venueRoomImage4 }})"></div>
-                    <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
-                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl }}/img/venue/{{ site.venueRoomImage3 }})"></div>
-                    </div>
-                    <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
-                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl }}/img/venue/{{ site.venueRoomImage2 }})"></div>
-                    </div>
+                    {% endfor %}
+
                 </div>
             </div>
         </div>

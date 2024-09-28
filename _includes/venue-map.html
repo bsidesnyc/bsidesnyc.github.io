@@ -4,27 +4,19 @@
         <div class="row">
             <div class="col-lg-6 col-lg-offset-3 col-xs-12">
                 <h3>Maps</h3>
-                <p>Tracks are split across multiple floors. You'll enter and register on the Ground floor where the Red Track (L.63), Keynote (L.63), and Entrepreneur Track (L.61) are. Go down via stairs or elevator to Lower Level (L2) for the Blue Track (L2.84) and Other Track (L2.85). Go up via elevator to the 6th Floor for the Villages (Moot Court) and CTF (Quad). </p>
+                <p>{{ site.venueMapsIntro }}</p>
             </div>
         </div>
+
+        {% for map in site.venueFloorMaps %}
         <div class="row">
             <div class="col-lg-6 col-lg-offset-3 col-xs-12">
-                <h4>Ground Floor (L)</h4>
-                <img class="animated venue-map" data-animation="fadeIn" src="/img/venue/bsidesnyc-johnjay-ground-floor.png">
+                <h4>{{ map.name }}</h4>
+                <img class="animated venue-map" data-animation="fadeIn" src="{{ site.baseUrl }}/img/venue/{{ map.image }}">
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-6 col-lg-offset-3 col-xs-12">
-                <h4>Lower Level (L2)</h4>
-                <img class="animated venue-map" data-animation="fadeIn" src="/img/venue/bsidesnyc-johnjay-L2.png">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 col-lg-offset-3 col-xs-12">
-                <h4>6th Floor</h4>
-                <img class="animated venue-map" data-animation="fadeIn" src="/img/venue/bsidesnyc-johnjay-6th.png">
-            </div>
-        </div>
+        {% endfor %}
+
     </div>
 </section>
 <!-- End Venue Section -->
