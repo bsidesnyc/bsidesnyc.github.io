@@ -4175,6 +4175,16 @@ nav li a.current,nav li a:hover {
     color: #717171
 }
 
+.contact-us .card {
+    -webkit-transform: translateY(-125px);
+    -ms-transform: translateY(-125px);
+    transform: translateY(-125px);
+    height: 400px;
+}
+.contact-us .card button {
+    margin-top: 10px;
+}
+
 .direction-details {
     display: inline-block;
     padding: 0;

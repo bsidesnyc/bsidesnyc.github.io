@@ -1,21 +1,43 @@
-<!-- Begin Contact Section -->
-<section id="contact" class="contact">
-  <div class="col-md-8 col-md-offset-2">
-    <h3 class="text-center">{{ site.contactTitle }}</h3>
+<!-- Begin Direction Details-->
+<section id="contact-us" class="contact-us">
     <div class="content-wrapper">
-      <p class="text-left text-justify">
-        {{ site.contactTextTwitter }}
-          <a href="https://twitter.com/{{ site.twitterAccount }}" target="_blank">
-              <svg class="icon icon-twitter" viewBox="0 0 30 32">
-                  <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
-              </svg>
-          </a>
-        {{ site.contactTextEmail}} <a href="mailto:{{ site.email }}">{{ site.email }}</a>. {{ site.contactMailingListText }}
-          <br />
-          <br />
-        {{ site.contactVolunteersMailingListText }}
-      </p>
+        <section class="image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.directionDetailsImage }}');">
+            <h3 class="title-overlay">Contact Us</h3>
+            <div class="overlay solid-overlay"></div>
+        </section>
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-left">
+                <div class="col-md-4 col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="0">
+                    <div class="card">
+                        <h4>Mailing List</h4>
+                        <p>Subscribe to get updates!</p>
+                        <p class="small">We apologize for the minor advertising below, we use a free mailing list provider. We'll only use your email for BSidesNYC announcements. We respect privacy, and don't provide anyone (including sponsors) with this type of information</p>
+                        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+                        <script>
+                            hbspt.forms.create({
+                                region: "na1",
+                                portalId: "44859076",
+                                formId: "f0e1ea4a-4016-4906-abcc-6f18e0778b93"
+                            });
+                        </script>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="0">
+                    <div class="card">
+                        <h4>Slack</h4>
+                        <p>Join the BSidesNYC community. Get updates, connect with peers, ask questions, and find out about volunteer opportunities.</p>
+                        <a href="https://join.slack.com/t/bsidesnyc/shared_invite/zt-2g5pte0rr-apFan_yKvoAWMHF_OM67IA" class="btn btn-primary" role="button">Join Slack</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="0">
+                    <div class="card">
+                        <h4>Email</h4>
+                        <p>Sponsorship inquries, press passes, and other general questions can be directed towards our email: bsides(at)bsidesnyc.org</p>
+                        <a href="mailto:bsides@bsidesnyc.org" class="btn btn-primary" role="button">Email Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
-<!-- End Contact Section -->
+<!-- End Direction Details -->

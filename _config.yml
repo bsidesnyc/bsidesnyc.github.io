@@ -33,33 +33,42 @@ previousAttendeeCount: "800"
 logoImage: "/about/logo_white.png"
 #logoImageHead: "/about/logo_black.png"
 checkinMessage: "General attendee check-in opens at 8:30am ET. Speakers, sponsors, villages, CTF organizers are welcome to come early at 8:00am ET to give extra time for set up."
+contactUs: "/about/#contact-us"
 
 #-----------------------------------------------
 # Footer
 #-----------------------------------------------
 socialLinks:
- - {link: "https://twitter.com/bsidesnyc", icon: "twitter"}
- - {link: "https://www.linkedin.com/company/bsidesnyc", icon: "linkedin"}
+  - icon: twitter
+    link: https://twitter.com/bsidesnyc
+  - icon: linkedin
+    link: https://www.linkedin.com/company/bsidesnyc
+
 footerBlocks:
- -
-  title: "Links"
-  links:
-   - {permalink: "/", text: "BSidesNYC"}
-   - {link: "http://www.securitybsides.com", text: "Security BSides"}
- -
-  title: "Contacts"
-  links:
-   - {permalink: "/contact/", text: "Contact Us"}
-   - {link: "https://join.slack.com/t/bsidesnyc/shared_invite/zt-2g5pte0rr-apFan_yKvoAWMHF_OM67IA", text: "Join our Slack"}
-   - {link: "mailto:bsides@bsidesnyc.org", text: "bsides(at)bsidesnyc.org"}
- -
-  title: "Policies"
-  links:
-   - {permalink: "/policies/", text: "CoC & Anti-Harassment"}
- -
-  title: "Press"
-  links:
-   - {permalink: "/press-pass/", text: "Press Passes"}
+  - title: Links
+    links:
+      - text: BSidesNYC
+        permalink: /
+      - text: Security BSides
+        link: http://www.securitybsides.com
+  - title: Contacts
+    links:
+      - text: Mailing List
+        permalink: /about/#contact-us
+      - text: Join our Slack
+        link: "https://join.slack.com/t/bsidesnyc/shared_invite/zt-2g5pte0rr-apFan_yKvoAWMHF_OM67IA"
+      - text: "bsides(at)bsidesnyc.org"
+        link: mailto:bsides@bsidesnyc.org
+      - text: Volunteer
+        permalink: /about/#volunteers
+  - title: Policies
+    links:
+      - text: "CoC & Anti-Harassment"
+        permalink: /policies/
+  - title: Press
+    links:
+      - text: Press Passes
+        permalink: /about/#contact-us
 
 #-----------------------------------------------
 # Head
@@ -174,14 +183,6 @@ villages:
     logo: "raices.png"
     handson: false
     description: "Raíces Cyber's Mission is to Encourage and Support the Hispanic and Latino Cyber and Technology Community to Achieve Greater Representation in the World. We are doing that with our four main pillars. Continued Support and Encouragement to and from the Community, Education for all career levels, Access to valuable resources, Constructive Networking and the forming of STRONG bonds (“Roots”). "
-#-----------------------------------------------
-# Contact
-#-----------------------------------------------
-contactTitle: "Need to get in touch?"
-contactTextTwitter: "Follow us on Twitter"
-contactTextEmail: "or email us at"
-contactMailingListText: "Just looking to stay in the loop? Use the form below to get announcements on all things BSidesNYC or join our <a href=\"https://join.slack.com/t/bsidesnyc/shared_invite/zt-2g5pte0rr-apFan_yKvoAWMHF_OM67IA\" target=\"_blank\">Slack</a> workspace."
-contactVolunteersMailingListText: "Looking to sign up as a volunteer? Head over to our <a href=\"/volunteers/\">volunteers page</a> and sign-up."
 
 #-----------------------------------------------
 # Event Intro
@@ -255,7 +256,6 @@ sponsorshipKitUrl: "/assets/BSidesNYC-2024-Sponsorship-Prospectus.pdf"
 #-----------------------------------------------
 # Subscribe
 #-----------------------------------------------
-subscribeImage: #"subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
 subscribeInfo: "^^^ Please ignore this message above from our mailing list provider. We use the free edition, so this get embedded.<p>We'll only use your email for BSidesNYC announcements. We respect privacy, and don't provide anyone (including sponsors) with this type of information."
 
