@@ -273,8 +273,8 @@ ticketsUpdateText: "Aw snap - looks like all of our tickets were snatched up! St
 #ticketsNextReleaseText: "Didn't get a ticket during our first round? No need to pout - revisit this page for our next round of tickets on "
 # add EventBrite URL to `link` when `ticketsOpen` is set to `true`
 ticketsButtons:
- - {link: "https://www.ticketleap.events/tickets/bsidesnyc/bsidesnyc-0x04", text: "Get Tickets!", id: "tickets_button_external"}
-priceInfo: 'Tickets are FREE! If you want to support the conference, you can donate when you register for your ticket.'
+ - 
+priceInfo: "Tickets are sold out. We will release a small batch of additional free tickets on October 14. We don’t know yet how many tickets will be in that batch. It depends on how many of the reserved tickets will get used."
 
 #-----------------------------------------------
 # Venue
