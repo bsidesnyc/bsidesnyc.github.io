@@ -35,6 +35,12 @@ logoImage: "/about/logo_white.png"
 checkinMessage: "General attendee check-in opens at 8:30am ET. Speakers, sponsors, villages, CTF organizers are welcome to come early at 8:00am ET to give extra time for set up."
 contactUs: "/about/#contact-us"
 
+# 
+# Slack Invite URL
+# Also change this in the links section below
+#
+slackInviteUrl: https://join.slack.com/t/bsidesnyc/shared_invite/zt-2s0qky0jo-sfcQ7SwHUlFMq4_wQNYYKQ
+
 #-----------------------------------------------
 # Footer
 #-----------------------------------------------
@@ -56,7 +62,7 @@ footerBlocks:
       - text: Mailing List
         permalink: /about/#contact-us
       - text: Join our Slack
-        link: "https://join.slack.com/t/bsidesnyc/shared_invite/zt-2s0qky0jo-sfcQ7SwHUlFMq4_wQNYYKQ"
+        link: https://join.slack.com/t/bsidesnyc/shared_invite/zt-2s0qky0jo-sfcQ7SwHUlFMq4_wQNYYKQ
       - text: "bsides(at)bsidesnyc.org"
         link: mailto:bsides@bsidesnyc.org
       - text: Volunteer
@@ -301,7 +307,6 @@ venueFloorMaps:
 # Volunteers
 #-----------------------------------------------
 volunteersTitle: "Want to Volunteer?"
-volunteersSlackUrl: https://join.slack.com/t/bsidesnyc/shared_invite/zt-2g5pte0rr-apFan_yKvoAWMHF_OM67IA
 volunteersSubscribeTitle: "Join the Team"
 
 #-----------------------------------------------
