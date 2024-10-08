@@ -21,7 +21,6 @@ function scheduleBuilder(endpoint, baseUrl, target) {
     oReq.send();
 }
 
-
 function sessionizeScheduleGetTrackHeading(dayNumber, rooms) {
     /*
      * Header Row
@@ -50,7 +49,7 @@ function sessionizeScheduleGetTrackHeading(dayNumber, rooms) {
 
         var trackHeaderTitle = document.createElement("h5");
         trackHeaderTitle.classList.add("track-header-title");
-        trackHeaderTitle.innerText = room.name;
+        trackHeaderTitle.append(getTrackNameAndRoomHtml(room.name, true));
         trackHeaderSlot.append(trackHeaderTitle);
         timeSlotElements.append(trackHeaderSlot);
     }
@@ -97,7 +96,8 @@ function addSessionToSchedule(trackSlot, trackName, session, createModals, baseU
     slotContent.append(slotTitle);
 
     var slotTrack = document.createElement("small");
-    slotTrack.innerText = getTrackNameAndRoom(trackName);
+    //slotTrack.innerText = getTrackNameAndRoom(trackName);
+    slotTrack.append(getTrackNameAndRoomHtml(trackName, false));
     slotContent.append(slotTrack);
 
     slotContent.append(document.createElement("br"));
@@ -134,7 +134,7 @@ function addSessionToSchedule(trackSlot, trackName, session, createModals, baseU
 
         var speakerName = document.createElement("p");
         speakerName.classList.add("speaker-name");
-        
+
         var speakerPosition = document.createElement("span");
         speakerPosition.classList.add("speaker-position");
         speakerPosition.id = "speakerPosition-" + session.speakers[z].id;
@@ -559,7 +559,7 @@ var waitForElm = function (selector, speaker) {
         });
 
         // If you get "parameter 1 is not of type 'Node'" error, see https://stackoverflow.com/a/77855838/492336
-        observer.observe(document.body, {
+        observer.observe(document.documentElement, {
             childList: true,
             subtree: true
         });
@@ -617,7 +617,7 @@ function normalizeTwitter(handle) {
     if ( handle.startsWith("@") ) {
         return handle.substring(1);
     }
-    
+
     if ( handle.startsWith("http") ) {
         var parts = handle.split("/");
         return parts.at(-1);
@@ -669,7 +669,22 @@ function backfillSpeakerSocial(speaker, tagLineElement, baseUrl) {
         }
     }
 
-    
+}
+
+function skipModalForLinks() {
+    /*
+     * This disables anything with the "skip-modal" class from opening
+     * a modal. It base use-case is to make links clickable that are within
+     * a parent element set to open a modal. 
+     */
+    waitForElm(".skip-modal", undefined).then((result) => {
+        var [elements, speaker] = result;
+        for (var i=0; i<elements.length; i++ ) {
+            elements[i].addEventListener('click', function(event) {
+                event.stopPropagation(); // Stops the modal trigger from activating
+            });
+        }
+    });
 
 }
 
