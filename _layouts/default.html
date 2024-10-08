@@ -48,6 +48,7 @@ layout: compress
         <script>
             scheduleBuilder("{{ site.sessionizeJsonScheduleGrid }}", "{{ site.baseurl }}", "schedules");
             scheduleBuilder("{{ site.sessionizeJsonSpeakerList }}", "{{ site.baseurl }}", "speakerBackfill");
+            skipModalForLinks();
         </script>
     {% endif %}
 

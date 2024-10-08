@@ -295,13 +295,17 @@ venuePhotosSecondary:
 venueMapsIntro: "Tracks are split across multiple floors. You'll enter and register on the Ground floor where the Red Track (L.63), Keynote (L.63), and Entrepreneur Track (L.61) are. Go down via stairs or elevator to Lower Level (L2) for the Blue Track (L2.84) and Other Track (L2.85). Go up via elevator to the 6th Floor for the Villages (Moot Court) and to the 9th for CTF."
 venueFloorMaps:
   - name: Ground Floor (L)
+    divId: map-l
     image: bsidesnyc-johnjay-ground-floor.png
   - name: Lower Level (L2)
     image: bsidesnyc-johnjay-L2.png
+    divId: map-l2
   - name: 6th Floor
     image: bsidesnyc-johnjay-6th.png
+    divId: map-6
   - name: 9th Floor
     image: bsidesnyc-johnjay-9th.png
+    divId: map-9
 
 #-----------------------------------------------
 # Volunteers

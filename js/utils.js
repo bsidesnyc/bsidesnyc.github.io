@@ -1,23 +1,74 @@
 function normalizeTrackName(trackName) {
     return trackName.replace(/\s/g, "").toLowerCase();;
 }
-function getTrackNameAndRoom(trackName) {
-    if ( trackName == "Tech - Red" ) {
-        return "Red (L.63)";
+
+function trackToRoomElements(trackName) {
+    var mapping = {
+        "Tech - Red": {
+            heading: "Tech - Red (L.63)",
+            tight: "Red (L.63)",
+            divId: "map-l"
+        },
+        "Tech - Blue": {
+            heading: "Tech - Blue (L2.84)",
+            tight: "Blue (L2.84)",
+            divId: "map-l2"
+        },
+        "Tech - Other": {
+            heading: "Tech - Other (L2.85)",
+            tight: "Other (L2.85)",
+            divId: "map-l2"
+        },
+        "Workshop": {
+            heading: "Workshop (L.61)",
+            tight: "Workshop (L.61)",
+            divId: "map-l"
+        },
+        "Entrepreneur": {
+            heading: "Entrepreneur (L.76)",
+            tight: "Entrepreneur (L.76)",
+            divId: "map-l"
+        }
     }
-    else if ( trackName == "Tech - Blue" ) {
-        return "Blue (L2.84)";
-    }
-    else if ( trackName == "Tech - Other" ) {
-        return "Other (L2.85)";
-    } else if (trackName == "Workshop") {
-        return "Workshop (L.61)";
-    } else if (trackName == "Entrepreneur") {
-        return "Entrepreneur (L.76)";
+    if ( mapping.hasOwnProperty(trackName) ) {
+        return mapping[trackName];
     }
 
-    return trackName;
+    return { full: trackName, tight: trackName, divId: undefined }
 }
+
+function getTrackNameAndRoomHtml(trackName, heading, closeModal) {
+    /*
+     * Returns tight track name and room, within a
+     * html element meant to be .append()ed
+     */
+    var elem = trackToRoomElements(trackName);
+
+    if ( elem.divId === undefined ) {
+        return document.createTextNode(elem.tight);
+    }
+
+    var a = document.createElement("a");
+    a.classList.add("skip-modal");
+    a.href = "#" + elem.divId;
+    if ( heading ) {
+        a.innerText = elem.heading;
+    } else {
+        a.innerText = elem.tight;
+    }
+
+    if ( closeModal ) {
+        a.setAttribute("data-dismiss", "modal");
+        //a.setAttribute("aria-label", "close");
+    }
+    return a;
+}
+
+function getTrackNameAndRoom(trackName) {
+    var elem = trackToRoomElements(trackName);
+    return elem.tight;
+}
+
 function getStartEndString(session) {
     var start = new Date(session.startsAt);
     var end = new Date(session.endsAt);
