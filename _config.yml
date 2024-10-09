@@ -189,6 +189,12 @@ villages:
     logo: "raices.png"
     handson: false
     description: "Raíces Cyber's Mission is to Encourage and Support the Hispanic and Latino Cyber and Technology Community to Achieve Greater Representation in the World. We are doing that with our four main pillars. Continued Support and Encouragement to and from the Community, Education for all career levels, Access to valuable resources, Constructive Networking and the forming of STRONG bonds (“Roots”). "
+  - title: "WiCys NY Metro Affiliate"
+    url: "https://www.wicys.org/wicys-ny-metro-affiliate/"
+    logo: "wicys2.png"
+    handson: false
+    description: "WiCys is the leading nonprofit organization dedicated to bridging the gender gap and fostering a diverse, highly talented cybersecurity workforce. For more than a decade, Women in CyberSecurity (WiCyS) has stood at the forefront of a crucial movement, dedicated to
+providing recruitment, retention and advancement for women in the field and cultivating a more inclusive, equitable industry landscape."
 
 #-----------------------------------------------
 # Event Intro
