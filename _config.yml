@@ -286,7 +286,7 @@ ticketsUpdateText: "Aw snap - looks like all of our tickets were snatched up! St
 # add EventBrite URL to `link` when `ticketsOpen` is set to `true`
 ticketsButtons:
  - 
-priceInfo: "Tickets are sold out. We will release a small batch of additional free tickets on October 14. We don’t know yet how many tickets will be in that batch. It depends on how many of the reserved tickets will get used."
+priceInfo: "Tickets are sold out. We will release a small batch of additional free tickets on October 14 at 4:15pm ET. We don’t know yet how many tickets will be in that batch. It depends on how many of the reserved tickets will get used."
 
 #-----------------------------------------------
 # Venue
