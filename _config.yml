@@ -285,8 +285,8 @@ ticketsUpdateText: "Aw snap - looks like all of our tickets were snatched up! St
 #ticketsNextReleaseText: "Didn't get a ticket during our first round? No need to pout - revisit this page for our next round of tickets on "
 # add EventBrite URL to `link` when `ticketsOpen` is set to `true`
 ticketsButtons:
- - 
-priceInfo: "Tickets are sold out. We will release a small batch of additional free tickets on October 14 at 4:15pm ET. We don’t know yet how many tickets will be in that batch. It depends on how many of the reserved tickets will get used."
+ - {link: "https://www.ticketleap.events/tickets/bsidesnyc/bsidesnyc-0x04", text: "Get Tickets!", id: "tickets_button_external"}
+priceInfo: "A small batch of additional free tickets on October 14 at 4:15pm ET."
 
 #-----------------------------------------------
 # Venue
