@@ -294,6 +294,8 @@ priceInfo: "A small batch of additional free tickets on October 14 at 4:15pm ET.
 #-----------------------------------------------
 venueTitle: John Jay College of Criminal Justice
 venueAddress: 524 W. 59th Street, New York, NY
+venueWiFiSSID: John Jay Events
+venueWiFiPW: Events@Jay24
 venuePhotosPrimary: atrium.jpg
 venuePhotosSecondary:
   - 240.jpg

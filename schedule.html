@@ -10,11 +10,14 @@ modal: all
 
 <!-- Begin Schedule -->
 <section id="schedule" class="schedule">
+    <p><a href="#venue-wifi">WiFi</a> - <a href="#venue-maps">Floor Maps</a></p>
     <p id="checkin-message">{{ site.checkinMessage }}</p>
     <div class="content-wrapper" id="schedule-wrapper">
     </div>
 </section>
 <!-- End Schedule -->
+
+{% include venue-wifi.html %}
 
 {% include venue-map.html %}
 
