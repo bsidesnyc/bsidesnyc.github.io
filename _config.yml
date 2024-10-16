@@ -327,7 +327,7 @@ volunteersSubscribeTitle: "Join the Team"
 #-----------------------------------------------
 ctfHeader: Game On! 
 ctfHeaderMessage: We are so excited to offer multiple Capture The Flag (CTF) competitions. Play one or play them all! All CTFs require a laptop and have both offensive and defensive challenges.
-ctfHeaderMessageFloor: Visit the CTF on the 9th floor
+ctfHeaderMessageFloor: Visit the CTF space in room 9.64 on the 9th floor
 # Really we don't want an odd number of CTFs. If we have odd, it'll look a little strange 
 # on the desktop version
 ctfs:
@@ -345,8 +345,8 @@ ctfs:
     registration: # No more than 2 registration buttons
       - url: https://ctfd.io
         disabled: true 
-        title: Register Now
-    registrationMessage: Registration opens day of event
+        title: Register In Person 
+    registrationMessage: Registration will be in-person at the CTF space the day of event
     url: https://ctfd.io
   #
   # Pros Vs Joes
