@@ -3726,7 +3726,7 @@ nav li a.current,nav li a:hover {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 700px
+    height: 700px; 
 }
 
 .venue-map-heading {
@@ -6318,11 +6318,11 @@ nav li a.current,nav li a:hover {
     }
 
     .venue-small-col .venue-elem-wrapper:nth-child(odd) {
-        padding-right: 2.5px
     }
 
     .venue-small-col .venue-elem-wrapper:nth-child(even) {
-        padding-left: 2.5px
+        padding-left: 2.5px;
+        padding-right: 2.5px
     }
 
     .venue-big-elem {
