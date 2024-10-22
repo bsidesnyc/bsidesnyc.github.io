@@ -2317,6 +2317,11 @@ section {
     text-align: center
 }
 
+section.video-header {
+    min-height: 0px;
+    padding-bottom: 10px;
+}
+
 section h3 {
     margin-bottom: 50px
 }

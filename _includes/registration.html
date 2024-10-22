@@ -1,34 +1,7 @@
 <!-- Begin Registration Section -->
 <section id="registration" class="registration">
   <div class="col-md-8 col-md-offset-2 text-justify">
-      <!-- make sure site.data.ticketsText has _2_ new lines per every 1 \n unless you want each line right under each other-->
-      <br />
-      {% assign current_time = 'now' | date: "%s "%}
-      {% assign ticket_open_time = site.ticketsOpenDate | date: "%s" %}
-
-      {% if site.ticketsNextReleaseDate == null %}
-        {% assign next_ticket_open_time = site.ticketsOpenDate | date: "%s" %}
-        {% assign next_ticket_open = site.ticketsOpenDate %}
-      {% else %}
-        {% assign next_ticket_open_time = site.ticketsNextReleaseDate | date: "%s" %}
-        {% assign next_ticket_open = site.ticketsNextReleaseDate %}
-      {% endif %}
-
-      {% if next_ticket_open_time > current_time %}
-	<h5>Ticket sales open on {{ next_ticket_open }}.</h5>
-      {% else %}
-          <div class="content-wrapper text-left text-justify">
-		<center><h5>{{ site.priceInfo }}</h5></center>
-                <p>
-                  {% for button in site.ticketsButtons %}
-                    {% if button.id == "tickets_button_external" %}
-                      <center><a href="{{ button.link }}" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank"><h4>{{ button.text }}</h4></a></center>
-                    {% endif %}
-                  {% endfor %}
-                </p>
-          </div>
-      {% endif %}
-
+      Registration is currently closed.
   </div>
 </section>
 <!-- End Registration Section -->
