@@ -93,7 +93,7 @@ navigationLinks:
  - {permalink: "/villages/", text: "Villages"}
  - {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/livestream/", text: "Livestream"}
+ - {permalink: "/video/", text: "Video"}
  - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/sponsors/", text: "Sponsors"}
  - {permalink: "/cfp/", text: "CFP"}
