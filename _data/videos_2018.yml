@@ -1,0 +1,34 @@
+- title: Opening Remarks and Intros to D4CS & NYC Cyber Command
+  embed: <iframe id="ls_embed_1729802546" src="https://livestream.com/accounts/686369/events/8016998/videos/168969673/player?width=640&height=360&enableInfo=true&defaultDrawer=&autoPlay=true&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+  url: https://livestream.com/accounts/686369/events/8016998/videos/168971382/player?width=600&height=338&enableInfo=true&defaultDrawer=&autoPlay=false&mute=false
+- title: "InfoSec at The New York Times: Perception vs. Reality"
+  embed: <iframe id="ls_embed_1729803465" src="https://livestream.com/accounts/686369/events/8016998/videos/168971382/player?width=640&height=360&enableInfo=true&defaultDrawer=&autoPlay=true&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+  url: https://livestream.com/accounts/686369/events/8016998/videos/168971382/player?width=600&height=338&enableInfo=true&defaultDrawer=&autoPlay=false&mute=false
+- title: "\"blockchain\""
+  embed: <iframe id="ls_embed_1729803734" src="https://livestream.com/accounts/686369/events/8016998/videos/168972446/player?width=640&height=360&autoPlay=true&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+  url: https://livestream.com/accounts/686369/events/8016998/videos/168972446/player?width=600&height=338&enableInfo=true&defaultDrawer=&autoPlay=false&mute=false
+- title: Practical Analysis of Awareness
+  embed: <iframe id="ls_embed_1729803787" src="https://livestream.com/accounts/686369/events/8016998/videos/168973048/player?width=640&height=360&autoPlay=true&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+  url: https://livestream.com/accounts/686369/events/8016998/videos/168973048/player?width=600&height=338&enableInfo=true&defaultDrawer=&autoPlay=false&mute=false
+- title: "Open Up and Say 0x41414141: Attacking Medical Devices"
+  embed: <iframe id="ls_embed_1729803811" src="https://livestream.com/accounts/686369/events/8016998/videos/168973644/player?width=640&height=360&autoPlay=true&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+  url: https://livestream.com/accounts/686369/events/8016998/videos/168973644/player?width=600&height=338&enableInfo=true&defaultDrawer=&autoPlay=false&mute=false
+- title: Threat hunting .NET malware with YARA
+  embed: <iframe id="ls_embed_1729803853" src="https://livestream.com/accounts/686369/events/8016998/videos/168974217/player?width=640&height=360&autoPlay=true&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+  url: https://livestream.com/accounts/686369/events/8016998/videos/168974217/player?width=600&height=338&enableInfo=true&defaultDrawer=&autoPlay=false&mute=false
+- title: firewalls– threat or menace?
+  embed: <iframe id="ls_embed_1729803877" src="https://livestream.com/accounts/686369/events/8016998/videos/168974546/player?width=640&height=360&autoPlay=true&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+  url: https://livestream.com/accounts/686369/events/8016998/videos/168974546/player?width=600&height=338&enableInfo=true&defaultDrawer=&autoPlay=false&mute=false
+- title: Evading C2 Detection with Asymmetry
+  embed: <iframe id="ls_embed_1729803912" src="https://livestream.com/accounts/9197973/events/8017043/videos/168890831/player?width=640&height=360&autoPlay=true&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+  url: https://livestream.com/accounts/9197973/events/8017043/videos/168890831/player?width=600&height=338&enableInfo=true&defaultDrawer=&autoPlay=false&mute=false
+- title: "Taste the Rainbow (Teaming)"
+  embed: <iframe id="ls_embed_1729803943" src="https://livestream.com/accounts/9197973/events/8017043/videos/168902416/player?width=640&height=360&autoPlay=true&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+  url: https://livestream.com/accounts/9197973/events/8017043/videos/168902416/player?width=600&height=338&enableInfo=true&defaultDrawer=&autoPlay=false&mute=false
+- title: "The Politics of Intelligence: Applying History to Modern Day Cyber Threat Intelligence"
+  embed: <iframe id="ls_embed_1729803968" src="https://livestream.com/accounts/9197973/events/8017043/videos/168906822/player?width=640&height=360&autoPlay=true&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+  url: https://livestream.com/accounts/9197973/events/8017043/videos/168906822/player?width=600&height=338&enableInfo=true&defaultDrawer=&autoPlay=false&mute=false
+- title: "Signal Safari: Investigating RF Controls with RTL-SDR"
+  embed: <iframe id="ls_embed_1729804054" src="https://livestream.com/accounts/9197973/events/8017043/videos/168910206/player?width=640&height=360&autoPlay=true&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+  url: https://livestream.com/accounts/9197973/events/8017043/videos/168910206/player?width=600&height=338&enableInfo=true&defaultDrawer=&autoPlay=false&mute=false
+
