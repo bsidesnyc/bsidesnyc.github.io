@@ -30,7 +30,7 @@ url: "https://bsidesnyc.org" #https://bsidesnyc.github.io
 timezone: "America/New_York"
 conYear: "2024"
 previousSponsorCount: "22"
-previousAttendeeCount: "800"
+previousAttendeeCount: "1000"
 logoImage: "/about/logo_white.png"
 #logoImageHead: "/about/logo_black.png"
 checkinMessage: "General attendee check-in opens at 8:30am ET. Speakers, sponsors, villages, CTF organizers are welcome to come early at 8:00am ET to give extra time for set up."
@@ -89,12 +89,6 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 #-----------------------------------------------
 navigationLinks:
  - {permalink: "/venue/", text: "Venue"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/villages/", text: "Villages"}
- - {permalink: "/ctf/", text: "CTF"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/video/", text: "Video"}
- - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/sponsors/", text: "Sponsors"}
  - {permalink: "/cfp/", text: "CFP"}
  - {permalink: "/about/", text: "About"}
@@ -118,7 +112,7 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "700", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
+ - {count: "1000", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
  - {count: "45", specialCharacter: "+", info: "hours", detail: "of security content"}
  - {count: "58", specialCharacter: "+", info: "speakers", detail: "from across the world"}
  - {count: "5", specialCharacter: "", info: "parallel tracks", detail: "plus villages"}
@@ -129,14 +123,14 @@ statisticBlock:
 cfpTitle: "Call For Papers"
 cfpBoardTitle: "CFP Board"
 cfpUrl: "https://docs.google.com/forms/d/e/1FAIpQLSes8dIfojKqXatyC6lNug41d_jsnio0LdIZRlFWms9sbWiUxw/viewform?usp=sf_link"
-cfpOpenDate: "April 16, 2024"
-cfpCloseDate: "July 19, 2024"
-cfpAcceptanceDate: "July 19, 2024"
+cfpOpenDate: "April 16, 2025"
+cfpCloseDate: "July 18, 2025"
+cfpAcceptanceDate: "July 18, 2025"
 cfpDuration: "CFP submissions will be accepted from"
 cfpAcceptance: "Speaker acceptance notices will start being sent out on"
 cfpProcessReviewText: ["Our current conference timeline allocates ~3 months for our CFP to be open for submissions.",
 
-"After our CFP has been closed on July 19, 2024, our CFP review board has ~1 week to look over and score all submissions.",
+"After our CFP has been closed on July 18, 2025, our CFP review board has ~1 week to look over and score all submissions.",
 
 "Based on the ratings from our CFP review board, the submissions with the highest score are put into our first round of acceptance notices, which start on July 26, 2024.",
 
@@ -203,8 +197,8 @@ providing recruitment, retention and advancement for women in the field and cult
 #-----------------------------------------------
 eventImage: "nyc_skyline.jpg"
 eventTitle: "BSidesNYC"
-eventDate: "19 October 2024"
-eventInfo: "The next BSidesNYC will take place in 19 October 2024. To stay updated on volunteer opportunities, and other news, follow us on Twitter <a href=\"https://twitter.com/bsidesnyc\" target=\"_blank\">@BSidesNYC</a> and sign up for the mailing list."
+eventDate: "18 October 2025"
+eventInfo: "The next BSidesNYC will take place in 18 October 2025. To stay updated on volunteer opportunities, and other news, follow us on Twitter <a href=\"https://twitter.com/bsidesnyc\" target=\"_blank\">@BSidesNYC</a> and sign up for the mailing list."
 eventButtons:
  - {permalink: "/sponsors/", text: "Become a sponsor", id: "sponsors"}
 
@@ -219,10 +213,10 @@ eventAddressLocalityRegion: "NY"
 eventPostalCode: "10019"
 eventAddressCountry: "USA"
 eventNavigationLink: https://goo.gl/maps/7vwHt4ARqjr
-eventStartTime: "2024-10-19T08:00"
+eventStartTime: "2025-10-18T08:00"
 eventDoorTime: "09:00"
-eventEndTime: "2024-10-19T17:00"
-eventPlaceCoordinates: "40.7709863, -73.9899653"
+eventEndTime: "2025-10-18T17:00"
+eventPlaceCoordinates: "4087709863, -73.9899653"
 mapCenterCoordinates: "40.7709863, -73.9899653"
 mapMobileCenterCoordinates: "40.7709863, -73.9899653"
 
@@ -265,7 +259,7 @@ sponsorsButton: "Become a sponsor"
 
 sponsorshipTitle: "Want to sponsor?"
 sponsorshipButton: "Download Prospectus"
-sponsorshipKitUrl: "/assets/BSidesNYC-2024-Sponsorship-Prospectus.pdf"
+sponsorshipKitUrl: "/assets/BSidesNYC-0x05-Sponsorship-Prospectus.pdf"
 
 #-----------------------------------------------
 # Subscribe
