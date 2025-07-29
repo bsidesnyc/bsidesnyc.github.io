@@ -2634,7 +2634,18 @@ time {
     padding: 7px 17px
 }
 
-.card {
+.directions-card {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    margin-bottom: 10px;
+    padding: 24px 24px 50px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.06),0 1px 3px rgba(0,0,0,0.15)
+}
+
+.contact-card {
     position: relative;
     overflow: hidden;
     height: 100%;
@@ -4061,13 +4072,13 @@ nav li a.current,nav li a:hover {
     color: #717171
 }
 
-.contact-us .card {
+.contact-us .contact-card {
     -webkit-transform: translateY(-125px);
     -ms-transform: translateY(-125px);
     transform: translateY(-125px);
     height: 400px;
 }
-.contact-us .card button {
+.contact-us .contact-card button {
     margin-top: 10px;
 }
 
@@ -4077,13 +4088,13 @@ nav li a.current,nav li a:hover {
     color: #757575
 }
 
-.direction-details .card {
+.direction-details .directions-card {
     -webkit-transform: translateY(-125px);
     -ms-transform: translateY(-125px);
     transform: translateY(-125px)
 }
 
-.direction-details .card ul {
+.direction-details .directions-card ul {
     font-size: 17px;
     font-weight: 300;
     margin: 0;
