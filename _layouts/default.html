@@ -24,17 +24,30 @@ layout: compress
     <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico" | prepend: site.baseurl }}">
 
     <meta name="theme-color" content="#2b5797">
+    <!--
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    -->
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!-- update the versioning # below to force browsers to reload this CSS file, else some crappy rendering may occur in between -->
+
     <link href="{{ "/css/main.css" | prepend: site.baseurl }}?v=0.5" rel="stylesheet">
 
-        
+    <!-- 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    --> 
+    <!--
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ "/js/utils.js" | prepend: site.baseurl }}"></script>
 
     <!-- 
-        Page-dependant Javascript
+        Page-dependant Javascript. Speakers and Schedules dynamically append modals to document.body
     -->
     {% if page.permalink == '/speakers/' %}
         <script src="{{ "/js/schedule.js" | prepend: site.baseurl }}"></script>
@@ -77,14 +90,8 @@ layout: compress
     =======================================
     {% endcomment %}
 
-    {% if page.modal != null %}
-      {% include speakers-modals.html %}
-      {% include team-modals.html %}
-      {% include cfp-board-modals.html %}
-    {% endif %}
-
-    {% if page.permalink == '/schedule/' %}
-        {% include sessions-modals.html %}
+    {% if page.permalink == '/about/' %}
+        {% include about-modals.html %}
     {% endif %}
 
     {% comment %}
@@ -112,7 +119,7 @@ layout: compress
     {% if page.permalink == '/' %}
       <script type="text/javascript">
           $(document).ready(function() {
-              $(window).load(function() {
+              $(window).on("load", function() {
                 $('#logo-header .logo').removeClass('logo-light');
               })});
       </script>

@@ -1,4 +1,93 @@
-- bio: Huxley Barbee has been a fixture of the security community for over 20 years.
+- firstname: Aaron
+  surname: Varrone
+  title: Incident Response Director
+  company: null
+  twitter: null
+  bio: null
+  thumbnailUrl: /organizers/aaron.jpg
+  isOrganizer: true
+  isFounder: false
+  isEntrepreneurCfp: false
+- firstname: August
+  surname: Huber
+  title: Security Engineer
+  company: Cruise Automation
+  twitter: null
+  bio: null
+  thumbnailUrl: /organizers/augs.jpg
+  isOrganizer: true
+  isFounder: false
+  isEntrepreneurCfp: false
+- firstname: Brad
+  surname: Antoniewicz
+  title: Head of Detection and Response
+  company: Block
+  twitter: brad_anton
+  linkedin: brad-anton
+  bio: Brad leads Detection and Response at Block. He has formally led security research
+    teams at Cisco and Intel, responded to incidents at Spotify, was an Adjunct Professor and Hacker-in-Residence 
+    at  NYU Tandon School of Engineering, and co-founded BSidesNYC. Brad is also a contributing
+    author to both the Hacking Exposed and Hacking Exposed Wireless series of books.
+  isFounder: true
+  isOrganizer: true
+  thumbnailUrl: /organizers/brad.jpg
+  isEntrepreneurCfp: false
+- firstname: Brian
+  surname: McHenry
+  title: Global Head of Cloud Security Engineering
+  company: Check Point Software
+  twitter: bamchenry
+  bio: Brian McHenry is the Global Head of Cloud Security Engineering at Check Point,
+    leading all pre-sales and customer success functions for Check Point’s CloudGuard
+    portfolio.  Formerly the VP of Product Management for WAF & API Security at F5,
+    Brian is passionate about aligning product strategies and solutions to more secure
+    business outcomes. Additionally, he is a co-founder of the New York City chapter
+    of Security B-Sides (BSidesNYC.org), an organization dedicated to making cybersecurity
+    careers and conferences more equitable and accessible.
+  isEntrepreneurCfp: false
+  isFounder: true
+  isOrganizer: false
+  thumbnailUrl: /organizers/brian.png
+- firstname: Brian
+  surname: Smith-Sweeney
+  title: Head of Security Risk Management
+  company: Two Sigma
+  twitter: null
+  bio: null
+  thumbnailUrl: /organizers/bss.jpeg
+  isOrganizer: true
+  isFounder: false
+  isEntrepreneurCfp: false
+- firstname: Dave
+  surname: Giancaspro
+  title: Vulnerability and Threat Analyst
+  company: null
+  twitter: null
+  bio: null
+  isFounder: false
+  isOrganizer: true
+  thumbnailUrl: /organizers/dave.png
+  isEntrepreneurCfp: false
+- firstname: Glenn
+  surname: Edwards
+  title: Incident Response Engineer
+  company: Block
+  twitter: hiddenillusion
+  bio: Glenn P. Edwards Jr. is an Incident Response Engineer at Block where he specializes
+    in Incident Response and Digital Forensics. Glenn holds a M.S degree in Digital
+    Forensics from the University of Central Florida as well as a B.S. degree in Information
+    Security and Privacy from High Point University.
+  isFounder: true
+  isOrganizer: false
+  thumbnailUrl: /organizers/glenn.jpg
+  isEntrepreneurCfp: false
+- firstname: Huxley
+  surname: Barbee
+  title: Lead Organizer
+  company: BSidesNYC
+  linkedin: jhbarbee
+  twitter: huxley_barbee
+  bio: Huxley Barbee has been a fixture of the security community for over 20 years.
     Professionally, he was a security consultant working with customers in finance,
     insurance, manufacturing, and higher education. Currently, he leads the security
     engineering group at a fintech company. Beyond the day job, he is also active
@@ -6,535 +95,210 @@
     90s, has spoken at many conferences throughout the US, and is the lead organizer
     for BSidesNYC. He lives in New York. You should connect with him on social media,
     buy him a drink, or both.
-  cfpBoard: false
-  company: BSidesNYC
-  id: 47
-  isDynamic: false
   isFounder: false
   isOrganizer: true
-  linkedin: jhbarbee
-  name: Huxley
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: Barbee
   thumbnailUrl: /organizers/huxley.jpg
-  title: Lead Organizer
-  trackEntrepreneur: false
-  trackGeneral: false
-  trackOpening: false
-  twitter: huxley_barbee
-- bio: null
-  cfpBoard: true
+  isEntrepreneurCfp: false
+- firstname: Jamie
+  surname: Levy
+  title: Director of R&D at Huntress
   company: null
-  id: 2
-  isDynamic: false
-  isFounder: false
-  isOrganizer: true
-  name: Dave
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: Giancaspro
-  thumbnailUrl: /organizers/dave.png
-  title: Vulnerability and Threat Analyst
-  trackEntrepreneur: false
-  trackGeneral: false
-  trackOpening: false
-  twitter: null
-- bio: Glenn P. Edwards Jr. is an Incident Response Engineer at Block where he specializes
-    in Incident Response and Digital Forensics. Glenn holds a M.S degree in Digital
-    Forensics from the University of Central Florida as well as a B.S. degree in Information
-    Security and Privacy from High Point University.
-  cfpBoard: true
-  company: Block
-  id: 0
-  isDynamic: false
-  isFounder: true
-  isOrganizer: false
-  name: Glenn
-  sharedImg: true
-  subTeam: false
-  supporter: false
-  surname: Edwards
-  thumbnailUrl: /organizers/glenn.jpg
-  title: Incident Response Engineer
-  trackEntrepreneur: false
-  trackGeneral: false
-  trackOpening: false
-  twitter: hiddenillusion
-- bio: "Brad leads Detection and Response at Block. He has formally led security research teams at Cisco and Intel, was an Adjunct Professor and Hacker-in-Residence at  NYU's Tandon School of Engineering, and co-founded BSidesNYC. Brad is also a contributing author to both the Hacking Exposed and Hacking Exposed: Wireless series of books."
-  cfpBoard: true
-  company: Block
-  id: 1
-  isDynamic: false
-  isFounder: true
-  isOrganizer: true
-  name: Brad
-  sharedImg: true
-  subTeam: false
-  supporter: false
-  surname: Antoniewicz
-  thumbnailUrl: /organizers/brad.jpg
-  title: Head of Detection and Response @ Block
-  trackEntrepreneur: false
-  trackGeneral: false
-  trackOpening: false
-  twitter: brad_anton
-- bio: Jamie Levy is the Director of Adversary Tactics at Huntress. Jamie is also
+  linkedin: jlevy77
+  twitter: gleeda
+  bio: Jamie Levy is the Director of Adversary Tactics at Huntress. Jamie is also
     a longtime researcher, developer and board member of the Volatility Foundation.
     She has worked over 15 years in the digital forensics industry, conducting investigations
     as well as building out software solutions. Jamie is also a co-author of The Art
     of Memory Forensics, the first book of its kind covering various facets of how
     to investigate RAM artifacts.
-  cfpBoard: true
-  company: null
-  id: 4
-  isDynamic: false
   isFounder: false
   isOrganizer: false
   isTechCfp: true
-  linkedin: jlevy77
-  name: Jamie
-  sharedImg: true
-  subTeam: false
-  supporter: true
-  surname: Levy
   thumbnailUrl: /cfp/jamie_levy.png
-  title: Director of R&D at Huntress
-  trackEntrepreneur: false
-  trackGeneral: false
-  trackOpening: false
-  twitter: gleeda
-- bio: "I design security solutions and shepherd them to a sustainable state. I used\
-    \ to be hands-on in many areas of cybersecurity and IT. Now I focus on strategy\
-    \ and leadership, treating security as an enabler that helps people and companies\
-    \ achieve their goals. As the CISO of Axonius, I lead the security program to\
-    \ earn customers\u2019 trust and fuel the company\u2019s growth. Earlier, I built\
-    \ security products and services. I\u2019m also a Faculty Fellow at SANS Institute,\
-    \ where I help professionals develop malware analysis skills.\n\nTo learn more\
-    \ about me, explore my blog at zeltser.com. You can connect with me on Twitter\
-    \ at https://twitter.com/lennyzeltser or Mastodon at https://infosec.exchange/@lennyzeltser."
-  cfpBoard: true
-  company: Axonius
-  id: 5
-  isDynamic: true
-  isFounder: false
-  isOrganizer: false
-  name: Lenny
-  sharedImg: true
-  subTeam: false
-  supporter: false
-  surname: Zeltser
-  thumbnailUrl: /cfp/lenny_zeltser.jpg
-  title: CISO at Axonius. Author and Faculty Fellow at SANS Institute
-  trackEntrepreneur: false
-  trackGeneral: false
-  trackOpening: false
-  twitter: lennyzeltser
-- bio: "Shweta Jain  is Professor and Graduate Faculty at John Jay College, a Doctoral\
-    \ faculty at The Graduate Center of CUNY, and Graduate Director of the Digital\
-    \ Forensics and Cyber Security Master\u2019s program. She has served as PI and\
-    \ Co-PI of NSF CISE and IIP grants. Her most recent work is in creating a blockchain\
-    \ backed technology to support media authentication with applications in digital\
-    \ forensics. She has 15+ years of experience in R&D and has mentored several undergraduate\
-    \ and graduate students during her career as an educator. She has 20+ publications\
-    \ in the area of network architectures, wireless network protocols, and blockchain\
-    \ applications."
-  cfpBoard: true
-  company: John Jay College of Criminal Justice
-  id: 6
-  isDynamic: true
-  isFounder: false
-  isOrganizer: false
-  name: Shweta
-  sharedImg: true
-  subTeam: false
-  supporter: false
-  surname: Jain
-  thumbnailUrl: /cfp/shweta.jpg
-  title: Professor, Director of D4CS
-  trackEntrepreneur: false
-  trackGeneral: false
-  trackOpening: false
-  twitter: null
-- bio: "Brian McHenry is the Global Head of Cloud Security Engineering at Check Point,\
-    \ leading all pre-sales and customer success functions for Check Point\u2019s\
-    \ CloudGuard portfolio.  Formerly the VP of Product Management for WAF & API Security\
-    \ at F5, Brian is passionate about aligning product strategies and solutions to\
-    \ more secure business outcomes. Additionally, he is a co-founder of the New York\
-    \ City chapter of Security B-Sides (BSidesNYC.org), an organization dedicated\
-    \ to making cybersecurity careers and conferences more equitable and accessible."
-  cfpBoard: false
-  company: Check Point Software
-  id: 7
-  isDynamic: true
-  isEntrepreneurCfp: true
-  isFounder: true
-  isOrganizer: false
-  name: Brian
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: McHenry
-  thumbnailUrl: /organizers/brian.png
-  title: Global Head of Cloud Security Engineering
-  trackEntrepreneur: false
-  trackGeneral: false
-  trackOpening: false
-  twitter: bamchenry
-- bio: Andrew Case is the Director of Research at Volexity and has significant experience
-    in incident response handling and malware analysis. He has conducted numerous
-    large-scale investigations that span enterprises and industries. Case is a core
-    developer of the Volatility memory analysis framework, and a co-author of the
-    highly popular and technical forensics analysis book "The Art of Memory Forensics
-    - Detecting Malware and Threats in Windows, Linux, and Mac Memory."
-  cfpBoard: false
-  company: Volexity
-  id: 40
-  isDynamic: false
-  isFounder: false
-  isOrganizer: false
-  isTechCfp: true
-  linkedin: andrewcase
-  name: Andrew
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: Case
-  thumbnailUrl: /cfp/andrew_case.jpg
-  title: Director of Research
-  trackEntrepreneur: false
-  trackGeneral: true
-  trackOpening: false
-  twitter: attrc
-- bio: Dan Guido, CEO and founder of Trail of Bits, has dedicated his career to addressing
-    software security challenges through cutting-edge research. Since its inception
-    in 2012, Dan has grown the company to include 125 engineers, spearheaded industry-leading
-    cryptography, AI, and blockchain security practices, and fine-tuned open-source
-    tools for endpoint security. In 2023, iVerify, a tool created by Trail of Bits
-    to combat mobile spyware, spun out as its own dedicated company. As part of the
-    CFTC Technology Advisory Committee, Dan lends his expertise in navigating the
-    complexities of cybersecurity risks, specifically in emerging technologies like
-    AI and blockchain. Beyond his leadership roles at Trail of Bits and CFTC, Dan
-    serves on the boards of five startups and shapes cybersecurity policy through
-    collaborations with CFR, RAND, CNAS, and Harvard. He also organizes Empire Hacking,
-    connecting 1,700 NYC-based cybersecurity experts. His creation, AlgoVPN, reigns
-    as the top choice for self-hosted VPNs with 27k stars on Github. Prior to Trail
-    of Bits, Dan was the Hacker in Residence at NYU where he taught courses in offensive
-    software exploitation, consulted at iSEC Partners (now NCC Group), and worked
-    as an incident responder for the Federal Reserve. In recognition of his accomplishments,
-    Dan was inducted into the SFS Hall of Fame by DHS CISA in 2021.
-  cfpBoard: false
-  company: Trail of Bits
-  id: 41
-  isDynamic: false
-  isFounder: false
-  isOrganizer: false
-  isTechCfp: true
-  linkedin: danguido
-  name: Dan
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: Guido
-  thumbnailUrl: /cfp/dan_guido.jpg
-  title: CEO
-  trackEntrepreneur: false
-  trackGeneral: true
-  trackOpening: false
-  twitter: dguido
-- bio: A seasoned information systems professional within the higher education industry.
+  isEntrepreneurCfp: false
+- firstname: Jase T.
+  surname: English
+  title: Manager, Cyber Security Engineering
+  company: null
+  linkedin: jtenglish36
+  twitter: killagorilla36
+  bio: A seasoned information systems professional within the higher education industry.
     Dedicated to process development and administration of information security for
     personnel (PII) & assets via configuration, vulnerability, & patch management
     as well as consolidated log review. Skilled in network access & monitoring, active
     directory, storage & data protection systems, virtualization, and MS Azure cloud
     computing. Strong business development professional with instruction from Columbia
     University - Fu Foundation School of Engineering and Applied Science.
-  cfpBoard: false
-  company: null
-  id: 42
-  isDynamic: false
   isFounder: false
   isOrganizer: false
   isTechCfp: true
-  linkedin: jtenglish36
-  name: Jase T.
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: English
   thumbnailUrl: /cfp/jase_english.jpg
-  title: Manager, Cyber Security Engineering
-  trackEntrepreneur: false
-  trackGeneral: true
-  trackOpening: false
-  twitter: killagorilla36
-- bio: Jessica, a digital forensics leader with a passion for education and community
-    engagement, wears many hats. She founded Hexordia, a company focused on digital
-    forensics research, services, and training. At George Mason University, she shares
-    her knowledge as an Adjunct Professor in the Digital Forensics program, fostering
-    the next generation of cybersecurity professionals. Beyond academia, Jessica is
-    an active contributor to the field through her involvement in organizations like
-    HTCIA, DFIR Review, SWGDE, and NIST OSAC. Her background includes prior experience
-    at Magnet Forensics, Basis Technology, EY, and American Systems. Jessica is a
-    proud veteran of the United States Marine Corps.
-  cfpBoard: false
-  company: Hexordia
-  id: 43
-  isDynamic: false
-  isFounder: false
-  isOrganizer: false
-  isTechCfp: true
-  linkedin: hydejessica
-  name: Jessica
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: Hyde
-  thumbnailUrl: /cfp/jessica_hyde.jpg
-  title: Founder
-  trackEntrepreneur: false
-  trackGeneral: true
-  trackOpening: false
-  twitter: B1N2H3X
-- bio: John Hammond is a cybersecurity researcher, educator and content creator. As
-    part of the Research & Development Threat Operations team at Huntress, John spends
-    his days analyzing malware and making hackers earn their access. Previously, as
-    a Department of Defense Cyber Training Academy instructor, he taught the Cyber
-    Threat Emulation course, educating both civilian and military members on offensive
-    Python, PowerShell, other scripting languages and the adversarial mindset. He
-    has developed training material and information security challenges for events
-    such as PicoCTF and competitions at DEFCON US. John speaks at security conferences
-    such as BsidesNoVA, to students at colleges such as the US Naval Academy, and
-    other online events including the SANS Holiday Hack Challenge/KringleCon. He is
-    an online YouTube personality showcasing programming tutorials, CTF video walkthroughs
-    and other cyber security content.
-  cfpBoard: false
-  company: Huntress
-  id: 44
-  isDynamic: false
-  isFounder: false
-  isOrganizer: false
-  isTechCfp: true
-  linkedin: johnhammond010
-  name: John
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: Hammond
-  thumbnailUrl: /cfp/john_hammond.png
-  title: Security Researcher
-  trackEntrepreneur: false
-  trackGeneral: true
-  trackOpening: false
-  twitter: _johnhammond
-- bio: Mari DeGrazia is a Director of Incident Response at ZeroFox, which provides
-    cyber security services on a global scale. Throughout her career, Mari has investigated
-    high-profile breach cases, worked civil and criminal cases and provided testimony
-    as an expert witness. She has written and released numerous programs/scripts to
-    the forensics community; presented her research at industry conferences; and is
-    a published author in several magazines. She is also a certified SANS instructor
-    where she loves sharing her knowledge with students. She holds several industry
-    certifications in addition to earning a B.S. in Computer Science from Hawaii Pacific
-    University.
-  cfpBoard: false
-  company: ZeroFox
-  id: 45
-  isDynamic: false
-  isFounder: false
-  isOrganizer: false
-  isTechCfp: true
-  linkedin: mari-degrazia
-  name: Mari
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: DeGrazia
-  thumbnailUrl: /cfp/mari_degrazia.png
-  title: Directory, Incident Response
-  trackEntrepreneur: false
-  trackGeneral: true
-  trackOpening: false
-  twitter: maridegrazia
-- bio: Carrie shapes go-to-market strategies for emerging cybersecurity companies.
-    With a background in large enterprise, Carrie's recent focus is on early start-ups,
-    with expertise in cybersecurity companies spanning from seed round to Series C. She
-    has brought two products to market, and spends her extra time in photography and
-    martial arts.
-  cfpBoard: false
-  company: Turngate
-  id: 56
-  isDynamic: false
-  isEntrepreneurCfp: true
-  isFounder: false
-  isOrganizer: false
-  isTechCfp: false
-  linkedin: carrie-andry
-  name: Carrie
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  surname: Landry
-  thumbnailUrl: /cfp/carrie_landry.jpg
-  title: VP and Head of Marketing
-  trackOpening: false
-  trackEntrepreneur: false
-  trackGeneral: true
-  twitter: Carrie_Landry_
-- bio: Chris Kirsch is founder and CEO of Cyber Marketing Clinic
-    (<a href="https://cybermarketingclinic.com">cybermarketingclinic.com</a>), where
-    he works with tech companies on product marketing, PLG motions, and pricing strategy.
-    Previously, he was the co-founder and CEO of runZero, a cyber asset management company
-    he co-founded with Metasploit creator HD Moore. Chris started his career at an InfoSec
-    startup in Germany and has since worked for PGP, nCipher, Rapid7, and Veracode. He has
-    a passion for OSINT and Social Engineering. In 2017, he earned the Black Badge for
-    winning the Social Engineering Capture the Flag competition at DEF CON, the world’s
-    largest hacker conference.
-  cfpBoard: false
-  company: Cyber Marketing Clinic
-  id: 57
-  isDynamic: false
-  isEntrepreneurCfp: true
-  isOrganizer: false
-  isFounder: false
-  isTechCfp: false
-  linkedin: ckirsch
-  name: Chris
-  supporter: false
-  surname: Kirsch
-  sharedImg: true
-  subTeam: true
-  thumbnailUrl: /cfp/chris_kirsch.png
-  title: Founder & Marketing Strategy Consultant
-  trackOpening: false
-  trackEntrepreneur: false
-  trackGeneral: true
-  twitter: chris_kirsch
-- bio: Justin Massey has managed IT networks, performed penetration tests, and secured
-    infrastructure and applications at startups. Now, he runs Relay Hawk, a cybersecurity
-    company that reduces the likelihood and impact of cybersecurity attacks on call centers.
-  cfpBoard: false
-  company: Relay Hawk
-  id: 58
-  isDynamic: false
-  isEntrepreneurCfp: true
-  isFounder: false
-  isOrganizer: false
-  isTechCfp: false
-  linkedin: justinmassey09
-  name: Justin
-  surname: Massey
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  thumbnailUrl: /cfp/justin_massey.jpg
-  title: Founder
-  trackEntrepreneur: false
-  trackGeneral: true
-  trackOpening: false
-  twitter: jmassey09
-- bio: Justin Shattuck has been a diligent security threat hunter for the last 15 years
-    and has assisted law enforcement agencies in tracking some of the industry’s most
-    notable threat actors. Prior to Resilience, Justin used his relentless pursuit of
-    data hoarding to architect and lead engineering teams responsible for creating
-    security solutions such as Services (SaaS) in DDoS mitigation, Web Application
-    Firewalls, and IDS/IPS and Threat Intelligence.  
-  cfpBoard: false
-  company: Resilience
-  id: 059
-  isDynamic: false
-  isEntrepreneurCfp: true
-  isFounder: false
-  isOrganizer: false
-  isTechCfp: false
-  linkedin: justinshattuck
-  name: Justin
-  surname: Shattuck
-  sharedImg: true
-  subTeam: true
-  supporter: false
-  thumbnailUrl: /cfp/justin_shattuck.jpg
-  title: Chief Security Officer
-  trackEntrepreneur: false
-  trackGeneral: true
-  trackOpening: false
-  twitter: sh4t
--
-  id: 010
-  name: August
-  surname: Huber
-  company: Cruise Automation
-  title: Security Engineer
-  bio:
-  isDynamic: false
-  sharedImg: true
-  thumbnailUrl: /organizers/augs.jpg
-  twitter:
-  isOrganizer: true
-  isPlanner: true
-  isFounder: false
-  subTeam: true
-  cfpBoard: false
-  trackOpening: false
-  trackEntrepreneur: false
-  trackGeneral: false
-  supporter: false
--
-  id: 011
-  name: Brian
-  surname: Smith-Sweeney
-  company: Two Sigma
-  title: Head of Security Risk Management
-  bio:
-  isDynamic: false
-  sharedImg: true
-  thumbnailUrl: /organizers/bss.jpeg
-  twitter:
-  isOrganizer: true
-  isFounder: false
-  subTeam: true
-  cfpBoard: false
-  trackOpening: false
-  trackEntrepreneur: false
-  trackGeneral: false
-  supporter: false
--
-  id: 012
-  name: Pearce
+  isEntrepreneurCfp: false
+- firstname: Pearce
   surname: Barry
+  title: null
   company: Pura
-  title: 
-  bio:
-  isDynamic: false
-  sharedImg: true
+  twitter: null
+  bio: null
   thumbnailUrl: /organizers/pearce.jpg
-  twitter:
   isOrganizer: true
   isFounder: false
-  subTeam: true
-  cfpBoard: false
-  trackOpening: false
-  trackEntrepreneur: false
-  trackGeneral: false
-  supporter: false
--
-  id: 009
-  name: Aaron
-  surname: Varrone
-  company:
-  title: Incident Response Director
-  bio:
-  isDynamic: false
-  sharedImg: true
-  thumbnailUrl: /organizers/aaron.jpg
-  twitter:
-  isOrganizer: true
-  isPlanner: true
+  isEntrepreneurCfp: false
+- firstname: Shweta
+  surname: Jain
+  title: Professor, Director of D4CS
+  company: John Jay College of Criminal Justice
+  twitter: null
+  bio: Shweta Jain  is Professor and Graduate Faculty at John Jay College, a Doctoral
+    faculty at The Graduate Center of CUNY, and Graduate Director of the Digital Forensics
+    and Cyber Security Master’s program. She has served as PI and Co-PI of NSF CISE
+    and IIP grants. Her most recent work is in creating a blockchain backed technology
+    to support media authentication with applications in digital forensics. She has
+    15+ years of experience in R&D and has mentored several undergraduate and graduate
+    students during her career as an educator. She has 20+ publications in the area
+    of network architectures, wireless network protocols, and blockchain applications.
   isFounder: false
-  subTeam: true
-  cfpBoard: false
-  trackOpening: false
-  trackEntrepreneur: false
-  trackGeneral: false
-  supporter: false
+  isOrganizer: false
+  thumbnailUrl: /cfp/shweta.jpg
+  isEntrepreneurCfp: false
+- firstname: Anna 
+  surname: Sarnek 
+  title: Cyber Startup and VC BD Lead
+  company: AWS
+  twitter: null
+  linkedin: annasarnek
+  bio: Anna Sarnek leads Cyber Startup and Venture Capital Business Development at AWS, working at the intersection of investors, startups, and the CISO community. 
+    With 15+ years of experience and a technical background, she excels at identifying unique go-to-market opportunities in enterprise IT and cybersecurity. Her 
+    experience szpans from early stage startups like Valence Security to enterprise cyber security companies like RSA security. At SecurityScorecard, she 
+    single-handedly built the Cloud Partnership program, achieving 8x marketplace growth, securing a record 6-day deal cycle, and earning AWS recognition 
+    at re:Invent 2022. Anna's strategic vision and partnership expertise drives innovation across the cybersecurity ecosystem.
+  thumbnailUrl: /cfp/annasarnek.png
+  isEntrepreneurCfp: true
+- firstname: Sid 
+  surname: Trivedi 
+  title: Partner
+  company: Foundation Capital
+  twitter: null
+  bio: Sid Trivedi is a Partner at Foundation Capital where he leads early-stage investments in cybersecurity and IT. His investments include Stacklet, AirMDR, 
+    Prime Security, DevZero, Pulse Security AI, Aegis AI, Permiso, Neurelo, Levo, Phenom, Attivo Networks (acq. SentinelOne), CloudKnox (acq. Microsoft), Respond 
+    Software (acq. Mandiant), and MistNet (acq. LogRhythm). Prior to Foundation, Sid was an investor at Omidyar Technology Ventures and Symphony Technology Group. 
+    He is also a co-founder of CyberSeed, a community of over 1,500 cybersecurity founders, and co-founder and co-host of the Inside the Network podcast, which 
+    shares how category-defining cybersecurity startups are built. Outside of work, Sid serves on the advisory boards of Entrepreneurship at Cornell, the 
+    California Israel Chamber of Commerce, and Cornell Venture Capital. Sid graduated Phi Beta Kappa and magna cum laude from Cornell University.
+  thumbnailUrl: /cfp/sidtrivedi.jpg
+  isEntrepreneurCfp: true
+- firstname: Ross
+  surname: Haleliuk
+  title: Founder
+  company: Stealth
+  twitter: null
+  linkedin: rosshaleliuk
+  bio: Ross is a cybersecurity leader and entrepreneur. Outside of work, Ross is a startup advisor, angel investor, and a frequent contributor to leading tech 
+    media such as TechCrunch, Forbes, VentureBeat, and Dark Reading. Ross is an author of Venture in Security, an award-winning blog with over 500,000 annual 
+    readers,  widely regarded as the number one independent source about the business side of cybersecurity. His book, Cyber for Builders The Essential Guide 
+    to Building a Cybersecurity Startup, became an instant Amazon best seller, got the SANS Book of the Year award, and is recognized as a critical read for 
+    aspiring and early-stage security entrepreneurs and experienced founders alike.
+  thumbnailUrl: /cfp/rosshaleliuk.jpg
+  isEntrepreneurCfp: true
+- firstname: Nicholas
+  surname: Muy
+  title: CISO
+  company: Scrut.io
+  twitter: null
+  linkedin: nicholasmuy
+  bio: 15+ year cybersecurity & strategy leader with deep experience spanning all aspects of building and leading enterprise-wide programs for multi-billion 
+    dollar companies and scaling zero-to-1 programs for high-growth startups. Specialist at security engineering, board-level risk management, F500 M&A in 
+    software-heavy environments and having a ruthlessly business-aligned pragmatic approach to security, have held leadership roles in Corporate Development, 
+    Corporate Strategy, and Platform Strategy.
+  thumbnailUrl: /cfp/nicholasmuy.jpg
+  isEntrepreneurCfp: true
+- firstname: Chas
+  surname: Larios
+  title: VP of Marketing
+  company: Upwind
+  twitter: null
+  linkedin: chaslarios
+  bio: Chas joined the cybersecurity community over a decade ago as a product manager, then technical product marketer, and now GTM executive. She currently 
+    leads marketing at Upwind, a leading cloud security startup. Previously, she worked alongside the threat intel and incident response teams at Palo Alto 
+    Networks Unit 42, leading rapid responses to high-profile threats. She holds a Master of Public Administration, where her graduate research focused on public 
+    sector cybersecurity challenges. Chas has built GTM engines and brands from the ground up at multiple cybersecurity startups and companies, including Anvilogic, 
+    Secureworks, and VMware Carbon Black. She is passionate about changing the way cybersecurity marketing is done—putting respect for the community and trusted 
+    practitioner voices at the center.
+  thumbnailUrl: /cfp/chaslarios.jpg
+  isEntrepreneurCfp: true
+- firstname: Alex
+  surname: Perotti
+  title: Malware reverse engineer and CTI analyst
+  company: PwC
+  twitter: null
+  linkedin: alexperotti
+  bluesky: cyb3rkitties.bsky.social
+  bio: Alex is a malware reverse engineer and cyber threat intelligence analyst specializing in the intersection of nation-state and e-crime threats targeting 
+    critical infrastructure, with a special focus on Russia-based threats. With a technical background in dissecting malware and mapping adversary tradecraft, 
+    Alex focuses on uncovering and contextualizing threats that impact critical infrastructure and industrial control systems. Their work bridges low-level 
+    technical analysis with strategic threat intelligence to support detection, response, and resilience.
+    Alex is currently part of the Global Threat Intelligence team at PwC and supports a variety of efforts—from intelligence briefings to vulnerability assessments, 
+    to hunting for novel malware, to tracking threat actor infrastructure.
+  thumbnailUrl: /cfp/alexperotti.jpg
+  isTechCfp: true
+- firstname: Cesar
+  surname: Vargas
+  title:  Director of Applied Research
+  company: Arctic Wolf Networks 
+  twitter: null
+  bio: Cesar Vargas is the Director of Applied Research at Arctic Wolf Networks (AWN) where his team is responsible for generating initiatives to improve AWN’s 
+    products with emphasis in the Security Operations (SecOps) experience via threat modeling and emulation of high-profile threat actors. Prior to AWN, he 
+    worked at McAfee/Trellix with public sector enterprises at establishing and maturing Cybersecurity Threat Intelligence (CTI) and SecOps programs in 
+    Information and Operational Technology environments.  
+  thumbnailUrl: /cfp/cesarvargas.png
+  isTechCfp: true
+- firstname: Raphaela
+  surname: Mettig
+  title: Cybersecurity Research Specialist
+  company: Louisiana State University
+  twitter: null
+  linkedin: raphaelamettig
+  bio: Raphaela Mettig is a Cybersecurity Research Specialist in the Applied Cybersecurity Lab at the LSU Center for Computation and Technology. She is interested 
+    in all things malware analysis, memory forensics, and reverse engineering. She earned her Bachelor of Science and Master of Science degrees in Computer Science 
+    from Louisiana State University, and is now working part-time towards her PhD in Computer Science also at LSU. During her degrees, she also worked as a cyber 
+    threat intelligence analyst and as a product security engineer. Now, she helps build and maintain the cyber research infrastructure for students and faculty 
+    alike, while also working on her own doctoral research.
+    Raphaela is also a lifelong musician. When she’s not hacking, she loves going to concerts, playing guitar, and reading.
+  thumbnailUrl: /cfp/raphaela.jpg
+  isTechCfp: true
+- firstname: Stephanie
+  surname: Aceves
+  title: Senior Director of Product
+  company: Tanium
+  twitter: null
+  bio: Stephanie Aceves is a first-generation Latina leader, technologist, and catalyst for market-shaping innovation. In her current role as a Senior Director 
+    of Product at Tanium, a leading enterprise cybersecurity software company, she leads cross-functional teams focused on AI, threat detection, and the future 
+    of security operations. Her journey began red teaming at Ernst & Young, where she spent her days breaking into systems to expose security flaws before real 
+    attackers could. This experience sparked her mission to build secure, high-impact technologies that make a difference. Since then, she's led cross-functional 
+    teams in delivering enterprise-scale security products and driving forward-looking strategies in cyber defense. Known for her strategic thinking and 
+    heart-centered leadership, Stephanie is equally passionate about developing people as she is about delivering results. For nearly a decade, she has funded 
+    the Latinas in STEM Empowerment Scholarship, an annual award for first-generation Latinas pursuing degrees in science, technology, engineering, or math. 
+    She mentors rising talent across tech and business, encouraging others to lead with courage, creativity, and conviction.
+  thumbnailUrl: /cfp/stephanieaceves.jpg
+  isTechCfp: true
+- firstname: Jamie
+  surname: Williams
+  title: 
+  company: 
+  twitter: jamieantisocial
+  bio: Jamie is a red team engineer & threat researcher. He previously led development of MITRE ATT&CK® for Enterprise. Throughout his career Jamie has worked 
+    with amazing people on various exciting efforts involving security operations and research, mostly focused on adversary emulation, behavior-based detections, 
+    and the many other ways of finding the "so what?" of cyber threat intelligence.
+  thumbnailUrl: /cfp/jamiewilliams.jpg
+  isTechCfp: true
+- firstname: Jessica 
+  surname: Hyde
+  title: Founder
+  company: Hexordia
+  twitter: killagorilla36
+  linkedin: hydejessica
+  bio: Jamie is a red team engineer & threat researcher. He previously led development of MITRE ATT&CK® for Enterprise. Throughout his career Jamie has worked 
+    with amazing people on various exciting efforts involving security operations and research, mostly focused on adversary emulation, behavior-based detections, 
+    and the many other ways of finding the "so what?" of cyber threat intelligence.
+  thumbnailUrl: /cfp/jessica_hyde.jpg
+  isTechCfp: true

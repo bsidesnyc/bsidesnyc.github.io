@@ -115,7 +115,7 @@ function addSessionToSchedule(trackSlot, trackName, session, createModals, baseU
      * information later
      */
     if ( createModals ) {
-        createSessionModal("session-modals", session.id, session.title, session.description,
+        createSessionModal(session.id, session.title, session.description,
             trackName, session.speakers, session, baseUrl);
     }
 
@@ -486,7 +486,7 @@ function addSpeakerToSessionModal(speakerId, speakerFullName, modalBody) {
     modalBody.append(peopleDetails);
 }
 
-function createSessionModal(modalSectionId, sessionId, sessionTitle, sessionDescription, 
+function createSessionModal(sessionId, sessionTitle, sessionDescription, 
     trackName, speakers, session, baseUrl) {
 
     var modal = document.createElement("div");
@@ -502,6 +502,7 @@ function createSessionModal(modalSectionId, sessionId, sessionTitle, sessionDesc
 
     var modalDialog = document.createElement("div");
     modalDialog.classList.add("modal-dialog");
+    modalDialog.classList.add("modal-lg");
 
     var modalContent = document.createElement("div");
     modalContent.classList.add("modal-content");
@@ -511,6 +512,8 @@ function createSessionModal(modalSectionId, sessionId, sessionTitle, sessionDesc
 
     var close = document.createElement("div");
     close.classList.add("close");
+    close.setAttribute("data-dismiss", "modal");
+    close.setAttribute("aria-label", "Close");
 
     const svgIcon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     svgIcon.classList.add("icon");
@@ -524,12 +527,6 @@ function createSessionModal(modalSectionId, sessionId, sessionTitle, sessionDesc
     svgIcon.append(icon);
     close.append(svgIcon);
 
-    var closeMask = document.createElement("div");
-    closeMask.classList.add("close-mask");
-    closeMask.setAttribute("data-dismiss", "modal");
-    closeMask.setAttribute("aria-label", "Close");
-    close.append(closeMask);
-
     modalBody.append(close);
 
     addSessionToSessionModal(sessionId, sessionTitle, sessionDescription, trackName, session, modalBody);
@@ -541,8 +538,7 @@ function createSessionModal(modalSectionId, sessionId, sessionTitle, sessionDesc
     modalDialog.append(modalContent);
     modal.append(modalDialog);
 
-    var modalSection = document.getElementById(modalSectionId);
-    modalSection.append(modal);
+    document.body.append(modal);
 
 }
 var waitForElm = function (selector, speaker) {

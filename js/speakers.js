@@ -55,6 +55,7 @@ function addSpeakerToList(speaker, sessions, rooms) {
     effectWrapper.classList.add("col-sm-6");
     effectWrapper.classList.add("col-xs-12");
     effectWrapper.classList.add("text-right");
+    effectWrapper.classList.add("speaker-card");
 
     var lilyEffect = document.createElement("div");
     lilyEffect.classList.add("lily-effect");
@@ -202,10 +203,12 @@ function addSpeakerToModal(speaker, sessions, rooms, baseUrl) {
     modal.tabIndex = "-1";
     modal.setAttribute("role", "dialog");
     modal.setAttribute("aria-labelledby", "speakerDetailLabel-" + speaker.id );
-    modal.setAttribute("aria-hidden", true );
+    modal.setAttribute("aria-hidden", false);
 
     var modalDialog = document.createElement("div");
     modalDialog.classList.add("modal-dialog");
+    modalDialog.classList.add("modal-lg");
+    modalDialog.setAttribute("role", "document");
 
     var modalContent = document.createElement("div");
     modalContent.classList.add("modal-content");
@@ -215,6 +218,8 @@ function addSpeakerToModal(speaker, sessions, rooms, baseUrl) {
 
     var close = document.createElement("div");
     close.classList.add("close");
+    close.setAttribute("data-dismiss", "modal");
+    close.setAttribute("aria-label", "Close");
 
     const svgIcon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     svgIcon.classList.add("icon");
@@ -228,12 +233,6 @@ function addSpeakerToModal(speaker, sessions, rooms, baseUrl) {
     svgIcon.append(icon);
     close.append(svgIcon);
 
-    var closeMask = document.createElement("div");
-    closeMask.classList.add("close-mask");
-    closeMask.setAttribute("data-dismiss", "modal");
-    closeMask.setAttribute("aria-label", "Close");
-    close.append(closeMask);
-
     modalBody.append(close);
 
     addSpeakerSessionToModal(speaker, sessions, rooms, modalBody);
@@ -243,8 +242,7 @@ function addSpeakerToModal(speaker, sessions, rooms, baseUrl) {
     modalDialog.append(modalContent);
     modal.append(modalDialog);
 
-    var speakerModalDiv = document.getElementById('speaker-modals');
-    speakerModalDiv.append(modal); 
+    document.body.append(modal)
 }
 
 function populateSpeakers(allData, baseUrl) {
@@ -253,4 +251,5 @@ function populateSpeakers(allData, baseUrl) {
         addSpeakerToModal(allData["speakers"][i], allData["sessions"], allData["rooms"], baseUrl);
     }
     sliderHandlers();
+
 }

@@ -1,0 +1,25 @@
+<!-- Begin Sponsorship Section -->
+<section id="sponsorship-faq" class="sponsorship-faq bg-light">
+    <div class="content-wrapper">
+        <h3>Sponsorship FAQ</h3>
+        <div class="col-md-6 col-md-offset-3">
+            <div id="accordion" class="accordion">
+                {% for faq in site.data.sponsor-faq %}
+                <div class="card text-left">
+                    <div class="card-header collapsed" data-toggle="collapse" data-target="#collapse-{{ forloop.index }}" 
+                        aria-expanded="false" 
+                        aria-controls="collapse-{{ forloop.index }}"
+                        id="header-{{ forloop.index }}">
+                        {{ faq.question }}
+                    </div>
+                    <div id="collapse-{{ forloop.index }}" class="collapse" aria-labelledby="heading-{{ forloop.index }}" data-parent="#accordion">
+                        <div class="card-body">
+                            {{ faq.answer }}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
