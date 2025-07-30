@@ -10,7 +10,7 @@
               {% assign animationDelay = 0 %}
               {% for card in site.directionDetailsCards %}
               {% assign colWidth = 12 | divided_by: forloop.length %}
-              <div class="col-md-{{ colWidth }} col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+              <div class="col-md-{{ colWidth }} col-xs-12 animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                   <div class="directions-card">
                       <h4>{{ card.title }}</h4>
                       <p>{{ card.information }}</p>
