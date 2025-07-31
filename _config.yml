@@ -247,22 +247,9 @@ directionDetailsCards:
  - {title: "Hotels", information: "<a href='https://www.marriott.com/en-us/hotels/nycft-fairfield-inn-and-suites-new-york-manhattan-central-park/overview/'>Fairfield Inn & Suites New York Manhattan/Central Park</a> is right next door."}
 
 #-----------------------------------------------
-# Partners
-#-----------------------------------------------
-partnersTitle: "Partners"
-
-#-----------------------------------------------
 # Sponsors
 #-----------------------------------------------
-sponsorsTitle: "Our Sponsors"
 sponsorsUrl: "/sponsors/"
-sponsorsButton: "Become a sponsor"
-
-#-----------------------------------------------
-# Sponsorship
-
-sponsorshipTitle: "Want to sponsor?"
-sponsorshipButton: "Download Prospectus"
 sponsorshipKitUrl: "/assets/BSidesNYC-0x05-Sponsorship-Prospectus.pdf"
 
 #-----------------------------------------------

@@ -1,34 +1,19 @@
 -
-  group: "Gigabit Sponsors"
+  group: Gigabit Sponsors
   elements:
-    - {name: "Deepfactor", description: "Deepfactor", link: "https://www.deepfactor.io/", imageUrl: "deepfactorLogo.svg"}
-    - {name: "DropzoneAI", description: "DropzoneAI", link: "https://www.dropzone.ai/", imageUrl: "dropzoneLogo.svg"}
-    - {name: "Myrror", description: "Myrror", link: "https://www.myrror.security/", imageUrl: "myrrorLogo.svg"}
-    - {name: "Nullify", description: "Nullify", link: "https://www.nullify.ai/", imageUrl: "nullifyLogo.svg"}
-    - {name: "Permiso", description: "Permiso", link: "https://www.permiso.io/", imageUrl: "permisoLogo.svg"}
-    - {name: "Pixee", description: "Pixee", link: "https://www.pixee.ai/", imageUrl: "pixeeLogo.png"}
-    - {name: "Tigera", description: "Tigera", link: "https://www.tigera.io/", imageUrl: "tigeraLogo.png"}
-    - {name: "Tines", description: "Tines", link: "https://www.tines.io/", imageUrl: "tinesLogo.png"}
-    - {name: "Virtue", description: "Virtue", link: "https://www.virtuesecurity.com/", imageUrl: "virtueLogo.png"}
+    - {name: Exaforce, link: https://www.exaforce.com/, imageUrl: 2025/exaforce-logo.png }
+    - {name: Formal, link: https://www.joinformal.com/, imageUrl: 2025/formal.png }
+    - {name: LayerX, link: https://layerxsecurity.com/, imageUrl: 2025/layerx.png }
 -
-  group: "Megabit Sponsors"
+  group: Megabit Sponsors
   elements:
-    - {name: "Airmdr", description: "Airmdr", link: "https://airmdr.com/", imageUrl: "airmdrLogo.svg"}
-    - {name: "Akto", description: "Akto", link: "https://www.akto.io/", imageUrl: "aktoLogo.svg"}
-    - {name: "Breez", description: "Breez", link: "https://breezsecurity.io/", imageUrl: "breezLogo.png"}
-    - {name: "Bright", description: "Bright", link: "https://brightsec.com/", imageUrl: "brightLogo.svg"}
-    - {name: "Hunters", description: "Hunters", link: "https://www.hunters.security/", imageUrl: "huntersLogo.svg"}
-    - {name: "Impart", description: "Impart", link: "https://www.impart.security/", imageUrl: "impartLogo.svg"}
-    - {name: "Jit", description: "Jit", link: "https://www.jit.io/", imageUrl: "jitLogo.png"}
-    - {name: "Opal", description: "Opal", link: "https://opal.dev/", imageUrl: "opalLogo.png"}
-    - {name: "Radiant", description: "Radiant", link: "https://radiantsecurity.ai/", imageUrl: "radiantLogo.svg"}
-    - {name: "Sandfly", description: "Sandfly", link: "https://www.sandflysecurity.com/", imageUrl: "sandflyLogo.svg"}
-    - {name: "Splx", description: "Splx", link: "https://www.splx.ai/", imageUrl: "splxaiLogo.svg"}
-    - {name: "Stellar", description: "Stellar", link: "https://stellarcyber.ai/", imageUrl: "stellarLogo.png"}
-    - {name: "Trout", description: "Trout", link: "https://www.trout.software/", imageUrl: "troutLogo.svg"}
+    - {name: deepTempo, link: https://www.deeptempo.ai/, imageUrl: 2025/deeptempo.png }
+    - {name: Sublime Security, link: https://sublime.security/, imageUrl: 2025/sublime.png }
 -
-  group: "Kilobit Sponsors"
+  group: Kilobit Sponsors
   elements:
-    - {name: "JaneStreet", description: "JaneStreet", link: "https://www.janestreet.com/", imageUrl: "janeStreetLogo.svg"}
-    - {name: "Justworks", description: "Justworks", link: "https://www.justworks.com/", imageUrl: "justworksLogo.png"}
--
+    - {name: Culminate, link: https://www.culminatesecurity.com/, imageUrl: 2025/culminate.png}
+    - {name: Gecko Security, link: https://www.gecko.security/, imageUrl: 2025/gecko.png}
+    - {name: Konvu, link: https://konvu.com/, imageUrl: 2025/konvu.png}
+    - {name: Red Canary, link: https://redcanary.com/, imageUrl: 2025/redcanary.png}
+    - {name: TraceBit, link: https://tracebit.com/, imageUrl: 2025/tracebit2.png}
