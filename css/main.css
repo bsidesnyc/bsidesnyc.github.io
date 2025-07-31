@@ -2788,6 +2788,20 @@ nav li a.current,nav li a:hover {
     filter: grayscale(1)
     */
 }
+.sponsor-logo-wrapper {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    overflow: hidden;
+}
+
+.sponsor-logo-wrapper a img {
+    align-items: center;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: scale-down;
+}
 
 .subscribe .email,.subscribe .button {
     width: 100%;

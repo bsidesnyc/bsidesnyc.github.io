@@ -2,41 +2,35 @@
 <section id="sponsors" class="sponsors">
   <div class="content-wrapper">
     <div class="col-lg-10 col-lg-offset-1">
-      <h5><b>{{ site.sponsorsTitle }}</b></h5>
-      {% for sponsor in site.data.sponsors %}
-        <h5>{{ sponsor.group }}</h5>
-        {% if sponsor.group == "Gigabit Sponsors" %}
-          <ul class="list-inline-large">
-            {% for element in sponsor.elements %}
-              <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
-                  <a href="{{ element.link }}" target="_blank">
-                    <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
-                  </a>
-              </li>
-            {% endfor %}
-          </ul>
-        {% elsif sponsor.group == "Megabit Sponsors" %}
-            <ul class="list-inline">
-              {% for element in sponsor.elements %}
-                <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
-                    <a href="{{ element.link }}" target="_blank">
-                      <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
+        <h3 class="pb-0">Sponsors<p>Thank you to our sponsors for making BSidesNYC happen!</p></h3>
+        {% for sponsorGroup in site.data.sponsors %}
+
+        {% assign col_size="col-4 p-3" %}
+        <h4 class="text-center p-5">{{ sponsorGroup.group }}</h4>
+        <div class="row justify-content-center">
+
+            {% if sponsorGroup.group == "Gigabit Sponsors" %}
+                {% assign col_size="col-12 pb-4" %}
+            {% elsif sponsorGroup.group == "Megabit Sponsors" %}
+                {% assign col_size="col-6" %}
+            {% endif %}
+
+            {% for sponsor in sponsorGroup.elements %}
+            <div class="{{ col_size }}">
+                <div class="sponsor-logo-wrapper">
+                    <a href="{{ sponsor.link }}" target="_blank">
+                        <img 
+                            src="{{ site.baseurl | append: '/img/sponsors/' | append: sponsor.imageUrl }}" 
+                            title="{{ sponsor.name}}" 
+                            alt="{{ sponsor.name }}"/>
                     </a>
-                </li>
-              {% endfor %}
-            </ul>
-        {% else %}
-          <ul class="list-inline">
-            {% for element in sponsor.elements %}
-              <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
-                  <a href="{{ element.link }}" target="_blank">
-                    <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
-                  </a>
-              </li>
+                </div>
+            </div>
             {% endfor %}
-          </ul>
-        {% endif %}
-      {% endfor %}
+
+        </div>
+        {% endfor %}
+
     </div>
   </div>
 </section>
