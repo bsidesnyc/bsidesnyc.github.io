@@ -7,13 +7,13 @@
 -
   group: Megabit Sponsors
   elements:
-    - {name: deepTempo, link: https://www.deeptempo.ai/, imageUrl: 2025/deeptempo.png }
-    - {name: Sublime Security, link: https://sublime.security/, imageUrl: 2025/sublime.png }
--
-  group: Kilobit Sponsors
-  elements:
     - {name: Culminate, link: https://www.culminatesecurity.com/, imageUrl: 2025/culminate.png}
     - {name: Gecko Security, link: https://www.gecko.security/, imageUrl: 2025/gecko.png}
     - {name: Konvu, link: https://konvu.com/, imageUrl: 2025/konvu.png}
-    - {name: Red Canary, link: https://redcanary.com/, imageUrl: 2025/redcanary.png}
     - {name: TraceBit, link: https://tracebit.com/, imageUrl: 2025/tracebit2.png}
+    - {name: Red Canary, link: https://redcanary.com/, imageUrl: 2025/redcanary.png}
+-
+  group: Kilobit Sponsors
+  elements:
+    - {name: deepTempo, link: https://www.deeptempo.ai/, imageUrl: 2025/deeptempo.png }
+    - {name: Sublime Security, link: https://sublime.security/, imageUrl: 2025/sublime.png }
