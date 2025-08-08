@@ -1,0 +1,30 @@
+- title: R01 Launch
+  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/VGzo6X956PY?si=TbbNeFqeCyrXrqNC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+  url: https://youtu.be/VGzo6X956PY?si=50IIB2VXpDh4AfpV
+- title: "R02 Keynote: When Do We Get to Play On Easy Mode?"
+  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/aE3VZZFC-wU?si=D9rD485kQhVIOqYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  url: https://youtu.be/aE3VZZFC-wU?si=D9rD485kQhVIOqYg
+- title: R03 Building Burp Extensions with Kotlin
+  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/cJKZYjehnAw?si=CUdHkdyKiIpIdnCl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  url: https://youtu.be/cJKZYjehnAw?si=CUdHkdyKiIpIdnCl
+- title: R04 Breaking free from the chains of fate – Bypassing AWSCompromisedKeyQuarantineV2 Policy
+  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/nKwRmf-DvaI?si=4wyfZG-ElXSfXmC_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  url: https://youtu.be/nKwRmf-DvaI?si=4wyfZG-ElXSfXmC_
+- title: R05 How I hacked a cloud production environment with external Terraform manipulation 
+  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/3hXsUhbw2dE?si=3mblDpAf4LMcdoNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  url: https://youtu.be/3hXsUhbw2dE?si=3mblDpAf4LMcdoNo
+- title: "R06 Discover the Unseen: Azure Vulnerability Exploitation"
+  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/Zn-dFQNImk8?si=LI9uEImd3WZwRzCn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  url: https://youtu.be/Zn-dFQNImk8?si=LI9uEImd3WZwRzCn
+- title: "R07 From HiatusRAT to Cuttlefish: advances in credential theft through the router"
+  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/OA5p3VJk9R0?si=GChGOHaXu23HddtJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  url: https://youtu.be/OA5p3VJk9R0?si=GChGOHaXu23HddtJ
+- title: R08 How We Impersonated Cloud Code by Google Cloud and Took Over GCP Accounts
+  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/e1A0nfZY35s?si=u2IhwwGZCU3-nBri" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  url: https://youtu.be/e1A0nfZY35s?si=u2IhwwGZCU3-nBri
+- title: R09 Remote Code Execution with Serialization Vulnerabilities
+  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/4JpmLslC6ns?si=xHk9QE-qWrbuiTYT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  url: https://youtu.be/4JpmLslC6ns?si=xHk9QE-qWrbuiTYT
+- title: "R10 RE-Thinking: Modernizing the Malware Analyst"
+  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/9n7xjMm4Th8?si=D-oULJg6SKc7iY-_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  url: https://youtu.be/9n7xjMm4Th8?si=D-oULJg6SKc7iY-_

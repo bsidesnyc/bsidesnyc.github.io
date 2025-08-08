@@ -3,10 +3,18 @@
     <div class="content-wrapper">
         <div class="col-md-8 col-md-offset-2">
             <h2>2024</h2>
-            <div class="iframe-wrapper">
-                <iframe id="ls_embed_1729096978" src="https://livestream.com/accounts/686369/events/11192117/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=false&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe>
-            </div>
+            <div class="row">
 
+                {% for video in site.data.videos_2024 %}
+                <div class="col-md-6">
+                    <div class="iframe-wrapper">
+                        {{ video.embed }}
+                    </div>
+                    <p><a href="{{ video.url }}">{{ video.title }}</a></p>
+                </div>
+                {% endfor %}
+
+            </div>
         </div>
     </div>
 </section>
