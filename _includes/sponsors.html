@@ -12,7 +12,7 @@
             {% if sponsorGroup.group == "Gigabit Sponsors" %}
                 {% assign col_size="col-12 pb-4" %}
             {% elsif sponsorGroup.group == "Megabit Sponsors" %}
-                {% assign col_size="col-6" %}
+                {% assign col_size="col-6 col-md-5 p-5" %}
             {% endif %}
 
             {% for sponsor in sponsorGroup.elements %}
