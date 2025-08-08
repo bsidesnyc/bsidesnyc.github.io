@@ -364,9 +364,9 @@ twitterFeed: ""
 #-----------------------------------------------
 # Sessionize Links
 #-----------------------------------------------
-sessionizeJsonSpeakerList: https://sessionize.com/api/v2/1kzdzu2h/view/Speakers
-sessionizeJsonSessionList: https://sessionize.com/api/v2/1kzdzu2h/view/Sessions
-sessionizeJsonAllData: https://sessionize.com/api/v2/1kzdzu2h/view/All
+sessionizeJsonSpeakerList: https://sessionize.com/api/v2/sfqscpbj/view/Speakers
+sessionizeJsonSessionList: https://sessionize.com/api/v2/sfqscpbj/view/Sessions
+sessionizeJsonAllData: https://sessionize.com/api/v2/sfqscpbj/view/All
 # Important: Select "Use UTC timezone for schedule" for the schedule grid in sessionize
-sessionizeJsonScheduleGrid: https://sessionize.com/api/v2/1kzdzu2h/view/GridSmart
+sessionizeJsonScheduleGrid: https://sessionize.com/api/v2/sfqscpbj/view/GridSmart
 

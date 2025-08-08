@@ -7,11 +7,13 @@
 -
   group: Megabit Sponsors
   elements:
-    - {name: Culminate, link: https://www.culminatesecurity.com/, imageUrl: 2025/culminate.png}
-    - {name: Gecko Security, link: https://www.gecko.security/, imageUrl: 2025/gecko.png}
-    - {name: Konvu, link: https://konvu.com/, imageUrl: 2025/konvu.png}
-    - {name: TraceBit, link: https://tracebit.com/, imageUrl: 2025/tracebit2.png}
-    - {name: Red Canary, link: https://redcanary.com/, imageUrl: 2025/redcanary.png}
+    - {name: Culminate, link: https://www.culminatesecurity.com/, imageUrl: 2025/culminate.png }
+    - {name: Gecko Security, link: https://www.gecko.security/, imageUrl: 2025/gecko.png }
+    - {name: Konvu, link: https://konvu.com/, imageUrl: 2025/konvu.png }
+    - {name: TraceBit, link: https://tracebit.com/, imageUrl: 2025/tracebit2.png }
+    - {name: Red Canary, link: https://redcanary.com/, imageUrl: 2025/redcanary2.png }
+    - {name: StrongDM, link: https://www.strongdm.com/, imageUrl: 2025/strongdm.png }
+    - {name: Panther, link: https://panther.com/, imageUrl: 2025/panther.jpg }
 -
   group: Kilobit Sponsors
   elements:
