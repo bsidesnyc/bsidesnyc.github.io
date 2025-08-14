@@ -6,18 +6,21 @@
         {% for sponsorGroup in site.data.sponsors %}
 
         {% assign col_size="col-4 p-3" %}
+        {% assign sponsor_group="sponsor-logo-kilobit " %}
         <h4 class="text-center p-5">{{ sponsorGroup.group }}</h4>
         <div class="row justify-content-center">
 
             {% if sponsorGroup.group == "Gigabit Sponsors" %}
                 {% assign col_size="col-12 pb-4" %}
+                {% assign sponsor_group="sponsor-logo-gigabit " %}
             {% elsif sponsorGroup.group == "Megabit Sponsors" %}
                 {% assign col_size="col-6 col-md-5 p-5" %}
+                {% assign sponsor_group="sponsor-logo-megabit " %}
             {% endif %}
 
             {% for sponsor in sponsorGroup.elements %}
             <div class="{{ col_size }}">
-                <div class="sponsor-logo-wrapper">
+                <div class="sponsor-logo-wrapper {{ sponsor_group }}">
                     <a href="{{ sponsor.link }}" target="_blank">
                         <img 
                             src="{{ site.baseurl | append: '/img/sponsors/' | append: sponsor.imageUrl }}" 
