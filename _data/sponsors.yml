@@ -15,6 +15,7 @@
     - {name: Red Canary, link: 'https://redcanary.com/', imageUrl: 2025/redcanary2.png }
     - {name: StrongDM, link: 'https://www.strongdm.com/', imageUrl: 2025/strongdm.png }
     - {name: Panther, link: 'https://panther.com/', imageUrl: 2025/panther.jpg }
+    - {name: Socket, link: 'https://socket.dev/', imageUrl: 2025/socket.png }
 -
   group: Kilobit Sponsors
   elements:
