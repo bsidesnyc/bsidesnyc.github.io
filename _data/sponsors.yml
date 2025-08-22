@@ -16,6 +16,7 @@
     - {name: StrongDM, link: 'https://www.strongdm.com/', imageUrl: 2025/strongdm.png }
     - {name: Panther, link: 'https://panther.com/', imageUrl: 2025/panther.jpg }
     - {name: Socket, link: 'https://socket.dev/', imageUrl: 2025/socket.png }
+    - {name: SixMap, link: 'https://www.sixmap.io/', imageUrl: 2025/sixmap.png }
 -
   group: Kilobit Sponsors
   elements:
