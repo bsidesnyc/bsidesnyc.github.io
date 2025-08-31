@@ -3209,44 +3209,6 @@ nav li a.current,nav li a:hover {
     background-size: 105%
 }
 
-.zoe-effect:hover figure .overlay {
-    background: rgba(0,0,0,0.3)
-}
-
-.zoe-effect:hover h2,.zoe-effect:hover figcaption,.zoe-effect:hover figcaption>a {
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-    color: #3c4a50
-}
-
-.zoe-effect:hover figcaption>a:nth-child(5) {
-    -webkit-transition-delay: .1s;
-    transition-delay: .1s
-}
-
-.zoe-effect:hover figcaption>a:nth-child(4) {
-    -webkit-transition-delay: .15s;
-    transition-delay: .15s
-}
-
-.zoe-effect:hover figcaption>a:nth-child(3) {
-    -webkit-transition-delay: .2s;
-    transition-delay: .2s
-}
-
-.zoe-effect:hover figcaption>a:nth-child(2) {
-    -webkit-transition-delay: .25s;
-    transition-delay: .25s
-}
-
-.zoe-effect:hover .bio {
-    -webkit-transform: translateY(-70%);
-    -ms-transform: translateY(-70%);
-    transform: translateY(-70%);
-    opacity: 1
-}
-
 .zoe-effect figure {
     overflow: hidden;
     width: 100.3%;
@@ -3272,9 +3234,9 @@ nav li a.current,nav li a:hover {
     z-index: 2;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    -webkit-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    transform: translateY(100%);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
     color: #3c4a50;
     background: #fff
 }
@@ -3287,23 +3249,23 @@ nav li a.current,nav li a:hover {
     text-transform: uppercase;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    -webkit-transform: translateY(-250%);
-    -ms-transform: translateY(-250%);
-    transform: translateY(-250%);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
     -webkit-transition-delay: .05s;
     transition-delay: .05s;
-    color: #fff
 }
 
 .zoe-effect figcaption h2 span {
     font-weight: 500
+    color: #3c4a50
 }
 
 .zoe-effect figcaption>div {
     padding: 0;
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px)
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
 }
 
 .zoe-effect figcaption>a {
@@ -3311,20 +3273,20 @@ nav li a.current,nav li a:hover {
     margin-left: 4px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    -webkit-transform: translateY(200%);
-    -ms-transform: translateY(200%);
-    transform: translateY(200%)
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    color: #3c4a50
 }
 
 .zoe-effect figcaption .position {
     font-size: 12px;
     display: block;
-    display: -webkit-box;
     overflow: hidden;
     height: 14px;
     text-overflow: ellipsis;
-    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical
+    color: #3c4a50
 }
 
 .zoe-effect .bio {
@@ -3357,6 +3319,10 @@ nav li a.current,nav li a:hover {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     box-shadow: 0 1px 7px rgba(0,0,0,0.06),0 1px 3px rgba(0,0,0,0.15)
+}
+.lily-effect .lily-bottom .slider .position {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .lily-effect:hover {

@@ -26,6 +26,7 @@ function addSpeakerToList(speaker, sessions, rooms) {
     for (var i=0; i<speaker.sessions.length; i++) {
         for (var x=0; x<sessions.length; x++) {
             if ( speaker.sessions[i] == sessions[x].id ) {
+                /*
                 var title = document.createElement("li");
 
                 title.classList.add("title");
@@ -36,6 +37,7 @@ function addSpeakerToList(speaker, sessions, rooms) {
 
                 title.innerText = sessions[x].title;
                 slider.append(title);
+                /*
 
                 /*
                  * Determine trackNames for each session
@@ -48,44 +50,37 @@ function addSpeakerToList(speaker, sessions, rooms) {
             }
         }
     }
-    var effectWrapper = document.createElement("div");
-    effectWrapper.classList.add("effect-wrapper");
-    effectWrapper.classList.add("appear-animation");
-    effectWrapper.classList.add("col-md-4");
-    effectWrapper.classList.add("col-sm-6");
-    effectWrapper.classList.add("col-xs-12");
-    effectWrapper.classList.add("text-right");
-    effectWrapper.classList.add("speaker-card");
+    var wrapper = document.createElement("div");
+    wrapper.classList.add("effect-wrapper");
+    wrapper.classList.add("appear-animation");
+    wrapper.classList.add("col-xl-2");
+    wrapper.classList.add("col-lg-3");
+    wrapper.classList.add("col-md-4");
+    wrapper.classList.add("col-sm-4");
+    wrapper.classList.add("col-6");
+    wrapper.classList.add("text-right");
+    wrapper.classList.add("speaker-card");
 
-    var lilyEffect = document.createElement("div");
-    lilyEffect.classList.add("lily-effect");
-    lilyEffect.classList.add("ribbon-activator");
+    var effect = document.createElement("div");
+    effect.classList.add("zoe-effect");
+    effect.setAttribute("data-toggle", "modal");
+    effect.setAttribute("data-target", "#speakerDetail-" + speaker.id );
 
-    var lilyHeader = document.createElement("div");
-    lilyHeader.classList.add("lily-head");
-    lilyHeader.classList.add("lily-head-dark");
-    lilyHeader.classList.add("waves-effect");
-    lilyHeader.classList.add("waves-block");
-    lilyHeader.classList.add("waves-light");
-    lilyHeader.setAttribute("data-toggle", "modal");
-    lilyHeader.setAttribute("data-target", "#speakerDetail-" + speaker.id );
-
-    var speakerHeadshot = document.createElement("figure");
-    /*
-    speakerHeadshot.classList.add("waves-effect");
-    speakerHeadshot.classList.add("waves-block");
-    speakerHeadshot.classList.add("waves-light");
-    */
-    speakerHeadshot.classList.add("figure-circle");
-    speakerHeadshot.classList.add("img-circle");
+    var headshot = document.createElement("figure");
+    headshot.classList.add("waves-effect");
+    headshot.classList.add("waves-block");
+    headshot.classList.add("waves-light");
     if ( speaker.profilePicture != null ) {
-        speakerHeadshot.setAttribute("style", "background-image: url(" + speaker.profilePicture + ")");
+        headshot.setAttribute("style", "background-image: url(" + speaker.profilePicture + ")");
     }
 
     var overlay = document.createElement("div");
     overlay.classList.add("overlay");
     overlay.classList.add("solid-overlay");
 
+    /* 
+     * Add ribbon to indicate what track they're speaking on
+     */
     var ribbonWrapper = document.createElement("ul");
     ribbonWrapper.classList.add("ribbon-wrapper");
 
@@ -114,7 +109,7 @@ function addSpeakerToList(speaker, sessions, rooms) {
         track.append(ribbonTitle);
         ribbonWrapper.append(track);
     }
-    speakerHeadshot.append(ribbonWrapper);
+    headshot.append(ribbonWrapper);
 
     var caption = document.createElement("figcaption");
 
@@ -123,35 +118,17 @@ function addSpeakerToList(speaker, sessions, rooms) {
     name.innerText = speaker.fullName;
     caption.append(name);
 
-    var position = document.createElement("p");
+    var position = document.createElement("span");
     position.classList.add("position");
     position.innerText = speaker.tagLine;
     caption.append(position);
 
-    speakerHeadshot.append(caption);
-    lilyHeader.append(speakerHeadshot);
-    lilyEffect.append(lilyHeader);
-
-    var lilyBottom = document.createElement("div");
-    lilyBottom.classList.add("lily-bottom");
-    /*
-     * Appending slider from the top now
-     */
-    lilyBottom.append(slider);
-
-    var next = document.createElement("a");
-    next.classList.add("slider-next-item");
-    next.innerText = "Next";
-    if ( speaker.sessions.length < 2 ) {
-        next.classList.add("hidden");
-    }
-    lilyBottom.append(next);
-
-    lilyEffect.append(lilyBottom);
-    effectWrapper.append(lilyEffect);
+    headshot.append(caption);
+    effect.append(headshot);
+    wrapper.append(effect);
 
     var speakerListDiv = document.getElementById('speaker-list');
-    speakerListDiv.append(effectWrapper);
+    speakerListDiv.append(wrapper);
 }
 
 function addSpeakerSessionToModal(speaker, sessions, rooms, modalBody) {
