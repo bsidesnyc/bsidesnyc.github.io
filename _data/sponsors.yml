@@ -17,6 +17,8 @@
     - {name: Panther, link: 'https://panther.com/', imageUrl: 2025/panther.jpg }
     - {name: Socket, link: 'https://socket.dev/', imageUrl: 2025/socket.png }
     - {name: SixMap, link: 'https://www.sixmap.io/', imageUrl: 2025/sixmap.png }
+    - {name: Heeler, link: 'https://heeler.com/', imageUrl: 2025/heeler.jpg }
+    - {name: nullify, link: 'https://www.nullify.ai/', imageUrl: 2025/nullify.png }
 -
   group: Kilobit Sponsors
   elements:

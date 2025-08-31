@@ -25,37 +25,51 @@ function sessionizeScheduleGetTrackHeading(dayNumber, rooms) {
     /*
      * Header Row
      */
-    var stickHeader = document.createElement("div");
-    stickHeader.classList.add("timeslot");
-    stickHeader.classList.add("track-header");
-    stickHeader.classList.add("stick-header");
+    var header = document.createElement("div");
+    header.classList.add("timeslot");
+    header.classList.add("track-header");
+    header.classList.add("stick-header");
+    header.classList.add("row");
+    header.classList.add("g-0");
 
-    var trackHeader = document.createElement("div");
-    trackHeader.classList.add("track-header-label");
-    trackHeader.innerText = "Day " + dayNumber;
-    stickHeader.append(trackHeader);
+    var day = document.createElement("div");
+    day.classList.add("col-1");
+    day.classList.add("track-header-label");
+    day.classList.add("track-header-slot");
+    day.classList.add("h-100");
+    day.classList.add("justify-content-end");
+    day.classList.add("align-items-start");
+    day.innerText = "Day " + dayNumber;
+    header.append(day);
 
+    /*
     var timeSlotElements = document.createElement("div");
     timeSlotElements.classList.add("timeslot-elements");
-    timeSlotElements.classList.add("flexbox-wrapper");
+    //timeSlotElements.classList.add("flexbox-wrapper");
+    timeSlotElements.classList.add("col");
+    //timeSlotElements.classList.add("justify-content-around");
+    */
 
     var trackColWidth = Math.floor(12 / rooms.length);
+    console.log("rooms.length = " + rooms.length + "; trackColWidth = " + trackColWidth );
     for (var i=0; i<rooms.length; i++) {
         var room = rooms[i];
         var trackHeaderSlot = document.createElement("div");
         trackHeaderSlot.classList.add("track-header-slot");
-        trackHeaderSlot.classList.add("col-md-" + trackColWidth );
-        trackHeaderSlot.classList.add("flexbox-item-height");
+        //trackHeaderSlot.classList.add("col-md-" + trackColWidth );
+        trackHeaderSlot.classList.add("col-xl");
+        //trackHeaderSlot.classList.add("flexbox-item-height");
 
         var trackHeaderTitle = document.createElement("h5");
         trackHeaderTitle.classList.add("track-header-title");
         trackHeaderTitle.append(getTrackNameAndRoomHtml(room.name, true));
         trackHeaderSlot.append(trackHeaderTitle);
-        timeSlotElements.append(trackHeaderSlot);
+        //timeSlotElements.append(trackHeaderSlot);
+        header.append(trackHeaderSlot);
     }
-    stickHeader.append(timeSlotElements);
+    //header.append(timeSlotElements);
 
-    return stickHeader;
+    return header;
 }
 
 function sessionizeScheduleGetDayHeading(dayNumber, daySchedule) {
@@ -186,9 +200,10 @@ function sessionizeScheduleGetTimeslotElement(room, timeslotRooms, trackColWidth
     slotEndTime, carryOver, baseUrl) {
     var trackSlot = document.createElement("div");
     trackSlot.classList.add("slot");
-    trackSlot.classList.add("col-md-" + trackColWidth );
-    trackSlot.classList.add("col-xs-12");
-    trackSlot.classList.add("flexbox-item-height");
+    //trackSlot.classList.add("col-md-" + trackColWidth );
+    trackSlot.classList.add("col-xl");
+    //trackSlot.classList.add("col-xs-12");
+    //trackSlot.classList.add("flexbox-item-height");
 
 
     carryOver = carryOverCleanup(carryOver, slotStartTime, slotEndTime);
@@ -251,6 +266,8 @@ function sessionizeScheduleGetTimeslot(rooms, timeslot, scheduleDate, slotStartT
 
     var timeslotDiv = document.createElement("div");
     timeslotDiv.classList.add("timeslot");
+    //timeslotDiv.classList.add("d-flex");
+    timeslotDiv.classList.add("row");
     timeslotDiv.setAttribute("itemtype", "http://schema.org/subEvent");
 
 
@@ -259,6 +276,8 @@ function sessionizeScheduleGetTimeslot(rooms, timeslot, scheduleDate, slotStartT
      */
     var timeslotLabel = document.createElement("div");
     timeslotLabel.classList.add("timeslot-label")
+    timeslotLabel.classList.add("track-header-slot")
+    timeslotLabel.classList.add("col-1")
 
     var startTime = document.createElement("time");
     startTime.classList.add("start-time");
@@ -274,18 +293,20 @@ function sessionizeScheduleGetTimeslot(rooms, timeslot, scheduleDate, slotStartT
     /*
      * Build out each additional column
      */
+    /*
     var timeslotElements = document.createElement("div");
     timeslotElements.classList.add("timeslot-elements");
-    timeslotElements.classList.add("flexbox-wrapper");
-
+    timeslotElements.classList.add("col");
+    //timeslotElements.classList.add("flexbox-wrapper");
+    */
     var trackColWidth = Math.floor(12 / rooms.length);
     for (var i=0; i<rooms.length; i++ ) {
         var trackSlot;
         [ trackSlot, carryOver ] = sessionizeScheduleGetTimeslotElement(rooms[i], timeslot.rooms, 
             trackColWidth, slotStartTime, slotEndTime, carryOver, baseUrl);
-        timeslotElements.append(trackSlot);
+        timeslotDiv.append(trackSlot);
     }
-    timeslotDiv.append(timeslotElements);
+    //timeslotDiv.append(timeslotElements);
     return [ timeslotDiv, carryOver ];
 
 
@@ -322,25 +343,25 @@ function getDateTime(day, hhmmss) {
 function sessionizeSchedule(scheduleGrid, baseUrl) {
     var scheduleWrapper = document.getElementById("schedule-wrapper");
 
+
     var day = 1;
     for (var i=0; i<scheduleGrid.length; i++) {
+        var schedule = document.createElement("div");
+        schedule.classList.add("col-lg-10");
+        schedule.classList.add("col-md-10");
+        schedule.classList.add("offset-md-1");
+
         /*
          * Sessionize returns a UTC timestamp string for the start of the day, 
          * if we convert that to ET, it will go to the previous day. 
          * We use UTC for the table header to hack around this
          */
+        var dayScheduleHeading = sessionizeScheduleGetDayHeading(day, scheduleGrid[i]);
+        schedule.append(dayScheduleHeading);
 
         var scheduleTable = document.createElement("div");
         scheduleTable.classList.add("schedule-table");
-        scheduleTable.classList.add("col-lg-10");
-        scheduleTable.classList.add("col-md-10");
-        scheduleTable.classList.add("col-md-offset-1");
-
-        /*
-         * Build out headings
-         */
-        var dayScheduleHeading = sessionizeScheduleGetDayHeading(day, scheduleGrid[i]);
-        scheduleTable.append(dayScheduleHeading);
+        //scheduleTable.classList.add("d-flex");
 
         var dayScheduleTrackHeading = sessionizeScheduleGetTrackHeading(day, scheduleGrid[i].rooms);
         scheduleTable.append(dayScheduleTrackHeading);
@@ -379,9 +400,10 @@ function sessionizeSchedule(scheduleGrid, baseUrl) {
                 baseUrl
             );
             scheduleTable.append(timeslot);
+            schedule.append(scheduleTable);
         }
 
-        scheduleWrapper.append(scheduleTable);
+        scheduleWrapper.append(schedule);
         day++; 
     }
 }

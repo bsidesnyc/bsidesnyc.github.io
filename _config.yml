@@ -87,10 +87,10 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 #-----------------------------------------------
 navigationLinks:
  - {permalink: "/venue/", text: "Venue"}
- #- {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/schedule/", text: "Schedule"}
  #- {permalink: "/villages/", text: "Villages"}
  #- {permalink: "/ctf/", text: "CTF"}
- #- {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/video/", text: "Video"}
  - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/sponsors/", text: "Sponsors"}
@@ -110,7 +110,7 @@ aboutTitle: "About BSidesNYC"
 aboutCaption: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free."
 aboutBlock:
   - {title: "Conference", image: "conference.jpg", text: "Three technical tracks based on the themes of Red Teams, Blue Teams, and Other content. Plus an Entreprenuer track for the bold!" }
-  - {title: "Villages", image: "villages.jpg", text: "Learn how to lockpick, solder, and about local community-driven organizations." }
+  - {title: "Villages", image: "villages.jpg", text: "Discover different realms of security, hacking, and local community-driven organizations." }
   - {title: "Capture The Flag", image: "ctf.jpg", text: "Multiple CTFs with varying levels of technical depth." }
 
 # Statistic Block
