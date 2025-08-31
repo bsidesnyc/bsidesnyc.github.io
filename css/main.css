@@ -3796,7 +3796,7 @@ nav li a.current,nav li a:hover {
 }
 
 .track-header-slot:first-child,.slot:first-child {
-    border-left: 1px solid #e7e7e7
+    /*border-left: 1px solid #e7e7e7*/
 }
 
 .slot {
@@ -5390,7 +5390,7 @@ nav li a.current,nav li a:hover {
     }
 
     .people-modal .people-details .details {
-        padding: 0
+        /*padding: 0*/
     }
 
     .people-modal .people-details .social {
@@ -5441,43 +5441,6 @@ nav li a.current,nav li a:hover {
         border-top: 0
     }
 
-    .slot {
-        border-top: 1px solid #e7e7e7
-    }
-
-    .slot-content {
-        padding-bottom: 20px;
-        min-height: 90px;
-        border-right-width: 5px;
-        border-right-style: solid;
-        border-right-color: #ccc
-    }
-    .slot-content.tech-blue {
-        border-right-color: #0000ff /* Blue */ 
-    }
-
-    .slot-content.tech-red {
-        border-right-color: #ff0000 /* Red */
-    }
-
-    .slot-content.tech-other {
-        border-right-color: #ffa500 /* Orange */
-    }
-
-    .slot-content.entrepreneur {
-        border-right-color: #00ff00 /* Lime */
-    }
-
-    .slot-content.workshop {
-        border-right-color: #ffc0cb /* Pink */
-    }
-
-
-    .slot-content:hover {
-        -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-        transform: translateY(0)
-    }
 
     .hackathon-row {
         margin-bottom: 50px
@@ -5623,6 +5586,45 @@ nav li a.current,nav li a:hover {
 
     .hidden-md {
         display: none !important
+    }
+}
+@media (max-width: 1199px ) {
+    .slot {
+        /*border-top: 1px solid #e7e7e7*/
+    }
+
+    .slot-content {
+        padding-bottom: 20px;
+        min-height: 90px;
+        border-right-width: 5px;
+        border-right-style: solid;
+        border-right-color: #ccc
+    }
+    .slot-content.tech-blue {
+        border-right-color: #0000ff /* Blue */ 
+    }
+
+    .slot-content.tech-red {
+        border-right-color: #ff0000 /* Red */
+    }
+
+    .slot-content.tech-other {
+        border-right-color: #ffa500 /* Orange */
+    }
+
+    .slot-content.entrepreneur {
+        border-right-color: #00ff00 /* Lime */
+    }
+
+    .slot-content.workshop {
+        border-right-color: #ffc0cb /* Pink */
+    }
+
+
+    .slot-content:hover {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0)
     }
 }
 .modals {
