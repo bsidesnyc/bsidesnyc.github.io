@@ -3741,7 +3741,7 @@ nav li a.current,nav li a:hover {
 }
 
 .track-header-label,.timeslot-label {
-    position: absolute;
+    /* position: absolute; */
     padding: 10px 15px 20px;
     width: 100px;
     text-align: left;
