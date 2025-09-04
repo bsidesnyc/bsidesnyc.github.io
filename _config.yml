@@ -263,10 +263,7 @@ subscribeInfo: "^^^ Please ignore this message above from our mailing list provi
 #-----------------------------------------------
 # flip this to make a quick change whether we have tickets open or closed
 ticketsOpen: false
-ticketsOpenDate: "September 15, 2024 20:00:00"
-ticketsText: "Unable to expense other, costly conferences?
-
-No worries, at BSidesNYC we strive to make the cost of attendance minimal."
+ticketsText: "Registration will open on Monday, September 15, 2025 at 8pm ET - Hope to see you there! We'll announce its open on social media, Slack, and the Mailing list!"
 ticketsUpdateText: "Aw snap - looks like all of our tickets were snatched up! Stay tuned for updates on additional opportunities to grab one."
 #ticketsNextReleaseDate: "January 9th, 2018 10:00:00"
 #ticketsNextReleaseText: "Didn't get a ticket during our first round? No need to pout - revisit this page for our next round of tickets on "
