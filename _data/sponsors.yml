@@ -19,6 +19,8 @@
     - {name: SixMap, link: 'https://www.sixmap.io/', imageUrl: 2025/sixmap.png }
     - {name: Heeler, link: 'https://heeler.com/', imageUrl: 2025/heeler.jpg }
     - {name: nullify, link: 'https://www.nullify.ai/', imageUrl: 2025/nullify.png }
+    - {name: DataBee, link: 'https://www.databee.ai/', imageUrl: 2025/databee.png }
+    - {name: Dashlane, link: 'https://www.dashlane.com/', imageUrl: 2025/dashlane.png }
 -
   group: Kilobit Sponsors
   elements:
