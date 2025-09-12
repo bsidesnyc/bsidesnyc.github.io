@@ -2793,6 +2793,7 @@ nav li a.current,nav li a:hover {
     justify-content: center;
     background-color: white;
     overflow: visible;
+    place-items: center;
 }
 
 .sponsor-logo-wrapper a img {
@@ -2801,14 +2802,11 @@ nav li a.current,nav li a:hover {
     height: 100%;
     max-height: 100%;
     max-width: 100%;
-    width: auto;
-    object-fit: scale-down;
+}
+.sponsor-logo-gigabit a img {
+    width: 50%;
 }
 /*
-.sponsor-logo-gigabit {
-    height: 120px;
-    height: 100%;
-}
 .sponsor-logo-megabit {
     height: 100px;
     height: 100%;
@@ -3216,7 +3214,8 @@ nav li a.current,nav li a:hover {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     background-position: -30px;
-    background-size: 115%
+    background-size: 115%;
+    background-repeat: no-repeat;
 }
 
 .zoe-effect figure .overlay {
