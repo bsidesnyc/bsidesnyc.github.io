@@ -147,6 +147,12 @@ layout: compress
        {% endif %}
 
     </script>
+    {% if page.permalink == '/registration/' %}
+        <script src="{{ "/js/registration.js" | prepend: site.baseurl }}"></script>
+        <script>
+            openRegistration({{ site.registrationOpen }}, "{{ site.registrationOpenDate }}", "{{ site.registrationLink }}", "{{ site.eventDate }}");
+        </script>
+       {% endif %}
 
     <script src="{{ "/js/scripts.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/slider.js" | prepend: site.baseurl }}"></script>

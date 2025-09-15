@@ -281,16 +281,15 @@ subscribeInfo: "^^^ Please ignore this message above from our mailing list provi
 #-----------------------------------------------
 # Registration | Tickets
 #-----------------------------------------------
-# flip this to make a quick change whether we have tickets open or closed
-ticketsOpen: false
-ticketsText: "Registration will open on Monday, September 15, 2025 at 8pm ET - Hope to see you there! We'll announce its open on social media, Slack, and the Mailing list!"
-ticketsUpdateText: "Aw snap - looks like all of our tickets were snatched up! Stay tuned for updates on additional opportunities to grab one."
-#ticketsNextReleaseDate: "January 9th, 2018 10:00:00"
-#ticketsNextReleaseText: "Didn't get a ticket during our first round? No need to pout - revisit this page for our next round of tickets on "
-# add EventBrite URL to `link` when `ticketsOpen` is set to `true`
-ticketsButtons:
- - {link: "https://www.ticketleap.events/tickets/bsidesnyc/bsidesnyc-0x04", text: "Get Tickets!", id: "tickets_button_external"}
-priceInfo: "A small batch of additional free tickets on October 14 at 4:15pm ET."
+# If registrationOpen is true, the registration_open content will be shown if:
+#   - its after registrationOpenDate; or 
+#   - registrationOpenDate is null
+#
+# if registrationOpen is false, only the registration_closed content will be shown
+#
+registrationOpen: True
+registrationOpenDate: "2025-09-15T20:00:00-04:00"
+registrationLink: https://www.ticketleap.events/tickets/bsidesnyc/bsidesnyc-0x05
 
 #-----------------------------------------------
 # Venue

@@ -554,3 +554,14 @@
     }
 
 })(jQuery);
+
+function registration(registrationOpen, registrationOpenDate, registrationLink) {
+    if (registrationOpen) {
+        var div = document.getelementbyid("registration_closed");
+        div.classname = "d-none";
+    } else {
+        var div = document.getElementById("registration_open");
+        div.className = "d-none";
+    }
+
+}
