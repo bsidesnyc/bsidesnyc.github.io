@@ -2,7 +2,7 @@
 <section id="venue-maps">
     <div class="content-wrapper">
         <div class="row">
-            <div class="col-lg-6 col-lg-offset-3 col-xs-12">
+            <div class="col-lg-6 offset-lg-3 col-xs-12">
                 <h3>Maps</h3>
                 <p>{{ site.venueMapsIntro }}</p>
             </div>
@@ -10,7 +10,7 @@
 
         {% for map in site.venueFloorMaps %}
         <div class="row venue-map-heading" id="{{ map.divId }}">
-            <div class="col-lg-6 col-lg-offset-3 col-xs-12">
+            <div class="col-lg-6 offset-lg-3 col-xs-12">
                 <h4>{{ map.name }}</h4>
                 <img class="animated venue-map" data-animation="fadeIn" src="{{ site.baseUrl }}/img/venue/{{ map.image }}">
             </div>
