@@ -193,22 +193,22 @@ providing recruitment, retention and advancement for women in the field and cult
   - title: Hack Manhattan
     url: https://hackmanhattan.com/
     logo: hackmanhattan.png
-    handson: false
+    handson: true
     description: Hack Manhattan is a non-profit, all-volunteer hackerspace in New York City. Our space is a place for people to come together and socialize, work on projects, and share knowledge. We welcome anyone interested in art, craft, and technology – whether you’re interested in electronics or gardening, textiles or 3D printing, we invite you to come, work, and be part of the community.
   - title: IoT Village
     url: https://www.iotvillage.org/
     logo: iot.png 
-    handson: false
+    handson: true 
     description: IoT Village advocates for advancing security in the Internet of Things (IoT) industry through bringing researchers and industry together.
   - title: Red Team Village
     url: https://redteamvillage.io/
     logo: rtv.png
-    handson: false
+    handson: true 
     description: At Red Team Village, our mission is to foster a collaborative environment where security professionals can develop and enhance their offensive security skills. We believe in the power of community-driven education and the importance of practical, hands-on learning experiences.
   - title: AI Village (presented by Align)
     url: https://align-sec.org/
     logo: align.png
-    handson: false
+    handson: true 
     description: Our mission is to empower and elevate women and non-binary individuals across the entire spectrum of AI security. We are dedicated to highlighting and amplifying the work of underrepresented communities in this space. By fostering a supportive, inclusive, and collaborative environment, we aim to break down barriers, provide access to resources, and create opportunities for personal and professional growth. 
   - title: NYC Mesh
     url: https://www.nycmesh.net/
