@@ -1,7 +1,17 @@
 <!-- Begin Registration Section -->
 <section id="registration" class="registration">
-  <div class="col-md-8 offset-md-2 text-justify">
-      {{ site.ticketsText }}
+  <div class="col-md-8 offset-md-2 text-justify-center">
+      <!-- Ok super hacker, you can see the link before others.. but it should be closed soo... -->
+      <div id="registration_open" class="">
+          <h1>Registration is Open!</h1>
+          <p>Head over to our <a id="registration_link">registration site</a> to grab your ticket. Act quickly! Tickets may sell out.</p>
+          <a id="registration_button" class="btn btn-primary">Click here to register!</a>
+      </div>
+      <div id="registration_closed" class="">
+          <h1>Registration is Closed!</h1>
+          <p>Thanks for your interest in our conference! Unfortunately registration is currently closed. When its open, we'll announce it on social media, Slack, and the Mailing list!</p>
+          <p id="registration_closed_message"></p>
+      </div>
   </div>
 </section>
 <!-- End Registration Section -->
