@@ -88,7 +88,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 navigationLinks:
  - {permalink: "/venue/", text: "Venue"}
  - {permalink: "/schedule/", text: "Schedule"}
- #- {permalink: "/villages/", text: "Villages"}
+ - {permalink: "/villages/", text: "Villages"}
  #- {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/video/", text: "Video"}
@@ -164,11 +164,6 @@ villages:
     logo: "ics.png"
     handson: true
     description: "We bring you real components such as programmable logic controllers (PLC), human-machine interfaces (HMI), remote telemetry units (RTU), and actuators to simulate a realistic environment by using commonly used components throughout different industrial sectors. You will be able to connect your machine to the different industrial components and networks and try to assess these ICS devices with common security scanners to sniff the industrial traffic, and more!"
-  - title: "Aerospace Village"
-    url: "https://www.aerospacevillage.org/"
-    logo: "aerospace.svg"
-    handson: true
-    description: "The Aerospace Village is a diverse community of hackers, engineers, pilots, policy leaders and more from across both the public and private sectors. We believe the flying public deserves safe, reliable, and trustworthy air travel, which is highly dependent on secure aviation and space operations."
   - title: "Blacks In Cybersecurity™"
     url: "https://www.blacksincyberconf.com/"
     logo: "bic.png"
@@ -195,6 +190,31 @@ villages:
     handson: false
     description: "WiCys is the leading nonprofit organization dedicated to bridging the gender gap and fostering a diverse, highly talented cybersecurity workforce. For more than a decade, Women in CyberSecurity (WiCyS) has stood at the forefront of a crucial movement, dedicated to
 providing recruitment, retention and advancement for women in the field and cultivating a more inclusive, equitable industry landscape."
+  - title: Hack Manhattan
+    url: https://hackmanhattan.com/
+    logo: hackmanhattan.png
+    handson: false
+    description: Hack Manhattan is a non-profit, all-volunteer hackerspace in New York City. Our space is a place for people to come together and socialize, work on projects, and share knowledge. We welcome anyone interested in art, craft, and technology – whether you’re interested in electronics or gardening, textiles or 3D printing, we invite you to come, work, and be part of the community.
+  - title: IoT Village
+    url: https://www.iotvillage.org/
+    logo: iot.png 
+    handson: false
+    description: IoT Village advocates for advancing security in the Internet of Things (IoT) industry through bringing researchers and industry together.
+  - title: Red Team Village
+    url: https://redteamvillage.io/
+    logo: rtv.png
+    handson: false
+    description: At Red Team Village, our mission is to foster a collaborative environment where security professionals can develop and enhance their offensive security skills. We believe in the power of community-driven education and the importance of practical, hands-on learning experiences.
+  - title: AI Village (presented by Align)
+    url: https://align-sec.org/
+    logo: align.png
+    handson: false
+    description: Our mission is to empower and elevate women and non-binary individuals across the entire spectrum of AI security. We are dedicated to highlighting and amplifying the work of underrepresented communities in this space. By fostering a supportive, inclusive, and collaborative environment, we aim to break down barriers, provide access to resources, and create opportunities for personal and professional growth. 
+  - title: NYC Mesh
+    url: https://www.nycmesh.net/
+    logo: nycmesh.png
+    handson: false
+    description: We are a diverse group of volunteers dedicated to ending the digital divide and extending high-speed, reliable internet to all New Yorkers. You can help by joining our community network to get online, volunteering to connect neighbors or grow the network, and donating to improve our community infrastructure and ensure access for all.
 
 #-----------------------------------------------
 # Event Intro

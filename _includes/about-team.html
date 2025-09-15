@@ -1,11 +1,11 @@
 <!-- Begin Team List-->
 <section id="team" class="team">
     <div class="content-wrapper">
-        <div class="col-lg-10 col-lg-offset-1">
+        <div class="col-lg-10 offset-lg-1">
             <h3>Team</h3>
         </div>
 
-        <div class="col-lg-10 col-lg-offset-1 text-center">
+        <div class="col-lg-10 offset-lg-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Technical CFP Committee</h4>
             {% for person in site.data.people %}
               {% if person.isTechCfp == true %}
@@ -34,7 +34,7 @@
           {% endfor %}
         </div>
 
-        <div class="col-lg-10 col-lg-offset-1 text-center">
+        <div class="col-lg-10 offset-lg-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Entrepreneur CFP Committee</h4>
             {% for person in site.data.people %}
               {% if person.isEntrepreneurCfp == true %}
@@ -63,7 +63,7 @@
           {% endfor %}
         </div>
 
-        <div class="col-lg-10 col-lg-offset-1 text-center">
+        <div class="col-lg-10 offset-lg-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Organizers</h4>
             {% for person in site.data.people %}
               {% if person.isOrganizer == true %}
@@ -96,7 +96,7 @@
           {% endfor %}
         </div>
 
-        <div class="col-lg-10 col-lg-offset-1 text-center">
+        <div class="col-lg-10 offset-lg-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Founders</h4>
             {% for person in site.data.people %}
               {% if person.isFounder == true %}

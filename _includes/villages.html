@@ -1,31 +1,30 @@
 <!-- Begin Villages About Section -->
 <section id="villages" class="villages">
     <div class="content-wrapper">
-        <div class="col-lg-6 col-lg-offset-3 col-xs-12">
+        <div class="col-12 col-md-6 offset-md-3">
             <h3>Villages</h3>
 
             {% for village in site.villages %}
-            <div class="row villages-row hidden-lg hidden-md">
-                <div class="col-xs-12">
-                    <h4 class="village-title">{{ village.title }}</h4>
+            <div class="row villages-row d-md-none">
+                <div class="col-12">
+                    <h4 class="village-title text-center">{{ village.title }}</h4>
                 </div>
-                
             </div>
             <div class="row villages-row">
-                <div class="col-lg-4 villages-img-wrapper">
+                <div class="col-12 col-md-4 villages-img-wrapper">
                     <a href="{{ village.url }}" class="villages-img-wrapper">
                         <img class="img-responsive" src="{{ site.baseurl }}/img/villages/{{ village.logo }}">
                     </a>
                     {% if village.url %}
-                    <a class="villages-url text-left" href="{{ village.url }}/#bsidesnyc">Learn More</a>
+                    <a class="villages-url text-center text-lg-left" href="{{ village.url }}/#bsidesnyc">Learn More</a>
                     {% endif %}
                 </div>
-                <div class="col-lg-8 text-left-xs-center">
-                    <h4 class="village-title hidden-xs">{{ village.title }}</h4>
+                <div class="col-12 col-md-8 text-center text-md-left">
+                    <h4 class="village-title d-none d-md-block text-left">{{ village.title }}</h4>
                     {% if village.handson %}
                     <p class="villages-label villages-label-info">Hands On</p>
                     {% endif %}
-                    <p class="village-text">{{ village.description }}</p>
+                    <p class="village-text text-center text-md-left">{{ village.description }}</p>
                 </div>
             </div>
             {% endfor %}
