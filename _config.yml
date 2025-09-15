@@ -89,7 +89,7 @@ navigationLinks:
  - {permalink: "/venue/", text: "Venue"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/villages/", text: "Villages"}
- #- {permalink: "/ctf/", text: "CTF"}
+ - {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/video/", text: "Video"}
  - {permalink: "/registration/", text: "Registration"}
@@ -330,7 +330,7 @@ volunteersSubscribeTitle: "Join the Team"
 #-----------------------------------------------
 ctfHeader: Game On! 
 ctfHeaderMessage: We are so excited to offer multiple Capture The Flag (CTF) competitions. Play one or play them all! All CTFs require a laptop and have both offensive and defensive challenges.
-ctfHeaderMessageFloor: Visit the CTF space in room 9.64 on the 9th floor
+ctfHeaderMessageFloor: Visit the CTF space in the Student Dining Hall (second floor, room 2.64)
 # Really we don't want an odd number of CTFs. If we have odd, it'll look a little strange 
 # on the desktop version
 ctfs:
@@ -363,10 +363,10 @@ ctfs:
       - "\"Joes\" learn and face challenges"
       - "\"Pros\" flex their skills and help the Joes"
     registration: # No more than 2 registration buttons
-      - url: https://forms.gle/68pwNwQARzPMuMjY7 
+      - url: https://docs.google.com/forms/d/e/1FAIpQLSdp4dASdkh1i1gOULIpXl28ZDXte2HknSHVXAsMWLWxe5V6bw/viewform
         disabled: false
         title: Pro Registration 
-      - url: https://forms.gle/MaHcxPg9nZPDv98X9 
+      - url: https://docs.google.com/forms/d/e/1FAIpQLSc2-k27UNqObt19-0tJvacWNHHYev-fKxuUk7px4gHIPhEswA/viewform
         disabled: false
         title: Joe Registration
     registrationMessage: 
