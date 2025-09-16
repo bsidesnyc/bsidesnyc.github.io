@@ -1,0 +1,62 @@
+# No trailing slash in urls
+- title: "NYC Resistor"
+  url: "https://www.nycresistor.com"
+  logo: "nycresistor.png"
+  handson: true
+  description: "We Learn, Share, and Make things. NYC Resistor is a hacker collective with a shared space located in Boerum Hill, Brooklyn. We meet regularly to share knowledge, hack on projects together, and build community."
+- title: "Industrial Control System (ICS) Village"
+  url: "https://www.icsvillage.com"
+  logo: "ics.png"
+  handson: true
+  description: "We bring you real components such as programmable logic controllers (PLC), human-machine interfaces (HMI), remote telemetry units (RTU), and actuators to simulate a realistic environment by using commonly used components throughout different industrial sectors. You will be able to connect your machine to the different industrial components and networks and try to assess these ICS devices with common security scanners to sniff the industrial traffic, and more!"
+- title: "Blacks In Cybersecurity™"
+  url: "https://www.blacksincyberconf.com"
+  logo: "bic.png"
+  handson: false 
+  description: "Blacks In Cybersecurity™ is a meetup group and conference series to help highlight and elevate the Black community in Cybersecurity. The official mission of Blacks In Cybersecurity™ (BIC) is to encourage the participation of the Black community in Cybersecurity."
+- title: "Women's Society of Cyberjutsu"
+  url: "https://womenscyberjutsu.org"
+  logo: "cyberjutsu.png"
+  handson: false
+  description: "Women’s Society of Cyberjutsu (WSC) is a National 501(c)3 non-profit community, focused on empowering women to succeed in the cybersecurity industry. WSC’s mission is to advance women in cybersecurity careers by providing programs and partnerships that promote hands-on training, networking, education, mentoring, resource-sharing and other professional opportunities."
+- title: "The Diana Initiative"
+  url: "https://www.dianainitiative.org"
+  logo: "diana.jpg"
+  handson: false
+  description: "The Diana Initiative is a diversity-driven conference committed to helping all underrepresented people in Information Security. The Diana Initiative features multiple speaker tracks, capture-the-flag competitions, villages with hands-on activities, and workshops."
+- title: "Raíces Cyber"
+  url: "https://www.raicescyber.org/national-capital-region-1-1-1-2-1"
+  logo: "raices.png"
+  handson: false
+  description: "Raíces Cyber's Mission is to Encourage and Support the Hispanic and Latino Cyber and Technology Community to Achieve Greater Representation in the World. We are doing that with our four main pillars. Continued Support and Encouragement to and from the Community, Education for all career levels, Access to valuable resources, Constructive Networking and the forming of STRONG bonds (“Roots”). "
+- title: "WiCys NY Metro Affiliate"
+  url: "https://www.wicys.org/wicys-ny-metro-affiliate"
+  logo: "wicys2.png"
+  handson: false
+  description: "WiCys is the leading nonprofit organization dedicated to bridging the gender gap and fostering a diverse, highly talented cybersecurity workforce. For more than a decade, Women in CyberSecurity (WiCyS) has stood at the forefront of a crucial movement, dedicated to
+providing recruitment, retention and advancement for women in the field and cultivating a more inclusive, equitable industry landscape."
+- title: Hack Manhattan
+  url: https://hackmanhattan.com
+  logo: hackmanhattan.png
+  handson: true
+  description: Hack Manhattan is a non-profit, all-volunteer hackerspace in New York City. Our space is a place for people to come together and socialize, work on projects, and share knowledge. We welcome anyone interested in art, craft, and technology – whether you’re interested in electronics or gardening, textiles or 3D printing, we invite you to come, work, and be part of the community.
+- title: IoT Village
+  url: https://www.iotvillage.org
+  logo: iot.png 
+  handson: true 
+  description: IoT Village advocates for advancing security in the Internet of Things (IoT) industry through bringing researchers and industry together.
+- title: Red Team Village
+  url: https://redteamvillage.io
+  logo: rtv.png
+  handson: true 
+  description: At Red Team Village, our mission is to foster a collaborative environment where security professionals can develop and enhance their offensive security skills. We believe in the power of community-driven education and the importance of practical, hands-on learning experiences.
+- title: AI Village (presented by Align)
+  url: https://align-sec.org
+  logo: align.png
+  handson: true 
+  description: Our mission is to empower and elevate women and non-binary individuals across the entire spectrum of AI security. We are dedicated to highlighting and amplifying the work of underrepresented communities in this space. By fostering a supportive, inclusive, and collaborative environment, we aim to break down barriers, provide access to resources, and create opportunities for personal and professional growth. 
+- title: NYC Mesh
+  url: https://www.nycmesh.net
+  logo: nycmesh.png
+  handson: false
+  description: We are a diverse group of volunteers dedicated to ending the digital divide and extending high-speed, reliable internet to all New Yorkers. You can help by joining our community network to get online, volunteering to connect neighbors or grow the network, and donating to improve our community infrastructure and ensure access for all.
