@@ -21,9 +21,11 @@
     - {name: nullify, link: 'https://www.nullify.ai/', imageUrl: 2025/nullify.png }
     - {name: DataBee, link: 'https://www.databee.ai/', imageUrl: 2025/databee.png }
     - {name: Dashlane, link: 'https://www.dashlane.com/', imageUrl: 2025/dashlane.png }
+    - {name: semgrep, link: 'https://semgrep.dev/', imageUrl: 2025/semgrep.png }
 -
   group: Kilobit Sponsors
   elements:
     - {name: deepTempo, link: 'https://www.deeptempo.ai/', imageUrl: 2025/deeptempo.png }
     - {name: Sublime Security, link: 'https://sublime.security/', imageUrl: 2025/sublime.png }
     - {name: iVerify, link: 'https://iverify.io/', imageUrl: 2025/iverify.png }
+    - {name: Cotool, link: 'https://cotool.ai/', imageUrl: 2025/cotool.png }
