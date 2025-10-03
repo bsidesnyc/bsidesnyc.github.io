@@ -290,7 +290,7 @@ ctfs:
         disabled: true 
         title: Register In Person 
     registrationMessage: Registration will be in-person at the CTF space the day of event
-    url: https://ctfd.io
+    url: https://ctfd.io/#bsidesnyc
   #
   # Pros Vs Joes
   #
@@ -310,7 +310,24 @@ ctfs:
         disabled: false
         title: Joe Registration
     registrationMessage: 
-    url: http://prosversusjoes.net/
+    url: http://prosversusjoes.net/#bsidesnyc
+  #
+  # Red Team Village CTF 
+  #
+  - logo: rtv.png 
+    header: Play Whenever
+    features:
+      - Jeopardy-Style CTF
+      - AI, Web, Pwnables, wide variety of challenges
+      - Play all day or just try one!
+      - Individual or team-based
+      - Leaderboard with Swag & workshop prizes for winners
+    registration: # No more than 2 registration buttons
+      - url: https://threatsims.com/user/events/904259c3-c646-4adc-85b1-91c719b52384
+        disabled: false
+        title: Register Now 
+    registrationMessage: 
+    url: https://redteamvillage.io/#bsidesnyc
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
