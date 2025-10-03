@@ -31,3 +31,4 @@
     - {name: iVerify, link: 'https://iverify.io/', imageUrl: 2025/iverify.png }
     - {name: Cotool, link: 'https://cotool.ai/', imageUrl: 2025/cotool.png }
     - {name: Jane Street Capital, link: 'https://www.janestreet.com/', imageUrl: 2025/janestreet.png }
+    - {name: Bugcrowd, link: 'https://www.bugcrowd.com/', imageUrl: 2025/bugcrowd.png }

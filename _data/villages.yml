@@ -55,3 +55,8 @@ providing recruitment, retention and advancement for women in the field and cult
   logo: align.png
   handson: true 
   description: Our mission is to empower and elevate women and non-binary individuals across the entire spectrum of AI security. We are dedicated to highlighting and amplifying the work of underrepresented communities in this space. By fostering a supportive, inclusive, and collaborative environment, we aim to break down barriers, provide access to resources, and create opportunities for personal and professional growth. 
+- title: Computer Science Society Club
+  url: https://jjaycss.tech/
+  logo: css.png
+  handson: false 
+  description: A community driven club with the aim of helping and providing Computer Science students with all the necessary skills to succeed in their career. Every semester we make it our goal to have unique events for our club members. Come and join us for one of our exciting events!
