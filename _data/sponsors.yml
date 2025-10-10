@@ -23,6 +23,7 @@
     - {name: DataBee, link: 'https://www.databee.ai/', imageUrl: 2025/databee.png }
     - {name: Dashlane, link: 'https://www.dashlane.com/', imageUrl: 2025/dashlane.png }
     - {name: semgrep, link: 'https://semgrep.dev/', imageUrl: 2025/semgrep.png }
+    - {name: armis, link: 'https://www.armisfederal.com/', imageUrl: 2025/armis.png }
 -
   group: Kilobit Sponsors
   elements:
