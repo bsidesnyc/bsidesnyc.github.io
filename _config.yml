@@ -271,8 +271,7 @@ volunteersSubscribeTitle: "Join the Team"
 ctfHeader: Game On! 
 ctfHeaderMessage: We are so excited to offer multiple Capture The Flag (CTF) competitions. Play one or play them all! All CTFs require a laptop and have both offensive and defensive challenges.
 ctfHeaderMessageFloor: Visit the CTF space in the Cafeteria/Student Dining Hall (second floor, room 2.64)
-# Really we don't want an odd number of CTFs. If we have odd, it'll look a little strange 
-# on the desktop version
+# TODO: This year we have 4 CTFs! Time to move it out of the _config.yml and into its own _data/ctf.yml 
 ctfs:
   #
   # CTFd 
@@ -328,6 +327,24 @@ ctfs:
         title: Register Now 
     registrationMessage: 
     url: https://redteamvillage.io/#bsidesnyc
+  #
+  # AI Security Village
+  #
+  - logo: aisecurityvillage.png 
+    header: Play Whenever
+    features:
+      - Jeopardy-Style CTF
+      - AI-related challenges
+      - Play all day or casually pick up a challenge
+      - Individual Participants
+      - Leaderboard with cash prizes for 1st and 2nd place
+      - Registration in person at the AI Security Village
+    registration: # No more than 2 registration buttons
+      - url: https://align-sec.org/events/2025-bsidesnyc
+        disabled: true 
+        title: Register In Person 
+    registrationMessage: 
+    url: https://align-sec.org/events/2025-bsidesnyc
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
