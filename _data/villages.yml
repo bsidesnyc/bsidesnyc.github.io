@@ -52,9 +52,9 @@ providing recruitment, retention and advancement for women in the field and cult
   description: At Red Team Village, our mission is to foster a collaborative environment where security professionals can develop and enhance their offensive security skills. We believe in the power of community-driven education and the importance of practical, hands-on learning experiences.
 - title: AI Security Village (presented by Align)
   url: https://align-sec.org
-  logo: align.png
+  logo: aisecurityvillage.png
   handson: true 
-  description: Our mission is to empower and elevate women and non-binary individuals across the entire spectrum of AI security. We are dedicated to highlighting and amplifying the work of underrepresented communities in this space. By fostering a supportive, inclusive, and collaborative environment, we aim to break down barriers, provide access to resources, and create opportunities for personal and professional growth. 
+  description: Our mission is to empower and elevate women and non-binary individuals across the entire spectrum of AI security. We are dedicated to highlighting and amplifying the work of underrepresented communities in this space. By fostering a supportive, inclusive, and collaborative environment, we aim to break down barriers, provide access to resources, and create opportunities for personal and professional growth. Everyone is welcome - <a href="https://align-sec.org/events/2025-bsidesnyc">see what we have planned for BSidesNYC!</a>
 - title: Computer Science Society Club
   url: https://jjaycss.tech/
   logo: css.png
