@@ -248,16 +248,16 @@ venueMapsIntro: "Tracks are split across multiple floors. You'll enter and regis
 venueFloorMaps:
   - name: Ground Floor (L)
     divId: map-l
-    image: bsidesnyc-johnjay-ground-floor.png
+    image: 2025_bsidesnyc_jj_GROUND_L1-1.png
   - name: Lower Level (L2)
-    image: bsidesnyc-johnjay-L2.png
+    image: 2025_bsidesnyc_jj_LOWER_LEVEL_L2-1.png 
     divId: map-l2
-  - name: 6th Floor
-    image: bsidesnyc-johnjay-6th.png
-    divId: map-6
-  - name: 9th Floor
-    image: bsidesnyc-johnjay-9th.png
-    divId: map-9
+  - name: 1st Floor
+    image: 2025_bsidesnyc_jj_1ST_FLOOR-1.png
+    divId: map-1
+  - name: 2nd Floor
+    image: 2025_bsidesnyc_jj_2ND_FLOOR-1.png
+    divId: map-2
 
 #-----------------------------------------------
 # Volunteers
