@@ -8,10 +8,29 @@ modal: all
 
 {% include top-section.html %}
 
+<section id="top-heading">
+    <div class="container">
+        <p><span>
+            <a href="#venue-wifi">WiFi</a> - 
+            <a href="#venue-maps">Floor Maps</a> - 
+            <a href="{{ '/assets/2025_lunchmenu.pdf' | prepend: site.baseurl }}">Lunch Menu</a>
+        </span></p>
+
+        <h4>Announcements</h4>
+        <div class="row justify-content-center">
+            <div class="col-xs-12">
+                <ul class="list-group list-group-flush">
+                    <!-- Add announcements in _includes/schedule-announcements.html -->
+                    {% include schedule-announcements.html %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Begin Schedule -->
 <section id="schedule" class="schedule">
-    <p><a href="#venue-wifi">WiFi</a> - <a href="#venue-maps">Floor Maps</a></p>
-    <p id="checkin-message">{{ site.checkinMessage }}</p>
+    <h3>Schedule</h3>
     <div class="content-wrapper" id="schedule-wrapper">
     </div>
 </section>
