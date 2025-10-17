@@ -4,11 +4,6 @@
   logo: "nycresistor.png"
   handson: true
   description: "We Learn, Share, and Make things. NYC Resistor is a hacker collective with a shared space located in Boerum Hill, Brooklyn. We meet regularly to share knowledge, hack on projects together, and build community."
-- title: "Industrial Control System (ICS) Village"
-  url: "https://www.icsvillage.com"
-  logo: "ics.png"
-  handson: true
-  description: "We bring you real components such as programmable logic controllers (PLC), human-machine interfaces (HMI), remote telemetry units (RTU), and actuators to simulate a realistic environment by using commonly used components throughout different industrial sectors. You will be able to connect your machine to the different industrial components and networks and try to assess these ICS devices with common security scanners to sniff the industrial traffic, and more!"
 - title: "Blacks In Cybersecurity™"
   url: "https://www.blacksincyberconf.com"
   logo: "bic.png"
