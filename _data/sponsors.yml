@@ -1,6 +1,7 @@
 -
   group: Gigabit Sponsors
   elements:
+    - {name: Google Cloud, link: 'https://cloud.google.com/', imageUrl: 2025/googlecloud.png }
     - {name: Code Red Partners, link: 'https://coderedpartners.com/', imageUrl: 2025/codered.png }
     - {name: Exaforce, link: 'https://www.exaforce.com/', imageUrl: 2025/exaforce-logo.png }
     - {name: Formal, link: 'https://www.joinformal.com/', imageUrl: 2025/formal.png }
