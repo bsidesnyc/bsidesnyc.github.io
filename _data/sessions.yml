@@ -43,7 +43,7 @@
   description: "Hosted by <a href=\"https://www.redballoonsecurity.com\" target=\"_blank\">Red Balloon Security</a>"
   service: true
   isHosted: true
-  imgUrl: /sponsors/red_balloon.png
+  imgUrl: /sponsors/red_balloon.webp
 -
   id: 006
   title: "Villages"
@@ -58,7 +58,7 @@
   service: true
   isHosted: true
   isAd: true
-  imgUrl: /partners/isoc.png
+  imgUrl: /partners/isoc.webp
 -
   id: 010
   title: "Keynote"

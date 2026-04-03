@@ -23,7 +23,7 @@
     font-size: 14px;
     .published {
         padding: 0;
-        font-weight: $bold;
+        font-weight: $fw-bold;
     }
     .publish-date {
         color: #656565;
@@ -50,7 +50,7 @@
 }
 .page-navigation {
     margin-bottom: 40px;
-    font-weight: $bold;
+    font-weight: $fw-bold;
 }
 .comments {
     margin-top: 26px;

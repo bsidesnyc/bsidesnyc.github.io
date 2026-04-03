@@ -1,0 +1,3386 @@
+[
+  {
+    "id": "b322539a-ca37-4c55-8c4f-79413081ff3d",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Abian Morina",
+    "bio": "Abian Morina is an Associate Threat Researcher on Permiso Security's P0 Labs team. He started his journey with computers at a young age, beginning by hacking video games. At that time, he was unaware that this interest could lead to a specialized field of study in security. During middle school, Abian's curiosity led him to hack cameras and speakers for fun, which eventually introduced him to the world of cybersecurity. Abian's passion for cybersecurity grew as he participated in various workshop and events, engaging in Capture the Flag competitions and attending security training sessions available in Kosovo. Abian obtained a Bachelor's Degree in Computer Science and Engineering from the University of Business and Technology. During his time as a student, he demonstrated exceptional leadership by guiding his university's Cyber Defense Competition team to notable achievements, including 3rd place and 1st place in national competitions held by Iowa State University, and after university continued with another 1st place win in a regional hackathon competition. Before joining Permiso, Abian gained valuable experience as a freelance penetration tester and bug bounty hunter at Bugcrowd.",
+    "tagLine": "Associate Threat Researcher",
+    "profilePicture": "https://sessionize.com/image/da56-400o400o1-Dbp8NJQLf84Ag8drjWchea.jpg",
+    "sessions": [
+      {
+        "id": 725123,
+        "name": "Cloud Warfare: Grappling and Strangling Scattered Spider"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/abianmorina",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/abian-morina/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://permiso.io/blog/author/abian-morina",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://permiso.io/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/abian-morina",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "@AbianMorina",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "399a7662-e96b-4ca7-ae1d-4afd32e299f5",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Andi Ahmeti",
+    "bio": "Andi Ahmeti is an Associate Threat Researcher on Permiso Security's P0 Labs team with 2 years of experience in offensive security and threat hunting. He now is focused on hunting through product telemetry to identify undetected and underrepresented evil and building tools to enrich extensive collection of cloud focused data.\r\n\r\nHe is the author of an open-source threat detection tool called CloudGrappler and co-author of the  Cloud Console Cartographer defensive visibility framework. He has presented at numerous conferences around the world including Black Hat Asia, FIRSTCON24, x33fcon, BSides Prishtina.\r\n\r\nMr. Ahmeti obtained a Bachelor of Science in Computer Engineering from the University of Prishtina Faculty of Computer and Electrical Engineering (2023).",
+    "tagLine": "Associate Threat Researcher at Permiso Security",
+    "profilePicture": "https://sessionize.com/image/bed3-400o400o1-QmwxzFLSxBNTD5hHE1ssuF.jpg",
+    "sessions": [
+      {
+        "id": 725123,
+        "name": "Cloud Warfare: Grappling and Strangling Scattered Spider"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/SecEagleAnd1",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/andi-ahmeti/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "SecEagleAnd1",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "f489664b-267f-4572-a2b0-70ff1cb486c9",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Andrew Januszak",
+    "bio": "I work as a systems engineer in higher ed and also serve as a contract pentester for REN-ISAC.",
+    "tagLine": "Systems Engineer and Pentester",
+    "profilePicture": "https://sessionize.com/image/89e8-400o400o1-P4ek3gyDRov51EjA2P1eAa.jpg",
+    "sessions": [
+      {
+        "id": 713968,
+        "name": "Building canaries with ELK and ElastAlert2"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "bbef570b-7280-40f6-ab4e-1fd59494ef53",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Opie",
+    "bio": "Born with a screwdriver in his hand, Andy has been digging into the internals of technology since he opened his eyes and in the security industry since the era of dial-up. Proudly a generalist, Andy has turned his hand at a wide swath of security industry focuses on both the offensive and defensive sides over the last 25 years. When he’s not breaking systems and questioning assumptions, you can find him suspiciously connecting his laptop to things, pushing buttons that say “Do not press,” biking mountains, and climbing rocks.",
+    "tagLine": "Senior Researcher @ Permiso P0 Labs",
+    "profilePicture": "https://sessionize.com/image/8494-400o400o1-Ub4SzGqt184wwLuFASSubu.jpg",
+    "sessions": [
+      {
+        "id": 676465,
+        "name": "Breaking free from the chains of fate - Bypassing AWSCompromisedKeyQuarantineV2 Policy"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/akraut/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/akraut",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "@akraut",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "eaea3d8a-7fe4-42f9-b7df-7c73d8b560e7",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Anita D'Amico",
+    "bio": "Dr. Anita D'Amico is President of Cotopaxi Consulting, which is dedicated to technology commercialization of cybersecurity innovations. She specializes in accelerating adoption of technologies that significantly impact software supply chain security.  As a Vice President at Synopsys Software Integrity Group, Anita led the Products team responsible for their entire industry-leading AppSec product portfolio. She also led their software supply chain security and SBOM business strategy, and their product strategy for secure adoption of AI in software development.\r\n\r\nAnita joined Synopsys when they acquired her startup, Code Dx, Inc. She is an innovator who has successfully completed the journey from idea to prototyping and early sales, and then crossed the chasm into a successful commercial product. As founder and CEO of Code Dx, Inc. she grew the business from a 6-month research project into a venture-funded commercial supplier of B2B AppSec software, and acquisition by Synopsys.\r\n",
+    "tagLine": "Advisor to security startups and investors, Software supply chain strategist",
+    "profilePicture": "https://sessionize.com/image/0b5e-400o400o1-4myw79yLZUR9RLGHHQsfY8.jpg",
+    "sessions": [
+      {
+        "id": 722829,
+        "name": "The Life of an SBOM: Where does it go and what do organizations do to it and with it?"
+      },
+      {
+        "id": 718332,
+        "name": "My Journey from a $99K Cybersecurity Research Project to a Commercial Product and Acquisition"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/anita-damico/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "@anitadamico",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "33306f64-c326-4560-bff9-cf10f207a7a1",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Anshu Gupta",
+    "bio": "Anshu Gupta is currently an investor with Silicon Valley CISO Investments (SVCI).  He is a senior level security executive with Fortune 500 security consulting experience at Ernst & Young and KPMG where he worked at companies like Microsoft, Salesforce, Oracle, Cisco, McAfee, Adobe, Yahoo, GAP, Kaiser among others. Based on advice from his mentors, he then moved on to get startup experience at Coupa Software (now a public company), HelloSign (acquired by DropBox), where he was the first security hire and had to build the whole security program from scratch and hire the information security team as well. Anshu served as the Head of Security Engineering at Varo Bank wherein he helped them at the first neobank to get FDIC approval and national OCC charter.  He also served as the VP, Security at Fast which was working on solving the consumer identity and checkout experience in the Ecommerce space. Anshu last served as the VP, Security and Privacy at SPAN.io",
+    "tagLine": "Investor, Silicon Valley CISO Investments (SVCI)",
+    "profilePicture": "https://sessionize.com/image/59f3-400o400o1-JHXYVbYj5epDVFrd6Rnix6.jpg",
+    "sessions": [
+      {
+        "id": 724604,
+        "name": "Raising money from and engaging with Angel Investment Syndicates"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/fromanshu",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/fromanshu/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.linkedin.com/pulse/presentations-articles-from-anshu-gupta-anshu-gupta/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.tejascybernetwork.com/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/anshu-gupta",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "d8dc526d-5eb1-481b-b93a-b69e254e6f19",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Ante Gojsalic",
+    "bio": "Ante Gojsalić is a Data & AI specialist turned entrepreneur with over a decade in software development. In 2023, he jumped into the GenAI security game and founded SplxAI. The company is already crushing it, having nailed a pre-seed investment round and rapidly growing a team that's now 15-strong and counting.\r\n\r\nBefore starting SplxAI, Ante managed teams of 40+ software engineers and led projects all over the world. He's delivered more than 50 successful projects for big names like Ford and GM, proving he knows how to handle big, complex challenges.\r\n\r\nOriginally from Croatia, Ante is looking to move to the USA to take SplxAI to the next level. As a first-time founder, dad, and passionate tech innovator, he's combining his vast experience with a fresh approach to tackle GenAI security challenges. Ante's journey to the forefront of GenAI security is all about dedication, vision, and a relentless drive to make things happen.",
+    "tagLine": "CTO & Co-Founder of SplxAI",
+    "profilePicture": "https://sessionize.com/image/f28a-400o400o1-4NMP4xd95V3CzbajjUsMEy.jpg",
+    "sessions": [
+      {
+        "id": 736002,
+        "name": "Evading GenAI application defenses: From Zero to Hero"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/AGojsalic31832",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ante-gojsalic-45141b161/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://splx.ai/blog",
+        "linkType": "Blog"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "c06a8338-844f-4237-836c-a1fc83744f08",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "iCarossio",
+    "bio": "Former pentester for the French Intelligence Services.\r\nFormer Machine Learning Research @ Apple.",
+    "tagLine": "Cofounder & CTO @ Escape.tech",
+    "profilePicture": "https://sessionize.com/image/c3f5-400o400o1-NDLa9CDEr2mDZ7sza1ku51.png",
+    "sessions": [
+      {
+        "id": 723878,
+        "name": "Challenges of GraphQL security in 2024"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/iCarossio",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/acarossio/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://escape.tech/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://escape.tech",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/antoine-carossio",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "iCarossio",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "65bfe7d6-3cc0-4ae5-9862-b0b58879e41f",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Ben",
+    "bio": "Benjamin Fabre is the co-founder & CEO of DataDome, a leading AI-powered cyberfraud platform. A serial entrepreneur with a proven-track record, Benjamin boasts nearly 20 years’ experience in scalable web infrastructure, AI-powered data stream processing, & SaaS technologies.\r\n\r\nUnder Benjamin's leadership, DataDome has consistently been recognized as a leader in its field. The platform was named a Leader in The Forrester Wave™ Bot Management Software 2024 report, is consistently ranked as a G2 Leader, & was honored as one of G2’s Best Security Products of 2024. The company  has placed on both the Inc. 500 and Deloitte Technology Fast 500 lists. \r\n\r\nBefore founding DataDome, Benjamin co-founded and led TrendyBuzz to a successful exit, with the company being acquired by LinkFluence. He is also an active member of the Forbes Technology Council, serves on the Executive Board of La French Tech New York & is an investor at Irregular Expressions.",
+    "tagLine": "Co-founder & CEO, DataDome",
+    "profilePicture": "https://sessionize.com/image/16d5-400o400o1-aGQAn9Rc6gLGLLfytpV9up.jpg",
+    "sessions": [
+      {
+        "id": 725350,
+        "name": "Building a Cybersecurity Powerhouse: Insights from a Serial Entrepreneur"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/benjaminfabre/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "6663fe1d-b418-443c-8b1c-f2bf8bf7c8cd",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "gl4ssesbo1",
+    "bio": "Bleon is an Info-sec passionate about Infrastructure Penetration Testing and Security, including Active Directory, Cloud (AWS, Azure, GCP, Digital Ocean), Hybrid Infrastructures, as well as Defense, Detection and Thread Hunting. He has presented in conferences like BlackHat and BSides on topics related to Cloud Penetration Testing and Security.\r\nHis research include Nebula, a Cloud Penetration Testing Framework (https://github.com/gl4ssesbo1/Nebula) and other blogs, which you can also find on his blog (blog.pepperclipp.com).\r\nHe is also the author of the upcoming book \"Deep Dive into Clouded Waters: An overview in Digital Ocean's Pentest and Security\" (https://leanpub.com/deep-dive-into-clouded-waters-an-overview-in-digitaloceans-pentest-and-security)",
+    "tagLine": "Security Engineer",
+    "profilePicture": "https://sessionize.com/image/e02d-400o400o1-dvzQWbtuvqtV9BsA8rYpf.jfif",
+    "sessions": [
+      {
+        "id": 676465,
+        "name": "Breaking free from the chains of fate - Bypassing AWSCompromisedKeyQuarantineV2 Policy"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/gl4ssesbo1",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/bleon-p-9b2734143/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://blog.pepperclipp.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://blog.pepperclipp.com/pepperclipp-public",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/bleon-proko",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "gl4ssesbo1",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "87a7464b-cb75-4f42-aac4-9b27b96ae40a",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Brian McHenry",
+    "bio": "Brian McHenry is the Global Head of Cloud Security Engineering at Check Point Software, leading all pre-sales and customer success functions for the CloudGuard portfolio. Formerly the VP of Product Management for WAF & API Security at F5, Brian is passionate about aligning product strategies and solutions to more secure business outcomes. He is also a co-founder of BSidesNYC, and is dedicated to making cybersecurity careers and conferences more equitable and accessible.",
+    "tagLine": "Global Head of Cloud Security Engineering @ Check Point",
+    "profilePicture": "https://sessionize.com/image/937f-400o400o1-Y4WUTNSiN7ovCXFCGS3EjN.jpg",
+    "sessions": [
+      {
+        "id": 739850,
+        "name": "So You Want to Be a Founder?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/bamchenry",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "948a029c-75be-41d1-9f77-3d9d3db23e25",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Charissa Kim",
+    "bio": "Charissa Kim is a Security TPM at Semgrep. She has spoken on various panels and presented at conferences such as the National Cryptologic Foundation (NCF), National Institute of Standards and Technology (NIST), National Initiative for Cybersecurity Education (NICE), and many others. Charissa also founded Cyber Youth Tech (CyTech), a non-profit organization devoted to empowering the next generation of STEM and cybersecurity professionals.\r\n\r\nFurthermore, Charissa directed and produced K-12 Cyber Talk, a cybersecurity webcast sponsored by the National Security Agency, providing a welcoming environment for K-12 students to learn and explore cybersecurity along with its diverse career options and opportunities. She is also the first female All-American from the National CyberPatriot and Northrup Grumman Nationals competition.",
+    "tagLine": "Technical Program Manager (Security TPM)",
+    "profilePicture": "https://sessionize.com/image/4b7f-400o400o1-QmPhQnjg4GD5VDCoYrN4Fj.jpg",
+    "sessions": [
+      {
+        "id": 716985,
+        "name": "GEN-Z Critique on SOC 2"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/charissaykim",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/charissakim/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "charissaykim",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "65b42256-ff2d-4e42-8815-38ca26209bb5",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "xtina",
+    "bio": "Senior Security Manager with 9 years of experience working in Detection & Response, most recently at Twitch, Stripe, and NASA.",
+    "tagLine": "Sr. Security Manager (previously @ Twitch)",
+    "profilePicture": "https://sessionize.com/image/0efa-400o400o1-bu5RgbXUH5GGJPvVGWS14.jpg",
+    "sessions": [
+      {
+        "id": 705776,
+        "name": "Ctrl-Alt-Detected: Unraveling Threats with Detection Practitioners"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/christinasec",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/christina-devlin",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "3499ee63-a68c-4737-9246-7a5cd64a5ebe",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Christina Parry",
+    "bio": "Christina Parry is a Staff ThreatOps Developer at Huntress. She is a TPM turned security engineer with 8+ years of experience in tech and security, specializing in detection engineering, automation, and open-source software. From her previous experiences at Morgan Stanley and Twitter/X, she has a penchant for building high-impact, scalable software solutions to automate everyday security workflows and elevate detection and response teams. She  loves to give back to the community by partnering with mentoring programs for women and underrepresented groups, giving talks to educate the community on open-source technologies, and can be found at BSides LV and NYC.",
+    "tagLine": "Staff ThreatOps Developer @ Huntress",
+    "profilePicture": "https://sessionize.com/image/edf0-400o400o1-nNckNGaTcgNFf5xnT6UcFN.jpg",
+    "sessions": [
+      {
+        "id": 724369,
+        "name": "When Apps Attack: Hunting Traitorware and Rogue Microsoft 365 Apps at Scale"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/CyberCorg",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/christinaparry23/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://christinaparry.com/",
+        "linkType": "Blog"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "https://x.com/CyberCorg",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "92649ab1-19ae-4975-8c29-5c920f7e2f6b",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Danny Adamitis",
+    "bio": "Danny Adamitis is a principal information security engineer at Black Lotus Labs, the threat research team at Lumen Technologies. Danny has tracked nation-state adversaries using both open-source and proprietary datasets in various roles for several years. More recently he has focused on threats to ISPs, including campaigns in which actors targeted networking equipment, Linux servers, and DNS infrastructure. Prior to joining Lumen Technologies, Daniel worked at Cisco Talos. Danny has a bachelor's degree in Diplomacy and International Relations from Seton Hall University.",
+    "tagLine": "Principal Information Security Engineer ",
+    "profilePicture": "https://sessionize.com/image/312e-400o400o1-Wo1r8t4FPH2duNF3XtF9Wj.jpg",
+    "sessions": [
+      {
+        "id": 725929,
+        "name": "From HiatusRAT to Cuttlefish: advances in credential theft through the router"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "af17855c-704e-4c95-94ca-65d9727a4b35",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Dmitry",
+    "bio": "Dmitry Bestuzhev is a Cybersecurity Expert with over 20 years of experience in the industry and education sectors. He has held senior positions at BlackBerry (Senior Director, CTI) and Kaspersky (Head of GReAT, Latin America), leading cybersecurity teams. Currently, he conducts independent research and supports non-profit educational initiatives.",
+    "tagLine": "Research Specialist",
+    "profilePicture": "https://sessionize.com/image/7cef-400o400o1-V1jfusRTEzqNZ4Dj3gN8QE.png",
+    "sessions": [
+      {
+        "id": 712330,
+        "name": "Local to Global: Tracing Kimsuky's Network Infra Adaptations in a Changing Geopolitical Landscape"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/dimitribest",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/bestuzhev/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "https://twitter.com/dimitribest",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "7fa63a9f-4089-4d54-9e8d-1885e0b4f4c5",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Ela Dogjani",
+    "bio": "Ela Dogjani is an Associate Threat Researcher on Permiso Security’s P0 Labs team. Since the age of 14, Ela has been deeply involved in technology, participating in numerous IT innovation competitions, trainings and cyber security conferences in her home country of Albania. Her passion for cybersecurity and enthusiasm for tackling new security challenges have driven her career forward, making her a valuable asset to the Permiso team.\r\n\r\nMiss Dogjani is finishing her last semester to earn a Bachelor of Science in Software Engineering from the Canadian Institute of Technology.",
+    "tagLine": "Associate Threat Researcher at Permiso",
+    "profilePicture": "https://sessionize.com/image/72b7-400o400o1-w31YXGUKkyKQvCDstqTtGV.jpg",
+    "sessions": [
+      {
+        "id": 725249,
+        "name": "CloudTail: Making Heads or Tails of Selectively Retaining Multi-Cloud Logs (w/o a SIEM!)"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ela-dogjani-bb8306220/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://permiso.io/",
+        "linkType": "Company_Website"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "a8d3bc82-7e7a-4ebb-a526-542b4f60c159",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Eldon Sprickerhoff",
+    "bio": "I am an active entrepreneur and company builder: active as an executive, investor, mentor, advisory and board member at the intersections of information security, computer science, machine learning, SaaS, and finance. Within infosec, I am likely best known for co-founding eSentire (a leading global cybersecurity Managed Detection and Response company).\r\n\r\nWith approaching 30 years of tactical information security experience, I am considered to be a subject matter expert in information security analysis, particularly in regards to financial services firms on the buy-side.\r\n\r\n",
+    "tagLine": "Strategic Advisor, Caledon Ventures ",
+    "profilePicture": "https://sessionize.com/image/33d1-400o400o1-HvtbJu4qU7HXwFTzYT28nq.png",
+    "sessions": [
+      {
+        "id": 723961,
+        "name": "Startup Survival Tips and Uncommon Sense for First-Time Tech Founders"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/eldon-sprickerhoff/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "TheEldon",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "151440eb-b7fa-4b7e-98d6-9ca1145c8e52",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Eric Olson",
+    "bio": "Eric helped pioneer the Cyber Intelligence space beginning in 1999, when he worked to develop some of the world's first technologies and methods for mass-scale collection and exploitation of online content for threat identification. Since then, Eric has led technology, development, and product management teams in hardware, software and services at various cybersecurity and defense firms.  He advises cyber startups through his own firm, Polestar Analytics, and currently oversees Vulnerability Management, Intelligence, Threat Detection and Incident Response as Director of Cyber Security at JetBlue Airways in New York.\r\n",
+    "tagLine": "Co. Founder; Startup Advisor; Currently also Director - Cyber Security; JetBlue Airways",
+    "profilePicture": "https://sessionize.com/image/d73c-400o400o1-NWhBcjwyiG3NNxdcj5rpQG.png",
+    "sessions": [
+      {
+        "id": 725411,
+        "name": "Eat Your Own Dog Food: Why (Even Security) Startups Suck at Security & How to Fix it"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/eolsondc/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "dea86363-2e13-4dfa-996a-200e6feb8749",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Gal Elbaz",
+    "bio": "Co-founder & CTO at Oligo Security with 10+ years of experience in vulnerability research and practical hacking. He previously worked as a Security Researcher at CheckPoint and served in the IDF Intelligence. In his free time, he enjoys playing CTFs.",
+    "tagLine": "Co-founder & CTO at Oligo Security",
+    "profilePicture": "https://sessionize.com/image/3749-400o400o1-MYt8dRa9FSrNxo2x7aYokb.png",
+    "sessions": [
+      {
+        "id": 724649,
+        "name": "Open & Secure: Novel Sandboxing Technique for Any Open Source Library"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/GalElbaz1",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/gal-elbaz/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://oligo.security/blog",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.oligo.security/",
+        "linkType": "Company_Website"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "d8b0f1f7-12c5-43a6-b536-6e54be6524e6",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "euphoricfall",
+    "bio": "Grace works closely with defensive security and CTI practitioners all over the world, ranging from local consulting teams to enterprise operations. As a result, she has unique insights into the requirements and diverse traits of CTI success for individuals, teams, and organizations. On the weekend, she’s a hyper-serious cooperative board gamer and watercolorist.",
+    "tagLine": "Cofounder & COO at Pulsedive",
+    "profilePicture": "https://sessionize.com/image/87a4-400o400o1-NqghrGk4MXApxZ3uMeqyU4.jpg",
+    "sessions": [
+      {
+        "id": 714488,
+        "name": "The blood, sweat, and tears (of pride) in bootstrapping"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/euphoricfall",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/graceschi/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "@euphoricfall",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "b012d874-e8cf-4d2a-a0af-c8613a9bc86f",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Huxley Barbee",
+    "bio": "Huxley Barbee has been a fixture of the security community for over 20 years. Professionally, he was a security consultant working with customers in finance, insurance, manufacturing, and higher education. Currently, he leads the security engineering group at a fintech company. Beyond the day job, he is also active in the security and hacker community. He started attending DEF CON in the late 90s, has spoken at many conferences throughout the US, and is the lead organizer for BSidesNYC. He lives in New York. You should connect with him on social media, buy him a drink, or both.",
+    "tagLine": "void *huxley",
+    "profilePicture": "https://sessionize.com/image/5cdc-400o400o1-73d755f8-a496-44eb-b8cf-aea6bd3202e5.jpg",
+    "sessions": [
+      {
+        "id": 741495,
+        "name": "BSidesNYC 0x04 Launch"
+      },
+      {
+        "id": 741496,
+        "name": "BSidesNYC 0x04 Closing Ceremonies"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/huxley_barbee",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jhbarbee/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://riskreboot.substack.com/",
+        "linkType": "Blog"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "7cf082ba-0487-4f7f-8c50-eb2f4f0d9263",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Ida Musheyev-Polishchuk",
+    "bio": "Ida Musheyev-Polishchuk is a Senior Consultant at Stroz Friedberg’s Digital Forensics and Incident Response practice. She leads and supports incident response matters including business email compromise, ransomware, and unauthorized access investigations. She holds several GIAC certifications including GCFE, GCFA, GCFR, and GCIH. Ida has expertise surrounding business email compromise investigations and has performed research on threat actor techniques during BECs.",
+    "tagLine": "Senior Consultant at Stroz Friedberg’s Digital Forensics and Incident Response ",
+    "profilePicture": "https://sessionize.com/image/0d22-400o400o1-rnPzV1DxH94KPzZnkNX4tb.jpg",
+    "sessions": [
+      {
+        "id": 725774,
+        "name": "10 Things to Know Before You Work on Your Next M365 BEC"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ida-musheyev-polishchuk-4b2a86157/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "f352a2ab-0fdf-49bd-b8fd-a081a297409a",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Jeff",
+    "bio": "Jeff Tomkiewicz is a Offensive Security Engineer for a Healthcare Fortune 40 organization, where he specializes in network penetration testing, social engineering, and physical penetration testing. With a rich background as a 21-year Air Force veteran, Jeff has served in various capacities, including K9 handler and trainer, Intelligence, and Special Operations. Residing in Colorado Springs, CO, Jeff enjoys spanning interests outside of his professional life to include horror films, performing in improv shows, Muay Thai, gardening, and raising chickens.",
+    "tagLine": "Penetration Tester",
+    "profilePicture": "https://sessionize.com/image/0509-400o400o1-DWFMJb7qeKGpYvi8tPMpJB.jpg",
+    "sessions": [
+      {
+        "id": 692931,
+        "name": "Fortifying Active Directory: Combatting Misconfigurations"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jeff-tomkiewicz-%F0%9F%87%BA%F0%9F%87%A6-044455272/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/Jeff",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "52c48567-6009-44f9-b25d-e73e65160867",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Jen Ozmen",
+    "bio": "Jen Ozmen is a Software Engineer at Google, where she works on the Information Security Engineering team, focusing on defense-in-depth mechanisms against common web vulnerabilities. She is passionate about building secure and reliable software, and she is always looking for new ways to improve the security of Google's web ecosystem. She is an active member of the tech community and enjoys sharing her knowledge through presentations at conferences like LibertyJS and Frontrunners DC.",
+    "tagLine": "Software Engineer at Google's Web Security Team",
+    "profilePicture": "https://sessionize.com/image/3299-400o400o1-DZWnX5KzhVtiUhFAYse7Qj.jpg",
+    "sessions": [
+      {
+        "id": 720811,
+        "name": "Trusted Types: DOM XSS Protection at Scale"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ecenaz-ozmen/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://infosec.exchange/@jeno",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/jen-ozmen",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 268106,
+            "name": "she/them"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "66d7da8b-2c25-44eb-8f6e-4a8bdc3e0089",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "halffinn",
+    "bio": "Jeremy is the founder and CEO of FireTail.io, an end-to-end API security startup. Prior to FireTail, Jeremy worked in M&A at Rapid7, a global cyber leader, where he worked on the acquisitions of 3 companies during the pandemic. Jeremy previously led sales at DivvyCloud, one of the earliest cloud security posture management companies, and also led AWS sales in southeast Asia. Jeremy started his career with 13 years in cyber and IT operations. Jeremy has an MBA from Mason, a BA in computational linguistics from UNC, and has completed additional studies in Finland at Aalto University. Jeremy speaks 5 languages and has lived in 5 countries.\r\n",
+    "tagLine": "Cofounder at FireTail",
+    "profilePicture": "https://sessionize.com/image/e613-400o400o1-4saHP5QKy7ADwLoJ1qqMcB.jpg",
+    "sessions": [
+      {
+        "id": 725883,
+        "name": "Building a niche product in a consolidating macro climate"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jeremysnyder/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "halffinn",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "2a59b520-4946-4682-a056-d3d24dae0b7a",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "John Iwasz",
+    "bio": "With over 25 years of experience in software development and architecture, John is a seasoned professional with a wealth of knowledge and expertise. During his 12-year tenure at Microsoft, he worked with clients in the healthcare, fintech, and pharmaceutical industries, utilizing his skills to deliver innovative solutions.\r\n\r\nIn addition to his work at Microsoft, John co-founded Whetstone Technologies, a startup that specializes in creating innovative solutions for smart speakers such as Alexa and Google Home, as well as OEM devices. The company was accepted into the PlayLabs incubator at MIT, showcasing John's entrepreneurial spirit and ability to bring new ideas to fruition.\r\n\r\nCurrently, John works as a partner technologist at AVEVA, where he focuses on industrial IoT and cybersecurity. He is dedicated to helping clients succeed through the use of cutting-edge technologies and a strong focus on quality.",
+    "tagLine": "Partner Technologist at AVEVA",
+    "profilePicture": "https://sessionize.com/image/d01f-400o400o1-pqkQ2xJaPdXh7pwyAPoSZs.png",
+    "sessions": [
+      {
+        "id": 716077,
+        "name": "Remote Code Execution with Serialization Vulnerabilities"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/johniwasz/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/jiwasz",
+        "linkType": "Facebook"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/john.iwasz/",
+        "linkType": "Instagram"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.c-sharpcorner.com/members/john-iwasz",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://aveva.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Threads",
+        "url": "https://www.threads.com/@john.iwasz",
+        "linkType": "Other"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/john-iwasz",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "jiwasz",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "d09da723-ddb0-417b-9936-24298b7b3ae7",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "JD",
+    "bio": "Passionate about technology, security and venture; Jonathan is Co-Founder and CEO of Impart Security. Prior to founding Impart, Jonathan was the VP of Product at Signal Sciences, an application security startup that sold to Fastly for $825M. Prior to Signal Sciences, Jonathan was product lead at Edgecast Networks, a global content delivery network that sold to Verizon for over $400M. After the sale of Edgecast Networks, Jonathan served as VP of Product at Verizon shaping the digital product portfolio, leading to the acquisition of Uplynk, Volicon, AOL, and Yahoo. Jonathan started his career building secure applications as a developer at the Wall Street Journal, 21 Century Fox, and Resource (acquired by IBM).",
+    "tagLine": "CEO and Co-founder, Impart Security",
+    "profilePicture": "https://sessionize.com/image/5647-400o400o1-3RiNRtqd963hWXuvKWddCs.jpg",
+    "sessions": [
+      {
+        "id": 739850,
+        "name": "So You Want to Be a Founder?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jonathan-divincenzo/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://impart.security",
+        "linkType": "Company_Website"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "8612e468-a820-45ca-a731-faa5488f6c33",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Jonathan Goll",
+    "bio": "Before joining federal employment in 2023 with CISA I spent 11+ years working various cybersecurity roles for DoD contractors in the NY Metropolitan area. While I am not an intelligence analyst by trade, I spent more than my fair share of time in a SCIF to understand the current cyber threat environment posed by our adversaries. ",
+    "tagLine": "Cybersecurity Advisor | CISA Region 2",
+    "profilePicture": "https://sessionize.com/image/8b11-400o400o1-KWJfAY3gfg1LQ8v6rED9vJ.jpg",
+    "sessions": [
+      {
+        "id": 683695,
+        "name": "Volt Typhoon and the Threat to Critical Infrastructure"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "a14fe58a-cc8f-40a3-8a18-a84e1aac95f5",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Joseph Edwards",
+    "bio": "Joseph works in Digital Forensics and Incident Response at SentinelOne. Previously, he worked as Senior Malware Researcher at ReversingLabs, focusing on malware delivery in uncommon file formats and supply chain threats. He has performed investigations and malware analysis at manufacturing and technology organizations, and his research interests include industrial control systems malware, IoT device forensics and especially evasive malware.",
+    "tagLine": "Staff DFIR Investigator at SentinelOne",
+    "profilePicture": "https://sessionize.com/image/c8d0-400o400o1-YRE8sdJ63ZEzfVJ2ybqf6c.jpg",
+    "sessions": [
+      {
+        "id": 724578,
+        "name": "RE-Thinking: Modernizing the Malware Analyst"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/joseph-edwards-63552a153",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://ihack.blue",
+        "linkType": "Blog"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "cabe726c-3314-4dc3-9c51-49e5ecefe1ab",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Joshua Prager",
+    "bio": "Josh Prager has over 13 years’ experience focusing on DoD red team infrastructure, cyber threat emulation and threat hunting. As a former threat hunter in the Federal industry, he provided various cyber threat emulation and threat hunting assessments throughout DOD environments. As a principal consultant at SpecterOps, he guides clients in developing the maturity of their detection and response programs, building their detection engineering capabilities, and ensuring detective and preventive coverage of offensive techniques.",
+    "tagLine": "SpecterOps, Principal Consultant, Defensive Services",
+    "profilePicture": "https://sessionize.com/image/85ba-400o400o1-BH3yGFYW3QRR1xTtgjnSjY.jpg",
+    "sessions": [
+      {
+        "id": 684487,
+        "name": "Detection and Triage of Domain Persistence"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/Praga_Prag",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/joshuaprager1/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://medium.com/@bouj33boy",
+        "linkType": "Blog"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "@Praga_Prag",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "4424a160-6954-45d5-9d46-d1090bd3c55b",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Julie Agnes Sparks",
+    "bio": "Julie Agnes Sparks is a Security Engineer specializing in threat detection, incident response, and data engineering with over 7 years of security expereince. She is currently working under Security Research at DataDog and was previously on Detection & Response teams at Brex and Cloudflare. In her spare time, she focuses on community building and mentorship for those in security operations and those within the women in cybersecurity community.",
+    "tagLine": "Security Engineer @ DataDog",
+    "profilePicture": "https://sessionize.com/image/130d-400o400o1-W161o1BHeLmNQJBqS363EJ.jpg",
+    "sessions": [
+      {
+        "id": 705776,
+        "name": "Ctrl-Alt-Detected: Unraveling Threats with Detection Practitioners"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/julie-a-sparks/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://github.com/julieagnessparks",
+        "linkType": "Blog"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 268106,
+            "name": "she/them"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "3deaa405-69e7-44b9-a422-4ba5a56d735c",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Justin Shattuck",
+    "bio": "Justin Shattuck has been a diligent security threat hunter for the last 15 years and has assisted law enforcement agencies in tracking some of the industry’s most notable threat actors. Prior to Resilience, Justin used his relentless pursuit of data hoarding to architect and lead engineering teams responsible for creating security solutions such as Services (SaaS) in DDoS mitigation, Web Application Firewalls, and IDS/IPS and Threat Intelligence.",
+    "tagLine": "CSO @ Resilience",
+    "profilePicture": "https://sessionize.com/image/4679-400o400o1-HtZCfiryQ2FhLzTCszoPdt.jpg",
+    "sessions": [
+      {
+        "id": 739850,
+        "name": "So You Want to Be a Founder?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/justinshattuck",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "@sh4t",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "ea7660aa-c306-4892-8f08-5d5addb2265a",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Keith Erekson",
+    "bio": "Linux sysadmin for 20 years, unofficial/sometimes red- and blue-team conscript, systems architect, benevolent hacker",
+    "tagLine": "Systems Architect and Security Enthusiast ",
+    "profilePicture": "https://sessionize.com/image/a904-400o400o1-rfXU8hqaZG32h2711KfeRw.jpg",
+    "sessions": [
+      {
+        "id": 713968,
+        "name": "Building canaries with ELK and ElastAlert2"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "9fa32262-15ae-4904-933a-e9fdcf996dde",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Ken Zalevsky",
+    "bio": "Ken Zalevsky is the CEO of Vigilant Ops and the former head of Bayer Radiology Medical Device CyberSecurity. He is a passionate advocate for improving cybersecurity across industries, with a special focus on medical technology (MedTech) software.\r\nKen has collaborated with the US FDA, Dept. of Homeland Security, and NTIA (National Telecommunications and Information Administration) on cyber simulation exercises, industry guidance documents, and SBOM initiatives. He advises medical device manufacturers on cybersecurity best practices and assists hospitals in managing breaches. As Chair of the CyberSecurity Working Group of DITTA and an active member of the CyberSecurity teams of MITA and AdvaMed, he is a recognized leader in the field. \r\nKen is a certified CyberSecurity Leader from the School of Computer Science at Carnegie Mellon University and has authored numerous cybersecurity whitepapers, blogs, and articles, and has been a featured speaker at many cybersecurity conferences.",
+    "tagLine": "CEO, Vigilant Ops, Medical technology cybersecurity and SBOM expert",
+    "profilePicture": "https://sessionize.com/image/a50e-400o400o1-JaoCbL8KirEfZuap1f9VXB.png",
+    "sessions": [
+      {
+        "id": 722829,
+        "name": "The Life of an SBOM: Where does it go and what do organizations do to it and with it?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ken-zalevsky/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "@kenzalevsky",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "d00ef2f8-3d45-4a98-a351-e30bce41814e",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Lee Weiner",
+    "bio": "Lee is a board member, investor and the CEO of TrojAI, a company securing AI models.  He brings more than 25 years of B2B software experience, with an extensive background in the cybersecurity sector. Lee has significant experience leading early and growth stage companies to initial public offering and beyond. Prior to joining TrojAI, Lee was a senior executive at Rapid7 for 11 years, leading products, engineering, and innovation as the company scaled from $40 million to over $750 million in revenue. Earlier, he held senior roles with LogMeIn, Symantec, IMlogic and Netegrity.   ",
+    "tagLine": "CEO, TrojAI",
+    "profilePicture": "https://sessionize.com/image/4dd0-400o400o1-93cQ9gHNc5zKxZkXw34xtw.jpg",
+    "sessions": [
+      {
+        "id": 739850,
+        "name": "So You Want to Be a Founder?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/leeweiner/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "12c161d4-c13f-4ba3-95fb-6b13178b7721",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Luke Jennings",
+    "bio": "Luke Jennings is a security researcher from the UK. He spent most of his early career focused on red teaming and offensive security research at MWR, before moving on to developing new detection and response techniques and designing EDR software as the Chief Research Officer for Countercept. He has now pivoted away from the endpoint to focusing on emerging identity attacks as VP of R&D at Push Security.",
+    "tagLine": "VP, R&D, Push Security",
+    "profilePicture": "https://sessionize.com/image/5827-400o400o1-soLFQgYiSYucDw1mCzHkJs.png",
+    "sessions": [
+      {
+        "id": 720775,
+        "name": "The new SaaS cyber kill chain"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/jukelennings",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/luke-jennings-042b5619b/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "@jukelennings",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "4f1cd912-77ca-4cc3-9467-976f7202cbd3",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Lydia Stepanek",
+    "bio": "Lydia Stepanek spent the past decade as a software and DevOps engineer working on data-related technologies at places like MongoDB and Codecademy. She is the owner and lead developer of Pen Loop Consulting, specializing in improving development setup processes and implementing database changes without compromising the developer experience.\r\n\r\nIn her free time, she builds apps – Too Phishy, her most recent, recently made the Google Workspace Top Rated – and runs a cybersecurity blog that has made the front page of Hacker News multiple times. Outside of work, Lydia finds balance in books and Brooklyn.",
+    "tagLine": "Owner and Lead Engineer, Pen Loop Consulting",
+    "profilePicture": "https://sessionize.com/image/a0ea-400o400o1-NHC3SUfF4JNPPPTviD8aa3.jpg",
+    "sessions": [
+      {
+        "id": 709515,
+        "name": "Bridging the Gap: Developing Accessible Anti-Phishing Solutions"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/lydiastepanek/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.lydiaoncybersecurity.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.penloop.io/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/lydia-stepanek",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "LydiaStepanek",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "8f75ccb7-dd91-45a9-a7ee-978d13fddf7c",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Marcus Hallberg",
+    "bio": "My name is Marcus, a security engineer at heart, and I work for Spotify in Stockholm, Sweden. I spend my time with a mix of detection and response as well as cloud security where my passion is in forensics and automation. When I have time off I enjoy rock climbing, folk dancing and cross-country skiing. ",
+    "tagLine": "Senior Security Engineer, Spotify",
+    "profilePicture": "https://sessionize.com/image/53f8-400o400o1-fUgrAsWJUgVHuhGDhgnn6p.png",
+    "sessions": [
+      {
+        "id": 734977,
+        "name": "A hitchhiker's guide to a Google Cloud CTF"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://se.linkedin.com/in/hallbergmarcus",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "monrava89",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "827d1852-415f-4b46-b522-a1e931af9d58",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Marion Säckel",
+    "bio": "I am a Security Engineer currently focusing on cloud security.",
+    "tagLine": "Senior Security Engineer, Spotify",
+    "profilePicture": "https://sessionize.com/image/7a49-400o400o1-Efx1Y5s7cQ7madiSWvuSi5.jpg",
+    "sessions": [
+      {
+        "id": 734977,
+        "name": "A hitchhiker's guide to a Google Cloud CTF"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/marion-säckel-5819a420a",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "c9fb4db7-c30a-4821-951c-29370146cdef",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Mariya Gedrich",
+    "bio": "Mariya Gedrich is a Threat Intelligence Analyst at Recorded Future. She is a part of the Cyber Assessments and Trends (CAT) team, responsible for researching industry trends and creating strategic assessments across a broad range of topics. Mariya is originally from New York City, and completed her bachelor’s degree in Computer Science at Brown University. ",
+    "tagLine": "Threat Intelligence Analyst at Recorded Future",
+    "profilePicture": "https://sessionize.com/image/52ab-400o400o1-BPfihLJDb3tcWZYbakHuCF.jpg",
+    "sessions": [
+      {
+        "id": 705794,
+        "name": "Caught in the Net: Using Infostealer Logs to Unmask CSAM Consumers"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mariya-gedrich-449682135/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 268106,
+            "name": "she/them"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "c0d4ed04-c561-4ecf-b523-4455de9ff589",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Matt Kiely | HuskyHacks",
+    "bio": "Learn. Teach. Build. Repeat. Matt Kiely (HuskyHacks) is a cybersecurity practitioner with 12 years of experience in offensive security research, malware reverse engineering, and network administration. Matt is a Principal Security Researcher at Huntress Labs, where he spends most of his time turning cybercriminals into examples. He is also the creator and instructor of Practical Malware Analysis & Triage (PMAT) available on TCM Security Academy and has a combined 40k students under his tutelage across the globe. Matt thru-hiked the 2200 miles of the Appalachian Trail in 2023 to prevent anyone from telling him to “touch grass” ever again.",
+    "tagLine": "HuskyHacks | Principal Security Researcher @ Huntress Labs",
+    "profilePicture": "https://sessionize.com/image/848d-400o400o1-7umJntxNEwHevEZczKjar2.jpg",
+    "sessions": [
+      {
+        "id": 724369,
+        "name": "When Apps Attack: Hunting Traitorware and Rogue Microsoft 365 Apps at Scale"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/HuskyHacksMK",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/matt-kiely/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://notes.huskyhacks.dev",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.huntress.com/",
+        "linkType": "Company_Website"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "fe5a5ce8-5a73-46c7-b191-8e7b9e579cb1",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "May Brooks",
+    "bio": "May Brooks began her tech journey in the 1990s, exploring game \"cheats\" and \"hacks\" on IRC chats. This sparked a cyber career spanning from Penetration Testing to Security Architect, GRC consultant and Chief Information Security Officer (CISO). \r\nToday, she channels her extensive experience into strategic consulting, promoting innovative cybersecurity initiatives, guiding startups, and mentoring professionals, through her pedagogical knowledge, technical skills, and CISO perspective.\r\nMay's commitment to the profession is evident through her role as a member of the ISC2 Board of Directors as well as a CISSP-authorized instructor and co-author.\r\n\r\nAs a mother of three, her biggest ambition is to make the online world a safer place. Through her podcasts and Facebook community, she provides ongoing security tips and advice to tens of thousands of people. Her online courses and upcoming book, \"Think Safe Cyber - The Ultimate Guide to Online Safety,\" aims to empower an even broader audience. ",
+    "tagLine": "CEO&Founder Helena | Cybersecurity SME | Keynote, Moderator, MC, Speaker | Strategic Cybersecurity Advisor |  Board Advisor | Board Member | Author | Podcaster | Mentor",
+    "profilePicture": "https://sessionize.com/image/8415-400o400o1-Hr9ZGAQQ3M4p9YzS5qh2vq.jpg",
+    "sessions": [
+      {
+        "id": 694832,
+        "name": "How to Talk So That They Will Listen: Selling Cybersecurity"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/may-brooks-kempler/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/groups/Think.Safe.Cyber",
+        "linkType": "Facebook"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/cybermaynia/?igsh=ZjNwbW15ZHhzdzFq",
+        "linkType": "Instagram"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.maybrooks.net",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.maybrooks.net",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/MayBrooks",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "b9dd7ce7-2503-401e-9847-9ef65dbf4aeb",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Moshiko",
+    "bio": "Moshe Hassan is a seasoned cybersecurity leader with a distinguished career in both military and private sectors. Since May 2023, he has led Upwind Security Research, driving innovation, content development, and press relations. Moshe played a pivotal role in restoring Mamram’s cybersecurity unit during a critical three-month period, retiring from the army as a Major and Group Leader.\r\nIn his military career, Moshe led six teams, overseeing 30 engineers and 10 SOC analysts. He rebuilt teams, enhanced training, and developed advanced detection and prevention capabilities, earning the JI6 Commander Excellence Prize and the Israel Defense Prize. He also created the first security measures for JI6 public cloud environments.\r\nAt Upwind, Moshe continues to push the boundaries of cyber defense and offense, safeguarding critical infrastructures. He leads a dynamic team, addressing and discovering vulnerabilities, and has published several articles that contribute to the field of cybersecurity.",
+    "tagLine": "Upwind Security, Research Lead",
+    "profilePicture": "https://sessionize.com/image/865e-400o400o1-3QqgTDcxp8kzAkfRCNKbMC.jpg",
+    "sessions": [
+      {
+        "id": 723125,
+        "name": "How We Impersonated Cloud Code by Google Cloud and Took Over GCP Accounts"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/moshe-hassan-82290a155/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.upwind.io/feed",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.upwind.io/feed",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/moshe-hassan",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "c096aaf4-dfd5-4c5d-b1b2-5c9ac406a2e5",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Munish Walther-Puri",
+    "bio": "Munish Walther-Puri (he/him) is the former and first Director of Cyber Risk for New York City Cyber Command. He also teaches on cyber resiliency and critical infrastructure at NYU Center for Global Affairs and is a fellow at the Institute for Security & Technology. \r\n\r\nPreviously, he worked at a dark web monitoring company, advised startups, and consulted independently on technology and intelligence analysis. Munish is a CFR member and Fletcher Political Risk Group advisor. He is an ally for the #ShareTheMicInCyber campaign and an Eagle Scout.",
+    "tagLine": "Adjunct @ NYU and Institute for Security & Technology",
+    "profilePicture": "https://sessionize.com/image/af05-400o400o1-wWA8zZ3CpJRof2zT9j7yTo.jpg",
+    "sessions": [
+      {
+        "id": 725985,
+        "name": "Reflections and Lessons from Defending NYC"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/presearch",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/munish-walther-puri",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "c2702f44-9eaf-4b0b-8df3-59251aee059d",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "eyrsec",
+    "bio": "Nandita is a security professional with over 8 years of experience across security consulting and product security. She enjoys brainstorming and discussing all things security - technologies, tools and processes - especially pertaining to web and mobile applications, threat modeling, and secure development training. At present, she works at Zendesk as a Senior Product Security Engineer. This allows her to dabble across security engagements, penetration testing, security champions program, and security tooling. Her current focus is on API security, and strategizing and implementing secure solutions at scale. Nandita lives in Herndon, VA where she enjoys running, and hiking with her family.",
+    "tagLine": "Senior Product Security Engineer, Zendesk",
+    "profilePicture": "https://sessionize.com/image/9e2e-400o400o1-W66rtdEneqyShpeKDaKvPx.jpg",
+    "sessions": [
+      {
+        "id": 717036,
+        "name": "Securing a Generative AI Implementation"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nanditajoshi",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/nandita-joshi",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "692843c6-428c-447b-a081-9b377024cf56",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Natasha Vij",
+    "bio": "Natasha Vij is a New York City based Consultant in the Digital Forensics and Incident Response practice of Stroz Friedberg, an Aon Company. She actively investigates incident response for clients, including Fortune 500 companies, non-profit organizations, government agencies.  Her skills include conducting forensic analysis of incident response matters including ransomware, business email compromise, and advanced persistent threat (APT) investigations. Natasha has expertise surrounding business email compromise investigations and regularly spends time researching how threat actor behaviors during these incidents.\r\n",
+    "tagLine": "DFIR Consultant at Stroz Friedberg, an Aon Company",
+    "profilePicture": "https://sessionize.com/image/0609-400o400o1-sv1hU4k3WzcwPz5vf3L8gy.jpg",
+    "sessions": [
+      {
+        "id": 725774,
+        "name": "10 Things to Know Before You Work on Your Next M365 BEC"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/natashavij",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "97d6fe2a-185b-4d92-abb9-efb253660fec",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Nick Coblentz",
+    "bio": "Nick has been an application penetration tester for more than 15 years. He also volunteers his time to help moderate PortSwigger's discord server. ",
+    "tagLine": "Application Penetration Team Lead at Virtue Security",
+    "profilePicture": "https://sessionize.com/image/4d0e-400o400o1-WMWddwwvsg4sVKgeAA3WTA.jpg",
+    "sessions": [
+      {
+        "id": 724965,
+        "name": "Building Burp Extensions with Kotlin"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ncoblentz",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.virtuesecurity.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/nickcoblentz",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "178af6d0-be68-41fa-a7db-e89440385f84",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Nico",
+    "bio": "Josh Prager has over 13 years’ experience focusing on DoD red team infrastructure, cyber threat emulation and threat hunting. As a former threat hunter for Accenture’s Adversary Research and Reconnaissance Team he developed various cyber threat emulation and threat hunting programs within the Federal industry.\r\n\r\nNico is a Consultant on the Defensive Capability team. He graduated from the US Naval Academy (Beat Army) with a degree in Cyber Operations. Prior to joining SpecterOps Nico served as a Surface Warfare Officer and as an Information Professional Officer during his naval career. Nico loves finding new programming languages to play with and in his free time can be found working on two of his other passions: music and movies.",
+    "tagLine": "Adversary Detection Consultant - SpecterOps",
+    "profilePicture": "https://sessionize.com/image/d5d0-400o400o1-TL6UsBu2tF98B7YPHmig9s.jpg",
+    "sessions": [
+      {
+        "id": 684487,
+        "name": "Detection and Triage of Domain Persistence"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/feed/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.linkedin.com/in/nico-shyne-a481681a1/",
+        "linkType": "Company_Website"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "@residualnico",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "cd1d11e7-7978-4ff4-9ef4-5be5421696f1",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Rashmi",
+    "bio": "Rashmi is a cybersecurity engineer specializing in application security with three years of experience in the field. She has a keen expertise in safeguarding applications from cyber threats, ensuring robust and secure software environments. Rashmi has worked organizations such as AWS and EA Sports, where she honed her skills and contributed to the security of critical applications. Outside of work, Rashmi enjoys exploring comedy clubs, playing badminton, and reading books, combining a love for both mental and physical activities. ",
+    "tagLine": "Application Security Engineer, AWS",
+    "profilePicture": "https://sessionize.com/image/edb0-400o400o1-PTFqdgsWiRvSGdQA9pmmLy.jpg",
+    "sessions": [
+      {
+        "id": 724372,
+        "name": "Quantum Computing and Its Impact on Cybersecurity"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/rashmi-jyoti-umd/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/rashmi-jyoti",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "421bb589-d056-4d38-9630-bc3fd5bf8909",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Renée Sirbu",
+    "bio": "Renée Andrea Sirbu is a Postgraduate Associate at the Digital Ethics Center. She received her B.Sc. in Human Biology, Bioethics, and Analytic Philosophy at the University of Toronto (‘21) and her M.P.H. in Health Policy and Public Health Modeling from the Yale School of Public Health (‘23). Renée’s interests include information and privacy law, healthcare and national cybersecurity, and AI/ML ethics. Her research is primarily focused on the ethical use of healthcare AI in clinical settings, human-computer interaction, brain-computer interfaces, and the governance of AI/ML software as a medical device (SaMD). She is working to create a regulatory landscape for postmortem digital autonomy, seeking to answer the question “what happens to our digital selves after we die?” Renée is also an affiliate of the Faculty of Medicine at Imperial College London, and an alumna trainee of the Population Health Analytics Laboratory at the Dalla Lana School of Public Health (University of Toronto).",
+    "tagLine": "Researcher, Yale Digital Ethics Center",
+    "profilePicture": "https://sessionize.com/image/40c4-400o400o1-VSsPRtHzHt8EWFZiDoHb6k.jpg",
+    "sessions": [
+      {
+        "id": 698035,
+        "name": "Cybersecurity Considerations for Brain-Computer Interfaces"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/reneeasirbu/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "@ReneeSirbu",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "6263bb54-18e5-44a6-9125-b5ad7bec8c9c",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Ross Haleliuk",
+    "bio": "Ross is a head of product at LimaCharlie - a startup that enables organisations to detect & respond to threats, automate processes, and future-proof their security operations. His areas of expertise include go-to-market and product strategy, B2B product-led growth, strategic positioning, product-market fit expansion, operations, fundraising, and growth. Outside of work, Ross is a startup advisor, angel investor, frequent contributor to TechCrunch, Forbes, and VentureBeat, and author of VentureinSecurity.net. Ross’s book, ‘Cyber for Builders: The Essential Guide to Building a Cybersecurity Startup’, became an instant Amazon best seller and is recognized as a critical read for any aspiring and early-stage security entrepreneur. ",
+    "tagLine": "Author of 'Cyber for Builders: The Essential Guide to Building a Cybersecurity Startup'",
+    "profilePicture": "https://sessionize.com/image/a1eb-400o400o1-9HLKkWPuY3Drjn89BTDo3p.jpg",
+    "sessions": [
+      {
+        "id": 723944,
+        "name": "Building Cyber Products Customers Love"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/rosshaleliuk/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "3322c282-c0c2-4b99-9179-862df28d4eee",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Scott Miller",
+    "bio": "Scott Miller is a Penetration Tester at Accenture and performs vulnerability assessments and penetration tests for Accenture's clients, with his favorite domains being infrastructure and web. He enjoys traveling and attending conferences and recruiting events related to security and/or diversity and inclusion. Scott is a musician and singer and also enjoys fitness and doing activities like kayaking, hiking, and boxing.",
+    "tagLine": "Scott Miller, Penetration Tester at Accenture",
+    "profilePicture": "https://sessionize.com/image/fee3-400o400o1-fiXV9bCjt44X1Tdi9QhCUk.jpg",
+    "sessions": [
+      {
+        "id": 686793,
+        "name": "Discover the Unseen: Azure Vulnerability Exploitation"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/scottymiller9",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/scottalanmiller9",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Facebook",
+        "url": "https://facebook.com/scottmiller9",
+        "linkType": "Facebook"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://instagram.com/scottymiller9",
+        "linkType": "Instagram"
+      },
+      {
+        "title": "Blog",
+        "url": "https://linkedin.com/in/scottalanmiller9",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://accenture.com/security",
+        "linkType": "Company_Website"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "scottymiller9",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "4cb70ec2-899d-4df5-a7ed-1ec7703c4929",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Shannon McCormick",
+    "bio": "Shannon McCormick is a Security Engineer specializing in threat detection and incident response. She is currently a member of the Detection and Response team at Salesforce, and has previously worked in D&R teams at Stripe and AT&T.",
+    "tagLine": "Sr Member of Technical Staff @ Salesforce",
+    "profilePicture": "https://sessionize.com/image/a66f-400o400o1-YKiAQ8dk3xAokhUBqysHuW.png",
+    "sessions": [
+      {
+        "id": 705776,
+        "name": "Ctrl-Alt-Detected: Unraveling Threats with Detection Practitioners"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "c7e0f5aa-cba1-4b65-8a98-2d66fa5870c7",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Shelley",
+    "bio": "Shelley is  a Product Manager at Opal Security. Prior to this, she was a Senior Security Engineer at Apple, Cruise, and Twilio focusing on Kubernetes and Platform Security, Cloud Infrastructure Security, and Detection and Response Engineering. \r\n",
+    "tagLine": "Opal Security",
+    "profilePicture": "https://sessionize.com/image/2e87-400o400o1-fHQKduX34uyFp2WpkbTEWh.jpg",
+    "sessions": [
+      {
+        "id": 725400,
+        "name": "Protecting Snowflake and Critical Data Systems from Unauthorized Access"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "4597313f-e065-4dea-90e8-c0e8047fc6d0",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Stephen Spano",
+    "bio": "Software engineer at Opal Security",
+    "tagLine": "Opal Security, Software Engineer",
+    "profilePicture": "https://sessionize.com/image/49c3-400o400o1-DQz2twvQAWuF4RDRUBAtPD.png",
+    "sessions": [
+      {
+        "id": 725400,
+        "name": "Protecting Snowflake and Critical Data Systems from Unauthorized Access"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "888ac15d-be35-4baf-be84-525f7054d7fa",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Tammy Truong",
+    "bio": "Tammy Truong is a Security Engineer at Snowflake who focuses on building threat detections and more recently, on insider threat. She is passionate about streamlining and scaling processes and collaborating across teams to put security first.",
+    "tagLine": "Senior Threat Detection Engineer @ Snowflake",
+    "profilePicture": "https://sessionize.com/image/bf16-400o400o1-VnY5qGW8V2q5w7R3VBhWGB.png",
+    "sessions": [
+      {
+        "id": 705776,
+        "name": "Ctrl-Alt-Detected: Unraveling Threats with Detection Practitioners"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "869e4229-40c1-4d6f-a763-f8f5b84c984c",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "t0mQuixote",
+    "bio": "Biography lorem ipsum",
+    "tagLine": "Analyst",
+    "profilePicture": "https://sessionize.com/image/bfd8-400o400o1-7oo2DJc9WtcknMofWbGB5e.png",
+    "sessions": [
+      {
+        "id": 768091,
+        "name": "Backdoors & Breaches - Morning Session"
+      },
+      {
+        "id": 734979,
+        "name": "Backdoors & Breaches - Afternoon Session"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/thomasgoodheart",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "e09dad0e-8506-42a0-8d2c-71bbb79bd2da",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Tristan Kalos",
+    "bio": "Tristan Kalos, co-founder and CEO at Escape, draws from a background as a software engineer and Machine Learning Researcher at UC Berkeley. Motivated by firsthand experience witnessing a client's database stolen through an API in 2018, he has since become an expert in API security, helping security engineers and developers worldwide building secure applications. He is an experienced keynote and conference speaker, presenting at Forum InCyber, bSides, APIdays, GraphQL conf, and other international software development and cyber security conferences.",
+    "tagLine": "Co-founder and CEO of Escape",
+    "profilePicture": "https://sessionize.com/image/f56e-400o400o1-QhPSFibDFdZ6bfTEeSDYFa.png",
+    "sessions": [
+      {
+        "id": 723878,
+        "name": "Challenges of GraphQL security in 2024"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/tristankalos",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/tkalos/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://escape.tech",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/tristan-kalos1181",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "914052ec-4fa1-4e4c-be17-261b1ce081e2",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Tyler Schroder",
+    "bio": "Tyler Schroder is a senior Computer Science BS/MS candidate at Yale University focusing on cyber security (both technical and policy). Tyler is the inaugural Director's Fellow at Yale's Digital Ethics Center. He has been recognized as a CrowdStrike Next-Gen Scholar and an ARRL Radio Digital Communications Scholar. His past research includes CVEs in password manager applications and exploring process automation and improvement for businesses. Tyler holds a CompTIA Security Analytics Professional (CySA+ Sec+ Net+ A+ Svr+), ISC2 Certified in Cyber Security, and a CrowdStrike Certified Falcon Administrator and Responder. Previously IR @ Microsoft.",
+    "tagLine": "Director's Fellow, Digital Ethics Center at Yale University",
+    "profilePicture": "https://sessionize.com/image/608a-400o400o1-hupT3tuSxcM1Pb14pDanej.jpg",
+    "sessions": [
+      {
+        "id": 698035,
+        "name": "Cybersecurity Considerations for Brain-Computer Interfaces"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/rtsschroder/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "https://twitter.com/redorhcal77",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "3d56e2d5-ab6d-4471-8b1d-d4a9c02cb6e3",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Uri Aronovici",
+    "bio": "Ex Israeli intelligence with over a decade in cyber security specializing in both offensive and defensive practices and operations and cloud and product security for large organizations. Uri led the security architecture activities at Akamai where he oversaw global vulnerability management, product security and the company’s cloud security risk remediation strategy.\r\n",
+    "tagLine": "Co-Founder & CTO - ZEST Security",
+    "profilePicture": "https://sessionize.com/image/6d8e-400o400o1-wvyEtx9vAAzwr9kuMEPCVK.jpg",
+    "sessions": [
+      {
+        "id": 721981,
+        "name": "How I hacked a cloud production environment with external Terraform manipulation"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/uri-aronovici/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "42dab7ba-f153-4466-99be-d62645696eda",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Vaibhav Malik",
+    "bio": "\r\nVaibhav Malik is a Global Partner Solution Architect at Cloudflare, where he works with global partners to design and implement effective security solutions for their customers. With over 12 years of experience in networking, security, and cloud technologies, Vaibhav is a recognized industry thought leader and expert in Zero Trust Security Architecture for modern, distributed systems.",
+    "tagLine": "Vaibhav Malik, Partner Solutions Architect, Cloudflare",
+    "profilePicture": "https://sessionize.com/image/6360-400o400o1-hDYnYRZDNCKBUgT2ypKDHK.jpg",
+    "sessions": [
+      {
+        "id": 723804,
+        "name": "Combating Deepfakes: Safeguarding Election Integrity in the AI Era"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/vaibhavmalik1",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/VaibhavMalik",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "90e8391c-ae86-4dc2-a96b-3b5c33cad2a6",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Wendy Nather",
+    "bio": "Wendy Nather has been working in the industry for over 25 years.  She was previously Research Director at the Retail ISAC, where she was responsible for advancing the state of resources and knowledge to help organizations defend their infrastructure from attackers. Wendy was also Research Director of the Information Security Practice at independent analyst firm 451 Research.\r\n\r\nWendy has served as a CISO in both the private and public sectors. She led IT security for the EMEA region of the investment banking division of Swiss Bank Corporation (now UBS), as well as for the Texas Education Agency. Wendy was inducted into the Infosecurity Europe Hall of Fame in 2021. She serves on the board of directors for Sightline Security, is a Senior Fellow at the Atlantic Council's Cyber Statecraft Initiative, and a steering committee member for the IST Ransomware Task Force. She is based in Fort Collins, Colorado.",
+    "tagLine": "Some Kind of Cyber Professional",
+    "profilePicture": "https://sessionize.com/image/279c-400o400o1-R2PaQa4ucpFU3YFeT8kEzh.jpg",
+    "sessions": [
+      {
+        "id": 741494,
+        "name": "BSidesNYC 0x04 Keynote: When Do We Get to Play On Easy Mode?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/wendynather/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/wendynather",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267735,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "9bd377b4-1894-4270-a783-eefbf12d4252",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Wesley Hales",
+    "bio": "Wesley Hales is co-founder and CEO of LeakSignal, an open source cybersecurity project built to detect data leaks and vulnerabilities across the data plane. He's an accredited author, engineer and cybersecurity leader who helped build the the first bot detection and supply chain scanning technology at Shape Security. Before that he led open source projects at Red Hat. ",
+    "tagLine": "LeakSignal Co-Founder and CEO",
+    "profilePicture": "https://sessionize.com/image/5dab-400o400o1-ptidPpGCpvfEkvgJZDAD3g.jpg",
+    "sessions": [
+      {
+        "id": 739850,
+        "name": "So You Want to Be a Founder?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/wesleyhales/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://lifemiles.com",
+        "linkType": "Company_Website"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": "wesleyhales",
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "7ee3278e-4fb6-4de5-ac52-4688d12f25f9",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "DevSecYoad",
+    "bio": "I'm a DevOps engineer with over 14 years of experience in IT, DevOps, and DevSecOps. \r\nI've designed, built, and secured complex Cloud and On-Prem projects for both startups and large corporations. \r\nAt Microsoft, I led a team of DevOps engineers, and we took part in the incident response when Microsoft was hit by the Solarwinds attack. This experience motivated me to start Myrror to address future software supply chain threats. \r\nI'm a cat enthusiast and enjoy hitting the drums in my spare time.",
+    "tagLine": "DevOps Lead | Co-Founder & CEO at Myrror Security",
+    "profilePicture": "https://sessionize.com/image/35e3-400o400o1-XkShidQQ4nPc5R9jmQyKGm.jpg",
+    "sessions": [
+      {
+        "id": 724056,
+        "name": "XZ Backdoor: Navigating the Complexities of Supply Chain Attacks Detected by Accident"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/yoadfekete/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://myrror.security",
+        "linkType": "Company_Website"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "cb61f7ee-58a1-4c25-95a5-3acffccf760f",
+    "firstName": "",
+    "lastName": "",
+    "fullName": "Youssef Attia",
+    "bio": "Youssef Attia is currently a Software Engineer on Google's Web Security team. He recently graduated from Cornell CS May 2024. He was an on Google's Web Security Team and returned after graduating.",
+    "tagLine": "Software Engineer at Google's Web Security Team",
+    "profilePicture": "https://sessionize.com/image/49aa-400o400o1-B4hf4Q7M6eB8LrLFkvG83B.jpg",
+    "sessions": [
+      {
+        "id": 720811,
+        "name": "Trusted Types: DOM XSS Protection at Scale"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 75843,
+        "question": "Twitter/X",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 24,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 75424,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 267734,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  }
+]

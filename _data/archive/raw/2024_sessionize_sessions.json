@@ -1,0 +1,1790 @@
+[
+  {
+    "groupId": null,
+    "groupName": "All",
+    "sessions": [
+      {
+        "questionAnswers": [],
+        "id": "741495",
+        "title": "BSidesNYC 0x04 Launch",
+        "description": null,
+        "startsAt": "2024-10-19T13:00:00Z",
+        "endsAt": "2024-10-19T13:15:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "b012d874-e8cf-4d2a-a0af-c8613a9bc86f",
+            "name": "Huxley Barbee"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 48764,
+        "room": "Tech - Red",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "741494",
+        "title": "BSidesNYC 0x04 Keynote: When Do We Get to Play On Easy Mode?",
+        "description": "Many of us have been in the industry for a long time, and we keep seeing the same problems over and over again. We scramble to keep up with the new technology, and the long tail of the older tech stretches ever further behind us but never goes away. And what’s that definition of insanity again? trying the same things over and over again, expecting a different result? It’s time to look more critically at our assumptions and incentives, and maybe do a little table-flipping so that we can finally catch a break.",
+        "startsAt": "2024-10-19T13:15:00Z",
+        "endsAt": "2024-10-19T14:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "90e8391c-ae86-4dc2-a96b-3b5c33cad2a6",
+            "name": "Wendy Nather"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 48764,
+        "room": "Tech - Red",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "724965",
+        "title": "Building Burp Extensions with Kotlin",
+        "description": "Pentesters often find it necessary to build their own Burp extensions in order to effectively carry out an application penetration test. This talk introduces using Kotlin to build those extensions. It then walks through example extensions created to solve challenges encountered in real world applications. I am also releasing an open source library to streamline common features for those extensions. Finally, as a bonus, I will cover using Bambdas to filter traffic and/or look for potential vulnerabilities in the HTTP Proxy tab of Burp Suite.",
+        "startsAt": "2024-10-19T14:00:00Z",
+        "endsAt": "2024-10-19T15:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "97d6fe2a-185b-4d92-abb9-efb253660fec",
+            "name": "Nick Coblentz"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48764,
+        "room": "Tech - Red",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "725774",
+        "title": "10 Things to Know Before You Work on Your Next M365 BEC",
+        "description": " As incident responders we investigate M365 Business email compromises (“BEC”) daily. BEC’s significantly disrupt operations, making swift and effective remediation essential. In this session, we will be discussing the top 10 insights gained from our extensive experience in investigating these matters. We will cover quick wins, data exfiltration techniques, and log anomalies to find malicious activity and IOCs. Attendees will leave with several tips and tricks to handle their next BEC confidently. ",
+        "startsAt": "2024-10-19T14:00:00Z",
+        "endsAt": "2024-10-19T15:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "7cf082ba-0487-4f7f-8c50-eb2f4f0d9263",
+            "name": "Ida Musheyev-Polishchuk"
+          },
+          {
+            "id": "692843c6-428c-447b-a081-9b377024cf56",
+            "name": "Natasha Vij"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48765,
+        "room": "Tech - Blue",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "725985",
+        "title": "Reflections and Lessons from Defending NYC",
+        "description": "As the former director of cyber risk for NYC Cyber Command, I will share key lessons in cyber strategy for a federated environment, spanning scores of agencies. ",
+        "startsAt": "2024-10-19T14:00:00Z",
+        "endsAt": "2024-10-19T15:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "c096aaf4-dfd5-4c5d-b1b2-5c9ac406a2e5",
+            "name": "Munish Walther-Puri"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267710,
+                "name": "Introductory and overview"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48766,
+        "room": "Tech - Other",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "724604",
+        "title": "Raising money from and engaging with Angel Investment Syndicates",
+        "description": "This session will delve into how to successfully engage with and raise money from cyber angel investment syndicates. The session will also shed light into the typical due diligence process of investors and how to avoid common mistakes.",
+        "startsAt": "2024-10-19T14:00:00Z",
+        "endsAt": "2024-10-19T15:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "33306f64-c326-4560-bff9-cf10f207a7a1",
+            "name": "Anshu Gupta"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 52620,
+        "room": "Entrepreneur",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "768091",
+        "title": "Backdoors & Breaches - Morning Session",
+        "description": null,
+        "startsAt": "2024-10-19T14:00:00Z",
+        "endsAt": "2024-10-19T16:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "869e4229-40c1-4d6f-a763-f8f5b84c984c",
+            "name": "t0mQuixote"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 53177,
+        "room": "Workshop",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": false
+      },
+      {
+        "questionAnswers": [],
+        "id": "676465",
+        "title": "Breaking free from the chains of fate - Bypassing AWSCompromisedKeyQuarantineV2 Policy",
+        "description": "Amazon's AWSCompromisedKeyQuarantineV2 policy is not the panacea it might seem. Join us on an adventure of all the myriad ways to work around this policy, when you discover leaked keys in the wild.\r\nThis presentation is a fun, multimedia exploration of all the shortcomings of the AWSCompromisedKeyQuarantineV2 policy that is attached whenever Amazon detects that a key and secret pair have been leaked in the wild. We'll include demos of actual exploitation and color commentary on how this policy and defender strategy can be improved.",
+        "startsAt": "2024-10-19T15:00:00Z",
+        "endsAt": "2024-10-19T15:30:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "6663fe1d-b418-443c-8b1c-f2bf8bf7c8cd",
+            "name": "gl4ssesbo1"
+          },
+          {
+            "id": "bbef570b-7280-40f6-ab4e-1fd59494ef53",
+            "name": "Opie"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48764,
+        "room": "Tech - Red",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "709515",
+        "title": "Bridging the Gap: Developing Accessible Anti-Phishing Solutions",
+        "description": "In the realm of cybersecurity, the battle against phishing attacks remains a perpetual challenge. While email providers offer spam filters and enterprises invest in sophisticated anti-phishing solutions, there's a noticeable gap in accessibility for the average internet user. This session delves into the journey of building an anti-phishing tool tailored for regular people, exploring the challenges encountered and the valuable lessons learned along the way.\r\n\r\nAt the outset of 2023, the absence of a free, user-friendly anti-phishing tool for everyday individuals sparked a realization: Why not build one? Thus began the journey of crafting an anti-phishing plugin designed to empower users worldwide. However, the path to success was far from straightforward. Initial attempts resulted in setbacks, with the first iteration falling short of expectations.\r\n\r\nThrough perseverance and a commitment to improvement, the anti-phishing plugin evolved, eventually making the Google Workspace Top Rated page. Yet, the journey was marked by numerous trials and tribulations, each offering valuable insights into the complexities of email analysis and phishing detection.\r\n\r\nThroughout the session, I'll share firsthand accounts of the mistakes made and the invaluable lessons gleaned. From the intricacies of email headers to the subtleties of sender authentication protocols, we'll dissect the technical nuances that underpin effective phishing detection.\r\n",
+        "startsAt": "2024-10-19T15:00:00Z",
+        "endsAt": "2024-10-19T15:30:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "4f1cd912-77ca-4cc3-9467-976f7202cbd3",
+            "name": "Lydia Stepanek"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 48765,
+        "room": "Tech - Blue",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "698035",
+        "title": "Cybersecurity Considerations for Brain-Computer Interfaces",
+        "description": "Brain-computer interfaces (BCIs) show enormous potential for advances in personalized medicine. Despite clear therapeutic benefits, BCIs offer a direct pathway to the brain, introducing new avenues for cyber-attacks or security compromises. In forthcoming original research with the Digital Ethics Center at Yale University, we make three core policy recommendations to device manufacturers and regulators to better secure these devices and protect patient safety.    Regulators should mandate non-surgical device update methods, strong authentication and authorization schemes for BCI software modifications, and minimize network connectivity where possible. Failure to implement these policies puts BCI users at unwarranted risk for personal health and genetic information compromise, unwanted movement, and other general cyber-attack. We design a hypothetical, average-case threat model that identifies possible cybersecurity threats to BCI patients, and assign levels of likeliness and risk. We find that physical access and threats are unlikely due to the implantation of the BCI in the body. We then review the possible threats via network paths to BCIs, and suggest possible technical controls to limit network connections unless truly necessary for patient care. ",
+        "startsAt": "2024-10-19T15:00:00Z",
+        "endsAt": "2024-10-19T15:30:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "914052ec-4fa1-4e4c-be17-261b1ce081e2",
+            "name": "Tyler Schroder"
+          },
+          {
+            "id": "421bb589-d056-4d38-9630-bc3fd5bf8909",
+            "name": "Renée Sirbu"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267710,
+                "name": "Introductory and overview"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48766,
+        "room": "Tech - Other",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "725883",
+        "title": "Building a niche product in a consolidating macro climate",
+        "description": "How do you navigate launching a point solution in the era of \"platformization\"? ",
+        "startsAt": "2024-10-19T15:00:00Z",
+        "endsAt": "2024-10-19T15:30:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "66d7da8b-2c25-44eb-8f6e-4a8bdc3e0089",
+            "name": "halffinn"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 52620,
+        "room": "Entrepreneur",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "721981",
+        "title": "How I hacked a cloud production environment with external Terraform manipulation",
+        "description": "Terraform by HashiCorp is a leading Infrastructure as Code (IaC) tool that enables DevOps to define and provision cloud infrastructure. At the heart of Terraform's functionality are many external modules, services and third-party components that are used for planning and deployment. We uncovered a new attack path which has high probability as it leverages commonly-used external Terraform functionalities that are often not properly vetted or even visible. In this session, Uri will cover how he exploited a widely-used Terraform deployment as part of a CI/CD process to gain full control of a cloud production environment. Uri will walk attendees through the complete attack flow, from initial access and reconnaissance to weaponization and code execution, discuss the potential impact, provide best practices and Secure by Design concepts for mitigation and remediation. Moreover, Uri will share his experience with improving SDLC processes to detect these types of risks before they reach production. ",
+        "startsAt": "2024-10-19T15:30:00Z",
+        "endsAt": "2024-10-19T16:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "3d56e2d5-ab6d-4471-8b1d-d4a9c02cb6e3",
+            "name": "Uri Aronovici"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48764,
+        "room": "Tech - Red",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "713968",
+        "title": "Building canaries with ELK and ElastAlert2",
+        "description": "Canaries (honeytokens, canary tokens, canary files, canary accounts, etc…) are relatively low-effort high-gain defensive tools. We wanted to use our existing infrastructure and tooling to implement canaries in various places across different services. We decided to build our own canaries, leveraging our ELK stack for data collection and our ElastAlert2 instance for alert tuning and generating notifications across different communication channels. This solution has been successful in detecting phishing/credential harvesting attacks and provides a lot of flexibility for how, when, and where we implement canaries as well as receive alerts. ",
+        "startsAt": "2024-10-19T15:30:00Z",
+        "endsAt": "2024-10-19T16:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "f489664b-267f-4572-a2b0-70ff1cb486c9",
+            "name": "Andrew Januszak"
+          },
+          {
+            "id": "ea7660aa-c306-4892-8f08-5d5addb2265a",
+            "name": "Keith Erekson"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267710,
+                "name": "Introductory and overview"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48765,
+        "room": "Tech - Blue",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "724372",
+        "title": "Quantum Computing and Its Impact on Cybersecurity",
+        "description": "Quantum computing is poised to revolutionize the field of cybersecurity, introducing both unprecedented opportunities and significant challenges. This session will delve into the fundamental principles of quantum computing and its stark differences from classical computing. We will explore how quantum algorithms, like Shor’s algorithm, threaten current encryption methods such as RSA and ECC, necessitating the development of quantum-resistant cryptography. Attendees will gain insights into NIST’s efforts in post-quantum cryptography standardization, practical applications of quantum computing in enhancing security, and strategies for preparing for a quantum future. Real-world case studies and future trends will be highlighted to provide a comprehensive understanding of this transformative technology's impact on cybersecurity",
+        "startsAt": "2024-10-19T15:30:00Z",
+        "endsAt": "2024-10-19T16:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "cd1d11e7-7978-4ff4-9ef4-5be5421696f1",
+            "name": "Rashmi"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48766,
+        "room": "Tech - Other",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "716985",
+        "title": "GEN-Z Critique on SOC 2",
+        "description": "Over the past few months, I had the opportunity to witness Series C security startup, Semgrep, navigate its SOC 2 certification. I was also interested in the general understanding of SOC 2 with engineers, so I went and interviewed 50 of them to hear their viewpoints! I uncovered surprising insights into SOC 2, GRC, and security policies. In this talk, I'll share the essential steps for obtaining SOC 2 certification at a tech startup, providing quick and straightforward strategies for success. Drawing from Semgrep's experience, I'll highlight the crucial steps for a smooth certification process. From a modern viewpoint, I'll call out the parts of SOC 2 that surprised me the most and I’ll delve into the areas that I saw drive real value for our company. We’ll have a bit of fun, critiquing SOC 2 with a Gen-Z lens. Lastly, I’ll touch on things that SOC 2 doesn’t demand but should be part of any modern security program. The key things that I hope you take away from my talk are what to expect when you start to pursue SOC 2 certification, traps to watch out for, and ways to make it as painless as possible.",
+        "startsAt": "2024-10-19T15:30:00Z",
+        "endsAt": "2024-10-19T16:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "948a029c-75be-41d1-9f77-3d9d3db23e25",
+            "name": "Charissa Kim"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 52620,
+        "room": "Entrepreneur",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "686793",
+        "title": "Discover the Unseen: Azure Vulnerability Exploitation",
+        "description": "In the ever-expanding realm of cloud computing, understanding the vulnerabilities of widely used services is crucial for effective penetration testing. This talk will focus on finding and exploiting vulnerabilities in Microsoft Azure and Azure Active Directory (AD), now called Entra ID.\r\n\r\nWe will start by understanding the architecture of Azure and Azure AD, providing a foundation for understanding where security issues come into play. From there, we will delve into common vulnerabilities and misconfigurations and discuss how to identify and exploit them.\r\n\r\nThe core of this talk will be a series of real-world demonstrations of these vulnerabilities being exploited. These hands-on examples will provide attendees with a clear understanding of the potential risks and the power of Azure.\r\n\r\nThis talk is intended for penetration testers, security professionals, and anyone interested in the darker side of cloud security. No knowledge of Azure or AD is required to attend this talk. Join me as we unmask the cloud and dive into the world of Azure penetration testing.",
+        "startsAt": "2024-10-19T16:00:00Z",
+        "endsAt": "2024-10-19T17:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "3322c282-c0c2-4b99-9179-862df28d4eee",
+            "name": "Scott Miller"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267710,
+                "name": "Introductory and overview"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48764,
+        "room": "Tech - Red",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "720811",
+        "title": "Trusted Types: DOM XSS Protection at Scale",
+        "description": "DOM XSS continues to be the most critical threat to web security. It occurs when an attacker can inject malicious code into a web page, which can then be executed by the victim’s browser. This can allow the attacker to steal cookies, hijack sessions, and even take control of the victim’s computer. Our current best defense against DOM XSS is Trusted Types, a browser-based runtime feature to limit the uses of DOM APIs (and limit the possibility of DOM injection).\r\n\r\nThis talk will discuss the following: * Why DOM XSS is a critical threat in the web frontend ecosystem and why it’s hard to detect. * How Trusted Types protects dangerous DOM APIs to eliminate XSS risk. * Google’s experience deploying Trusted Types across its web services and how this can be done at scale. * Challenges when adopting Trusted Types for the open source ecosystem.\r\n\r\nWe will also be putting an emphasis on sharing our best practices with Trusted Types so that you can write the most secure frontend code possible!",
+        "startsAt": "2024-10-19T16:00:00Z",
+        "endsAt": "2024-10-19T16:30:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "52c48567-6009-44f9-b25d-e73e65160867",
+            "name": "Jen Ozmen"
+          },
+          {
+            "id": "cb61f7ee-58a1-4c25-95a5-3acffccf760f",
+            "name": "Youssef Attia"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267710,
+                "name": "Introductory and overview"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48765,
+        "room": "Tech - Blue",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "705794",
+        "title": "Caught in the Net: Using Infostealer Logs to Unmask CSAM Consumers",
+        "description": "In this proof of concept study, we delve into “logs” that were compromised by infostealer malware and obtained legally by Recorded Future. We use the large dataset of stolen data at our disposal to turn the tables on cybercriminals to identify criminal activity, arrive at geographic trends and make previously unseen connections between criminals.\r\n\r\nInfostealer malware is capable of stealing a wide range of users’ sensitive information, including account login credentials, cryptocurrency wallets, payment card data, operating system information, browser cookies, and screenshots. This stolen data regularly ends up on dark web markets, allowing cybercriminals to purchase the data and potentially use it to gain access to an organization’s network or systems. In this proof this dataset to identify individuals who have accessed known dark web websites where CSAM is distributed, identify geographic trends, make connections between individuals’ cryptocurrency addresses, and more.",
+        "startsAt": "2024-10-19T16:00:00Z",
+        "endsAt": "2024-10-19T16:30:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "c9fb4db7-c30a-4821-951c-29370146cdef",
+            "name": "Mariya Gedrich"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267710,
+                "name": "Introductory and overview"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48766,
+        "room": "Tech - Other",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "714488",
+        "title": "The blood, sweat, and tears (of pride) in bootstrapping",
+        "description": "This is a true and transparent recounting about one company’s journey bootstrapping in a sea of media coverage and interest around VC-backed investments. This talk covers the creation and organic growth of a US-based SaaS threat intelligence startup. Drawing from firsthand experiences, the presentation sheds light on the challenges, triumphs, and invaluable lessons learned in going from very first customer to steady revenue. Topics include: setting the foundations for asynchronous & remote work with shared values, developing a grassroots public identity, prioritizing an unending list of “to-dos”, sustainably bringing on resources & key partnerships as needed, forecasting with lumpy cash flow, and addressing the undeniable moments of being lean but “green with envy for green”.\r\n\r\nWe’ll share observations on the business challenges and choices in product, sales/marketing, support, and human capital when living off earned revenue only, as well as ongoing benefits. Every journey is completely different; we do not think we know everything, nor is this an anti-funding talk. However, this presentation offers an alternative path for future founders considering a company of their own one day.",
+        "startsAt": "2024-10-19T16:00:00Z",
+        "endsAt": "2024-10-19T17:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "d8b0f1f7-12c5-43a6-b536-6e54be6524e6",
+            "name": "euphoricfall"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 52620,
+        "room": "Entrepreneur",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "736002",
+        "title": "Evading GenAI application defenses: From Zero to Hero",
+        "description": "Ready to dive into the wild world of GenAI pentesting? Join Ante Gojsalić, CTO and Co-Founder of SplxAI, for a no-BS, hands-on workshop where you’ll go from zero to hero in evading GenAI application defenses. This isn’t your typical lecture – we’re talking real hacking, real techniques, and real-time problem-solving. You’ll learn how to spot and exploit weaknesses in GenAI apps, outsmart the latest defense measures, and walk away with some serious skills. Bring your laptop or smart device with internet access and get ready to hack the future.",
+        "startsAt": "2024-10-19T16:00:00Z",
+        "endsAt": "2024-10-19T17:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "d8dc526d-5eb1-481b-b93a-b69e254e6f19",
+            "name": "Ante Gojsalic"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 53177,
+        "room": "Workshop",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "725249",
+        "title": "CloudTail: Making Heads or Tails of Selectively Retaining Multi-Cloud Logs (w/o a SIEM!)",
+        "description": "In the complex landscape of cloud computing, effectively managing & retaining logs across multiple cloud providers is a vital but often daunting responsibility, especially for smaller organizations without budget for a SIEM. But even well-funded organizations must deal with cloud providers native log access API limitations like low retention periods (30-90 days), API throttling & extremely limited search filter capabilities. Some native log forwarding options like AWS AdvancedEventSelector also have well-known limitations like not providing filtering by the eventName property for management events.\r\n\r\nFiltering challenges aside, which logged events have a higher value during an investigation or audit? If an organization could retain 1+ years of cloud logs in a SIEM, can insights be performantly calculated from a queried subset of those events? Could a longer, more efficient & more flexible storage solution be achieved for a curated subset of high-value events filtered by event names, resources or identities?\r\n\r\nIn this presentation I will publicly release CloudTail, an open-source framework designed to simplify the long-term retention & searchability of a highly configurable curated list of cloud events across numerous cloud providers (currently supporting AWS & Azure) - all without the usage of a SIEM!\r\n\r\nCome see how the new open-source CloudTail framework can help make heads or tails of your multi-cloud logging retention & searchability, all without spending a dime in licensing.",
+        "startsAt": "2024-10-19T16:30:00Z",
+        "endsAt": "2024-10-19T17:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "7fa63a9f-4089-4d54-9e8d-1885e0b4f4c5",
+            "name": "Ela Dogjani"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267710,
+                "name": "Introductory and overview"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48765,
+        "room": "Tech - Blue",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "725123",
+        "title": "Cloud Warfare: Grappling and Strangling Scattered Spider",
+        "description": "LUCR-3, also known as Scattered Spider, is a highly persistent threat actor group notorious for their sophisticated cloud-focused attacks. Moving beyond typical cryptomining campaigns, LUCR-3 employs advanced techniques such as push fatigue attacks and SIM swapping to bypass multi-factor authentication (MFA). They have notably targeted major organizations, including MGM and Caesars in late 2023. This group effectively traverses various cloud service models (IaaS, SaaS, PaaS), infiltrating internal communications and SaaS platforms to gather crucial information. Permiso's P0 Labs has tracked LUCR-3 for over 1.5 years, offering detailed insights into their tactics, techniques, and procedures (TTPs). LUCR-3's relentless focus and sophisticated methods make them a significant threat to cloud environments.\r\n\r\nIn response to such advanced threats, Permiso Security's Andi Ahmeti, developed CloudGrappler, an open-source threat detection tool designed to enhance cloud security. CloudGrappler integrates seamlessly with various cloud platforms to provide real-time threat detection and mitigation. Its comprehensive monitoring and analysis capabilities make it an invaluable resource for security professionals. Together, understanding LUCR-3’s TTPs and utilizing CloudGrappler’s robust detection capabilities can significantly bolster the security posture of cloud environments, providing a formidable defense against sophisticated attackers like LUCR-3.",
+        "startsAt": "2024-10-19T16:30:00Z",
+        "endsAt": "2024-10-19T17:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "399a7662-e96b-4ca7-ae1d-4afd32e299f5",
+            "name": "Andi Ahmeti"
+          },
+          {
+            "id": "b322539a-ca37-4c55-8c4f-79413081ff3d",
+            "name": "Abian Morina"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48766,
+        "room": "Tech - Other",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "725929",
+        "title": "From HiatusRAT to Cuttlefish: advances in credential theft through the router",
+        "description": "Familiar With Your Game: Last year we published our research on the HiatusRAT malware, which infected small office/home office (SOHO) routers of selected targets, and quietly stole access credentials for use against downstream systems. \r\nNow we'd like to present our latest research on a new malware that appears to have been written by the same authors, showing enhanced function and a greater threat. It appears tailor made for environments where TLS has increasingly been adopted and assets are protected in the cloud. Cuttlefish sits passively on the router until it sees the conditions it was made for - either sniffing traffic or hijacking DNS and HTTP requests to steal authentication material it can use to enter systems downstream of the infected device. This talk with address the roots of the malware design, how it was discovered and how it performs each of its tasks, including the weaponization of stolen credentials. I'll discuss the infection pattern, timeline, and what you can do to protect yourself against this or similar infections.",
+        "startsAt": "2024-10-19T17:00:00Z",
+        "endsAt": "2024-10-19T18:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "92649ab1-19ae-4975-8c29-5c920f7e2f6b",
+            "name": "Danny Adamitis"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267712,
+                "name": "Advanced"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48764,
+        "room": "Tech - Red",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "705776",
+        "title": "Ctrl-Alt-Detected: Unraveling Threats with Detection Practitioners",
+        "description": "The threat landscape is always evolving. As organizations continue to get more value from public cloud providers and SaaS platforms, attackers have taken notice and are evolving their methodology to include this new attack surface area.\r\n\r\nLet’s talk to several engineers about how their detection strategies are evolving to match the new cloud and SaaS landscape and how they have adapted their threat models, tools, playbooks, and more to stay up to speed.",
+        "startsAt": "2024-10-19T17:00:00Z",
+        "endsAt": "2024-10-19T18:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "4424a160-6954-45d5-9d46-d1090bd3c55b",
+            "name": "Julie Agnes Sparks"
+          },
+          {
+            "id": "888ac15d-be35-4baf-be84-525f7054d7fa",
+            "name": "Tammy Truong"
+          },
+          {
+            "id": "4cb70ec2-899d-4df5-a7ed-1ec7703c4929",
+            "name": "Shannon McCormick"
+          },
+          {
+            "id": "65b42256-ff2d-4e42-8815-38ca26209bb5",
+            "name": "xtina"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48765,
+        "room": "Tech - Blue",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "722829",
+        "title": "The Life of an SBOM: Where does it go and what do organizations do to it and with it?",
+        "description": "Software suppliers produce Software Bills of Material (SBOMs) to fulfill regulatory or procurement requirements. But what happens to an SBOM after initial creation and what value does it really provide to an organization’s cybersecurity? This session describes the lifecycle of an SBOM and its use in managing vulnerabilities in deployed software, with practical examples from medical technology (MedTech) and healthcare.\r\n\r\nWe begin by identifying the elements that an initially generated or imported SBOM must contain for it to be of any real value beyond just saying you have one.  We proceed to how to enrich or augment an SBOM with industry-specific fields, vulnerability information, and dispositioning (actions taken to address each vulnerability). We then provide examples of how that information is reported in VEX (Vulnerability Exploitability Exchange), VDRs (Vulnerability Disclosure Reports), and other industry-specific documents. Since a single SBOM is rarely of value alone, we describe the process for merging SBOMs from different suppliers into a single System SBOM or “SBOM of SBOMs.” \r\n\r\nSBOMs are most useful when shared with their consumers, who can leverage that information for effective vulnerability management. We describe mechanisms for securely storing SBOMs, tailoring them for dissemination, and exporting them to authenticated users.  We then describe how SBOM consumers can analyze and query SBOMs for vulnerability monitoring, alerting and patch management.",
+        "startsAt": "2024-10-19T17:00:00Z",
+        "endsAt": "2024-10-19T18:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "eaea3d8a-7fe4-42f9-b7df-7c73d8b560e7",
+            "name": "Anita D'Amico"
+          },
+          {
+            "id": "9fa32262-15ae-4904-933a-e9fdcf996dde",
+            "name": "Ken Zalevsky"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48766,
+        "room": "Tech - Other",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "694832",
+        "title": "How to Talk So That They Will Listen: Selling Cybersecurity",
+        "description": "As a CISO I'm paid not to trust anyone, so how can you sell something to the CISO.\r\nEffective communication is crucial in cybersecurity, whether you're advocating for resources, explaining risks to non-technical stakeholders, or leading a security awareness program. This session will cover strategies for discussing cybersecurity concepts and initiatives in a way that resonates with different audiences. Attendees will learn how to frame their message, use persuasive language, and build compelling arguments that drive action.\r\n",
+        "startsAt": "2024-10-19T17:00:00Z",
+        "endsAt": "2024-10-19T17:30:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "fe5a5ce8-5a73-46c7-b191-8e7b9e579cb1",
+            "name": "May Brooks"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 52620,
+        "room": "Entrepreneur",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "734977",
+        "title": "A hitchhiker's guide to a Google Cloud CTF",
+        "description": "We’ll conduct a light-weight CTF that includes all needed resources for beginners as well as intermediate cloud practitioners to complete it. \r\n\r\n\r\nAs a participant of the workshop, you will take the perspective of a red team and exploit a vulnerable Google Cloud project. After the exercise the participants will have a deeper understanding of Google Cloud and its common services like IAM, GKE, GCE, Cloud Function etc. as well as how to exploit common misconfigurations. \r\n\r\nThe participants will be able to complete this using only their laptop of choice, a free google account (any gmail account works) and gcloud command line utility installed prior to the workshop.\r\n\r\n\r\nDuring the CTF we’ll provide guidance in the shape of needed documentation and CLI commands and we’ll also share a Github repository afterwards with all the infrastructure code (Terraform) that was used in the CTF.",
+        "startsAt": "2024-10-19T17:00:00Z",
+        "endsAt": "2024-10-19T19:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "8f75ccb7-dd91-45a9-a7ee-978d13fddf7c",
+            "name": "Marcus Hallberg"
+          },
+          {
+            "id": "827d1852-415f-4b46-b522-a1e931af9d58",
+            "name": "Marion Säckel"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 53177,
+        "room": "Workshop",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "723961",
+        "title": "Startup Survival Tips and Uncommon Sense for First-Time Tech Founders",
+        "description": "In this rapid-fire talk, attendees will learn the early steps of an entrepreneurial journey and how to overcome common challenges to survive in the cutthroat cybersecurity industry as a startup. By the end, participants will gain a clear understanding of the practical steps required to launch and grow their own cybersecurity startup, acting as the Chief Survival Officer, learning from someone who has successfully navigated the entrepreneurial landscape.",
+        "startsAt": "2024-10-19T17:30:00Z",
+        "endsAt": "2024-10-19T18:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "a8d3bc82-7e7a-4ebb-a526-542b4f60c159",
+            "name": "Eldon Sprickerhoff"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 52620,
+        "room": "Entrepreneur",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "723125",
+        "title": "How We Impersonated Cloud Code by Google Cloud and Took Over GCP Accounts",
+        "description": "In this presentation, we delve into a recent security research project where we discovered critical vulnerabilities in Google's Cloud Code, an IDE extension designed for enhancing GCP integration. Our research revealed exposed OAuth client IDs and secrets, which we exploited to impersonate legitimate Google tools and gain unauthorized access to GCP accounts. Despite reporting these vulnerabilities to Google, the issues were not addressed, highlighting the need for awareness and improved security practices among developers. This session will cover our threat modeling process, code analysis, exploit attempts, and the implications of these vulnerabilities for cloud security.",
+        "startsAt": "2024-10-19T18:00:00Z",
+        "endsAt": "2024-10-19T18:30:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "b9dd7ce7-2503-401e-9847-9ef65dbf4aeb",
+            "name": "Moshiko"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267712,
+                "name": "Advanced"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48764,
+        "room": "Tech - Red",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "724649",
+        "title": "Open & Secure: Novel Sandboxing Technique for Any Open Source Library",
+        "description": "Security teams from Google to Firefox have taught the security industry a lot about isolating running programs from the broader system through sandboxing, which fundamentally changed the way hackers need to operate to inflict damage on systems. Threat actors today need to be significantly more sophisticated and build a chain of vulnerabilities to escape sandboxes & access critical system resources for exploitation.\r\n\r\nThe consistently growing number of vulnerabilities in OSS packages, imposes an impossible pace of remediation & patching to stay ahead of zero-day threats evolving daily.\r\n\r\nEnter Open Source Sandboxing.\r\n\r\nIn this talk we’ll present a first of its kind approach, built upon the powerful eBPF and KRSI technologies, that enables you to derive the very same security benefits of browser and web-based, as well as mobile - iOS & Android  sandboxing - for any open source library you are running in your stacks. We’ll walk through a code example for how to identify and block exploits. ",
+        "startsAt": "2024-10-19T18:00:00Z",
+        "endsAt": "2024-10-19T18:30:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "dea86363-2e13-4dfa-996a-200e6feb8749",
+            "name": "Gal Elbaz"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48765,
+        "room": "Tech - Blue",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "683695",
+        "title": "Volt Typhoon and the Threat to Critical Infrastructure",
+        "description": "Volt Typhoon is a PRC sponsored threat actor who is looking to burrow deep within critical infrastructure networks. Current assessments indicate this is pre-positioning activity if there is an escalation that causes conflict with Taiwan. What CISA and other intelligences agencies have observed is the behavior of this Advanced Persistent Threat (APT) is different than traditional PRC state sponsored actors. They leverage living off the land (LOTL) techniques to traverse networks slowly and methodically. This pattern of behavior makes their detection much more difficult within compromised systems. \r\n\r\nThis briefing will cover the LOTL techniques used by Volt Typhoon, traditional attack path observed up to this point, and top-level PRC cyber threat briefing. \r\n",
+        "startsAt": "2024-10-19T18:00:00Z",
+        "endsAt": "2024-10-19T18:30:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "8612e468-a820-45ca-a731-faa5488f6c33",
+            "name": "Jonathan Goll"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48766,
+        "room": "Tech - Other",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "725411",
+        "title": "Eat Your Own Dog Food: Why (Even Security) Startups Suck at Security & How to Fix it",
+        "description": "Every startup team, C-suite and Board agrees; Go fast. Get to MVP.  Get to revenue. Grow.  In the rush for speed, security is too often an afterthought.  “We’ll circle back to that later,”  they say,  Then they don’t, and it comes back to haunt them.  This is absolutely the wrong approach.  \r\n\r\nCustomers expect their information to be secure, Management owes the Investors due care, and Boards are (strangely) both the problem and the potential solution. The good news is that startups have a huge advantage; they haven’t built a business yet. If ever there was a case of “a stitch in time saves nine” this is it.  A startup is in some ways the easiest company to secure because you still have a chance to build a secure business, now, early, when it’s easier and cheaper.  This talk will cover exactly why, and how, to do it right from the get-go.  \r\n",
+        "startsAt": "2024-10-19T18:00:00Z",
+        "endsAt": "2024-10-19T19:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "151440eb-b7fa-4b7e-98d6-9ca1145c8e52",
+            "name": "Eric Olson"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 52620,
+        "room": "Entrepreneur",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "716077",
+        "title": "Remote Code Execution with Serialization Vulnerabilities",
+        "description": "Microsoft announced that the BinaryFormatter class is insecure and cannot be made secure, but how bad can it be?\r\n\r\nThis can be exploited to launch a remote code execution exploit. We'll demo this attack and show this vulnerability using JSON and Newtonsoft.\r\n\r\nDemos and code samples are in C#, but this exploit is possible in any insecure deserialization process. By the end of this talk, you'll know what to look for in your company's code and how to prevent the attack.",
+        "startsAt": "2024-10-19T18:30:00Z",
+        "endsAt": "2024-10-19T19:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "2a59b520-4946-4682-a056-d3d24dae0b7a",
+            "name": "John Iwasz"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48764,
+        "room": "Tech - Red",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "725400",
+        "title": "Protecting Snowflake and Critical Data Systems from Unauthorized Access",
+        "description": "Security teams are often tasked with safeguarding a company’s most valuable assets from unauthorized access. As enterprises adapt their infrastructure strategies to operate in a cloud native world, large scale data storage and processing systems like Snowflake not only become core dependencies for businesses, but also inviting targets for attackers. The recent rise in campaigns to exfiltrate customer data from companies like AT&T and Ticketmaster via stolen Snowflake credentials only highlights how critical it is to secure access to a company's data systems. Considering that 75% of security failures are attributable to human error in managing access privileges and identities, security teams must ensure that access paths to systems like Snowflake are secure and implemented with least privilege in mind. ",
+        "startsAt": "2024-10-19T18:30:00Z",
+        "endsAt": "2024-10-19T19:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "c7e0f5aa-cba1-4b65-8a98-2d66fa5870c7",
+            "name": "Shelley"
+          },
+          {
+            "id": "4597313f-e065-4dea-90e8-c0e8047fc6d0",
+            "name": "Stephen Spano"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48765,
+        "room": "Tech - Blue",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "723878",
+        "title": "Challenges of GraphQL security in 2024",
+        "description": "GraphQL’s capability to fetch precisely what’s needed and nothing more, its efficient handling of real-time data, and its ease of integration with modern architectures make it a compelling choice for modern web and mobile applications. As developers seek more efficiency and better performance from their applications, GraphQL is increasingly becoming the go-to technology for API development. However, building and maintaining GraphQL applications requires careful consideration of security.\r\n\r\nIn this talk, security engineers will strengthen their GraphQL security skills by learning key techniques such as complexity management, batching, aliasing, sanitization, and depth limit enforcement. They will also learn to implement customizable middleware with their development team, like GraphQL Armor, for various GraphQL server engines.\r\n\r\nParticipants will explore different techniques and packages, and apply them to enhance the safety of their GraphQL applications. By the end of the talk, attendees will be equipped with practical knowledge to build secure and efficient GraphQL APIs.",
+        "startsAt": "2024-10-19T18:30:00Z",
+        "endsAt": "2024-10-19T19:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "e09dad0e-8506-42a0-8d2c-71bbb79bd2da",
+            "name": "Tristan Kalos"
+          },
+          {
+            "id": "c06a8338-844f-4237-836c-a1fc83744f08",
+            "name": "iCarossio"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48766,
+        "room": "Tech - Other",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "724578",
+        "title": "RE-Thinking: Modernizing the Malware Analyst",
+        "description": "As malware analysts, the current mode of static reverse engineering in our space has us in a constant game of catch-up against unfriendly compilers, virtualization-based obfuscators and large binaries that generally break our tools and frustrate us. Our thinking is rooted in quaint beliefs about always being able to reconstruct original source code. How can we completely change our approach, and what should the next generation of malware analysis look like?",
+        "startsAt": "2024-10-19T19:00:00Z",
+        "endsAt": "2024-10-19T20:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "a14fe58a-cc8f-40a3-8a18-a84e1aac95f5",
+            "name": "Joseph Edwards"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267712,
+                "name": "Advanced"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48764,
+        "room": "Tech - Red",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "684487",
+        "title": "Detection and Triage of Domain Persistence",
+        "description": "This presentation will discuss offensive tradecraft for establishing elevated persistence within an Active Directory environment. We will discuss domain persistence techniques we have seen during compromise assessments and the adversary's attack paths to establish elevated control. We will also provide guidance for domain persistence techniques that use native Windows authentication mechanisms and endpoint management implementations. For each offensive technique we discuss, we will also provide in-depth defensive considerations covering the operational flow of technique executions, detection data models, and abstracted common denominators that detection engineers can use to generate detective or preventive controls. We aim to present this material from a collaborative offensive and defensive mindset.",
+        "startsAt": "2024-10-19T19:00:00Z",
+        "endsAt": "2024-10-19T20:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "cabe726c-3314-4dc3-9c51-49e5ecefe1ab",
+            "name": "Joshua Prager"
+          },
+          {
+            "id": "178af6d0-be68-41fa-a7db-e89440385f84",
+            "name": "Nico"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48765,
+        "room": "Tech - Blue",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "723804",
+        "title": "Combating Deepfakes: Safeguarding Election Integrity in the AI Era",
+        "description": "In an age where artificial intelligence can create increasingly convincing fake videos and audio, the integrity of our democratic processes faces unprecedented challenges. This session delves into the technical landscape of deepfakes in political manipulation, exploring their potential to undermine election integrity and the cutting-edge cybersecurity measures designed to counter them.\r\nWe'll examine the advanced AI techniques behind deepfake generation, including Generative Adversarial Networks (GANs) and neural talking head models. From there, we'll explore the latest in deepfake detection methods, from visual artifact analysis to biological signal detection.\r\nThe session will then pivot to the broader cybersecurity implications, covering AI-powered disinformation campaign detection, blockchain-based content authentication, and the evolution of secure voting systems. We'll discuss how technologies like end-to-end verifiable voting and distributed ledger systems are being adapted to meet these new challenges.\r\nAttendees will gain a comprehensive understanding of the technical threats posed by deepfakes to election security and the innovative solutions being developed in response. We'll conclude with a forward-looking discussion on the arms race between deepfake creation and detection technologies and cybersecurity professionals' critical role in safeguarding democratic processes.",
+        "startsAt": "2024-10-19T19:00:00Z",
+        "endsAt": "2024-10-19T20:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "42dab7ba-f153-4466-99be-d62645696eda",
+            "name": "Vaibhav Malik"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48766,
+        "room": "Tech - Other",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "739850",
+        "title": "So You Want to Be a Founder?",
+        "description": null,
+        "startsAt": "2024-10-19T19:00:00Z",
+        "endsAt": "2024-10-19T20:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "d09da723-ddb0-417b-9936-24298b7b3ae7",
+            "name": "JD"
+          },
+          {
+            "id": "87a7464b-cb75-4f42-aac4-9b27b96ae40a",
+            "name": "Brian McHenry"
+          },
+          {
+            "id": "d00ef2f8-3d45-4a98-a351-e30bce41814e",
+            "name": "Lee Weiner"
+          },
+          {
+            "id": "9bd377b4-1894-4270-a783-eefbf12d4252",
+            "name": "Wesley Hales"
+          },
+          {
+            "id": "3deaa405-69e7-44b9-a422-4ba5a56d735c",
+            "name": "Justin Shattuck"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 52620,
+        "room": "Entrepreneur",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": false
+      },
+      {
+        "questionAnswers": [],
+        "id": "734979",
+        "title": "Backdoors & Breaches - Afternoon Session",
+        "description": null,
+        "startsAt": "2024-10-19T19:00:00Z",
+        "endsAt": "2024-10-19T21:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "869e4229-40c1-4d6f-a763-f8f5b84c984c",
+            "name": "t0mQuixote"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 53177,
+        "room": "Workshop",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "724056",
+        "title": "XZ Backdoor: Navigating the Complexities of Supply Chain Attacks Detected by Accident",
+        "description": "Short Abstract:\r\n\r\nWhy did an individual, non-security-related person discover the XZ attack on such an important upstream open-source project as the XZ Utils?\r\n\r\nFour years after the SolarWinds attack and three years after the UA-Parser attack, we still see confusion about vulnerabilities, zero-days, and intentional attacks. Let’s break it down!\r\n\r\nIn this session, we will spotlight a critical yet often overlooked area: compromised/malicious third-party libraries and CI/CD attacks.\r\n\r\nWe'll showcase real-world examples, differentiate vulnerabilities from attacks (spoiler alert—Log4J is not an attack), and assign risks to frameworks like NIST SSDF, OWASP PSCF, and SLSA.",
+        "startsAt": "2024-10-19T20:00:00Z",
+        "endsAt": "2024-10-19T21:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "7ee3278e-4fb6-4de5-ac52-4688d12f25f9",
+            "name": "DevSecYoad"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48764,
+        "room": "Tech - Red",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "724369",
+        "title": "When Apps Attack: Hunting Traitorware and Rogue Microsoft 365 Apps at Scale",
+        "description": "Apps are not always your friend! In the Azure ecosystem, applications are a core part of the end user experience. But when these apps go rogue, what kinds of havoc ensues? How are applications leveraged by attackers to persist, infect, and bypass MFA? More importantly, how do we hunt these rogue apps down at scale? \r\n\r\nThis talk explores the attack surface of applications in the Azure ecosystem. It covers hunting down two distinct but closely related types of application attacks at the small to medium business scale. First, we will talk about traitorware, which covers the Microsoft 365 applications that are designed for legitimate usage, but are often used to develop an attacker’s access and persist in the target tenant. Then, we will cover the more targeted version of application attacks: customized OAuth applications specifically designed to infect, persist, and bypass the requirement for MFA. \r\n\r\nAfter covering the technical aspects of these attacks and how they exploit the Azure ecosystem, we will cover how to hunt these down at scale. ",
+        "startsAt": "2024-10-19T20:00:00Z",
+        "endsAt": "2024-10-19T21:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "c0d4ed04-c561-4ecf-b523-4455de9ff589",
+            "name": "Matt Kiely | HuskyHacks"
+          },
+          {
+            "id": "3499ee63-a68c-4737-9246-7a5cd64a5ebe",
+            "name": "Christina Parry"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48765,
+        "room": "Tech - Blue",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "720775",
+        "title": "The new SaaS cyber kill chain",
+        "description": "In the past, we thought of cyber-attacks in terms of recon, port scanning, enumeration, vulnerability identification and exploitation, and we had various approaches to frustrate attackers at every phase. As the cat-and-mouse game of security continued, this morphed into an endpoint compromise-focused process involving initial access, exploitation, persistence, command and control, and lateral movement inside a complex internal network. But with the remote working and SaaS revolution, the way organizations work has changed radically - so what does the cyber kill chain look like now? \r\n\r\nThis talk will consider what a new SaaS cyber kill chain looks like for modern organizations that are SaaS-native without an internal network and the surprising number of attacks that are possible without touching company-owned infrastructure. We'll consider topics like how the initial access stage is changing due to the availability of new beachheads, what lateral movement looks like in a world with no internal infrastructure, and how persistence methods have changed and are resilient to common containment measures such as password resets and secure device wipes. Finally, we'll consider how the open-source SaaS attacks matrix can be used by red and blue teams to help navigate this new world.\r\n",
+        "startsAt": "2024-10-19T20:00:00Z",
+        "endsAt": "2024-10-19T21:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "12c161d4-c13f-4ba3-95fb-6b13178b7721",
+            "name": "Luke Jennings"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48766,
+        "room": "Tech - Other",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "718332",
+        "title": "My Journey from a $99K Cybersecurity Research Project to a Commercial Product and Acquisition",
+        "description": "The speaker shares her story and lessons learned accumulated during an11-year journey that began with a $99,000 6-month government-funded research project and ended with her selling her startup to a publicly-traded company and serving as VP of Products at the U.S.’s leading provider of AppSec solutions. She describes how she pieced together the foundational technology using government grants as angel funding; and shares tips on how to get those grants. She offers pointers on how to transition technology from the research phase and into the early stages of commercialization, including development of the product roadmap, corporate structure, and go-to-market processes.  The presentation will provide an intro into the various types of Venture Capital (VC) funding, what VCs look for in a startup seeking Seed funding or Series A funding, and what the entrepreneur should look for in the VC. She will share her own experience in winning a VC-sponsored “Shark Tank”-like competition to obtain her company’s Seed Series funding, and the bumpy road she traveled in search of Series A funding during the pandemic. She will also describe how she prepared her company for acquisition by a publicly traded company, and her experience after the sale. \r\nAt the end of the session, the speaker will describe her new role in assisting VCs in evaluating startups and assisting early-stage entrepreneurs to grow their businesses.\r\n",
+        "startsAt": "2024-10-19T20:00:00Z",
+        "endsAt": "2024-10-19T21:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "eaea3d8a-7fe4-42f9-b7df-7c73d8b560e7",
+            "name": "Anita D'Amico"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 52620,
+        "room": "Entrepreneur",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "712330",
+        "title": "Local to Global: Tracing Kimsuky's Network Infra Adaptations in a Changing Geopolitical Landscape",
+        "description": "We ran into the North Korean APT group Kimsuky's network infrastructure evolution from 2019 to 2024, correlating changes with major geopolitical events, focusing on intel related to South Korean policies, international perspectives on NK, and advanced military technologies. Our paper reveals adaptable approach to command and control (C2) infrastructure through major events between NK, CN, and RU. \r\n\r\nKey findings include the group's adoption of stolen digital certs, consistent C2 communication patterns, and a unique POST boundary string (----c2xkanZvaXU4OTA) across campaigns. We demonstrate how pivotal events, such as the 2023 North Korea-Russia summit, directly influenced Kimsuky's tactics, potentially involving technology transfer. Notably, the June 2024 Putin-Kim summit likely emboldened Kimsuky, prompting a heightened focus on acquiring sensitive defense technologies, while moving towards Eastern European hosting providers.\r\n\r\nOut talk provides insights into transition from compromised .KR websites to a globally distributed infra leveraging legitimate-sounding domains, DDNS services, and Eastern European hosting providers. \r\n\r\nOut analysis provides crucial insights into Kimsuky's network operational tactics, enabling more effective threat detection and mitigation strategies against this persistent APT group.",
+        "startsAt": "2024-10-19T21:00:00Z",
+        "endsAt": "2024-10-19T22:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "af17855c-704e-4c95-94ca-65d9727a4b35",
+            "name": "Dmitry"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267712,
+                "name": "Advanced"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48764,
+        "room": "Tech - Red",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": false
+      },
+      {
+        "questionAnswers": [],
+        "id": "692931",
+        "title": "Fortifying Active Directory: Combatting Misconfigurations",
+        "description": "This presentation delves into the critical issue of common network misconfigurations in large organizations as highlighted by a joint cybersecurity advisory from the NSA and CISA. Focusing specifically on Microsoft Active Directory (AD), the talk explores the top 10 security vulnerabilities that cyber actors often exploit. Participants will gain a understanding of how these misconfigurations work in AD environments and the best practices for mitigating them. This presentation is essential for IT professionals and security administrators seeking to enhance their cybersecurity posture against sophisticated threats.",
+        "startsAt": "2024-10-19T21:00:00Z",
+        "endsAt": "2024-10-19T22:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "f352a2ab-0fdf-49bd-b8fd-a081a297409a",
+            "name": "Jeff"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267711,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48765,
+        "room": "Tech - Blue",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "717036",
+        "title": "Securing a Generative AI Implementation",
+        "description": "This 50-minute talk will address an implementation of generative AI, with the goal of understanding what this means for an organization’s security posture, and managing associated risk. \r\n\r\nThe first 15 minutes of the talk will focus on a demo app showing an integration of generative AI as a product feature.\r\nThe rest of the session will focus on managing risk associated with AI/ML implementations with a high-level threat model for the scenario discussed in the previous part, uncovering potential threats and mitigation strategies that security engineers can take back as learnings.",
+        "startsAt": "2024-10-19T21:00:00Z",
+        "endsAt": "2024-10-19T22:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "c2702f44-9eaf-4b0b-8df3-59251aee059d",
+            "name": "eyrsec"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 267710,
+                "name": "Introductory and overview"
+              }
+            ],
+            "sort": 1
+          }
+        ],
+        "roomId": 48766,
+        "room": "Tech - Other",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "723944",
+        "title": "Building Cyber Products Customers Love",
+        "description": "Building products customers love is hard. Building cybersecurity products customers love is much harder. While the nature of product management doesn’t change from one industry to another, the truth is that many commonly accepted product management best practices do not work to the same degree, or have a different shape when implemented in cybersecurity. \r\n\r\nIn this talk, we will dive into the challenges of building products in cybersecurity and ways to overcome them. Among other things, we'll cover best practices for customer discovery, understanding the buyer journey, and the importance of staying realistic when picking an initial use case to go after. \r\n\r\nWhether you are an aspiring or early-stage entrepreneur, product builder, or security engineer tinkering with ideas on the side, this talk will have something useful for everyone interested in finding ways to shape the future of our industry. ",
+        "startsAt": "2024-10-19T21:00:00Z",
+        "endsAt": "2024-10-19T21:30:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "6263bb54-18e5-44a6-9125-b5ad7bec8c9c",
+            "name": "Ross Haleliuk"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 52620,
+        "room": "Entrepreneur",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "725350",
+        "title": "Building a Cybersecurity Powerhouse: Insights from a Serial Entrepreneur",
+        "description": "Join Benjamin Fabre, co-founder and CEO of DataDome, as he shares invaluable lessons learned from building, running and growing a cybersecurity company. Within 9 short years, Benjamin has grown DataDome from a small, French startup to a global, Series C-funded, award-winning company with headquarters in New York, Paris and Singapore. Top enterprises like Footlocker, the New York Times, SoundCloud, TripAdvisor and SeatGeek trust DataDome to protect them from bot and online fraud attacks.   \r\n",
+        "startsAt": "2024-10-19T21:30:00Z",
+        "endsAt": "2024-10-19T22:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "65bfe7d6-3cc0-4ae5-9862-b0b58879e41f",
+            "name": "Ben"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 52620,
+        "room": "Entrepreneur",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "741496",
+        "title": "BSidesNYC 0x04 Closing Ceremonies",
+        "description": null,
+        "startsAt": "2024-10-19T22:00:00Z",
+        "endsAt": "2024-10-19T22:30:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "b012d874-e8cf-4d2a-a0af-c8613a9bc86f",
+            "name": "Huxley Barbee"
+          }
+        ],
+        "categories": [
+          {
+            "id": 75411,
+            "name": "Level",
+            "categoryItems": [],
+            "sort": 1
+          }
+        ],
+        "roomId": 48764,
+        "room": "Tech - Red",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      }
+    ],
+    "isDefault": false
+  }
+]

@@ -1,0 +1,79 @@
+{% assign year_data = site.data.archive[include.year] %}
+{% assign conf = year_data.conference %}
+{% assign sponsors = year_data.sponsors %}
+
+<div class="archive-year-group" id="year-{{ include.year }}">
+  <div class="archive-year-header" onclick="$(this).next('.archive-year-content').slideToggle(); $(this).toggleClass('active');">
+    <h3 class="year-title">
+        {{ conf.year }} <span>&mdash; {{ conf.name }} {{ conf.edition }}</span>
+    </h3>
+    <i class="fa fa-chevron-down">&#9660;</i>
+  </div>
+
+  <div class="archive-year-content" {% if include.year == "2025" %}style="display: block;"{% endif %}>
+    
+    <div class="archive-conf-summary">
+        <span class="meta-item"><b>Date:</b> {{ conf.date | date: "%B %-d, %Y" }}</span>
+        <span class="meta-item"><b>Venue:</b> {{ conf.venue.name }}</span>
+        {% if conf.attendee_count %}
+            <span class="meta-item"><b>Attendees:</b> {{ conf.attendee_count }}+</span>
+        {% endif %}
+
+        {% if sponsors and sponsors.size > 0 %}
+        <div class="archive-sponsors-list mt-2">
+            {% for tier in site.sponsorTiers %}
+            {% assign tier_sponsors = sponsors | where: "tier", tier %}
+            {% if tier_sponsors.size > 0 %}
+                <span class="archive-sponsor-tier mr-3">
+                <span class="sponsor-tier-label">{{ tier }}:</span>
+                {% for s in tier_sponsors %}
+                    <a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% unless forloop.last %},{% endunless %}
+                {% endfor %}
+                </span>
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="row">
+      {% for session in year_data.schedule %}
+        {% if session.type == "talk" or session.type == "keynote" %}
+          {% assign track_slug = session.track | replace: " ", "" | replace: "-", "" | downcase %}
+          {% capture session_speakers %}
+            {% for speaker in session.speakers %}{{ speaker.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+          {% endcapture %}
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="archive-session-card {{ track_slug }}">
+              <div class="card-body">
+                <div class="session-track">{{ session.track }}</div>
+                <div class="session-title">{{ session.title }}</div>
+                
+                <div class="session-speakers">
+                  {{ session_speakers }}
+                </div>
+              </div>
+
+              <div class="session-actions">
+                {% if session.slides_url %}
+                  <a href="{{ session.slides_url }}"
+                     class="btn btn-sm btn-outline-primary btn-slides"
+                     target="_blank"
+                     rel="noopener">Slides</a>
+                {% endif %}
+                {% if session.video_url %}
+                  <button class="btn btn-sm btn-primary btn-watch-video"
+                          data-video-url="{{ session.video_url }}"
+                          data-video-title="{{ session.title | escape }}">
+                    &#9654; Watch
+                  </button>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    
+  </div>
+</div>

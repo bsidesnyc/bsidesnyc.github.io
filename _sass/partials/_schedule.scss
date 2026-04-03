@@ -65,16 +65,13 @@ $small-label-width: 80px;
     }
 }
 .track-header-label {
-    position: absolute;
     padding: 10px 15px 20px;
-    width: $label-width;
     text-align: left;
     margin: 0;
     font-size: $title-font-size;
     line-height: 1;
     @media (max-width: 767px) {
         font-size: 18px;
-        width: $small-label-width;
     }
     span {
         font-size: 20px;
@@ -85,12 +82,10 @@ $small-label-width: 80px;
 }
 .timeslot-label {
     @extend .track-header-label;
-    position: relative;
-    float: left;
     display: block;
     transition: $base-transition;
     font-size: 40px;
-    font-weight: $light;
+    font-weight: $fw-light;
     @media (max-width: 767px) {
         font-size: 28px;
     }
@@ -101,16 +96,14 @@ $small-label-width: 80px;
 }
 .timeslot-elements {
     overflow: hidden;
-    margin-left: $label-width;
     transition: $base-transition;
     @media (max-width: 767px) {
         display: block;
-        margin-left: $small-label-width;
     }
 }
 .slot-title {
     font-size: 22px;
-    font-weight: $regular;
+    font-weight: $fw-regular;
     margin: 0;
     padding-right: 20px;
     @media (max-width: 767px) {
@@ -158,6 +151,12 @@ $small-label-width: 80px;
     width: 100%;
     top: 0;
     background: #ccc;
+
+    &.tech-red { background: #db4437; }
+    &.tech-blue { background: #4285f4; }
+    &.tech-other { background: #f4b400; }
+    &.workshop { background: #0f9d58; }
+    &.entrepreneur { background: #ab47bc; }
 }
 .slot-content {
     padding: 20px 15px 30px;
@@ -165,6 +164,13 @@ $small-label-width: 80px;
     background: #fff;
     transform: translateY(0);
     transition: $base-transition;
+
+    &.tech-red { border-right-color: #db4437; }
+    &.tech-blue { border-right-color: #4285f4; }
+    &.tech-other { border-right-color: #f4b400; }
+    &.workshop { border-right-color: #0f9d58; }
+    &.entrepreneur { border-right-color: #ab47bc; }
+
     @media (max-width: 767px) {
         padding-bottom: 20px;
         min-height: 90px;

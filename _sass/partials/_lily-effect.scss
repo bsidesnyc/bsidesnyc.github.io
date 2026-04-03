@@ -68,12 +68,12 @@
         h2 {
             font-size: 20px;
             line-height: 1;
-            font-weight: $regular;
+            font-weight: $fw-regular;
             transition: $base-transition;
             transform: translateY(-10px);
             word-spacing: -2px;
             span {
-                font-weight: $extra-bold;
+                font-weight: $fw-extra-bold;
                 display: block;
             }
         }
@@ -111,7 +111,7 @@
         background: #fff;
         h2 {
             font-size: 21px;
-            font-weight: $regular;
+            font-weight: $fw-regular;
             margin: 0;
         }
         .title {

@@ -1,0 +1,793 @@
+conference:
+  name: BSidesNYC
+  edition: '0x02'
+  year: 2018
+  date: '2018-01-20'
+  venue:
+    name: John Jay College of Criminal Justice
+    address: 524 W 59th St., New York, NY 10019
+    coordinates:
+      lat: 40.7709863
+      lng: -73.9899653
+  url: https://bsidesnyc.org
+  registration_url: null
+  attendee_count: null
+schedule:
+- time_start: 08:00
+  time_end: 08:45
+  track: null
+  room: Atrium / Hound Square
+  title: Registration / Coffee
+  speakers: []
+  description: An arrangement of fresh fruit and granola bars will be provided.
+  type: break
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: 08:45
+  time_end: 09:00
+  track: null
+  room: L.63
+  title: Opening Remarks
+  speakers:
+  - name: Dr. Richard Lovely
+    company: John Jay College
+    title: Director of the John Jay College Digital Forensics & Cybersecurity Program
+  - name: Quiessence Phillips
+    company: The City of New York
+    title: Deputy CISO
+  description: Opening Remarks and Intros to D4CS & NYC Cyber Command
+  type: ceremony
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2018?playlist=1&file=01_Opening_Remarks.mp4
+  recorded: true
+- time_start: 09:00
+  time_end: 09:30
+  track: null
+  room: L.63
+  title: Keynote
+  speakers:
+  - name: Runa Sandvik
+    company: The New York Times
+    title: Director of Information Security
+  description: null
+  type: keynote
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2018?playlist=1&file=02_InfoSec_at_The_New_York_Times.mp4
+  recorded: true
+- time_start: 09:30
+  time_end: '10:00'
+  track: null
+  room: L.63
+  title: Keynote
+  speakers:
+  - name: Amber Baldet
+    company: JPMorgan
+    title: Blockchain Program Lead
+  description: null
+  type: keynote
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2018?playlist=1&file=03_blockchain.mp4
+  recorded: true
+- time_start: '10:05'
+  time_end: '10:30'
+  track: Entrepreneur Track
+  room: L.61
+  title: 'Return Oriented: A 2017 Market Round Up'
+  speakers:
+  - name: Kelly Shortridge
+    company: null
+    title: null
+  description: null
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '10:30'
+  time_end: '10:50'
+  track: Entrepreneur Track
+  room: L.61
+  title: The Things No One Tells You About Launching a Startup
+  speakers:
+  - name: Loren Mahler
+    company: Dealy Mahler Strategies
+    title: Founder
+  description: null
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '10:05'
+  time_end: '10:50'
+  track: Track 1
+  room: L.63
+  title: Practical Analysis of Awareness
+  speakers:
+  - name: Kendra Cooley
+    company: MailChimp
+    title: Senior Security Operations Engineer
+  description: 'Many organizations participate in Security Awareness training. Whether it is something that is produced internally
+    or supplied by a third-party vendor, the goals are the same: educate the user to prevent becoming the next big breach
+    in the news. We all know the phrase ''you can''t patch humans'', but what metrics can we use to see if our awareness efforts
+    are effective? Believe it or not, Security Analysts have access to a lot of valuable information that can show us just
+    how effective these programs are... and no, I''m not just talking about the results of your last phishing campaign.'
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2018?playlist=1&file=04_Practical_Analysis_of_Awareness.mp4
+  recorded: true
+- time_start: '10:05'
+  time_end: '10:50'
+  track: Track 2
+  room: L.76
+  title: Hunting for Lateral Movement
+  speakers:
+  - name: Mauricio Velazco
+    company: null
+    title: null
+  description: After obtaining an initial foothold on an environment, attackers are forced to embark in lateral movement techniques
+    in order to be successful in identifying and exfiltrating sensitive information. To stay ahead of the bad guys, the Blue
+    team needs to have a clear understanding of these techniques as well as the forensic artifacts these techniques leave
+    behind on the victim hosts. Armed with this knowledge, we can proactively hunt for lateral movement in the environment
+    before exfiltration can occur. This presentation will analyze Lateral Movement from both a Red and Blue team perspective
+    and introduce Oriana, a lateral movement hunting tool that can assist the Blue team in catching the adversary.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '10:05'
+  time_end: '10:50'
+  track: Villages
+  room: Moot Court
+  title: Villages
+  speakers: []
+  description: null
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '11:00'
+  time_end: '11:25'
+  track: Entrepreneur Track
+  room: L.61
+  title: Creating a New Security Product Category
+  speakers:
+  - name: Galina Antova
+    company: Claroty
+    title: Co-Founder
+  description: null
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '11:25'
+  time_end: '11:50'
+  track: Entrepreneur Track
+  room: L.61
+  title: Bootstrapping
+  speakers:
+  - name: Paul Vixie
+    company: Farsight Security
+    title: Chairman and CEO
+  description: null
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '11:00'
+  time_end: '11:50'
+  track: Track 1
+  room: L.63
+  title: 'Open Up and Say 0x41414141: Attacking Medical Devices'
+  speakers:
+  - name: Robert Portvliet
+    company: Cylance
+    title: Technical director of red team services
+  description: 'Network accessible medical devices are ubiquitous in today''s clinical environment. These devices can be of
+    great aid to healthcare professionals in assessing, treating and monitoring a patient''s condition. However, they can
+    also fall victim to a number of systemic vulnerabilities that can expose personal health information or PHI, compromise
+    the integrity of patient data in transit, and affect the availability of the devices themselves.
+
+
+    This talk looks at the methodology and approach to penetration testing of modern medical devices. It will provide an overview
+    of the various stages of a medical device assessment, including discovery and analysis of a device''s remote and local
+    attack surface, reverse engineering and exploitation of proprietary network protocols, vulnerability discovery in network
+    services, compromising supporting systems, attacking common wireless protocols, exploitation of hardware debug interfaces
+    and bus protocols and assessing proprietary wireless technologies.
+
+
+    It will also cover a number of real world vulnerabilities that the speaker has discovered during medical device penetration
+    testing assessments. These include weak cryptographic implementations, device impersonation and data manipulation vulnerabilities
+    in proprietary protocols, unauthenticated database interfaces, hardcoded credentials/keys and other sensitive information
+    stored in firmware/binaries and the susceptibility of medical devices to remote denial of service attacks.
+
+
+    The talk will conclude with some suggestions on how some of the most common classes of medical device vulnerabilities
+    might be remediated by vendors and also how hospitals and other healthcare providers can defend their medical devices
+    in the meantime.'
+  type: talk
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2018/blob/master/Presentations/Robert%20Portvliet%20-%20Open%20Up%20and%20Say%200%C3%9741414141%20-%20Attacking%20Medical%20Devices.pdf
+  video_url: https://archive.org/details/bsidesnyc2018?playlist=1&file=05_Open_Up_and_Say_0x41414141.mp4
+  recorded: true
+- time_start: '11:00'
+  time_end: '11:50'
+  track: Track 2
+  room: L.76
+  title: Evading C2 Detection with Asymmetry
+  speakers:
+  - name: Brandon Arvanaghi
+    company: Gemini
+    title: Security Engineer
+  - name: Andrew Johnston
+    company: Mandiant
+    title: Proactive Consultant
+  description: Detecting callouts to command-and-control (C2) servers used to be straightforward, but attackers in your network
+    have found ways to communicate with the outside world even under the heaviest of scrutiny. In this talk, we discuss ways
+    to use popular websites as means of getting commands and exfiltrating information. We examine the applications of asymmetric
+    communication, from Internet-accessible computers to embedded devices to air-gapped systems. Finally, we give some suggestions
+    to defenders, and discuss how to detect and mitigate risks that enable asymmetric malware.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2018?playlist=1&file=08_Evading_C2_Detection_with_Asymmetry.mp4
+  recorded: true
+- time_start: '11:00'
+  time_end: '11:50'
+  track: Villages
+  room: Moot Court
+  title: Villages
+  speakers: []
+  description: null
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '11:50'
+  time_end: '13:00'
+  track: null
+  room: Hound Square
+  title: Lunch Break
+  speakers: []
+  description: A complimentary lunch will be provided.
+  type: break
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '13:00'
+  time_end: '13:25'
+  track: Entrepreneur Track
+  room: L.61
+  title: Venture Capital in Security
+  speakers:
+  - name: Roselle Safran
+    company: Rosint Labs & EIR at Antecedent Ventures
+    title: President
+  description: null
+  type: talk
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2018/blob/master/Presentations/Roselle%20Safran%20-%20Venture%20Capital%20In%20Security.pdf
+  video_url: null
+  recorded: null
+- time_start: '13:25'
+  time_end: '13:50'
+  track: Entrepreneur Track
+  room: L.61
+  title: Marketing and Advertising for Security Startups
+  speakers:
+  - name: Nicole Enslein
+    company: Sublime Communications
+    title: Founder and CEO
+  description: null
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '13:00'
+  time_end: '13:50'
+  track: Track 1
+  room: L.63
+  title: Threat hunting .NET malware with YARA
+  speakers:
+  - name: Santiago Pontiroli
+    company: Kaspersky Lab Latin America
+    title: Security Analyst | Global Research and Analysis Team (GReAT)
+  description: 'YARA has recently included a module that enables researchers the creation of more fine grained rules for malware
+    written for the .NET framework. These files contain valuable metadata embedded which can enable us to pinpoint a specific
+    threat and reduce our number of false positives detections.
+
+
+    This presentation will focus on the peculiarities of obtaining indicators of compromise from .NET malware samples and
+    writing reliable YARA rules using its latest module. I''ll be showing real world examples and releasing a convenient tool
+    that can query metadata information from large sets of .NET files'
+  type: talk
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2018/blob/master/Presentations/Santiago%20Pontiroli%20-%20Threat%20hunting%20.NET%20malware%20with%20YARA.pdf
+  video_url: https://archive.org/details/bsidesnyc2018?playlist=1&file=06_Threat_hunting_dotNET_malware_with_YARA.mp4
+  recorded: true
+- time_start: '13:00'
+  time_end: '13:50'
+  track: Track 2
+  room: L.76
+  title: Moving Graph Analytics to Higher Dimensions to Discover Network Activity / Anomalies that are implicit in behavior
+    - Connections in High Dimensions
+  speakers:
+  - name: Richard Lethin
+    company: Reservoir Labs
+    title: President
+  description: 'Advanced mathematics made simpler: Spectral Hypergraph Analysis for mortals. Imagine lighting up and "shining"
+    your network logs through a special prism that would separate behaviors into a "spectrum" that would indicate to you things
+    that are going on on your network. Some of the those things might be important discoveries with security implications.
+    Doing this would be like how astronomers determine the materials that are burning in a distant star, using a special telescope
+    to get the spectrum of that star''s light. It turns out that there is a mathematical way to do this on network logs, involving
+    a generalization of the Fourier Transform over high dimensional graphs. This talk will explain this technology in accessible
+    ways, and show examples of its use in discovering "bad stuff" on a very large network.'
+  type: talk
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2018/blob/master/Presentations/Reservoir%20Lethin%20-%20Moving%20Graph%20Analytics%20to%20Higher%20Dimensions%20to%20Discover%20Network%20Activity%20%3A%20Anomalies%20that%20are%20implicit%20in%20behavior%20-%20Connections%20in%20High%20Dimensions.pdf
+  video_url: null
+  recorded: false
+- time_start: '13:00'
+  time_end: '13:50'
+  track: Villages
+  room: Moot Court
+  title: Villages
+  speakers: []
+  description: null
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '14:00'
+  time_end: '14:50'
+  track: Entrepreneur Track
+  room: L.61
+  title: Startup Panel
+  speakers:
+  - name: Mikala Vidal
+    company: Uplevel Security
+    title: Vice President of Marketing
+  - name: Lenny Zeltser
+    company: Minerva Labs
+    title: VP of Products
+  - name: Omri Segev Moyal
+    company: Minerva Labs
+    title: Co-Founder, VP Research
+  - name: Regine Gilbert
+    company: null
+    title: Sr. UX Design Consultant
+  - name: Joe Bernik
+    company: McAfee
+    title: Chief Strategist
+  description: null
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '14:00'
+  time_end: '14:50'
+  track: Track 1
+  room: L.63
+  title: firewalls-- threat or menace?
+  speakers:
+  - name: Paul Vixie
+    company: Farsight Security
+    title: Chairman and CEO
+  description: 'Internet communications is cyclic; provisioning and security decisions are not made with one-off traffic units
+    in mind. Traditional in-path firewalls are for this reason often stateful, but the value-add from such state-keeping comes
+    with a healthy downside: the state-keeping is a new attack surface. Given the fate-sharing that goes on behind a firewall,
+    if an attack against some internal resource has the capability of bringing the firewall down and thus affecting other
+    internal resources, then the firewall implicitly becomes an effective force-multiplier for the attacker. There are other
+    ways to do security, which take better account of an attacker''s capabilities and alternatives. For example, protocol-aware
+    rate limiting may offer cheaper deployment cost with a better worst-case outcome.'
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2018?playlist=1&file=07_firewalls_–_threat_or_menace.mp4
+  recorded: true
+- time_start: '14:00'
+  time_end: '14:50'
+  track: Track 2
+  room: L.76
+  title: Moving like a Spook through Walls Or how to be only a shadow for APT detectors
+  speakers:
+  - name: Dmitry Bestuzhev
+    company: Kaspersky
+    title: Head of Global Research and Analysis Team for Latin America
+  description: Not matter what APT threat actor operate in the victims network, there is something in common they share and
+    it's Internet for data exfiltration. I'd like to present a few Anti-APT techniques used by the threat actors in LatAm,
+    Eastern Europe and other regions to bypass detections. All techniques are from real campaigns we track on.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '14:00'
+  time_end: '14:50'
+  track: Villages
+  room: Moot Court
+  title: Villages
+  speakers: []
+  description: null
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '15:00'
+  time_end: '15:25'
+  track: Entrepreneur Track
+  room: L.61
+  title: Growing & Monetizing Your Open Source Side Project
+  speakers:
+  - name: Kevin Chung
+    company: CTFd
+    title: Founder
+  description: null
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '15:25'
+  time_end: '15:50'
+  track: Entrepreneur Track
+  room: L.61
+  title: 'Sales: How long until you really need it?'
+  speakers:
+  - name: Adrian Mahieu
+    company: Cortex Insight
+    title: Co-Founder and CEO
+  description: null
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '15:00'
+  time_end: '15:50'
+  track: Track 1
+  room: L.63
+  title: Threat-Based Risk Management
+  speakers:
+  - name: Julian Cohen
+    company: Automatic Playbook Testing
+    title: null
+  - name: Justin Berman
+    company: Zenefits
+    title: CISO
+  description: 'The security industry has been talking about powerful concepts like good threat intelligence and attacker
+    cost for a long time now, but most organizations are not using these concepts in their security programs, causing them
+    to waste money, time, and energy on efforts that do not stop real attackers.
+
+
+    In this talk, we describe a security program built around adversary intelligence that actually matters. We describe how
+    this program generates more accurate and precise priorities and objectives. We demonstrate how these new risk profiles,
+    attacker playbooks, and attacker cost models can help inform better controls, strategies, and policies.
+
+
+    We focus on picking the controls that are most effective at reducing the risk of successful execution of the playbooks
+    that attackers use everyday. This is only possible with a security program built around attacker intelligence.
+
+
+    We take a deep dive into the practicalities of implementation of these concepts at your organization. What metrics matter
+    to show to management, how this impacts hiring, and how this modifies core workflows in the security team.
+
+
+    Finally, we will close with some of the concrete challenges we encountered in implementing this program and some suggestions
+    on how to work around them.'
+  type: talk
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2018/blob/master/Presentations/Julian%20Cohen%20and%20Justin%20Berman%20-%20Threat-Based%20Risk%20Management.pdf
+  video_url: null
+  recorded: false
+- time_start: '15:00'
+  time_end: '15:50'
+  track: Track 2
+  room: L.76
+  title: Taste the Rainbow
+  speakers:
+  - name: David Hartley
+    company: MWR InfoSecurity
+    title: null
+  description: 'Adversarial Simulation, Red Team, Threat Emulation, Blue Team, Targeted Attack Simulation, Purple Team or
+    Gold Team - So many labels and buzzwords. No matter what you call it or whatever color shirt you wear / team you identify
+    most with - this talk offers something for you; no matter the camp you are in.
+
+
+    At MWR we''ve spent many years robbing banks, pulling off casino heists, breaching merchants, bringing down Critical National
+    Infrastructure (CNI), flooding mines, stealing all the things and doxing big corps. But more importantly, we''ve also
+    helped many of those clients make sure none of the stuff we did, could happen for real.
+
+
+    This presentation will take you on a journey showing you how our TTP''s have evolved over the past few years - why we''ve
+    evolved them, what works now, what doesn''t and why - we''ll also give you insights into what''s coming next. There will
+    be takeaways for everyone - whether your looking to up your offensive game, or as a defender looking to get a heads up
+    on whats gonna be hitting you soon (as well as what to do about it!).
+
+
+    Having delivered assessments all around the world over several years; as part of and separate to regulatory frameworks
+    such as CBEST, TIBER, iCAST, we''ve sparred with some heavy hitters and a lot of lessons have been learned - we''d like
+    to share some of these with you. There might just be some entertaining tales too - like that one time we were fingered
+    as a new and shiny Russian APT...'
+  type: talk
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2018/blob/master/Presentations/Dave%20Hartley%20-%20Taste%20The%20Rainbow.pdf
+  video_url: https://archive.org/details/bsidesnyc2018?playlist=1&file=09_Taste_the_Rainbow.mp4
+  recorded: true
+- time_start: '15:00'
+  time_end: '15:50'
+  track: Villages
+  room: Moot Court
+  title: Villages
+  speakers: []
+  description: null
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '15:50'
+  time_end: '16:00'
+  track: null
+  room: Hound Square
+  title: Break
+  speakers: []
+  description: Coffee, beverages and fresh baked goods will be provided.
+  type: break
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '16:00'
+  time_end: '16:25'
+  track: Entrepreneur Track
+  room: L.61
+  title: How Security Startups Can Help Build the Next Generation of Cyber Security Leaders
+  speakers:
+  - name: Jessica Santana
+    company: New York On Tech
+    title: Co-Founder & Director
+  description: null
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '16:25'
+  time_end: '16:50'
+  track: Entrepreneur Track
+  room: L.61
+  title: Product Management of Security Solutions
+  speakers:
+  - name: Lenny Zeltser
+    company: Minerva Labs
+    title: VP of Products
+  description: Established enterprises as well as startups have much to consider when deciding how to build, deliver and maintain
+    information security products that make sense for their businesses and customers. The individuals tasked with creating
+    and overseeing such offerings often have "product management" in their titles. What do these people do? What skills do
+    they possess? This session explores the mindset of a product manager who focuses on information security solutions. Those
+    new to this discipline will better understand whether they should consider such a role. Those already tasked with managing
+    security solutions will benefit from hearing about a lightweight framework that can help them make better decisions about
+    their products.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '16:00'
+  time_end: '16:50'
+  track: Track 1
+  room: L.63
+  title: I Want To Break Free
+  speakers:
+  - name: Stuart Morgan
+    company: MWR InfoSecurity
+    title: null
+  description: These days, most adversaries will attempt to run code somewhere on your network in order to establish a command
+    and control channel; application whitelisting is a key security control. This talk will demonstrate a number of common
+    and less common techniques for being able to run code or interact with a locked down environment, seen through the eyes
+    of an operational simulated attacker.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '16:00'
+  time_end: '16:50'
+  track: Track 2
+  room: L.76
+  title: 'The Politics of Intelligence: Applying History to Modern Day Cyber Threat Intelligence'
+  speakers:
+  - name: Paul Jaramillo
+    company: CrowdStrike
+    title: Principal Consultant
+  description: How many organizations have an effective strategic threat intelligence operation? Many have failed and many
+    struggle to obtain executive buy in or even mild interest in any of their cyber threat intelligence reports. By examining
+    the history of the POTUS's use of intelligence, some powerful lessons can be learned. For instance, one president created
+    and relied on his own private intelligence group of peers. Another president ignored SIGINT completely because of a preference
+    for "cloaks and daggers". Yet another president, told the intelligence community their analysis will support a decision
+    he has already made! These are all important insights into executive leadership, their psychology, and how best to serve
+    their intelligence needs. This presentation will highlight and summarize several key lessons which can be applied to create
+    or improve upon a strategic threat intelligence program.
+  type: talk
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2018/blob/master/Presentations/Paul%20Jaramillo%20-%20The%20Politics%20of%20Intelligence%20-%20Applying%20History%20to%20Modern%20Day%20Cyber%20Threat%20Intelligence.pdf
+  video_url: https://archive.org/details/bsidesnyc2018?playlist=1&file=10_The_Politics_of_Intelligence.mp4
+  recorded: true
+- time_start: '16:00'
+  time_end: '16:50'
+  track: Villages
+  room: Moot Court
+  title: Villages
+  speakers: []
+  description: null
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '17:00'
+  time_end: '17:25'
+  track: Entrepreneur Track
+  room: L.61
+  title: (From) Concept to Profit
+  speakers:
+  - name: Ryan Young
+    company: Atlantic IT Group
+    title: Chief Operating Officer
+  description: null
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '17:25'
+  time_end: '17:50'
+  track: Entrepreneur Track
+  room: L.61
+  title: Startup Security Research
+  speakers:
+  - name: Irena Damsky
+    company: ThreatSTOP
+    title: VP Research
+  - name: Omri Segev Moyal
+    company: Minerva Labs
+    title: Co-Founder, VP Research
+  description: null
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '17:00'
+  time_end: '17:50'
+  track: Track 1
+  room: L.63
+  title: 2FA was part of the solution, now it's part of the problem
+  speakers:
+  - name: Roel Schouwenberg
+    company: The Celsus Advisory Group
+    title: null
+  description: 'In recent years more services and people have moved to two-factor authentication. While everybody loves talking
+    about the advantages of 2FA, little attention has been given to its downsides. Attackers have started adapting to ubiquitous
+    2FA and are finding new ways to take over accounts ranging anywhere from email to online banking and (crypto currency)
+    trading services.
+
+
+    In this talk we will show how attackers can exploit various 2FA and account recovery implementation issues to hijack accounts.
+    We will also propose defensive measures for both architects and end-users.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '17:00'
+  time_end: '17:50'
+  track: Track 2
+  room: L.76
+  title: 'Signal Safari: Investigating RF Controls with RTL-SDR'
+  speakers:
+  - name: Katie Knowles
+    company: MWR InfoSecurity
+    title: null
+  description: Cranes, trains, building controls, oil rigs, and ...ceiling fans? Recent developments have made secure wireless
+    protocols more common, but the fact is there's still a swarm of simpler RF controls in the wireless world around us. Luckily,
+    the onset of Software Defined Radios (SDRs) means analyzing these insecure signals is easier than ever! We'll explore
+    the basics of capturing and reversing simple RF control signals with the affordable RTL-SDR. With a little exploration
+    through this menagerie of signals, we can unravel the mysteries of their operation and better understand what risk they
+    pose to the environments we protect.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2018?playlist=1&file=11_Signal_Safari.mp4
+  recorded: true
+- time_start: '17:00'
+  time_end: '17:50'
+  track: Villages
+  room: Moot Court
+  title: Villages
+  speakers: []
+  description: null
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '17:50'
+  time_end: '18:00'
+  track: null
+  room: L.63
+  title: Closing Remarks
+  speakers: []
+  description: null
+  type: ceremony
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '18:00'
+  time_end: null
+  track: null
+  room: 336 W 37th St. Suite 1080 (10th floor), New York, NY 10018
+  title: After Party
+  speakers: []
+  description: Hosted by Red Balloon Security
+  type: break
+  slides_url: null
+  video_url: null
+  recorded: false
+sponsors:
+- name: MWR InfoSecurity
+  tier: Platinum
+  url: https://www.mwrinfosecurity.com
+- name: Virtue Security
+  tier: Platinum
+  url: https://www.virtuesecurity.com
+- name: Cisco
+  tier: Platinum
+  url: https://www.cisco.com
+- name: context
+  tier: Platinum
+  url: https://www.contextis.com
+- name: Mandiant
+  tier: Platinum
+  url: https://www.fireeye.com/services.html
+- name: Crowe Horwath
+  tier: Platinum
+  url: https://www.crowehorwath.com
+- name: Red Balloon Security
+  tier: Platinum
+  url: https://www.redballoonsecurity.com
+- name: Jet
+  tier: Platinum
+  url: https://www.jet.com
+- name: F5
+  tier: Gold
+  url: https://f5.com
+- name: OccamSec
+  tier: Gold
+  url: http://occamsec.com
+- name: Syncurity
+  tier: Gold
+  url: https://www.syncurity.net
+- name: tCell
+  tier: Gold
+  url: https://www.tcell.io
+- name: Cybereason
+  tier: Gold
+  url: https://www.cybereason.com
+- name: MongoDB
+  tier: Gold
+  url: https://www.mongodb.com
+- name: Red Canary
+  tier: Gold
+  url: https://www.redcanary.com
+- name: NSA
+  tier: Silver
+  url: https://www.nsa.gov/careers/
+- name: L.J. Kushner
+  tier: Silver
+  url: http://ljkushner.com/candidates/
+- name: Senrio
+  tier: Silver
+  url: https://senr.io
+- name: Cortex Insight
+  tier: Silver
+  url: https://cortexinsight.com
+- name: enSilo
+  tier: Silver
+  url: https://www.ensilo.com
+- name: Dispel
+  tier: Silver
+  url: https://dispel.io
+- name: Splunk
+  tier: Silver
+  url: https://www.splunk.com
+villages:
+- name: Lock Pick
+  url: https://toool.us
+- name: Electronics Workshop
+  url: http://www.alphaonelabs.com
+- name: Embedded Exploitation
+  url: https://www.redballoonsecurity.com
+- name: Capture the Flag
+  url: https://www.hackthebox.eu
+- name: Visual CTF
+  url: https://ctfd.io
+- name: Mesh Networking
+  url: http://nycmesh.net

@@ -19,7 +19,7 @@
 }
 .image-section {
     color: #fff;
-    font-weight: $light;
+    font-weight: $fw-light;
     background-repeat: no-repeat;
     background-position: center center !important;
     background-size: cover !important;
@@ -91,7 +91,7 @@
     background-size: cover;
 }
 #typed-cursor {
-    font-weight: $light;
+    font-weight: $fw-light;
     animation: blink .7s infinite;
     opacity: 1;
 }

@@ -1,0 +1,994 @@
+conference:
+  name: BSidesNYC
+  edition: '0x04'
+  year: 2024
+  date: '2024-10-19'
+  venue:
+    name: John Jay College of Criminal Justice
+    address: 524 W 59th St., New York, NY 10019
+    coordinates:
+      lat: 40.7709863
+      lng: -73.9899653
+  url: https://bsidesnyc.org
+  registration_url: https://www.ticketleap.events/tickets/bsidesnyc/bsidesnyc-0x04
+  attendee_count: null
+schedule:
+- time_start: 09:00
+  time_end: 09:15
+  track: Tech - Red
+  room: L.63
+  title: BSidesNYC 0x04 Launch
+  speakers:
+  - name: Huxley Barbee
+    company: null
+    title: void *huxley
+  description: null
+  type: ceremony
+  slides_url: null
+  video_url: https://youtu.be/VGzo6X956PY?si=50IIB2VXpDh4AfpV
+  recorded: true
+- time_start: 09:15
+  time_end: '10:00'
+  track: Tech - Red
+  room: L.63
+  title: 'BSidesNYC 0x04 Keynote: When Do We Get to Play On Easy Mode?'
+  speakers:
+  - name: Wendy Nather
+    company: null
+    title: Some Kind of Cyber Professional
+  description: Many of us have been in the industry for a long time, and we keep seeing the same problems over and over again.
+    We scramble to keep up with the new technology, and the long tail of the older tech stretches ever further behind us but
+    never goes away. And what's that definition of insanity again? trying the same things over and over again, expecting a
+    different result? It's time to look more critically at our assumptions and incentives, and maybe do a little table-flipping
+    so that we can finally catch a break.
+  type: keynote
+  slides_url: null
+  video_url: https://youtu.be/aE3VZZFC-wU?si=D9rD485kQhVIOqYg
+  recorded: true
+- time_start: '10:00'
+  time_end: '11:00'
+  track: Entrepreneur
+  room: L.61
+  title: Raising money from and engaging with Angel Investment Syndicates
+  speakers:
+  - name: Anshu Gupta
+    company: Silicon Valley CISO Investments (SVCI)
+    title: Investor, Silicon Valley CISO Investments (SVCI)
+  description: This session will delve into how to successfully engage with and raise money from cyber angel investment syndicates.
+    The session will also shed light into the typical due diligence process of investors and how to avoid common mistakes.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '10:00'
+  time_end: '11:00'
+  track: Tech - Blue
+  room: L2.84
+  title: 10 Things to Know Before You Work on Your Next M365 BEC
+  speakers:
+  - name: Ida Musheyev-Polishchuk
+    company: Stroz Friedberg
+    title: Senior Consultant at Stroz Friedberg's Digital Forensics and Incident Response
+  - name: Natasha Vij
+    company: Stroz Friedberg
+    title: DFIR Consultant at Stroz Friedberg, an Aon Company
+  description: As incident responders we investigate M365 Business email compromises ("BEC") daily. BEC's significantly disrupt
+    operations, making swift and effective remediation essential. In this session, we will be discussing the top 10 insights
+    gained from our extensive experience in investigating these matters. We will cover quick wins, data exfiltration techniques,
+    and log anomalies to find malicious activity and IOCs. Attendees will leave with several tips and tricks to handle their
+    next BEC confidently.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=B01_10_Things_to_Know_Before_You_Work_on_Your_Next_M365_BEC.mp4
+  recorded: false
+- time_start: '10:00'
+  time_end: '11:00'
+  track: Tech - Other
+  room: L2.85
+  title: Reflections and Lessons from Defending NYC
+  speakers:
+  - name: Munish Walther-Puri
+    company: NYU
+    title: Adjunct @ NYU and Institute for Security & Technology
+  description: As the former director of cyber risk for NYC Cyber Command, I will share key lessons in cyber strategy for
+    a federated environment, spanning scores of agencies.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '10:00'
+  time_end: '11:00'
+  track: Tech - Red
+  room: L.63
+  title: Building Burp Extensions with Kotlin
+  speakers:
+  - name: Nick Coblentz
+    company: Virtue Security
+    title: Application Penetration Team Lead at Virtue Security
+  description: Pentesters often find it necessary to build their own Burp extensions in order to effectively carry out an
+    application penetration test. This talk introduces using Kotlin to build those extensions. It then walks through example
+    extensions created to solve challenges encountered in real world applications. I am also releasing an open source library
+    to streamline common features for those extensions. Finally, as a bonus, I will cover using Bambdas to filter traffic
+    and/or look for potential vulnerabilities in the HTTP Proxy tab of Burp Suite.
+  type: talk
+  slides_url: null
+  video_url: https://youtu.be/cJKZYjehnAw?si=CUdHkdyKiIpIdnCl
+  recorded: true
+- time_start: '10:00'
+  time_end: '12:00'
+  track: Workshop
+  room: Workshop
+  title: Backdoors & Breaches - Morning Session
+  speakers:
+  - name: t0mQuixote
+    company: null
+    title: Analyst
+  description: null
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '11:00'
+  time_end: '11:30'
+  track: Entrepreneur
+  room: L.61
+  title: Building a niche product in a consolidating macro climate
+  speakers:
+  - name: halffinn
+    company: FireTail
+    title: Cofounder at FireTail
+  description: How do you navigate launching a point solution in the era of "platformization"?
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '11:00'
+  time_end: '11:30'
+  track: Tech - Blue
+  room: L2.84
+  title: 'Bridging the Gap: Developing Accessible Anti-Phishing Solutions'
+  speakers:
+  - name: Lydia Stepanek
+    company: Pen Loop Consulting
+    title: Owner and Lead Engineer, Pen Loop Consulting
+  description: In the realm of cybersecurity, the battle against phishing attacks remains a perpetual challenge. While email
+    providers offer spam filters and enterprises invest in sophisticated anti-phishing solutions, there's a noticeable gap
+    in accessibility for the average internet user. This session delves into the journey of building an anti-phishing tool
+    tailored for regular people, exploring the challenges encountered and the valuable lessons learned along the way.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=B02_Bridging_the_Gap_-_Developing_Accessible_Anti-Phishing_Solutions.mp4
+  recorded: false
+- time_start: '11:00'
+  time_end: '11:30'
+  track: Tech - Other
+  room: L2.85
+  title: Cybersecurity Considerations for Brain-Computer Interfaces
+  speakers:
+  - name: Tyler Schroder
+    company: Yale University
+    title: Director's Fellow, Digital Ethics Center at Yale University
+  - name: Renee Sirbu
+    company: Yale University
+    title: Researcher, Yale Digital Ethics Center
+  description: Brain-computer interfaces (BCIs) show enormous potential for advances in personalized medicine. Despite clear
+    therapeutic benefits, BCIs offer a direct pathway to the brain, introducing new avenues for cyber-attacks or security
+    compromises. In forthcoming original research with the Digital Ethics Center at Yale University, we make three core policy
+    recommendations to device manufacturers and regulators to better secure these devices and protect patient safety.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '11:00'
+  time_end: '11:30'
+  track: Tech - Red
+  room: L.63
+  title: Breaking free from the chains of fate - Bypassing AWSCompromisedKeyQuarantineV2 Policy
+  speakers:
+  - name: gl4ssesbo1
+    company: null
+    title: Security Engineer
+  - name: Opie
+    company: Permiso
+    title: Senior Researcher @ Permiso P0 Labs
+  description: Amazon's AWSCompromisedKeyQuarantineV2 policy is not the panacea it might seem. Join us on an adventure of
+    all the myriad ways to work around this policy, when you discover leaked keys in the wild. This presentation is a fun,
+    multimedia exploration of all the shortcomings of the AWSCompromisedKeyQuarantineV2 policy that is attached whenever Amazon
+    detects that a key and secret pair have been leaked in the wild. We'll include demos of actual exploitation and color
+    commentary on how this policy and defender strategy can be improved.
+  type: talk
+  slides_url: null
+  video_url: https://youtu.be/nKwRmf-DvaI?si=4wyfZG-ElXSfXmC_
+  recorded: true
+- time_start: '11:30'
+  time_end: '12:00'
+  track: Entrepreneur
+  room: L.61
+  title: GEN-Z Critique on SOC 2
+  speakers:
+  - name: Charissa Kim
+    company: Semgrep
+    title: Technical Program Manager (Security TPM)
+  description: Over the past few months, I had the opportunity to witness Series C security startup, Semgrep, navigate its
+    SOC 2 certification. I was also interested in the general understanding of SOC 2 with engineers, so I went and interviewed
+    50 of them to hear their viewpoints! I uncovered surprising insights into SOC 2, GRC, and security policies. In this talk,
+    I'll share the essential steps for obtaining SOC 2 certification at a tech startup, providing quick and straightforward
+    strategies for success.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '11:30'
+  time_end: '12:00'
+  track: Tech - Blue
+  room: L2.84
+  title: Building canaries with ELK and ElastAlert2
+  speakers:
+  - name: Andrew Januszak
+    company: null
+    title: Systems Engineer and Pentester
+  - name: Keith Erekson
+    company: null
+    title: Systems Architect and Security Enthusiast
+  description: Canaries (honeytokens, canary tokens, canary files, canary accounts, etc...) are relatively low-effort high-gain
+    defensive tools. We wanted to use our existing infrastructure and tooling to implement canaries in various places across
+    different services. We decided to build our own canaries, leveraging our ELK stack for data collection and our ElastAlert2
+    instance for alert tuning and generating notifications across different communication channels.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=B03_Building_canaries_with_ELK_and_ElastAlert2.mp4
+  recorded: false
+- time_start: '11:30'
+  time_end: '12:00'
+  track: Tech - Other
+  room: L2.85
+  title: Quantum Computing and Its Impact on Cybersecurity
+  speakers:
+  - name: Rashmi
+    company: AWS
+    title: Application Security Engineer, AWS
+  description: Quantum computing is poised to revolutionize the field of cybersecurity, introducing both unprecedented opportunities
+    and significant challenges. This session will delve into the fundamental principles of quantum computing and its stark
+    differences from classical computing. We will explore how quantum algorithms, like Shor's algorithm, threaten current
+    encryption methods such as RSA and ECC, necessitating the development of quantum-resistant cryptography.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '11:30'
+  time_end: '12:00'
+  track: Tech - Red
+  room: L.63
+  title: How I hacked a cloud production environment with external Terraform manipulation
+  speakers:
+  - name: Uri Aronovici
+    company: ZEST Security
+    title: Co-Founder & CTO - ZEST Security
+  description: Terraform by HashiCorp is a leading Infrastructure as Code (IaC) tool that enables DevOps to define and provision
+    cloud infrastructure. At the heart of Terraform's functionality are many external modules, services and third-party components
+    that are used for planning and deployment. We uncovered a new attack path which has high probability as it leverages commonly-used
+    external Terraform functionalities that are often not properly vetted or even visible. In this session, Uri will cover
+    how he exploited a widely-used Terraform deployment as part of a CI/CD process to gain full control of a cloud production
+    environment.
+  type: talk
+  slides_url: null
+  video_url: https://youtu.be/3hXsUhbw2dE?si=3mblDpAf4LMcdoNo
+  recorded: true
+- time_start: '12:00'
+  time_end: '13:00'
+  track: Entrepreneur
+  room: L.61
+  title: The blood, sweat, and tears (of pride) in bootstrapping
+  speakers:
+  - name: euphoricfall
+    company: Pulsedive
+    title: Cofounder & COO at Pulsedive
+  description: This is a true and transparent recounting about one company's journey bootstrapping in a sea of media coverage
+    and interest around VC-backed investments. This talk covers the creation and organic growth of a US-based SaaS threat
+    intelligence startup. Drawing from firsthand experiences, the presentation sheds light on the challenges, triumphs, and
+    invaluable lessons learned in going from very first customer to steady revenue.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '12:00'
+  time_end: '12:30'
+  track: Tech - Blue
+  room: L2.84
+  title: 'Trusted Types: DOM XSS Protection at Scale'
+  speakers:
+  - name: Jen Ozmen
+    company: Google
+    title: Software Engineer at Google's Web Security Team
+  - name: Youssef Attia
+    company: Google
+    title: Software Engineer at Google's Web Security Team
+  description: DOM XSS continues to be the most critical threat to web security. It occurs when an attacker can inject malicious
+    code into a web page, which can then be executed by the victim's browser. Our current best defense against DOM XSS is
+    Trusted Types, a browser-based runtime feature to limit the uses of DOM APIs (and limit the possibility of DOM injection).
+    This talk will discuss why DOM XSS is a critical threat, how Trusted Types protects dangerous DOM APIs, Google's experience
+    deploying Trusted Types across its web services, and challenges when adopting Trusted Types for the open source ecosystem.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=B04_Trusted_Types_-_DOM_XSS_Protection_at_Scale.mp4
+  recorded: false
+- time_start: '12:00'
+  time_end: '12:30'
+  track: Tech - Other
+  room: L2.85
+  title: 'Caught in the Net: Using Infostealer Logs to Unmask CSAM Consumers'
+  speakers:
+  - name: Mariya Gedrich
+    company: Recorded Future
+    title: Threat Intelligence Analyst at Recorded Future
+  description: In this proof of concept study, we delve into "logs" that were compromised by infostealer malware and obtained
+    legally by Recorded Future. We use the large dataset of stolen data at our disposal to turn the tables on cybercriminals
+    to identify criminal activity, arrive at geographic trends and make previously unseen connections between criminals.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '12:00'
+  time_end: '13:00'
+  track: Tech - Red
+  room: L.63
+  title: 'Discover the Unseen: Azure Vulnerability Exploitation'
+  speakers:
+  - name: Scott Miller
+    company: Accenture
+    title: Scott Miller, Penetration Tester at Accenture
+  description: In the ever-expanding realm of cloud computing, understanding the vulnerabilities of widely used services is
+    crucial for effective penetration testing. This talk will focus on finding and exploiting vulnerabilities in Microsoft
+    Azure and Azure Active Directory (AD), now called Entra ID. We will start by understanding the architecture of Azure and
+    Azure AD, providing a foundation for understanding where security issues come into play. From there, we will delve into
+    common vulnerabilities and misconfigurations and discuss how to identify and exploit them.
+  type: talk
+  slides_url: null
+  video_url: https://youtu.be/Zn-dFQNImk8?si=LI9uEImd3WZwRzCn
+  recorded: true
+- time_start: '12:00'
+  time_end: '13:00'
+  track: Workshop
+  room: Workshop
+  title: 'Evading GenAI application defenses: From Zero to Hero'
+  speakers:
+  - name: Ante Gojsalic
+    company: SplxAI
+    title: CTO & Co-Founder of SplxAI
+  description: Ready to dive into the wild world of GenAI pentesting? Join Ante Gojsalic, CTO and Co-Founder of SplxAI, for
+    a no-BS, hands-on workshop where you'll go from zero to hero in evading GenAI application defenses. This isn't your typical
+    lecture - we're talking real hacking, real techniques, and real-time problem-solving. You'll learn how to spot and exploit
+    weaknesses in GenAI apps, outsmart the latest defense measures, and walk away with some serious skills.
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '12:30'
+  time_end: '13:00'
+  track: Tech - Blue
+  room: L2.84
+  title: 'CloudTail: Making Heads or Tails of Selectively Retaining Multi-Cloud Logs (w/o a SIEM!)'
+  speakers:
+  - name: Ela Dogjani
+    company: Permiso
+    title: Associate Threat Researcher at Permiso
+  description: In the complex landscape of cloud computing, effectively managing & retaining logs across multiple cloud providers
+    is a vital but often daunting responsibility, especially for smaller organizations without budget for a SIEM. In this
+    presentation I will publicly release CloudTail, an open-source framework designed to simplify the long-term retention
+    & searchability of a highly configurable curated list of cloud events across numerous cloud providers - all without the
+    usage of a SIEM!
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=B05_CloudTail_-_Making_Heads_or_Tails_of_Selectively_Retaining_Multi-Cloud_Logs.mp4
+  recorded: false
+- time_start: '12:30'
+  time_end: '13:00'
+  track: Tech - Other
+  room: L2.85
+  title: 'Cloud Warfare: Grappling and Strangling Scattered Spider'
+  speakers:
+  - name: Andi Ahmeti
+    company: Permiso Security
+    title: Associate Threat Researcher at Permiso Security
+  - name: Abian Morina
+    company: Permiso Security
+    title: Associate Threat Researcher
+  description: LUCR-3, also known as Scattered Spider, is a highly persistent threat actor group notorious for their sophisticated
+    cloud-focused attacks. Moving beyond typical cryptomining campaigns, LUCR-3 employs advanced techniques such as push fatigue
+    attacks and SIM swapping to bypass multi-factor authentication (MFA). Permiso's P0 Labs has tracked LUCR-3 for over 1.5
+    years, offering detailed insights into their tactics, techniques, and procedures (TTPs).
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=O04_Cloud_Warfare_-_Grappling_and_Strangling_Scattered_Spider.mp4
+  recorded: false
+- time_start: '13:00'
+  time_end: '13:30'
+  track: Entrepreneur
+  room: L.61
+  title: 'How to Talk So That They Will Listen: Selling Cybersecurity'
+  speakers:
+  - name: May Brooks
+    company: Helena
+    title: CEO&Founder Helena | Cybersecurity SME | Keynote, Moderator, MC, Speaker | Strategic Cybersecurity Advisor |  Board
+      Advisor | Board Member | Author | Podcaster | Mentor
+  description: As a CISO I'm paid not to trust anyone, so how can you sell something to the CISO. Effective communication
+    is crucial in cybersecurity, whether you're advocating for resources, explaining risks to non-technical stakeholders,
+    or leading a security awareness program. This session will cover strategies for discussing cybersecurity concepts and
+    initiatives in a way that resonates with different audiences.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=E02_How_to_Talk_So_That_They_Will_Listen_-_Selling_Cybersecurity.mp4
+  recorded: false
+- time_start: '13:00'
+  time_end: '14:00'
+  track: Tech - Blue
+  room: L2.84
+  title: 'Ctrl-Alt-Detected: Unraveling Threats with Detection Practitioners'
+  speakers:
+  - name: Julie Agnes Sparks
+    company: DataDog
+    title: Security Engineer @ DataDog
+  - name: Tammy Truong
+    company: Snowflake
+    title: Senior Threat Detection Engineer @ Snowflake
+  - name: Shannon McCormick
+    company: Salesforce
+    title: Sr Member of Technical Staff @ Salesforce
+  - name: xtina
+    company: null
+    title: Sr. Security Manager (previously @ Twitch)
+  description: The threat landscape is always evolving. As organizations continue to get more value from public cloud providers
+    and SaaS platforms, attackers have taken notice and are evolving their methodology to include this new attack surface
+    area. Let's talk to several engineers about how their detection strategies are evolving to match the new cloud and SaaS
+    landscape and how they have adapted their threat models, tools, playbooks, and more to stay up to speed.
+  type: panel
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=B06_Ctrl-Alt-Detected_-_Unraveling_Threats_with_Detection_Practitioners.mp4
+  recorded: false
+- time_start: '13:00'
+  time_end: '14:00'
+  track: Tech - Other
+  room: L2.85
+  title: 'The Life of an SBOM: Where does it go and what do organizations do to it and with it?'
+  speakers:
+  - name: Anita D'Amico
+    company: Cotopaxi Consulting
+    title: Advisor to security startups and investors, Software supply chain strategist
+  - name: Ken Zalevsky
+    company: Vigilant Ops
+    title: CEO, Vigilant Ops, Medical technology cybersecurity and SBOM expert
+  description: Software suppliers produce Software Bills of Material (SBOMs) to fulfill regulatory or procurement requirements.
+    But what happens to an SBOM after initial creation and what value does it really provide to an organization's cybersecurity?
+    This session describes the lifecycle of an SBOM and its use in managing vulnerabilities in deployed software, with practical
+    examples from medical technology (MedTech) and healthcare.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=O05_The_Life_of_an_SBOM.mp4
+  recorded: false
+- time_start: '13:00'
+  time_end: '14:00'
+  track: Tech - Red
+  room: L.63
+  title: 'From HiatusRAT to Cuttlefish: advances in credential theft through the router'
+  speakers:
+  - name: Danny Adamitis
+    company: Lumen Technologies
+    title: Principal Information Security Engineer
+  description: Last year we published our research on the HiatusRAT malware, which infected small office/home office (SOHO)
+    routers of selected targets, and quietly stole access credentials for use against downstream systems. Now we'd like to
+    present our latest research on a new malware that appears to have been written by the same authors, showing enhanced function
+    and a greater threat. Cuttlefish sits passively on the router until it sees the conditions it was made for - either sniffing
+    traffic or hijacking DNS and HTTP requests to steal authentication material.
+  type: talk
+  slides_url: null
+  video_url: https://youtu.be/OA5p3VJk9R0?si=GChGOHaXu23HddtJ
+  recorded: true
+- time_start: '13:00'
+  time_end: '15:00'
+  track: Workshop
+  room: Workshop
+  title: A hitchhiker's guide to a Google Cloud CTF
+  speakers:
+  - name: Marcus Hallberg
+    company: Spotify
+    title: Senior Security Engineer, Spotify
+  - name: Marion Sackel
+    company: Spotify
+    title: Senior Security Engineer, Spotify
+  description: We'll conduct a light-weight CTF that includes all needed resources for beginners as well as intermediate cloud
+    practitioners to complete it. As a participant of the workshop, you will take the perspective of a red team and exploit
+    a vulnerable Google Cloud project. After the exercise the participants will have a deeper understanding of Google Cloud
+    and its common services like IAM, GKE, GCE, Cloud Function etc. as well as how to exploit common misconfigurations.
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '13:30'
+  time_end: '14:00'
+  track: Entrepreneur
+  room: L.61
+  title: Startup Survival Tips and Uncommon Sense for First-Time Tech Founders
+  speakers:
+  - name: Eldon Sprickerhoff
+    company: Caledon Ventures
+    title: Strategic Advisor, Caledon Ventures
+  description: In this rapid-fire talk, attendees will learn the early steps of an entrepreneurial journey and how to overcome
+    common challenges to survive in the cutthroat cybersecurity industry as a startup. By the end, participants will gain
+    a clear understanding of the practical steps required to launch and grow their own cybersecurity startup, acting as the
+    Chief Survival Officer, learning from someone who has successfully navigated the entrepreneurial landscape.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=E03_Startup_Survival_Tips_and_Uncommon_Sense_for_First-Time_Tech_Founders.mp4
+  recorded: false
+- time_start: '14:00'
+  time_end: '14:30'
+  track: Tech - Red
+  room: L.63
+  title: How We Impersonated Cloud Code by Google Cloud and Took Over GCP Accounts
+  speakers:
+  - name: Moshiko
+    company: Upwind Security
+    title: Upwind Security, Research Lead
+  description: In this presentation, we delve into a recent security research project where we discovered critical vulnerabilities
+    in Google's Cloud Code, an IDE extension designed for enhancing GCP integration. Our research revealed exposed OAuth client
+    IDs and secrets, which we exploited to impersonate legitimate Google tools and gain unauthorized access to GCP accounts.
+  type: talk
+  slides_url: null
+  video_url: https://youtu.be/e1A0nfZY35s?si=u2IhwwGZCU3-nBri
+  recorded: true
+- time_start: '14:00'
+  time_end: '14:30'
+  track: Tech - Blue
+  room: L2.84
+  title: 'Open & Secure: Novel Sandboxing Technique for Any Open Source Library'
+  speakers:
+  - name: Gal Elbaz
+    company: Oligo Security
+    title: Co-founder & CTO at Oligo Security
+  description: Security teams from Google to Firefox have taught the security industry a lot about isolating running programs
+    from the broader system through sandboxing, which fundamentally changed the way hackers need to operate to inflict damage
+    on systems. In this talk we'll present a first of its kind approach, built upon the powerful eBPF and KRSI technologies,
+    that enables you to derive the very same security benefits of browser and web-based, as well as mobile sandboxing - for
+    any open source library you are running in your stacks.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=B07_Open_and_Secure_-_Novel_Sandboxing_Technique_for_Any_Open_Source_Library.mp4
+  recorded: false
+- time_start: '14:00'
+  time_end: '14:30'
+  track: Tech - Other
+  room: L2.85
+  title: Volt Typhoon and the Threat to Critical Infrastructure
+  speakers:
+  - name: Jonathan Goll
+    company: CISA
+    title: Cybersecurity Advisor | CISA Region 2
+  description: Volt Typhoon is a PRC sponsored threat actor who is looking to burrow deep within critical infrastructure networks.
+    Current assessments indicate this is pre-positioning activity if there is an escalation that causes conflict with Taiwan.
+    This briefing will cover the LOTL techniques used by Volt Typhoon, traditional attack path observed up to this point,
+    and top-level PRC cyber threat briefing.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '14:00'
+  time_end: '15:00'
+  track: Entrepreneur
+  room: L.61
+  title: 'Eat Your Own Dog Food: Why (Even Security) Startups Suck at Security & How to Fix it'
+  speakers:
+  - name: Eric Olson
+    company: JetBlue Airways
+    title: Co. Founder; Startup Advisor; Currently also Director - Cyber Security; JetBlue Airways
+  description: Every startup team, C-suite and Board agrees; Go fast. Get to MVP. Get to revenue. Grow. In the rush for speed,
+    security is too often an afterthought. This talk will cover exactly why, and how, to do it right from the get-go.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '14:30'
+  time_end: '15:00'
+  track: Tech - Red
+  room: L.63
+  title: Remote Code Execution with Serialization Vulnerabilities
+  speakers:
+  - name: John Iwasz
+    company: AVEVA
+    title: Partner Technologist at AVEVA
+  description: Microsoft announced that the BinaryFormatter class is insecure and cannot be made secure, but how bad can it
+    be? This can be exploited to launch a remote code execution exploit. We'll demo this attack and show this vulnerability
+    using JSON and Newtonsoft. Demos and code samples are in C#, but this exploit is possible in any insecure deserialization
+    process.
+  type: talk
+  slides_url: null
+  video_url: https://youtu.be/4JpmLslC6ns?si=xHk9QE-qWrbuiTYT
+  recorded: true
+- time_start: '14:30'
+  time_end: '15:00'
+  track: Tech - Blue
+  room: L2.84
+  title: Protecting Snowflake and Critical Data Systems from Unauthorized Access
+  speakers:
+  - name: Shelley
+    company: Opal Security
+    title: Opal Security
+  - name: Stephen Spano
+    company: Opal Security
+    title: Opal Security, Software Engineer
+  description: Security teams are often tasked with safeguarding a company's most valuable assets from unauthorized access.
+    As enterprises adapt their infrastructure strategies to operate in a cloud native world, large scale data storage and
+    processing systems like Snowflake not only become core dependencies for businesses, but also inviting targets for attackers.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=B08_Protecting_Snowflake_and_Critical_Data_Systems_from_Unauthorized_Access.mp4
+  recorded: false
+- time_start: '14:30'
+  time_end: '15:00'
+  track: Tech - Other
+  room: L2.85
+  title: Challenges of GraphQL security in 2024
+  speakers:
+  - name: Tristan Kalos
+    company: Escape
+    title: Co-founder and CEO of Escape
+  - name: iCarossio
+    company: Escape.tech
+    title: Cofounder & CTO @ Escape.tech
+  description: GraphQL's capability to fetch precisely what's needed and nothing more, its efficient handling of real-time
+    data, and its ease of integration with modern architectures make it a compelling choice for modern web and mobile applications.
+    In this talk, security engineers will strengthen their GraphQL security skills by learning key techniques such as complexity
+    management, batching, aliasing, sanitization, and depth limit enforcement.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=O07_Challenges_of_GraphQL_security_in_2024.mp4
+  recorded: false
+- time_start: '15:00'
+  time_end: '16:00'
+  track: Entrepreneur
+  room: L.61
+  title: So You Want to Be a Founder?
+  speakers:
+  - name: JD
+    company: Impart Security
+    title: CEO and Co-founder, Impart Security
+  - name: Brian McHenry
+    company: Check Point
+    title: Global Head of Cloud Security Engineering @ Check Point
+  - name: Lee Weiner
+    company: TrojAI
+    title: CEO, TrojAI
+  - name: Wesley Hales
+    company: LeakSignal
+    title: LeakSignal Co-Founder and CEO
+  - name: Justin Shattuck
+    company: Resilience
+    title: CSO @ Resilience
+  description: null
+  type: panel
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=E05_So_You_Want_to_Be_a_Founder.mp4
+  recorded: false
+- time_start: '15:00'
+  time_end: '16:00'
+  track: Tech - Blue
+  room: L2.84
+  title: Detection and Triage of Domain Persistence
+  speakers:
+  - name: Joshua Prager
+    company: SpecterOps
+    title: SpecterOps, Principal Consultant, Defensive Services
+  - name: Nico
+    company: SpecterOps
+    title: Adversary Detection Consultant - SpecterOps
+  description: This presentation will discuss offensive tradecraft for establishing elevated persistence within an Active
+    Directory environment. We will discuss domain persistence techniques we have seen during compromise assessments and the
+    adversary's attack paths to establish elevated control. For each offensive technique we discuss, we will also provide
+    in-depth defensive considerations covering the operational flow of technique executions, detection data models, and abstracted
+    common denominators that detection engineers can use to generate detective or preventive controls.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=B09_Detection_and_Triage_of_Domain_Persistence.mp4
+  recorded: false
+- time_start: '15:00'
+  time_end: '16:00'
+  track: Tech - Other
+  room: L2.85
+  title: 'Combating Deepfakes: Safeguarding Election Integrity in the AI Era'
+  speakers:
+  - name: Vaibhav Malik
+    company: Cloudflare
+    title: Vaibhav Malik, Partner Solutions Architect, Cloudflare
+  description: In an age where artificial intelligence can create increasingly convincing fake videos and audio, the integrity
+    of our democratic processes faces unprecedented challenges. This session delves into the technical landscape of deepfakes
+    in political manipulation, exploring their potential to undermine election integrity and the cutting-edge cybersecurity
+    measures designed to counter them.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '15:00'
+  time_end: '16:00'
+  track: Tech - Red
+  room: L.63
+  title: 'RE-Thinking: Modernizing the Malware Analyst'
+  speakers:
+  - name: Joseph Edwards
+    company: SentinelOne
+    title: Staff DFIR Investigator at SentinelOne
+  description: As malware analysts, the current mode of static reverse engineering in our space has us in a constant game
+    of catch-up against unfriendly compilers, virtualization-based obfuscators and large binaries that generally break our
+    tools and frustrate us. Our thinking is rooted in quaint beliefs about always being able to reconstruct original source
+    code. How can we completely change our approach, and what should the next generation of malware analysis look like?
+  type: talk
+  slides_url: null
+  video_url: https://youtu.be/9n7xjMm4Th8?si=D-oULJg6SKc7iY-_
+  recorded: true
+- time_start: '15:00'
+  time_end: '17:00'
+  track: Workshop
+  room: Workshop
+  title: Backdoors & Breaches - Afternoon Session
+  speakers:
+  - name: t0mQuixote
+    company: null
+    title: Analyst
+  description: null
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '16:00'
+  time_end: '17:00'
+  track: Entrepreneur
+  room: L.61
+  title: My Journey from a $99K Cybersecurity Research Project to a Commercial Product and Acquisition
+  speakers:
+  - name: Anita D'Amico
+    company: Cotopaxi Consulting
+    title: Advisor to security startups and investors, Software supply chain strategist
+  description: The speaker shares her story and lessons learned accumulated during an 11-year journey that began with a $99,000
+    6-month government-funded research project and ended with her selling her startup to a publicly-traded company and serving
+    as VP of Products at the U.S.'s leading provider of AppSec solutions.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '16:00'
+  time_end: '17:00'
+  track: Tech - Blue
+  room: L2.84
+  title: 'When Apps Attack: Hunting Traitorware and Rogue Microsoft 365 Apps at Scale'
+  speakers:
+  - name: Matt Kiely | HuskyHacks
+    company: Huntress Labs
+    title: HuskyHacks | Principal Security Researcher @ Huntress Labs
+  - name: Christina Parry
+    company: Huntress
+    title: Staff ThreatOps Developer @ Huntress
+  description: Apps are not always your friend! In the Azure ecosystem, applications are a core part of the end user experience.
+    But when these apps go rogue, what kinds of havoc ensues? How are applications leveraged by attackers to persist, infect,
+    and bypass MFA? More importantly, how do we hunt these rogue apps down at scale?
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '16:00'
+  time_end: '17:00'
+  track: Tech - Other
+  room: L2.85
+  title: The new SaaS cyber kill chain
+  speakers:
+  - name: Luke Jennings
+    company: Push Security
+    title: VP, R&D, Push Security
+  description: In the past, we thought of cyber-attacks in terms of recon, port scanning, enumeration, vulnerability identification
+    and exploitation. As the cat-and-mouse game of security continued, this morphed into an endpoint compromise-focused process.
+    But with the remote working and SaaS revolution, the way organizations work has changed radically - so what does the cyber
+    kill chain look like now?
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '16:00'
+  time_end: '17:00'
+  track: Tech - Red
+  room: L.63
+  title: 'XZ Backdoor: Navigating the Complexities of Supply Chain Attacks Detected by Accident'
+  speakers:
+  - name: DevSecYoad
+    company: Myrror Security
+    title: DevOps Lead | Co-Founder & CEO at Myrror Security
+  description: 'Why did an individual, non-security-related person discover the XZ attack on such an important upstream open-source
+    project as the XZ Utils? Four years after the SolarWinds attack and three years after the UA-Parser attack, we still see
+    confusion about vulnerabilities, zero-days, and intentional attacks. In this session, we will spotlight a critical yet
+    often overlooked area: compromised/malicious third-party libraries and CI/CD attacks.'
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=R10_XZ_Backdoor_-_Navigating_the_Complexities_of_Supply_Chain_Attacks_Detected_by_Accident.mp4
+  recorded: false
+- time_start: '17:00'
+  time_end: '17:30'
+  track: Entrepreneur
+  room: L.61
+  title: Building Cyber Products Customers Love
+  speakers:
+  - name: Ross Haleliuk
+    company: LimaCharlie
+    title: 'Author of ''Cyber for Builders: The Essential Guide to Building a Cybersecurity Startup'''
+  description: Building products customers love is hard. Building cybersecurity products customers love is much harder. While
+    the nature of product management doesn't change from one industry to another, the truth is that many commonly accepted
+    product management best practices do not work to the same degree, or have a different shape when implemented in cybersecurity.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=E06_Building_Cyber_Products_Customers_Love.mp4
+  recorded: false
+- time_start: '17:00'
+  time_end: '18:00'
+  track: Tech - Blue
+  room: L2.84
+  title: 'Fortifying Active Directory: Combatting Misconfigurations'
+  speakers:
+  - name: Jeff
+    company: null
+    title: Penetration Tester
+  description: This presentation delves into the critical issue of common network misconfigurations in large organizations
+    as highlighted by a joint cybersecurity advisory from the NSA and CISA. Focusing specifically on Microsoft Active Directory
+    (AD), the talk explores the top 10 security vulnerabilities that cyber actors often exploit.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=B11_Fortifying_Active_Directory_-_Combatting_Misconfigurations_and_Rogue_Microsoft_365_Apps_at_Scale.mp4
+  recorded: false
+- time_start: '17:00'
+  time_end: '18:00'
+  track: Tech - Other
+  room: L2.85
+  title: Securing a Generative AI Implementation
+  speakers:
+  - name: eyrsec
+    company: Zendesk
+    title: Senior Product Security Engineer, Zendesk
+  description: This talk will address an implementation of generative AI, with the goal of understanding what this means for
+    an organization's security posture, and managing associated risk. The first 15 minutes of the talk will focus on a demo
+    app showing an integration of generative AI as a product feature. The rest of the session will focus on managing risk
+    associated with AI/ML implementations with a high-level threat model.
+  type: talk
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=O09_Securing_a_Generative_AI_Implementation.mp4
+  recorded: false
+- time_start: '17:00'
+  time_end: '18:00'
+  track: Tech - Red
+  room: L.63
+  title: 'Local to Global: Tracing Kimsuky''s Network Infra Adaptations in a Changing Geopolitical Landscape'
+  speakers:
+  - name: Dmitry
+    company: null
+    title: Research Specialist
+  description: We ran into the North Korean APT group Kimsuky's network infrastructure evolution from 2019 to 2024, correlating
+    changes with major geopolitical events, focusing on intel related to South Korean policies, international perspectives
+    on NK, and advanced military technologies. Our paper reveals adaptable approach to command and control (C2) infrastructure
+    through major events between NK, CN, and RU.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '17:30'
+  time_end: '18:00'
+  track: Entrepreneur
+  room: L.61
+  title: 'Building a Cybersecurity Powerhouse: Insights from a Serial Entrepreneur'
+  speakers:
+  - name: Ben
+    company: DataDome
+    title: Co-founder & CEO, DataDome
+  description: Join Benjamin Fabre, co-founder and CEO of DataDome, as he shares invaluable lessons learned from building,
+    running and growing a cybersecurity company. Within 9 short years, Benjamin has grown DataDome from a small, French startup
+    to a global, Series C-funded, award-winning company with headquarters in New York, Paris and Singapore.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '18:00'
+  time_end: '18:30'
+  track: Tech - Red
+  room: L.63
+  title: BSidesNYC 0x04 Closing Ceremonies
+  speakers:
+  - name: Huxley Barbee
+    company: null
+    title: void *huxley
+  description: null
+  type: ceremony
+  slides_url: null
+  video_url: https://archive.org/details/bsidesnyc2024?playlist=1&file=R11_Closing_Ceremonies.mp4
+  recorded: false
+sponsors:
+- name: Deepfactor
+  tier: Gigabit
+  url: https://www.deepfactor.io/
+- name: DropzoneAI
+  tier: Gigabit
+  url: https://www.dropzone.ai/
+- name: Myrror
+  tier: Gigabit
+  url: https://www.myrror.security/
+- name: Nullify
+  tier: Gigabit
+  url: https://www.nullify.ai/
+- name: Permiso
+  tier: Gigabit
+  url: https://www.permiso.io/
+- name: Pixee
+  tier: Gigabit
+  url: https://www.pixee.ai/
+- name: Tigera
+  tier: Gigabit
+  url: https://www.tigera.io/
+- name: Tines
+  tier: Gigabit
+  url: https://www.tines.io/
+- name: Virtue
+  tier: Gigabit
+  url: https://www.virtuesecurity.com/
+- name: Airmdr
+  tier: Megabit
+  url: https://airmdr.com/
+- name: Akto
+  tier: Megabit
+  url: https://www.akto.io/
+- name: Breez
+  tier: Megabit
+  url: https://breezsecurity.io/
+- name: Bright
+  tier: Megabit
+  url: https://brightsec.com/
+- name: Hunters
+  tier: Megabit
+  url: https://www.hunters.security/
+- name: Impart
+  tier: Megabit
+  url: https://www.impart.security/
+- name: Jit
+  tier: Megabit
+  url: https://www.jit.io/
+- name: Opal
+  tier: Megabit
+  url: https://opal.dev/
+- name: Radiant
+  tier: Megabit
+  url: https://radiantsecurity.ai/
+- name: Sandfly
+  tier: Megabit
+  url: https://www.sandflysecurity.com/
+- name: Splx
+  tier: Megabit
+  url: https://www.splx.ai/
+- name: Stellar
+  tier: Megabit
+  url: https://stellarcyber.ai/
+- name: Trout
+  tier: Megabit
+  url: https://www.trout.software/
+- name: JaneStreet
+  tier: Kilobit
+  url: https://www.janestreet.com/
+- name: Justworks
+  tier: Kilobit
+  url: https://www.justworks.com/
+villages:
+- name: NYC Resistor
+  url: https://www.nycresistor.com
+- name: Industrial Control System (ICS) Village
+  url: https://www.icsvillage.com/
+- name: Aerospace Village
+  url: https://www.aerospacevillage.org/
+- name: Blacks In Cybersecurity
+  url: https://www.blacksincyberconf.com/
+- name: Women's Society of Cyberjutsu
+  url: https://womenscyberjutsu.org/
+- name: The Diana Initiative
+  url: https://www.dianainitiative.org/
+- name: Raices Cyber
+  url: https://www.raicescyber.org/newyorkcity-chapter
+- name: WiCys NY Metro Affiliate
+  url: https://www.wicys.org/wicys-ny-metro-affiliate/

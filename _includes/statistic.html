@@ -14,7 +14,7 @@
             </div>
             {% assign animationDelay = animationDelay | plus:500 %}
             {% assign check = forloop.index | modulo:2 %}
-            {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
+            {% if check == 0 %} <div class="clearfix d-block d-sm-none"></div> {% endif %}
             {% endfor %}
 	</div>
 </section>

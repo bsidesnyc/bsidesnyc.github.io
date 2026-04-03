@@ -1,16 +1,7 @@
-function onLoad(endpoint, baseUrl) {
-    var oReq = new XMLHttpRequest();
-    oReq.onreadystatechange = function() {
-        if ( oReq.readyState === XMLHttpRequest.DONE ) {
-            if ( oReq.status === 200 ) {
-                var result = JSON.parse(oReq.responseText);
-                populateSpeakers(result, baseUrl);
-            }
-        }
-    }
-    oReq.open('GET', endpoint);
-    oReq.send();
-
+async function onLoad(endpoint, baseUrl) {
+    const response = await fetch(endpoint);
+    const result = await response.json();
+    populateSpeakers(result, baseUrl);
 }
 
 function addSpeakerToList(speaker, sessions, rooms) {

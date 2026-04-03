@@ -1,0 +1,1344 @@
+conference:
+  name: BSidesNYC
+  edition: '0x05'
+  year: 2025
+  date: '2025-10-18'
+  venue:
+    name: John Jay College of Criminal Justice
+    address: 524 W 59th St., New York, NY 10019
+    coordinates:
+      lat: 40.7709863
+      lng: -73.9899653
+  url: https://bsidesnyc.org
+  registration_url: null
+  attendee_count: null
+schedule:
+- time_start: 09:00
+  time_end: 09:15
+  track: Tech - Red
+  room: Tech - Red
+  title: BSidesNYC 0x05 Launch
+  speakers:
+  - name: void *huxley
+    company: null
+    title: null
+  description: null
+  type: ceremony
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=F-FNc1kQkgE
+  recorded: true
+- time_start: 09:15
+  time_end: 09:55
+  track: Tech - Red
+  room: Tech - Red
+  title: Keynote
+  speakers:
+  - name: John Hammond
+    company: null
+    title: null
+  description: null
+  type: keynote
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=F-FNc1kQkgE
+  recorded: true
+- time_start: '10:00'
+  time_end: '10:25'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: 'Inside the Mind of a Cyber VC: What Founders Get Wrong and How to Pitch Like a Pro'
+  speakers:
+  - name: Lucas Nelson
+    company: Lytical Ventures
+    title: Lucas Nelson, Founding Partner @ Lytical Ventures
+  description: 'I’ve reviewed over 1,000 cybersecurity startup pitches in the last two years—and I’ve seen the same patterns
+    repeat. Incredible technical founders with bold ideas still struggle to raise capital, not because the tech isn’t good,
+    but because they unknowingly make basic mistakes when speaking to investors. Many great ideas never get past the first
+    meeting because founders pitch features instead of value, misunderstand their audience, or miss the broader strategic
+    picture VCs are evaluating.
+
+    This talk is a tactical, no-BS breakdown of what it actually takes to get funded in cyber. Whether you’re a hacker-turned-founder,
+    a first-time entrepreneur, or just curious about how the venture game works behind closed doors, you’ll leave with actionable
+    insights that could change the trajectory of your next raise.
+
+    Lucas Nelson is a founding partner at Lytical Ventures, where he leads investments in cybersecurity and AI. He began his
+    paid hacking career at @stake, starting as an application security pentester and rising to management roles. He is also
+    a former member of Ninja Strike Force, associated with the hacker supergroup Cult of the Dead Cow.
+
+    Before founding Lytical, Lucas held investing roles at DFJ Gotham and Evolution Equity. He is a Kauffman Fellow and a
+    longtime advocate for early-stage security startups that push the industry forward.
+
+    This talk shares common mistakes founders make, what actually gets a VC excited, and how to stand out in a crowded market. '
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=HJsZqwwN1iw
+  recorded: true
+- time_start: '10:00'
+  time_end: '10:55'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: Detecting and Preventing Obfuscated Script Execution with Tree-sitter
+  speakers:
+  - name: David McDonald
+    company: Volexity
+    title: Software Engineer @ Volexity
+  description: 'The malicious obfuscation of code from scripting languages, such as PowerShell, Python, and JavaScript, continues
+    to be used as an essential part of threat actors'' toolkits. Obfuscation techniques hamper analysts'' ability to investigate
+    and respond quickly to compromises by complicating reverse engineering of the original script and pose significant challenges
+    to scanning engines, such as Yara, that rely on byte-based pattern recognition.
+
+    Windows'' built-in defense mechanisms, notably the built-in Antimalware Scanning Interface (AMSI) DLLs, struggle to detect
+    these obfuscations, allowing for trivial bypasses of the AMSI subsystem via relatively simple obfuscations. AMSI bypass
+    tools and techniques are routinely deployed by obfuscated code as part of their infection chain.
+
+    The tree-sitter parsing library opens new avenues for detection and analysis by providing an API that allows developers
+    to interact programatically with a script''s syntax tree. This talk will showcase new techniques for rapidly detecting,
+    analyzing, and preventing infections, culminating with the demonstration of a custom AMSI provider DLL that can deobfuscate,
+    block, and log obfuscated PowerShell payloads.  These demonstrations will showcase successful, automated detection of
+    AMSI bypass attempts from the r77 rootkit and the nishang offensive PowerShell framework, and payloads obfuscated with
+    Invoke-Obfuscation.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '10:00'
+  time_end: '10:25'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'Down the Drain: Unpacking TON of Crypto Drainers'
+  speakers:
+  - name: Elizaveta Mikheeva
+    company: Neplox
+    title: Cybersecurity Researcher, Neplox
+  description: 'We have laid our hands on the source code of a few Crypto Drainers designed specifically to steal native coins,
+    NFTs and Jettons on the TON Network, and dissected them to better understand what flaws of legitimate products they exploit
+    in order to appear less suspicious.
+
+    Apart from malware samples themselves, we are going to discuss: •  Forgery of DApp''s origin and data •  Legitimate Wallet
+    Impersonation with the use of UI Redressing possibilities •  Behavior control: Events tracking and Forcing actions •  Data
+    control: Local storage and Bridge MitM'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '10:00'
+  time_end: '10:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'From Interview Questions to Cluster Damage: Adventures in k8s Cluster Hacking'
+  speakers:
+  - name: Amit Serper
+    company: Crowdstrike
+    title: Lead security researcher, Crowdstrike
+  description: What started as a simple exercise to create Kubernetes interview questions took an unexpected turn into discovering
+    some interesting cluster security quirks. While brainstorming scenarios to test candidates' knowledge, we found ourselves
+    saying "wait, would that actually work?" more times than we expected. This talk shares these discoveries, showing how
+    even a cluster with a common configuration can lead to surprising cluster disruptions. We will guide you through our journey,
+    sharing both the techniques we stumbled upon and practical ways to keep your Kubernetes infrastructure safe.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=Le4K2ZlqHgg
+  recorded: true
+- time_start: '10:00'
+  time_end: '11:55'
+  track: Workshop
+  room: Workshop
+  title: Understanding Python Bytecode
+  speakers:
+  - name: Rocky Bernstein
+    company: null
+    title: Chief Mad Scientist Emeritus
+  description: 'Most Python implementations interpret Python bytecode.  However, Python''s bytecode changes annually, which
+    makes understanding it challenging.
+
+    Furthermore, Malware is sometimes written in Python bytecode without source code.
+
+    I will introduce tools for disassembling, assembling, running interactively, and decompiling Python bytecode.
+
+    The particular tools I will use are:
+
+    disassemblers: Python''s dis, and xdis: https://pypi.org/project/xdis/ assemblers: xasm: https://pypi.org/project/xasm/
+    decompilers: uncompyle6: https://pypi.org/project/uncompyle6/, decompile3, and possibly https://pylingual.io bytecode
+    interpreters x-python: https://pypi.org/project/x-python/ and debugger front-end trepan-xpy: https://pypi.org/project/trepanxpy/
+    control-flow analysis: Python debugger that understands bytecode: trepan3k: https://pypi.org/project/trepan3k/
+
+    And possibly others.
+
+    If you sign up for the workshop, in advance please: 1. Join the bsidesnyc channel #0x05-py-bytecode-workshop 2. Please
+    fill out https://forms.gle/6UxWoikrpVLfbyry7'
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '10:30'
+  time_end: '10:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: What It’s Like Being the Only Security Startup in Your YC Batch
+  speakers:
+  - name: Alex Chantavy
+    company: SubImage
+    title: Co-founder & CEO at SubImage
+  - name: Kunaal Sikka
+    company: SubImage
+    title: Co-founder & President at SubImage
+  description: 'Imagine going through Y Combinator surrounded by startups building AI agents for dog walkers, while you’re
+    trying to sell IAM hygiene to the Fortune 500.
+
+    On our acceptance call to the world’s most famous startup accelerator, we were told we were the first company in the batch
+    that didn’t use the word “LLM” in our pitch. Go us.
+
+    This talk is our "we were the weird kid" story from the YC Winter 2025 batch: what it felt like to build a security company
+    in a culture steeped in growth hacks, virality, and AI everything.
+
+    If you''ve ever dreamed about quitting your corporate job to start your own thing -- or watched from the sidelines while
+    others made money off your open source project -- this is the talk for you.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=6SZ3yic6yaY
+  recorded: true
+- time_start: '10:30'
+  time_end: '10:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'Syndicate: The Life of a Ransomware Affiliate'
+  speakers:
+  - name: Tammy Harper
+    company: Flare
+    title: Senior Threat Intelligence Researcher at Flare
+  description: 'Syndicate: Inside the Life of a RaaS Affiliate is not your usual threat actor retrospective; it’s a psychological
+    profile in three acts. We begin with the life of a skid (script kiddie): the copy-paster, the stealer-log dopamine chaser,
+    the clout addict living in Telegram chats and cracked panels. Their world is a blur of fake flexes and small wins; high
+    on illusion, tethered to someone else’s payload.
+
+    Then we move to the mid-tier: ransomware operators negotiating ransoms between bites of cold noodles, barely holding their
+    teams together, clashing over OPSEC and loyalty, and falling prey to the same scams they run. They operate in constant
+    motion; spinning up infra, recycling brands, running Telegram polls to pick the next target. There’s no hierarchy, just
+    reputation, vibes, and whoever controls the wallet.
+
+    Finally, we look at the syndicate tier: Conti, LockBit, BlackBasta. Where KPIs matter more than skill. Where HR processes
+    are more dangerous than intrusion vectors. Where recruitment, churn, and burnout mirror SaaS startups; except the product
+    is extortion, and trust is everything.
+
+    This talk draws from leaked playbooks, chat logs, and recruitment docs to unpack how affiliates function not just tactically,
+    but structurally and socially. Attendees will leave with a renewed lens on how ransomware-as-a-service scales, and the
+    human cost that powers it; not just threat actors, but labor inside an economy of deception.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '11:00'
+  time_end: '11:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: Essential Marketing for Cyber Founders
+  speakers:
+  - name: Gianna Whitver
+    company: Cybersecurity Marketing Society
+    title: Co-Founder & CEO, Cybersecurity Marketing Society
+  description: 'Cybersecurity is a different beast. The buyers are technical, evasive, and not interested in BS. Therefore,
+    the channels to reach your buyers are typically EXPENSIVE!
+
+    Join this talk to understand how to make your early-stage & startup budget go further with three levels of marketing:
+    - Free & Self (how you as the founder can leverage yourself as the first marketer) - Cheap (it might not be $0 but it''s
+    close!) - Reasonable (where you can get ''bang for your buck'')
+
+    As well as what to look out for so you don''t burn your precious, limited marketing budget!'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=1JnueG9vjQg
+  recorded: true
+- time_start: '11:00'
+  time_end: '11:55'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: 'Spycraft 2.0: Hunting Dead Drops in Web Applications'
+  speakers:
+  - name: Jonathan Fuller
+    company: null
+    title: Counteracting malware through logic reuse is actually a thing!
+  description: In classic espionage, spies often used “dead drops” to exchange information without direct contact. A message
+    might be hidden in a public location, such as inside a hollow brick or under a park bench, allowing another agent to retrieve
+    it later without raising suspicion. Modern malware has adopted a similar tactic. Instead of hardcoding Command and Control
+    (C2) server addresses, attackers embed encrypted or obfuscated C2 locations inside public web applications like Dropbox,
+    GitHub, and Pastebin. This technique, known as a dead drop resolver, allows malware to dynamically locate its C2 server
+    and makes it easy for attackers to migrate infrastructure if a server is discovered or taken down. These digital dead
+    drops are difficult to detect using traditional methods. A new analysis system helps uncover these hidden links at scale,
+    revealing how malware families use this strategy and offering insight into how defenders can proactively identify and
+    disrupt such covert channels.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=axuZzwJ7xnc
+  recorded: true
+- time_start: '11:00'
+  time_end: '11:25'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'The Human-AI Handshake: A Framework to Build Trust and Unlock Innovation in Modern Security Ops'
+  speakers:
+  - name: Michael Raggi
+    company: CrowdStrike
+    title: Crowdstrike Principal Threat Response Specialist | Art & Binary Recovery Specialist
+  description: 'Michael August Raggi - Crowdstrike| Principal Response Specialist: https://www.linkedin.com/in/michael-august-raggi-532b3939/
+
+    Description: In modern security operations it is the function of AI to automate the menial, not the meaningful!
+
+    The availability of generative AI in commercial cyber security operations has become widely available in the cybersecurity
+    landscape. While the maturity of this tooling has led to an explosion of applications to increase efficiency, no clear
+    playbook on how to deploy AI at scale to achieve the best outcomes for enterprise security and the human workforce has
+    yet emerged.
+
+    This presentation proposes a framework for balancing efficiency gains (agentic AI), freeing up the workforce of analysts
+    to use their creativity for innovation (generative. AI), and balancing the rate of adoption to achieve better outcomes
+    without cultural resistance to AI slowing the impact that this tool can have. This framework seeks to unlock efficiency
+    and enhance the creativity of analysts to explore work that provides meaningful innovation in enterprise security operations.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=F6zPsGNkQnE
+  recorded: true
+- time_start: '11:00'
+  time_end: '11:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'Inboxfuscation: Out-of-the-Box Mailbox Obf{\u}scation - Turning BEC into Business Email Chaos'
+  speakers:
+  - name: Andi Ahmeti
+    company: Permiso Security
+    title: Threat Researcher at Permiso Security
+  description: 'Email remains vital in most organizations, from user logins to daily business communications. Business Email
+    Compromise (BEC) continues to threaten companies'' operations as attackers disrupt communications, perform reconnaissance,
+    or leverage this foothold as a springboard for targeting additional organizations.
+
+    This research shares examples of these common TTPs from first-hand attacks before exploring multiple categories of never-before-seen
+    obfuscation techniques targeting Exchange mailboxes and their administration tools. These obfuscation categories begin
+    with numerous undocumented functional tricks like null-character inbox rule names and single-space conditions that perform
+    unexpected filtering while simultaneously breaking rule name-ID correlations in runtime logs relied upon for detections.
+
+    While many homoglyph attacks rely on look-alike characters to evade visual analysis, we uncovered undocumented normalizations
+    that transform visually bizarre, Unicode-laden keywords to ASCII counterparts while still logging as Unicode. We end with
+    a vulnerability allowing email deletion while entirely bypassing all logging.
+
+    From subscripts to symbols, come and **exchange** (ha!) everything you thought you''d seen about BEC attacks and experience
+    the depths of evasion that our Inboxfuscation research and open-source tool can provide to offensive- and defensive-minded
+    security professionals alike.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '11:30'
+  time_end: '11:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: SpyMax - Mobile Malware On The Frontlines of Syria's Civil War
+  speakers:
+  - name: David Feldman
+    company: CrowdStrike
+    title: 'Intelligence Analyst, CrowdStrike '
+  description: 'How did a piece of malware play a pivotal role in the final moments of the Syrian civil war? This session
+    seeks to examine that question as well as unearth the technical nature and history of such a tool.
+
+    To understand how cyber warfare is shaping global conflicts, we need to understand the tools behind it. '
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '12:00'
+  time_end: '12:25'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: They Don’t Want to Talk to Sales—So Let the Community Sell for You
+  speakers:
+  - name: Mariana Padilla
+    company: HACKERverse.ai
+    title: CEO, HACKERverse.ai
+  description: 'Today’s buyers are 70% of the way through their purchasing process before they ever reach out to sales. They’re
+    comparing notes in Slack groups, lurking in Reddit threads, and following peers- not filling out demo forms. So if your
+    growth strategy starts with “Talk to Sales,” you’ve already lost.
+
+    This session will explore how startups can turn community into a core GTM motion- one that builds trust, accelerates deals,
+    and lowers CAC. You’ll learn how to design a community that drives real business value by activating power users, surfacing
+    product validation, and creating an environment where your customers do the selling for you.
+
+    We’ll walk through actionable frameworks, real examples, and the metrics that matter when aligning community with your
+    growth strategy.
+
+    Who it’s for: Founders, GTM leaders, and community builders looking for a smarter path to scale- one that matches how
+    people actually buy today.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=acGfp2vCGIs
+  recorded: true
+- time_start: '12:00'
+  time_end: '12:55'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: 'Unseen in the Stack: Mapping Hidden Java Dependencies for Real-World Defense'
+  speakers:
+  - name: Oron Gutman
+    company: Hopper Security
+    title: Hopper Security, CTO
+  description: 'Modern Java applications often include dependencies that aren''t declared, aren''t visible, and aren''t scanned.
+    Through shading, repackaging, and renaming, vulnerable libraries can hide inside legitimate artifacts, rendering traditional
+    SCA tools blind to real risk. These hidden dependencies are increasingly common in enterprise code, but rarely discussed
+    or addressed systematically.
+
+    This talk presents research on how shaded and repackaged libraries propagate in the wild, based on analysis of real Maven
+    repositories and build artifacts. We’ll share anonymized examples of hidden vulnerability paths, show how they evade detection,
+    and propose a repeatable methodology for defenders to uncover and address them. You’ll learn techniques like bytecode
+    fingerprinting, call graph analysis, and symbol introspection that can turn opaque artifacts into observable objects without
+    relying on vendor tooling or runtime agents.
+
+    If you’ve ever been surprised by a vulnerability in a dependency you didn’t know you had, this talk is for you.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=Niv2L_e4dWI
+  recorded: true
+- time_start: '12:00'
+  time_end: '12:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'Deconstructing LightSpy''s True Scale: 70-Plugin Framework, Router Infections, Live Operator Panels,'
+  speakers:
+  - name: Dmitry Bestuzhev
+    company: null
+    title: CTI Researcher
+  - name: Dmitry Melikov
+    company: null
+    title: Security Researcher
+  description: 'Deconstructing LightSpy''s True Scale: 70-Plugin Framework, Router Infections, Live Operator Panels, and Commercial
+    Cover
+
+    LightSpy operates as a continuously developed surveillance platform with 70+ plugins targeting iOS, Android, macOS, Windows,
+    Linux, and routers. Through SSL certificate fingerprint pivoting, we expanded one known C2 into a 22-server infrastructure
+    spanning AWS Seoul, Google Cloud US, and Huawei Istanbul. Live C2 panel analysis revealed professional Vue.js applications
+    with 56 JavaScript modules, role-based operator authentication (/***/home/phones), and victim management displaying "implanted
+    phones" statistics. We discovered active router compromises: in South Africa and Czech Republic to Turkish infrastructure.
+    Recent plugin additions include social media database extractors, Windows keyloggers, and iOS destructive modules preventing
+    device boot. Attribution traces to operators using Chinese mapping services (webapi.amap.com) while operating under legitimate
+    business registration. This research demonstrates certificate-based infrastructure mapping, exposes router infected operations,
+    and reveals the commercialization of state-level surveillance capabilities.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '12:00'
+  time_end: '12:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'Gridlock:  The Dual-Edged Sword of EV and Solar APIs in Grid Security'
+  speakers:
+  - name: Vangelis Stykas
+    company: null
+    title: CTO
+  description: In this talk, we delve deep into the increasingly interconnected world of electronic vehicles (EVs), photovoltaic
+    (PV) solar systems, and the broader power grid infrastructure—a nexus that is becoming a fertile ground for potential
+    large-scale cyber disruptions. As we navigate through this complex interplay of technology and infrastructure, we will
+    uncover the critical vulnerabilities lurking within the API connections that bind these systems together. Our exploration
+    will not only highlight these weaknesses but will also demonstrate, through real-world scenarios and potential attack
+    vectors, how they can be exploited to launch sophisticated cyber-attacks, emphasizing the urgent need for robust security
+    frameworks and proactive cybersecurity measures to safeguard our collective future. The advent of PV inverters and EV
+    charging systems has been marred by the industry's "rush to market" mentality, leading to overlooked security considerations.
+    These critical weaknesses potentially allow remote attackers unprecedented control, with the ability to fully commandeer
+    or even incapacitate these devices. Our investigation will reveal how targeting cloud platforms used by installers could
+    unlock elevated access not just to PV inverters but also to EV chargers. This access includes functionalities usually
+    restricted from the systems' proprietors, thereby opening a pandora's box of vulnerabilities.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '12:00'
+  time_end: '12:55'
+  track: Workshop
+  room: Workshop
+  title: Mastering OWASP Amass v5.0
+  speakers:
+  - name: Jeff Foley
+    company: OWASP Foundation
+    title: Amass Project Leader, OWASP Foundation
+  description: 'OWASP Amass has long been recognized as a leading open source tool for performing network reconnaissance and
+    external asset discovery. With the release of version 5.0, the project has taken a major leap forward, transitioning from
+    a purely scanning and enumeration tool to a robust, graph-powered asset intelligence framework. This two-hour hands-on
+    workshop introduces attendees to the groundbreaking advancements in Amass v5.0, particularly focusing on the new Open
+    Asset Model, the internal asset database, and the powerful assoc command-line utility that enables graph-based querying
+    and exploration through the use of custom Triples.
+
+    This workshop is designed for security professionals, bug bounty hunters, red team operators, and researchers who want
+    to gain a competitive edge by using advanced tooling for external asset discovery and reconnaissance. Attendees will leave
+    with a deep understanding of how Amass stores and structures asset intelligence, how to query this information meaningfully,
+    and how to extract high-value insights through a declarative graph traversal interface.
+
+    This is not just an upgrade; it is a reinvention of Amass for the next generation of OSINT practitioners. Join us for
+    a deep dive into the Amass Open Asset Model and learn how to supercharge your reconnaissance with graph-based discovery.'
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '12:30'
+  time_end: '12:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: 'How to Create Deep Partnerships with Technical Teams: Sales Engineering Lessons Learned'
+  speakers:
+  - name: Samantha Pearlstein
+    company: Escape
+    title: Founding Sales Engineer @ Escape
+  description: 'Security teams often view vendors and Sales Engineers with skepticism—and for good reason. Yet when done right,
+    technical vendor partnerships can accelerate your security goals rather than drain your time and budget.
+
+    As a Sales Engineer working with technical teams across industries, I’ve learned what builds trust, what kills it, and
+    how to create deep, outcomes-focused partnerships that truly help security teams. In this talk, I’ll share lessons on
+    building effective partnerships between SEs and security teams, covering technical credibility, radical transparency,
+    aligning on shared success metrics so POCs and deployments don’t fail, and strategies for consistent, meaningful communication.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=pKvBw_03dIc
+  recorded: true
+- time_start: '13:00'
+  time_end: '13:25'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: 'Trust at Scale: Lessons Learned from a Decade of Engineering for Identity'
+  speakers:
+  - name: Frederic Rivain
+    company: Dashlane
+    title: CTO Dashlane - Scaling Identity | Tech Agilist
+  description: 'What does it take to build a security product that millions trust with their most sensitive information? Over
+    the past decade, I have worked as the CTO at Dashlane, on a journey from a consumer password manager to a B2B identity
+    security platform. It has been rich with breakthroughs—and equally rich with mistakes. In this talk, I will share stories
+    from the trenches: the architectural decisions that shaped (and sometimes constrained) the product, the unseen costs of
+    early technical debt, the real-world impact of evolving encryption standards, and how user expectations forced innovation
+    in usability without compromising security. I will map key technical milestones to business and product shifts, illustrating
+    how scaling trust isn''t just about technology—it''s about culture, trade-offs, and relentless adaptation. Attendees will
+    walk away with practical insights into building secure-by-design systems, navigating B2C and B2B pivots, and leading engineering
+    and security teams through constant change in the unforgiving identity security space.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=Ygw7RFrIDwU
+  recorded: true
+- time_start: '13:00'
+  time_end: '13:55'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: Using Volatility 3 to Detect Sophisticated Malware
+  speakers:
+  - name: Andrew Case
+    company: Volexity
+    title: Director of Research, Volexity
+  description: Volatility 3 is the latest version of the Volatility Memory Analysis framework, which has been the most widely
+    used open-source framework for memory forensics since its creation in 2007. This new version of the framework is a complete
+    rewrite starting from the first line of code. In this presentation, attendees will learn about Volatility 3’s new features
+    while also seeing how many brand-new plugins can be used to detect a wide range of sophisticated, modern malware. This
+    will include detection of the techniques currently deployed by ransomware and APT groups to evade EDR detection, inject
+    code in a stealthy manner, and perform lateral movement. Attendees will leave understanding how to detect modern malware
+    and attacker toolkits along with how to integrate Volatility 3 and its new features into detection workflows suitable
+    for production use.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=cpjP2wius-k
+  recorded: true
+- time_start: '13:00'
+  time_end: '13:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'Living off the (land)cloud: Scattered Spider and the cloud control plane'
+  speakers:
+  - name: Shivakumar Buruganahalli
+    company: Acalvio
+    title: Acalvio, Senior Director, Customer Engineering
+  description: 'Scattered Spider has escalated its exploits in 2025, expanding beyond telcos to target enterprises across
+    industry verticals. After gaining initial access through social engineering, the threat group is increasingly targeting
+    cloud workloads, to elevate permissions for lateral movement. Attacks targeting the cloud control plane, focused on the
+    IAM service, provide the attacker access to high-value assets and sensitive data. These attacks, known as Living off the
+    Cloud attacks, avoid malware and leverage built-in cloud primitives for offensive activity.
+
+    This session focuses on identity exploits as part of the overall attack lifecycle of Scattered Spider. Through real-world
+    attack demonstrations and analysis, the session outlines the stealthy enumeration tactics to identify privileged identities,
+    IAM-specific exploits to elevate permissions, and lateral movement.
+
+    The session covers the defender’s perspective, what makes detection challenging as attackers pivot across control and
+    data planes, and provides a practitioner’s learnings on countermeasures to defend against cloud identity exploits. '
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=Zdo5hMNTcVA
+  recorded: true
+- time_start: '13:00'
+  time_end: '13:25'
+  track: Tech - Red
+  room: Tech - Red
+  title: When the Shadow Crosses Over
+  speakers:
+  - name: Ilya Yatsenko
+    company: UMD
+    title: Offensive Security Engineer | OSCE3 | Graduate student @ UMD
+  description: 'This session provides a technical overview of Remote Desktop shadowing in Windows environments. We will begin
+    by reviewing prior research on how shadowing is enabled and used via Microsoft-provided binaries. We will then take a
+    broader look at Remote Assistance to understand how it differs from shadowing.
+
+    Finally, we will explore how the same functionality can now be achieved from a Linux or macOS system using existing open-source
+    projects—simplifying testing workflows by removing the need for a dedicated Windows VM, intermediate access paths, or
+    additional tooling.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=C73kmd1RRpQ
+  recorded: true
+- time_start: '13:00'
+  time_end: '14:55'
+  track: Workshop
+  room: Workshop
+  title: Atomic Red Team 101
+  speakers:
+  - name: Gerard Johansen
+    company: Red Canary
+    title: Red Canary Principal Security Solutions Specialist
+  - name: Ryan Lancial
+    company: null
+    title: i talk to people about security operations
+  description: 'Red Canary will be presenting a 2-hour workshop on the Atomic Red Team open-source project. This workshop
+    will explore how Atomic Red Team testing can be used to emulate threats, validate security controls and improve overall
+    security. Attendees will go hands on with Atomic Red Team, using the Invoke-Atomic test harness, crafting emulation plans
+    and working through incorporating regular atomic testing in their own environment.
+
+    The Atomic Red Team 101 Workshop will focus on the following:
+
+    - Overview of Atomic Red Team (ART) - MITRE ATT&CK Framework and Threat Emulation - Configuring a Windows testing environment
+    - Atomic Red Team and Invoke-Atomic installation - Crafting a Ransomware Threat Emulation plan - Detection and Response
+    Validation
+
+    Attendees will be given a cloud-based lab environment in which to work through the extensive hands-on portion along with
+    a lab manual and slide deck for future reference. '
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '13:30'
+  time_end: '13:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: Building a security startup as an outsider
+  speakers:
+  - name: Kabir Mathur
+    company: Leen
+    title: CEO & Co-Founder at Leen
+  description: 'In an industry dominated by security veterans and technical specialists, Leen (our startup) took an unconventional
+    path. This talk reveals how two non-security professionals joined forces with one security expert to create a company
+    that''s challenging industry norms. We''ll share how our backgrounds in food delivery, consumer/B2B SaaS, and venture
+    capital equipped us with fresh perspectives on persistent security challenges.
+
+    Learn how we''ve applied lessons from consumer-focused industries to security, prioritizing design thinking, compelling
+    marketing narratives, and content-driven growth strategies that traditional security vendors often overlook. We''ll discuss
+    how our ''outsider'' status became our greatest advantage, enabling us to question established approaches and build solutions
+    that resonate with both technical and non-technical stakeholders.
+
+    This session offers practical insights for aspiring founders without traditional security credentials, established security
+    professionals seeking fresh GTM approaches, and anyone interested in how cross-industry experience can drive innovation
+    in specialized technical fields.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=nwuroxB1ooQ
+  recorded: true
+- time_start: '13:30'
+  time_end: '13:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: Trust the Model? Weaponizing Windows AI for Payload Staging
+  speakers:
+  - name: Hari Shanmugam
+    company: null
+    title: Lead Red Teamer
+  description: 'This talk explores how attackers can stage and execute payloads using Microsoft’s native AI stack specifically
+    the Windows.AI.MachineLearning (WinML) API built into Windows 10/11. By embedding data inside ONNX model metadata or tensor
+    fields, an attacker can deliver payloads through models that appear benign to both users and security tools.
+
+    I will demonstrate how to abuse LearningModel::LoadFromFilePath() and model.Metadata() to extract and run payloads from
+    simple file creation to full in-memory shellcode execution using only Microsoft-signed AI components and standard Windows
+    APIs like CreateFileW and VirtualAlloc.
+
+    The payload travels inside a model and inference itself becomes the loader. I will present a working PoC, discuss where
+    ML pipelines intersect with trusted execution, and explore how defenders can detect and mitigate AI-layer abuse.
+
+    Attendees will leave with new insight into abusing and defending ML surfaces on Windows, including tooling, TTPs, and
+    what to log when AI models become malicious.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '14:00'
+  time_end: '14:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: 'When Build vs Buy Is Rigged: Selling to Enterprises That Prefer Building In-House'
+  speakers:
+  - name: Amir Kavousian
+    company: DevArmor
+    title: Founder & CEO, DevArmor
+  description: In security, the real competition isn’t other vendors. It’s their in-house script written by a staff engineer
+    who left the company in 2018. Some security teams would spend 6 months building a brittle, undocumented internal tool
+    just to avoid 3 weeks time in procurement. It is a trust, ego, and culture problem. In this talk, I’ll share hard-earned
+    lessons as a repeat founder, navigating procurement barriers in FinTech, HealthTech, and media companies. We’ll unpack
+    the psychology of in-house builders, how to earn trust without selling FUD, and how to become the tool they wish they
+    had built.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=gBGIK5w8Kk4
+  recorded: true
+- time_start: '14:00'
+  time_end: '14:55'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: 'The Log Rings Don’t Lie: Historical Enumeration in Plain Sight'
+  speakers:
+  - name: Bleon Proko
+    company: null
+    title: Security Engineer
+  description: Logs keep a lot of data. Most of them are events, but events have other data in them. Source IP, Source Identity,
+    Target Resource, User Agent, Request and Response Parameters, etc. Which one of them are important? All of them of course.
+    Logs are important to a defender. And they are a needle in the foot of the attacker. But why do they have to be? Why can't
+    the attacker actually profit from logs? What if the attacker can achieve enumeration, C2 capabilities, exfiltration, download
+    through logs? This presentation will go through actually that. How can an attacker utilize Logs to attack a Cloud Infrastructure.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=GEAEOOoVZ64
+  recorded: true
+- time_start: '14:00'
+  time_end: '14:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'The History of Malware: From Floppies to Droppers'
+  speakers:
+  - name: Eliad Kimhy
+    company: Acronis
+    title: Sr. Security Researcher at Acronis
+  description: Modern malware, such as ransomware, has become synonymous with some of the most devastating cyber attacks of
+    our time.. But it hasn't always been so. Not too long ago, malware was considered a myth. The first ransomware, for example,
+    was created over 30 years ago as a wild scheme, devised by a man armed with 10,000 floppy disks and a virus. Since then,
+    malware has evolved in many different ways, as technology changes and evolves. Looking back and analyzing this history
+    gives us an unusual perspective- what elements of malware have changed throughout the years, and what has remained consistent?
+    How has this evolved into the most impactful form of cybercrime today, and what can this surprising, untold history teach
+    us about our present and future?
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=k-D9SNmWT3E
+  recorded: true
+- time_start: '14:00'
+  time_end: '14:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'From pocket to Pwn: How we hacked a multinational corp for $200 with whats in our pockets'
+  speakers:
+  - name: Tim Shipp
+    company: ThreatLight
+    title: CTO & Co-Founder of ThreatLight
+  description: 'Not all Red Team engagements are spearphish > mimikatz > profit. If nothing else, this talk proves that some
+    jobs still involve crawling around car parks at night and hiding in bushes with a high gain antenna to gain your objective.
+
+    Traditionally, cyber incidents and Red Team operations focus on compromising Windows devices as an initial infection vector
+    but for modern cloud native companies, this approach simply doesn’t work.
+
+    In this talk, we will explore how we compromised an Electric Vehicle to infiltrate a corporate Smartphone, leveraging
+    legitimate applications and protocols to move laterally and achieve full compromise of the environment.
+
+    We will demonstrate the chaining of low code (and in some cases ancient techniques), abstract attack vectors targeting
+    atypical devices and platforms and the abuse of protocols and inbuilt applications to conduct a full scale breach of the
+    environment. '
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=o7FI9pGg23s
+  recorded: true
+- time_start: '15:00'
+  time_end: '15:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: Rebooting the cyber arsenal of democracy
+  speakers:
+  - name: Eric Foster
+    company: TENEX.ai
+    title: CEO - TENEX.ai
+  description: 'Starting a cybersecurity company has never been easier - and yet, never more brutally competitive. With the
+    explosion of AI tools, the collapse of traditional GTM tactics, and VC capital tightening across the board, today’s founder
+    must be faster, leaner, and more resilient than ever.
+
+    Eric Foster has been part of building and exiting multiple successful security companies, including RiskIQ (acquired by
+    Microsoft) and Cyderes (acquired by private equity). Today, he’s building TENEX.AI - an AI security company backed by
+    Andreessen Horowitz (a16z) - and he’s doing it in the crucible of rising threats, shifting platform power, and a rapidly
+    evolving venture market.
+
+    In this no-BS, field-tested talk, Eric shares what he’s learned across his arc: what it really takes to start a security
+    company in 2025, how to raise venture capital from the right partners (and avoid the wrong ones), how to and not to be
+    successful at the most challenging aspect of starting a company (GTM) - and why the next generation of cybersecurity leadership
+    has a moral imperative to rebuild the digital arsenal of democracy. This isn’t theory. It’s war stories, scar tissue,
+    and tactical playbooks - straight from the front lines.
+
+    Founders, operators, and future entrepreneurs: if you’re thinking about building in security, this is the session you
+    can’t afford to miss.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=_5qXO0UI-GY
+  recorded: true
+- time_start: '15:00'
+  time_end: '15:55'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: P0LR Espresso - Pulling Shots of Cloud Live Response & Advanced Analysis
+  speakers:
+  - name: Art Ukshini
+    company: Permiso Security
+    title: Threat Researcher - Detection Engineer, Permiso Security
+  description: 'In today’s detection landscape, defenders are overwhelmed by dashboards and visualizations that are often
+    aesthetically pleasing but lack actionable insight. These tools rarely answer the core question: Is this identity compromised?
+
+    P0LR Espresso, from name itself, lets you understand, that this tool is meant to be cold and direct. Like Espresso (Itl.
+    Esprimere) ~ Press Out/Squeeze, P0LR Espresso, presses out and squeezes threats from a bunch of noisy logs across multiple
+    cloud integrations (PaaS, IdP and SaaS) and brings them in front of our eyes using meaningful and clear visualizations!
+    This tool has multi-cloud integration capabilities, normalizes field names, saving defender’s time trying to understand
+    each integration’s structure, together with Live Response and Detection capabilities, which also makes it possible to
+    create detections in real time and scan your logs in search for evil.
+
+    P0LR Espresso empowers threat hunters, detection engineers, and incident responders to rapidly uncover an identity’s activity
+    timeline, detect behavioral shifts, and pinpoint suspicious activity. With built-in detection capabilities, it’s especially
+    effective when rapidly scanning normalized logs for known IOCs, triggering alerts on suspicious patterns, and jumpstarting
+    investigations in high-pressure scenarios.
+
+    Come pull up a chair and let us pull you a shot of P0LR Espresso - putting the "express" in Live Response for combatting
+    cloud-focused threats.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=xW9jKUuy3aE
+  recorded: true
+- time_start: '15:00'
+  time_end: '15:25'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'The Allure of Go''s Cross-Platform Capability: A Gateway for Threat Actors to Mac and Linux'
+  speakers:
+  - name: Anmol Maurya
+    company: Palo Alto Networks
+    title: Staff Malware Reverse Engineer, Palo Alto Networks
+  description: 'Go-Based Malware Targeting Mac and Linux Systems This paper examines how malware authors leverage Go''s cross-platform
+    capabilities to target Mac and Linux systems, exploring unique attributes, detection challenges, and hunting strategies
+    for this growing threat vector.
+
+    Key Focus Areas: Cross-Platform Variations: Go malware optimized for Mac and Linux shows distinct attributes across families.
+    Examples include DragonFly APT''s backdoors and BlackCat/ALPHV''s ransomware implementations.
+
+    Detection Challenges: Go''s compilation characteristics create substantial detection hurdles on non-Windows platforms,
+    with a 43% increase in detection difficulty versus traditional malware.
+
+    Reverse Engineering: Analysis of Go-based malware requires specialized approaches to overcome Go-specific obfuscation.
+    Groups like Lazarus and APT29 increasingly use Go for its resistance to reverse engineering.
+
+    Hunting Strategies: Effective identification requires specialized approaches leveraging threat intelligence and IoCs.
+    Go-based malware targeting Mac/Linux has increased 267% in 18 months.
+
+    Future Trends: Go-based malware now represents 11.8% of all new malware (up from 4.3% in 2021). Sophisticated actors including
+    TeamTNT, SideWinder APT, and ransomware operations increasingly adopt Go to expand beyond Windows environments.
+
+    This research highlights an emerging threat exploiting Go''s advantages to target previously underrepresented platforms
+    in the malware landscape.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=GKHmNI6hLsI
+  recorded: true
+- time_start: '15:00'
+  time_end: '15:25'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'Inside Ransomware: Facts and Findings from the Blackbasta and Lockbit Leaks'
+  speakers:
+  - name: Cory Wolff
+    company: risk3sixty
+    title: Director of Offensive Security at risk3sixty / Director of Training at Red Team Village
+  description: 'When an anonymous actor calling themselves “ExploitWhispers” posted nearly a year’s worth of BlackBasta’s
+    internal Matrix chats in February 2025, the industry received an unfiltered window into the criminal enterprise behind
+    dozens of high-profile intrusions.
+
+    Twelve weeks later, a separate breach dumped the entire MySQL backend of LockBit’s affiliate panel. 20 tables covering
+    build pipelines, negotiation transcripts, and cryptocurrency payout data were released onto public code-sharing sites
+    with a Tor-site defacement confirming the compromise. Together these disclosures offer something incident responders rarely
+    get: the attackers own words, workflows, and source artifacts.
+
+    In this talk we will take a deep dive into those data sets—walking through the process of parsing thousands of lines of
+    attacker conversations, configuration files, and build logs to surface the tactics, techniques, and procedures (TTPs)
+    that drive day-to-day ransomware operations.
+
+    This talk will focus on the approach for processing these large data sets, how affiliate recruitment, initial access,
+    payload testing, negotiation, and cash-out weave together into a repeatable playbook, and the CI/CD build pipelines which
+    allow for rapid development and deployment of malicious payloads.
+
+    Attendees will leave with a comprehensive understanding of how ransomware crews operate, insights into their financial
+    gains, and the underlying motivations that drive their activities. '
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=2u3bcZxdoaI
+  recorded: true
+- time_start: '15:00'
+  time_end: '16:55'
+  track: Workshop
+  room: Workshop
+  title: Interactive Networking Fingerprinting Walktrough
+  speakers:
+  - name: Vlad Iliushin
+    company: ELLIO Technology
+    title: Cybersecurity Expert@ ELLIO Technology, President of the Anti-Malware Testing Standards Organization (AMTSO).
+  description: 'The goal of this interactive workshop is to equip participants with a hands‑on understanding of modern passive
+    network fingerprinting techniques - JA3, JA3N, JA4, p0f and MuonFP - and the ability to generate, interpret and apply
+    these fingerprints in real‑world defensive workflows.
+
+    Key Takeaways: Understanding the Evolution of Fingerprinting: Why we moved from p0f to MuonFP and from JA3 to JA4. Hands-on
+    capturing fingerprints: generating JA3/JA4/p0f/MuonFP fingerprints. Understanding the limitations of fingerprints.'
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '15:30'
+  time_end: '15:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'Sniffing Out Cert Abuse: A Dogged Approach to ESC Remediation'
+  speakers:
+  - name: Emily Leidy
+    company: SpecterOps
+    title: Managing Consultant at SpecterOps
+  description: 'Active Directory Certificate Services (ADCS) have become a critical yet often overlooked attack vector in
+    enterprise environments. Following the high-profile "Certified Pre-Owned" research, organizations are increasingly seeking
+    pragmatic approaches to remediate certificate-based privilege escalation vulnerabilities (ESC1–ESC8).
+
+    This session introduces a structured approach to ADCS security using BloodHound Enterprise. ADCS remediation empowers
+    security teams to identify, prioritize, and remediate ESC paths. Attendees will learn how this methodology integrates
+    attack path analysis, strategic remediation planning, and validation to reduce real-world risk.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=dm_Vy0zXGdk
+  recorded: true
+- time_start: '15:30'
+  time_end: '15:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'Inside Cloud Attack Paths: End-to-End Adversary Simulation'
+  speakers:
+  - name: Mauricio Velazco
+    company: null
+    title: Principal Security Researcher
+  description: Adversaries map and navigate cloud attack paths by chaining misconfigurations, over-privileged principals,
+    and exposed secrets in pursuit of privilege escalation and broader objectives. In this talk, we explore core attack primitives
+    in Azure, Entra ID, and Microsoft 365, demonstrate how to simulate end-to-end attack chains, and analyze the resulting
+    telemetry to uncover the traces these attacks leave behind.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=vi7YNZH36ik
+  recorded: true
+- time_start: '16:00'
+  time_end: '16:25'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: Why Being A Great Technologist May Not Make You A Great CEO (And How To Bridge The Gap)
+  speakers:
+  - name: Jason Kaplan
+    company: SixMap
+    title: CEO at SixMap
+  description: 'Technical excellence and business leadership don’t always optimize for the same outcomes. While engineers
+    and software architects often seek elegant solutions and innovation, CEOs are prioritizing customers'' needs and time-to-market.
+    Enterprise buyers are often willing to accept an imperfect solution, as long as it works and it’s available right now.
+
+    In this talk, SixMap CEO Jason Kaplan will discuss why great technologists don’t automatically make great CEOs. Technologists
+    can of course become outstanding CEOs but, like anything else in life, becoming a great business leader requires time,
+    effort, and lots of learning (usually the hard way).
+
+    Jason will share some of the lessons he’s learned along the way of his 27 year career to help technologists mature into
+    more effective CEOs. The focus will be on the areas that technologists often find most challenging: building teams and
+    managing people, communicating to executives, making fast decisions with lots of uncertainty, and balancing the tradeoffs
+    between product development and time-to-market.
+
+    Ultimately, success in cybersecurity entrepreneurship isn''t about having the perfect plan—it''s about surviving the chaos
+    long enough to figure out a plan that works. '
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=eXHqYuHjEfQ
+  recorded: true
+- time_start: '16:00'
+  time_end: '16:25'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: 'Contribute to Learn: Building DFIR Expertise Through Open Source'
+  speakers:
+  - name: Christopher Eng
+    company: null
+    title: Independent Digital Forensic Researcher | CIO
+  description: 'The best way to learn digital forensics and incident response (DFIR) isn’t just by reading books or watching
+    videos—it’s by doing. Contributing to open-source DFIR tools like KAPE and Velociraptor offers a hands-on, real-world
+    way to build, apply, and deepen your technical knowledge.
+
+    In this talk, we’ll explore how contributing—whether through writing code, testing artifacts, improving documentation,
+    or validating forensic results—forces you to engage critically with data structures, logs, operating system internals,
+    and investigative workflows. I’ll share practical examples of how even small contributions can lead to big “a-ha” moments,
+    demystify what it’s like to get started in open source, and show how this process naturally reinforces and expands your
+    DFIR skillset.
+
+    But the benefits go beyond just technical skill. Open-source work also connects you with a global community of practitioners,
+    tool authors, and potential mentors. Contributing is a powerful way to get your name out there, receive feedback, and
+    become part of the broader DFIR conversation through active participation.
+
+    If you''re looking to level up your skills, grow your network, and learn by doing, this talk will show you how the path
+    to deeper DFIR knowledge might just start with a pull request.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=fb7PzHq5x7A
+  recorded: true
+- time_start: '16:00'
+  time_end: '16:25'
+  track: Tech - Other
+  room: Tech - Other
+  title: Breaking the Mobile Log Analysis Barrier with AI
+  speakers:
+  - name: Numa Dhamani
+    company: iVerify
+    title: Head of Machine Learning at iVerify
+  description: Mobile security teams face overwhelming volumes of device logs during incident response, malware investigations,
+    and vulnerability hunting. Traditional manual analysis of these logs can take security experts hours or days per device,
+    creating significant bottlenecks, further compounded by the scarcity of specialized mobile security expertise. A forensic
+    analysis framework leveraging traditional natural language processing approaches, along with large language models, can
+    automatically analyze Android bug reports and Apple iOS unified logs at scale. This approach transforms complex, unstructured
+    technical data into clear, comprehensible insights that reveal the complete security narrative of a device. By automatically
+    connecting seemingly disparate events into coherent timelines, the methodology identifies critical security issues across
+    device logs in minutes rather than days. The result is an immediate democratization of mobile forensics insights–anyone
+    can understand what’s happening on their device, from security professionals to end users with no specialized mobile operating
+    system knowledge. Importantly, all analysis is performed within a secure, controlled environment using privacy-preserving
+    techniques that maintain data confidentiality. Through real-world case studies, this presentation will demonstrate how
+    this approach fundamentally transforms mobile security operations by revealing hidden threats while making complex technical
+    findings universally accessible.
+  type: break
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=4taQFPtehHg
+  recorded: true
+- time_start: '16:00'
+  time_end: '16:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'Hidden Payloads: Advanced Malware Exploitation via PDF Files'
+  speakers:
+  - name: Filipi Pires
+    company: null
+    title: Head of Identity Threat Labs and Global Product Advocate
+  description: 'This is a hands-on presentation that will guide you through the world of PDF exploitation, showcasing how
+    this ubiquitous document format can serve as a vessel for malicious JavaScript malware. Dive into real-world vulnerabilities
+    that have been leveraged to execute harmful code directly through PDF files—posing major threats in today''s cybersecurity
+    landscape.
+
+    Key exploit techniques explored will include:
+
+    Heap Spray Attacks: Gain insight into how attackers use shellcode to overwrite memory, enabling arbitrary code execution
+    and sys­tem compromise. Data Exfiltration Tactics: Discover methods for covertly extracting sensitive data, such as email
+    addresses and system information, from unsuspecting users. Embedding Malware in PDFs: Learn how adversaries embed malicious
+    scripts within PDF files, tricking users into triggering exploits in Adobe Reader through typical file interactions. We''ll
+    dissect techniques including shellcode injection, buffer overflow attacks, Adobe Reader exploitation, and memory manipulation—each
+    engineered to deliver and execute malware efficiently.
+
+    This session is ideal for offensive security professionals, penetration testers, and threat emulation experts seeking
+    to elevate their understanding of PDF-based threats and enhance their testing skills.
+
+    More information about the presentation can be found in this article: https://labs.segura.blog/unmasking-the-threat-a-deep-dive-into-the-pdf-malicious-2/'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '16:30'
+  time_end: '16:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: 'From CISA to Starting Up: Shifting Secure by Design at Scale'
+  speakers:
+  - name: Jack Cable
+    company: Corridor
+    title: CEO & Co-Founder at Corridor
+  description: 'How do you shift an entire industry? This talk explores my journey from leading the Secure by Design initiative
+    at CISA to founding Corridor, an AI assistant for product security teams. This work stems from the core realization that
+    most cyberattacks are preventable—not because we need better defenders, but because software is still shipped insecure
+    by default. Software companies have the ability to prevent entire classes of vulnerabilities, and addressing this is equal
+    parts tech and policy.
+
+    I’ll share lessons from the policy side – starting the Secure by Design pledge, writing legislation, and shaping executive
+    orders; the business side – the process of starting a startup, fundraising, and finding product-market fit; and the technical
+    side – how we use AI to understand entire codebases and aid product security teams with otherwise-manual workflows.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=_Oo0hdC8fZk
+  recorded: true
+- time_start: '16:30'
+  time_end: '16:55'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: Slaying Hidden Threats in Residential (and Mobile!) IP Proxies
+  speakers:
+  - name: Christo Roberts
+    company: Cloudflare
+    title: Principal Solutions Engineer at Cloudflare Focused on App Sec and Bots
+  description: Residential proxies are the weapon of choice for bot bypassing defenses by mimicking legit traffic. This talk
+    unpacks how machine learning can expose and mitigate these threats at scale. Expect actionable insights for improving
+    detections while minimizing false positives.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=ERtf7jOXkYg
+  recorded: true
+- time_start: '16:30'
+  time_end: '16:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'Beyond Vibe Coding: Building Reliable AI AppSec Tools'
+  speakers:
+  - name: Emily Choi-Greene
+    company: Clearly AI
+    title: Co-Founder at Clearly AI
+  description: 'As organizations explore AI automation for AppSec, ensuring reliable and trustworthy output becomes critical.
+    This talk examines practical challenges in building AI systems that can consistently interpret security requirements,
+    process engineering documentation, and produce high quality threat models and code scanning results.
+
+    We''ll explore technical approaches to prevent hallucinations, handle conflicting documentation, normalize AI outputs,
+    and validate assessments against established policies. Drawing from real-world implementation experience, we''ll share
+    key patterns for building robust security automation systems that maintain high accuracy while scaling across engineering
+    organizations.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=iI5u099MrZY
+  recorded: true
+- time_start: '17:00'
+  time_end: '17:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: 'The Good Business: How to Bootstrap a Business to $10M and Beyond'
+  speakers:
+  - name: Christian Hyatt
+    company: risk3sixty
+    title: CEO & Founder @ risk3sixty
+  description: 'This talk is a transparent account of my attempt to build a “good business”—one that is both financially successful
+    and deeply ethical. It’s a transparent account of our journey from starting with nothing to achieving over $10M in revenue,
+    and it’s a guide for anyone seeking to create a business that stands for integrity, craftsmanship, and meaningful impact.
+    By reflecting on our story, sharing hard-earned lessons, and offering a roadmap.
+
+    I hope the audience will gain inspiration, clarity, and confidence to embark on their own entrepreneurial journey. They’ll
+    find comfort in knowing that the road to success is long and challenging—but entirely possible. With a roadmap to avoid
+    common pitfalls and the motivation to persevere, readers will feel equipped to build their own “good business,” grounded
+    in purpose, integrity, and sustainable success.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=rwVlFU7rpuk
+  recorded: true
+- time_start: '17:00'
+  time_end: '17:55'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: 'Tinker Tailor LLM Spy: Investigate & Respond to Attacks on GenAI Chatbots'
+  speakers:
+  - name: Allyn Stott
+    company: Airbnb
+    title: Senior Staff Engineer, Airbnb
+  description: 'It’s coming, and you aren’t ready—your first generative AI chatbot incident. GenAI chatbots, leveraging LLMs,
+    are revolutionizing customer engagement by providing real-time, automated 24/7 chat support. But when your company’s virtual
+    agent starts responding inappropriately to requests and handing out customer PII to anyone that asks nicely, who are they
+    going to call? You.
+
+    You’ve seen the cool prompt injection attack demos and may even be vaguely aware of preventions like LLM guardrails; but
+    are you ready to investigate and respond when those preventions inevitably fail? Would you even know where to start? It’s
+    time to connect traditional investigation and response procedures with the exciting new world of GenAI chatbots.
+
+    In this talk, you’ll learn how to investigate and respond to the unique threats targeting these systems. You’ll discover
+    new methods for isolating attacks, gathering information, and getting to the root cause of an incident using AI defense
+    tooling and LLM guardrails. You’ll come away from this talk with a playbook for investigating and responding to this new
+    class of GenAI incidents and the preparation steps you’ll need to take before your company’s chatbot responses start going
+    viral—for the wrong reasons.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '17:00'
+  time_end: '17:25'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'Cloud’s Dirty Little Secret: It Was Misconfigs All Along'
+  speakers:
+  - name: Karl Ots
+    company: EPAM
+    title: Head of Cloud Security at EPAM | Author and Inventor
+  description: 'Everyone loves to chase the next big exploit, but here’s the truth: most cloud breaches don’t start with some
+    elite APT magic — they start with someone leaving the front door wide open. Misconfigurations are the silent killer of
+    cloud security, and they’re everywhere.
+
+    After tearing down hundreds of Azure deployments across industries, I’ve seen the same screw-ups again and again — from
+    Fortune 500s to scrappy startups. In this talk, I’ll walk through the most common cloud security faceplants, why they’re
+    so easy to make (and miss), and how to actually fix them before someone else finds them first.
+
+    If you’ve ever wondered what cloud security looks like when it fails quietly, this is your wake-up call.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=KU2g6OheMxM
+  recorded: true
+- time_start: '17:00'
+  time_end: '17:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'Navigating the Virtualization Battlefield: A Deep Dive into Hypervisor Attack Vectors'
+  speakers:
+  - name: Austin Gadient
+    company: Vali Cyber
+    title: Vali Cyber CTO & Co-Founder
+  description: 'The intricate architecture of hypervisors, while providing remarkable flexibility and scalability for enterprise-level
+    operations, also represents one of the most critical under-protected attack surfaces existing today. This concurrently
+    introduces significant vulnerabilities that can be exploited by malicious actors.
+
+    In this session, Austin Gadient, CTO and Co-Founder of Vali Cyber, will walk through real-world attack vectors recently
+    leveraged against VMware ESXi and similar virtualization platforms, including remote code execution, Active Directory
+    misconfigurations, and credential-based intrusions. Drawing on lessons from incidents like the MGM and MITRE breaches,
+    Austin will dissect how attackers gain footholds, pivot across virtual environments, and execute hypervisor-level ransomware.
+    The session will conclude with actionable best practices for security leaders looking to harden their virtual infrastructure.
+
+    This talk is designed for technical audiences concerned with defending critical virtualization layers and aims to bridge
+    the gap between vulnerability awareness and operational resilience.  '
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=ayw-l-8mULI
+  recorded: true
+- time_start: '17:30'
+  time_end: '17:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'Exploit Intelligence with Agentic AI: Patch What Matters'
+  speakers:
+  - name: Dmitrijs Trizna
+    company: Aisle
+    title: Aisle, AI Security Researcher
+  description: 'If you’re tired of dashboards that label everything “critical,” come see how exploit-aware AI puts scarce
+    remediation hours where they count.
+
+    Security teams are drowning in vulnerability data while attackers automate exploit development and weaponization. Fixing
+    everything is impossible; fixing what truly matters demands context: understanding not just CVSS math but whether a working
+    exploit is circulating now, how that code path is used in your stack, and what blast-radius it creates for the business.
+
+    This talk shows how AI-native multi-agent systems can mine, reason over, and actionably surface exploit intelligence at
+    machine speed. We trace the journey of how autonomous agents crawl exploit databases, KEVs, GitHub PoCs and correlate
+    artefacts with call-graph and application context, providing a single enriched “fix-first” list your team can stomach.
+
+    Attendees will learn: • How scoping of exploit maturity and organizational context can be automated with existing tools;
+    • Design patterns for trustworthy agentic workflows (AI scaffolding, human-in-the-loop) • Metrics that prove noise reduction
+    and dramatic days-to-patch gains.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=6yrvKdsvn8s
+  recorded: true
+- time_start: '18:00'
+  time_end: '18:30'
+  track: Tech - Red
+  room: Tech - Red
+  title: BSidesNYC 0x05 Closing Ceremonies
+  speakers:
+  - name: void *huxley
+    company: null
+    title: null
+  description: null
+  type: ceremony
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=U839L4RCbz0
+  recorded: true
+sponsors:
+- name: Google Cloud
+  tier: Gigabit
+  url: https://cloud.google.com/
+- name: Code Red Partners
+  tier: Gigabit
+  url: https://coderedpartners.com/
+- name: Exaforce
+  tier: Gigabit
+  url: https://www.exaforce.com/
+- name: Formal
+  tier: Gigabit
+  url: https://www.joinformal.com/
+- name: LayerX
+  tier: Gigabit
+  url: https://layerxsecurity.com/
+- name: Tuskira
+  tier: Gigabit
+  url: https://www.tuskira.ai/
+- name: Culminate
+  tier: Megabit
+  url: https://www.culminatesecurity.com/
+- name: Gecko Security
+  tier: Megabit
+  url: https://www.gecko.security/
+- name: Konvu
+  tier: Megabit
+  url: https://konvu.com/
+- name: TraceBit
+  tier: Megabit
+  url: https://tracebit.com/
+- name: Red Canary
+  tier: Megabit
+  url: https://redcanary.com/
+- name: StrongDM
+  tier: Megabit
+  url: https://www.strongdm.com/
+- name: Panther
+  tier: Megabit
+  url: https://panther.com/
+- name: Socket
+  tier: Megabit
+  url: https://socket.dev/
+- name: SixMap
+  tier: Megabit
+  url: https://www.sixmap.io/
+- name: Heeler
+  tier: Megabit
+  url: https://heeler.com/
+- name: nullify
+  tier: Megabit
+  url: https://www.nullify.ai/
+- name: DataBee
+  tier: Megabit
+  url: https://www.databee.ai/
+- name: Dashlane
+  tier: Megabit
+  url: https://www.dashlane.com/
+- name: semgrep
+  tier: Megabit
+  url: https://semgrep.dev/
+- name: armis
+  tier: Megabit
+  url: https://www.armisfederal.com/
+- name: deepTempo
+  tier: Kilobit
+  url: https://www.deeptempo.ai/
+- name: Sublime Security
+  tier: Kilobit
+  url: https://sublime.security/
+- name: iVerify
+  tier: Kilobit
+  url: https://iverify.io/
+- name: Cotool
+  tier: Kilobit
+  url: https://cotool.ai/
+- name: Jane Street Capital
+  tier: Kilobit
+  url: https://www.janestreet.com/
+- name: Bugcrowd
+  tier: Kilobit
+  url: https://www.bugcrowd.com/
+villages:
+- name: NYC Resistor
+  url: https://www.nycresistor.com
+- name: Blacks In Cybersecurity™
+  url: https://www.blacksincyberconf.com
+- name: Women's Society of Cyberjutsu
+  url: https://womenscyberjutsu.org
+- name: The Diana Initiative
+  url: https://www.dianainitiative.org
+- name: Raíces Cyber
+  url: https://www.raicescyber.org/national-capital-region-1-1-1-2-1
+- name: WiCys NY Metro Affiliate
+  url: https://www.wicys.org/wicys-ny-metro-affiliate
+- name: Hack Manhattan
+  url: https://hackmanhattan.com
+- name: IoT Village
+  url: https://www.iotvillage.org
+- name: Red Team Village
+  url: https://redteamvillage.io
+- name: AI Security Village (presented by Align)
+  url: https://align-sec.org
+- name: Computer Science Society Club
+  url: https://jjaycss.tech/
+- name: NYC Mesh
+  url: https://www.nycmesh.net

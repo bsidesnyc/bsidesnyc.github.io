@@ -5,7 +5,7 @@
   villageName:
   description:
   link: https://www.helpnetsecurity.com/
-  imageUrl: helpnet.png
+  imageUrl: helpnet.webp
   sharedImg: false
   isSponsor: false
 -
@@ -15,7 +15,7 @@
   villageName:
   description:
   link: https://ctfd.io/
-  imageUrl: ctfd.png
+  imageUrl: ctfd.webp
   sharedImg: false
   isSponsor: false
 -
@@ -25,7 +25,7 @@
   villageName: "Women's Society of Cyberjutsu"
   description:
   link: https://womenscyberjutsu.org/
-  imageUrl: cyberjutsu.png
+  imageUrl: cyberjutsu.webp
   sharedImg: false
   isSponsor: false
 -
@@ -35,7 +35,7 @@
   villageName: "NYC Resistor"
   description:
   link: https://www.nycresistor.com/
-  imageUrl: nycresistor.png
+  imageUrl: nycresistor.webp
   sharedImg: false
   isSponsor: false
 -
@@ -55,7 +55,7 @@
   villageName: "NinjaJobs"
   description:
   link: https://ninjajobs.org/
-  imageUrl: ninjajobs.png
+  imageUrl: ninjajobs.webp
   sharedImg: false
   isSponsor: false
 -
@@ -65,7 +65,7 @@
   villageName: "Blacks in Cybersecurity"
   description:
   link: https://www.blacksincyberconf.com/
-  imageUrl: banner_bic_hq.png
+  imageUrl: banner_bic_hq.webp
   sharedImg: false
   isSponsor: false
 -
@@ -75,7 +75,7 @@
   villageName: "Women in Cybersecurity"
   description:
   link: https://www.wicysnymetro.org/
-  imageUrl: wicys.png
+  imageUrl: wicys.webp
   sharedImg: false
   isSponsor: false
 -
@@ -85,7 +85,7 @@
   villageName:
   description:
   link: https://www.wisporg.com/
-  imageUrl: wisp.png
+  imageUrl: wisp.webp
   sharedImg: false
   isSponsor: false
 -
@@ -95,7 +95,7 @@
   villageName: "Black Cybersecurity Association"
   description:
   link: https://blackcybersecurityassociation.org/
-  imageUrl: bca.png
+  imageUrl: bca.webp
   sharedImg: false
   isSponsor: false
 -
@@ -105,7 +105,7 @@
   villageName:
   description:
   link: "https://www.internetsociety.org/"
-  imageUrl: "isoc.png"
+  imageUrl: "isoc.webp"
   sharedImg: false
   isSponsor: false
 

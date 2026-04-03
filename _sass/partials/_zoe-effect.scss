@@ -5,12 +5,13 @@ $figcaption-color: #3c4a50;
     cursor: pointer;
     transition: $base-transition;
     box-shadow: 0 1px 7px rgba(0, 0, 0, .06), 0 1px 3px rgba(0, 0, 0, .15);
+    overflow: hidden;
+    position: relative;
     &:hover {
         box-shadow: 0 1px 7px rgba(0, 0, 0, .06), 0 1px 3px rgba(0, 0, 0, .35);
         figure {
-            background-position: center left;
-            -webkit-background-size: 105%;
-            background-size: 105%;
+            background-position: center;
+            background-size: cover;
             .overlay {
                 background: rgba(0, 0, 0, .3);
                 @media (max-width: 767px) {
@@ -47,17 +48,12 @@ $figcaption-color: #3c4a50;
     }
     figure {
         overflow: hidden;
-        width: 100.3%;
+        width: 100%;
         height: 100%;
         transition: $base-transition;
-        background-position: -30px;
-        -webkit-background-size: 115%;
-        background-size: 115%;
-        @media (max-width: 767px) {
-            background-position: center left;
-            -webkit-background-size: 105%;   
-            background-size: 105%;   
-        }
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         .overlay {
             transition: $base-transition;
             background: rgba(0, 0, 0, 0);
@@ -79,7 +75,7 @@ $figcaption-color: #3c4a50;
         }
         h2 {
             font-size: 16px;
-            font-weight: $regular;
+            font-weight: $fw-regular;
             margin: 0;
             word-spacing: -2px;
             text-transform: uppercase;
@@ -92,7 +88,7 @@ $figcaption-color: #3c4a50;
                 color: #3c4a50;
             }
             span {
-                font-weight: $bold;
+                font-weight: $fw-bold;
             }
         }
         > div {
@@ -110,7 +106,7 @@ $figcaption-color: #3c4a50;
         }
         .position {
             font-size: 12px;
-            @include trimText(12px, 1, 1);
+            @include trimText(12px, 1.3, 1);
         }
     }
     .bio {

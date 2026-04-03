@@ -1,0 +1,76 @@
+#
+# CTF competitions
+#
+
+#
+# CTFd 
+#
+- logo: ctfd.svg
+  header: Play Whenever
+  features:
+    - Jeopardy-Style CTF
+    - Reverse engineering, vulnerable web applications, and more
+    - Play all day or casually pick up a challenge
+    - Individual or team-based
+    - Compare your progress against others on leaderboard
+  registration: # No more than 2 registration buttons
+    - url: https://ctfd.io
+      disabled: true 
+      title: Register In Person 
+  registrationMessage: Registration will be in-person at the CTF space the day of event
+  url: https://ctfd.io/#bsidesnyc
+#
+# Pros Vs Joes
+#
+- logo: PvJlogo.webp 
+  header: Full Day Event
+  features:
+    - Register before BSidesNYC to participate
+    - Offensive vs Defensive Style CTF
+    - Team based activities
+    - "\"Joes\" learn and face challenges"
+    - "\"Pros\" flex their skills and help the Joes"
+  registration: # No more than 2 registration buttons
+    - url: https://docs.google.com/forms/d/e/1FAIpQLSdp4dASdkh1i1gOULIpXl28ZDXte2HknSHVXAsMWLWxe5V6bw/viewform
+      disabled: false
+      title: Pro Registration 
+    - url: https://docs.google.com/forms/d/e/1FAIpQLSc2-k27UNqObt19-0tJvacWNHHYev-fKxuUk7px4gHIPhEswA/viewform
+      disabled: false
+      title: Joe Registration
+  registrationMessage: 
+  url: http://prosversusjoes.net/#bsidesnyc
+#
+# Red Team Village CTF 
+#
+- logo: rtv.webp 
+  header: Play Whenever
+  features:
+    - Jeopardy-Style CTF
+    - AI, Web, Pwnables, wide variety of challenges
+    - Play all day or just try one!
+    - Individual or team-based
+    - Leaderboard with Swag & workshop prizes for winners
+  registration: # No more than 2 registration buttons
+    - url: https://threatsims.com/user/events/904259c3-c646-4adc-85b1-91c719b52384
+      disabled: false
+      title: Register Now 
+  registrationMessage: 
+  url: https://redteamvillage.io/#bsidesnyc
+#
+# AI Security Village
+#
+- logo: aisecurityvillage.webp 
+  header: Play Whenever
+  features:
+    - Jeopardy-Style CTF
+    - AI-related challenges
+    - Play all day or casually pick up a challenge
+    - Individual Participants
+    - Leaderboard with cash prizes for 1st and 2nd place
+    - Registration in person at the AI Security Village
+  registration: # No more than 2 registration buttons
+    - url: https://align-sec.org/events/2025-bsidesnyc
+      disabled: true 
+      title: Register In Person 
+  registrationMessage: 
+  url: https://align-sec.org/events/2025-bsidesnyc

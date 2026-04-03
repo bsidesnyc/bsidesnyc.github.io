@@ -8,15 +8,18 @@
 #-----------------------------------------------
 markdown: kramdown
 permalink: pretty
-exclude: ['README.md', 'LICENSE.txt', 'CNAME']
+sass:
+  style: compressed
+  sass_dir: _sass
 
 #-----------------------------------------------
 # Plugins
 #-----------------------------------------------
-plugins_dir:
-- jekyll-sitemap
+plugins:
+  - jekyll-sitemap
+  - jekyll-autoprefixer
 
-safe: false
+exclude: ['README.md', 'LICENSE.txt', 'CNAME', 'vendor', 'Gemfile', 'Gemfile.lock']
 
 ################################################################################################
 # Site Settings
@@ -27,10 +30,10 @@ twitterAccount: "@bsidesnyc"
 description: "BSides NYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community, and we truly strive to keep information free."
 url: "https://bsidesnyc.org" #https://bsidesnyc.github.io
 timezone: "America/New_York"
-conYear: "2024"
+conYear: "2026"
 previousSponsorCount: "22"
 previousAttendeeCount: "1000"
-logoImage: "/about/logo_white.png"
+logoImage: "/about/logo_white.webp"
 contactUs: "/about/#contact-us"
 
 # 
@@ -47,6 +50,8 @@ socialLinks:
     link: https://twitter.com/bsidesnyc
   - icon: linkedin
     link: https://www.linkedin.com/company/bsidesnyc
+  - icon: mastodon
+    link: https://infosec.exchange/@BSidesNYC
 
 footerBlocks:
   - title: Links
@@ -74,31 +79,40 @@ footerBlocks:
       - text: Press Passes
         permalink: /about/#contact-us
       - text: Logo Kit 
-        permalink: /img/bsidesnyc_logo_original.zip
+        permalink: /assets/bsidesnyc_logo_original.zip
 
 #-----------------------------------------------
 # Head
 #-----------------------------------------------
 metaKeywords: "bsides, security, bsidesnyc, conference, nyc"
-socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.webp"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.webp"
 
 #-----------------------------------------------
 # Navigation
 #-----------------------------------------------
 navigationLinks:
  - {permalink: "/venue/", text: "Venue"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/villages/", text: "Villages"}
- - {permalink: "/ctf/", text: "CTF"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/video/", text: "Video"}
- - {permalink: "/registration/", text: "Registration"}
+# - {permalink: "/schedule/", text: "Schedule"}
+# - {permalink: "/villages/", text: "Villages"}
+# - {permalink: "/ctf/", text: "CTF"}
+# - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/archive/", text: "Archive"}
+# - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/sponsors/", text: "Sponsors"}
- - {permalink: "/cfp/", text: "CFP"}
+# - {permalink: "/cfp/", text: "CFP"}
  - {permalink: "/about/", text: "About"}
 bottomNavigationLinks:
 rightNavigationButtons:
+
+# Ordered sponsor tier list for the archive page (highest to lowest)
+sponsorTiers:
+ - Gigabit
+ - Platinum
+ - Megabit
+ - Gold
+ - Kilobit
+ - Silver
 
 ################################################################################################
 # Block Data
@@ -110,12 +124,12 @@ rightNavigationButtons:
 aboutTitle: "About BSidesNYC"
 aboutCaption: "BSidesNYC is an Information / Security conference that’s different. We’re a 100% volunteer organized event put on by and for the community and we truly strive to keep information free."
 aboutBlock:
-  - {title: "Conference", image: "conference.jpg", text: "Three technical tracks based on the themes of Red Teams, Blue Teams, and Other content. Plus an Entreprenuer track for the bold!" }
-  - {title: "Villages", image: "villages.jpg", text: "Discover different realms of security, hacking, and local community-driven organizations." }
-  - {title: "Capture The Flag", image: "ctf.jpg", text: "Multiple CTFs with varying levels of technical depth." }
+  - {title: "Conference", image: "conference.webp", text: "Three technical tracks based on the themes of Red Teams, Blue Teams, and Other content. Plus an Entreprenuer track for the bold!" }
+  - {title: "Villages", image: "villages.webp", text: "Discover different realms of security, hacking, and local community-driven organizations." }
+  - {title: "Capture The Flag", image: "ctf.webp", text: "Multiple CTFs with varying levels of technical depth." }
 
 # Statistic Block
-statisticBlockImage: "statistic.jpg"
+statisticBlockImage: "statistic.webp"
 statisticBlock:
  - {count: "1000", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
  - {count: "45", specialCharacter: "+", info: "hours", detail: "of security content"}
@@ -125,9 +139,12 @@ statisticBlock:
 #-----------------------------------------------
 # CFP Block
 #-----------------------------------------------
+
 cfpTitle: "Call For Papers"
 cfpBoardTitle: "CFP Board"
-cfpUrl: "https://docs.google.com/forms/d/e/1FAIpQLSes8dIfojKqXatyC6lNug41d_jsnio0LdIZRlFWms9sbWiUxw/viewform?usp=sf_link"
+cfpUrl: # "https://docs.google.com/forms/d/e/1FAIpQLSes8dIfojKqXatyC6lNug41d_jsnio0LdIZRlFWms9sbWiUxw/viewform?usp=sf_link"
+cfpShowTechMembers: false
+cfpShowEntrepreneurMembers: false
 cfpOpenDate: "April 16, 2025"
 cfpCloseDate: "July 18, 2025"
 cfpAcceptanceDate: "July 18, 2025"
@@ -153,16 +170,16 @@ cfpProcessAcceptedText: ["Acceptance notice go out over a month ahead of the con
 # also see _data/villages.yml
 #-----------------------------------------------
 villagesAboutTitle: "About Villages"
-villagesTitle: "BSidesNYC 2023 Villages"
+villagesTitle: "BSidesNYC 2026 Villages"
 villagesUrl: "/villages/"
 
 #-----------------------------------------------
 # Event Intro
 #-----------------------------------------------
-eventImage: "nyc_skyline.jpg"
+eventImage: "nyc_skyline.webp"
 eventTitle: "BSidesNYC"
-eventDate: "18 October 2025"
-eventInfo: "The next BSidesNYC will take place in 18 October 2025. To stay updated on volunteer opportunities, and other news, follow us on Twitter <a href=\"https://twitter.com/bsidesnyc\" target=\"_blank\">@BSidesNYC</a> and sign up for the mailing list."
+eventDate: "17 October 2026"
+eventInfo: "The next BSidesNYC will take place in 17 October 2026. To stay updated on volunteer opportunities, and other news, follow us on Twitter <a href=\"https://twitter.com/bsidesnyc\" target=\"_blank\">@BSidesNYC</a> and sign up for the mailing list."
 eventButtons:
  - {permalink: "/sponsors/", text: "Become a sponsor", id: "sponsors"}
 
@@ -177,9 +194,9 @@ eventAddressLocalityRegion: "NY"
 eventPostalCode: "10019"
 eventAddressCountry: "USA"
 eventNavigationLink: https://goo.gl/maps/7vwHt4ARqjr
-eventStartTime: "2025-10-18T08:00"
+eventStartTime: "2026-10-17T08:00"
 eventDoorTime: "09:00"
-eventEndTime: "2025-10-18T17:00"
+eventEndTime: "2026-10-17T17:00"
 eventPlaceCoordinates: "4087709863, -73.9899653"
 mapCenterCoordinates: "40.7709863, -73.9899653"
 mapMobileCenterCoordinates: "40.7709863, -73.9899653"
@@ -199,7 +216,7 @@ logisticsMapMobileCenterCoordinates: "40.7709863, -73.9899653"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details
-directionDetailsImage: "columbus_circle.jpg"
+directionDetailsImage: "columbus_circle.webp"
 directionDetailsTitle: "Getting Here"
 directionDetailsCards:
  - {title: "Airports", information: 'The conference is easily accessible from the <b>JFK</b>, <b>LGA</b>, or <b>EWR</b> airports via public transportation (subway, bus, taxi) or ride-sharing services (uber, lyft etc.)'}
@@ -210,7 +227,7 @@ directionDetailsCards:
 # Sponsors
 #-----------------------------------------------
 sponsorsUrl: "/sponsors/"
-sponsorshipKitUrl: "/assets/BSidesNYC-0x05-Sponsorship-Prospectus.pdf"
+sponsorshipKitUrl: "/assets/BSidesNYC-0x06-Sponsorship-Prospectus.pdf"
 
 #-----------------------------------------------
 # Subscribe
@@ -227,7 +244,7 @@ subscribeInfo: "^^^ Please ignore this message above from our mailing list provi
 #
 # if registrationOpen is false, only the registration_closed content will be shown
 #
-registrationOpen: True
+registrationOpen: False
 registrationOpenDate: "2025-09-15T20:00:00-04:00"
 registrationLink: https://www.ticketleap.events/tickets/bsidesnyc/bsidesnyc-0x05
 
@@ -238,24 +255,24 @@ venueTitle: John Jay College of Criminal Justice
 venueAddress: 524 W. 59th Street, New York, NY
 venueWiFiSSID: John Jay Events
 venueWiFiPW: Events@Jay24
-venuePhotosPrimary: atrium.jpg
+venuePhotosPrimary: atrium.webp
 venuePhotosSecondary:
-  - 240.jpg
-  - L615.jpg
-  - L763.jpg
+  - 240.webp
+  - L615.webp
+  - L763.webp
 venueMapsIntro: "Tracks are split across multiple floors. You'll enter and register on the Ground floor where the Red Track (L.63), Keynote (L.63), and Entrepreneur Track (L.61) are. Go down via stairs or elevator to Lower Level (L2) for the Blue Track (L2.84) and Other Track (L2.85). Go up via elevator to the 6th Floor for the Villages (Moot Court) and to the 9th for CTF."
 venueFloorMaps:
   - name: Ground Floor (L)
     divId: map-l
-    image: 2025_bsidesnyc_jj_GROUND_L1-1.png
+    image: 2025_bsidesnyc_jj_GROUND_L1-1.webp
   - name: Lower Level (L2)
-    image: 2025_bsidesnyc_jj_LOWER_LEVEL_L2-1.png 
+    image: 2025_bsidesnyc_jj_LOWER_LEVEL_L2-1.webp 
     divId: map-l2
   - name: 1st Floor
-    image: 2025_bsidesnyc_jj_1ST_FLOOR-1.png
+    image: 2025_bsidesnyc_jj_1ST_FLOOR-1.webp
     divId: map-1
   - name: 2nd Floor
-    image: 2025_bsidesnyc_jj_2ND_FLOOR-1.png
+    image: 2025_bsidesnyc_jj_2ND_FLOOR-1.webp
     divId: map-2
 
 #-----------------------------------------------
@@ -270,83 +287,9 @@ volunteersSubscribeTitle: "Join the Team"
 ctfHeader: Game On! 
 ctfHeaderMessage: We are so excited to offer multiple Capture The Flag (CTF) competitions. Play one or play them all! All CTFs require a laptop and have both offensive and defensive challenges.
 ctfHeaderMessageFloor: Visit the CTF space in the Cafeteria/Student Dining Hall (second floor, room 2.64)
-# TODO: This year we have 4 CTFs! Time to move it out of the _config.yml and into its own _data/ctf.yml 
-ctfs:
-  #
-  # CTFd 
-  #
-  - logo: ctfd.svg
-    header: Play Whenever
-    features:
-      - Jeopardy-Style CTF
-      - Reverse engineering, vulnerable web applications, and more
-      - Play all day or casually pick up a challenge
-      - Individual or team-based
-      - Compare your progress against others on leaderboard
-    registration: # No more than 2 registration buttons
-      - url: https://ctfd.io
-        disabled: true 
-        title: Register In Person 
-    registrationMessage: Registration will be in-person at the CTF space the day of event
-    url: https://ctfd.io/#bsidesnyc
-  #
-  # Pros Vs Joes
-  #
-  - logo: PvJlogo.png 
-    header: Full Day Event
-    features:
-      - Register before BSidesNYC to participate
-      - Offensive vs Defensive Style CTF
-      - Team based activities
-      - "\"Joes\" learn and face challenges"
-      - "\"Pros\" flex their skills and help the Joes"
-    registration: # No more than 2 registration buttons
-      - url: https://docs.google.com/forms/d/e/1FAIpQLSdp4dASdkh1i1gOULIpXl28ZDXte2HknSHVXAsMWLWxe5V6bw/viewform
-        disabled: false
-        title: Pro Registration 
-      - url: https://docs.google.com/forms/d/e/1FAIpQLSc2-k27UNqObt19-0tJvacWNHHYev-fKxuUk7px4gHIPhEswA/viewform
-        disabled: false
-        title: Joe Registration
-    registrationMessage: 
-    url: http://prosversusjoes.net/#bsidesnyc
-  #
-  # Red Team Village CTF 
-  #
-  - logo: rtv.png 
-    header: Play Whenever
-    features:
-      - Jeopardy-Style CTF
-      - AI, Web, Pwnables, wide variety of challenges
-      - Play all day or just try one!
-      - Individual or team-based
-      - Leaderboard with Swag & workshop prizes for winners
-    registration: # No more than 2 registration buttons
-      - url: https://threatsims.com/user/events/904259c3-c646-4adc-85b1-91c719b52384
-        disabled: false
-        title: Register Now 
-    registrationMessage: 
-    url: https://redteamvillage.io/#bsidesnyc
-  #
-  # AI Security Village
-  #
-  - logo: aisecurityvillage.png 
-    header: Play Whenever
-    features:
-      - Jeopardy-Style CTF
-      - AI-related challenges
-      - Play all day or casually pick up a challenge
-      - Individual Participants
-      - Leaderboard with cash prizes for 1st and 2nd place
-      - Registration in person at the AI Security Village
-    registration: # No more than 2 registration buttons
-      - url: https://align-sec.org/events/2025-bsidesnyc
-        disabled: true 
-        title: Register In Person 
-    registrationMessage: 
-    url: https://align-sec.org/events/2025-bsidesnyc
 
 # Tweets Feed Block
-tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedImage: "twitter-feed.webp"
 tweetsFeedTitle: ""
 twitterHashTag: "bsidesnyc"
 twitterFeed: ""

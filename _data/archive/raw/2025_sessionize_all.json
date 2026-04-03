@@ -1,0 +1,2731 @@
+{
+  "sessions": [
+    {
+      "id": "1015360",
+      "title": "BSidesNYC 0x05 Launch",
+      "description": null,
+      "startsAt": "2025-10-18T13:00:00Z",
+      "endsAt": "2025-10-18T13:15:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "b224bc78-60f1-48a0-a536-a25dd2e3143c"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 65185,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    },
+    {
+      "id": "1015359",
+      "title": "Keynote",
+      "description": null,
+      "startsAt": "2025-10-18T13:15:00Z",
+      "endsAt": "2025-10-18T13:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "795d66b5-de31-4924-90bb-047fb165016e"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 65185,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    },
+    {
+      "id": "928649",
+      "title": "From Interview Questions to Cluster Damage: Adventures in k8s Cluster Hacking",
+      "description": "What started as a simple exercise to create Kubernetes interview questions took an unexpected turn into discovering some interesting cluster security quirks. While brainstorming scenarios to test candidates' knowledge, we found ourselves saying \"wait, would that actually work?\" more times than we expected. This talk shares these discoveries, showing how even a cluster with a common configuration can lead to surprising cluster disruptions. We will guide you through our journey, sharing both the techniques we stumbled upon and practical ways to keep your Kubernetes infrastructure safe.",
+      "startsAt": "2025-10-18T14:00:00Z",
+      "endsAt": "2025-10-18T14:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "cad449b1-96aa-4595-88cf-1784755db65c"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65185,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "978860",
+      "title": "Detecting and Preventing Obfuscated Script Execution with Tree-sitter",
+      "description": "The malicious obfuscation of code from scripting languages, such as PowerShell, Python, and JavaScript, continues to be used as an essential part of threat actors' toolkits. Obfuscation techniques hamper analysts' ability to investigate and respond quickly to compromises by complicating reverse engineering of the original script and pose significant challenges to scanning engines, such as Yara, that rely on byte-based pattern recognition.\r\n\r\nWindows' built-in defense mechanisms, notably the built-in Antimalware Scanning Interface (AMSI) DLLs, struggle to detect these obfuscations, allowing for trivial bypasses of the AMSI subsystem via relatively simple obfuscations. AMSI bypass tools and techniques are routinely deployed by obfuscated code as part of their infection chain.\r\n\r\nThe tree-sitter parsing library opens new avenues for detection and analysis by providing an API that allows developers to interact programatically with a script's syntax tree. This talk will showcase new techniques for rapidly detecting, analyzing, and preventing infections, culminating with the demonstration of a custom AMSI provider DLL that can deobfuscate, block, and log obfuscated PowerShell payloads.  These demonstrations will showcase successful, automated detection of AMSI bypass attempts from the r77 rootkit and the nishang offensive PowerShell framework, and payloads obfuscated with Invoke-Obfuscation.",
+      "startsAt": "2025-10-18T14:00:00Z",
+      "endsAt": "2025-10-18T14:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "9fd9571b-7943-4d51-acc0-066545656ce5"
+      ],
+      "categoryItems": [
+        364445,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65186,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "973798",
+      "title": "Down the Drain: Unpacking TON of Crypto Drainers",
+      "description": "We have laid our hands on the source code of a few Crypto Drainers designed specifically to steal native coins, NFTs and Jettons on the TON Network, and dissected them to better understand what flaws of legitimate products they exploit in order to appear less suspicious.\r\n\r\nApart from malware samples themselves, we are going to discuss:\r\n•  Forgery of DApp's origin and data\r\n•  Legitimate Wallet Impersonation with the use of UI Redressing possibilities\r\n•  Behavior control: Events tracking and Forcing actions\r\n•  Data control: Local storage and Bridge MitM",
+      "startsAt": "2025-10-18T14:00:00Z",
+      "endsAt": "2025-10-18T14:25:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "b55d3f8c-1cf1-4f28-9d1e-29069d624074"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65187,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "977942",
+      "title": "Inside the Mind of a Cyber VC: What Founders Get Wrong and How to Pitch Like a Pro",
+      "description": "I’ve reviewed over 1,000 cybersecurity startup pitches in the last two years—and I’ve seen the same patterns repeat. Incredible technical founders with bold ideas still struggle to raise capital, not because the tech isn’t good, but because they unknowingly make basic mistakes when speaking to investors. Many great ideas never get past the first meeting because founders pitch features instead of value, misunderstand their audience, or miss the broader strategic picture VCs are evaluating.\r\n\r\nThis talk is a tactical, no-BS breakdown of what it actually takes to get funded in cyber. Whether you’re a hacker-turned-founder, a first-time entrepreneur, or just curious about how the venture game works behind closed doors, you’ll leave with actionable insights that could change the trajectory of your next raise.\r\n\r\nLucas Nelson is a founding partner at Lytical Ventures, where he leads investments in cybersecurity and AI. He began his paid hacking career at @stake, starting as an application security pentester and rising to management roles. He is also a former member of Ninja Strike Force, associated with the hacker supergroup Cult of the Dead Cow.\r\n\r\nBefore founding Lytical, Lucas held investing roles at DFJ Gotham and Evolution Equity. He is a Kauffman Fellow and a longtime advocate for early-stage security startups that push the industry forward.\r\n\r\nThis talk shares common mistakes founders make, what actually gets a VC excited, and how to stand out in a crowded market.\r\n",
+      "startsAt": "2025-10-18T14:00:00Z",
+      "endsAt": "2025-10-18T14:25:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "30375517-d791-418b-9321-1a6c258fede8"
+      ],
+      "categoryItems": [
+        364444,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65188,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "960602",
+      "title": "Understanding Python Bytecode",
+      "description": "Most Python implementations interpret Python bytecode.  However, Python's bytecode changes annually, which makes understanding it challenging.\r\n\r\nFurthermore, Malware is sometimes written in Python bytecode without source code.\r\n\r\nI will introduce tools for disassembling, assembling, running interactively, and decompiling Python bytecode. \r\n\r\nThe particular tools I will use are:\r\n\r\ndisassemblers: Python's dis, and xdis: https://pypi.org/project/xdis/\r\nassemblers: xasm: https://pypi.org/project/xasm/\r\ndecompilers: uncompyle6: https://pypi.org/project/uncompyle6/, decompile3, and possibly https://pylingual.io\r\nbytecode interpreters x-python: https://pypi.org/project/x-python/ and debugger front-end trepan-xpy: https://pypi.org/project/trepanxpy/\r\ncontrol-flow analysis: \r\nPython debugger that understands bytecode: trepan3k: https://pypi.org/project/trepan3k/\r\n\r\nAnd possibly others.\r\n\r\nIf you sign up for the workshop, in advance please:\r\n1. Join the bsidesnyc channel #0x05-py-bytecode-workshop\r\n2. Please fill out https://forms.gle/6UxWoikrpVLfbyry7",
+      "startsAt": "2025-10-18T14:00:00Z",
+      "endsAt": "2025-10-18T15:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "b014ff1d-bbd7-4de8-ad40-01373c083cbf"
+      ],
+      "categoryItems": [
+        364443,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65189,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "957795",
+      "title": "Syndicate: The Life of a Ransomware Affiliate",
+      "description": "Syndicate: Inside the Life of a RaaS Affiliate is not your usual threat actor retrospective; it’s a psychological profile in three acts. We begin with the life of a skid (script kiddie): the copy-paster, the stealer-log dopamine chaser, the clout addict living in Telegram chats and cracked panels. Their world is a blur of fake flexes and small wins; high on illusion, tethered to someone else’s payload.\r\n\r\nThen we move to the mid-tier: ransomware operators negotiating ransoms between bites of cold noodles, barely holding their teams together, clashing over OPSEC and loyalty, and falling prey to the same scams they run. They operate in constant motion; spinning up infra, recycling brands, running Telegram polls to pick the next target. There’s no hierarchy, just reputation, vibes, and whoever controls the wallet.\r\n\r\nFinally, we look at the syndicate tier: Conti, LockBit, BlackBasta. Where KPIs matter more than skill. Where HR processes are more dangerous than intrusion vectors. Where recruitment, churn, and burnout mirror SaaS startups; except the product is extortion, and trust is everything.\r\n\r\nThis talk draws from leaked playbooks, chat logs, and recruitment docs to unpack how affiliates function not just tactically, but structurally and socially. Attendees will leave with a renewed lens on how ransomware-as-a-service scales, and the human cost that powers it; not just threat actors, but labor inside an economy of deception.",
+      "startsAt": "2025-10-18T14:30:00Z",
+      "endsAt": "2025-10-18T14:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "14f2f17c-5869-4fc9-b1f8-a8a0e475c174"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65187,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "978839",
+      "title": "What It’s Like Being the Only Security Startup in Your YC Batch",
+      "description": "Imagine going through Y Combinator surrounded by startups building AI agents for dog walkers, while you’re trying to sell IAM hygiene to the Fortune 500.\r\n\r\nOn our acceptance call to the world’s most famous startup accelerator, we were told we were the first company in the batch that didn’t use the word “LLM” in our pitch. Go us.\r\n\r\nThis talk is our \"we were the weird kid\" story from the YC Winter 2025 batch: what it felt like to build a security company in a culture steeped in growth hacks, virality, and AI everything.\r\n\r\nIf you've ever dreamed about quitting your corporate job to start your own thing -- or watched from the sidelines while others made money off your open source project -- this is the talk for you.",
+      "startsAt": "2025-10-18T14:30:00Z",
+      "endsAt": "2025-10-18T14:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "409fc819-cbf7-4caf-995c-84b3c2b5dcb3",
+        "a9d4868a-6c51-4149-88b3-44244a8ca6eb"
+      ],
+      "categoryItems": [
+        364444,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65188,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "969903",
+      "title": "Inboxfuscation: Out-of-the-Box Mailbox Obf{\\u}scation - Turning BEC into Business Email Chaos",
+      "description": "Email remains vital in most organizations, from user logins to daily business communications. Business Email Compromise (BEC) continues to threaten companies' operations as attackers disrupt communications, perform reconnaissance, or leverage this foothold as a springboard for targeting additional organizations.\r\n\r\nThis research shares examples of these common TTPs from first-hand attacks before exploring multiple categories of never-before-seen obfuscation techniques targeting Exchange mailboxes and their administration tools. These obfuscation categories begin with numerous undocumented functional tricks like null-character inbox rule names and single-space conditions that perform unexpected filtering while simultaneously breaking rule name-ID correlations in runtime logs relied upon for detections.\r\n\r\nWhile many homoglyph attacks rely on look-alike characters to evade visual analysis, we uncovered undocumented normalizations that transform visually bizarre, Unicode-laden keywords to ASCII counterparts while still logging as Unicode. We end with a vulnerability allowing email deletion while entirely bypassing all logging.\r\n\r\nFrom subscripts to symbols, come and **exchange** (ha!) everything you thought you'd seen about BEC attacks and experience the depths of evasion that our Inboxfuscation research and open-source tool can provide to offensive- and defensive-minded security professionals alike.",
+      "startsAt": "2025-10-18T15:00:00Z",
+      "endsAt": "2025-10-18T15:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "399a7662-e96b-4ca7-ae1d-4afd32e299f5"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65185,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "927234",
+      "title": "Spycraft 2.0: Hunting Dead Drops in Web Applications",
+      "description": "In classic espionage, spies often used “dead drops” to exchange information without direct contact. A message might be hidden in a public location, such as inside a hollow brick or under a park bench, allowing another agent to retrieve it later without raising suspicion. Modern malware has adopted a similar tactic. Instead of hardcoding Command and Control (C2) server addresses, attackers embed encrypted or obfuscated C2 locations inside public web applications like Dropbox, GitHub, and Pastebin. This technique, known as a dead drop resolver, allows malware to dynamically locate its C2 server and makes it easy for attackers to migrate infrastructure if a server is discovered or taken down. These digital dead drops are difficult to detect using traditional methods. A new analysis system helps uncover these hidden links at scale, revealing how malware families use this strategy and offering insight into how defenders can proactively identify and disrupt such covert channels.",
+      "startsAt": "2025-10-18T15:00:00Z",
+      "endsAt": "2025-10-18T15:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "35978bb8-c6b4-4b85-8d0f-4585755a8f1e"
+      ],
+      "categoryItems": [
+        364445,
+        363193
+      ],
+      "questionAnswers": [],
+      "roomId": 65186,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "950052",
+      "title": "The Human-AI Handshake: A Framework to Build Trust and Unlock Innovation in Modern Security Ops",
+      "description": "Michael August Raggi - Crowdstrike| Principal Response Specialist: https://www.linkedin.com/in/michael-august-raggi-532b3939/\r\n\r\nDescription:\r\nIn modern security operations it is the function of AI to automate the menial, not the meaningful!\r\n\r\nThe availability of generative AI in commercial cyber security operations has become widely available in the cybersecurity landscape. While the maturity of this tooling has led to an explosion of applications to increase efficiency, no clear playbook on how to deploy AI at scale to achieve the best outcomes for enterprise security and the human workforce has yet emerged. \r\n\r\nThis presentation proposes a framework for balancing efficiency gains (agentic AI), freeing up the workforce of analysts to use their creativity for innovation (generative. AI), and balancing the rate of adoption to achieve better outcomes without cultural resistance to AI slowing the impact that this tool can have. This framework seeks to unlock efficiency and enhance the creativity of analysts to explore work that provides meaningful innovation in enterprise security operations.",
+      "startsAt": "2025-10-18T15:00:00Z",
+      "endsAt": "2025-10-18T15:25:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "c8fd7977-2bfb-4864-a3e0-d0ade5955621"
+      ],
+      "categoryItems": [
+        364445,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65187,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "973866",
+      "title": "Essential Marketing for Cyber Founders",
+      "description": "Cybersecurity is a different beast. The buyers are technical, evasive, and not interested in BS. Therefore, the channels to reach your buyers are typically EXPENSIVE! \r\n\r\nJoin this talk to understand how to make your early-stage & startup budget go further with three levels of marketing:\r\n- Free & Self (how you as the founder can leverage yourself as the first marketer)\r\n- Cheap (it might not be $0 but it's close!)\r\n- Reasonable (where you can get 'bang for your buck') \r\n\r\nAs well as what to look out for so you don't burn your precious, limited marketing budget!",
+      "startsAt": "2025-10-18T15:00:00Z",
+      "endsAt": "2025-10-18T15:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "9ad48355-0e3b-4ec0-b584-8bcf64430ddc"
+      ],
+      "categoryItems": [
+        364444,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65188,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "978891",
+      "title": "SpyMax - Mobile Malware On The Frontlines of Syria's Civil War",
+      "description": "How did a piece of malware play a pivotal role in the final moments of the Syrian civil war? This session seeks to examine that question as well as unearth the technical nature and history of such a tool.\r\n\r\nTo understand how cyber warfare is shaping global conflicts, we need to understand the tools behind it. ",
+      "startsAt": "2025-10-18T15:30:00Z",
+      "endsAt": "2025-10-18T15:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "6a88ca09-cc65-4e76-9b36-cb5eed46edb0"
+      ],
+      "categoryItems": [
+        364445,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65187,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "976932",
+      "title": "Gridlock:  The Dual-Edged Sword of EV and Solar APIs in Grid Security",
+      "description": "In this talk, we delve deep into the increasingly interconnected world of electronic vehicles (EVs), photovoltaic (PV) solar systems, and the broader power grid infrastructure—a nexus that is becoming a fertile ground for potential large-scale cyber disruptions. As we navigate through this complex interplay of technology and infrastructure, we will uncover the critical vulnerabilities lurking within the API connections that bind these systems together. Our exploration will not only highlight these weaknesses but will also demonstrate, through real-world scenarios and potential attack vectors, how they can be exploited to launch sophisticated cyber-attacks, emphasizing the urgent need for robust security frameworks and proactive cybersecurity measures to safeguard our collective future.\r\nThe advent of PV inverters and EV charging systems has been marred by the industry's \"rush to market\" mentality, leading to overlooked security considerations. These critical weaknesses potentially allow remote attackers unprecedented control, with the ability to fully commandeer or even incapacitate these devices. Our investigation will reveal how targeting cloud platforms used by installers could unlock elevated access not just to PV inverters but also to EV chargers. This access includes functionalities usually restricted from the systems' proprietors, thereby opening a pandora's box of vulnerabilities.",
+      "startsAt": "2025-10-18T16:00:00Z",
+      "endsAt": "2025-10-18T16:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "a5950a64-a289-47f4-88c6-fd75020fae38"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65185,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "978537",
+      "title": "Unseen in the Stack: Mapping Hidden Java Dependencies for Real-World Defense",
+      "description": "Modern Java applications often include dependencies that aren't declared, aren't visible, and aren't scanned. Through shading, repackaging, and renaming, vulnerable libraries can hide inside legitimate artifacts, rendering traditional SCA tools blind to real risk. These hidden dependencies are increasingly common in enterprise code, but rarely discussed or addressed systematically.\r\n\r\nThis talk presents research on how shaded and repackaged libraries propagate in the wild, based on analysis of real Maven repositories and build artifacts. We’ll share anonymized examples of hidden vulnerability paths, show how they evade detection, and propose a repeatable methodology for defenders to uncover and address them. You’ll learn techniques like bytecode fingerprinting, call graph analysis, and symbol introspection that can turn opaque artifacts into observable objects without relying on vendor tooling or runtime agents.\r\n\r\nIf you’ve ever been surprised by a vulnerability in a dependency you didn’t know you had, this talk is for you.",
+      "startsAt": "2025-10-18T16:00:00Z",
+      "endsAt": "2025-10-18T16:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "3417e590-7039-4177-ad04-e2ace08520f0"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65186,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "975803",
+      "title": "Deconstructing LightSpy's True Scale: 70-Plugin Framework, Router Infections, Live Operator Panels,",
+      "description": "Deconstructing LightSpy's True Scale: 70-Plugin Framework, Router Infections, Live Operator Panels, and Commercial Cover\r\n\r\nLightSpy operates as a continuously developed surveillance platform with 70+ plugins targeting iOS, Android, macOS, Windows, Linux, and routers. Through SSL certificate fingerprint pivoting, we expanded one known C2 into a 22-server infrastructure spanning AWS Seoul, Google Cloud US, and Huawei Istanbul. Live C2 panel analysis revealed professional Vue.js applications with 56 JavaScript modules, role-based operator authentication (/***/home/phones), and victim management displaying \"implanted phones\" statistics. We discovered active router compromises: in South Africa and Czech Republic to Turkish infrastructure. Recent plugin additions include social media database extractors, Windows keyloggers, and iOS destructive modules preventing device boot. Attribution traces to operators using Chinese mapping services (webapi.amap.com) while operating under legitimate business registration. This research demonstrates certificate-based infrastructure mapping, exposes router infected operations, and reveals the commercialization of state-level surveillance capabilities.",
+      "startsAt": "2025-10-18T16:00:00Z",
+      "endsAt": "2025-10-18T16:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "af17855c-704e-4c95-94ca-65d9727a4b35",
+        "19b9e041-0531-4c14-9016-7c996f509e9e"
+      ],
+      "categoryItems": [
+        364445,
+        363192
+      ],
+      "questionAnswers": [],
+      "roomId": 65187,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "912916",
+      "title": "They Don’t Want to Talk to Sales—So Let the Community Sell for You",
+      "description": "Today’s buyers are 70% of the way through their purchasing process before they ever reach out to sales. They’re comparing notes in Slack groups, lurking in Reddit threads, and following peers- not filling out demo forms. So if your growth strategy starts with “Talk to Sales,” you’ve already lost.\r\n\r\nThis session will explore how startups can turn community into a core GTM motion- one that builds trust, accelerates deals, and lowers CAC. You’ll learn how to design a community that drives real business value by activating power users, surfacing product validation, and creating an environment where your customers do the selling for you.\r\n\r\nWe’ll walk through actionable frameworks, real examples, and the metrics that matter when aligning community with your growth strategy.\r\n\r\nWho it’s for: Founders, GTM leaders, and community builders looking for a smarter path to scale- one that matches how people actually buy today.",
+      "startsAt": "2025-10-18T16:00:00Z",
+      "endsAt": "2025-10-18T16:25:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "ec54f6be-e295-4ced-b06e-ef94ce4c11f5"
+      ],
+      "categoryItems": [
+        364444,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65188,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "963799",
+      "title": "Mastering OWASP Amass v5.0",
+      "description": "OWASP Amass has long been recognized as a leading open source tool for performing network reconnaissance and external asset discovery. With the release of version 5.0, the project has taken a major leap forward, transitioning from a purely scanning and enumeration tool to a robust, graph-powered asset intelligence framework. This two-hour hands-on workshop introduces attendees to the groundbreaking advancements in Amass v5.0, particularly focusing on the new Open Asset Model, the internal asset database, and the powerful assoc command-line utility that enables graph-based querying and exploration through the use of custom Triples.\r\n\r\nThis workshop is designed for security professionals, bug bounty hunters, red team operators, and researchers who want to gain a competitive edge by using advanced tooling for external asset discovery and reconnaissance. Attendees will leave with a deep understanding of how Amass stores and structures asset intelligence, how to query this information meaningfully, and how to extract high-value insights through a declarative graph traversal interface.\r\n\r\nThis is not just an upgrade; it is a reinvention of Amass for the next generation of OSINT practitioners. Join us for a deep dive into the Amass Open Asset Model and learn how to supercharge your reconnaissance with graph-based discovery.",
+      "startsAt": "2025-10-18T16:00:00Z",
+      "endsAt": "2025-10-18T16:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "b96f8019-c95c-4760-a32d-9b5811ab8e9a"
+      ],
+      "categoryItems": [
+        364443,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65189,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "972893",
+      "title": "How to Create Deep Partnerships with Technical Teams: Sales Engineering Lessons Learned",
+      "description": "Security teams often view vendors and Sales Engineers with skepticism—and for good reason. Yet when done right, technical vendor partnerships can accelerate your security goals rather than drain your time and budget. \r\n\r\nAs a Sales Engineer working with technical teams across industries, I’ve learned what builds trust, what kills it, and how to create deep, outcomes-focused partnerships that truly help security teams. In this talk, I’ll share lessons on building effective partnerships between SEs and security teams, covering technical credibility, radical transparency, aligning on shared success metrics so POCs and deployments don’t fail, and strategies for consistent, meaningful communication.",
+      "startsAt": "2025-10-18T16:30:00Z",
+      "endsAt": "2025-10-18T16:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "ac4229ed-87ed-41fe-9e1c-7ca47e73062c"
+      ],
+      "categoryItems": [
+        364444,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65188,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "969911",
+      "title": "When the Shadow Crosses Over",
+      "description": "This session provides a technical overview of Remote Desktop shadowing in Windows environments. We will begin by reviewing prior research on how shadowing is enabled and used via Microsoft-provided binaries. We will then take a broader look at Remote Assistance to understand how it differs from shadowing.\r\n\r\nFinally, we will explore how the same functionality can now be achieved from a Linux or macOS system using existing open-source projects—simplifying testing workflows by removing the need for a dedicated Windows VM, intermediate access paths, or additional tooling.",
+      "startsAt": "2025-10-18T17:00:00Z",
+      "endsAt": "2025-10-18T17:25:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "6a2ff312-c067-4f37-963c-9e2df602b018"
+      ],
+      "categoryItems": [
+        364445,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65185,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "970029",
+      "title": "Using Volatility 3 to Detect Sophisticated Malware",
+      "description": "Volatility 3 is the latest version of the Volatility Memory Analysis framework, which has been the most widely used open-source framework for memory forensics since its creation in 2007. This new version of the framework is a complete rewrite starting from the first line of code. In this presentation, attendees will learn about Volatility 3’s new features while also seeing how many brand-new plugins can be used to detect a wide range of sophisticated, modern malware. This will include detection of the techniques currently deployed by ransomware and APT groups to evade EDR detection, inject code in a stealthy manner, and perform lateral movement. Attendees will leave understanding how to detect modern malware and attacker toolkits along with how to integrate Volatility 3 and its new features into detection workflows suitable for production use.",
+      "startsAt": "2025-10-18T17:00:00Z",
+      "endsAt": "2025-10-18T17:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "4e0fbb38-70ee-4002-8d2c-fb7ad256d41b"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65186,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "973846",
+      "title": "Living off the (land)cloud: Scattered Spider and the cloud control plane",
+      "description": "Scattered Spider has escalated its exploits in 2025, expanding beyond telcos to target enterprises across industry verticals. After gaining initial access through social engineering, the threat group is increasingly targeting cloud workloads, to elevate permissions for lateral movement. Attacks targeting the cloud control plane, focused on the IAM service, provide the attacker access to high-value assets and sensitive data. These attacks, known as Living off the Cloud attacks, avoid malware and leverage built-in cloud primitives for offensive activity.\r\n\r\nThis session focuses on identity exploits as part of the overall attack lifecycle of Scattered Spider. Through real-world attack demonstrations and analysis, the session outlines the stealthy enumeration tactics to identify privileged identities, IAM-specific exploits to elevate permissions, and lateral movement. \r\n\r\nThe session covers the defender’s perspective, what makes detection challenging as attackers pivot across control and data planes, and provides a practitioner’s learnings on countermeasures to defend against cloud identity exploits. ",
+      "startsAt": "2025-10-18T17:00:00Z",
+      "endsAt": "2025-10-18T17:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "06936c15-94ba-4ff3-97e5-e1612e02e768"
+      ],
+      "categoryItems": [
+        364445,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65187,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "923248",
+      "title": "Trust at Scale: Lessons Learned from a Decade of Engineering for Identity",
+      "description": "What does it take to build a security product that millions trust with their most sensitive information? Over the past decade, I have worked as the CTO at Dashlane, on a journey from a consumer password manager to a B2B identity security platform. It has been rich with breakthroughs—and equally rich with mistakes. In this talk, I will share stories from the trenches: the architectural decisions that shaped (and sometimes constrained) the product, the unseen costs of early technical debt, the real-world impact of evolving encryption standards, and how user expectations forced innovation in usability without compromising security.\r\nI will map key technical milestones to business and product shifts, illustrating how scaling trust isn't just about technology—it's about culture, trade-offs, and relentless adaptation.\r\nAttendees will walk away with practical insights into building secure-by-design systems, navigating B2C and B2B pivots, and leading engineering and security teams through constant change in the unforgiving identity security space.",
+      "startsAt": "2025-10-18T17:00:00Z",
+      "endsAt": "2025-10-18T17:25:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "1b9b2d39-c8fd-4579-a796-97929edc2373"
+      ],
+      "categoryItems": [
+        364444,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65188,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "960582",
+      "title": "Atomic Red Team 101",
+      "description": "Red Canary will be presenting a 2-hour workshop on the Atomic Red Team open-source project. This workshop will explore how Atomic Red Team testing can be used to emulate threats, validate security controls and improve overall security. Attendees will go hands on with Atomic Red Team, using the Invoke-Atomic test harness, crafting emulation plans and working through incorporating regular atomic testing in their own environment.\r\n\r\nThe Atomic Red Team 101 Workshop will focus on the following: \r\n\r\n- Overview of Atomic Red Team (ART)\r\n- MITRE ATT&CK Framework and Threat Emulation\r\n- Configuring a Windows testing environment\r\n- Atomic Red Team and Invoke-Atomic installation\r\n- Crafting a Ransomware Threat Emulation plan\r\n- Detection and Response Validation\r\n\r\nAttendees will be given a cloud-based lab environment in which to work through the extensive hands-on portion along with a lab manual and slide deck for future reference. ",
+      "startsAt": "2025-10-18T17:00:00Z",
+      "endsAt": "2025-10-18T18:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "93e69f85-5d57-4200-9605-7f9a03c7eb25",
+        "d752368f-d62a-47b0-b842-20103bb060e4"
+      ],
+      "categoryItems": [
+        364443,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65189,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "974292",
+      "title": "Trust the Model? Weaponizing Windows AI for Payload Staging",
+      "description": "This talk explores how attackers can stage and execute payloads using Microsoft’s native AI stack specifically the Windows.AI.MachineLearning (WinML) API built into Windows 10/11. By embedding data inside ONNX model metadata or tensor fields, an attacker can deliver payloads through models that appear benign to both users and security tools.\r\n\r\nI will demonstrate how to abuse LearningModel::LoadFromFilePath() and model.Metadata() to extract and run payloads from simple file creation to full in-memory shellcode execution using only Microsoft-signed AI components and standard Windows APIs like CreateFileW and VirtualAlloc.\r\n\r\nThe payload travels inside a model and inference itself becomes the loader. I will present a working PoC, discuss where ML pipelines intersect with trusted execution, and explore how defenders can detect and mitigate AI-layer abuse.\r\n\r\nAttendees will leave with new insight into abusing and defending ML surfaces on Windows, including tooling, TTPs, and what to log when AI models become malicious.",
+      "startsAt": "2025-10-18T17:30:00Z",
+      "endsAt": "2025-10-18T17:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "d3618e39-6e7e-47a3-965f-b2863cac6e83"
+      ],
+      "categoryItems": [
+        364445,
+        363192
+      ],
+      "questionAnswers": [],
+      "roomId": 65185,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "913058",
+      "title": "Building a security startup as an outsider",
+      "description": "In an industry dominated by security veterans and technical specialists, Leen (our startup) took an unconventional path. This talk reveals how two non-security professionals joined forces with one security expert to create a company that's challenging industry norms. We'll share how our backgrounds in food delivery, consumer/B2B SaaS, and venture capital equipped us with fresh perspectives on persistent security challenges.\r\n\r\nLearn how we've applied lessons from consumer-focused industries to security, prioritizing design thinking, compelling marketing narratives, and content-driven growth strategies that traditional security vendors often overlook. We'll discuss how our 'outsider' status became our greatest advantage, enabling us to question established approaches and build solutions that resonate with both technical and non-technical stakeholders.\r\n\r\nThis session offers practical insights for aspiring founders without traditional security credentials, established security professionals seeking fresh GTM approaches, and anyone interested in how cross-industry experience can drive innovation in specialized technical fields.",
+      "startsAt": "2025-10-18T17:30:00Z",
+      "endsAt": "2025-10-18T17:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "3f0c79be-0b39-4959-bfd8-b42a31ecc589"
+      ],
+      "categoryItems": [
+        364444,
+        363192
+      ],
+      "questionAnswers": [],
+      "roomId": 65188,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "974971",
+      "title": "From pocket to Pwn: How we hacked a multinational corp for $200 with whats in our pockets",
+      "description": "Not all Red Team engagements are spearphish > mimikatz > profit. If nothing else, this talk proves that some jobs still involve crawling around car parks at night and hiding in bushes with a high gain antenna to gain your objective.\r\n\r\nTraditionally, cyber incidents and Red Team operations focus on compromising Windows devices as an initial infection vector but for modern cloud native companies, this approach simply doesn’t work.\r\n\r\nIn this talk, we will explore how we compromised an Electric Vehicle to infiltrate a corporate Smartphone, leveraging legitimate applications and protocols to move laterally and achieve full compromise of the environment.\r\n\r\nWe will demonstrate the chaining of low code (and in some cases ancient techniques), abstract attack vectors targeting atypical devices and platforms and the abuse of protocols and inbuilt applications to conduct a full scale breach of the environment.\r\n",
+      "startsAt": "2025-10-18T18:00:00Z",
+      "endsAt": "2025-10-18T18:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "77a78fa6-a095-4878-9ea7-720834b27058"
+      ],
+      "categoryItems": [
+        364445,
+        363192
+      ],
+      "questionAnswers": [],
+      "roomId": 65185,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "975759",
+      "title": "The Log Rings Don’t Lie: Historical Enumeration in Plain Sight",
+      "description": "Logs keep a lot of data. Most of them are events, but events have other data in them. Source IP, Source Identity, Target Resource, User Agent, Request and Response Parameters, etc. Which one of them are important? All of them of course. Logs are important to a defender. And they are a needle in the foot of the attacker. But why do they have to be? Why can't the attacker actually profit from logs? What if the attacker can achieve enumeration, C2 capabilities, exfiltration, download through logs? \r\nThis presentation will go through actually that. How can an attacker utilize Logs to attack a Cloud Infrastructure.",
+      "startsAt": "2025-10-18T18:00:00Z",
+      "endsAt": "2025-10-18T18:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "6663fe1d-b418-443c-8b1c-f2bf8bf7c8cd"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65186,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "978489",
+      "title": "The History of Malware: From Floppies to Droppers",
+      "description": "Modern malware, such as ransomware, has become synonymous with some of the most devastating cyber attacks of our time.. But it hasn't always been so. Not too long ago, malware was considered a myth. The first ransomware, for example, was created over 30 years ago as a wild scheme, devised by a man armed with 10,000 floppy disks and a virus. Since then, malware has evolved in many different ways, as technology changes and evolves. Looking back and analyzing this history gives us an unusual perspective- what elements of malware have changed throughout the years, and what has remained consistent? How has this evolved into the most impactful form of cybercrime today, and what can this surprising, untold history teach us about our present and future?",
+      "startsAt": "2025-10-18T18:00:00Z",
+      "endsAt": "2025-10-18T18:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "cfc6d91c-7474-4a6d-83c0-14a0d7d3ec78"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65187,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "978657",
+      "title": "When Build vs Buy Is Rigged: Selling to Enterprises That Prefer Building In-House",
+      "description": "In security, the real competition isn’t other vendors. It’s their in-house script written by a staff engineer who left the company in 2018. Some security teams would spend 6 months building a brittle, undocumented internal tool just to avoid 3 weeks time in procurement. It is a trust, ego, and culture problem. In this talk, I’ll share hard-earned lessons as a repeat founder, navigating procurement barriers in FinTech, HealthTech, and media companies. We’ll unpack the psychology of in-house builders, how to earn trust without selling FUD, and how to become the tool they wish they had built.",
+      "startsAt": "2025-10-18T18:00:00Z",
+      "endsAt": "2025-10-18T18:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "a30e285f-ab11-4e31-887d-d7925b83e30f"
+      ],
+      "categoryItems": [
+        364444,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65188,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "966181",
+      "title": "Inside Ransomware: Facts and Findings from the Blackbasta and Lockbit Leaks",
+      "description": "When an anonymous actor calling themselves “ExploitWhispers” posted nearly a year’s worth of BlackBasta’s internal Matrix chats in February 2025, the industry received an unfiltered window into the criminal enterprise behind dozens of high-profile intrusions.\r\n\r\nTwelve weeks later, a separate breach dumped the entire MySQL backend of LockBit’s affiliate panel. 20 tables covering build pipelines, negotiation transcripts, and cryptocurrency payout data were released onto public code-sharing sites with a Tor-site defacement confirming the compromise. Together these disclosures offer something incident responders rarely get: the attackers own words, workflows, and source artifacts.\r\n\r\nIn this talk we will take a deep dive into those data sets—walking through the process of parsing thousands of lines of attacker conversations, configuration files, and build logs to surface the tactics, techniques, and procedures (TTPs) that drive day-to-day ransomware operations.\r\n\r\nThis talk will focus on the approach for processing these large data sets, how affiliate recruitment, initial access, payload testing, negotiation, and cash-out weave together into a repeatable playbook, and the CI/CD build pipelines which allow for rapid development and deployment of malicious payloads.\r\n\r\nAttendees will leave with a comprehensive understanding of how ransomware crews operate, insights into their financial gains, and the underlying motivations that drive their activities.\r\n",
+      "startsAt": "2025-10-18T19:00:00Z",
+      "endsAt": "2025-10-18T19:25:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "87933d1f-1ba7-4b86-8e22-5ade5cbf95a5"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65185,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "973061",
+      "title": "P0LR Espresso - Pulling Shots of Cloud Live Response & Advanced Analysis",
+      "description": "In today’s detection landscape, defenders are overwhelmed by dashboards and visualizations that are often aesthetically pleasing but lack actionable insight. These tools rarely answer the core question: Is this identity compromised?\r\n\r\nP0LR Espresso, from name itself, lets you understand, that this tool is meant to be cold and direct. Like Espresso (Itl. Esprimere) ~ Press Out/Squeeze, P0LR Espresso, presses out and squeezes threats from a bunch of noisy logs across multiple cloud integrations (PaaS, IdP and SaaS) and brings them in front of our eyes using meaningful and clear visualizations! This tool has multi-cloud integration capabilities, normalizes field names, saving defender’s time trying to understand each integration’s structure, together with Live Response and Detection capabilities, which also makes it possible to create detections in real time and scan your logs in search for evil.\r\n\r\nP0LR Espresso empowers threat hunters, detection engineers, and incident responders to rapidly uncover an identity’s activity timeline, detect behavioral shifts, and pinpoint suspicious activity. With built-in detection capabilities, it’s especially effective when rapidly scanning normalized logs for known IOCs, triggering alerts on suspicious patterns, and jumpstarting investigations in high-pressure scenarios.\r\n\r\nCome pull up a chair and let us pull you a shot of P0LR Espresso - putting the \"express\" in Live Response for combatting cloud-focused threats.",
+      "startsAt": "2025-10-18T19:00:00Z",
+      "endsAt": "2025-10-18T19:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "c2c5e099-3073-4f92-bf4a-b4a2fd010e3a"
+      ],
+      "categoryItems": [
+        364445,
+        363193
+      ],
+      "questionAnswers": [],
+      "roomId": 65186,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "948627",
+      "title": "The Allure of Go's Cross-Platform Capability: A Gateway for Threat Actors to Mac and Linux",
+      "description": "Go-Based Malware Targeting Mac and Linux Systems\r\nThis paper examines how malware authors leverage Go's cross-platform capabilities to target Mac and Linux systems, exploring unique attributes, detection challenges, and hunting strategies for this growing threat vector.\r\n\r\nKey Focus Areas:\r\nCross-Platform Variations: Go malware optimized for Mac and Linux shows distinct attributes across families. Examples include DragonFly APT's backdoors and BlackCat/ALPHV's ransomware implementations.\r\n\r\nDetection Challenges: Go's compilation characteristics create substantial detection hurdles on non-Windows platforms, with a 43% increase in detection difficulty versus traditional malware.\r\n\r\nReverse Engineering: Analysis of Go-based malware requires specialized approaches to overcome Go-specific obfuscation. Groups like Lazarus and APT29 increasingly use Go for its resistance to reverse engineering.\r\n\r\nHunting Strategies: Effective identification requires specialized approaches leveraging threat intelligence and IoCs. Go-based malware targeting Mac/Linux has increased 267% in 18 months.\r\n\r\nFuture Trends: Go-based malware now represents 11.8% of all new malware (up from 4.3% in 2021). Sophisticated actors including TeamTNT, SideWinder APT, and ransomware operations increasingly adopt Go to expand beyond Windows environments.\r\n\r\nThis research highlights an emerging threat exploiting Go's advantages to target previously underrepresented platforms in the malware landscape.",
+      "startsAt": "2025-10-18T19:00:00Z",
+      "endsAt": "2025-10-18T19:25:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "9509abd7-9f96-46a5-93d9-cd69496826f1"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65187,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "978715",
+      "title": "Rebooting the cyber arsenal of democracy",
+      "description": "Starting a cybersecurity company has never been easier - and yet, never more brutally competitive. With the explosion of AI tools, the collapse of traditional GTM tactics, and VC capital tightening across the board, today’s founder must be faster, leaner, and more resilient than ever.\r\n\r\nEric Foster has been part of building and exiting multiple successful security companies, including RiskIQ (acquired by Microsoft) and Cyderes (acquired by private equity). Today, he’s building TENEX.AI - an AI security company backed by Andreessen Horowitz (a16z) - and he’s doing it in the crucible of rising threats, shifting platform power, and a rapidly evolving venture market.\r\n\r\nIn this no-BS, field-tested talk, Eric shares what he’s learned across his arc: what it really takes to start a security company in 2025, how to raise venture capital from the right partners (and avoid the wrong ones), how to and not to be successful at the most challenging aspect of starting a company (GTM) - and why the next generation of cybersecurity leadership has a moral imperative to rebuild the digital arsenal of democracy. This isn’t theory. It’s war stories, scar tissue, and tactical playbooks - straight from the front lines.\r\n\r\nFounders, operators, and future entrepreneurs: if you’re thinking about building in security, this is the session you can’t afford to miss.",
+      "startsAt": "2025-10-18T19:00:00Z",
+      "endsAt": "2025-10-18T19:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "bbfd0a29-4fb2-4797-b871-f53693fbd4b4"
+      ],
+      "categoryItems": [
+        364444,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65188,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "973785",
+      "title": "Interactive Networking Fingerprinting Walktrough",
+      "description": "The goal of this interactive workshop is to equip participants with a hands‑on understanding of modern passive network fingerprinting techniques - JA3, JA3N, JA4, p0f and MuonFP - and the ability to generate, interpret and apply these fingerprints in real‑world defensive workflows.\r\n\r\nKey Takeaways:\r\nUnderstanding the Evolution of Fingerprinting: Why we moved from p0f to MuonFP and from JA3 to JA4.\r\nHands-on capturing fingerprints: generating JA3/JA4/p0f/MuonFP fingerprints.\r\nUnderstanding the limitations of fingerprints.",
+      "startsAt": "2025-10-18T19:00:00Z",
+      "endsAt": "2025-10-18T20:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "846dc842-9cee-4830-b9f8-f09be7285b44"
+      ],
+      "categoryItems": [
+        364443,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65189,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "965721",
+      "title": "Inside Cloud Attack Paths: End-to-End Adversary Simulation",
+      "description": "Adversaries map and navigate cloud attack paths by chaining misconfigurations, over-privileged principals, and exposed secrets in pursuit of privilege escalation and broader objectives. In this talk, we explore core attack primitives in Azure, Entra ID, and Microsoft 365, demonstrate how to simulate end-to-end attack chains, and analyze the resulting telemetry to uncover the traces these attacks leave behind.",
+      "startsAt": "2025-10-18T19:30:00Z",
+      "endsAt": "2025-10-18T19:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "0487a7fc-f25d-4821-856c-95b75262b7f0"
+      ],
+      "categoryItems": [
+        364445,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65185,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "938156",
+      "title": "Sniffing Out Cert Abuse: A Dogged Approach to ESC Remediation",
+      "description": "Active Directory Certificate Services (ADCS) have become a critical yet often overlooked attack vector in enterprise environments. Following the high-profile \"Certified Pre-Owned\" research, organizations are increasingly seeking pragmatic approaches to remediate certificate-based privilege escalation vulnerabilities (ESC1–ESC8).\r\n\r\nThis session introduces a structured approach to ADCS security using BloodHound Enterprise. ADCS remediation empowers security teams to identify, prioritize, and remediate ESC paths. Attendees will learn how this methodology integrates attack path analysis, strategic remediation planning, and validation to reduce real-world risk.",
+      "startsAt": "2025-10-18T19:30:00Z",
+      "endsAt": "2025-10-18T19:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "2c6ef5fd-5d33-41a7-8a73-1635385b391e"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65187,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "948011",
+      "title": "Hidden Payloads: Advanced Malware Exploitation via PDF Files",
+      "description": "This is a hands-on presentation that will guide you through the world of PDF exploitation, showcasing how this ubiquitous document format can serve as a vessel for malicious JavaScript malware. Dive into real-world vulnerabilities that have been leveraged to execute harmful code directly through PDF files—posing major threats in today's cybersecurity landscape.\r\n\r\nKey exploit techniques explored will include:\r\n\r\nHeap Spray Attacks: Gain insight into how attackers use shellcode to overwrite memory, enabling arbitrary code execution and sys­tem compromise.\r\nData Exfiltration Tactics: Discover methods for covertly extracting sensitive data, such as email addresses and system information, from unsuspecting users.\r\nEmbedding Malware in PDFs: Learn how adversaries embed malicious scripts within PDF files, tricking users into triggering exploits in Adobe Reader through typical file interactions.\r\nWe'll dissect techniques including shellcode injection, buffer overflow attacks, Adobe Reader exploitation, and memory manipulation—each engineered to deliver and execute malware efficiently.\r\n\r\nThis session is ideal for offensive security professionals, penetration testers, and threat emulation experts seeking to elevate their understanding of PDF-based threats and enhance their testing skills. \r\n\r\nMore information about the presentation can be found in this article: https://labs.segura.blog/unmasking-the-threat-a-deep-dive-into-the-pdf-malicious-2/",
+      "startsAt": "2025-10-18T20:00:00Z",
+      "endsAt": "2025-10-18T20:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "e0ec5130-2811-4426-833e-17a29010269b"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65185,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "955799",
+      "title": "Contribute to Learn: Building DFIR Expertise Through Open Source",
+      "description": "The best way to learn digital forensics and incident response (DFIR) isn’t just by reading books or watching videos—it’s by doing. Contributing to open-source DFIR tools like KAPE and Velociraptor offers a hands-on, real-world way to build, apply, and deepen your technical knowledge.\r\n\r\nIn this talk, we’ll explore how contributing—whether through writing code, testing artifacts, improving documentation, or validating forensic results—forces you to engage critically with data structures, logs, operating system internals, and investigative workflows. I’ll share practical examples of how even small contributions can lead to big “a-ha” moments, demystify what it’s like to get started in open source, and show how this process naturally reinforces and expands your DFIR skillset.\r\n\r\nBut the benefits go beyond just technical skill. Open-source work also connects you with a global community of practitioners, tool authors, and potential mentors. Contributing is a powerful way to get your name out there, receive feedback, and become part of the broader DFIR conversation through active participation.\r\n\r\nIf you're looking to level up your skills, grow your network, and learn by doing, this talk will show you how the path to deeper DFIR knowledge might just start with a pull request.",
+      "startsAt": "2025-10-18T20:00:00Z",
+      "endsAt": "2025-10-18T20:25:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "008be559-299d-4d2f-975f-944e98de761b"
+      ],
+      "categoryItems": [
+        364445,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65186,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "959221",
+      "title": "Breaking the Mobile Log Analysis Barrier with AI",
+      "description": "Mobile security teams face overwhelming volumes of device logs during incident response, malware investigations, and vulnerability hunting. Traditional manual analysis of these logs can take security experts hours or days per device, creating significant bottlenecks, further compounded by the scarcity of specialized mobile security expertise. A forensic analysis framework leveraging traditional natural language processing approaches, along with large language models, can automatically analyze Android bug reports and Apple iOS unified logs at scale. This approach transforms complex, unstructured technical data into clear, comprehensible insights that reveal the complete security narrative of a device. By automatically connecting seemingly disparate events into coherent timelines, the methodology identifies critical security issues across device logs in minutes rather than days. The result is an immediate democratization of mobile forensics insights–anyone can understand what’s happening on their device, from security professionals to end users with no specialized mobile operating system knowledge. Importantly, all analysis is performed within a secure, controlled environment using privacy-preserving techniques that maintain data confidentiality. Through real-world case studies, this presentation will demonstrate how this approach fundamentally transforms mobile security operations by revealing hidden threats while making complex technical findings universally accessible.",
+      "startsAt": "2025-10-18T20:00:00Z",
+      "endsAt": "2025-10-18T20:25:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "c0fa1b7e-7df5-4232-88b5-0243be464594"
+      ],
+      "categoryItems": [
+        364445,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65187,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "978988",
+      "title": "Why Being A Great Technologist May Not Make You A Great CEO (And How To Bridge The Gap)",
+      "description": "Technical excellence and business leadership don’t always optimize for the same outcomes. While engineers and software architects often seek elegant solutions and innovation, CEOs are prioritizing customers' needs and time-to-market. Enterprise buyers are often willing to accept an imperfect solution, as long as it works and it’s available right now.\r\n\r\nIn this talk, SixMap CEO Jason Kaplan will discuss why great technologists don’t automatically make great CEOs. Technologists can of course become outstanding CEOs but, like anything else in life, becoming a great business leader requires time, effort, and lots of learning (usually the hard way).\r\n\r\nJason will share some of the lessons he’s learned along the way of his 27 year career to help technologists mature into more effective CEOs. The focus will be on the areas that technologists often find most challenging: building teams and managing people, communicating to executives, making fast decisions with lots of uncertainty, and balancing the tradeoffs between product development and time-to-market. \r\n\r\nUltimately, success in cybersecurity entrepreneurship isn't about having the perfect plan—it's about surviving the chaos long enough to figure out a plan that works.\r\n",
+      "startsAt": "2025-10-18T20:00:00Z",
+      "endsAt": "2025-10-18T20:25:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "e6f15399-4211-49f6-b5fc-477ea1a81d61"
+      ],
+      "categoryItems": [
+        364444,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65188,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "932290",
+      "title": "Slaying Hidden Threats in Residential (and Mobile!) IP Proxies",
+      "description": "Residential proxies are the weapon of choice for bot bypassing defenses by mimicking legit traffic. This talk unpacks how machine learning can expose and mitigate these threats at scale. Expect actionable insights for improving detections while minimizing false positives.",
+      "startsAt": "2025-10-18T20:30:00Z",
+      "endsAt": "2025-10-18T20:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "f40b7f19-6bb0-4201-93c9-1d3ecc89ba33"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65186,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "974691",
+      "title": "Beyond Vibe Coding: Building Reliable AI AppSec Tools",
+      "description": "As organizations explore AI automation for AppSec, ensuring reliable and trustworthy output becomes critical. This talk examines practical challenges in building AI systems that can consistently interpret security requirements, process engineering documentation, and produce high quality threat models and code scanning results. \r\n\r\nWe'll explore technical approaches to prevent hallucinations, handle conflicting documentation, normalize AI outputs, and validate assessments against established policies. Drawing from real-world implementation experience, we'll share key patterns for building robust security automation systems that maintain high accuracy while scaling across engineering organizations.",
+      "startsAt": "2025-10-18T20:30:00Z",
+      "endsAt": "2025-10-18T20:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "5801f67d-61e3-4123-8722-e3358716784c"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65187,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "978744",
+      "title": "From CISA to Starting Up: Shifting Secure by Design at Scale",
+      "description": "How do you shift an entire industry? This talk explores my journey from leading the Secure by Design initiative at CISA to founding Corridor, an AI assistant for product security teams. This work stems from the core realization that most cyberattacks are preventable—not because we need better defenders, but because software is still shipped insecure by default. Software companies have the ability to prevent entire classes of vulnerabilities, and addressing this is equal parts tech and policy.\r\n\r\nI’ll share lessons from the policy side – starting the Secure by Design pledge, writing legislation, and shaping executive orders; the business side – the process of starting a startup, fundraising, and finding product-market fit; and the technical side – how we use AI to understand entire codebases and aid product security teams with otherwise-manual workflows.",
+      "startsAt": "2025-10-18T20:30:00Z",
+      "endsAt": "2025-10-18T20:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "10bccb64-f2d5-4b48-ab9e-7b9300f6cb8a"
+      ],
+      "categoryItems": [
+        364444,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65188,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "953451",
+      "title": "Navigating the Virtualization Battlefield: A Deep Dive into Hypervisor Attack Vectors",
+      "description": "The intricate architecture of hypervisors, while providing remarkable flexibility and scalability for enterprise-level operations, also represents one of the most critical under-protected attack surfaces existing today. This concurrently introduces significant vulnerabilities that can be exploited by malicious actors. \r\n\r\nIn this session, Austin Gadient, CTO and Co-Founder of Vali Cyber, will walk through real-world attack vectors recently leveraged against VMware ESXi and similar virtualization platforms, including remote code execution, Active Directory misconfigurations, and credential-based intrusions. Drawing on lessons from incidents like the MGM and MITRE breaches, Austin will dissect how attackers gain footholds, pivot across virtual environments, and execute hypervisor-level ransomware. The session will conclude with actionable best practices for security leaders looking to harden their virtual infrastructure. \r\n\r\nThis talk is designed for technical audiences concerned with defending critical virtualization layers and aims to bridge the gap between vulnerability awareness and operational resilience.  ",
+      "startsAt": "2025-10-18T21:00:00Z",
+      "endsAt": "2025-10-18T21:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "eea66c6d-9f4d-475f-bf06-83f9628aa429"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65185,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "912218",
+      "title": "Tinker Tailor LLM Spy: Investigate & Respond to Attacks on GenAI Chatbots",
+      "description": "It’s coming, and you aren’t ready—your first generative AI chatbot incident. GenAI chatbots, leveraging LLMs, are revolutionizing customer engagement by providing real-time, automated 24/7 chat support. But when your company’s virtual agent starts responding inappropriately to requests and handing out customer PII to anyone that asks nicely, who are they going to call? You.\r\n\r\nYou’ve seen the cool prompt injection attack demos and may even be vaguely aware of preventions like LLM guardrails; but are you ready to investigate and respond when those preventions inevitably fail? Would you even know where to start? It’s time to connect traditional investigation and response procedures with the exciting new world of GenAI chatbots.\r\n\r\nIn this talk, you’ll learn how to investigate and respond to the unique threats targeting these systems. You’ll discover new methods for isolating attacks, gathering information, and getting to the root cause of an incident using AI defense tooling and LLM guardrails. You’ll come away from this talk with a playbook for investigating and responding to this new class of GenAI incidents and the preparation steps you’ll need to take before your company’s chatbot responses start going viral—for the wrong reasons.",
+      "startsAt": "2025-10-18T21:00:00Z",
+      "endsAt": "2025-10-18T21:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "d851ea44-704e-497f-983b-ff772abfd2b1"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65186,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "952049",
+      "title": "Cloud’s Dirty Little Secret: It Was Misconfigs All Along",
+      "description": "Everyone loves to chase the next big exploit, but here’s the truth: most cloud breaches don’t start with some elite APT magic — they start with someone leaving the front door wide open. Misconfigurations are the silent killer of cloud security, and they’re everywhere.\r\n\r\nAfter tearing down hundreds of Azure deployments across industries, I’ve seen the same screw-ups again and again — from Fortune 500s to scrappy startups. In this talk, I’ll walk through the most common cloud security faceplants, why they’re so easy to make (and miss), and how to actually fix them before someone else finds them first.\r\n\r\nIf you’ve ever wondered what cloud security looks like when it fails quietly, this is your wake-up call.",
+      "startsAt": "2025-10-18T21:00:00Z",
+      "endsAt": "2025-10-18T21:25:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "bb38f797-7c3c-48b0-a524-9f62d3238ac4"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65187,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "975666",
+      "title": "The Good Business: How to Bootstrap a Business to $10M and Beyond",
+      "description": "This talk is a transparent account of my attempt to build a “good business”—one that is both financially successful and deeply ethical. It’s a transparent account of our journey from starting with nothing to achieving over $10M in revenue, and it’s a guide for anyone seeking to create a business that stands for integrity, craftsmanship, and meaningful impact. By reflecting on our story, sharing hard-earned lessons, and offering a roadmap. \r\n\r\nI hope the audience will gain inspiration, clarity, and confidence to embark on their own entrepreneurial journey. They’ll find comfort in knowing that the road to success is long and challenging—but entirely possible. With a roadmap to avoid common pitfalls and the motivation to persevere, readers will feel equipped to build their own “good business,” grounded in purpose, integrity, and sustainable success.",
+      "startsAt": "2025-10-18T21:00:00Z",
+      "endsAt": "2025-10-18T21:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "d8135015-e868-4d2f-ab1a-c2efc3c71953"
+      ],
+      "categoryItems": [
+        364444,
+        363190
+      ],
+      "questionAnswers": [],
+      "roomId": 65188,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "978269",
+      "title": "Exploit Intelligence with Agentic AI: Patch What Matters",
+      "description": "If you’re tired of dashboards that label everything “critical,” come see how exploit-aware AI puts scarce remediation hours where they count.\r\n\r\nSecurity teams are drowning in vulnerability data while attackers automate exploit development and weaponization. Fixing everything is impossible; fixing what truly matters demands context: understanding not just CVSS math but whether a working exploit is circulating now, how that code path is used in your stack, and what blast-radius it creates for the business.\r\n\r\nThis talk shows how AI-native multi-agent systems can mine, reason over, and actionably surface exploit intelligence at machine speed. We trace the journey of how autonomous agents crawl exploit databases, KEVs, GitHub PoCs and correlate artefacts with call-graph and application context, providing a single enriched “fix-first” list your team can stomach.\r\n\r\nAttendees will learn:\r\n• How scoping of exploit maturity and organizational context can be automated with existing tools;\r\n• Design patterns for trustworthy agentic workflows (AI scaffolding, human-in-the-loop)\r\n• Metrics that prove noise reduction and dramatic days-to-patch gains.",
+      "startsAt": "2025-10-18T21:30:00Z",
+      "endsAt": "2025-10-18T21:55:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "50325dff-a8b3-4363-8f1d-29c8a0f647c6"
+      ],
+      "categoryItems": [
+        364445,
+        363191
+      ],
+      "questionAnswers": [],
+      "roomId": 65187,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1015362",
+      "title": "BSidesNYC 0x05 Closing Ceremonies",
+      "description": null,
+      "startsAt": "2025-10-18T22:00:00Z",
+      "endsAt": "2025-10-18T22:30:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "b224bc78-60f1-48a0-a536-a25dd2e3143c"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 65185,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    }
+  ],
+  "speakers": [
+    {
+      "id": "409fc819-cbf7-4caf-995c-84b3c2b5dcb3",
+      "firstName": "Alex",
+      "lastName": "Chantavy",
+      "bio": "Alex Chantavy is the co-founder and CEO of SubImage, a cloud security startup backed by Y Combinator. He is the co-creator of Cartography, a popular open-source security graph tool.\r\n\r\nIn prior roles, he architected and built Lyft's vulnerability management platform, led penetration tests for Microsoft's Red Team, and worked on [REDACTED] at the NSA.",
+      "tagLine": "Co-founder & CEO at SubImage",
+      "profilePicture": "https://sessionize.com/image/d5c6-400o400o1-Nym2vKU2xhyGME6vhd6t9M.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/alexchantavy",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/alexchantavy/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        978839
+      ],
+      "fullName": "Alex Chantavy",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "d851ea44-704e-497f-983b-ff772abfd2b1",
+      "firstName": "Allyn",
+      "lastName": "Stott",
+      "bio": "Allyn Stott is a senior staff engineer at Airbnb where he works on the InfoSec Technology Leadership team. He spends most of his time working on enterprise security, threat detection, and incident response. Over the past decade, he has built and led detection and response programs at companies including Delta Dental of California, MZ, and Palantir. Red team tears are his testimonials.\r\n\r\nAllyn has previously presented at Black Hat (Europe, Asia, MEA), Kernelcon, The Diana Initiative, Blue Team Con, Swiss Cyber Storm, SecretCon, Texas Cyber Summit, and BSides around the world. He received his Master’s in High Tech Crime Investigation from The George Washington University as part of the Department of Defense Information Assurance Scholarship Program.\r\n\r\nIn the late evenings, after his toddler ceases all antics for the day, Allyn writes a semi-regular, exclusive security newsletter that you can subscribe to at meoward.co.",
+      "tagLine": "Senior Staff Engineer, Airbnb",
+      "profilePicture": "https://sessionize.com/image/d8a4-400o400o1-3XJk32pAYv2wfDZYqKiQPn.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://twitter.com/whyallyn",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/whyallyn/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        912218
+      ],
+      "fullName": "Allyn Stott",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "a30e285f-ab11-4e31-887d-d7925b83e30f",
+      "firstName": "Amir",
+      "lastName": "Kavousian",
+      "bio": "Amir Kavousian is a two-time cybersecurity founder and the CEO of DevArmor, an AI-native platform reinventing threat modeling and security design reviews for the AI era. Previously, he was co-founder and CTO of Altitude Networks (acquired by CoinList), where he led engineering and security for Fortune 500 clients. He also led engineering teams at Capital One and holds a PhD in Engineering from Stanford.\r\n\r\nAt DevArmor, Amir is tackling one of the most persistent challenges in AppSec: scaling secure-by-design practices without compromising developer speed. His team is building AI agents that automate threat modeling and security reviews, identify logic flaws, and embed security guardrails directly into development workflows.\r\n\r\nAmir lives in the Bay Area with his wife and two daughters. Outside of work, he’s an avid tennis player, a runner, and a former mountaineer hoping to return to high altitudes someday.",
+      "tagLine": "Founder & CEO, DevArmor",
+      "profilePicture": "https://sessionize.com/image/75f4-400o400o1-QGQDZA9KTquTdEByy2TgVP.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/kavousian",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/amir-kavousian/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        978657
+      ],
+      "fullName": "Amir Kavousian",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "cad449b1-96aa-4595-88cf-1784755db65c",
+      "firstName": "Amit",
+      "lastName": "Serper",
+      "bio": "Amit Serper, Lead Security Researcher at CrowdStrike, brings 20+ years of expertise in vulnerability research, malware analysis, exploitation, and reverse engineering. With experience at Akamai, Cybereason, and other firms, he's made significant contributions to both defensive and offensive security. His high-impact discoveries and technical insights are widely cited in industry reports and media. Amit regularly presents his research at major security conferences globally.",
+      "tagLine": "Lead security researcher, Crowdstrike",
+      "profilePicture": "https://sessionize.com/image/913d-400o400o1-iMe6nKx5QM68tWFtiiEki.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://twitter.com/0xamit",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://linkedin.com/in/aserper",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        928649
+      ],
+      "fullName": "Amit Serper",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": [
+        {
+          "questionId": 100840,
+          "answerValue": "infosec.exchange/@0xamit"
+        },
+        {
+          "questionId": 101215,
+          "answerValue": "@amit.wtf"
+        }
+      ]
+    },
+    {
+      "id": "399a7662-e96b-4ca7-ae1d-4afd32e299f5",
+      "firstName": "Andi",
+      "lastName": "Ahmeti",
+      "bio": "Andi Ahmeti is a Threat Researcher on Permiso Security's P0 Labs team with 3 years of experience in offensive security and threat hunting. He now is focused on hunting through product telemetry to identify evil and building tools to enrich extensive collection of cloud focused data.\r\n\r\nHe is the author of an open-source threat detection tool called CloudGrappler and co-author of the Cloud Console Cartographer defensive visibility framework. He has presented at numerous conferences around the world including Black Hat Asia, Black Hat Europe, Black Hat MEA, FIRSTCON24, x33fcon, BSides Prishtina, BSides NYC, BSides Tirana\r\n\r\nMr. Ahmeti obtained a Bachelor of Science in Computer Engineering from the University of Prishtina Faculty of Computer and Electrical Engineering (2023). ",
+      "tagLine": "Threat Researcher at Permiso Security",
+      "profilePicture": "https://sessionize.com/image/bed3-400o400o1-QmwxzFLSxBNTD5hHE1ssuF.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://twitter.com/SecEagleAnd1",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/andi-ahmeti/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        969903
+      ],
+      "fullName": "Andi Ahmeti",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "4e0fbb38-70ee-4002-8d2c-fb7ad256d41b",
+      "firstName": "Andrew",
+      "lastName": "Case",
+      "bio": "Andrew Case is the Director of Research at Volexity, and has significant experience in incident response handling and malware analysis. He has conducted numerous large-scale investigations that span enterprises and industries. Case is a core developer of the Volatility memory analysis framework, and a co-author of the highly popular and technical forensics analysis book “The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory.”",
+      "tagLine": "Director of Research, Volexity",
+      "profilePicture": "https://sessionize.com/image/ae1a-400o400o1-spGtyafgeM7XWGw4mPkTG6.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://twitter.com/attrc",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/andrewcase/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        970029
+      ],
+      "fullName": "Andrew Case",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": [
+        {
+          "questionId": 101215,
+          "answerValue": "https://bsky.app/profile/attrc.bsky.social"
+        }
+      ]
+    },
+    {
+      "id": "9509abd7-9f96-46a5-93d9-cd69496826f1",
+      "firstName": "Anmol",
+      "lastName": "Maurya",
+      "bio": "Anmol Maurya is a Staff Malware Reverse Engineer at Palo Alto Networks. Prior to this, he honed his skills in the same domain at CrowdStrike. His primary responsibilities encompass threat research and malware reversing, areas in which he has built substantial expertise.\r\n\r\nAnmol is passionate about the Go programming language and its application in malware. His extensive experience, coupled with his past involvement in writing research blogs on Go malware, make him a trusted authority in understanding the intricacies of how threat actors exploit Go's cross-platform capabilities.\r\n\r\nIn his presentation, Anmol will delve into the allure of Go's cross-platform capability and its exploitation by threat actors on Mac and Linux systems. He will share his knowledge and expertise, providing a comprehensive understanding of the detection, analysis, and reverse engineering of Go-based malware.",
+      "tagLine": "Staff Malware Reverse Engineer, Palo Alto Networks",
+      "profilePicture": "https://sessionize.com/image/dd4f-400o400o1-UtzBABL6diPo46wb4sdVN7.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/luftatako-anmol/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        948627
+      ],
+      "fullName": "Anmol Maurya",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "c2c5e099-3073-4f92-bf4a-b4a2fd010e3a",
+      "firstName": "Art",
+      "lastName": "Ukshini",
+      "bio": "Art Ukshini is a Threat Researcher on Permiso Security’s P0 Labs team, focused on threat intelligence and development of advanced detections to unveil threat actors. He has prior experience as a Cyber Security Engineer, primarily engaged in offensive security.\r\n\r\nArt holds a Bachelor degree of Computer Engineering, at Faculty of Electrical and Computer Engineering, University of Prishtina.\r\n\r\nHe is deeply passionate about security, driven by a desire to master attacking techniques and methodologies in order to have a strategic approach for hunting and detecting threats.",
+      "tagLine": "Threat Researcher - Detection Engineer, Permiso Security",
+      "profilePicture": "https://sessionize.com/image/6cfe-400o400o1-hQV3zdNs6SEcDECAmu3KUV.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/artukshini",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        973061
+      ],
+      "fullName": "Art Ukshini",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "eea66c6d-9f4d-475f-bf06-83f9628aa429",
+      "firstName": "Austin",
+      "lastName": "Gadient",
+      "bio": "Austin Gadient is a co-founder of Vali Cyber and serves as the company's CTO. Austin is the primary author of Vali Cyber’s product, ZeroLock. ZeroLock is the world’s first Linux security product that combines portability, performance, and efficacy into one easy-to-use system. Austin is also the author of SecurityPerf, an open-source framework that determines the impact of security software on production Linux workloads. Prior to starting Vali, Austin was an officer in the United States Air Force and developed secure software architectures for America’s satellite infrastructure. Austin holds a S.M in Computer Science from the Massachusetts Institute of Technology where he completed a thesis on a novel automatic exploit generation system called RAGE. Austin holds a B.S. in Computer Engineering from the United States Air Force Academy where he was a captain of the Academy’s competitive hacking team and the number one engineering graduate from the class of 2018.",
+      "tagLine": "Vali Cyber CTO & Co-Founder",
+      "profilePicture": "https://sessionize.com/image/78a6-400o400o1-9JZDM33M46hDkrAdDttc9V.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://twitter.com/austingadient",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/austin-gadient/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        953451
+      ],
+      "fullName": "Austin Gadient",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "6663fe1d-b418-443c-8b1c-f2bf8bf7c8cd",
+      "firstName": "Bleon",
+      "lastName": "Proko",
+      "bio": "Bleon is an Info-sec passionate about Infrastructure Penetration Testing and Security, including Active Directory, Cloud (AWS, Azure, GCP, Digital Ocean), Hybrid Infrastructures, as well as Defense, Detection and Thread Hunting. He has presented topics related to Cloud Penetration Testing and Security in conferences like BlackHat USA, Europe and Sector, DEF CON, SANS Pentest Hackfest Hollywood and Amsterdam, as well as several BSides on USA and Europe.\r\nHis research include Nebula, a Cloud Penetration Testing Framework (https://github.com/gl4ssesbo1/Nebula) and other blogs, which you can also find on his blog (blog.pepperclipp.com). He is also the author of YetiHunter, DetentionDodger and Ransomwhen (https://github.com/Permiso-io-tools/[DetentionDodger | YetiHunter | Ransomwhen]).",
+      "tagLine": "Security Engineer",
+      "profilePicture": "https://sessionize.com/image/4807-400o400o1-GYHHTBXo7mQt3WkXajMLF3.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://twitter.com/gl4ssesbo1",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/bleon-p-9b2734143/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        975759
+      ],
+      "fullName": "Bleon Proko",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "d8135015-e868-4d2f-ab1a-c2efc3c71953",
+      "firstName": "Christian",
+      "lastName": "Hyatt",
+      "bio": "With experience overseeing 2000+ engagements, Christian is widely considered one of the foremost experts on cybersecurity, GRC, and compliance around the globe. Renowned as a highly regarded keynote speaker and thought leader, Christian has worked with entrepreneurs, CEOs, corporate executives, and security experts across Europe, Asia, and the United States.\r\n\r\nAs the CEO and Co-founder of risk3sixty, Christian’s team helps many of the world’s leading technology organizations certify, build, and manage security programs challenged with compliance initiatives like SOC 2, ISO 27001, PCI DSS, HITRUST, and also performs continuous penetration testing.\r\n\r\nUnder Christian’s leadership, risk3sixty has been named 3x Consulting Magazine’s Best Firms to Work For, 5x Atlanta’s Fastest Growing companies, and 5x Atlanta’s Best Places to Work.\r\n\r\nChristian is the best selling author of \"Security Team Operating System\" and has an M.B.A. from Georgia Tech and a B.B.A. from the University of Georgia.",
+      "tagLine": "CEO & Founder @ risk3sixty",
+      "profilePicture": "https://sessionize.com/image/4487-400o400o1-Ti7Urm9u8cg7da6RsDKspC.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://www.twitter.com/christianhyatt",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/christianhyatt",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        975666
+      ],
+      "fullName": "Christian Hyatt",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "f40b7f19-6bb0-4201-93c9-1d3ecc89ba33",
+      "firstName": "Christo",
+      "lastName": "Roberts",
+      "bio": "With over 25 years of experience as a Solutions Engineer, I am passionate about helping enterprise customers achieve their goals of enhancing web performance, security, and reliability. As a Lead Solutions Engineer at Cloudflare, I leverage my technical skills, industry knowledge, and customer-centric approach to deliver cloud-native solutions that meet the highest standards of quality and efficiency.\r\n\r\nI am also a Certified Information Systems Security Professional (CISSP) with a strong background in application security, network access control, and threat prevention. I have successfully led and supported high-impact projects for customers in various verticals, such as financial services, e-commerce, and high tech, by providing demos, deep dives, proof of concepts, solution proposals, and executive briefings. I enjoy collaborating with cross-functional teams, product management, and professional services to ensure customer satisfaction and drive business growth.",
+      "tagLine": "Principal Solutions Engineer at Cloudflare Focused on App Sec and Bots",
+      "profilePicture": "https://sessionize.com/image/feb2-400o400o1-aPCBoWdkexBm4QhFAjHsNf.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/christopherbroberts/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        932290
+      ],
+      "fullName": "Christo Roberts",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "008be559-299d-4d2f-975f-944e98de761b",
+      "firstName": "Christopher",
+      "lastName": "Eng",
+      "bio": "Christopher Eng is the Chief Information Officer at Guttman Community College – CUNY, where he leads a talented team of IT professionals focused on driving innovation and supporting student success. He recently earned his M.S. in Digital Forensic Science from Champlain College and is now exploring how to blend his interests and knowledge into the next chapter of his career.\r\n\r\nOutside of his professional life, he is a longtime car enthusiast. He formerly raced a 1999 Subaru Impreza 2.5RS and is hoping to get back out to his favorite track, Lime Rock Park. These days he likes tinkering with his classic 1961 Austin Mini or his delightfully oddball 1998 Mazda Bongo Friendee. He finds the greatest joy in time spent making memories with his partner and kids.\r\n\r\nBonus challenge: Think you’re good at OSINT? Try figuring out where his profile photo was taken.",
+      "tagLine": "Independent Digital Forensic Researcher | CIO",
+      "profilePicture": "https://sessionize.com/image/b594-400o400o1-UHRca792UrKgLUuYrYNe96.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/christophereng/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        955799
+      ],
+      "fullName": "Christopher Eng",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "87933d1f-1ba7-4b86-8e22-5ade5cbf95a5",
+      "firstName": "Cory",
+      "lastName": "Wolff",
+      "bio": "With over 20 years of experience in IT, security, and development, Cory Wolff leads the offensive security practice at risk3sixty, a consulting firm based in Atlanta, GA. He holds multiple certifications, including the Offensive Security Certified Professional (OSCP) and the Certified Information Systems Security Professional (CISSP), and has a proven track record of building and breaking various technologies since his first computer in 1988.\r\n\r\nCory also contributes to the cybersecurity community as a core team member of Red Team Village, a platform that fosters collaboration, learning, and innovation among red teamers and security professionals.",
+      "tagLine": "Director of Offensive Security at risk3sixty / Director of Training at Red Team Village",
+      "profilePicture": "https://sessionize.com/image/1486-400o400o1-7VU3hH5JsiQPLknaQWyijA.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://twitter.com/cwolff411",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://linkedin.com/in/corywolff",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        966181
+      ],
+      "fullName": "Cory Wolff",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "6a88ca09-cc65-4e76-9b36-cb5eed46edb0",
+      "firstName": "David",
+      "lastName": "Feldman",
+      "bio": "David Feldman is an Intelligence Analyst at CrowdStrike with a focus on threat research. He holds a bachelor’s degree in Computer Science from Rutgers University and previously served as president of the university’s cybersecurity club. David has interned at the New Jersey Office of Homeland Security and Preparedness (NJOHSP), the U.S. Coast Guard, and the Cyber Security Forum Initiative (CSFI). His other interests include malware analysis, cyber policy, and blockchain forensics.\r\n",
+      "tagLine": "Intelligence Analyst, CrowdStrike ",
+      "profilePicture": "https://sessionize.com/image/578a-400o400o1-3zC78QPC48P8fm4XRj7Rd7.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/david-fel",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        978891
+      ],
+      "fullName": "David Feldman",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "9fd9571b-7943-4d51-acc0-066545656ce5",
+      "firstName": "David",
+      "lastName": "McDonald",
+      "bio": "David McDonald is a researcher and software engineer with 4 years of digital forensics R&D experience. His passion for this field began with his involvement in the University of New Orleans CTF team, as well as through his time as a Systems Programming teaching assistant. After over two years of digital forensics research and development on Cellebrite's computer forensics team, he joined Volexity's Volcano team, where he now works to develop next-generation memory analysis solutions.\r\n\r\nHe believes deeply in sharing knowledge and helping others discover their abilities and interests through their own journeys in cybersecurity, and strives to pay forward the benefits of the mentorship that has opened so many doors for him.",
+      "tagLine": "Software Engineer @ Volexity",
+      "profilePicture": "https://sessionize.com/image/b31f-400o400o1-hb2jN8k8usxHVUiAWxGJC6.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/dgmcdonald",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        978860
+      ],
+      "fullName": "David McDonald",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": [
+        {
+          "questionId": 100840,
+          "answerValue": "river_rat@infosec.exchange"
+        }
+      ]
+    },
+    {
+      "id": "50325dff-a8b3-4363-8f1d-29c8a0f647c6",
+      "firstName": "Dmitrijs",
+      "lastName": "Trizna",
+      "bio": "Dimi is cyber-security and AI researcher, ex-Microsoft, was part of CERTs and Red Teams, now in a founding team at a stealth start-up. He talked and trained at BlackHat USA (2022: briefings, 2024: training), DefCon AI Village, BlueHat, Nullcon, Troopers, BSides, etc. and published numerous peer-reviewed publications (ACM, IEEE, CAMLIS). Certified: Stanford Online, OSCP, GIAC SANS (GREM, GDAT), etc.",
+      "tagLine": "Aisle, AI Security Researcher",
+      "profilePicture": "https://sessionize.com/image/215f-400o400o1-B9QMGDNuAVE7XwsxNAJZ3Q.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/ditrizna/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        978269
+      ],
+      "fullName": "Dmitrijs Trizna",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "af17855c-704e-4c95-94ca-65d9727a4b35",
+      "firstName": "Dmitry",
+      "lastName": "Bestuzhev",
+      "bio": "Dmitry Bestuzhev is a Cybersecurity Expert with over 20 years of experience in the industry and education sectors. He has held senior positions at BlackBerry (Senior Director, CTI) and Kaspersky (Head of GReAT, Latin America), leading cybersecurity teams. Currently, he conducts independent research and supports non-profit educational initiatives.",
+      "tagLine": "CTI Researcher",
+      "profilePicture": "https://sessionize.com/image/7cef-400o400o1-V1jfusRTEzqNZ4Dj3gN8QE.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/dimitribest",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/bestuzhev/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        975803
+      ],
+      "fullName": "Dmitry Bestuzhev",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "19b9e041-0531-4c14-9016-7c996f509e9e",
+      "firstName": "Dmitry",
+      "lastName": "Melikov",
+      "bio": "Dmitry Melikov is a Security Researcher at ArcticWolf, where his responsibilities include threat hunting, analyzing attacks, and writing intelligence reports. Before joining ArcticWolf, he worked for a company that specialized in securing email traffic.\r\nHe is based in Germany.",
+      "tagLine": "Security Researcher",
+      "profilePicture": "https://sessionize.com/image/d791-400o400o1-fUm6szZhopDYAigg8uHXqg.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/DmitriyMelikov",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/dmitry-melikov-210000142/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        975803
+      ],
+      "fullName": "Dmitry Melikov",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "cfc6d91c-7474-4a6d-83c0-14a0d7d3ec78",
+      "firstName": "Eliad",
+      "lastName": "Kimhy",
+      "bio": "Eliad Kimhy is a Senior Security Researcher at Acronis, where he focuses on cybersecurity research, threat intelligence, and communicating findings through published reports, conference talks, and media engagements. Eliad has worked with security teams for close to a decade, helping build and lead the development of threat intelligence production, and the publication of research-based content for technical and general audiences.\r\n\r\nHe is the co-creator and producer of the Webby Honoree podcast Malicious Life, which explores the history of cybersecurity. Eliad has spoken at conferences including Insomnihack, Thotcon, BsidesSF, BsidesLV, and IT-SA.",
+      "tagLine": "Sr. Security Researcher at Acronis",
+      "profilePicture": "https://sessionize.com/image/fc1d-400o400o1-xHbf2xAC2T53FUzqdjFyS.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://twitter.com/eliadkimhy",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/eliad-kimhy/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        978489
+      ],
+      "fullName": "Eliad Kimhy",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "b55d3f8c-1cf1-4f28-9d1e-29069d624074",
+      "firstName": "Elizaveta",
+      "lastName": "Mikheeva",
+      "bio": "Elizabeth (qwqoro) of the Neplox team is a Cybersecurity Researcher, who strongly believes that Web3 Security must be Research-powered, and therefore daily explores curious corners of the information security world: participates in penetration tests of Web2 / Web3 applications, dissects malware source code and looks for in-the-wild vulnerabilities and threats in various products, ranging from E-mail Injections to phishing via IoT Devices.\r\n\r\nShe has written research articles and given talks at International conferences and meetups, and her field of interest includes Web3 Ecosystems, Web Application Security, Red Teaming and Malware Analysis.",
+      "tagLine": "Cybersecurity Researcher, Neplox",
+      "profilePicture": "https://sessionize.com/image/8e3a-400o400o1-Lq9BnRaka1nchQ1YdAjjyk.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/qwqoro",
+          "linkType": "Twitter"
+        }
+      ],
+      "sessions": [
+        973798
+      ],
+      "fullName": "Elizaveta Mikheeva",
+      "categoryItems": [
+        363211
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "5801f67d-61e3-4123-8722-e3358716784c",
+      "firstName": "Emily",
+      "lastName": "Choi-Greene",
+      "bio": "Emily has been securing AI systems since 2018.  She oversaw application security for Amazon's Alexa AI organization and owned data security and privacy at Moveworks (an enterprise AI assistant).  She's now the CEO and co-founder of Clearly AI, a YC-backed startup automating security and privacy reviews.   ",
+      "tagLine": "Co-Founder at Clearly AI",
+      "profilePicture": "https://sessionize.com/image/8d80-400o400o1-hoatCm8UTR6RYekAD2yWhu.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/escgreene",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/emilycgreene/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        974691
+      ],
+      "fullName": "Emily Choi-Greene",
+      "categoryItems": [
+        363211
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "2c6ef5fd-5d33-41a7-8a73-1635385b391e",
+      "firstName": "Emily",
+      "lastName": "Leidy",
+      "bio": "Emily is a well-rounded information security consultant and defensive security practitioner. She has over 10 years of experience in cybersecurity with expertise in detection engineering, purple teaming, attack surface reduction, threat modeling, cybersecurity policy, and adversary tactics. Emily has taught at several security conferences, including Black Hat. Before joining SpecterOps, Emily worked with multiple large federal agencies helping them prioritize and remediate critical vulnerabilities and proactively defend against potential cyber attacks. Prior to that, she developed agency-wide compliance requirements and wrote the Interim Authority to Test policy in the National Security Systems division at the Department of Homeland Security.",
+      "tagLine": "Managing Consultant at SpecterOps",
+      "profilePicture": "https://sessionize.com/image/e326-400o400o1-awR9pUXBWbhX7ZaMWUtUV1.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/leidy_tector",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/emily-leidy-3649777b/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        938156
+      ],
+      "fullName": "Emily Leidy",
+      "categoryItems": [
+        363211
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "bbfd0a29-4fb2-4797-b871-f53693fbd4b4",
+      "firstName": "Eric",
+      "lastName": "Foster",
+      "bio": "Eric Foster is the Founder & CEO of TENEX.ai, the AI-native MDR fusing artificial intelligence with human expertise to transform cybersecurity, backed by Andreessen Horowitz (a16z). \r\n\r\nAcross 30+ years in cybersecurity, Foster has logged three CISO tours and taken three startups from scratch to exit - twice unlocking nine-figure outcomes for shareholders.\r\n\r\nEric co-founded Cyderes with industry pioneer Gary Fish, and later served as President of threat-intel innovator Stairwell. Earlier, he led Customer Success at RiskIQ (acquired by Microsoft), co-founded MMAjunkie (acquired by USA Today), and along the way held three CISO roles including for UMB Financial and Netsmart. \r\n\r\nOff duty he enjoys motorsports, poker, and exploring Florida’s outdoors with his wife and two children.",
+      "tagLine": "CEO - TENEX.ai",
+      "profilePicture": "https://sessionize.com/image/4c8c-400o400o1-hAp91sfzXJ9W946rQC9A39.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/performify",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/ericfoster/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        978715
+      ],
+      "fullName": "Eric Foster",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "e0ec5130-2811-4426-833e-17a29010269b",
+      "firstName": "Filipi",
+      "lastName": "Pires",
+      "bio": "I’ve been working as Head of Identity Threat Labs and Global Product Advocate at Segura®, Red Team Village Director, Senior Advisor Raices Cyber Academy, Founder of Red Team Community (Brazil and LATAM),  AWS Community Builder, Snyk Ambassador, Application Security Specialist and Hacking is NOT a crime Advocate. International Speaker at Security and New technologies events in many countries such as US (Black Hat & Defcon), Canada, France, Spain, Germany, Poland, Black Hat MEA - Middle-East - and others, I’ve served as University Professor in Graduation and MBA courses at Brazilian colleges, in addition, I'm Creator and Instructor of the Course - Malware Attack Types with Kill Chain Methodology (PentestMagazine), PowerShell and Windows for Red Teamers(PentestMagazine) and Malware Analysis - Fundamentals (HackerSec).",
+      "tagLine": "Head of Identity Threat Labs and Global Product Advocate",
+      "profilePicture": "https://sessionize.com/image/4459-400o400o1-VUNbxRs31VCmeVFiC1avGT.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://twitter.com/FilipiPires",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/filipipires/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        948011
+      ],
+      "fullName": "Filipi Pires",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "1b9b2d39-c8fd-4579-a796-97929edc2373",
+      "firstName": "Frederic",
+      "lastName": "Rivain",
+      "bio": "Frédéric Rivain is the Chief Technology Officer at Dashlane, a leading cybersecurity company specializing in credential management and digital identity solutions. With over 2 decades of experience in tech leadership, Frédéric drives innovation in security and privacy. A passionate advocate for user-centric security, he brings a unique perspective on blending convenience and robust protection for both individuals and businesses.",
+      "tagLine": "CTO Dashlane - Scaling Identity | Tech Agilist",
+      "profilePicture": "https://sessionize.com/image/d323-400o400o1-nhjKHApGo5s2YBZv2MmDdV.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://twitter.com/FredericRIVAIN",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/fredericrivain/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        923248
+      ],
+      "fullName": "Frederic Rivain",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": [
+        {
+          "questionId": 101215,
+          "answerValue": "fredericrivain.bsky.social"
+        }
+      ]
+    },
+    {
+      "id": "93e69f85-5d57-4200-9605-7f9a03c7eb25",
+      "firstName": "Gerard",
+      "lastName": "Johansen",
+      "bio": "Gerard Johansen is a cyber security professional with over a decade of experience in Security Operations, Incident Response and Threat Intelligence. Prior to his cyber security career, Gerard served as a cyber crime investigator working at the state and federal levels. He is currently a Principal Security Solutions Specialist with the Red Canary where he works directly with a variety of customers enhancing their detection and response capabilities. Gerard is also an author, currently working on the fourth edition to Digital Forensics and Incident Response. A frequent speaker, he has presented a variety of conferences including SANS DFIR, KernelCon and Wild West Hackin' Fest. ",
+      "tagLine": "Red Canary Principal Security Solutions Specialist",
+      "profilePicture": "https://sessionize.com/image/ac1a-400o400o1-XCYeYPDEMKfyZV482xooqk.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/IrProactive",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/gerardjohansen/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        960582
+      ],
+      "fullName": "Gerard Johansen",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "9ad48355-0e3b-4ec0-b584-8bcf64430ddc",
+      "firstName": "Gianna",
+      "lastName": "Whitver",
+      "bio": "Gianna Whitver is Co-Founder and CEO of the Cybersecurity Marketing Society, producer of CyberMarketingCon, CyberCMO Summit, and CyberCEO Summit, and Co-Host of the Breaking Through in Cybersecurity Marketing Podcast. \r\n\r\nGianna advises on marketing & GTM for cybersecurity and technology companies. She speaks publicly on marketing, community, and entrepreneurial topics, having presented at CMX Summit, RSA Conference 365, (ISC)2, InfoSec World, and others. Previously, she worked in marketing and operations at cybersecurity, tech, and commercial RE companies. \r\n\r\nGianna loves bees and attempting to be funny.",
+      "tagLine": "Co-Founder & CEO, Cybersecurity Marketing Society",
+      "profilePicture": "https://sessionize.com/image/b047-400o400o1-pgrvwQM4WexL8qGoWPb9dY.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/giannawhitver/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        973866
+      ],
+      "fullName": "Gianna Whitver",
+      "categoryItems": [
+        363211
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "d3618e39-6e7e-47a3-965f-b2863cac6e83",
+      "firstName": "Hari",
+      "lastName": "Shanmugam",
+      "bio": "Hari Shanmugam is a security researcher and red teamer specializing in macOS exploitation, adversary tradecraft, and offensive security. His research focuses on novel attack surfaces, advanced persistence techniques, and AI assisted execution methods. He has extensive experience in red teaming, exploit development, and security research, particularly in uncovering stealthy execution techniques that bypass modern defenses.",
+      "tagLine": "Lead Red Teamer",
+      "profilePicture": "https://sessionize.com/image/df21-400o400o1-4rm8yrvC25tq6jtQjkt9Un.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/h2a3r2",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        974292
+      ],
+      "fullName": "Hari Shanmugam",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "6a2ff312-c067-4f37-963c-9e2df602b018",
+      "firstName": "Ilya",
+      "lastName": "Yatsenko",
+      "bio": "With over 5 years of experience in penetration testing and red teaming, Ilya holds the OSCE3 certification and believes in continuous learning through security research and community collaboration. He is currently a graduate student at the University of Maryland, advancing his expertise in cybersecurity.",
+      "tagLine": "Offensive Security Engineer | OSCE3 | Graduate student @ UMD",
+      "profilePicture": "https://sessionize.com/image/f6a9-400o400o1-aPicF3WmaUcvsXtqX43xrW.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        969911
+      ],
+      "fullName": "Ilya Yatsenko",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "10bccb64-f2d5-4b48-ab9e-7b9300f6cb8a",
+      "firstName": "Jack",
+      "lastName": "Cable",
+      "bio": "Jack Cable is a hacker who works at the intersection of cybersecurity and public policy, currently the CEO and Co-Founder of Corridor. Prior to that, Jack served as a Senior Technical Advisor at the Cybersecurity and Infrastructure Security Agency (CISA), where he helped lead the agency’s Secure by Design initiative. Before CISA, Jack worked as a TechCongress Fellow for the Senate Homeland Security and Governmental Affairs Committee, advising Chairman Gary Peters on cybersecurity policy, including open source software security. He previously worked as a Security Architect at Krebs Stamos Group. Jack is a top bug bounty hacker, having identified over 350 vulnerabilities in hundreds of companies. After placing first in the Hack the Air Force bug bounty challenge, he began working at the Pentagon’s Defense Digital Service. Jack studied computer science at Stanford University and has published academic research on election security, ransomware, and cloud security.\r\n",
+      "tagLine": "CEO & Co-Founder at Corridor",
+      "profilePicture": "https://sessionize.com/image/a6db-400o400o1-WcNMU6VWrhdk7S9dU7yBRk.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/jackhcable",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jackcable/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        978744
+      ],
+      "fullName": "Jack Cable",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "e6f15399-4211-49f6-b5fc-477ea1a81d61",
+      "firstName": "Jason",
+      "lastName": "Kaplan",
+      "bio": "Jason Kaplan has spent over 27 years bridging the gap between technical excellence and business success. His experience ranges from founding and scaling startups to leading global teams at large enterprises. Jason was the first Director of Sales at Akamai Technologies, where he grew revenue from $4M to $81M. He founded and led the team at Milestone Sports, which was later acquired by Zwift. Most recently, Jason has been bringing his business acumen and leadership to the cybersecurity industry as CEO of two companies: CyTwist (Israeli-based advanced threat detection) and now SixMap (a Series A funded company focusing on commercial and DoD customers). ",
+      "tagLine": "CEO at SixMap",
+      "profilePicture": "https://sessionize.com/image/99d9-400o400o1-NsnLhfn7j9wnx876UxE6e2.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "http://linkedin.com/in/jdkaplan/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        978988
+      ],
+      "fullName": "Jason Kaplan",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "b96f8019-c95c-4760-a32d-9b5811ab8e9a",
+      "firstName": "Jeff",
+      "lastName": "Foley",
+      "bio": "Jeff Foley has over 20 years of industry experience focused on research & development and security assessment. He is the Vice Chairman for the OWASP Projects Committee. He is also the Project Leader for Amass, an OWASP Foundation Flagship Project that performs in-depth attack surface mapping and asset discovery. Previously, he served as the Vice President of Attack Surface Protection for ZeroFox. Jeff was also the Global Head of Attack Surface Management at Citi. Prior to this, Jeff served as the Program Manager for Offensive Cyber Warfare Research & Development at Northrop Grumman Corporation. In his spare time, Jeff enjoys giving back to the information security community.",
+      "tagLine": "Amass Project Leader, OWASP Foundation",
+      "profilePicture": "https://sessionize.com/image/f4f5-400o400o1-DvQPZHcQcqTc5vmMxzXaAR.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://twitter.com/jeff_foley",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/caffix/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        963799
+      ],
+      "fullName": "Jeff Foley",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": [
+        {
+          "questionId": 100840,
+          "answerValue": "@caffix@infosec.exchange"
+        }
+      ]
+    },
+    {
+      "id": "795d66b5-de31-4924-90bb-047fb165016e",
+      "firstName": "John",
+      "lastName": "Hammond",
+      "bio": null,
+      "tagLine": null,
+      "profilePicture": "https://sessionize.com/image/cbe6-400o400o1-U3KHauJDJhoDPJhrJWR2zg.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1015359
+      ],
+      "fullName": "John Hammond",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "35978bb8-c6b4-4b85-8d0f-4585755a8f1e",
+      "firstName": "Jonathan",
+      "lastName": "Fuller",
+      "bio": "Jonathan Fuller is the Chief Information Security Officer and an Academy Professor at the United States Military Academy at West Point. With a background in secure communications, operational leadership, and cybersecurity, he draws on nearly two decades of Army experience. His current work focuses on building resilient cyber environments and integrating cybersecurity into leadership development and education. He teaches and mentors cadets, helping prepare future Army leaders for complex technical challenges. His academic interests include applied security, digital forensics, and cyber risk.",
+      "tagLine": "Counteracting malware through logic reuse is actually a thing!",
+      "profilePicture": "https://sessionize.com/image/fee1-400o400o1-DodDLLmmgGhxyj6MchEeZK.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/fullsec",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        927234
+      ],
+      "fullName": "Jonathan Fuller",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "3f0c79be-0b39-4959-bfd8-b42a31ecc589",
+      "firstName": "Kabir",
+      "lastName": "Mathur",
+      "bio": "Kabir is the CEO and co-founder of Leen, a unified API & data fabric for security. He has spent 16+ years scaling startups in gaming, adtech, martech, and most recently, security. ",
+      "tagLine": "CEO & Co-Founder at Leen",
+      "profilePicture": "https://sessionize.com/image/be75-400o400o1-wNARz1CEw654bWrBn9AgXM.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/mathurkabir/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        913058
+      ],
+      "fullName": "Kabir Mathur",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "bb38f797-7c3c-48b0-a524-9f62d3238ac4",
+      "firstName": "Karl",
+      "lastName": "Ots",
+      "bio": "Karl Ots breaks and secures cloud stuff for a living — and has been doing it since back when ‘cloud security’ meant locking the server room door. By day, he’s Head of Cloud Security at EPAM Systems, wrangling enterprise-scale chaos across industries and continents.\r\n\r\nHe’s written books (most recently Securing Microsoft Azure OpenAI), dropped a bunch of cloud security courses on LinkedIn Learning, and collected more acronyms than a compliance checklist (RD, MVP, CISSP, CCSP, SABSA SCF — yeah, it’s a problem).\r\n\r\nKarl’s no stranger to the stage — he’s spoken at BSides SF, Microsoft Build, T2, Gartner Security & Risk, InfoSec World, and more. If it involves cloud, misconfigs, or weird edge cases, he’s probably got a story.",
+      "tagLine": "Head of Cloud Security at EPAM | Author and Inventor",
+      "profilePicture": "https://sessionize.com/image/9ae0-400o400o1-X9uLKgftuWha88NtQtdXRZ.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/learning/instructors/karl-ots",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        952049
+      ],
+      "fullName": "Karl Ots",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": [
+        {
+          "questionId": 100840,
+          "answerValue": "https://infosec.exchange/@ots"
+        },
+        {
+          "questionId": 101215,
+          "answerValue": "karlots.com"
+        }
+      ]
+    },
+    {
+      "id": "a9d4868a-6c51-4149-88b3-44244a8ca6eb",
+      "firstName": "Kunaal",
+      "lastName": "Sikka",
+      "bio": "Kunaal Sikka is the Co-founder and President of SubImage (YC W25), a startup building clear maps for complex cloud environments. Previously, he was a Member of Technical Staff at Anthropic and Staff Engineer at Lyft, reporting directly to the CISO. At Anthropic he focused on hardening infrastructure, scaling access management, and did the initial security review for MCP. At Lyft, he led the development of the company's next-generation SIEM, insider abuse detection platforms, and helped architect the vulnerability management program. He graduated from the University of Washington with a computer science degree in two years and grew from new grad to Staff Engineer at Lyft in 4 years.",
+      "tagLine": "Co-founder & President at SubImage",
+      "profilePicture": "https://sessionize.com/image/4922-400o400o1-USBuds7m1WwnX1QTy2tTDm.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/kunaalsikka",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/kunaals/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        978839
+      ],
+      "fullName": "Kunaal Sikka",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "30375517-d791-418b-9321-1a6c258fede8",
+      "firstName": "Lucas",
+      "lastName": "Nelson",
+      "bio": "Lucas Nelson is a founding partner at Lytical Ventures, where he leads investments in cybersecurity and AI. He began his paid hacking career at @stake, starting as an application security pentester and rising to management roles. He is also a former member of Ninja Strike Force, associated with the hacker supergroup Cult of the Dead Cow.\r\n\r\nBefore founding Lytical, Lucas held investing roles at DFJ Gotham and Evolution Equity. He is a Kauffman Fellow and a longtime advocate for early-stage security startups that push the industry forward.",
+      "tagLine": "Lucas Nelson, Founding Partner @ Lytical Ventures",
+      "profilePicture": "https://sessionize.com/image/b0c9-400o400o1-VxAEXFSVzqtfV8QZoq9esh.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/lucasnelsonvc/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        977942
+      ],
+      "fullName": "Lucas Nelson",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": [
+        {
+          "questionId": 101215,
+          "answerValue": "@artimage.bksky.social"
+        }
+      ]
+    },
+    {
+      "id": "ec54f6be-e295-4ced-b06e-ef94ce4c11f5",
+      "firstName": "Mariana",
+      "lastName": "Padilla",
+      "bio": "Mariana Padilla is the Co-Founder and CEO of HACKERverse.ai, a platform redefining how cybersecurity software gets evaluated—by turning months-long PoC cycles into real-time, self-serve simulations. She previously scaled her marketing agency to over $1MM in annual revenue and now brings that same strategic focus to transforming enterprise software sales.\r\n\r\nMariana’s work has earned her a spot on the front cover of the 2025 Most Innovative Cincinnati Startups to Watch and features on over two dozen industry podcasts. She was also named a “Woman to Watch in Cybersecurity” by Authority Magazine and received scholarships from WiCyS and WISP for her leadership in driving diversity in tech.\r\n\r\nShe specializes in go-to-market, sales strategy, and inclusive innovation—and is passionate about making the cybersecurity space more transparent, efficient, and engaging for both buyers and vendors.",
+      "tagLine": "CEO, HACKERverse.ai",
+      "profilePicture": "https://sessionize.com/image/4d6e-400o400o1-N5Z73nHA9NZbVveGm8xV8X.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/heretoshakeshitup/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        912916
+      ],
+      "fullName": "Mariana Padilla",
+      "categoryItems": [
+        363211
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "0487a7fc-f25d-4821-856c-95b75262b7f0",
+      "firstName": "Mauricio",
+      "lastName": "Velazco",
+      "bio": "Mauricio Velazco (@mvelazco) is a Principal Security Researcher Engineer within the Microsoft Security AI Research team. Prior to Microsoft, he was Threat Researcher at the Splunk Threat Research Team. Mauricio has presented and hosted workshops at conferences like Defcon, BlackHat Arsenal, Derbycon, BSides and SANS. His aread of focus include detection engineering, adversary simulation and threat hunting.",
+      "tagLine": "Principal Security Researcher",
+      "profilePicture": "https://sessionize.com/image/b8ac-400o400o1-fv9UsFVGEH157QAkbsXACk.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/mvelazco",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/feed/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        965721
+      ],
+      "fullName": "Mauricio Velazco",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "c8fd7977-2bfb-4864-a3e0-d0ade5955621",
+      "firstName": "Michael",
+      "lastName": "Raggi",
+      "bio": "Michael August Raggi is a Principal Threat Response Specialist at Crowdstrike. Previously, he has worked at Mandiant Google Cloud innovating mapping of Chinese Nationstate ORB networks, and at Proofpoint finding ways to thwart Nationstate adversaries in email gateways. Michael’s historic publications have focused on APT targeting against the US critical infrastructure sector, recent operations conducted during the Russia Ukraine conflict, and repeated targeting of Tibetan dissidents by threat actors aligned with the Chinese State. His primary focus is building sustainable human compatible technology solutions for making the Internet a safer place..",
+      "tagLine": "Crowdstrike Principal Threat Response Specialist | Art & Binary Recovery Specialist",
+      "profilePicture": "https://sessionize.com/image/15a6-400o400o1-9DjNeRFxWQzzUubChPpo8c.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/aRtAGGI/",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/michael-august-raggi-532b3939/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        950052
+      ],
+      "fullName": "Michael Raggi",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": [
+        {
+          "questionId": 101215,
+          "answerValue": "aRtAGGI"
+        }
+      ]
+    },
+    {
+      "id": "c0fa1b7e-7df5-4232-88b5-0243be464594",
+      "firstName": "Numa",
+      "lastName": "Dhamani",
+      "bio": "Numa Dhamani is the Head of Machine Learning at iVerify and co-author of Introduction to Generative AI (Manning Publications). She is a natural language processing expert with domain expertise in trust, safety, and security. Numa has developed machine learning systems for Fortune 500 companies, social media platforms, start-ups, and nonprofits. She has advised industry leaders, served as Principal Investigator for U.S. Department of Defense research programs, and contributed to international peer-reviewed journals. She is also engaged in tech policy, supporting think tanks and nonprofits with data and AI governance. In addition to her industry and research work, she has taught AI courses as an adjunct lecturer at UT Austin and Georgetown. Numa is passionate about building responsible AI, advancing digital security, and advocating for transparency and accountability in technology.",
+      "tagLine": "Head of Machine Learning at iVerify",
+      "profilePicture": "https://sessionize.com/image/4b59-400o400o1-9AyvCegjXUhvpV8ne3r8uK.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/NumaDhamani",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/numadhamani/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        959221
+      ],
+      "fullName": "Numa Dhamani",
+      "categoryItems": [
+        363211
+      ],
+      "questionAnswers": [
+        {
+          "questionId": 101215,
+          "answerValue": "https://bsky.app/profile/numa.bsky.social"
+        }
+      ]
+    },
+    {
+      "id": "3417e590-7039-4177-ad04-e2ace08520f0",
+      "firstName": "Oron",
+      "lastName": "Gutman",
+      "bio": "Oron is the CTO and co-founder of Hopper, channeling 14 years of vulnerability research into building secure, elegant systems. A two-time Israel Defense Prize winner and former Unit 8200 section lead, he brings precision to everything he does, whether architecting software, plotting chess moves, or selecting the perfect bottle of whiskey.",
+      "tagLine": "Hopper Security, CTO",
+      "profilePicture": "https://sessionize.com/image/9f76-400o400o1-Se3zmujkRdi9a1y29bkt4r.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/oron-gutman-36190645/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        978537
+      ],
+      "fullName": "Oron Gutman",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "b014ff1d-bbd7-4de8-ad40-01373c083cbf",
+      "firstName": "Rocky",
+      "lastName": "Bernstein",
+      "bio": "Rocky Bernstein has been writing open-source software for 3 decades. He has written for a number of debuggers, such as ones for Python, Ruby, Perl, bash, zsh, and GNU make. He has worked at IBM Research, NASA (as a government contractor), a university, a large financial firm, a large news organization (Associated Press), a large survey firm, and many start-up companies. He has worked mostly in or near New York.",
+      "tagLine": "Chief Mad Scientist Emeritus",
+      "profilePicture": "https://sessionize.com/image/7d4c-400o400o1-fc3bmjBmGdvmQNTzgyoxyP.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        960602
+      ],
+      "fullName": "Rocky Bernstein",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "d752368f-d62a-47b0-b842-20103bb060e4",
+      "firstName": "Ryan",
+      "lastName": "Lancial",
+      "bio": "long time doing IT stuff, talk about security operations stuff now",
+      "tagLine": "i talk to people about security operations",
+      "profilePicture": "https://sessionize.com/image/2928-400o400o1-YKYdPrzKScGzRGfsudTye8.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        960582
+      ],
+      "fullName": "Ryan Lancial",
+      "categoryItems": [
+        363214
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "ac4229ed-87ed-41fe-9e1c-7ca47e73062c",
+      "firstName": "Samantha",
+      "lastName": "Pearlstein",
+      "bio": "Samantha is a sales engineer with a strong background in security research, executive cyber resilience, and nation-state threats.\r\nAs a former consultant at Accenture, she led cyber resilience initiatives for Fortune 100 executives, developed GenAI-powered security tools, and delivered workshops on emerging cyber challenges. Today, as a Sales Engineer at Escape, Samantha helps AppSec teams secure their APIs and SPAs, combining her passion for cybersecurity with hands-on problem-solving.",
+      "tagLine": "Founding Sales Engineer @ Escape",
+      "profilePicture": "https://sessionize.com/image/8b4c-400o400o1-Tb5YMCcxZYpAVusthd3k3P.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        972893
+      ],
+      "fullName": "Samantha Pearlstein",
+      "categoryItems": [
+        363211
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "06936c15-94ba-4ff3-97e5-e1612e02e768",
+      "firstName": "Shivakumar",
+      "lastName": "Buruganahalli",
+      "bio": "A visionary and results-driven cybersecurity leader with a passion for innovation and building solutions that redefine enterprise defense against modern threats. As a Founding Engineer of Attivo Networks, I helped pioneer identity and deception technologies that transformed threat detection and active defense strategies globally. My work bridges advanced engineering with business outcomes, delivering measurable value and long-term resilience. Now at Acalvio, I lead the development of customer-focused deception strategies that strengthen security posture and ROI. With over a decade of experience in cyber deception, ITDR, and advanced threat detection, I help organizations stay proactive and ahead of adversaries.",
+      "tagLine": "Acalvio, Senior Director, Customer Engineering",
+      "profilePicture": "https://sessionize.com/image/6473-400o400o1-XCazTfdb48FUcPe7cdpb9n.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/shivakumar-buruganahalli-1313291/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        973846
+      ],
+      "fullName": "Shivakumar Buruganahalli",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "14f2f17c-5869-4fc9-b1f8-a8a0e475c174",
+      "firstName": "Tammy",
+      "lastName": "Harper",
+      "bio": "Tammy is a Senior Threat Intelligence Researcher and Certified Dark Web Investigator at Flare, where she tracks ransomware affiliates, fraud ecosystems. She’s also an admin and researcher for RansomLook, an open-source project mapping ransomware infrastructure and leak sites.\r\n\r\nHer work sits at the intersection of operational threat intel and underground culture, blending technical depth with behavioural insight. Tammy shares her research through Flare briefings, webinars, podcasts, and threat intel blogs.\r\n\r\nOutside of work, she’s into ambient techno, matcha, street and nature photography, hiking, and amateur astronomy with a soft spot for weird particles and black hole physics. She plays tennis and badminton to stay grounded.",
+      "tagLine": "Senior Threat Intelligence Researcher at Flare",
+      "profilePicture": "https://sessionize.com/image/f815-400o400o1-9zwsoGadgDVwpkivu1Fukd.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/tammyharper11/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        957795
+      ],
+      "fullName": "Tammy Harper",
+      "categoryItems": [
+        363211
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "77a78fa6-a095-4878-9ea7-720834b27058",
+      "firstName": "Tim",
+      "lastName": "Shipp",
+      "bio": "Tim is the CTO and Co-Founder of ThreatLight. A highly experienced Cybersecurity expert with over 20 years in both offensive and defensive cybersecurity, having built & led IR, Red Team, and Blue Team ops globally he now revolutionizes responding to incidents at Scale. \r\n\r\nA Major in the British Army Cyber Reserves, Tim serves as an SME to the British Ministry of Defence (MoD) specializing in both defensive and offensive security.\r\n\r\nHaving led several hundred engagements globally, Tim has a wealth of experience in both defending and Red Teaming every conceivable industry vertical along with an astute knowledge of what technologies and processes work and where gaps lay in existing solutions and security programs. \r\n\r\nPrior to Co-founding ThreatLight, Tim’s career included significant technical and leadership positions in top cybersecurity and technology firms, such as Accenture, Cybereason, Symantec, Airbus and Thales, contributing to his broad knowledge and innovative approach in the field.",
+      "tagLine": "CTO & Co-Founder of ThreatLight",
+      "profilePicture": "https://sessionize.com/image/e0fa-400o400o1-XpUHNscEKxJuYKDwrn5QAN.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/tshipp/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        974971
+      ],
+      "fullName": "Tim Shipp",
+      "categoryItems": [
+        363213
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "a5950a64-a289-47f4-88c6-fd75020fae38",
+      "firstName": "Vangelis",
+      "lastName": "Stykas",
+      "bio": "Vangelis began as a developer from Greece. Six years ago he realized that only his dog didn’t have an API, so he decided to steer his focus towards security.\r\nThat led him to pursue a PhD in Web Application Security with an extra focus on machine learning. He’s still actively pursuing it.\r\nHe currently applies his skills as a Chief Technology Officer at Atropos, and during his free time, Vangelis is helping start-ups secure themselves on the internet and get a leg up in security terms.\r\nHis love of a simplistic approach to hacking by exploiting vulnerable APIs led him to publish research regarding API controlling ships, smart locks, IP cameras, car alarms, EV chargers, and many other IoT devices. Since our lives are nowadays extremely cyber-dependent, his goal is to convince all companies to never neglect their API security as rush-to-market mentality is almost certain to lead to catastrophic security failure.",
+      "tagLine": "CTO",
+      "profilePicture": "https://sessionize.com/image/afad-400o400o1-YfFooPi95H2hfFHtdy3KXd.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://www.twitter.com/evstykas",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/vangelis-stykas/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        976932
+      ],
+      "fullName": "Vangelis Stykas",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "846dc842-9cee-4830-b9f8-f09be7285b44",
+      "firstName": "Vlad",
+      "lastName": "Iliushin",
+      "bio": "Vlad is the co-founder and cybersecurity expert at ELLIO and President of the Anti-Malware Testing Standards Organization (AMTSO).\r\n\r\nA true cybersecurity enthusiast, Vlad’s passionate about network security, IoT, and cyber deception. Before ELLIO, he founded and led the Avast IoT Lab (now Gen Digital), developing security features and researching IoT threats. He has spoken at many conferences, including Web Summit and South by Southwest (SXSW), where he demonstrated IoT vulnerabilities.\r\n",
+      "tagLine": "Cybersecurity Expert@ ELLIO Technology, President of the Anti-Malware Testing Standards Organization (AMTSO).",
+      "profilePicture": "https://sessionize.com/image/14ad-400o400o1-PzYUsqmszin72H4bd1GAiw.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/iliushin/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        973785
+      ],
+      "fullName": "Vlad Iliushin",
+      "categoryItems": [
+        363210
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "b224bc78-60f1-48a0-a536-a25dd2e3143c",
+      "firstName": "void",
+      "lastName": "*huxley",
+      "bio": null,
+      "tagLine": null,
+      "profilePicture": "https://sessionize.com/image/332f-400o400o1-3c6eaLKGyjhQnEVcEeRmam.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1015360,
+        1015362
+      ],
+      "fullName": "void *huxley",
+      "categoryItems": [],
+      "questionAnswers": []
+    }
+  ],
+  "questions": [
+    {
+      "id": 100840,
+      "question": "Mastodon Handle and Instance",
+      "questionType": "Short_Text",
+      "sort": 25
+    },
+    {
+      "id": 101215,
+      "question": "BlueSky Handle",
+      "questionType": "Short_Text",
+      "sort": 26
+    }
+  ],
+  "categories": [
+    {
+      "id": 100830,
+      "title": "Track",
+      "items": [
+        {
+          "id": 364445,
+          "name": "technical_talk",
+          "sort": 1
+        },
+        {
+          "id": 364443,
+          "name": "technical_workshop",
+          "sort": 2
+        },
+        {
+          "id": 364444,
+          "name": "entrepreneur_talk",
+          "sort": 3
+        }
+      ],
+      "sort": 0,
+      "type": "session"
+    },
+    {
+      "id": 100831,
+      "title": "Level",
+      "items": [
+        {
+          "id": 363190,
+          "name": "Introductory and overview",
+          "sort": 1
+        },
+        {
+          "id": 363191,
+          "name": "Intermediate",
+          "sort": 2
+        },
+        {
+          "id": 363192,
+          "name": "Advanced",
+          "sort": 3
+        },
+        {
+          "id": 363193,
+          "name": "Expert",
+          "sort": 4
+        }
+      ],
+      "sort": 1,
+      "type": "session"
+    },
+    {
+      "id": 100842,
+      "title": "Pronouns",
+      "items": [
+        {
+          "id": 363210,
+          "name": "he/him",
+          "sort": 1
+        },
+        {
+          "id": 363211,
+          "name": "she/her",
+          "sort": 2
+        },
+        {
+          "id": 363212,
+          "name": "they/them",
+          "sort": 3
+        },
+        {
+          "id": 363214,
+          "name": "he/them",
+          "sort": 4
+        },
+        {
+          "id": 363215,
+          "name": "she/them",
+          "sort": 5
+        },
+        {
+          "id": 363216,
+          "name": "ze/hir",
+          "sort": 6
+        },
+        {
+          "id": 363217,
+          "name": "ze/zir",
+          "sort": 7
+        },
+        {
+          "id": 363213,
+          "name": "other",
+          "sort": 8
+        }
+      ],
+      "sort": 27,
+      "type": "speaker"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 65185,
+      "name": "Tech - Red",
+      "sort": 1
+    },
+    {
+      "id": 65186,
+      "name": "Tech - Blue",
+      "sort": 2
+    },
+    {
+      "id": 65187,
+      "name": "Tech - Other",
+      "sort": 3
+    },
+    {
+      "id": 65188,
+      "name": "Entrepreneur",
+      "sort": 4
+    },
+    {
+      "id": 65189,
+      "name": "Workshop",
+      "sort": 5
+    }
+  ]
+}
