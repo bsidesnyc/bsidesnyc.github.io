@@ -33,7 +33,7 @@
 	}
 
 	.tada {
-		@include animate-prefixer(animation-name, tada);
+		animation-name: tada;
 	}
 
 }

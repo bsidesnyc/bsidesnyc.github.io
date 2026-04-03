@@ -57,7 +57,7 @@
 	}
 
 	.rotateInUpLeft {
-		@include animate-prefixer(animation-name, rotateInUpLeft);
+		animation-name: rotateInUpLeft;
 	}
 
 }

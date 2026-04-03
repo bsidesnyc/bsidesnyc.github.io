@@ -57,6 +57,6 @@
 	}
 
 	.rotateOutDownLeft {
-		@include animate-prefixer(animation-name, rotateOutDownLeft);
+		animation-name: rotateOutDownLeft;
 	}
 }

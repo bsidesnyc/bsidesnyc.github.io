@@ -5,8 +5,8 @@
         <div class="col-md-6 offset-md-3">
             <div id="accordion" class="accordion">
                 {% for faq in site.data.sponsor-faq %}
-                <div class="card text-left">
-                    <div class="card-header collapsed" data-toggle="collapse" data-target="#collapse-{{ forloop.index }}" 
+                <div class="card text-start">
+                    <div class="card-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse-{{ forloop.index }}" 
                         aria-expanded="false" 
                         aria-controls="collapse-{{ forloop.index }}"
                         id="header-{{ forloop.index }}">

@@ -24,7 +24,7 @@
 	}
 
 	.bounce {
-		@include animate-prefixer(animation-name, bounce);
+		animation-name: bounce;
 	}
 
 }

@@ -29,8 +29,8 @@
 	}
 
 	.lightSpeedIn {
-		@include animate-prefixer(animation-name, lightSpeedIn);
-		@include animate-prefixer(animation-timing-function, $base-timing-function-out);
+		animation-name: lightSpeedIn;
+		animation-timing-function: $base-timing-function-out;
 	}
 
 }

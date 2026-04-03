@@ -1,4 +1,13 @@
-@include web-fonts(($fixed-font-family:($fw-light, $fw-regular, $fw-bold)));
+html {
+    scroll-behavior: smooth;
+}
+
+.btn:active, .zoe-effect:active {
+    transform: scale(0.98);
+    filter: brightness(0.9);
+    transition: transform 0.1s;
+}
+
 body, html {
     font-family: $fixed-font-family, $base-font-family;
     font-size: $base-font-size;
@@ -41,6 +50,7 @@ b, strong {
     font-weight: $fw-bold;
 }
 a {
+    text-decoration: none;
     @include linkColor($link-color);
     &:hover, &:active, &:focus {
         text-decoration: none;
@@ -118,15 +128,6 @@ time {
         transition: opacity .5s;
         opacity: 1;
     }
-}
-.preloader {
-    position: fixed;
-    z-index: 9999;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #fff;
 }
 .loader-gplus {
     display: inline-block;

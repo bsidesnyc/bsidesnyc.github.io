@@ -53,7 +53,7 @@ schedule:
   description: null
   type: keynote
   slides_url: null
-  video_url: https://archive.org/details/bsidesnyc2018?playlist=1&file=02_InfoSec_at_The_New_York_Times.mp4
+  video_url: null // linked video on archive.org is a dupe of the opening remarks
   recorded: true
 - time_start: 09:30
   time_end: '10:00'

@@ -57,8 +57,8 @@
 	}
 
 	.wiggle {
-	   @include animate-prefixer(animation-name, wiggle);
-	   @include animate-prefixer(animation-timing-function, $base-timing-function-in);
+	   animation-name: wiggle;
+	   animation-timing-function: $base-timing-function-in;
 	}
 
 }

@@ -54,7 +54,7 @@
 	}
 
 	.rotateIn {
-		@include animate-prefixer(animation-name, rotateIn);
+		animation-name: rotateIn;
 	}
 
 }

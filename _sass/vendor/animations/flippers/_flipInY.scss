@@ -81,7 +81,7 @@
 	}
 
 	.flipInY {
-		@include animate-prefixer(backface-visibility, visible !important);
-		@include animate-prefixer(animation-name, flipInY);
+		backface-visibility: visible !important;
+		animation-name: flipInY;
 	}
 }

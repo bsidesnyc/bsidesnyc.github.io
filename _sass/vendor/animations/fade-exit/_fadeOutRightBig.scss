@@ -49,6 +49,6 @@
 	}
 
 	.fadeOutRightBig {
-		@include animate-prefixer(animation-name, fadeOutRightBig);
+		animation-name: fadeOutRightBig;
 	}
 }

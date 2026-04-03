@@ -1,14 +1,17 @@
 .logo {
-    /*background-image: url("../img/about/logos.svg");*/
     background-repeat: no-repeat;
+    background-position: center;
     &.logo-dark {
         background-image: url("../img/about/logo_black.svg");
+        background-size: contain;
     }
     &.logo-gray {
-        background-position: 0 -63px;
+        background-image: url("../img/about/logo_black.svg");
+        background-size: contain;
     }
     &.logo-light {
         background-image: url("../img/about/logo_white.svg");
+        background-size: contain;
     }
 }
 .icon {

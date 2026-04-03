@@ -49,6 +49,6 @@
 	}
 
 	.fadeOutDownBig {
-		@include animate-prefixer(animation-name, fadeOutDownBig);
+		animation-name: fadeOutDownBig;
 	}
 }

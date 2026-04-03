@@ -45,7 +45,7 @@
 	}
 
 	.flipOutY {
-		@include animate-prefixer(backface-visibility, visible !important);
-		@include animate-prefixer(animation-name, flipOutY);
+		backface-visibility: visible !important;
+		animation-name: flipOutY;
 	}
 }

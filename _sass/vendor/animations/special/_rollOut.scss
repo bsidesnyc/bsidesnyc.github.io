@@ -51,7 +51,7 @@
 	}
 
 	.rollOut {
-		@include animate-prefixer(animation-name, rollOut);
+		animation-name: rollOut;
 	}
 
 }

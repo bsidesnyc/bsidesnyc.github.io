@@ -43,7 +43,7 @@
 	}
 
 	.wobble {
-		@include animate-prefixer(animation-name, wobble);
+		animation-name: wobble;
 	}
 
 }

@@ -49,7 +49,7 @@
 	}
 
 	.fadeOutUpBig {
-		@include animate-prefixer(animation-name, fadeOutUpBig);
+		animation-name: fadeOutUpBig;
 	}
 
 }

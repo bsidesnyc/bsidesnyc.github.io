@@ -81,6 +81,6 @@
 }
 
 .bounceInRight {
-	@include animate-prefixer(animation-name, bounceInRight);
+	animation-name: bounceInRight;
 }
 }

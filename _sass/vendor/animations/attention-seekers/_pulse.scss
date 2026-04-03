@@ -27,7 +27,7 @@
 	}
 
 	.pulse {
-		@include animate-prefixer(animation-name, pulse);
+		animation-name: pulse;
 	}
 
 }

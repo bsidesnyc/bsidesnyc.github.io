@@ -12,7 +12,7 @@ $small-label-width: 80px;
     li {
         font-size: 16px;
         margin-bottom: 5px;
-        @media (max-width: 767px) {
+        @media (max-width: 1199px) {
             font-size: 14px;
         }
     }
@@ -37,7 +37,7 @@ $small-label-width: 80px;
 }
 .schedule-table {
     margin-bottom: 90px;
-    @media (max-width: 767px) {
+    @media (max-width: 1199px) {
         margin-bottom: 60px;
         padding: 0;
     }
@@ -45,7 +45,7 @@ $small-label-width: 80px;
 .schedule-table-heading {
     margin: 10px 0 20px;
     text-align: left;
-    @media (max-width: 767px) {
+    @media (max-width: 1199px) {
         text-align: center;
     }
 }
@@ -60,6 +60,12 @@ $small-label-width: 80px;
 .track-header {
     z-index: 10;
     transition: $base-transition;
+    position: sticky;
+    top: 80px; // Clear the fixed navigation header on desktop
+    @media (max-width: 1199px) {
+        top: 60px; // Adjusted for mobile header
+    }
+    background: #fff;
     &.sticky {
         box-shadow: 0 0 5px rgba(0, 0, 0, .2), 0 1px 0 rgba(255, 255, 255, .15);
     }
@@ -70,12 +76,12 @@ $small-label-width: 80px;
     margin: 0;
     font-size: $title-font-size;
     line-height: 1;
-    @media (max-width: 767px) {
+    @media (max-width: 1199px) {
         font-size: 18px;
     }
     span {
         font-size: 20px;
-        @media (max-width: 767px) {
+        @media (max-width: 1199px) {
             font-size: 14px;
         }
     }
@@ -86,7 +92,7 @@ $small-label-width: 80px;
     transition: $base-transition;
     font-size: 40px;
     font-weight: $fw-light;
-    @media (max-width: 767px) {
+    @media (max-width: 1199px) {
         font-size: 28px;
     }
 }
@@ -97,7 +103,7 @@ $small-label-width: 80px;
 .timeslot-elements {
     overflow: hidden;
     transition: $base-transition;
-    @media (max-width: 767px) {
+    @media (max-width: 1199px) {
         display: block;
     }
 }
@@ -106,7 +112,7 @@ $small-label-width: 80px;
     font-weight: $fw-regular;
     margin: 0;
     padding-right: 20px;
-    @media (max-width: 767px) {
+    @media (max-width: 1199px) {
         font-size: 18px;
     }
 }
@@ -114,18 +120,19 @@ $small-label-width: 80px;
     @extend .slot-title;
 }
 .track-header-slot {
+    position: relative;
     padding: 10px 15px 10px;
     text-align: left;
     transition: $base-transition;
     border-right: $schedule-border;
     user-select: none;
-    @media (max-width: 767px) {
+    @media (max-width: 1199px) {
         border-top: 0;
         border-left: $schedule-border;
     }
     &:first-child {
         border-left: $schedule-border;
-        @media (max-width: 767px) {
+        @media (max-width: 1199px) {
             border-top: 0;
         }
     }
@@ -134,7 +141,7 @@ $small-label-width: 80px;
     @extend .track-header-slot;
     padding: 0;
     cursor: pointer;
-    @media (max-width: 767px) {
+    @media (max-width: 1199px) {
         border-top: $schedule-border;
     }
     &.blank-col {
@@ -165,18 +172,19 @@ $small-label-width: 80px;
     transform: translateY(0);
     transition: $base-transition;
 
-    &.tech-red { border-right-color: #db4437; }
-    &.tech-blue { border-right-color: #4285f4; }
-    &.tech-other { border-right-color: #f4b400; }
-    &.workshop { border-right-color: #0f9d58; }
-    &.entrepreneur { border-right-color: #ab47bc; }
+    &.tech-red { border-left-color: #db4437; }
+    &.tech-blue { border-left-color: #4285f4; }
+    &.tech-other { border-left-color: #f4b400; }
+    &.workshop { border-left-color: #0f9d58; }
+    &.entrepreneur { border-left-color: #ab47bc; }
 
-    @media (max-width: 767px) {
+    @media (max-width: 1199px) {
         padding-bottom: 20px;
         min-height: 90px;
-        border-right-width: 5px;
-        border-right-style: solid;
-        border-right-color: #ccc;
+        border-left-width: 8px;
+        border-left-style: solid;
+        // The color is set by the track-specific classes above
+        
         &:hover {
             transform: translateY(0);
         }

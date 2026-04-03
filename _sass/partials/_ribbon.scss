@@ -31,6 +31,21 @@ $wt-ribbon-border-color: #72e1b3;
     .wt {
         border-right: 4px solid $wt-ribbon-border-color;
     }
+    .tech-red {
+        border-right: 4px solid #db4437;
+    }
+    .tech-blue {
+        border-right: 4px solid #4285f4;
+    }
+    .tech-other {
+        border-right: 4px solid #f4b400;
+    }
+    .workshop {
+        border-right: 4px solid #0f9d58;
+    }
+    .entrepreneur {
+        border-right: 4px solid #ab47bc;
+    }
     .ribbon {
         font-size: 13px;
         font-weight: 300;

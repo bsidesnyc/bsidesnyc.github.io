@@ -56,6 +56,6 @@
 }
 
 .rotateOutUpRight {
-	@include animate-prefixer(animation-name, rotateOutUpRight);
+	animation-name: rotateOutUpRight;
 }
 }

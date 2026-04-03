@@ -57,7 +57,7 @@
 	}
 
 	.rotateOut {
-		@include animate-prefixer(animation-name, rotateOut);
+		animation-name: rotateOut;
 	}
 
 }

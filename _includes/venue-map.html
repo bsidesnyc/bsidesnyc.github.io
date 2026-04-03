@@ -12,7 +12,7 @@
         <div class="row venue-map-heading" id="{{ map.divId }}">
             <div class="col-lg-6 offset-lg-3 col-12">
                 <h4>{{ map.name }}</h4>
-                <img class="animated venue-map" data-animation="fadeIn" src="{{ site.baseUrl }}/img/venue/{{ map.image }}">
+                <img class="animated venue-map" data-animation="fadeIn" src="{{ site.baseUrl }}/img/venue/{{ map.image }}" loading="lazy">
             </div>
         </div>
         {% endfor %}

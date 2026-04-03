@@ -81,7 +81,7 @@
 	}
 
 	.bounceIn {
-		@include animate-prefixer(animation-name, bounceIn);
+		animation-name: bounceIn;
 	}
 
 }
