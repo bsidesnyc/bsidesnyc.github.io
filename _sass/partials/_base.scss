@@ -1,14 +1,25 @@
-@import "compass";
+// @import "compass";
+@import "vendor/helpers/mixins";
 
 // Font weights
-$light: 100;
-$regular: 300;
-$bold: 500;
-$extra-bold: 600;
+$font-weight-light: 100;
+$font-weight-normal: 300;
+$font-weight-bold: 500;
+$font-weight-bolder: 600;
+
+$fw-light: $font-weight-light;
+$fw-regular: $font-weight-normal;
+$fw-bold: $font-weight-bold;
+$fw-extra-bold: $font-weight-bolder;
 
 // Base Font
-$base-font-family: sans-serif;
-$base-font-weight: $regular;
+$font-family-sans-serif: sans-serif;
+$font-weight-base: $font-weight-normal;
+$font-size-base: 13px / 16px * 1rem; // Convert to rem if possible, or keep as 13px
+$line-height-base: 23px / 13px;
+
+$base-font-family: $font-family-sans-serif;
+$base-font-weight: $font-weight-base;
 $base-font-size: 13px;
 $base-line-height: 23px;
 
@@ -18,7 +29,7 @@ $fixed-font-size: 85%;
 $fixed-line-height: $base-line-height;
 
 // Headings
-$header-font-weight: $light;
+$headings-font-weight: $font-weight-light;
 $h1-font-size: 6.125 * $base-font-size;
 $h2-font-size: 5.875 * $base-font-size;
 $h3-font-size: 5 * $base-font-size;
@@ -26,15 +37,30 @@ $h4-font-size: 3.125 * $base-font-size;
 $h5-font-size: 2.3 * $base-font-size;
 $h6-font-size: 1.875 * $base-font-size;
 
+$header-font-weight: $headings-font-weight;
+
 // Colors
 $main-color: #03a9f4;
+$primary: $main-color;
 $link-color: $main-color;
+$link-decoration: none;
+$link-hover-decoration: none;
+
+$main-color: #03a9f4;
 $link-lighten-amount: 20%;
 $base-background-color: #fff;
 $base-section-background-color: $link-color;
 $primary-color: #4285f4;
 $primary-color-hover: #3266d5;
 $icon-fill-color: #8b8b8b;
+
+// Mixin for links (since we removed Compass)
+@mixin linkColor($color) {
+    color: $color;
+    &:hover, &:active, &:focus {
+        color: lighten($color, $link-lighten-amount);
+    }
+}
 
 // Sizes
 $min-section-height: 350px;

@@ -4,7 +4,7 @@
     <div class="content-wrapper">
         <div class="col-lg-3 col-md-4 col-sm-6 offset-md-1 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0">
             <div class="row">
-                <div class="pull-left">
+                <div class="float-left">
                     <h3><b>{{ site.locationBlockTitle }}</b></h3>
                     <ul>
                         {% if site.eventLocationName %}<li>{{ site.eventLocationName }}</li>{% endif %}
@@ -17,7 +17,7 @@
                         </li>
                     </ul>
                 </div>
-                <a href="{{ site.baseurl | append: '/logistics/#directions' }}" class="pull-right">
+                <a href="{{ site.baseurl | append: '/logistics/#directions' }}" class="float-right">
                     <svg class="icon icon-direction" viewBox="0 0 32 32">
                         <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-direction"></use>
                     </svg>

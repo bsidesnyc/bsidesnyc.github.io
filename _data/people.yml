@@ -4,17 +4,17 @@
   company: null
   twitter: null
   bio: null
-  thumbnailUrl: /organizers/aaron.jpg
+  thumbnailUrl: /organizers/aaron.webp
   isOrganizer: true
   isFounder: false
   isEntrepreneurCfp: false
 - firstname: August
   surname: Huber
   title: Security Engineer
-  company: Cruise Automation
+  company: null
   twitter: null
   bio: null
-  thumbnailUrl: /organizers/augs.jpg
+  thumbnailUrl: /organizers/augs.webp
   isOrganizer: true
   isFounder: false
   isEntrepreneurCfp: false
@@ -30,7 +30,7 @@
     author to both the Hacking Exposed and Hacking Exposed Wireless series of books.
   isFounder: true
   isOrganizer: true
-  thumbnailUrl: /organizers/brad.jpg
+  thumbnailUrl: /organizers/brad.webp
   isEntrepreneurCfp: false
 - firstname: Brian
   surname: McHenry
@@ -47,14 +47,14 @@
   isEntrepreneurCfp: false
   isFounder: true
   isOrganizer: false
-  thumbnailUrl: /organizers/brian.png
+  thumbnailUrl: /organizers/brian.webp
 - firstname: Brian
   surname: Smith-Sweeney
   title: Head of Security Risk Management
   company: Two Sigma
   twitter: null
   bio: null
-  thumbnailUrl: /organizers/bss.jpeg
+  thumbnailUrl: /organizers/bss.webp
   isOrganizer: true
   isFounder: false
   isEntrepreneurCfp: false
@@ -66,7 +66,7 @@
   bio: null
   isFounder: false
   isOrganizer: true
-  thumbnailUrl: /organizers/dave.png
+  thumbnailUrl: /organizers/dave.webp
   isEntrepreneurCfp: false
 - firstname: Glenn
   surname: Edwards
@@ -79,7 +79,7 @@
     Security and Privacy from High Point University.
   isFounder: true
   isOrganizer: false
-  thumbnailUrl: /organizers/glenn.jpg
+  thumbnailUrl: /organizers/glenn.webp
   isEntrepreneurCfp: false
 - firstname: Huxley
   surname: Barbee
@@ -97,7 +97,7 @@
     buy him a drink, or both.
   isFounder: false
   isOrganizer: true
-  thumbnailUrl: /organizers/huxley.jpg
+  thumbnailUrl: /organizers/huxley.webp
   isEntrepreneurCfp: false
 - firstname: Jamie
   surname: Levy
@@ -114,7 +114,7 @@
   isFounder: false
   isOrganizer: false
   isTechCfp: true
-  thumbnailUrl: /cfp/jamie_levy.png
+  thumbnailUrl: /cfp/jamie_levy.webp
   isEntrepreneurCfp: false
 - firstname: Jase T.
   surname: English
@@ -132,7 +132,7 @@
   isFounder: false
   isOrganizer: false
   isTechCfp: true
-  thumbnailUrl: /cfp/jase_english.jpg
+  thumbnailUrl: /cfp/jase_english.webp
   isEntrepreneurCfp: false
 - firstname: Pearce
   surname: Barry
@@ -140,7 +140,7 @@
   company: Pura
   twitter: null
   bio: null
-  thumbnailUrl: /organizers/pearce.jpg
+  thumbnailUrl: /organizers/pearce.webp
   isOrganizer: true
   isFounder: false
   isEntrepreneurCfp: false
@@ -159,7 +159,7 @@
     of network architectures, wireless network protocols, and blockchain applications.
   isFounder: false
   isOrganizer: false
-  thumbnailUrl: /cfp/shweta.jpg
+  thumbnailUrl: /cfp/shweta.webp
   isEntrepreneurCfp: false
 - firstname: Anna 
   surname: Sarnek 
@@ -172,7 +172,7 @@
     experience szpans from early stage startups like Valence Security to enterprise cyber security companies like RSA security. At SecurityScorecard, she 
     single-handedly built the Cloud Partnership program, achieving 8x marketplace growth, securing a record 6-day deal cycle, and earning AWS recognition 
     at re:Invent 2022. Anna's strategic vision and partnership expertise drives innovation across the cybersecurity ecosystem.
-  thumbnailUrl: /cfp/annasarnek.png
+  thumbnailUrl: /cfp/annasarnek.webp
   isEntrepreneurCfp: true
 - firstname: Sid 
   surname: Trivedi 
@@ -185,7 +185,7 @@
     He is also a co-founder of CyberSeed, a community of over 1,500 cybersecurity founders, and co-founder and co-host of the Inside the Network podcast, which 
     shares how category-defining cybersecurity startups are built. Outside of work, Sid serves on the advisory boards of Entrepreneurship at Cornell, the 
     California Israel Chamber of Commerce, and Cornell Venture Capital. Sid graduated Phi Beta Kappa and magna cum laude from Cornell University.
-  thumbnailUrl: /cfp/sidtrivedi.jpg
+  thumbnailUrl: /cfp/sidtrivedi.webp
   isEntrepreneurCfp: true
 - firstname: Ross
   surname: Haleliuk
@@ -198,7 +198,7 @@
     readers,  widely regarded as the number one independent source about the business side of cybersecurity. His book, Cyber for Builders The Essential Guide 
     to Building a Cybersecurity Startup, became an instant Amazon best seller, got the SANS Book of the Year award, and is recognized as a critical read for 
     aspiring and early-stage security entrepreneurs and experienced founders alike.
-  thumbnailUrl: /cfp/rosshaleliuk.jpg
+  thumbnailUrl: /cfp/rosshaleliuk.webp
   isEntrepreneurCfp: true
 - firstname: Nicholas
   surname: Muy
@@ -210,7 +210,7 @@
     dollar companies and scaling zero-to-1 programs for high-growth startups. Specialist at security engineering, board-level risk management, F500 M&A in 
     software-heavy environments and having a ruthlessly business-aligned pragmatic approach to security, have held leadership roles in Corporate Development, 
     Corporate Strategy, and Platform Strategy.
-  thumbnailUrl: /cfp/nicholasmuy.jpg
+  thumbnailUrl: /cfp/nicholasmuy.webp
   isEntrepreneurCfp: true
 - firstname: Chas
   surname: Larios
@@ -224,7 +224,7 @@
     sector cybersecurity challenges. Chas has built GTM engines and brands from the ground up at multiple cybersecurity startups and companies, including Anvilogic, 
     Secureworks, and VMware Carbon Black. She is passionate about changing the way cybersecurity marketing is done—putting respect for the community and trusted 
     practitioner voices at the center.
-  thumbnailUrl: /cfp/chaslarios.jpg
+  thumbnailUrl: /cfp/chaslarios.webp
   isEntrepreneurCfp: true
 - firstname: Alex
   surname: Perotti
@@ -239,7 +239,7 @@
     technical analysis with strategic threat intelligence to support detection, response, and resilience.
     Alex is currently part of the Global Threat Intelligence team at PwC and supports a variety of efforts—from intelligence briefings to vulnerability assessments, 
     to hunting for novel malware, to tracking threat actor infrastructure.
-  thumbnailUrl: /cfp/alexperotti.jpg
+  thumbnailUrl: /cfp/alexperotti.webp
   isTechCfp: true
 - firstname: Cesar
   surname: Vargas
@@ -250,7 +250,7 @@
     products with emphasis in the Security Operations (SecOps) experience via threat modeling and emulation of high-profile threat actors. Prior to AWN, he 
     worked at McAfee/Trellix with public sector enterprises at establishing and maturing Cybersecurity Threat Intelligence (CTI) and SecOps programs in 
     Information and Operational Technology environments.  
-  thumbnailUrl: /cfp/cesarvargas.png
+  thumbnailUrl: /cfp/cesarvargas.webp
   isTechCfp: true
 - firstname: Raphaela
   surname: Mettig
@@ -264,7 +264,7 @@
     threat intelligence analyst and as a product security engineer. Now, she helps build and maintain the cyber research infrastructure for students and faculty 
     alike, while also working on her own doctoral research.
     Raphaela is also a lifelong musician. When she’s not hacking, she loves going to concerts, playing guitar, and reading.
-  thumbnailUrl: /cfp/raphaela.jpg
+  thumbnailUrl: /cfp/raphaela.webp
   isTechCfp: true
 - firstname: Stephanie
   surname: Aceves
@@ -279,7 +279,7 @@
     heart-centered leadership, Stephanie is equally passionate about developing people as she is about delivering results. For nearly a decade, she has funded 
     the Latinas in STEM Empowerment Scholarship, an annual award for first-generation Latinas pursuing degrees in science, technology, engineering, or math. 
     She mentors rising talent across tech and business, encouraging others to lead with courage, creativity, and conviction.
-  thumbnailUrl: /cfp/stephanieaceves.jpg
+  thumbnailUrl: /cfp/stephanieaceves.webp
   isTechCfp: true
 - firstname: Jamie
   surname: Williams
@@ -289,7 +289,7 @@
   bio: Jamie is a red team engineer & threat researcher. He previously led development of MITRE ATT&CK® for Enterprise. Throughout his career Jamie has worked 
     with amazing people on various exciting efforts involving security operations and research, mostly focused on adversary emulation, behavior-based detections, 
     and the many other ways of finding the "so what?" of cyber threat intelligence.
-  thumbnailUrl: /cfp/jamiewilliams.jpg
+  thumbnailUrl: /cfp/jamiewilliams.webp
   isTechCfp: true
 - firstname: Jessica 
   surname: Hyde
@@ -306,5 +306,5 @@
     HTCIA, DFIR Review, SWGDE, and NIST OSAC. Her background includes prior experience
     at Magnet Forensics, Basis Technology, EY, and American Systems. Jessica is a
     proud veteran of the United States Marine Corps.
-  thumbnailUrl: /cfp/jessica_hyde.jpg
+  thumbnailUrl: /cfp/jessica_hyde.webp
   isTechCfp: true

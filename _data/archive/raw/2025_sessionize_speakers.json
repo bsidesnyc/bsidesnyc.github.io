@@ -1,0 +1,2952 @@
+[
+  {
+    "id": "409fc819-cbf7-4caf-995c-84b3c2b5dcb3",
+    "firstName": "Alex",
+    "lastName": "Chantavy",
+    "fullName": "Alex Chantavy",
+    "bio": "Alex Chantavy is the co-founder and CEO of SubImage, a cloud security startup backed by Y Combinator. He is the co-creator of Cartography, a popular open-source security graph tool.\r\n\r\nIn prior roles, he architected and built Lyft's vulnerability management platform, led penetration tests for Microsoft's Red Team, and worked on [REDACTED] at the NSA.",
+    "tagLine": "Co-founder & CEO at SubImage",
+    "profilePicture": "https://sessionize.com/image/d5c6-400o400o1-Nym2vKU2xhyGME6vhd6t9M.png",
+    "sessions": [
+      {
+        "id": 978839,
+        "name": "What It’s Like Being the Only Security Startup in Your YC Batch"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/alexchantavy",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alexchantavy/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "d851ea44-704e-497f-983b-ff772abfd2b1",
+    "firstName": "Allyn",
+    "lastName": "Stott",
+    "fullName": "Allyn Stott",
+    "bio": "Allyn Stott is a senior staff engineer at Airbnb where he works on the InfoSec Technology Leadership team. He spends most of his time working on enterprise security, threat detection, and incident response. Over the past decade, he has built and led detection and response programs at companies including Delta Dental of California, MZ, and Palantir. Red team tears are his testimonials.\r\n\r\nAllyn has previously presented at Black Hat (Europe, Asia, MEA), Kernelcon, The Diana Initiative, Blue Team Con, Swiss Cyber Storm, SecretCon, Texas Cyber Summit, and BSides around the world. He received his Master’s in High Tech Crime Investigation from The George Washington University as part of the Department of Defense Information Assurance Scholarship Program.\r\n\r\nIn the late evenings, after his toddler ceases all antics for the day, Allyn writes a semi-regular, exclusive security newsletter that you can subscribe to at meoward.co.",
+    "tagLine": "Senior Staff Engineer, Airbnb",
+    "profilePicture": "https://sessionize.com/image/d8a4-400o400o1-3XJk32pAYv2wfDZYqKiQPn.png",
+    "sessions": [
+      {
+        "id": 912218,
+        "name": "Tinker Tailor LLM Spy: Investigate & Respond to Attacks on GenAI Chatbots"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/whyallyn",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/whyallyn/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "a30e285f-ab11-4e31-887d-d7925b83e30f",
+    "firstName": "Amir",
+    "lastName": "Kavousian",
+    "fullName": "Amir Kavousian",
+    "bio": "Amir Kavousian is a two-time cybersecurity founder and the CEO of DevArmor, an AI-native platform reinventing threat modeling and security design reviews for the AI era. Previously, he was co-founder and CTO of Altitude Networks (acquired by CoinList), where he led engineering and security for Fortune 500 clients. He also led engineering teams at Capital One and holds a PhD in Engineering from Stanford.\r\n\r\nAt DevArmor, Amir is tackling one of the most persistent challenges in AppSec: scaling secure-by-design practices without compromising developer speed. His team is building AI agents that automate threat modeling and security reviews, identify logic flaws, and embed security guardrails directly into development workflows.\r\n\r\nAmir lives in the Bay Area with his wife and two daughters. Outside of work, he’s an avid tennis player, a runner, and a former mountaineer hoping to return to high altitudes someday.",
+    "tagLine": "Founder & CEO, DevArmor",
+    "profilePicture": "https://sessionize.com/image/75f4-400o400o1-QGQDZA9KTquTdEByy2TgVP.jpg",
+    "sessions": [
+      {
+        "id": 978657,
+        "name": "When Build vs Buy Is Rigged: Selling to Enterprises That Prefer Building In-House"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/kavousian",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/amir-kavousian/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "cad449b1-96aa-4595-88cf-1784755db65c",
+    "firstName": "Amit",
+    "lastName": "Serper",
+    "fullName": "Amit Serper",
+    "bio": "Amit Serper, Lead Security Researcher at CrowdStrike, brings 20+ years of expertise in vulnerability research, malware analysis, exploitation, and reverse engineering. With experience at Akamai, Cybereason, and other firms, he's made significant contributions to both defensive and offensive security. His high-impact discoveries and technical insights are widely cited in industry reports and media. Amit regularly presents his research at major security conferences globally.",
+    "tagLine": "Lead security researcher, Crowdstrike",
+    "profilePicture": "https://sessionize.com/image/913d-400o400o1-iMe6nKx5QM68tWFtiiEki.jpg",
+    "sessions": [
+      {
+        "id": 928649,
+        "name": "From Interview Questions to Cluster Damage: Adventures in k8s Cluster Hacking"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/0xamit",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/aserper",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": "infosec.exchange/@0xamit",
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": "@amit.wtf",
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "399a7662-e96b-4ca7-ae1d-4afd32e299f5",
+    "firstName": "Andi",
+    "lastName": "Ahmeti",
+    "fullName": "Andi Ahmeti",
+    "bio": "Andi Ahmeti is a Threat Researcher on Permiso Security's P0 Labs team with 3 years of experience in offensive security and threat hunting. He now is focused on hunting through product telemetry to identify evil and building tools to enrich extensive collection of cloud focused data.\r\n\r\nHe is the author of an open-source threat detection tool called CloudGrappler and co-author of the Cloud Console Cartographer defensive visibility framework. He has presented at numerous conferences around the world including Black Hat Asia, Black Hat Europe, Black Hat MEA, FIRSTCON24, x33fcon, BSides Prishtina, BSides NYC, BSides Tirana\r\n\r\nMr. Ahmeti obtained a Bachelor of Science in Computer Engineering from the University of Prishtina Faculty of Computer and Electrical Engineering (2023). ",
+    "tagLine": "Threat Researcher at Permiso Security",
+    "profilePicture": "https://sessionize.com/image/bed3-400o400o1-QmwxzFLSxBNTD5hHE1ssuF.jpg",
+    "sessions": [
+      {
+        "id": 969903,
+        "name": "Inboxfuscation: Out-of-the-Box Mailbox Obf{\\u}scation - Turning BEC into Business Email Chaos"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/SecEagleAnd1",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/andi-ahmeti/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "4e0fbb38-70ee-4002-8d2c-fb7ad256d41b",
+    "firstName": "Andrew",
+    "lastName": "Case",
+    "fullName": "Andrew Case",
+    "bio": "Andrew Case is the Director of Research at Volexity, and has significant experience in incident response handling and malware analysis. He has conducted numerous large-scale investigations that span enterprises and industries. Case is a core developer of the Volatility memory analysis framework, and a co-author of the highly popular and technical forensics analysis book “The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory.”",
+    "tagLine": "Director of Research, Volexity",
+    "profilePicture": "https://sessionize.com/image/ae1a-400o400o1-spGtyafgeM7XWGw4mPkTG6.jpg",
+    "sessions": [
+      {
+        "id": 970029,
+        "name": "Using Volatility 3 to Detect Sophisticated Malware"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/attrc",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/andrewcase/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": "https://bsky.app/profile/attrc.bsky.social",
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "9509abd7-9f96-46a5-93d9-cd69496826f1",
+    "firstName": "Anmol",
+    "lastName": "Maurya",
+    "fullName": "Anmol Maurya",
+    "bio": "Anmol Maurya is a Staff Malware Reverse Engineer at Palo Alto Networks. Prior to this, he honed his skills in the same domain at CrowdStrike. His primary responsibilities encompass threat research and malware reversing, areas in which he has built substantial expertise.\r\n\r\nAnmol is passionate about the Go programming language and its application in malware. His extensive experience, coupled with his past involvement in writing research blogs on Go malware, make him a trusted authority in understanding the intricacies of how threat actors exploit Go's cross-platform capabilities.\r\n\r\nIn his presentation, Anmol will delve into the allure of Go's cross-platform capability and its exploitation by threat actors on Mac and Linux systems. He will share his knowledge and expertise, providing a comprehensive understanding of the detection, analysis, and reverse engineering of Go-based malware.",
+    "tagLine": "Staff Malware Reverse Engineer, Palo Alto Networks",
+    "profilePicture": "https://sessionize.com/image/dd4f-400o400o1-UtzBABL6diPo46wb4sdVN7.png",
+    "sessions": [
+      {
+        "id": 948627,
+        "name": "The Allure of Go's Cross-Platform Capability: A Gateway for Threat Actors to Mac and Linux"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/luftatako-anmol/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "c2c5e099-3073-4f92-bf4a-b4a2fd010e3a",
+    "firstName": "Art",
+    "lastName": "Ukshini",
+    "fullName": "Art Ukshini",
+    "bio": "Art Ukshini is a Threat Researcher on Permiso Security’s P0 Labs team, focused on threat intelligence and development of advanced detections to unveil threat actors. He has prior experience as a Cyber Security Engineer, primarily engaged in offensive security.\r\n\r\nArt holds a Bachelor degree of Computer Engineering, at Faculty of Electrical and Computer Engineering, University of Prishtina.\r\n\r\nHe is deeply passionate about security, driven by a desire to master attacking techniques and methodologies in order to have a strategic approach for hunting and detecting threats.",
+    "tagLine": "Threat Researcher - Detection Engineer, Permiso Security",
+    "profilePicture": "https://sessionize.com/image/6cfe-400o400o1-hQV3zdNs6SEcDECAmu3KUV.png",
+    "sessions": [
+      {
+        "id": 973061,
+        "name": "P0LR Espresso - Pulling Shots of Cloud Live Response & Advanced Analysis"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/artukshini",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "eea66c6d-9f4d-475f-bf06-83f9628aa429",
+    "firstName": "Austin",
+    "lastName": "Gadient",
+    "fullName": "Austin Gadient",
+    "bio": "Austin Gadient is a co-founder of Vali Cyber and serves as the company's CTO. Austin is the primary author of Vali Cyber’s product, ZeroLock. ZeroLock is the world’s first Linux security product that combines portability, performance, and efficacy into one easy-to-use system. Austin is also the author of SecurityPerf, an open-source framework that determines the impact of security software on production Linux workloads. Prior to starting Vali, Austin was an officer in the United States Air Force and developed secure software architectures for America’s satellite infrastructure. Austin holds a S.M in Computer Science from the Massachusetts Institute of Technology where he completed a thesis on a novel automatic exploit generation system called RAGE. Austin holds a B.S. in Computer Engineering from the United States Air Force Academy where he was a captain of the Academy’s competitive hacking team and the number one engineering graduate from the class of 2018.",
+    "tagLine": "Vali Cyber CTO & Co-Founder",
+    "profilePicture": "https://sessionize.com/image/78a6-400o400o1-9JZDM33M46hDkrAdDttc9V.jpg",
+    "sessions": [
+      {
+        "id": 953451,
+        "name": "Navigating the Virtualization Battlefield: A Deep Dive into Hypervisor Attack Vectors"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/austingadient",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/austin-gadient/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "6663fe1d-b418-443c-8b1c-f2bf8bf7c8cd",
+    "firstName": "Bleon",
+    "lastName": "Proko",
+    "fullName": "Bleon Proko",
+    "bio": "Bleon is an Info-sec passionate about Infrastructure Penetration Testing and Security, including Active Directory, Cloud (AWS, Azure, GCP, Digital Ocean), Hybrid Infrastructures, as well as Defense, Detection and Thread Hunting. He has presented topics related to Cloud Penetration Testing and Security in conferences like BlackHat USA, Europe and Sector, DEF CON, SANS Pentest Hackfest Hollywood and Amsterdam, as well as several BSides on USA and Europe.\r\nHis research include Nebula, a Cloud Penetration Testing Framework (https://github.com/gl4ssesbo1/Nebula) and other blogs, which you can also find on his blog (blog.pepperclipp.com). He is also the author of YetiHunter, DetentionDodger and Ransomwhen (https://github.com/Permiso-io-tools/[DetentionDodger | YetiHunter | Ransomwhen]).",
+    "tagLine": "Security Engineer",
+    "profilePicture": "https://sessionize.com/image/4807-400o400o1-GYHHTBXo7mQt3WkXajMLF3.png",
+    "sessions": [
+      {
+        "id": 975759,
+        "name": "The Log Rings Don’t Lie: Historical Enumeration in Plain Sight"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/gl4ssesbo1",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/bleon-p-9b2734143/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "d8135015-e868-4d2f-ab1a-c2efc3c71953",
+    "firstName": "Christian",
+    "lastName": "Hyatt",
+    "fullName": "Christian Hyatt",
+    "bio": "With experience overseeing 2000+ engagements, Christian is widely considered one of the foremost experts on cybersecurity, GRC, and compliance around the globe. Renowned as a highly regarded keynote speaker and thought leader, Christian has worked with entrepreneurs, CEOs, corporate executives, and security experts across Europe, Asia, and the United States.\r\n\r\nAs the CEO and Co-founder of risk3sixty, Christian’s team helps many of the world’s leading technology organizations certify, build, and manage security programs challenged with compliance initiatives like SOC 2, ISO 27001, PCI DSS, HITRUST, and also performs continuous penetration testing.\r\n\r\nUnder Christian’s leadership, risk3sixty has been named 3x Consulting Magazine’s Best Firms to Work For, 5x Atlanta’s Fastest Growing companies, and 5x Atlanta’s Best Places to Work.\r\n\r\nChristian is the best selling author of \"Security Team Operating System\" and has an M.B.A. from Georgia Tech and a B.B.A. from the University of Georgia.",
+    "tagLine": "CEO & Founder @ risk3sixty",
+    "profilePicture": "https://sessionize.com/image/4487-400o400o1-Ti7Urm9u8cg7da6RsDKspC.png",
+    "sessions": [
+      {
+        "id": 975666,
+        "name": "The Good Business: How to Bootstrap a Business to $10M and Beyond"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://www.twitter.com/christianhyatt",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/christianhyatt",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "f40b7f19-6bb0-4201-93c9-1d3ecc89ba33",
+    "firstName": "Christo",
+    "lastName": "Roberts",
+    "fullName": "Christo Roberts",
+    "bio": "With over 25 years of experience as a Solutions Engineer, I am passionate about helping enterprise customers achieve their goals of enhancing web performance, security, and reliability. As a Lead Solutions Engineer at Cloudflare, I leverage my technical skills, industry knowledge, and customer-centric approach to deliver cloud-native solutions that meet the highest standards of quality and efficiency.\r\n\r\nI am also a Certified Information Systems Security Professional (CISSP) with a strong background in application security, network access control, and threat prevention. I have successfully led and supported high-impact projects for customers in various verticals, such as financial services, e-commerce, and high tech, by providing demos, deep dives, proof of concepts, solution proposals, and executive briefings. I enjoy collaborating with cross-functional teams, product management, and professional services to ensure customer satisfaction and drive business growth.",
+    "tagLine": "Principal Solutions Engineer at Cloudflare Focused on App Sec and Bots",
+    "profilePicture": "https://sessionize.com/image/feb2-400o400o1-aPCBoWdkexBm4QhFAjHsNf.jpg",
+    "sessions": [
+      {
+        "id": 932290,
+        "name": "Slaying Hidden Threats in Residential (and Mobile!) IP Proxies"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/christopherbroberts/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "008be559-299d-4d2f-975f-944e98de761b",
+    "firstName": "Christopher",
+    "lastName": "Eng",
+    "fullName": "Christopher Eng",
+    "bio": "Christopher Eng is the Chief Information Officer at Guttman Community College – CUNY, where he leads a talented team of IT professionals focused on driving innovation and supporting student success. He recently earned his M.S. in Digital Forensic Science from Champlain College and is now exploring how to blend his interests and knowledge into the next chapter of his career.\r\n\r\nOutside of his professional life, he is a longtime car enthusiast. He formerly raced a 1999 Subaru Impreza 2.5RS and is hoping to get back out to his favorite track, Lime Rock Park. These days he likes tinkering with his classic 1961 Austin Mini or his delightfully oddball 1998 Mazda Bongo Friendee. He finds the greatest joy in time spent making memories with his partner and kids.\r\n\r\nBonus challenge: Think you’re good at OSINT? Try figuring out where his profile photo was taken.",
+    "tagLine": "Independent Digital Forensic Researcher | CIO",
+    "profilePicture": "https://sessionize.com/image/b594-400o400o1-UHRca792UrKgLUuYrYNe96.jpg",
+    "sessions": [
+      {
+        "id": 955799,
+        "name": "Contribute to Learn: Building DFIR Expertise Through Open Source"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/christophereng/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "87933d1f-1ba7-4b86-8e22-5ade5cbf95a5",
+    "firstName": "Cory",
+    "lastName": "Wolff",
+    "fullName": "Cory Wolff",
+    "bio": "With over 20 years of experience in IT, security, and development, Cory Wolff leads the offensive security practice at risk3sixty, a consulting firm based in Atlanta, GA. He holds multiple certifications, including the Offensive Security Certified Professional (OSCP) and the Certified Information Systems Security Professional (CISSP), and has a proven track record of building and breaking various technologies since his first computer in 1988.\r\n\r\nCory also contributes to the cybersecurity community as a core team member of Red Team Village, a platform that fosters collaboration, learning, and innovation among red teamers and security professionals.",
+    "tagLine": "Director of Offensive Security at risk3sixty / Director of Training at Red Team Village",
+    "profilePicture": "https://sessionize.com/image/1486-400o400o1-7VU3hH5JsiQPLknaQWyijA.jpg",
+    "sessions": [
+      {
+        "id": 966181,
+        "name": "Inside Ransomware: Facts and Findings from the Blackbasta and Lockbit Leaks"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/cwolff411",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/corywolff",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "6a88ca09-cc65-4e76-9b36-cb5eed46edb0",
+    "firstName": "David",
+    "lastName": "Feldman",
+    "fullName": "David Feldman",
+    "bio": "David Feldman is an Intelligence Analyst at CrowdStrike with a focus on threat research. He holds a bachelor’s degree in Computer Science from Rutgers University and previously served as president of the university’s cybersecurity club. David has interned at the New Jersey Office of Homeland Security and Preparedness (NJOHSP), the U.S. Coast Guard, and the Cyber Security Forum Initiative (CSFI). His other interests include malware analysis, cyber policy, and blockchain forensics.\r\n",
+    "tagLine": "Intelligence Analyst, CrowdStrike ",
+    "profilePicture": "https://sessionize.com/image/578a-400o400o1-3zC78QPC48P8fm4XRj7Rd7.png",
+    "sessions": [
+      {
+        "id": 978891,
+        "name": "SpyMax - Mobile Malware On The Frontlines of Syria's Civil War"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/david-fel",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "9fd9571b-7943-4d51-acc0-066545656ce5",
+    "firstName": "David",
+    "lastName": "McDonald",
+    "fullName": "David McDonald",
+    "bio": "David McDonald is a researcher and software engineer with 4 years of digital forensics R&D experience. His passion for this field began with his involvement in the University of New Orleans CTF team, as well as through his time as a Systems Programming teaching assistant. After over two years of digital forensics research and development on Cellebrite's computer forensics team, he joined Volexity's Volcano team, where he now works to develop next-generation memory analysis solutions.\r\n\r\nHe believes deeply in sharing knowledge and helping others discover their abilities and interests through their own journeys in cybersecurity, and strives to pay forward the benefits of the mentorship that has opened so many doors for him.",
+    "tagLine": "Software Engineer @ Volexity",
+    "profilePicture": "https://sessionize.com/image/b31f-400o400o1-hb2jN8k8usxHVUiAWxGJC6.png",
+    "sessions": [
+      {
+        "id": 978860,
+        "name": "Detecting and Preventing Obfuscated Script Execution with Tree-sitter"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/dgmcdonald",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": "river_rat@infosec.exchange",
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "50325dff-a8b3-4363-8f1d-29c8a0f647c6",
+    "firstName": "Dmitrijs",
+    "lastName": "Trizna",
+    "fullName": "Dmitrijs Trizna",
+    "bio": "Dimi is cyber-security and AI researcher, ex-Microsoft, was part of CERTs and Red Teams, now in a founding team at a stealth start-up. He talked and trained at BlackHat USA (2022: briefings, 2024: training), DefCon AI Village, BlueHat, Nullcon, Troopers, BSides, etc. and published numerous peer-reviewed publications (ACM, IEEE, CAMLIS). Certified: Stanford Online, OSCP, GIAC SANS (GREM, GDAT), etc.",
+    "tagLine": "Aisle, AI Security Researcher",
+    "profilePicture": "https://sessionize.com/image/215f-400o400o1-B9QMGDNuAVE7XwsxNAJZ3Q.png",
+    "sessions": [
+      {
+        "id": 978269,
+        "name": "Exploit Intelligence with Agentic AI: Patch What Matters"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ditrizna/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "af17855c-704e-4c95-94ca-65d9727a4b35",
+    "firstName": "Dmitry",
+    "lastName": "Bestuzhev",
+    "fullName": "Dmitry Bestuzhev",
+    "bio": "Dmitry Bestuzhev is a Cybersecurity Expert with over 20 years of experience in the industry and education sectors. He has held senior positions at BlackBerry (Senior Director, CTI) and Kaspersky (Head of GReAT, Latin America), leading cybersecurity teams. Currently, he conducts independent research and supports non-profit educational initiatives.",
+    "tagLine": "CTI Researcher",
+    "profilePicture": "https://sessionize.com/image/7cef-400o400o1-V1jfusRTEzqNZ4Dj3gN8QE.png",
+    "sessions": [
+      {
+        "id": 975803,
+        "name": "Deconstructing LightSpy's True Scale: 70-Plugin Framework, Router Infections, Live Operator Panels,"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/dimitribest",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/bestuzhev/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "19b9e041-0531-4c14-9016-7c996f509e9e",
+    "firstName": "Dmitry",
+    "lastName": "Melikov",
+    "fullName": "Dmitry Melikov",
+    "bio": "Dmitry Melikov is a Security Researcher at ArcticWolf, where his responsibilities include threat hunting, analyzing attacks, and writing intelligence reports. Before joining ArcticWolf, he worked for a company that specialized in securing email traffic.\r\nHe is based in Germany.",
+    "tagLine": "Security Researcher",
+    "profilePicture": "https://sessionize.com/image/d791-400o400o1-fUm6szZhopDYAigg8uHXqg.jpg",
+    "sessions": [
+      {
+        "id": 975803,
+        "name": "Deconstructing LightSpy's True Scale: 70-Plugin Framework, Router Infections, Live Operator Panels,"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/DmitriyMelikov",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/dmitry-melikov-210000142/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "cfc6d91c-7474-4a6d-83c0-14a0d7d3ec78",
+    "firstName": "Eliad",
+    "lastName": "Kimhy",
+    "fullName": "Eliad Kimhy",
+    "bio": "Eliad Kimhy is a Senior Security Researcher at Acronis, where he focuses on cybersecurity research, threat intelligence, and communicating findings through published reports, conference talks, and media engagements. Eliad has worked with security teams for close to a decade, helping build and lead the development of threat intelligence production, and the publication of research-based content for technical and general audiences.\r\n\r\nHe is the co-creator and producer of the Webby Honoree podcast Malicious Life, which explores the history of cybersecurity. Eliad has spoken at conferences including Insomnihack, Thotcon, BsidesSF, BsidesLV, and IT-SA.",
+    "tagLine": "Sr. Security Researcher at Acronis",
+    "profilePicture": "https://sessionize.com/image/fc1d-400o400o1-xHbf2xAC2T53FUzqdjFyS.jpg",
+    "sessions": [
+      {
+        "id": 978489,
+        "name": "The History of Malware: From Floppies to Droppers"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/eliadkimhy",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/eliad-kimhy/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "b55d3f8c-1cf1-4f28-9d1e-29069d624074",
+    "firstName": "Elizaveta",
+    "lastName": "Mikheeva",
+    "fullName": "Elizaveta Mikheeva",
+    "bio": "Elizabeth (qwqoro) of the Neplox team is a Cybersecurity Researcher, who strongly believes that Web3 Security must be Research-powered, and therefore daily explores curious corners of the information security world: participates in penetration tests of Web2 / Web3 applications, dissects malware source code and looks for in-the-wild vulnerabilities and threats in various products, ranging from E-mail Injections to phishing via IoT Devices.\r\n\r\nShe has written research articles and given talks at International conferences and meetups, and her field of interest includes Web3 Ecosystems, Web Application Security, Red Teaming and Malware Analysis.",
+    "tagLine": "Cybersecurity Researcher, Neplox",
+    "profilePicture": "https://sessionize.com/image/8e3a-400o400o1-Lq9BnRaka1nchQ1YdAjjyk.png",
+    "sessions": [
+      {
+        "id": 973798,
+        "name": "Down the Drain: Unpacking TON of Crypto Drainers"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/qwqoro",
+        "linkType": "Twitter"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363211,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "5801f67d-61e3-4123-8722-e3358716784c",
+    "firstName": "Emily",
+    "lastName": "Choi-Greene",
+    "fullName": "Emily Choi-Greene",
+    "bio": "Emily has been securing AI systems since 2018.  She oversaw application security for Amazon's Alexa AI organization and owned data security and privacy at Moveworks (an enterprise AI assistant).  She's now the CEO and co-founder of Clearly AI, a YC-backed startup automating security and privacy reviews.   ",
+    "tagLine": "Co-Founder at Clearly AI",
+    "profilePicture": "https://sessionize.com/image/8d80-400o400o1-hoatCm8UTR6RYekAD2yWhu.jpg",
+    "sessions": [
+      {
+        "id": 974691,
+        "name": "Beyond Vibe Coding: Building Reliable AI AppSec Tools"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/escgreene",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/emilycgreene/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363211,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "2c6ef5fd-5d33-41a7-8a73-1635385b391e",
+    "firstName": "Emily",
+    "lastName": "Leidy",
+    "fullName": "Emily Leidy",
+    "bio": "Emily is a well-rounded information security consultant and defensive security practitioner. She has over 10 years of experience in cybersecurity with expertise in detection engineering, purple teaming, attack surface reduction, threat modeling, cybersecurity policy, and adversary tactics. Emily has taught at several security conferences, including Black Hat. Before joining SpecterOps, Emily worked with multiple large federal agencies helping them prioritize and remediate critical vulnerabilities and proactively defend against potential cyber attacks. Prior to that, she developed agency-wide compliance requirements and wrote the Interim Authority to Test policy in the National Security Systems division at the Department of Homeland Security.",
+    "tagLine": "Managing Consultant at SpecterOps",
+    "profilePicture": "https://sessionize.com/image/e326-400o400o1-awR9pUXBWbhX7ZaMWUtUV1.jpg",
+    "sessions": [
+      {
+        "id": 938156,
+        "name": "Sniffing Out Cert Abuse: A Dogged Approach to ESC Remediation"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/leidy_tector",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/emily-leidy-3649777b/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363211,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "bbfd0a29-4fb2-4797-b871-f53693fbd4b4",
+    "firstName": "Eric",
+    "lastName": "Foster",
+    "fullName": "Eric Foster",
+    "bio": "Eric Foster is the Founder & CEO of TENEX.ai, the AI-native MDR fusing artificial intelligence with human expertise to transform cybersecurity, backed by Andreessen Horowitz (a16z). \r\n\r\nAcross 30+ years in cybersecurity, Foster has logged three CISO tours and taken three startups from scratch to exit - twice unlocking nine-figure outcomes for shareholders.\r\n\r\nEric co-founded Cyderes with industry pioneer Gary Fish, and later served as President of threat-intel innovator Stairwell. Earlier, he led Customer Success at RiskIQ (acquired by Microsoft), co-founded MMAjunkie (acquired by USA Today), and along the way held three CISO roles including for UMB Financial and Netsmart. \r\n\r\nOff duty he enjoys motorsports, poker, and exploring Florida’s outdoors with his wife and two children.",
+    "tagLine": "CEO - TENEX.ai",
+    "profilePicture": "https://sessionize.com/image/4c8c-400o400o1-hAp91sfzXJ9W946rQC9A39.jpg",
+    "sessions": [
+      {
+        "id": 978715,
+        "name": "Rebooting the cyber arsenal of democracy"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/performify",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ericfoster/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "e0ec5130-2811-4426-833e-17a29010269b",
+    "firstName": "Filipi",
+    "lastName": "Pires",
+    "fullName": "Filipi Pires",
+    "bio": "I’ve been working as Head of Identity Threat Labs and Global Product Advocate at Segura®, Red Team Village Director, Senior Advisor Raices Cyber Academy, Founder of Red Team Community (Brazil and LATAM),  AWS Community Builder, Snyk Ambassador, Application Security Specialist and Hacking is NOT a crime Advocate. International Speaker at Security and New technologies events in many countries such as US (Black Hat & Defcon), Canada, France, Spain, Germany, Poland, Black Hat MEA - Middle-East - and others, I’ve served as University Professor in Graduation and MBA courses at Brazilian colleges, in addition, I'm Creator and Instructor of the Course - Malware Attack Types with Kill Chain Methodology (PentestMagazine), PowerShell and Windows for Red Teamers(PentestMagazine) and Malware Analysis - Fundamentals (HackerSec).",
+    "tagLine": "Head of Identity Threat Labs and Global Product Advocate",
+    "profilePicture": "https://sessionize.com/image/4459-400o400o1-VUNbxRs31VCmeVFiC1avGT.png",
+    "sessions": [
+      {
+        "id": 948011,
+        "name": "Hidden Payloads: Advanced Malware Exploitation via PDF Files"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/FilipiPires",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/filipipires/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "1b9b2d39-c8fd-4579-a796-97929edc2373",
+    "firstName": "Frederic",
+    "lastName": "Rivain",
+    "fullName": "Frederic Rivain",
+    "bio": "Frédéric Rivain is the Chief Technology Officer at Dashlane, a leading cybersecurity company specializing in credential management and digital identity solutions. With over 2 decades of experience in tech leadership, Frédéric drives innovation in security and privacy. A passionate advocate for user-centric security, he brings a unique perspective on blending convenience and robust protection for both individuals and businesses.",
+    "tagLine": "CTO Dashlane - Scaling Identity | Tech Agilist",
+    "profilePicture": "https://sessionize.com/image/d323-400o400o1-nhjKHApGo5s2YBZv2MmDdV.jpg",
+    "sessions": [
+      {
+        "id": 923248,
+        "name": "Trust at Scale: Lessons Learned from a Decade of Engineering for Identity"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/FredericRIVAIN",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/fredericrivain/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": "fredericrivain.bsky.social",
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "93e69f85-5d57-4200-9605-7f9a03c7eb25",
+    "firstName": "Gerard",
+    "lastName": "Johansen",
+    "fullName": "Gerard Johansen",
+    "bio": "Gerard Johansen is a cyber security professional with over a decade of experience in Security Operations, Incident Response and Threat Intelligence. Prior to his cyber security career, Gerard served as a cyber crime investigator working at the state and federal levels. He is currently a Principal Security Solutions Specialist with the Red Canary where he works directly with a variety of customers enhancing their detection and response capabilities. Gerard is also an author, currently working on the fourth edition to Digital Forensics and Incident Response. A frequent speaker, he has presented a variety of conferences including SANS DFIR, KernelCon and Wild West Hackin' Fest. ",
+    "tagLine": "Red Canary Principal Security Solutions Specialist",
+    "profilePicture": "https://sessionize.com/image/ac1a-400o400o1-XCYeYPDEMKfyZV482xooqk.jpg",
+    "sessions": [
+      {
+        "id": 960582,
+        "name": "Atomic Red Team 101"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/IrProactive",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/gerardjohansen/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "9ad48355-0e3b-4ec0-b584-8bcf64430ddc",
+    "firstName": "Gianna",
+    "lastName": "Whitver",
+    "fullName": "Gianna Whitver",
+    "bio": "Gianna Whitver is Co-Founder and CEO of the Cybersecurity Marketing Society, producer of CyberMarketingCon, CyberCMO Summit, and CyberCEO Summit, and Co-Host of the Breaking Through in Cybersecurity Marketing Podcast. \r\n\r\nGianna advises on marketing & GTM for cybersecurity and technology companies. She speaks publicly on marketing, community, and entrepreneurial topics, having presented at CMX Summit, RSA Conference 365, (ISC)2, InfoSec World, and others. Previously, she worked in marketing and operations at cybersecurity, tech, and commercial RE companies. \r\n\r\nGianna loves bees and attempting to be funny.",
+    "tagLine": "Co-Founder & CEO, Cybersecurity Marketing Society",
+    "profilePicture": "https://sessionize.com/image/b047-400o400o1-pgrvwQM4WexL8qGoWPb9dY.png",
+    "sessions": [
+      {
+        "id": 973866,
+        "name": "Essential Marketing for Cyber Founders"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/giannawhitver/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363211,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "d3618e39-6e7e-47a3-965f-b2863cac6e83",
+    "firstName": "Hari",
+    "lastName": "Shanmugam",
+    "fullName": "Hari Shanmugam",
+    "bio": "Hari Shanmugam is a security researcher and red teamer specializing in macOS exploitation, adversary tradecraft, and offensive security. His research focuses on novel attack surfaces, advanced persistence techniques, and AI assisted execution methods. He has extensive experience in red teaming, exploit development, and security research, particularly in uncovering stealthy execution techniques that bypass modern defenses.",
+    "tagLine": "Lead Red Teamer",
+    "profilePicture": "https://sessionize.com/image/df21-400o400o1-4rm8yrvC25tq6jtQjkt9Un.png",
+    "sessions": [
+      {
+        "id": 974292,
+        "name": "Trust the Model? Weaponizing Windows AI for Payload Staging"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/h2a3r2",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "6a2ff312-c067-4f37-963c-9e2df602b018",
+    "firstName": "Ilya",
+    "lastName": "Yatsenko",
+    "fullName": "Ilya Yatsenko",
+    "bio": "With over 5 years of experience in penetration testing and red teaming, Ilya holds the OSCE3 certification and believes in continuous learning through security research and community collaboration. He is currently a graduate student at the University of Maryland, advancing his expertise in cybersecurity.",
+    "tagLine": "Offensive Security Engineer | OSCE3 | Graduate student @ UMD",
+    "profilePicture": "https://sessionize.com/image/f6a9-400o400o1-aPicF3WmaUcvsXtqX43xrW.jpg",
+    "sessions": [
+      {
+        "id": 969911,
+        "name": "When the Shadow Crosses Over"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "10bccb64-f2d5-4b48-ab9e-7b9300f6cb8a",
+    "firstName": "Jack",
+    "lastName": "Cable",
+    "fullName": "Jack Cable",
+    "bio": "Jack Cable is a hacker who works at the intersection of cybersecurity and public policy, currently the CEO and Co-Founder of Corridor. Prior to that, Jack served as a Senior Technical Advisor at the Cybersecurity and Infrastructure Security Agency (CISA), where he helped lead the agency’s Secure by Design initiative. Before CISA, Jack worked as a TechCongress Fellow for the Senate Homeland Security and Governmental Affairs Committee, advising Chairman Gary Peters on cybersecurity policy, including open source software security. He previously worked as a Security Architect at Krebs Stamos Group. Jack is a top bug bounty hacker, having identified over 350 vulnerabilities in hundreds of companies. After placing first in the Hack the Air Force bug bounty challenge, he began working at the Pentagon’s Defense Digital Service. Jack studied computer science at Stanford University and has published academic research on election security, ransomware, and cloud security.\r\n",
+    "tagLine": "CEO & Co-Founder at Corridor",
+    "profilePicture": "https://sessionize.com/image/a6db-400o400o1-WcNMU6VWrhdk7S9dU7yBRk.jpg",
+    "sessions": [
+      {
+        "id": 978744,
+        "name": "From CISA to Starting Up: Shifting Secure by Design at Scale"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/jackhcable",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jackcable/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "e6f15399-4211-49f6-b5fc-477ea1a81d61",
+    "firstName": "Jason",
+    "lastName": "Kaplan",
+    "fullName": "Jason Kaplan",
+    "bio": "Jason Kaplan has spent over 27 years bridging the gap between technical excellence and business success. His experience ranges from founding and scaling startups to leading global teams at large enterprises. Jason was the first Director of Sales at Akamai Technologies, where he grew revenue from $4M to $81M. He founded and led the team at Milestone Sports, which was later acquired by Zwift. Most recently, Jason has been bringing his business acumen and leadership to the cybersecurity industry as CEO of two companies: CyTwist (Israeli-based advanced threat detection) and now SixMap (a Series A funded company focusing on commercial and DoD customers). ",
+    "tagLine": "CEO at SixMap",
+    "profilePicture": "https://sessionize.com/image/99d9-400o400o1-NsnLhfn7j9wnx876UxE6e2.png",
+    "sessions": [
+      {
+        "id": 978988,
+        "name": "Why Being A Great Technologist May Not Make You A Great CEO (And How To Bridge The Gap)"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "http://linkedin.com/in/jdkaplan/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "b96f8019-c95c-4760-a32d-9b5811ab8e9a",
+    "firstName": "Jeff",
+    "lastName": "Foley",
+    "fullName": "Jeff Foley",
+    "bio": "Jeff Foley has over 20 years of industry experience focused on research & development and security assessment. He is the Vice Chairman for the OWASP Projects Committee. He is also the Project Leader for Amass, an OWASP Foundation Flagship Project that performs in-depth attack surface mapping and asset discovery. Previously, he served as the Vice President of Attack Surface Protection for ZeroFox. Jeff was also the Global Head of Attack Surface Management at Citi. Prior to this, Jeff served as the Program Manager for Offensive Cyber Warfare Research & Development at Northrop Grumman Corporation. In his spare time, Jeff enjoys giving back to the information security community.",
+    "tagLine": "Amass Project Leader, OWASP Foundation",
+    "profilePicture": "https://sessionize.com/image/f4f5-400o400o1-DvQPZHcQcqTc5vmMxzXaAR.jpg",
+    "sessions": [
+      {
+        "id": 963799,
+        "name": "Mastering OWASP Amass v5.0"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/jeff_foley",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/caffix/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": "@caffix@infosec.exchange",
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "795d66b5-de31-4924-90bb-047fb165016e",
+    "firstName": "John",
+    "lastName": "Hammond",
+    "fullName": "John Hammond",
+    "bio": null,
+    "tagLine": null,
+    "profilePicture": "https://sessionize.com/image/cbe6-400o400o1-U3KHauJDJhoDPJhrJWR2zg.png",
+    "sessions": [
+      {
+        "id": 1015359,
+        "name": "Keynote"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "35978bb8-c6b4-4b85-8d0f-4585755a8f1e",
+    "firstName": "Jonathan",
+    "lastName": "Fuller",
+    "fullName": "Jonathan Fuller",
+    "bio": "Jonathan Fuller is the Chief Information Security Officer and an Academy Professor at the United States Military Academy at West Point. With a background in secure communications, operational leadership, and cybersecurity, he draws on nearly two decades of Army experience. His current work focuses on building resilient cyber environments and integrating cybersecurity into leadership development and education. He teaches and mentors cadets, helping prepare future Army leaders for complex technical challenges. His academic interests include applied security, digital forensics, and cyber risk.",
+    "tagLine": "Counteracting malware through logic reuse is actually a thing!",
+    "profilePicture": "https://sessionize.com/image/fee1-400o400o1-DodDLLmmgGhxyj6MchEeZK.jpg",
+    "sessions": [
+      {
+        "id": 927234,
+        "name": "Spycraft 2.0: Hunting Dead Drops in Web Applications"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/fullsec",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "3f0c79be-0b39-4959-bfd8-b42a31ecc589",
+    "firstName": "Kabir",
+    "lastName": "Mathur",
+    "fullName": "Kabir Mathur",
+    "bio": "Kabir is the CEO and co-founder of Leen, a unified API & data fabric for security. He has spent 16+ years scaling startups in gaming, adtech, martech, and most recently, security. ",
+    "tagLine": "CEO & Co-Founder at Leen",
+    "profilePicture": "https://sessionize.com/image/be75-400o400o1-wNARz1CEw654bWrBn9AgXM.jpg",
+    "sessions": [
+      {
+        "id": 913058,
+        "name": "Building a security startup as an outsider"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mathurkabir/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "bb38f797-7c3c-48b0-a524-9f62d3238ac4",
+    "firstName": "Karl",
+    "lastName": "Ots",
+    "fullName": "Karl Ots",
+    "bio": "Karl Ots breaks and secures cloud stuff for a living — and has been doing it since back when ‘cloud security’ meant locking the server room door. By day, he’s Head of Cloud Security at EPAM Systems, wrangling enterprise-scale chaos across industries and continents.\r\n\r\nHe’s written books (most recently Securing Microsoft Azure OpenAI), dropped a bunch of cloud security courses on LinkedIn Learning, and collected more acronyms than a compliance checklist (RD, MVP, CISSP, CCSP, SABSA SCF — yeah, it’s a problem).\r\n\r\nKarl’s no stranger to the stage — he’s spoken at BSides SF, Microsoft Build, T2, Gartner Security & Risk, InfoSec World, and more. If it involves cloud, misconfigs, or weird edge cases, he’s probably got a story.",
+    "tagLine": "Head of Cloud Security at EPAM | Author and Inventor",
+    "profilePicture": "https://sessionize.com/image/9ae0-400o400o1-X9uLKgftuWha88NtQtdXRZ.jpg",
+    "sessions": [
+      {
+        "id": 952049,
+        "name": "Cloud’s Dirty Little Secret: It Was Misconfigs All Along"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/learning/instructors/karl-ots",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": "https://infosec.exchange/@ots",
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": "karlots.com",
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "a9d4868a-6c51-4149-88b3-44244a8ca6eb",
+    "firstName": "Kunaal",
+    "lastName": "Sikka",
+    "fullName": "Kunaal Sikka",
+    "bio": "Kunaal Sikka is the Co-founder and President of SubImage (YC W25), a startup building clear maps for complex cloud environments. Previously, he was a Member of Technical Staff at Anthropic and Staff Engineer at Lyft, reporting directly to the CISO. At Anthropic he focused on hardening infrastructure, scaling access management, and did the initial security review for MCP. At Lyft, he led the development of the company's next-generation SIEM, insider abuse detection platforms, and helped architect the vulnerability management program. He graduated from the University of Washington with a computer science degree in two years and grew from new grad to Staff Engineer at Lyft in 4 years.",
+    "tagLine": "Co-founder & President at SubImage",
+    "profilePicture": "https://sessionize.com/image/4922-400o400o1-USBuds7m1WwnX1QTy2tTDm.jpg",
+    "sessions": [
+      {
+        "id": 978839,
+        "name": "What It’s Like Being the Only Security Startup in Your YC Batch"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/kunaalsikka",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kunaals/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "30375517-d791-418b-9321-1a6c258fede8",
+    "firstName": "Lucas",
+    "lastName": "Nelson",
+    "fullName": "Lucas Nelson",
+    "bio": "Lucas Nelson is a founding partner at Lytical Ventures, where he leads investments in cybersecurity and AI. He began his paid hacking career at @stake, starting as an application security pentester and rising to management roles. He is also a former member of Ninja Strike Force, associated with the hacker supergroup Cult of the Dead Cow.\r\n\r\nBefore founding Lytical, Lucas held investing roles at DFJ Gotham and Evolution Equity. He is a Kauffman Fellow and a longtime advocate for early-stage security startups that push the industry forward.",
+    "tagLine": "Lucas Nelson, Founding Partner @ Lytical Ventures",
+    "profilePicture": "https://sessionize.com/image/b0c9-400o400o1-VxAEXFSVzqtfV8QZoq9esh.png",
+    "sessions": [
+      {
+        "id": 977942,
+        "name": "Inside the Mind of a Cyber VC: What Founders Get Wrong and How to Pitch Like a Pro"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/lucasnelsonvc/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": "@artimage.bksky.social",
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "ec54f6be-e295-4ced-b06e-ef94ce4c11f5",
+    "firstName": "Mariana",
+    "lastName": "Padilla",
+    "fullName": "Mariana Padilla",
+    "bio": "Mariana Padilla is the Co-Founder and CEO of HACKERverse.ai, a platform redefining how cybersecurity software gets evaluated—by turning months-long PoC cycles into real-time, self-serve simulations. She previously scaled her marketing agency to over $1MM in annual revenue and now brings that same strategic focus to transforming enterprise software sales.\r\n\r\nMariana’s work has earned her a spot on the front cover of the 2025 Most Innovative Cincinnati Startups to Watch and features on over two dozen industry podcasts. She was also named a “Woman to Watch in Cybersecurity” by Authority Magazine and received scholarships from WiCyS and WISP for her leadership in driving diversity in tech.\r\n\r\nShe specializes in go-to-market, sales strategy, and inclusive innovation—and is passionate about making the cybersecurity space more transparent, efficient, and engaging for both buyers and vendors.",
+    "tagLine": "CEO, HACKERverse.ai",
+    "profilePicture": "https://sessionize.com/image/4d6e-400o400o1-N5Z73nHA9NZbVveGm8xV8X.jpg",
+    "sessions": [
+      {
+        "id": 912916,
+        "name": "They Don’t Want to Talk to Sales—So Let the Community Sell for You"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/heretoshakeshitup/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363211,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "0487a7fc-f25d-4821-856c-95b75262b7f0",
+    "firstName": "Mauricio",
+    "lastName": "Velazco",
+    "fullName": "Mauricio Velazco",
+    "bio": "Mauricio Velazco (@mvelazco) is a Principal Security Researcher Engineer within the Microsoft Security AI Research team. Prior to Microsoft, he was Threat Researcher at the Splunk Threat Research Team. Mauricio has presented and hosted workshops at conferences like Defcon, BlackHat Arsenal, Derbycon, BSides and SANS. His aread of focus include detection engineering, adversary simulation and threat hunting.",
+    "tagLine": "Principal Security Researcher",
+    "profilePicture": "https://sessionize.com/image/b8ac-400o400o1-fv9UsFVGEH157QAkbsXACk.png",
+    "sessions": [
+      {
+        "id": 965721,
+        "name": "Inside Cloud Attack Paths: End-to-End Adversary Simulation"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/mvelazco",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/feed/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "c8fd7977-2bfb-4864-a3e0-d0ade5955621",
+    "firstName": "Michael",
+    "lastName": "Raggi",
+    "fullName": "Michael Raggi",
+    "bio": "Michael August Raggi is a Principal Threat Response Specialist at Crowdstrike. Previously, he has worked at Mandiant Google Cloud innovating mapping of Chinese Nationstate ORB networks, and at Proofpoint finding ways to thwart Nationstate adversaries in email gateways. Michael’s historic publications have focused on APT targeting against the US critical infrastructure sector, recent operations conducted during the Russia Ukraine conflict, and repeated targeting of Tibetan dissidents by threat actors aligned with the Chinese State. His primary focus is building sustainable human compatible technology solutions for making the Internet a safer place..",
+    "tagLine": "Crowdstrike Principal Threat Response Specialist | Art & Binary Recovery Specialist",
+    "profilePicture": "https://sessionize.com/image/15a6-400o400o1-9DjNeRFxWQzzUubChPpo8c.png",
+    "sessions": [
+      {
+        "id": 950052,
+        "name": "The Human-AI Handshake: A Framework to Build Trust and Unlock Innovation in Modern Security Ops"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/aRtAGGI/",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/michael-august-raggi-532b3939/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": "aRtAGGI",
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "c0fa1b7e-7df5-4232-88b5-0243be464594",
+    "firstName": "Numa",
+    "lastName": "Dhamani",
+    "fullName": "Numa Dhamani",
+    "bio": "Numa Dhamani is the Head of Machine Learning at iVerify and co-author of Introduction to Generative AI (Manning Publications). She is a natural language processing expert with domain expertise in trust, safety, and security. Numa has developed machine learning systems for Fortune 500 companies, social media platforms, start-ups, and nonprofits. She has advised industry leaders, served as Principal Investigator for U.S. Department of Defense research programs, and contributed to international peer-reviewed journals. She is also engaged in tech policy, supporting think tanks and nonprofits with data and AI governance. In addition to her industry and research work, she has taught AI courses as an adjunct lecturer at UT Austin and Georgetown. Numa is passionate about building responsible AI, advancing digital security, and advocating for transparency and accountability in technology.",
+    "tagLine": "Head of Machine Learning at iVerify",
+    "profilePicture": "https://sessionize.com/image/4b59-400o400o1-9AyvCegjXUhvpV8ne3r8uK.jpg",
+    "sessions": [
+      {
+        "id": 959221,
+        "name": "Breaking the Mobile Log Analysis Barrier with AI"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/NumaDhamani",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/numadhamani/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": "https://bsky.app/profile/numa.bsky.social",
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363211,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "3417e590-7039-4177-ad04-e2ace08520f0",
+    "firstName": "Oron",
+    "lastName": "Gutman",
+    "fullName": "Oron Gutman",
+    "bio": "Oron is the CTO and co-founder of Hopper, channeling 14 years of vulnerability research into building secure, elegant systems. A two-time Israel Defense Prize winner and former Unit 8200 section lead, he brings precision to everything he does, whether architecting software, plotting chess moves, or selecting the perfect bottle of whiskey.",
+    "tagLine": "Hopper Security, CTO",
+    "profilePicture": "https://sessionize.com/image/9f76-400o400o1-Se3zmujkRdi9a1y29bkt4r.jpg",
+    "sessions": [
+      {
+        "id": 978537,
+        "name": "Unseen in the Stack: Mapping Hidden Java Dependencies for Real-World Defense"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/oron-gutman-36190645/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "b014ff1d-bbd7-4de8-ad40-01373c083cbf",
+    "firstName": "Rocky",
+    "lastName": "Bernstein",
+    "fullName": "Rocky Bernstein",
+    "bio": "Rocky Bernstein has been writing open-source software for 3 decades. He has written for a number of debuggers, such as ones for Python, Ruby, Perl, bash, zsh, and GNU make. He has worked at IBM Research, NASA (as a government contractor), a university, a large financial firm, a large news organization (Associated Press), a large survey firm, and many start-up companies. He has worked mostly in or near New York.",
+    "tagLine": "Chief Mad Scientist Emeritus",
+    "profilePicture": "https://sessionize.com/image/7d4c-400o400o1-fc3bmjBmGdvmQNTzgyoxyP.jpg",
+    "sessions": [
+      {
+        "id": 960602,
+        "name": "Understanding Python Bytecode"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "d752368f-d62a-47b0-b842-20103bb060e4",
+    "firstName": "Ryan",
+    "lastName": "Lancial",
+    "fullName": "Ryan Lancial",
+    "bio": "long time doing IT stuff, talk about security operations stuff now",
+    "tagLine": "i talk to people about security operations",
+    "profilePicture": "https://sessionize.com/image/2928-400o400o1-YKYdPrzKScGzRGfsudTye8.jpg",
+    "sessions": [
+      {
+        "id": 960582,
+        "name": "Atomic Red Team 101"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363214,
+            "name": "he/them"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "ac4229ed-87ed-41fe-9e1c-7ca47e73062c",
+    "firstName": "Samantha",
+    "lastName": "Pearlstein",
+    "fullName": "Samantha Pearlstein",
+    "bio": "Samantha is a sales engineer with a strong background in security research, executive cyber resilience, and nation-state threats.\r\nAs a former consultant at Accenture, she led cyber resilience initiatives for Fortune 100 executives, developed GenAI-powered security tools, and delivered workshops on emerging cyber challenges. Today, as a Sales Engineer at Escape, Samantha helps AppSec teams secure their APIs and SPAs, combining her passion for cybersecurity with hands-on problem-solving.",
+    "tagLine": "Founding Sales Engineer @ Escape",
+    "profilePicture": "https://sessionize.com/image/8b4c-400o400o1-Tb5YMCcxZYpAVusthd3k3P.jpg",
+    "sessions": [
+      {
+        "id": 972893,
+        "name": "How to Create Deep Partnerships with Technical Teams: Sales Engineering Lessons Learned"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363211,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "06936c15-94ba-4ff3-97e5-e1612e02e768",
+    "firstName": "Shivakumar",
+    "lastName": "Buruganahalli",
+    "fullName": "Shivakumar Buruganahalli",
+    "bio": "A visionary and results-driven cybersecurity leader with a passion for innovation and building solutions that redefine enterprise defense against modern threats. As a Founding Engineer of Attivo Networks, I helped pioneer identity and deception technologies that transformed threat detection and active defense strategies globally. My work bridges advanced engineering with business outcomes, delivering measurable value and long-term resilience. Now at Acalvio, I lead the development of customer-focused deception strategies that strengthen security posture and ROI. With over a decade of experience in cyber deception, ITDR, and advanced threat detection, I help organizations stay proactive and ahead of adversaries.",
+    "tagLine": "Acalvio, Senior Director, Customer Engineering",
+    "profilePicture": "https://sessionize.com/image/6473-400o400o1-XCazTfdb48FUcPe7cdpb9n.jpg",
+    "sessions": [
+      {
+        "id": 973846,
+        "name": "Living off the (land)cloud: Scattered Spider and the cloud control plane"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/shivakumar-buruganahalli-1313291/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "14f2f17c-5869-4fc9-b1f8-a8a0e475c174",
+    "firstName": "Tammy",
+    "lastName": "Harper",
+    "fullName": "Tammy Harper",
+    "bio": "Tammy is a Senior Threat Intelligence Researcher and Certified Dark Web Investigator at Flare, where she tracks ransomware affiliates, fraud ecosystems. She’s also an admin and researcher for RansomLook, an open-source project mapping ransomware infrastructure and leak sites.\r\n\r\nHer work sits at the intersection of operational threat intel and underground culture, blending technical depth with behavioural insight. Tammy shares her research through Flare briefings, webinars, podcasts, and threat intel blogs.\r\n\r\nOutside of work, she’s into ambient techno, matcha, street and nature photography, hiking, and amateur astronomy with a soft spot for weird particles and black hole physics. She plays tennis and badminton to stay grounded.",
+    "tagLine": "Senior Threat Intelligence Researcher at Flare",
+    "profilePicture": "https://sessionize.com/image/f815-400o400o1-9zwsoGadgDVwpkivu1Fukd.jpg",
+    "sessions": [
+      {
+        "id": 957795,
+        "name": "Syndicate: The Life of a Ransomware Affiliate"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/tammyharper11/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363211,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "77a78fa6-a095-4878-9ea7-720834b27058",
+    "firstName": "Tim",
+    "lastName": "Shipp",
+    "fullName": "Tim Shipp",
+    "bio": "Tim is the CTO and Co-Founder of ThreatLight. A highly experienced Cybersecurity expert with over 20 years in both offensive and defensive cybersecurity, having built & led IR, Red Team, and Blue Team ops globally he now revolutionizes responding to incidents at Scale. \r\n\r\nA Major in the British Army Cyber Reserves, Tim serves as an SME to the British Ministry of Defence (MoD) specializing in both defensive and offensive security.\r\n\r\nHaving led several hundred engagements globally, Tim has a wealth of experience in both defending and Red Teaming every conceivable industry vertical along with an astute knowledge of what technologies and processes work and where gaps lay in existing solutions and security programs. \r\n\r\nPrior to Co-founding ThreatLight, Tim’s career included significant technical and leadership positions in top cybersecurity and technology firms, such as Accenture, Cybereason, Symantec, Airbus and Thales, contributing to his broad knowledge and innovative approach in the field.",
+    "tagLine": "CTO & Co-Founder of ThreatLight",
+    "profilePicture": "https://sessionize.com/image/e0fa-400o400o1-XpUHNscEKxJuYKDwrn5QAN.jpg",
+    "sessions": [
+      {
+        "id": 974971,
+        "name": "From pocket to Pwn: How we hacked a multinational corp for $200 with whats in our pockets"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/tshipp/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363213,
+            "name": "other"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "a5950a64-a289-47f4-88c6-fd75020fae38",
+    "firstName": "Vangelis",
+    "lastName": "Stykas",
+    "fullName": "Vangelis Stykas",
+    "bio": "Vangelis began as a developer from Greece. Six years ago he realized that only his dog didn’t have an API, so he decided to steer his focus towards security.\r\nThat led him to pursue a PhD in Web Application Security with an extra focus on machine learning. He’s still actively pursuing it.\r\nHe currently applies his skills as a Chief Technology Officer at Atropos, and during his free time, Vangelis is helping start-ups secure themselves on the internet and get a leg up in security terms.\r\nHis love of a simplistic approach to hacking by exploiting vulnerable APIs led him to publish research regarding API controlling ships, smart locks, IP cameras, car alarms, EV chargers, and many other IoT devices. Since our lives are nowadays extremely cyber-dependent, his goal is to convince all companies to never neglect their API security as rush-to-market mentality is almost certain to lead to catastrophic security failure.",
+    "tagLine": "CTO",
+    "profilePicture": "https://sessionize.com/image/afad-400o400o1-YfFooPi95H2hfFHtdy3KXd.png",
+    "sessions": [
+      {
+        "id": 976932,
+        "name": "Gridlock:  The Dual-Edged Sword of EV and Solar APIs in Grid Security"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://www.twitter.com/evstykas",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/vangelis-stykas/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "846dc842-9cee-4830-b9f8-f09be7285b44",
+    "firstName": "Vlad",
+    "lastName": "Iliushin",
+    "fullName": "Vlad Iliushin",
+    "bio": "Vlad is the co-founder and cybersecurity expert at ELLIO and President of the Anti-Malware Testing Standards Organization (AMTSO).\r\n\r\nA true cybersecurity enthusiast, Vlad’s passionate about network security, IoT, and cyber deception. Before ELLIO, he founded and led the Avast IoT Lab (now Gen Digital), developing security features and researching IoT threats. He has spoken at many conferences, including Web Summit and South by Southwest (SXSW), where he demonstrated IoT vulnerabilities.\r\n",
+    "tagLine": "Cybersecurity Expert@ ELLIO Technology, President of the Anti-Malware Testing Standards Organization (AMTSO).",
+    "profilePicture": "https://sessionize.com/image/14ad-400o400o1-PzYUsqmszin72H4bd1GAiw.jpg",
+    "sessions": [
+      {
+        "id": 973785,
+        "name": "Interactive Networking Fingerprinting Walktrough"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/iliushin/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 363210,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "b224bc78-60f1-48a0-a536-a25dd2e3143c",
+    "firstName": "void",
+    "lastName": "*huxley",
+    "fullName": "void *huxley",
+    "bio": null,
+    "tagLine": null,
+    "profilePicture": "https://sessionize.com/image/332f-400o400o1-3c6eaLKGyjhQnEVcEeRmam.jpg",
+    "sessions": [
+      {
+        "id": 1015360,
+        "name": "BSidesNYC 0x05 Launch"
+      },
+      {
+        "id": 1015362,
+        "name": "BSidesNYC 0x05 Closing Ceremonies"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 100840,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 101215,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 100842,
+        "name": "Pronouns",
+        "categoryItems": [],
+        "sort": 27
+      }
+    ]
+  }
+]

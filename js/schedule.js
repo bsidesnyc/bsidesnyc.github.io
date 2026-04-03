@@ -3,22 +3,14 @@ Date.prototype.addHours = function(h) {
   return this;
 }
 
-function scheduleBuilder(endpoint, baseUrl, target) {
-    var oReq = new XMLHttpRequest();
-    oReq.onreadystatechange = function() {
-        if ( oReq.readyState === XMLHttpRequest.DONE ) {
-            if ( oReq.status === 200 ) {
-                var result = JSON.parse(oReq.responseText);
-                if ( target === "speakerBackfill" ) {
-                    backfillSpeakerDetails(result, baseUrl);
-                } else {
-                    populateSchedule(result, baseUrl);
-                }
-            }
-        }
+async function scheduleBuilder(endpoint, baseUrl, target) {
+    const response = await fetch(endpoint);
+    const result = await response.json();
+    if ( target === "speakerBackfill" ) {
+        backfillSpeakerDetails(result, baseUrl);
+    } else {
+        populateSchedule(result, baseUrl);
     }
-    oReq.open('GET', endpoint);
-    oReq.send();
 }
 
 function sessionizeScheduleGetDayHeading(dayNumber, daySchedule) {
@@ -221,7 +213,7 @@ function sessionizeScheduleGetTrackHeading(dayNumber, rooms) {
 
     var day = document.createElement("div");
     day.classList.add("col-12");
-    day.classList.add("col-xl-1");
+    day.classList.add("col-xl-2");
     day.classList.add("track-header-label");
     day.classList.add("track-header-slot");
     day.innerText = "Day " + dayNumber;
@@ -263,7 +255,7 @@ function sessionizeScheduleGetTimeslot(rooms, timeslot, scheduleDate, slotStartT
      */
     var time = document.createElement("div");
     time.classList.add("col-12")
-    time.classList.add("col-xl-1")
+    time.classList.add("col-xl-2")
     time.classList.add("timeslot-label")
     time.classList.add("track-header-slot")
 

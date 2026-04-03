@@ -18,39 +18,15 @@ layout: compress
     <meta name="twitter:site" content="{{ site.twitterAccount }}">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image:src" content="{{ "/img/favicons/favicon.png" | prepend: site.baseurl }}">
+    <meta name="twitter:image:src" content="{{ "/img/favicons/favicon.webp" | prepend: site.baseurl }}">
 
     <title>{% if page.title %}{{ page.title }} &bull; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico" | prepend: site.baseurl }}">
 
     <meta name="theme-color" content="#2b5797">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
     <!-- update the versioning # below to force browsers to reload this CSS file, else some crappy rendering may occur in between -->
-    <link href="{{ "/css/main.css" | prepend: site.baseurl }}?v=0.5" rel="stylesheet">
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ "/js/utils.js" | prepend: site.baseurl }}"></script>
-
-    <!-- 
-        Page-dependant Javascript. Speakers and Schedules dynamically append modals to document.body
-    -->
-    {% if page.permalink == '/speakers/' %}
-        <script src="{{ "/js/schedule.js" | prepend: site.baseurl }}"></script>
-        <script src="{{ "/js/speakers.js" | prepend: site.baseurl }}"></script>
-        <script>
-            onLoad("{{ site.sessionizeJsonAllData }}", "{{ site.baseurl }}");
-            scheduleBuilder("{{ site.sessionizeJsonSpeakerList }}", "{{ site.baseurl }}", "speakerBackfill");
-        </script>
-    {% elsif page.permalink == '/schedule/' %}
-        <script src="{{ "/js/schedule.js" | prepend: site.baseurl }}"></script>
-        <script>
-            scheduleBuilder("{{ site.sessionizeJsonScheduleGrid }}", "{{ site.baseurl }}", "schedules");
-            scheduleBuilder("{{ site.sessionizeJsonSpeakerList }}", "{{ site.baseurl }}", "speakerBackfill");
-            skipModalForLinks();
-        </script>
-    {% endif %}
+    <link href="{{ "/css/main.css" | prepend: site.baseurl }}?v=0.6" rel="stylesheet">
 
 </head>
 
@@ -82,6 +58,77 @@ layout: compress
     JavaScript
     =======================================
     {% endcomment %}
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="{{ "/js/utils.js" | prepend: site.baseurl }}"></script>
+
+    {% if page.permalink == '/speakers/' %}
+        <script src="{{ "/js/schedule.js" | prepend: site.baseurl }}"></script>
+        <script src="{{ "/js/speakers.js" | prepend: site.baseurl }}"></script>
+        <script src="{{ "/js/slider.js" | prepend: site.baseurl }}"></script>
+        <script>
+            $(document).ready(function() {
+                onLoad("{{ site.sessionizeJsonAllData }}", "{{ site.baseurl }}");
+                scheduleBuilder("{{ site.sessionizeJsonSpeakerList }}", "{{ site.baseurl }}", "speakerBackfill");
+            });
+        </script>
+    {% elsif page.permalink == '/schedule/' %}
+        <script src="{{ "/js/schedule.js" | prepend: site.baseurl }}"></script>
+        <script src="{{ "/js/slider.js" | prepend: site.baseurl }}"></script>
+        <script>
+            $(document).ready(function() {
+                scheduleBuilder("{{ site.sessionizeJsonScheduleGrid }}", "{{ site.baseurl }}", "schedules");
+                scheduleBuilder("{{ site.sessionizeJsonSpeakerList }}", "{{ site.baseurl }}", "speakerBackfill");
+                skipModalForLinks();
+            });
+        </script>
+    {% elsif page.url contains '/archive' %}
+        <script src="{{ "/js/schedule.js" | prepend: site.baseurl }}"></script>
+        <script>
+            function toEmbedUrl(url) {
+                if (!url) return '';
+                /* YouTube: more robust regex */
+                var ytRegExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+                var ytMatch = url.match(ytRegExp);
+                if (ytMatch && ytMatch[2].length == 11) {
+                    return 'https://www.youtube.com/embed/' + ytMatch[2] + '?autoplay=1';
+                }
+                /* archive.org: convert /details/ to /embed/ */
+                if (url.indexOf('archive.org') !== -1) {
+                    return url.replace('archive.org/details/', 'archive.org/embed/');
+                }
+                return url;
+            }
+
+            $(document).ready(function() {
+                /* Ensure modals are moved to body to escape any parent stacking contexts */
+                var videoModal = document.getElementById('videoModal');
+                if (videoModal) {
+                    document.body.appendChild(videoModal);
+                    $(videoModal).on('hidden.bs.modal', function () {
+                        var iframe = document.getElementById('videoModalIframe');
+                        if (iframe) iframe.src = '';
+                    });
+                }
+
+                $(document).on('click', '.btn-watch-video', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    var $btn = $(this);
+                    var videoUrl = $btn.attr('data-video-url') || '';
+                    var videoTitle = $btn.attr('data-video-title') || '';
+                    var titleEl = document.getElementById('videoModalTitle');
+                    var iframe = document.getElementById('videoModalIframe');
+                    
+                    if (titleEl) titleEl.textContent = videoTitle;
+                    if (iframe) iframe.src = toEmbedUrl(videoUrl);
+                    
+                    $('#videoModal').modal('show');
+                });
+            });
+        </script>
+    {% endif %}
 
     <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
 
@@ -141,7 +188,7 @@ layout: compress
                 eventPlaceCoordinates = '{{ site.eventPlaceCoordinates | replace:' ','' }}',
                 centerMapCoordinates = '{{ site.mapCenterCoordinates | replace:' ','' }}',
                 mobileCenterMapCoordinates = '{{ site.mapMobileCenterCoordinates | replace:' ','' }}',
-                icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
+                icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.webp';
             }
             var twitterFeedUrl = '{{ site.twitterFeed }}';
        {% endif %}
@@ -155,7 +202,6 @@ layout: compress
        {% endif %}
 
     <script src="{{ "/js/scripts.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/slider.js" | prepend: site.baseurl }}"></script>
 
   </body>
 </html>

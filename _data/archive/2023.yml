@@ -1,0 +1,798 @@
+conference:
+  name: BSidesNYC
+  edition: '0x03'
+  year: 2023
+  date: '2023-04-22'
+  venue:
+    name: John Jay College of Criminal Justice
+    address: 524 W 59th St., New York, NY 10019
+    coordinates:
+      lat: 40.7709863
+      lng: -73.9899653
+  url: https://bsidesnyc.org
+  registration_url: https://bsidesnyc.eventbrite.com
+  attendee_count: null
+schedule:
+- time_start: 08:00
+  time_end: 08:30
+  track: General
+  room: Atrium
+  title: Speaker/Sponsor/Village Registration Starts
+  speakers: []
+  description: Come through the 59th Street entrance
+  type: break
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: 08:30
+  time_end: 09:00
+  track: General
+  room: Atrium
+  title: General Registration Starts
+  speakers: []
+  description: Come through the 59th Street entrance
+  type: break
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: 09:00
+  time_end: 09:20
+  track: Talk - Red
+  room: L.63
+  title: Opening Remarks
+  speakers:
+  - name: Huxley Barbee
+    company: null
+    title: Security Evangelist
+  - name: Shweta Jain
+    company: John Jay College of Criminal Justice
+    title: Professor, Director of D4CS
+  description: Opening Remarks and Intros to D4CS
+  type: ceremony
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=nW-ukZIm0bA
+  recorded: true
+- time_start: 09:20
+  time_end: 09:50
+  track: Talk - Red
+  room: L.63
+  title: Keynote
+  speakers:
+  - name: Lance James
+    company: Unit 2221b
+    title: CEO
+  description: null
+  type: keynote
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=IckRCRLYyJk
+  recorded: true
+- time_start: '10:00'
+  time_end: '10:50'
+  track: Talk - Blue
+  room: L2.84
+  title: Hunting for RomCom RAT inside of the context of the war in Ukraine
+  speakers:
+  - name: Dmitry
+    company: null
+    title: null
+  - name: Jacob Faires
+    company: null
+    title: null
+  description: A few hours before the Ukraine war officially began, apparently, a Russian-sponsored wiper campaign occurred.
+    During the following weeks and months, we saw several operations and weapons used against Ukraine. One of them is the
+    RomCom RAT. The threat actor behind it used different initial access schemes to compromise the Ukrainian military and
+    governmental entities. In our presentation, we will describe how we hunted it each time the threat actor changed its network
+    infrastructure and how the RomCom RAT works inside the TO (theater of operations).
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '10:00'
+  time_end: '10:50'
+  track: Talk - Other
+  room: L2.85
+  title: The Rise and Fall of the Trickbot and Conti Empires
+  speakers:
+  - name: Alex Holden
+    company: null
+    title: null
+  description: In a post-mortem analysis of Trickbot/Conti gangs, I'll detail our unique view into their operations, methods,
+    and lives. Real time access to Conti Leaks was just one of many tools in our arsenal. Our work and unique vantage point
+    has prevented a significant portion of the gang's crimes. This story is about our journey, process, and insights into
+    one of the most notorious cybergangs of our time.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=PDgxd3u0bm4
+  recorded: true
+- time_start: '10:00'
+  time_end: '10:50'
+  track: Talk - Red
+  room: L.63
+  title: 'Low Code High Risk: Enterprise Domination via Low Code Abuse'
+  speakers:
+  - name: Michael Bargury
+    company: null
+    title: null
+  description: 'Why focus on heavily guarded crown jewels when you can dominate an organization through its shadow IT? Low-Code
+    applications have become a reality in the enterprise, with surveys showing that most enterprise apps are now built outside
+    of IT, with lacking security practices. Unsurprisingly, attackers have figured out ways to leverage these platforms for
+    their gain.
+
+
+    In this talk, we demonstrate a host of attack techniques found in the wild, where enterprise No-Code platforms are leveraged
+    and abused for every step in the cyber killchain. You will learn how attackers perform an account takeover by making the
+    user simply click a link, move laterally and escalate privileges with zero network traffic, leave behind an untraceable
+    backdoor, and automate data exfiltration, to name a few capabilities. All capabilities will be demonstrated with POCs,
+    and their source code will be shared.
+
+
+    Next, we will drop two isolation-breaking vulnerabilities that allow for privilege escalation and cross-tenant access.
+    We will explain how these vulnerabilities were discovered and assess their pre-discovery impact.
+
+
+    Finally, we will introduce an open-source recon tool that identifies opportunities for lateral movement and privilege
+    escalation through low-code platforms.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=j0uUpsuUoFQ
+  recorded: true
+- time_start: '10:00'
+  time_end: '10:50'
+  track: Village Podium
+  room: 6th Floor
+  title: State of the Cyber Jobs Market
+  speakers:
+  - name: Adrianna Iadarola
+    company: null
+    title: null
+  description: State of the Cyber Jobs Market
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '10:00'
+  time_end: '10:50'
+  track: Workshops
+  room: L.61
+  title: Building the Foundations of a Cyber Threat Intelligence Program (2 hour session)
+  speakers:
+  - name: Susan Peediyakkal
+    company: null
+    title: null
+  description: 'This workshop is designed to provide participants with a comprehensive understanding of the process and best
+    practices for building a robust Cyber Threat Intelligence (CTI) program. The workshop will cover various aspects of threat
+    intelligence including data collection, analysis, and dissemination. Participants will learn about the importance of threat
+    intelligence in the current threat landscape, and how to establish an effective program that can help mitigate risks and
+    prevent attacks.
+
+
+    Through interactive discussions and case studies, participants will gain insights into the tools and techniques required
+    for collecting, analyzing, and reporting on threat intelligence. The workshop is ideal for security professionals, threat
+    analysts, and anyone responsible for managing security risks. Participants will come away with a solid understanding of
+    the key components of a successful threat intelligence program, and how to implement them in their own organizations.'
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '11:00'
+  time_end: '11:50'
+  track: Talk - Blue
+  room: L2.84
+  title: Hunting Threat Actors using OSINT Forensics
+  speakers:
+  - name: Abi Waddell
+    company: null
+    title: null
+  description: Little attention is given to tracking the perpetrators of cyber-attacks in the world of forensics. Using real
+    world examples, I will present some OSINT methods to trace the location and identity of threat actors, including revealing
+    deleted parts of screenshots/PDFs, discerning fake accounts, finding suspicious VPN addresses, uncovering identities from
+    pseudonyms; using account leaks, search engine analytics, maps, social media, images and more. I will also present the
+    results of my original research of thousands of leaked accounts, into identifying gender, age and predicted passwords
+    in use, which can assist in threat actor identification.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=gCN42va4cgw
+  recorded: true
+- time_start: '11:00'
+  time_end: '11:50'
+  track: Talk - Other
+  room: L2.85
+  title: 'The FBI Citizen''s Academy: Outreach Experience'
+  speakers:
+  - name: Beck (blither)
+    company: null
+    title: null
+  description: 'I will walk participants through what it''s like to apply for and then be selected to participate in the FBI
+    Citizen''s Academy, from my vantage as a participant and a graduate of the Class of 2022. I''ll then outline the FBI''s
+    involvement with: FATS (firearms training, both virtual and field-based), the Infraguard, our regional forensics computer
+    crime lab, human trafficking, drug cases, murder, kidnapping, international and domestic terrorism, hate crimes, bomb
+    threats, gangs, public corruption, white collar crimes, weapons of mass destruction, radicalization, counterterrorism
+    and counterintelligence. I''ll conclude with a Q&A session. I''m hopeful that this will dispel some myths about the FBI
+    in who they are and what they do, and provide an additional outreach point of contact for anyone who would wish to get
+    involved.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=oh7d0FR5Bkw
+  recorded: true
+- time_start: '11:00'
+  time_end: '11:50'
+  track: Talk - Red
+  room: L.63
+  title: xIoT Hacking Demonstrations & Strategies to Disappoint Bad Actors
+  speakers:
+  - name: Brian Contos
+    company: null
+    title: null
+  description: We'll demonstrate several hacks against xIoT, or Extended Internet of Things, devices. For those who would
+    say, "But they're just security cameras monitoring the parking garage, wireless access points in the cafeteria, or PLCs
+    controlling robotic welding arms; what harm can they cause?" - this will illuminate that harm. We'll share stories from
+    the trenches involving cybercriminals, nation-state actors, and defenders. Our presentation will detail findings from
+    over six years of xIoT threat research spanning millions of production devices in enterprises and government agencies
+    around the world. We'll identify various steps organizations can take to mitigate risk while embracing a Things-connected
+    world.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=Yd80934zPkg
+  recorded: true
+- time_start: '11:00'
+  time_end: '11:50'
+  track: Village Podium
+  room: 6th Floor
+  title: 'Robot Cannibalism: Reappropriating Street Trash'
+  speakers:
+  - name: Adam Mayer
+    company: null
+    title: null
+  description: null
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '12:00'
+  time_end: '12:50'
+  track: Talk - Blue
+  room: L2.84
+  title: Analyzing volatile memory on a Google Kubernetes Engine node
+  speakers:
+  - name: Marcus Hallberg
+    company: null
+    title: null
+  description: My talk focuses on how we can access and analyze volatile memory in the kernel on a Google Kubernetes Engine
+    (GKE) node using AVML. The purpose of this is to collect a memory snapshot to get granular information about running processes
+    and activities on the GKE node as well as pods and containers running on that node. By using the memory snapshot we can
+    troubleshoot current node activities or use it to collect additional information as part of a security investigation.
+    I will also cover how this method is applicable to other cloud instances running Linux distributions that are supported
+    by AVML.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=r0JGLcRLW9E
+  recorded: true
+- time_start: '12:00'
+  time_end: '12:50'
+  track: Talk - Other
+  room: L2.85
+  title: 'Modern Day Automobile Safety: Rescue Ops using CanBus'
+  speakers:
+  - name: Checco
+    company: null
+    title: null
+  description: CanBus has shifted the entire automotive industry into a communication-centric operation. Yet, firefighters
+    and rescue personnel are still using the same physical techniques for rescue. Why can vehicles not support "FF mode" like
+    elevators and other large systems?
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=ZX4MqLx3Lew
+  recorded: true
+- time_start: '12:00'
+  time_end: '12:50'
+  track: Talk - Red
+  room: L.63
+  title: Pen Testing for NOT Dummies
+  speakers:
+  - name: Alex Holden
+    company: null
+    title: null
+  description: Penetration testing is vital to cybersecurity defenses, but safeguarding your systems isn't easy. Methodologies
+    include automated, continuous, and manual pen tests. How do you ensure that you pick the right solution to meet your needs?
+    I will draw on my 2+ decades of experience and discuss the complexities, techniques, and limitations of pen testing, and
+    how to understand what and how to test.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=hk6v6PgkU64
+  recorded: true
+- time_start: '12:00'
+  time_end: '12:50'
+  track: Village Podium
+  room: 6th Floor
+  title: From Fast Food to Helpdesk to Cybersecurity
+  speakers:
+  - name: Kevin Apolinario
+    company: null
+    title: null
+  description: how to market yourself, resume, linkedin, applying for jobs, connecting with people.
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '12:00'
+  time_end: '12:50'
+  track: Workshops
+  room: L.61
+  title: 'It''s the Economy, Stupid: Tackling technical debt in times of economic uncertainty'
+  speakers:
+  - name: Ariel Robinson
+    company: null
+    title: null
+  description: No matter the number of weeks between my submitting this abstract and you reading it, we've probably seen about
+    as many wrong market predictions as we've seen CVEs. Economic uncertainty is... not great, but it does give security teams
+    and CEOs a potential common language-- if we can learn to speak their dialect. In this crash course, you'll learn how
+    to explain true zero trust to your boss's boss's boss so it actually gets funded, and maybe-- just maybe-- we can start
+    tackling 30+ years of market-driven technical debt. Come for the hot takes, stay for the strategy.
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '13:00'
+  time_end: '13:50'
+  track: General
+  room: null
+  title: Lunch Break
+  speakers: []
+  description: null
+  type: break
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '14:00'
+  time_end: '14:50'
+  track: Talk - Blue
+  room: L2.84
+  title: Closing the Gap vs Adversaries With Community Resources
+  speakers:
+  - name: Ian Davila
+    company: null
+    title: null
+  description: Identifying adversary behaviors that matter to your organization has always been a difficult task. The purpose
+    of this talk is to help close that gap by exploring adversary behaviors communicated through MITRE ATT&CK and Tidal Cyber.
+    Traditionally, teams have had to wade through large volumes of unstructured CTI to surface the most relevant groups, software,
+    or campaigns, adding so much time that the exercise becomes prohibitive. We will demo and show how structured metadata
+    around threats, such as motivations, sectors, and victim locations unlocks achievable "threat profiling", and how pivoting
+    to relevant techniques, procedures, defenses, and tests allows teams to take action in line with their unique profile.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=Mxc7Ju8xK60
+  recorded: true
+- time_start: '14:00'
+  time_end: '14:50'
+  track: Talk - Other
+  room: L2.85
+  title: 'BTC as an IOC: Using Blockchain for Attribution'
+  speakers:
+  - name: Jackie Burns Koven
+    company: null
+    title: null
+  description: Incident attribution is riddled with controversy and folly for even the most seasoned analysts. Leaked code,
+    commodity malware, and the rapid rebranding of ransomware strains have further complicated the task. Blockchain intelligence
+    can help visualize the underground ecosystem and attack kill chain, lending to unique financial footprints of specific
+    threat actors or groups -- not to mention where scammed, extorted, or stolen funds go. This talk covers examples of how
+    blockchain forensics can unmask ransomware rebrands and threat actors leveraging multiple monikers and crimes.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '14:00'
+  time_end: '14:50'
+  track: Talk - Red
+  room: L.63
+  title: 'Hacking Serverless Applications: A Treasure Map for Uncharted Waters'
+  speakers:
+  - name: Matteo Rosi
+    company: null
+    title: null
+  description: 'Serverless technology eliminates the need for development teams to provision servers, passing the responsibility
+    for some security threats to the cloud provider and freeing-up developers to concentrate on building logic and producing
+    value quickly. But even without servers, serverless functions still execute code, which can lead to a cloud disaster,
+    if not done right.
+
+
+    In this talk, we will discuss common risks and challenges in serverless environments. I will introduce techniques used
+    by attackers to exploit Serverless apps in unconventional ways. I will also demonstrate exploits of recently discovered
+    CVE, targeting cloud functions.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=bXvrKY6XNAQ
+  recorded: true
+- time_start: '14:00'
+  time_end: '14:50'
+  track: Village Podium
+  room: 6th Floor
+  title: The Job Searching and Hiring (for those with experience)
+  speakers:
+  - name: Adrianna Iadarola
+    company: null
+    title: null
+  description: The Job Searching and Hiring (for those with experience)
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '14:00'
+  time_end: '14:50'
+  track: Workshops
+  room: L.61
+  title: 'Ransomware From ATT&CK to Zcash: An Interactive Simulation (2 hour session)'
+  speakers:
+  - name: Harry Halikias
+    company: null
+    title: null
+  description: 'Are you ready to take on one of the most formidable cybersecurity challenges of our time? Ransomware has emerged
+    as a massive threat, stretching organizational defenses across Cybersecurity, IT, Legal, Finance, and even daily workplace
+    interactions.
+
+
+    Don''t miss this interactive tabletop-style simulation at BSides NYC 2023! Dive into a realistic ransomware scenario and
+    collaborate with fellow participants to determine the most effective actions.
+
+
+    Top Reasons to Attend:
+
+
+    Real-World Experience: Gain firsthand exposure to critical decision-making during a ransomware incident and acquire practical
+    tabletop experience to strengthen your organization''s defenses.
+
+
+    In-Depth Education: Deepen your understanding of ransomware and learn about the tactics employed by attackers to maximize
+    their profits.
+
+
+    Unparalleled Networking: Engage with industry peers in a dynamic, problem-solving environment and potentially discover
+    your next career opportunity.
+
+
+    Hands-On Interaction: You''re not just an observer; you''re an active participant influencing the outcome of the simulation.
+
+
+    Who Should Attend?
+
+
+    An Inclusive Session for All: This engaging workshop is designed to accommodate professionals across various backgrounds
+    and experience levels, including those in incident response, threat and vulnerability management, training and awareness,
+    privacy, legal, data analysis, and communications, as well as students.
+
+
+    Don''t miss this chance to sharpen your skills and expand your network. See you at BSides NYC 2023!'
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '15:00'
+  time_end: '15:50'
+  track: Talk - Blue
+  room: L2.84
+  title: Elements of an Effective Software Supply Chain Strategy
+  speakers:
+  - name: Anita D'Amico
+    company: null
+    title: null
+  description: Are you developing software? If so, there's a good chance that generating a Software Bill of Materials (SBOM)
+    is in your future. Fears of vulnerabilities in the software supply chain have accelerated demands for SBOMs by customers.
+    This presentation will explain what an SBOM is, who is asking for them, what they are going to do with them, the standard
+    formats in which they are issued, and how to generate them. It will also describe how SBOMs fit into vulnerability disclosure
+    and remediation processes and add transparency to the software supply chain.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=pSSyDmux_f0
+  recorded: true
+- time_start: '15:00'
+  time_end: '15:50'
+  track: Talk - Other
+  room: L2.85
+  title: 'The Dark Side of ChatGPT: Balancing Innovation and Security in the Age of Generative AI'
+  speakers:
+  - name: Aditya Patel
+    company: null
+    title: null
+  description: 'ChatGPT is here to stay. With the increasing reliance on Artificial Intelligence everywhere, it is crucial
+    to consider the security and privacy implications of generative AI.
+
+
+    The talk will cover potential misuse of AI: spreading false information, abusing its capabilities to assist with security
+    attacks such as phishing or malware, and the difficulties in detecting and mitigating malicious input and output.
+
+
+    The goal of this talk is to increase awareness and understanding of the security challenges with generative AIs. And to
+    encourage efforts to ensure the safe and secure use of these powerful tools. Yes, tools.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=x0coh7acrC0
+  recorded: true
+- time_start: '15:00'
+  time_end: '15:50'
+  track: Talk - Red
+  room: L.63
+  title: 'Infrastructure as Remote Code Execution: How to abuse Terraform to elevate access'
+  speakers:
+  - name: Mike McCabe
+    company: null
+    title: null
+  description: This talk will focus on ways to abuse the use of Terraform to elevate privileges, expose data, and gain further
+    footholds in environments from a developer's perspective. We'll cover the common uses of Terraform and how a malicious
+    actor could abuse Terraform and even bypass security controls to execute unapproved code. This talk will include multiple
+    demos of ways to exploit Terraform cloud.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=XXcGuhCq_dc
+  recorded: true
+- time_start: '15:00'
+  time_end: '15:50'
+  track: Village Podium
+  room: 6th Floor
+  title: The Job Searching and Hiring (for those new to security)
+  speakers:
+  - name: Jacob Colacion
+    company: null
+    title: null
+  description: The Job Searching and Hiring (for those new to security)
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '16:00'
+  time_end: '16:50'
+  track: Talk - Blue
+  room: L2.84
+  title: 'The Metrics Mess: Why the Lack of Clear and Common KPIs is Undermining SecOps (and How We Can Fix It)'
+  speakers:
+  - name: Eric Olson
+    company: null
+    title: null
+  description: 'Critical SOC KPIs? MTTD. MTTR. Right?
+
+    Except... "Detect" starts from compromise? Or Alert?
+
+    One "expert" says "Respond" means "time to resolve an incident" but defines neither "resolve" nor "incident."
+
+    Time-To- Qualify? Identify? Triage? Contain? Resolve? Recover?
+
+    I run SOC/CIRT for a F500. My vendors all use different words. Metrics don''t align. It''s ridiculous. I''ve tabulated
+    30+ sources and... no one has a frickin'' clue.
+
+    We need a common language, like ATT&CK gives TTPs. If "a problem well-defined is half-solved" we''re doing a crap job
+    solving this. EVERYONE''S Security suffers as a result. I''ve diagramed one possible solution as a conversation-starter.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=SmcKzH5sid8
+  recorded: true
+- time_start: '16:00'
+  time_end: '16:50'
+  track: Talk - Other
+  room: L2.85
+  title: 'Beyond the Buzz: SBOMs, AI, and DataOps for Organizational Resilience in a Post-Log4j World'
+  speakers:
+  - name: Jessie Jamieson
+    company: null
+    title: null
+  description: 'Supply chain compromises and ransomware attacks have presented new sources of cyber risk which are magnified
+    in the context of the ubiquity of data and automation. However, with new threats come new technologies and concepts; software
+    bills of materials (SBOMs) and AI/ML enabled operations have become increasingly popular as potential countermeasures
+    for the evolving threat landscape. We''ll spend part of this talk discussing SBOMs and AI/ML tools for cybersecurity workflows
+    (including cautionary tales), and wrap up with a discussion of the soft underbelly of all emergent tools and strategies:
+    validation, verification, and effective prescriptive data science and operations.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=yogmzTXsphk
+  recorded: true
+- time_start: '16:00'
+  time_end: '16:50'
+  track: Talk - Red
+  room: L.63
+  title: 'Save the Environment (Variable): Hijacking Legitimate Applications with a Minimal Footprint'
+  speakers:
+  - name: Wietze Beukema
+    company: null
+    title: null
+  description: DLL Hijacking, a well-known technique for executing malicious payloads via trusted executables, has been scrutinised
+    extensively, to the point where defenses are in a much better position to detect malicious use. In this presentation,
+    we take a closer look at how process-level Environment Variables can be abused for taking over legitimate applications.
+    Taking a systemic approach, we demonstrate that 80+ Windows-native executables are vulnerable to this special type of
+    DLL Hijacking. As this raises opportunities for UAC bypass and Privilege Escalation, we discuss the value and further
+    implications of this technique. We also look at preventative/defensive measures, especially for this type of DLL Hijacking,
+    but also for DLL Hijacking more broadly.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=pWyVOn0k1Tc
+  recorded: true
+- time_start: '16:00'
+  time_end: '16:50'
+  track: Village Podium
+  room: 6th Floor
+  title: Methods to stay safe and sane online
+  speakers:
+  - name: Gene Radin
+    company: null
+    title: null
+  description: A discussion about personal privacy risks with a focus on practical strategies everyone can use to improve
+    their privacy and reduce risk exposure in everyday life. Risks aren't new, but they are evolving and thankfully so is
+    our ability to mitigate them in meaningful ways.
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '16:00'
+  time_end: '16:50'
+  track: Workshops
+  room: L.61
+  title: Backdoors & Breaches (2 hour session)
+  speakers:
+  - name: D Niu
+    company: null
+    title: null
+  - name: Tom Goodheart
+    company: null
+    title: null
+  - name: Dennis Murphy
+    company: null
+    title: null
+  description: You will learn how to play Backdoors & Breaches from Black Hills Information Security. The workshop trainers
+    have been trained by BHIS.
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: true
+- time_start: '17:00'
+  time_end: '17:50'
+  track: Talk - Blue
+  room: L2.84
+  title: Broken links - Behind the scenes of Supply Chain breaches
+  speakers:
+  - name: François Proulx
+    company: null
+    title: null
+  description: 'Supply Chain attacks are all over the news as several high profile breaches highlight CI/CD pipelines as a
+    prime target. The supply chain links the developer''s laptop, via the SCM, through CI/CD and finally the running application
+    in production.
+
+
+    We''ve all heard about the SolarWinds breach, but what can be done to prevent such an attack? In this talk, we dive behind
+    the scenes of similar attacks through the lens of SLSA (Supply chain Levels for Software Artifacts), a threat model designed
+    to tackle these emergent threats.'
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=gpqLgEqp_jA
+  recorded: true
+- time_start: '17:00'
+  time_end: '17:50'
+  track: Talk - Other
+  room: L2.85
+  title: 'A Chess Tournament: China/Russia Underground Ecosystem Comparison'
+  speakers:
+  - name: Mao Sui
+    company: null
+    title: null
+  - name: Oxana
+    company: null
+    title: null
+  description: Both Chinese and Russian-speaking actors continue to pose threats to organizations globally. It is critical
+    for cybersecurity specialists to be prepared against these threat actors by understanding underground ecosystems and seeing
+    how they evolve through a clear lens. The case studies covered in this presentation will shed light on the connections
+    between geopolitical events and underground activities. Information and data analysis included in this presentation will
+    help cybersecurity specialists and network defenders predict future trends and protect their organizations against threats
+    originating from both China and Russia.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '17:00'
+  time_end: '17:50'
+  track: Talk - Red
+  room: L.63
+  title: A few tricks to Anonymizing your Red Team
+  speakers:
+  - name: Patrick Matthews
+    company: null
+    title: null
+  description: Adding onto my 2019 Derby con talk about using pre-paid cards to gain hosting infrastructure. This talk will
+    detail a few other ways to anonymize Red Team activities. Such as, self-destroying drop box's to hinder IR; OPSEC notes
+    about using infrastructure with Tor access; highlighting trackers to avoid when cloning a site and ways to avoid brand
+    monitoring; ways to build better concealment for drop boxes; OPSEC concealment with infrastructure, TLS and LTE service.
+    I will also review what no longer works from my 2019 talk as related to anonymous accounts.
+  type: talk
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=VZDFV1sVh4w
+  recorded: true
+- time_start: '18:00'
+  time_end: '18:30'
+  track: General
+  room: L.63
+  title: Closing Remarks
+  speakers:
+  - name: Huxley Barbee
+    company: null
+    title: Security Evangelist
+  description: We will be announcing the winners of the CTF(s) and raffles.
+  type: ceremony
+  slides_url: null
+  video_url: https://www.youtube.com/watch?v=3geI541KP9w
+  recorded: true
+sponsors:
+- name: Confiant
+  tier: Platinum
+  url: https://www.confiant.com/
+- name: SpecterOps
+  tier: Platinum
+  url: https://specterops.io/
+- name: Artico Search
+  tier: Platinum
+  url: https://www.articosearch.com/
+- name: OccamSec
+  tier: Platinum
+  url: https://occamsec.com/
+- name: Material Security
+  tier: Platinum
+  url: https://material.security/
+- name: Synack
+  tier: Platinum
+  url: https://www.synack.com/red-team
+- name: Revbits
+  tier: Platinum
+  url: https://revbits.com/
+- name: SolCyber
+  tier: Platinum
+  url: https://solcyber.com/
+- name: mSOC
+  tier: Platinum
+  url: https://www.msoc.io/
+- name: Block
+  tier: Platinum
+  url: https://block.xyz/
+- name: IncludeSecurity
+  tier: Platinum
+  url: https://includesecurity.com/
+- name: Tanium
+  tier: Gold
+  url: https://tanium.com/
+- name: Huntress
+  tier: Gold
+  url: https://www.huntress.com/
+- name: F5
+  tier: Gold
+  url: https://www.f5.com/
+- name: Sublime Security
+  tier: Gold
+  url: https://www.sublime.security/
+- name: Cruise Automation
+  tier: Gold
+  url: https://getcruise.com/
+- name: Elteni
+  tier: Gold
+  url: https://www.elteni.com/
+- name: North Star
+  tier: Gold
+  url: https://northstar.io/
+- name: Justworks
+  tier: Silver
+  url: https://www.justworks.com/
+- name: ComplianceCow
+  tier: Silver
+  url: https://compliancecow.com/
+- name: SecureCodeWarrior
+  tier: Silver
+  url: https://www.securecodewarrior.com/
+- name: CREST
+  tier: Silver
+  url: https://www.crest-approved.org/
+villages:
+- name: NYC Resistor
+  url: https://www.nycresistor.com/
+- name: CyberSN
+  url: https://hubs.la/Q01KBW-x0
+- name: NinjaJobs
+  url: https://ninjajobs.org/
+- name: Blacks in Cybersecurity
+  url: https://www.blacksincyberconf.com/
+- name: Women in Cybersecurity
+  url: https://www.wicysnymetro.org/
+- name: Women's Society of Cyberjutsu
+  url: https://womenscyberjutsu.org/
+- name: Black Cybersecurity Association
+  url: https://blackcybersecurityassociation.org/

@@ -5,16 +5,17 @@
             <h3>Team</h3>
         </div>
 
+        {% if cfpShowTechMembers == true %}
         <div class="col-lg-10 offset-lg-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Technical CFP Committee</h4>
             {% for person in site.data.people %}
               {% if person.isTechCfp == true %}
-                <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+                <div class="effect-wrapper col-md-4 col-sm-6 col-12 cols-centered appear-animation">
                     <div class="zoe-effect" data-toggle="modal" data-target="#personDetail-{{ forloop.index }}">
                         <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/' | append: person.thumbnailUrl }})">
                             <div class="overlay solid-overlay"></div>
                             <figcaption>
-                                <div class="col-md-8 col-xs-8 text-left">
+                                <div class="col-md-8 col-8 text-left">
                                     <h2 class="name">{{ person.firstname }} <span>{{ person.surname }}</span></h2>
                                     <div class="clearfix"></div>
                                     <span class="position">{{ person.title }}</span>
@@ -33,17 +34,19 @@
               {% endif %}
           {% endfor %}
         </div>
+        {% endif %}
 
+        {% if cfpShowEntrepreneurMembers == true %}
         <div class="col-lg-10 offset-lg-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Entrepreneur CFP Committee</h4>
             {% for person in site.data.people %}
               {% if person.isEntrepreneurCfp == true %}
-                <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+                <div class="effect-wrapper col-md-4 col-sm-6 col-12 cols-centered appear-animation">
                     <div class="zoe-effect" data-toggle="modal" data-target="#personDetail-{{ forloop.index }}">
                         <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/' | append: person.thumbnailUrl }})">
                             <div class="overlay solid-overlay"></div>
                             <figcaption>
-                                <div class="col-md-8 col-xs-8 text-left">
+                                <div class="col-md-8 col-8 text-left">
                                     <h2 class="name">{{ person.firstname }} <span>{{ person.surname }}</span></h2>
                                     <div class="clearfix"></div>
                                     <span class="position">{{ person.title }}</span>
@@ -62,12 +65,13 @@
               {% endif %}
           {% endfor %}
         </div>
+        {% endif %}
 
         <div class="col-lg-10 offset-lg-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Organizers</h4>
             {% for person in site.data.people %}
               {% if person.isOrganizer == true %}
-                <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+                <div class="effect-wrapper col-md-4 col-sm-6 col-12 cols-centered appear-animation">
                   {% if person.title == "Lead Organizer" %} 
                     <div class="zoe-effect" data-toggle="modal" data-target="#personDetail-{{ forloop.index }}" style="border-bottom: 10px solid #FFC300">
                   {% else %}
@@ -76,7 +80,7 @@
                         <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/' | append: person.thumbnailUrl }})">
                             <div class="overlay solid-overlay"></div>
                             <figcaption>
-                                <div class="col-md-8 col-xs-8 text-left">
+                                <div class="col-md-8 col-8 text-left">
                                     <h2 class="name">{{ person.firstname }} <span>{{ person.surname }}</span></h2>
                                     <div class="clearfix"></div>
                                     <span class="position">{{ person.title }}</span>
@@ -100,12 +104,12 @@
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Founders</h4>
             {% for person in site.data.people %}
               {% if person.isFounder == true %}
-                <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+                <div class="effect-wrapper col-md-4 col-sm-6 col-12 cols-centered appear-animation">
                     <div class="zoe-effect" data-toggle="modal" data-target="#personDetail-{{ forloop.index }}">
                         <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/' | append: person.thumbnailUrl }})">
                             <div class="overlay solid-overlay"></div>
                             <figcaption>
-                                <div class="col-md-8 col-xs-8 text-left">
+                                <div class="col-md-8 col-8 text-left">
                                     <h2 class="name">{{ person.firstname }} <span>{{ person.surname }}</span></h2>
                                     <div class="clearfix"></div>
                                     <span class="position">{{ person.title }}</span>

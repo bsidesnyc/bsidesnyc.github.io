@@ -1,6 +1,6 @@
-source "http://rubygems.org"
-
+source "https://rubygems.org"
 gem 'github-pages'
-gem 'compass'
-gem 'sass-media_query_combiner'
-gem 'autoprefixer-rails'
+gem 'rake'
+gem 'jekyll-autoprefixer'
+gem 'mini_racer'
+gem 'bootstrap', '~> 4.6.0'

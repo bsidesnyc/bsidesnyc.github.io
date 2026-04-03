@@ -1,15 +1,15 @@
 .logo {
-    background-image: url($logos-sprite);
+    /*background-image: url("../img/about/logos.svg");*/
     background-repeat: no-repeat;
     &.logo-dark {
-    	background-position: 0 -1px;
+        background-image: url("../img/about/logo_black.svg");
     }
     &.logo-gray {
-    	background-position: 0 -63px;
-	}
-	&.logo-light {
-	    background-position: 0 -127px;
-	}
+        background-position: 0 -63px;
+    }
+    &.logo-light {
+        background-image: url("../img/about/logo_white.svg");
+    }
 }
 .icon {
     display: inline-block;
