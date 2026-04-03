@@ -93,9 +93,9 @@
 	}
 
 	.flip {
-		@include animate-prefixer(transform-style, preserve-3d);
-		@include animate-prefixer(backface-visibility, visible !important);
-		@include animate-prefixer(animation-name, flip)
+		transform-style: preserve-3d;
+		backface-visibility: visible !important;
+		animation-name: flip;
 	}
 
 }

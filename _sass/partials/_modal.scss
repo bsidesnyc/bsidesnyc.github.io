@@ -37,8 +37,7 @@ $modal-highlight-color: #212121;
 }
 .modal-dialog {
     @media (min-width: 768px) {
-        width: 740px;
-        margin-top: 100px;
+        // Removed legacy margin and width to allow standard Bootstrap 5 classes (modal-lg, modal-xl, modal-dialog-centered)
     }
 }
 .modal-body {

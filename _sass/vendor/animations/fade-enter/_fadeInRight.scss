@@ -49,6 +49,6 @@
 	}
 
 	.fadeInRight {
-		@include animate-prefixer(animation-name, fadeInRight);
+		animation-name: fadeInRight;
 	}
 }

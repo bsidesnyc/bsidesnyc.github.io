@@ -11,7 +11,7 @@ permalink: /archive/
     <div class="col-12">
         <p class="lead mb-5 text-center">Past BSidesNYC conferences — sessions, slides, and recordings.</p>
 
-        <div id="archive-list">
+        <div class="accordion" id="archiveAccordion">
             {% include archive-year.html year="2025" %}
             {% include archive-year.html year="2024" %}
             {% include archive-year.html year="2023" %}
@@ -26,17 +26,15 @@ permalink: /archive/
 
 <!-- Video overlay modal -->
 <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 85vw; width: 85vw;">
-    <div class="modal-content bg-dark">
-      <div class="modal-header border-0 pb-0">
-        <h5 class="modal-title text-white" id="videoModalTitle"></h5>
-        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content bg-dark border-0">
+      <div class="modal-header border-0 py-2 px-3">
+        <h5 class="modal-title text-white m-0" id="videoModalTitle"></h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body p-2">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" id="videoModalIframe" src="" allowfullscreen></iframe>
+      <div class="modal-body p-3">
+        <div id="player-container">
+           <video id="player" playsinline controls></video>
         </div>
       </div>
     </div>

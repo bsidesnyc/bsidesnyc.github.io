@@ -33,6 +33,6 @@
 	}
 
 	.hinge {
-		@include animate-prefixer(animation-name, hinge);
+		animation-name: hinge;
 	}
 }

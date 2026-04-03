@@ -34,8 +34,8 @@
 	}
 
 	.swing {
-		@include animate-prefixer(transform-origin, $base-origin);
-		@include animate-prefixer(animation-name, swing);
+		transform-origin: $base-origin;
+		animation-name: swing;
 	}
 
 }

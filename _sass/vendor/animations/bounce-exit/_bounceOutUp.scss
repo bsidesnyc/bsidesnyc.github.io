@@ -65,7 +65,7 @@
 	}
 
 	.bounceOutUp {
-		@include animate-prefixer(animation-name, bounceOutUp);
+		animation-name: bounceOutUp;
 	}
 
 }

@@ -1,33 +1,9 @@
 .archive-year-group {
     margin-bottom: 20px;
-    border: 1px solid #eee;
-    border-radius: 4px;
-    overflow: hidden;
     background: #fff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 .archive-year-header {
-    background: #fff;
-    padding: 20px 30px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: background 0.2s;
-    border-bottom: 1px solid transparent;
-
-    &:hover {
-        background: #fcfcfc;
-    }
-
-    &.active {
-        border-bottom-color: #eee;
-        .toggle-icon {
-            transform: rotate(180deg);
-        }
-    }
-
     .year-title {
         margin: 0;
         font-size: 24px;
@@ -41,16 +17,9 @@
             font-size: 18px;
         }
     }
-
-    .toggle-icon {
-        font-size: 12px;
-        transition: transform 0.3s;
-        color: #999;
-    }
 }
 
 .archive-year-content {
-    display: none; // Controlled by JS
     padding: 30px;
     background: #fcfcfc;
 }

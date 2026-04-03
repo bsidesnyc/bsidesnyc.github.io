@@ -1,6 +1,4 @@
 // @import "compass";
-@import "vendor/helpers/mixins";
-
 // Font weights
 $font-weight-light: 100;
 $font-weight-normal: 300;
@@ -53,6 +51,13 @@ $base-section-background-color: $link-color;
 $primary-color: #4285f4;
 $primary-color-hover: #3266d5;
 $icon-fill-color: #8b8b8b;
+
+:root {
+  --bs-primary: #4285f4;
+  --bs-primary-rgb: 66, 133, 244;
+  --bs-info: #03a9f4;
+  --bs-info-rgb: 3, 169, 244;
+}
 
 // Mixin for links (since we removed Compass)
 @mixin linkColor($color) {

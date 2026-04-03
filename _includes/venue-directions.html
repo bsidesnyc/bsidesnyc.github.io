@@ -1,21 +1,25 @@
 <!-- Begin Direction Details-->
 <section id="direction-details" class="direction-details">
-    <div class="content-wrapper">
-      <section class="image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.directionDetailsImage }}');">
+    <section class="image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.directionDetailsImage }}');">
+        <div class="overlay solid-overlay"></div>
         <h3 class="title-overlay">{{ site.directionDetailsTitle }}</h3>
-      <div class="overlay solid-overlay"></div>
-      </section>
-      <div class="row justify-content-center">
-            {% assign animationDelay = 0 %}
-            {% for card in site.directionDetailsCards %}
-            <div class="col-11 col-lg-3 animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                <div class="directions-card">
-                    <h4>{{ card.title }}</h4>
-                    <p>{{ card.information }}</p>
+    </section>
+
+    <div class="cards-wrapper">
+        <div class="container">
+            <div class="row justify-content-center g-4">
+                {% assign animationDelay = 0 %}
+                {% for card in site.directionDetailsCards %}
+                <div class="col-12 col-md-4 animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                    <div class="directions-card">
+                        <h4>{{ card.title }}</h4>
+                        <p>{{ card.information }}</p>
+                    </div>
                 </div>
+                {% assign animationDelay = animationDelay | plus:300 %}
+                {% endfor %}
             </div>
-            {% assign animationDelay = animationDelay | plus:500 %}
-            {% endfor %}
+        </div>
     </div>
 </section>
 <!-- End Direction Details -->

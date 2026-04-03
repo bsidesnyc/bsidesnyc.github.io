@@ -49,7 +49,7 @@
 	}
 
 	.fadeInLeft {
-		@include animate-prefixer(animation-name, fadeInLeft);
+		animation-name: fadeInLeft;
 	}
 
 }

@@ -13,18 +13,18 @@
             <div class="row villages-row">
                 <div class="col-12 col-md-4 villages-img-wrapper">
                     <a href="{{ village.url }}" class="villages-img-wrapper">
-                        <img class="img-fluid" src="{{ site.baseurl }}/img/villages/{{ village.logo }}">
+                        <img class="img-fluid" src="{{ site.baseurl }}/img/villages/{{ village.logo }}" loading="lazy">
                     </a>
                     {% if village.url %}
-                    <a class="villages-url text-center text-lg-left" href="{{ village.url }}/#bsidesnyc">Learn More</a>
+                    <a class="villages-url text-center text-lg-start" href="{{ village.url }}/#bsidesnyc">Learn More</a>
                     {% endif %}
                 </div>
-                <div class="col-12 col-md-8 text-center text-md-left">
-                    <h4 class="village-title d-none d-md-block text-left">{{ village.title }}</h4>
+                <div class="col-12 col-md-8 text-center text-md-start">
+                    <h4 class="village-title d-none d-md-block text-start">{{ village.title }}</h4>
                     {% if village.handson %}
                     <p class="villages-label villages-label-info">Hands On</p>
                     {% endif %}
-                    <p class="village-text text-center text-md-left">{{ village.description }}</p>
+                    <p class="village-text text-center text-md-start">{{ village.description }}</p>
                 </div>
             </div>
             {% endfor %}

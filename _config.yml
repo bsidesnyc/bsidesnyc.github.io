@@ -94,13 +94,13 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.webp"
 navigationLinks:
  - {permalink: "/venue/", text: "Venue"}
 # - {permalink: "/schedule/", text: "Schedule"}
-# - {permalink: "/villages/", text: "Villages"}
+ - {permalink: "/villages/", text: "Villages"}
 # - {permalink: "/ctf/", text: "CTF"}
 # - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/archive/", text: "Archive"}
 # - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/sponsors/", text: "Sponsors"}
-# - {permalink: "/cfp/", text: "CFP"}
+ - {permalink: "/cfp/", text: "CFP"}
  - {permalink: "/about/", text: "About"}
 bottomNavigationLinks:
 rightNavigationButtons:
@@ -145,20 +145,20 @@ cfpBoardTitle: "CFP Board"
 cfpUrl: # "https://docs.google.com/forms/d/e/1FAIpQLSes8dIfojKqXatyC6lNug41d_jsnio0LdIZRlFWms9sbWiUxw/viewform?usp=sf_link"
 cfpShowTechMembers: false
 cfpShowEntrepreneurMembers: false
-cfpOpenDate: "April 16, 2025"
-cfpCloseDate: "July 18, 2025"
-cfpAcceptanceDate: "July 18, 2025"
+cfpOpenDate: "April 15, 2026"
+cfpCloseDate: "July 17, 2026"
+cfpAcceptanceDate: "July 18, 2026"
 cfpDuration: "CFP submissions will be accepted from"
 cfpAcceptance: "Speaker acceptance notices will start being sent out on"
 cfpProcessReviewText: ["Our current conference timeline allocates ~3 months for our CFP to be open for submissions.",
 
-"After our CFP has been closed on July 19, 2025, our CFP review board has ~1 week to look over and score all submissions.",
+"After our CFP has been closed on July 17, 2026, our CFP review board has ~1 week to look over and score all submissions.",
 
-"Based on the ratings from our CFP review board, the submissions with the highest score are put into our first round of acceptance notices, which start on July 28, 2025.",
+"Based on the ratings from our CFP review board, the submissions with the highest score are put into our first round of acceptance notices, which start on July 27, 2026.",
 
 "We allow ~1 week for these submitters to respond. <i>If we can not get a hold of, or hear back from, said submitter(s) then we move down our acceptance list</i>. Additionally, circumstatnces may arrise which prevent a submitter from being able or willing to present at our conference. If this occurs, we must once again continue down the acceptance list.",
 
-"This is usually resolved within a week or two, but as you can imagine, we can not send out rejection notices until we have enough talks to fill our schedule.", "Once we have enough acceptances, we will send out notices to those who did not make the final cut, probably starting August 5, 2025. Depending on the volume of CFP submissions, we may not be able to provide personal feedback for each CFP submission."]
+"This is usually resolved within a week or two, but as you can imagine, we can not send out rejection notices until we have enough talks to fill our schedule.", "Once we have enough acceptances, we will send out notices to those who did not make the final cut, probably starting August 4, 2026. Depending on the volume of CFP submissions, we may not be able to provide personal feedback for each CFP submission."]
 cfpProcessAcceptedText: ["Acceptance notice go out over a month ahead of the conference so you can schedule any necessary travel arrangements. <b>If your attendance requires any visa paperwork, please let us know ahead of time</b>.",
 
 "Additionally, we will be posting the speaker list and talk abstracts so please let us know if anything has changed (title, abstract etc.) A.S.A.P.",
@@ -202,20 +202,8 @@ mapCenterCoordinates: "40.7709863, -73.9899653"
 mapMobileCenterCoordinates: "40.7709863, -73.9899653"
 
 #-----------------------------------------------
-# Logistics | Directions
+# Venue Getting Here Info
 #-----------------------------------------------
-directionsTitle: #"Find your way here"
-directionsDistance: "Distance"
-directionsDriving: "DRIVING"
-directionsWalking: "WALKING"
-directionsBicycling: "BICYCLING"
-directionsTransit: "TRANSIT"
-directionsFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "40.7709863, -73.9899653"
-logisticsMapMobileCenterCoordinates: "40.7709863, -73.9899653"
-logisticsMapAutoDirections: false
-
-# Logistics Direction Details
 directionDetailsImage: "columbus_circle.webp"
 directionDetailsTitle: "Getting Here"
 directionDetailsCards:
@@ -245,7 +233,7 @@ subscribeInfo: "^^^ Please ignore this message above from our mailing list provi
 # if registrationOpen is false, only the registration_closed content will be shown
 #
 registrationOpen: False
-registrationOpenDate: "2025-09-15T20:00:00-04:00"
+registrationOpenDate: "2026-09-25T20:00:00-04:00"
 registrationLink: https://www.ticketleap.events/tickets/bsidesnyc/bsidesnyc-0x05
 
 #-----------------------------------------------
@@ -285,14 +273,11 @@ volunteersSubscribeTitle: "Join the Team"
 # CTF 
 #-----------------------------------------------
 ctfHeader: Game On! 
-ctfHeaderMessage: We are so excited to offer multiple Capture The Flag (CTF) competitions. Play one or play them all! All CTFs require a laptop and have both offensive and defensive challenges.
-ctfHeaderMessageFloor: Visit the CTF space in the Cafeteria/Student Dining Hall (second floor, room 2.64)
-
-# Tweets Feed Block
-tweetsFeedImage: "twitter-feed.webp"
-tweetsFeedTitle: ""
-twitterHashTag: "bsidesnyc"
-twitterFeed: ""
+ctfHeaderMessage: ["Villages are open spaces divided up by topic that host hands-on activities, ",
+"demos, and workshops throughout the conference. They are generally less formal than the standard ",
+"tracks and offer an alternative learning environment from the straight talk/lecture structure. ",
+"They're also a great place to socialize and make contacts in the community!"]
+ctfHeaderMessageFloor: # Visit the CTF space in the Cafeteria/Student Dining Hall (second floor, room 2.64)
 
 #-----------------------------------------------
 # Sessionize Links

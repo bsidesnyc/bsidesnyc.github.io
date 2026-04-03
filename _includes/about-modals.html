@@ -4,15 +4,11 @@
         person.isFounder == true or 
         person.isTechCfp == true or 
         person.isEntrepreneurCfp == true %}
-        <div class="modal fade text-left people-modal" id="personDetail-{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="personDetailLabel-{{ forloop.index }}" aria-hidden="true">
+        <div class="modal fade text-start people-modal" id="personDetail-{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="personDetailLabel-{{ forloop.index }}" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <div class="close" data-dismiss="modal" aria-close="Close">
-                            <svg class="icon icon-cross" viewBox="0 0 32 32">
-                                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"></use>
-                            </svg>
-                        </div>
+                        <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
                         <div class="people-details">
                             <div class="row">
                                 <div class="col-md-2 col-sm-2">
@@ -24,7 +20,7 @@
                                         <span class="position">
                                             <a href="https://twitter.com/{{ person.twitter }}" target="_blank">
                                                 <svg class="icon icon-twitter" viewBox="0 0 30 32">
-                                                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
+                                                    <use href="#icon-twitter"></use>
                                                 </svg>
                                             </a>
                                         </span>
@@ -34,7 +30,7 @@
                                         <span class="position">
                                             <a href="https://linkedin.com/in/{{ person.linkedin}}" target="_blank">
                                                 <svg class="icon icon-linkedin" viewBox="0 0 30 32">
-                                                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-linkedin"></use>
+                                                    <use href="#icon-linkedin"></use>
                                                 </svg>
                                         </a>
                                         </span>

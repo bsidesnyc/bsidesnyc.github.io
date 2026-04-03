@@ -78,7 +78,7 @@
 }
 
 .flipInX {
-	@include animate-prefixer(backface-visibility, visible !important);
-	@include animate-prefixer(animation-name, flipInX);
+	backface-visibility: visible !important;
+	animation-name: flipInX;
 }
 }

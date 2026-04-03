@@ -25,6 +25,6 @@
 	}
 
 	.shake {
-		@include animate-prefixer(animation-name, shake);
+		animation-name: shake;
 	}
 }

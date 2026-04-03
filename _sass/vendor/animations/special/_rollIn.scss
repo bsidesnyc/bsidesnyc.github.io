@@ -23,7 +23,7 @@
 	}
 
 	.rollIn {
-		@include animate-prefixer(animation-name, rollIn);
+		animation-name: rollIn;
 	}
 
 }
