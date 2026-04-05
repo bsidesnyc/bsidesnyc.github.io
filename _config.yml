@@ -147,7 +147,7 @@ cfpShowTechMembers: false
 cfpShowEntrepreneurMembers: false
 cfpOpenDate: "April 15, 2026"
 cfpCloseDate: "July 17, 2026"
-cfpAcceptanceDate: "July 18, 2026"
+cfpAcceptanceDate: "July 17, 2026"
 cfpDuration: "CFP submissions will be accepted from"
 cfpAcceptance: "Speaker acceptance notices will start being sent out on"
 cfpProcessReviewText: ["Our current conference timeline allocates ~3 months for our CFP to be open for submissions.",
@@ -172,6 +172,11 @@ cfpProcessAcceptedText: ["Acceptance notice go out over a month ahead of the con
 villagesAboutTitle: "About Villages"
 villagesTitle: "BSidesNYC 2026 Villages"
 villagesUrl: "/villages/"
+villagesHeaderMessage: ["Villages are open spaces divided up by topic that host hands-on activities, ",
+"demos, and workshops throughout the conference. They are generally less formal than the standard ",
+"tracks and offer an alternative learning environment from the straight talk/lecture structure. ",
+"They're also a great place to socialize and make contacts in the community!"]
+villagesHeaderMessageFloor: # Visit the CTF space in the...
 
 #-----------------------------------------------
 # Event Intro
@@ -273,10 +278,8 @@ volunteersSubscribeTitle: "Join the Team"
 # CTF 
 #-----------------------------------------------
 ctfHeader: Game On! 
-ctfHeaderMessage: ["Villages are open spaces divided up by topic that host hands-on activities, ",
-"demos, and workshops throughout the conference. They are generally less formal than the standard ",
-"tracks and offer an alternative learning environment from the straight talk/lecture structure. ",
-"They're also a great place to socialize and make contacts in the community!"]
+ctfHeaderMessage: ["We are so excited to offer multiple Capture The Flag (CTF) competitions. ",
+"Play one or play them all! All CTFs require a laptop and have both offensive and defensive challenges."]
 ctfHeaderMessageFloor: # Visit the CTF space in the Cafeteria/Student Dining Hall (second floor, room 2.64)
 
 #-----------------------------------------------
