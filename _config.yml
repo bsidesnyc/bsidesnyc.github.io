@@ -145,14 +145,14 @@ cfpBoardTitle: "CFP Board"
 cfpUrl: # "https://docs.google.com/forms/d/e/1FAIpQLSes8dIfojKqXatyC6lNug41d_jsnio0LdIZRlFWms9sbWiUxw/viewform?usp=sf_link"
 cfpShowTechMembers: false
 cfpShowEntrepreneurMembers: false
-cfpOpenDate: "April 15, 2026"
-cfpCloseDate: "July 17, 2026"
-cfpAcceptanceDate: "July 17, 2026"
+cfpOpenDate: "April 16, 2026"
+cfpCloseDate: "July 19, 2026"
+cfpAcceptanceDate: "July 19, 2026"
 cfpDuration: "CFP submissions will be accepted from"
 cfpAcceptance: "Speaker acceptance notices will start being sent out on"
 cfpProcessReviewText: ["Our current conference timeline allocates ~3 months for our CFP to be open for submissions.",
 
-"After our CFP has been closed on July 17, 2026, our CFP review board has ~1 week to look over and score all submissions.",
+"After our CFP has been closed on July 19, 2026, our CFP review board has ~1 week to look over and score all submissions.",
 
 "Based on the ratings from our CFP review board, the submissions with the highest score are put into our first round of acceptance notices, which start on July 27, 2026.",
 
