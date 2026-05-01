@@ -11,6 +11,8 @@
 1. install rbenv via Homebrew and set up Ruby 3.2.3:
    ```
    brew install rbenv ruby-build
+   # follow instructions to setup your shell profile with ~/.rbenv/bin/rbenv init
+   # or one session just run ~/.rbenv/bin/rbenv init 
    rbenv install 3.2.3
    rbenv local 3.2.3
    ```
