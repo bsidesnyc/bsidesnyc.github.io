@@ -8,8 +8,13 @@
 
 1. clone the repo locally `git clone https://github.com/bsidesnyc/bsidesnyc.github.io.git`
 1. `cd bsidesnyc.github.io`
-1. install required gems
-  `sudo gem install github-pages jekyll-sitemap bundler rails compass sass-media_query_combiner autoprefixer-rails`
+1. install rbenv via Homebrew and set up Ruby 3.2.3:
+   ```
+   brew install rbenv ruby-build
+   rbenv install 3.2.3
+   rbenv local 3.2.3
+   ```
+1. `gem install bundler`
 1. `bundle install`
 1. `jekyll serve -w`
 1. open web browser to http://127.0.0.1:4000 / http://localhost:4000
