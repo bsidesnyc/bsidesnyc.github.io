@@ -11,6 +11,9 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
     @media (min-width: 768px) and (max-width: 991px) {
         padding: 13px 0 0 34px;
     }
+    @media (max-width: 767px) {
+        padding: 10px 15px;
+    }
     &.after-scroll {
         padding-top: 0;
         box-shadow: 0 0 5px rgba(0, 0, 0, .2), 0 1px 0 rgba(255, 255, 255, .15);
@@ -27,34 +30,26 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
     display: block;
     transform: translateY(20px);
     transition: $base-transition;
-    @media (max-width: 767px) {
-        transform: translateX(-45px);
-    }
     .top-header.after-scroll & {
         transform: translateY(1px);
-        @media (max-width: 767px) {
-            transform: translateX(-45px);
-        }    
     }
     .logo {
         display: inline-block;
         float: left;
-        width: 185px;
-        height: 60px;
+        width: 130px;
+        height: 42px;
         margin-right: 20px;
-        transform: scale(.7);
         vertical-align: middle;
-         @media (max-width: 767px) {
-            transform: scale(.6);
+        @media (max-width: 767px) {
+            width: 111px;
+            height: 36px;
         }
     }
 }
 .logo-navbar {
-    width: 185px;
-    height: 65px;
-    margin: 8px 20px 0 -10px;
-    -webkit-transform: scale(0.6);
-    transform: scale(0.6);
+    width: 111px;
+    height: 39px;
+    margin: 8px 20px 0 10px;
     vertical-align: middle;
 }
 nav {
