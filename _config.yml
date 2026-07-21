@@ -17,7 +17,6 @@ sass:
 #-----------------------------------------------
 plugins:
   - jekyll-sitemap
-  - jekyll-autoprefixer
 
 exclude: ['README.md', 'LICENSE.txt', 'CNAME', 'vendor', 'Gemfile', 'Gemfile.lock']
 
