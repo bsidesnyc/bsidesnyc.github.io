@@ -52,6 +52,26 @@ $primary-color: #4285f4;
 $primary-color-hover: #3266d5;
 $icon-fill-color: #8b8b8b;
 
+// Text hierarchy
+$color-text-heading: #111;
+$color-text-body: #333;
+$color-text-secondary: #555;
+$color-text-muted: #777;
+$color-text-light: #999;
+
+// Surfaces and borders
+$color-surface-alt: #fcfcfc;
+$color-border: #e7e7e7;
+$color-border-medium: #e0e0e0;
+$color-border-light: #f5f5f5;
+
+// Track/session colors
+$track-color-tech-red: #db4437;
+$track-color-tech-blue: #4285f4;
+$track-color-tech-other: #f4b400;
+$track-color-workshop: #0f9d58;
+$track-color-entrepreneur: #ab47bc;
+
 :root {
   --bs-primary: #4285f4;
   --bs-primary-rgb: 66, 133, 244;
@@ -67,12 +87,18 @@ $icon-fill-color: #8b8b8b;
     }
 }
 
+// Card
+$card-shadow: 0 1px 7px rgba(0, 0, 0, .06), 0 1px 3px rgba(0, 0, 0, .15);
+$card-border-radius: 4px;
+$card-padding: 24px;
+
 // Sizes
 $min-section-height: 350px;
 $section-padding-top: 50px;
 $section-padding-bottom: 60px;
 $small-section-padding-top: 20px;
 $small-section-padding-bottom: 40px;
+$component-spacing: 26px;
 
 // Global variables
 $base-transition: all .3s;

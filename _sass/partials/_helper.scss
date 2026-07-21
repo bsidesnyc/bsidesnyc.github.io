@@ -18,6 +18,7 @@
     fill: $primary-color;
 }
 .image-section {
+    min-height: $min-section-height;
     color: #fff;
     font-weight: $fw-light;
     background-repeat: no-repeat;
@@ -40,10 +41,10 @@
     overflow: hidden;
     height: 100%;
     margin-bottom: 10px;
-    padding: 24px;
-    border-radius: 4px;
+    padding: $card-padding;
+    border-radius: $card-border-radius;
     background: #fff;
-    box-shadow: 0 1px 7px rgba(0, 0, 0, .06), 0 1px 3px rgba(0, 0, 0, .15);
+    box-shadow: $card-shadow;
 }
 .same-height {
     margin-bottom: 15px;

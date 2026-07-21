@@ -1,8 +1,8 @@
 .lily-effect {
-    margin-bottom: 26px;
+    margin-bottom: $component-spacing;
     cursor: pointer;
     transition: $base-transition;
-    box-shadow: 0 1px 7px rgba(0, 0, 0, .06), 0 1px 3px rgba(0, 0, 0, .15);
+    box-shadow: $card-shadow;
     &:hover {
         box-shadow: 0 1px 7px rgba(0, 0, 0, .06), 0 1px 3px rgba(0, 0, 0, .35);
         figure {
@@ -52,7 +52,7 @@
         }
     }
     figcaption {
-        font-size: 16px;
+        font-size: 1.23rem;
         position: absolute;
         bottom: 0;
         width: 100%;
@@ -66,7 +66,7 @@
             }
         }
         h2 {
-            font-size: 20px;
+            font-size: 1.54rem;
             line-height: 1;
             font-weight: $fw-regular;
             transition: $base-transition;
@@ -85,7 +85,7 @@
         }
         .position {
             margin: 0;
-            font-size: 11px;
+            font-size: 0.85rem;
             transition: $base-transition;
             letter-spacing: 1px;
             color: rgba(255, 255, 255, .9);
@@ -110,12 +110,12 @@
         border-bottom: 2px solid #fff;
         background: #fff;
         h2 {
-            font-size: 21px;
+            font-size: 1.62rem;
             font-weight: $fw-regular;
             margin: 0;
         }
         .title {
-            font-size: 16px;
+            font-size: 1.23rem;
             line-height: 1.5;
             @include trimText(16px, 1.5, 2);
         }
