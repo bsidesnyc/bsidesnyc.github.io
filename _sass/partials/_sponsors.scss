@@ -4,8 +4,8 @@
     justify-content: center;
     padding: 1.5rem;
     background: #fff;
-    border-radius: 4px;
-    box-shadow: 0 1px 7px rgba(0, 0, 0, .06), 0 1px 3px rgba(0, 0, 0, .15);
+    border-radius: $card-border-radius;
+    box-shadow: $card-shadow;
     height: 100%;
 
     a {
@@ -18,17 +18,29 @@
         width: 100%;
         height: auto;
     }
+
+    &.sponsor-logo-gigabit {
+        padding: 2rem;
+    }
+
+    &.sponsor-logo-megabit {
+        padding: 1.5rem;
+    }
+
+    &.sponsor-logo-kilobit {
+        padding: 1rem;
+    }
 }
 
 .card {
     .card-header {
-        font-size: 18px;
+        font-size: 1.38rem;
         font-weight: $fw-extra-bold;
         color: #111;
     }
 
     .card-body {
-        font-size: 14px;
+        font-size: 1.08rem;
         color: #555;
     }
 }
