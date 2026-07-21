@@ -1,29 +1,27 @@
-<section id="cfp-process" class="cf-board">
+<section id="cfp-process" class="cf-board" style="padding-top: 20px;">
   <div class="col-lg-10 offset-lg-1 text-center">
-      <hr />
       <h4>CFP Process</h4>
-      <hr />
   </div>
 
   <div class="col-lg-10 offset-lg-1 text-center">
     <h5>CFP Review</h5>
     <div class="default-row text-start text-justify">
       <div class="card">
-        <ul>
+        <ul class="mb-0">
         {% for part in site.cfpProcessReviewText %}
-          <li><p>{{ part }}</p></li>
+          <li>{{ part }}</li>
         {% endfor %}
       </ul>
       </div>
     </div>
 
-    <h5>Accepted Speakers</h5>
+    <h5 class="mt-4">Accepted Speakers</h5>
 
     <div class="default-row text-start text-justify">
       <div class="card">
-        <ul>
+        <ul class="mb-0">
         {% for part in site.cfpProcessAcceptedText %}
-          <li><p>{{ part }}</p></li>
+          <li>{{ part }}</li>
         {% endfor %}
       </ul>
       </div>
