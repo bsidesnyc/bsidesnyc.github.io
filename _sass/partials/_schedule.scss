@@ -1,5 +1,5 @@
 $speaker-image-size: 40px;
-$schedule-border: 1px solid #e7e7e7;
+$schedule-border: 1px solid $color-border;
 $title-font-size: 25px;
 $label-width: 100px;
 $small-label-width: 80px;
@@ -28,7 +28,7 @@ $small-label-width: 80px;
         margin-left: $speaker-image-size + 8;
     }
     .speaker-position {
-        color: #555;
+        color: $color-text-secondary;
         display: block;
         line-height: 1;
         font-size: 12px;
@@ -159,11 +159,11 @@ $small-label-width: 80px;
     top: 0;
     background: #ccc;
 
-    &.tech-red { background: #db4437; }
-    &.tech-blue { background: #4285f4; }
-    &.tech-other { background: #f4b400; }
-    &.workshop { background: #0f9d58; }
-    &.entrepreneur { background: #ab47bc; }
+    &.tech-red { background: $track-color-tech-red; }
+    &.tech-blue { background: $track-color-tech-blue; }
+    &.tech-other { background: $track-color-tech-other; }
+    &.workshop { background: $track-color-workshop; }
+    &.entrepreneur { background: $track-color-entrepreneur; }
 }
 .slot-content {
     padding: 20px 15px 30px;
@@ -172,11 +172,11 @@ $small-label-width: 80px;
     transform: translateY(0);
     transition: $base-transition;
 
-    &.tech-red { border-left-color: #db4437; }
-    &.tech-blue { border-left-color: #4285f4; }
-    &.tech-other { border-left-color: #f4b400; }
-    &.workshop { border-left-color: #0f9d58; }
-    &.entrepreneur { border-left-color: #ab47bc; }
+    &.tech-red { border-left-color: $track-color-tech-red; }
+    &.tech-blue { border-left-color: $track-color-tech-blue; }
+    &.tech-other { border-left-color: $track-color-tech-other; }
+    &.workshop { border-left-color: $track-color-workshop; }
+    &.entrepreneur { border-left-color: $track-color-entrepreneur; }
 
     @media (max-width: 1199px) {
         padding-bottom: 20px;

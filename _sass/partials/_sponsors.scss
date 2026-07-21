@@ -36,11 +36,11 @@
     .card-header {
         font-size: 1.38rem;
         font-weight: $fw-extra-bold;
-        color: #111;
+        color: $color-text-heading;
     }
 
     .card-body {
         font-size: 1.08rem;
-        color: #555;
+        color: $color-text-secondary;
     }
 }

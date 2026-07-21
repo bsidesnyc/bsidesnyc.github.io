@@ -8,11 +8,11 @@
         margin: 0;
         font-size: 1.85rem;
         font-weight: $fw-bold;
-        color: #333;
+        color: $color-text-body;
 
         span {
             font-weight: $fw-light;
-            color: #999;
+            color: $color-text-light;
             margin-left: 10px;
             font-size: 1.38rem;
         }
@@ -21,16 +21,16 @@
 
 .archive-year-content {
     padding: 30px;
-    background: #fcfcfc;
+    background: $color-surface-alt;
 }
 
 .archive-conf-summary {
     margin-bottom: 30px;
     padding-bottom: 20px;
-    border-bottom: 1px dashed #ddd;
+    border-bottom: 1px dashed $color-border-medium;
     font-size: 1.15rem;
-    color: #777;
-    
+    color: $color-text-muted;
+
     .meta-item {
         margin-right: 20px;
         b { color: #444; }
@@ -42,7 +42,7 @@
     padding: 0;
     margin-bottom: 25px;
     border-radius: 6px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid $color-border-medium;
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     height: calc(100% - 25px);
     display: flex;
@@ -67,12 +67,12 @@
         font-weight: $fw-extra-bold;
         margin-bottom: 10px;
         line-height: 1.2;
-        color: #111;
+        color: $color-text-heading;
     }
     
     .session-speakers {
         font-size: 1.23rem;
-        color: #555;
+        color: $color-text-secondary;
         margin-bottom: 5px;
         font-weight: $fw-bold;
         text-transform: none;
@@ -88,9 +88,9 @@
     }
     
     .session-actions {
-        border-top: 1px solid #f5f5f5;
+        border-top: 1px solid $color-border-light;
         padding: 15px 20px;
-        background: #fafafa;
+        background: $color-surface-alt;
         margin-top: auto;
         
         .btn {

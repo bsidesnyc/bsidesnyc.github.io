@@ -22,7 +22,7 @@ $figcaption-color: #3c4a50;
         }
         h2, figcaption, figcaption > a {
             transform: translateY(0);
-            color: #3c4a50;
+            color: $figcaption-color;
         }
         figcaption > a {
             &:nth-child(5) {
@@ -91,10 +91,10 @@ $figcaption-color: #3c4a50;
             transition: $base-transition;
             transform: translateY(0);
             transition-delay: .05s;
-            color: #3c4a50;
+            color: $figcaption-color;
             @media (max-width: 767px) {
                 transform: translateY(0); 
-                color: #3c4a50;
+                color: $figcaption-color;
             }
             span {
                 font-weight: $fw-bold;
