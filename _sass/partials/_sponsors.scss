@@ -1,3 +1,25 @@
+.sponsor-logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, .06), 0 1px 3px rgba(0, 0, 0, .15);
+    height: 100%;
+
+    a {
+        display: block;
+        width: 100%;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
 .card {
     .card-header {
         font-size: 18px;
