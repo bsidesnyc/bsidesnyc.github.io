@@ -2,29 +2,28 @@
 <section id="sponsors" class="sponsors">
   <div class="content-wrapper">
     <div class="col-lg-10 offset-lg-1">
-        <h3 class="pb-0">Sponsors<p>Thank you to our sponsors for making BSidesNYC happen! No new sponsors will be accepted for 2025</p></h3>
         {% for sponsorGroup in site.data.sponsors %}
 
-        {% assign col_size="col-4 p-3" %}
-        {% assign sponsor_group="sponsor-logo-kilobit " %}
-        <h4 class="text-center p-5">{{ sponsorGroup.group }}</h4>
-        <div class="row justify-content-center">
+        {% assign col_size="col-12 col-sm-6 col-md-4 col-lg-3" %}
+        {% assign sponsor_group="sponsor-logo-kilobit" %}
+        <h4 class="text-center pt-4 pb-2">{{ sponsorGroup.group }}</h4>
+        <div class="row g-4 justify-content-center">
 
             {% if sponsorGroup.group == "Gigabit Sponsors" %}
-                {% assign col_size="col-12 pt-4 pb-4" %}
-                {% assign sponsor_group="sponsor-logo-gigabit " %}
+                {% assign col_size="col-12 col-sm-6 col-lg-4" %}
+                {% assign sponsor_group="sponsor-logo-gigabit" %}
             {% elsif sponsorGroup.group == "Megabit Sponsors" %}
-                {% assign col_size="col-6 col-md-5 p-5" %}
-                {% assign sponsor_group="sponsor-logo-megabit " %}
+                {% assign col_size="col-12 col-sm-6 col-md-4" %}
+                {% assign sponsor_group="sponsor-logo-megabit" %}
             {% endif %}
 
             {% for sponsor in sponsorGroup.elements %}
             <div class="{{ col_size }}">
                 <div class="sponsor-logo-wrapper {{ sponsor_group }}">
                     <a href="{{ sponsor.link }}" target="_blank">
-                        <img 
-                            src="{{ site.baseurl | append: '/img/sponsors/' | append: sponsor.imageUrl }}" 
-                            title="{{ sponsor.name}}" 
+                        <img
+                            src="{{ site.baseurl | append: '/img/sponsors/' | append: sponsor.imageUrl }}"
+                            title="{{ sponsor.name }}"
                             alt="{{ sponsor.name }}"
                             loading="lazy"/>
                     </a>
