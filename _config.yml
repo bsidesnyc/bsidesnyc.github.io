@@ -97,7 +97,7 @@ navigationLinks:
 # - {permalink: "/ctf/", text: "CTF"}
 # - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/archive/", text: "Archive"}
-# - {permalink: "/registration/", text: "Registration"}
+ - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/sponsors/", text: "Sponsors"}
  - {permalink: "/cfp/", text: "CFP"}
  - {permalink: "/about/", text: "About"}
