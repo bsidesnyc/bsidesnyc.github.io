@@ -143,7 +143,7 @@ cfpTitle: "Call For Papers"
 cfpBoardTitle: "CFP Board"
 cfpUrl: # "https://docs.google.com/forms/d/e/1FAIpQLSes8dIfojKqXatyC6lNug41d_jsnio0LdIZRlFWms9sbWiUxw/viewform?usp=sf_link"
 cfpShowTechMembers: false
-cfpShowEntrepreneurMembers: false
+cfpShowEntrepreneurMembers: true
 cfpOpenDate: "April 16, 2026"
 cfpCloseDate: "July 19, 2026"
 cfpAcceptanceDate: "July 19, 2026"
