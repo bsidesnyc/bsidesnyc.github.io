@@ -176,6 +176,9 @@
             }, { threshold: 0.1 });
 
             document.querySelectorAll('.animated, .appear-animation-trigger').forEach(el => {
+                if (el.classList.contains('animated')) {
+                    appearObserver.observe(el);
+                }
                 if (el.classList.contains('appear-animation-trigger')) {
                     const appearChildObserver = new IntersectionObserver((entries) => {
                         entries.forEach(entry => {
@@ -191,8 +194,6 @@
                         });
                     });
                     appearChildObserver.observe(el);
-                } else {
-                    appearObserver.observe(el);
                 }
             });
         } else {

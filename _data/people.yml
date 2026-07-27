@@ -161,56 +161,74 @@
   isOrganizer: false
   thumbnailUrl: /cfp/shweta.webp
   isEntrepreneurCfp: false
-- firstname: Anna 
-  surname: Sarnek 
-  title: Cyber Startup and VC BD Lead
-  company: AWS
+- firstname: Anna
+  surname: Sarnek
+  title: VP of Business and Strategy
+  company: Terra Security
   twitter: null
   linkedin: annasarnek
-  bio: Anna Sarnek leads Cyber Startup and Venture Capital Business Development at AWS, working at the intersection of investors, startups, and the CISO community. 
-    With 15+ years of experience and a technical background, she excels at identifying unique go-to-market opportunities in enterprise IT and cybersecurity. Her 
-    experience szpans from early stage startups like Valence Security to enterprise cyber security companies like RSA security. At SecurityScorecard, she 
-    single-handedly built the Cloud Partnership program, achieving 8x marketplace growth, securing a record 6-day deal cycle, and earning AWS recognition 
-    at re:Invent 2022. Anna's strategic vision and partnership expertise drives innovation across the cybersecurity ecosystem.
+  bio: Anna Sarnek is VP of Business and Strategy at Terra Security, an AI-native offensive security platform. Her career spans strategic partnerships and GTM
+    leadership at AWS, RSA Security, SecurityScorecard, and Valence Security, including a recent role driving cyber startup and VC business development at AWS.
+    She's a Senior Fellow at the McCrary Institute for Cyber & Critical Infrastructure Security and a World Economic Forum Agenda Contributor.
   thumbnailUrl: /cfp/annasarnek.webp
   isEntrepreneurCfp: true
-- firstname: Sid 
-  surname: Trivedi 
+- firstname: Sid
+  surname: Trivedi
   title: Partner
   company: Foundation Capital
   twitter: null
-  bio: Sid Trivedi is a Partner at Foundation Capital where he leads early-stage investments in cybersecurity and IT. His investments include Stacklet, AirMDR, 
-    Prime Security, DevZero, Pulse Security AI, Aegis AI, Permiso, Neurelo, Levo, Phenom, Attivo Networks (acq. SentinelOne), CloudKnox (acq. Microsoft), Respond 
-    Software (acq. Mandiant), and MistNet (acq. LogRhythm). Prior to Foundation, Sid was an investor at Omidyar Technology Ventures and Symphony Technology Group. 
-    He is also a co-founder of CyberSeed, a community of over 1,500 cybersecurity founders, and co-founder and co-host of the Inside the Network podcast, which 
-    shares how category-defining cybersecurity startups are built. Outside of work, Sid serves on the advisory boards of Entrepreneurship at Cornell, the 
+  bio: Sid Trivedi is a Partner at Foundation Capital where he leads early-stage investments in cybersecurity and IT. His investments include Stacklet, AirMDR,
+    Prime Security, DevZero, Pulse Security AI, Aegis AI, Permiso, Neurelo, Levo, Phenom, Attivo Networks (acq. SentinelOne), CloudKnox (acq. Microsoft), Respond
+    Software (acq. Mandiant), and MistNet (acq. LogRhythm). Prior to Foundation, Sid was an investor at Omidyar Technology Ventures and Symphony Technology Group.
+    He is also a co-founder of CyberSeed, a community of over 1,500 cybersecurity founders, and co-founder and co-host of the Inside the Network podcast, which
+    shares how category-defining cybersecurity startups are built. Outside of work, Sid serves on the advisory boards of Entrepreneurship at Cornell, the
     California Israel Chamber of Commerce, and Cornell Venture Capital. Sid graduated Phi Beta Kappa and magna cum laude from Cornell University.
   thumbnailUrl: /cfp/sidtrivedi.webp
-  isEntrepreneurCfp: true
+  isEntrepreneurCfp: false
 - firstname: Ross
   surname: Haleliuk
-  title: Founder
-  company: Stealth
+  title: Co-founder and CEO
+  company: Nimble Security
   twitter: null
   linkedin: rosshaleliuk
-  bio: Ross is a cybersecurity leader and entrepreneur. Outside of work, Ross is a startup advisor, angel investor, and a frequent contributor to leading tech 
-    media such as TechCrunch, Forbes, VentureBeat, and Dark Reading. Ross is an author of Venture in Security, an award-winning blog with over 500,000 annual 
-    readers,  widely regarded as the number one independent source about the business side of cybersecurity. His book, Cyber for Builders The Essential Guide 
-    to Building a Cybersecurity Startup, became an instant Amazon best seller, got the SANS Book of the Year award, and is recognized as a critical read for 
-    aspiring and early-stage security entrepreneurs and experienced founders alike.
+  bio: Ross Haleliuk is the Co-founder and CEO of Nimble Security, a startup reimagining one of the hardest security problems with AI agents. An active
+    industry leader, Ross has been a startup advisor, angel investor, and a frequent contributor to leading technology and security publications, as well
+    as the author of the industry's top blog about the business of cyber - Venture in Security. Ross is a regular speaker at top industry events including
+    Black Hat, RSA Conference, and BSides, and a best-selling author of Cyber for Builders.
   thumbnailUrl: /cfp/rosshaleliuk.webp
   isEntrepreneurCfp: true
 - firstname: Nicholas
   surname: Muy
   title: CISO
-  company: Scrut.io
+  company: Scrut Automation
   twitter: null
   linkedin: nicholasmuy
-  bio: 15+ year cybersecurity & strategy leader with deep experience spanning all aspects of building and leading enterprise-wide programs for multi-billion 
-    dollar companies and scaling zero-to-1 programs for high-growth startups. Specialist at security engineering, board-level risk management, F500 M&A in 
-    software-heavy environments and having a ruthlessly business-aligned pragmatic approach to security, have held leadership roles in Corporate Development, 
-    Corporate Strategy, and Platform Strategy.
+  bio: Nicholas Muy is the CISO at Scrut Automation and an active cybersecurity investor. As a Venture Partner at Tidal Ventures and Co-Lead of the Venture
+    in Security Angel Syndicate, he frequently advises early-stage founders. With 15+ years of experience, Nicholas previously led security programs at
+    Expedia Group, Stoplight, and the Department of Homeland Security. He brings deep expertise in scaling startups, cloud-native security, and risk management.
   thumbnailUrl: /cfp/nicholasmuy.webp
+  isEntrepreneurCfp: true
+- firstname: Gianna
+  surname: Whitver
+  title: CEO
+  company: Cybersecurity Marketing Society
+  twitter: null
+  bio: Gianna Whitver's mission is to help cybersecurity companies be successful through excellent marketing & GTM. She is CEO of industry resources
+    Cybersecurity Marketing Society and CyberCEO Society, producer of CyberMarketingCon + Summits, and Host of the Breaking Through in Cybersecurity
+    Marketing Podcast. Gianna advises on marketing for cybersecurity companies. She's spoken at BSides NYC, RSA365, ISC2, InfoSec World, and more. She
+    loves bees, helping people, and attempting to be funny.
+  thumbnailUrl: /cfp/giannawhitver.webp
+  isEntrepreneurCfp: true
+- firstname: Jamie
+  surname: Mneimneh
+  title: CTO and CISO
+  company: Brightmind Partners
+  twitter: null
+  bio: Jamie Mneimneh is Chief Technology Officer and Chief Information Security Officer at Brightmind Partners, a New York–based cybersecurity and
+    technology investment firm. Blending a builder's instinct with deep security expertise, Jamie leads the firm's technology strategy and information
+    security program. Drawing on years of founder and operator experience, Jamie helps shape how Brightmind evaluates, backs, and works alongside the
+    next generation of cybersecurity companies.
+  thumbnailUrl: /cfp/jamiemneimneh.webp
   isEntrepreneurCfp: true
 - firstname: Chas
   surname: Larios
@@ -225,7 +243,7 @@
     Secureworks, and VMware Carbon Black. She is passionate about changing the way cybersecurity marketing is done—putting respect for the community and trusted 
     practitioner voices at the center.
   thumbnailUrl: /cfp/chaslarios.webp
-  isEntrepreneurCfp: true
+  isEntrepreneurCfp: false
 - firstname: Alex
   surname: Perotti
   title: Malware reverse engineer and CTI analyst
