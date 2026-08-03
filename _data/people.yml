@@ -101,20 +101,20 @@
   isEntrepreneurCfp: false
 - firstname: Jamie
   surname: Levy
-  title: Director of R&D at Huntress
-  company: null
+  title: Sr Director of Adversary Tactics
+  company: Huntress
   linkedin: jlevy77
   twitter: gleeda
-  bio: Jamie Levy is the Director of Adversary Tactics at Huntress. Jamie is also
-    a longtime researcher, developer and board member of the Volatility Foundation.
-    She has worked over 15 years in the digital forensics industry, conducting investigations
+  bio: Jamie Levy is the Sr Director of Adversary Tactics at Huntress. Jamie is also
+    a researcher, developer and board member of the Volatility Foundation. She has
+    worked over 15 years in the digital forensics industry, conducting investigations
     as well as building out software solutions. Jamie is also a co-author of The Art
     of Memory Forensics, the first book of its kind covering various facets of how
     to investigate RAM artifacts.
   isFounder: false
   isOrganizer: false
   isTechCfp: true
-  thumbnailUrl: /cfp/jamie_levy.webp
+  thumbnailUrl: /cfp/jamie_levy_new.webp
   isEntrepreneurCfp: false
 - firstname: Jase T.
   surname: English
@@ -131,7 +131,7 @@
     University - Fu Foundation School of Engineering and Applied Science.
   isFounder: false
   isOrganizer: false
-  isTechCfp: true
+  isTechCfp: false
   thumbnailUrl: /cfp/jase_english.webp
   isEntrepreneurCfp: false
 - firstname: Pearce
@@ -269,7 +269,7 @@
     worked at McAfee/Trellix with public sector enterprises at establishing and maturing Cybersecurity Threat Intelligence (CTI) and SecOps programs in 
     Information and Operational Technology environments.  
   thumbnailUrl: /cfp/cesarvargas.webp
-  isTechCfp: true
+  isTechCfp: false
 - firstname: Raphaela
   surname: Mettig
   title: Cybersecurity Research Specialist
@@ -298,7 +298,7 @@
     the Latinas in STEM Empowerment Scholarship, an annual award for first-generation Latinas pursuing degrees in science, technology, engineering, or math. 
     She mentors rising talent across tech and business, encouraging others to lead with courage, creativity, and conviction.
   thumbnailUrl: /cfp/stephanieaceves.webp
-  isTechCfp: true
+  isTechCfp: false
 - firstname: Jamie
   surname: Williams
   title: 
@@ -308,7 +308,7 @@
     with amazing people on various exciting efforts involving security operations and research, mostly focused on adversary emulation, behavior-based detections, 
     and the many other ways of finding the "so what?" of cyber threat intelligence.
   thumbnailUrl: /cfp/jamiewilliams.webp
-  isTechCfp: true
+  isTechCfp: false
 - firstname: Jessica 
   surname: Hyde
   title: Founder
@@ -325,4 +325,83 @@
     at Magnet Forensics, Basis Technology, EY, and American Systems. Jessica is a
     proud veteran of the United States Marine Corps.
   thumbnailUrl: /cfp/jessica_hyde.webp
+  isTechCfp: false
+- firstname: Bob
+  surname: Rudis
+  title: Distinguished Engineer
+  company: Censys
+  twitter: null
+  bio: Bob Rudis has over 30 years of experience using data to help defend global Fortune 100 companies and is
+    presently Distinguished Engineer at Censys, where he and his team are building the most comprehensive
+    knowledge fabric of the internet. He was formerly V.P. of Adversary Intelligence at GreyNoise, Chief Data
+    Scientist at Rapid7, and a Security Data Scientist & Managing Principal at Verizon, overseeing the team that
+    produces the annual Data Breach Investigations Report. Bob is also a visiting lecturer at Carnegie Mellon
+    University and is a serial poster, avid blogger, R avuncular, author (Data-Driven Security), speaker, and
+    regular contributor to the open-source community.
+  thumbnailUrl: /cfp/bobrudis.webp
+  isTechCfp: true
+- firstname: Andrew
+  surname: Thompson
+  title: Security & Intelligence Executive
+  company: Mandiant/Google Cloud
+  twitter: null
+  bio: Andrew Thompson is a security and intelligence executive with Mandiant/Google Cloud where he leads
+    detection engineering, threat hunting, and technical intelligence analysis. Prior to joining Mandiant, Andrew
+    served as an active duty Marine in ground combat, counterintelligence, human intelligence, and cyberspace
+    operations roles.
+  thumbnailUrl: /cfp/andrewthompson.webp
+  isTechCfp: true
+- firstname: Squiblydoo
+  surname: ""
+  title: null
+  company: null
+  twitter: null
+  bio: Squiblydoo became a cybersecurity professional after other career ventures failed. However those careers
+    (philosophy, linguistics, anthropology, ethno-arts, regulatory compliance) shape their perspectives. Squiblydoo
+    is the developer and maintainer of the malware analysis tool Debloat and CertGraveyard.org.
+  thumbnailUrl: /cfp/squiblydoo.webp
+  isTechCfp: true
+- firstname: Melissa
+  surname: Bischoping
+  title: Director of Secure Operations & Enablement
+  company: Siemens Digital Industries
+  twitter: null
+  bio: "Melissa Bischoping is the Director of Secure Operations & Enablement at Siemens Digital Industries, where
+    she leads a team responsible for modernizing and equipping capabilities for detection and response. As a SANS
+    Institute instructor candidate, she teaches LDR514: Strategic Planning, Policy & Leadership, where she brings
+    a human-centered approach to cybersecurity strategy, helping leaders translate complex threat intelligence
+    into actionable decisions and policy. Melissa's career reflects a nontraditional path into cybersecurity,
+    shaped by experience across industries and disciplines. She began in IT and operational roles before moving
+    into security engineering and program development. Prior to her current role, she built and led threat
+    research and vulnerability intelligence teams focused on adversary behavior, emerging threats, and
+    vulnerability risk. Melissa holds a Master of Science in Information Security Engineering from the SANS
+    Technology Institute, along with Bachelor of Science degrees in Information Technology and Psychology, and
+    maintains 12 active GIAC certifications spanning threat intelligence, incident response, forensics, and
+    leadership. She also serves on the Board of Directors of the SANS Technology Institute. Outside of work, she
+    stays close to the community through speaking, writing, and mentoring the next generation of defenders."
+  thumbnailUrl: /cfp/melissabischoping.webp
+  isTechCfp: true
+- firstname: Andrew
+  surname: Brandt
+  title: Executive Director
+  company: Elect More Hackers
+  twitter: null
+  bio: Andrew "Spike" Brandt is a threat hunter and cybercrime investigator with a background in investigative
+    journalism. He serves as the executive director of Elect More Hackers, a candidate recruitment and policy
+    advisory organization, and is a member of the World Cyber Health board, the nonprofit that operates Malware
+    Village.
+  thumbnailUrl: /cfp/andrewbrandt.webp
+  isTechCfp: true
+- firstname: Andrew
+  surname: Schwartz
+  title: Principal Detection Engineer
+  company: Huntress
+  twitter: null
+  bio: Andrew Schwartz is a Principal Detection Engineer at Huntress. Energetic and driven, Andrew brings strong
+    technical knowledge and experience in defensive and offensive security, vulnerability management, and the
+    development of transformational strategies that help organizations enhance their security postures to detect
+    and stop adversaries before they succeed. Andrew has published extensively on Active Directory security, with
+    a particular focus on Kerberos, LDAP, and DACL based attack detection. He is the co-author of the Kerberos
+    Diamond Ticket attack.
+  thumbnailUrl: /cfp/andrewschwartz.webp
   isTechCfp: true
