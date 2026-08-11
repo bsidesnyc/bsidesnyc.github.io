@@ -1,3 +1,8 @@
+function getSessionizeThumbnail(url, size) {
+    if (!url) return url;
+    return url.replace(/-\d+o\d+o\d+-/, `-${size}o${size}o1-`);
+}
+
 function normalizeTrackName(trackName) {
     return trackName.replace(/\s/g, "").toLowerCase();;
 }
@@ -180,11 +185,14 @@ function addSpeakerContentToModal(modalBody, speaker, baseUrl) {
     const headshot = document.createElement("div");
     headshot.classList.add("col-md-2", "col-sm-2");
 
-    const speakerHeadshot = document.createElement("div");
+    const speakerHeadshot = document.createElement("img");
     speakerHeadshot.id = "speakerProfileUrl-" + speaker.id;
     speakerHeadshot.classList.add("flow-img", "img-circle", "people-img");
+    speakerHeadshot.loading = "lazy";
+    speakerHeadshot.decoding = "async";
+    speakerHeadshot.alt = speaker.fullName || "";
     if (speaker.profilePicture) {
-        speakerHeadshot.style.backgroundImage = `url(${speaker.profilePicture})`;
+        speakerHeadshot.src = getSessionizeThumbnail(speaker.profilePicture, 240);
     }
     headshot.append(speakerHeadshot);
     row.append(headshot);

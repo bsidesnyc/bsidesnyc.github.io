@@ -78,11 +78,14 @@ function addSessionToSchedule(trackSlot, trackName, session, createModals, baseU
         const performer = document.createElement("li");
         performer.setAttribute("itemprop", "performer");
 
-        const speakerImage = document.createElement("div");
+        const speakerImage = document.createElement("img");
         speakerImage.classList.add("speaker-img");
         speakerImage.classList.add("flow-img");
         speakerImage.classList.add("img-circle");
         speakerImage.id = "speakerImage-" + speaker.id;
+        speakerImage.loading = "lazy";
+        speakerImage.decoding = "async";
+        speakerImage.alt = speaker.name || "";
 
         performer.append(speakerImage);
         slotSpeakers.append(performer);
@@ -482,7 +485,7 @@ function backfillSpeakerDetails(speakers, baseUrl) {
         waitForElm("#speakerImage-" + speaker.id, speaker).then(([elements, speaker]) => {
             elements.forEach(element => {
                 if ( speaker.profilePicture != null ) {
-                    element.setAttribute("style", "background-image: url(" + speaker.profilePicture + ")");
+                    element.src = getSessionizeThumbnail(speaker.profilePicture, 80);
                 }
             });
         });
@@ -498,7 +501,7 @@ function backfillSpeakerDetails(speakers, baseUrl) {
         waitForElm("#speakerProfileUrl-" + speaker.id, speaker).then(([elements, speaker]) => {
             elements.forEach(element => {
                 if ( speaker.profilePicture != null ) {
-                    element.setAttribute("style", "background-image: url(" + speaker.profilePicture + ")");
+                    element.src = getSessionizeThumbnail(speaker.profilePicture, 240);
                 }
             });
         });

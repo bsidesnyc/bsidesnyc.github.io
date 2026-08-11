@@ -34,10 +34,13 @@ function addSpeakerToList(speaker, sessions, rooms, container) {
 
         const headshot = document.createElement("figure");
 
-        const bg = document.createElement("div");
+        const bg = document.createElement("img");
         bg.className = "card-bg";
+        bg.loading = "lazy";
+        bg.decoding = "async";
+        bg.alt = speaker.fullName || "";
         if (speaker.profilePicture) {
-            bg.style.backgroundImage = "url(" + speaker.profilePicture + ")";
+            bg.src = getSessionizeThumbnail(speaker.profilePicture, 400);
         }
         headshot.append(bg);
 
