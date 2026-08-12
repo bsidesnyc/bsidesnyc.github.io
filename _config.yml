@@ -95,7 +95,7 @@ navigationLinks:
 # - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/villages/", text: "Villages"}
 # - {permalink: "/ctf/", text: "CTF"}
-# - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/archive/", text: "Archive"}
  - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/sponsors/", text: "Sponsors"}
@@ -142,7 +142,7 @@ statisticBlock:
 cfpTitle: "Call For Papers"
 cfpBoardTitle: "CFP Board"
 cfpUrl: # "https://docs.google.com/forms/d/e/1FAIpQLSes8dIfojKqXatyC6lNug41d_jsnio0LdIZRlFWms9sbWiUxw/viewform?usp=sf_link"
-cfpShowTechMembers: false
+cfpShowTechMembers: true
 cfpShowEntrepreneurMembers: true
 cfpOpenDate: "April 16, 2026"
 cfpCloseDate: "July 19, 2026"
@@ -284,9 +284,9 @@ ctfHeaderMessageFloor: # Visit the CTF space in the Cafeteria/Student Dining Hal
 #-----------------------------------------------
 # Sessionize Links
 #-----------------------------------------------
-sessionizeJsonSpeakerList: https://sessionize.com/api/v2/sfqscpbj/view/Speakers
-sessionizeJsonSessionList: https://sessionize.com/api/v2/sfqscpbj/view/Sessions
-sessionizeJsonAllData: https://sessionize.com/api/v2/sfqscpbj/view/All
+sessionizeJsonSpeakerList: https://sessionize.com/api/v2/2ht8hdu4/view/Speakers
+sessionizeJsonSessionList: https://sessionize.com/api/v2/2ht8hdu4/view/Sessions
+sessionizeJsonAllData: https://sessionize.com/api/v2/2ht8hdu4/view/All
 # Important: Select "Use UTC timezone for schedule" for the schedule grid in sessionize
-sessionizeJsonScheduleGrid: https://sessionize.com/api/v2/sfqscpbj/view/GridSmart
+sessionizeJsonScheduleGrid: https://sessionize.com/api/v2/2ht8hdu4/view/GridSmart
 

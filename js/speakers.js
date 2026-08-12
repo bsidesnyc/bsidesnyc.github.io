@@ -25,7 +25,7 @@ function addSpeakerToList(speaker, sessions, rooms, container) {
         }
 
         const wrapper = document.createElement("div");
-        wrapper.className = "effect-wrapper col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 text-end speaker-card";
+        wrapper.className = "effect-wrapper col-md-4 col-sm-6 col-12 text-end speaker-card";
 
         const effect = document.createElement("div");
         effect.className = "zoe-effect";
@@ -34,10 +34,13 @@ function addSpeakerToList(speaker, sessions, rooms, container) {
 
         const headshot = document.createElement("figure");
 
-        const bg = document.createElement("div");
+        const bg = document.createElement("img");
         bg.className = "card-bg";
+        bg.loading = "lazy";
+        bg.decoding = "async";
+        bg.alt = speaker.fullName || "";
         if (speaker.profilePicture) {
-            bg.style.backgroundImage = "url(" + speaker.profilePicture + ")";
+            bg.src = getSessionizeThumbnail(speaker.profilePicture, 400);
         }
         headshot.append(bg);
 
