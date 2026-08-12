@@ -485,7 +485,7 @@ function backfillSpeakerDetails(speakers, baseUrl) {
         waitForElm("#speakerImage-" + speaker.id, speaker).then(([elements, speaker]) => {
             elements.forEach(element => {
                 if ( speaker.profilePicture != null ) {
-                    element.src = getSessionizeThumbnail(speaker.profilePicture, 80);
+                    element.src = speaker.profilePicture;
                 }
             });
         });
@@ -501,7 +501,7 @@ function backfillSpeakerDetails(speakers, baseUrl) {
         waitForElm("#speakerProfileUrl-" + speaker.id, speaker).then(([elements, speaker]) => {
             elements.forEach(element => {
                 if ( speaker.profilePicture != null ) {
-                    element.src = getSessionizeThumbnail(speaker.profilePicture, 240);
+                    element.src = speaker.profilePicture;
                 }
             });
         });

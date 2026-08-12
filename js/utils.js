@@ -70,20 +70,26 @@ function getTrackNameAndRoomHtml(trackName, heading, closeModal) {
 }
 
 function getTrackNameAndRoom(trackName) {
+    if ( !trackName ) {
+        return "TBD";
+    }
     var elem = trackToRoomElements(trackName);
     return elem.tight;
 }
 
 function getStartEndString(session) {
+    if ( !session.startsAt || !session.endsAt ) {
+        return "TBD";
+    }
     var start = new Date(session.startsAt);
     var end = new Date(session.endsAt);
 
-    return start.getHours() + 
-        ":" + 
-        padMinutes(start) + 
-        " - " + 
-        end.getHours() + 
-        ":" + 
+    return start.getHours() +
+        ":" +
+        padMinutes(start) +
+        " - " +
+        end.getHours() +
+        ":" +
         padMinutes(end);
 }
 function padMinutes(time) {
@@ -133,7 +139,7 @@ function createBootstrapModal(id, labelId) {
 function getSessionLevel(session) {
     const categoryLevelId = 75411;
     if (!session || !session.categories) {
-        return "Not provided - Open to All";
+        return "TBD";
     }
     const category = session.categories.find(cat => cat.id === categoryLevelId);
     if (category && category.categoryItems) {
@@ -142,7 +148,7 @@ function getSessionLevel(session) {
             return levelItem.name;
         }
     }
-    return "Not provided - Open to All";
+    return "TBD";
 }
 
 function addSessionContentToModal(modalBody, session, trackName) {
@@ -183,26 +189,26 @@ function addSpeakerContentToModal(modalBody, speaker, baseUrl) {
     row.classList.add("row");
 
     const headshot = document.createElement("div");
-    headshot.classList.add("col-md-2", "col-sm-2");
+    headshot.classList.add("col-md-2", "col-12");
 
     const speakerHeadshot = document.createElement("img");
     speakerHeadshot.id = "speakerProfileUrl-" + speaker.id;
     speakerHeadshot.classList.add("flow-img", "img-circle", "people-img");
     speakerHeadshot.loading = "lazy";
     speakerHeadshot.decoding = "async";
-    speakerHeadshot.alt = speaker.fullName || "";
+    speakerHeadshot.alt = speaker.fullName || speaker.name || "";
     if (speaker.profilePicture) {
-        speakerHeadshot.src = getSessionizeThumbnail(speaker.profilePicture, 240);
+        speakerHeadshot.src = speaker.profilePicture;
     }
     headshot.append(speakerHeadshot);
     row.append(headshot);
 
     const details = document.createElement("div");
-    details.classList.add("col-md-10", "col-sm-10", "details");
+    details.classList.add("col-md-10", "col-12", "details");
 
     const name = document.createElement("p");
     name.classList.add("name", "mb-2");
-    name.innerText = speaker.fullName;
+    name.innerText = speaker.fullName || speaker.name || "";
     details.append(name);
 
     const tagline = document.createElement("p");
