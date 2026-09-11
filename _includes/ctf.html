@@ -1,36 +1,35 @@
 <!-- Begin CTF Section -->
-<section id="about-ctf" class="about-ctf" style="background-color: white">
+<section id="about-ctf" class="about-ctf">
     <div class="content-wrapper">
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-10 offset-md-1">
             <h3>{{ site.ctfHeader }}</h3>
-            <p>{{ site.ctfHeaderMessage }}</p>
-            <p>{{ site.ctfHeaderMessageFloor }}</p>
-    
-            <div class="row">
+            <p class="ctf-intro">{{ site.ctfHeaderMessage }}</p>
+            <p class="ctf-intro">{{ site.ctfHeaderMessageFloor }}</p>
+
+            <div class="row justify-content-center">
                 {% for ctf in site.data.ctf %}
 
                 <!-- ctf start -->
-                <div class="col-md-6">
-                    <div class="ctf-header ctf-img-wrapper">
-                        <img class="img-fluid" src="{{ site.baseurl }}/img/ctf/{{ ctf.logo }}" loading="lazy">  
-                    </div>
-                    <div class="ctf-content">
+                <div class="col-md-6 d-flex">
+                    <div class="ctf-card">
+                        <div class="ctf-logo">
+                            <img src="{{ site.baseurl }}/img/ctf/{{ ctf.logo }}" alt="{{ ctf.header }}" loading="lazy">
+                        </div>
                         <h4>{{ ctf.header }}</h4>
                         <ul>
                             {% for feature in ctf.features %}
                             <li>{{ feature }}</li>
                             {% endfor %}
                         </ul>
-                    </div>
-                    <div class="ctf-footer">
-                        {% for registration in ctf.registration %}
-                        <a href="{{ registration.url }}" class="btn btn-primary {% if registration.disabled %}disabled{% endif %}" target="_blank">{{ registration.title }}</a>
-                        {% endfor %}
-                        <br>
-                        {% if ctf.registrationMessage %}
-                        <small>{{ ctf.registrationMessage }}</small><br>
-                        {% endif %}
-                        <a href="{{ ctf.url }}">Learn more</a> 
+                        <div class="ctf-card-footer">
+                            {% for registration in ctf.registration %}
+                            <a href="{{ registration.url }}" class="btn btn-primary {% if registration.disabled %}disabled{% endif %}" target="_blank">{{ registration.title }}</a>
+                            {% endfor %}
+                            {% if ctf.registrationMessage %}
+                            <small>{{ ctf.registrationMessage }}</small>
+                            {% endif %}
+                            <a href="{{ ctf.url }}" class="ctf-learn-more">Learn more</a>
+                        </div>
                     </div>
                 </div>
                 <!-- ctf end -->
@@ -40,4 +39,4 @@
         </div>
     </div>
 </section>
-
+<!-- End CTF Section -->

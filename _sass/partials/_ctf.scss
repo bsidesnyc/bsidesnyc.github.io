@@ -1,0 +1,53 @@
+.about-ctf {
+	@extend %card-section;
+
+	.ctf-intro {
+		text-align: center;
+		max-width: 720px;
+		margin: 0 auto 12px;
+		color: $color-text-secondary;
+	}
+
+	.ctf-card {
+		@extend %stacked-card;
+	}
+
+	.ctf-logo {
+		@extend %stacked-card-logo;
+	}
+
+	h4 {
+		text-align: center;
+		margin: 0 0 18px;
+	}
+
+	ul {
+		list-style: disc;
+		padding-left: 22px;
+		margin: 0 0 26px;
+		text-align: left;
+
+		li {
+			margin-bottom: 8px;
+			color: $color-text-body;
+		}
+	}
+
+	.ctf-card-footer {
+		@extend %stacked-card-footer;
+
+		.btn {
+			margin: 4px 4px 6px;
+		}
+
+		small {
+			display: block;
+			margin-bottom: 10px;
+			color: $color-text-muted;
+		}
+	}
+
+	.ctf-learn-more {
+		@extend %stacked-card-learn-more;
+	}
+}

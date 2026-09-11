@@ -1,0 +1,64 @@
+// Shared "stacked card" design language.
+// Used by the CTF and Villages sections; extend these placeholders
+// rather than re-declaring the surface / logo / footer treatment.
+
+%stacked-card {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: $card-padding + 6px;
+	background: $color-surface-alt;
+	border: 1px solid $color-border;
+	border-radius: $card-border-radius;
+	box-shadow: $card-shadow;
+
+	@media (max-width: 767px) {
+		padding: $card-padding;
+	}
+}
+
+%stacked-card-logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+	margin-bottom: 22px;
+
+	img {
+		max-height: 100%;
+		max-width: 200px;
+		width: auto;
+		object-fit: contain;
+	}
+}
+
+%stacked-card-footer {
+	margin-top: auto;
+	text-align: center;
+}
+
+%stacked-card-learn-more {
+	display: block;
+	margin-top: 8px;
+	font-weight: $fw-bold;
+	text-transform: uppercase;
+	letter-spacing: .04em;
+	font-size: 12px;
+}
+
+// Section shell shared by both card grids.
+%card-section {
+	background-color: #fff;
+
+	h3 {
+		text-align: center;
+	}
+
+	.row {
+		margin-top: 40px;
+	}
+
+	.col-md-6 {
+		margin-bottom: 30px;
+	}
+}

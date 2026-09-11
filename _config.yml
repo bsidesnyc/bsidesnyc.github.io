@@ -94,7 +94,7 @@ navigationLinks:
  - {permalink: "/venue/", text: "Venue"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/villages/", text: "Villages"}
-# - {permalink: "/ctf/", text: "CTF"}
+ - {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/archive/", text: "Archive"}
  - {permalink: "/registration/", text: "Registration"}

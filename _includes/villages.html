@@ -1,35 +1,36 @@
-<!-- Begin Villages About Section -->
-<section id="villages" class="villages">
+<!-- Begin Villages List Section -->
+<section id="villages-list" class="villages-list">
     <div class="content-wrapper">
-        <div class="col-12 col-md-6 offset-md-3">
+        <div class="col-md-10 offset-md-1">
             <h3>Villages</h3>
 
-            {% for village in site.data.villages %}
-            <div class="row villages-row d-md-none">
-                <div class="col-12">
-                    <h4 class="village-title text-center">{{ village.title }}</h4>
+            <div class="row justify-content-center">
+                {% for village in site.data.villages %}
+
+                <!-- village start -->
+                <div class="col-md-6 d-flex">
+                    <div class="village-card">
+                        <div class="village-logo">
+                            <img src="{{ site.baseurl }}/img/villages/{{ village.logo }}" alt="{{ village.title }}" loading="lazy">
+                        </div>
+                        <h4>{{ village.title }}</h4>
+                        {% if village.handson %}
+                        <p class="village-label">Hands On</p>
+                        {% endif %}
+                        <p class="village-text">{{ village.description }}</p>
+                        {% if village.url %}
+                        <div class="village-card-footer">
+                            <a href="{{ village.url }}/#bsidesnyc" class="village-learn-more" target="_blank" rel="noopener">Learn More</a>
+                        </div>
+                        {% endif %}
+                    </div>
                 </div>
+                <!-- village end -->
+
+                {% endfor %}
             </div>
-            <div class="row villages-row">
-                <div class="col-12 col-md-4 villages-img-wrapper">
-                    <a href="{{ village.url }}" class="villages-img-wrapper">
-                        <img class="img-fluid" src="{{ site.baseurl }}/img/villages/{{ village.logo }}" loading="lazy">
-                    </a>
-                    {% if village.url %}
-                    <a class="villages-url text-center text-lg-start" href="{{ village.url }}/#bsidesnyc">Learn More</a>
-                    {% endif %}
-                </div>
-                <div class="col-12 col-md-8 text-center text-md-start">
-                    <h4 class="village-title d-none d-md-block text-start">{{ village.title }}</h4>
-                    {% if village.handson %}
-                    <p class="villages-label villages-label-info">Hands On</p>
-                    {% endif %}
-                    <p class="village-text text-center text-md-start">{{ village.description }}</p>
-                </div>
-            </div>
-            {% endfor %}
 
         </div>
     </div>
 </section>
-<!-- End Villages About Section -->
+<!-- End Villages List Section -->

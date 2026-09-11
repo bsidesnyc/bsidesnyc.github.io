@@ -1,0 +1,43 @@
+.villages-list {
+	@extend %card-section;
+
+	.village-card {
+		@extend %stacked-card;
+	}
+
+	.village-logo {
+		@extend %stacked-card-logo;
+	}
+
+	h4 {
+		text-align: center;
+		margin: 0 0 12px;
+	}
+
+	.village-label {
+		align-self: center;
+		margin: 0 0 16px;
+		padding: 3px 12px;
+		border-radius: 999px;
+		background: rgba(var(--bs-info-rgb), .12);
+		color: darken($main-color, 12%);
+		font-size: 11px;
+		font-weight: $fw-bold;
+		text-transform: uppercase;
+		letter-spacing: .04em;
+	}
+
+	.village-text {
+		margin: 0 0 26px;
+		color: $color-text-body;
+		text-align: left;
+	}
+
+	.village-card-footer {
+		@extend %stacked-card-footer;
+	}
+
+	.village-learn-more {
+		@extend %stacked-card-learn-more;
+	}
+}
