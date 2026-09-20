@@ -66,3 +66,8 @@
   logo: "lockpick.webp"
   handson: true
   description: "Lockpick Extreme has run lockpicking workshops and villages for over ten years, teaching thousands of people the fundamentals of physical security and locksport. Their village offers hands-on practice with picks and training locks, with experienced instructors on hand to coach newcomers."
+- title: "NYC Resistor"
+  url: "https://www.nycresistor.com"
+  logo: "nycresistor.webp"
+  handson: false
+  description: "NYC Resistor is a hacker collective with a shared space in downtown Brooklyn, meeting regularly to share knowledge, hack on projects together, and build community. A returning BSidesNYC village, they'll be on hand to talk about their space, their classes in electronics, soldering, and digital fabrication, and how to get involved in the local maker community."
