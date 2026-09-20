@@ -41,3 +41,28 @@
   logo: "bic.webp"
   handson: false
   description: "Blacks in Cybersecurity is a community-driven initiative working to build the pipeline of Black practitioners in cybersecurity through meetups, workshops, conferences, and CTF events. A returning BSidesNYC village, they'll be on hand to share resources and connect with attendees looking to grow in the field."
+- title: "Red Team Village"
+  url: "https://redteamvillage.io"
+  logo: "rtv.webp"
+  handson: true
+  description: "Red Team Village builds a collaborative environment where security practitioners can develop and sharpen their offensive security skills. They run workshops, tactics demonstrations, and CTF competitions, with drop-in hands-on activities going throughout the day."
+- title: "WiCyS NY Metro Affiliate"
+  url: "https://www.wicys.org/wicys-ny-metro-affiliate"
+  logo: "wicys2.webp"
+  handson: true
+  description: "The WiCyS NY Metro Affiliate is the New York City chapter of Women in CyberSecurity, a nonprofit dedicated to recruiting, retaining, and advancing women in the field. The chapter connects students and professionals across the metro area through networking, mentorship, and training, and will be running hands-on activities at their table."
+- title: "AI Security Village"
+  url: "https://align-sec.org"
+  logo: "aisecurityvillage.webp"
+  handson: true
+  description: "The AI Security Village is presented by Align, a community founded at Black Hat 2024 to empower and elevate women and non-binary individuals across the entire spectrum of AI security. The village pairs hands-on AI security exercises with Align's work in advocacy, education, and mentorship."
+- title: "Script Kitty"
+  url: "https://retia.io"
+  logo: "scriptkitty.webp"
+  handson: true
+  description: "Script Kitty is a cat-themed learning space for beginner-friendly ethical hacking, run by Retia, a team of ethical hackers, media producers, and STEM student volunteers. They bring workshops and open-source kits covering soldering, Wi-Fi hacking, bad USB attacks, and LoRa hacking, with hands-on sessions running at the workshop tables throughout the day."
+- title: "Lockpick Village by Lockpick Extreme"
+  url: "https://lockpickextreme.com"
+  logo: "lockpick.webp"
+  handson: true
+  description: "Lockpick Extreme has run lockpicking workshops and villages for over ten years, teaching thousands of people the fundamentals of physical security and locksport. Their village offers hands-on practice with picks and training locks, with experienced instructors on hand to coach newcomers."
