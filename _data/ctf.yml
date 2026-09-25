@@ -62,8 +62,9 @@
   features:
     - Jeopardy-Style CTF
     - Play all day or casually pick up a challenge
-    - Individual or team-based
+    - Individual Participants
     - Compare your progress against others on leaderboard
+    - Cash prizes for 1st and 2nd place
   registration: # No more than 2 registration buttons
     - title: Register In Person
       url: "#"
