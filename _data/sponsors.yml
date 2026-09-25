@@ -4,4 +4,14 @@
     - {name: APTORI, link: 'https://aptori.dev/', imageUrl: 2026/aptori.svg }
     - {name: Artemis, link: 'https://artemissecurity.com/', imageUrl: 2026/artemis.svg }
     - {name: Copia, link: 'https://copia.io/', imageUrl: 2026/copia.svg }
+    - {name: Jane Street, link: 'https://www.janestreet.com/', imageUrl: 2026/janestreet.svg }
     - {name: Scanner, link: 'https://scanner.dev/', imageUrl: 2026/scanner.svg }
+-
+  group: Megabit Sponsors
+  elements:
+    - {name: Casco, link: 'https://casco.com/', imageUrl: 2026/casco.svg }
+    - {name: White Knight Labs, link: 'https://whiteknightlabs.com/', imageUrl: 2026/whiteknightlabs.svg }
+-
+  group: Kilobit Sponsors
+  elements:
+    - {name: Starseer, link: 'https://starseer.ai/', imageUrl: 2026/starseer.svg }

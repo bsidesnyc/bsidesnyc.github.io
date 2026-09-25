@@ -14,7 +14,10 @@
     - Individual or team-based
     - Compare your progress against others on leaderboard
   registration: # No more than 2 registration buttons
-  registrationMessage:
+    - title: Register In Person
+      url: "#"
+      disabled: true
+  registrationMessage: Registration will be in-person at the CTF space the day of event
   url: https://ctfd.io/#bsidesnyc
 #
 # Pros Vs Joes
@@ -38,7 +41,7 @@
 # Cloud Village
 #
 - logo: cloudvillage.webp
-  header: Play All Day
+  header: Play Whenever
   features:
     - Jeopardy-Style CTF
     - Play all day or casually pick up a challenge
@@ -52,5 +55,21 @@
   registrationMessage: Registration will be in-person at the CTF space the day of event
   url: https://cloud-village.org
 #
-# Red Team Village CTF and AI Security Village (Align) removed for now - awaiting
-# their official form submissions. Re-add once confirmed.
+# AI Security Village
+#
+- logo: aisecurityvillage.webp
+  header: Play Whenever
+  features:
+    - Jeopardy-Style CTF
+    - Play all day or casually pick up a challenge
+    - Individual or team-based
+    - Compare your progress against others on leaderboard
+  registration: # No more than 2 registration buttons
+    - title: Register In Person
+      url: "#"
+      disabled: true
+  registrationMessage: Registration will be in-person at the CTF space the day of event
+  url: https://align-sec.org
+#
+# Red Team Village CTF removed for now - awaiting their official form
+# submission. Re-add once confirmed.
