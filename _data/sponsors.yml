@@ -11,7 +11,10 @@
   elements:
     - {name: Aikido, link: 'https://www.aikido.dev/', imageUrl: 2026/aikido.svg }
     - {name: Casco, link: 'https://casco.com/', imageUrl: 2026/casco.svg }
+    - {name: Corridor, link: 'https://www.corridor.dev/', imageUrl: 2026/corridor.svg }
+    - {name: Fortra, link: 'https://www.fortra.com/', imageUrl: 2026/fortra.svg }
     - {name: Red Sift, link: 'https://redsift.com/', imageUrl: 2026/redsift.svg }
+    - {name: SpecterOps, link: 'https://specterops.io/', imageUrl: 2026/specterops.svg }
     - {name: White Knight Labs, link: 'https://whiteknightlabs.com/', imageUrl: 2026/whiteknightlabs.svg }
 -
   group: Kilobit Sponsors
