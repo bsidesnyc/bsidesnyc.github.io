@@ -1,8 +1,18 @@
 <!-- Begin Registration Section -->
 <section id="registration" class="registration">
   <div class="col-md-8 offset-md-2 text-justify-center">
-      <h1>Tickets aren't available yet!</h1>
-      <p>Thanks for your interest in our conference! Registration will open in mid-September. When it's open, we'll announce it on social media, Slack, and the mailing list!</p>
+      <!-- Ok super hacker, you can see the link before others.. but it won't work until it's open... -->
+      <div id="registration_open" hidden>
+          <h1>Registration is Open!</h1>
+          <p>Tickets are <strong>Pay What You Can</strong>: $0, $15, $30, or $45. Every option gets you the same conference. Pick whatever works for you. If you're able to pay more, it helps us keep BSidesNYC accessible for everyone.</p>
+          <p>Head over to our <a id="registration_link" target="_blank" rel="noopener">registration site</a> to grab your ticket. Act quickly! Tickets may sell out.</p>
+          <a id="registration_button" class="btn btn-primary" target="_blank" rel="noopener">Click here to register!</a>
+      </div>
+      <div id="registration_closed">
+          <h1>Tickets aren't available yet!</h1>
+          <p>Thanks for your interest in our conference! Tickets are <strong>Pay What You Can</strong>: $0, $15, $30, or $45.</p>
+          <p id="registration_closed_message">When registration opens, we'll announce it on social media, Slack, and the mailing list!</p>
+      </div>
   </div>
 </section>
 <!-- End Registration Section -->

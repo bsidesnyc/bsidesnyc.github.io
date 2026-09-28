@@ -236,9 +236,12 @@ subscribeInfo: "^^^ Please ignore this message above from our mailing list provi
 #
 # if registrationOpen is false, only the registration_closed content will be shown
 #
-registrationOpen: False
-registrationOpenDate: "2026-09-25T20:00:00-04:00"
-registrationLink: https://www.ticketleap.events/tickets/bsidesnyc/bsidesnyc-0x05
+# js/registration.js reveals the link automatically once registrationOpenDate
+# passes, without a page refresh.
+#
+registrationOpen: True
+registrationOpenDate: "2026-09-28T20:00:00-04:00"
+registrationLink: https://events.ticketleap.com/tickets/bsidesnyc/bsidesnyc-0x06
 
 #-----------------------------------------------
 # Venue

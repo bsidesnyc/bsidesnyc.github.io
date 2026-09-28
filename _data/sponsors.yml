@@ -4,6 +4,7 @@
     - {name: APTORI, link: 'https://aptori.dev/', imageUrl: 2026/aptori.svg }
     - {name: Artemis, link: 'https://artemissecurity.com/', imageUrl: 2026/artemis.svg }
     - {name: Copia, link: 'https://copia.io/', imageUrl: 2026/copia.svg }
+    - {name: Crogl, link: 'https://www.crogl.com/', imageUrl: 2026/crogl.svg }
     - {name: Jane Street, link: 'https://www.janestreet.com/', imageUrl: 2026/janestreet.svg }
     - {name: Scanner, link: 'https://scanner.dev/', imageUrl: 2026/scanner.svg }
 -
