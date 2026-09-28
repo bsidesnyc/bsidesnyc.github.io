@@ -158,7 +158,16 @@ layout: compress
       </script>
     {% endif %}
 
-<script src="{{ "/js/scripts.js" | prepend: site.baseurl }}" defer></script>
+    {% if page.permalink == '/registration/' %}
+        <script src="{{ "/js/registration.js" | prepend: site.baseurl }}" defer></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                openRegistration({{ site.registrationOpen | jsonify }}, "{{ site.registrationOpenDate }}", "{{ site.registrationLink }}");
+            });
+        </script>
+    {% endif %}
+
+    <script src="{{ "/js/scripts.js" | prepend: site.baseurl }}" defer></script>
 
   </body>
 </html>
