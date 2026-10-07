@@ -39,7 +39,7 @@ contactUs: "/about/#contact-us"
 # Slack Invite URL
 # Also change this in the links section below
 #
-slackInviteUrl: https://join.slack.com/t/bsidesnyc/shared_invite/zt-3ehtljcnl-bzDSX_sPOAVwiEPFDg18rA
+slackInviteUrl: https://join.slack.com/t/bsidesnyc/shared_invite/zt-4cehcsg78-KiUwAK_uyLumfHn2DjuQxA
 
 #-----------------------------------------------
 # Footer
@@ -64,7 +64,7 @@ footerBlocks:
       - text: Mailing List
         permalink: /about/#contact-us
       - text: Join our Slack
-        link: https://join.slack.com/t/bsidesnyc/shared_invite/zt-3ehtljcnl-bzDSX_sPOAVwiEPFDg18rA
+        link: https://join.slack.com/t/bsidesnyc/shared_invite/zt-4cehcsg78-KiUwAK_uyLumfHn2DjuQxA
       - text: "bsides(at)bsidesnyc.org"
         link: mailto:bsides@bsidesnyc.org
       - text: Volunteer
