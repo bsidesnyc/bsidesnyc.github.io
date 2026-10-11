@@ -3,6 +3,41 @@ function getSessionizeThumbnail(url, size) {
     return url.replace(/-\d+o\d+o\d+-/, `-${size}o${size}o1-`);
 }
 
+// Set by _layouts/default.html; empty when the site is served from the root
+const SITE_BASEURL = window.siteBaseUrl || "";
+const SPEAKER_PLACEHOLDER = SITE_BASEURL + "/img/other/speaker-placeholder.svg";
+
+/*
+ * Headshots: try the resized Sessionize thumbnail, then the original, then
+ * the placeholder. Each step is logged so a broken headshot can be traced
+ * to a missing photo vs. a URL that won't load. With lazy, the URL goes in
+ * data-src for scripts.js to load when the modal opens.
+ */
+function setSpeakerHeadshot(img, url, size, lazy) {
+    const name = img.alt || "a speaker";
+    const sources = [];
+    if ( url ) {
+        const thumb = size ? getSessionizeThumbnail(url, size) : url;
+        sources.push(thumb);
+        if ( thumb !== url ) sources.push(url);
+    } else {
+        console.warn("No headshot in Sessionize for " + name + "; using placeholder");
+    }
+    sources.push(SPEAKER_PLACEHOLDER);
+
+    img.onerror = () => {
+        const failed = sources.shift();
+        console.warn("Headshot for " + name + " failed to load: " + failed);
+        if ( sources.length ) img.src = sources[0];
+    };
+    img.classList.toggle("is-placeholder", !url);
+    if ( lazy && !img.getAttribute("src") ) {
+        img.dataset.src = sources[0];
+    } else {
+        img.src = sources[0];
+    }
+}
+
 /*
  * Sessionize's grid export ("Use UTC timezone for schedule") returns
  * date/time strings with no offset (e.g. "2026-10-17T10:00:00") whose
@@ -21,31 +56,45 @@ function normalizeTrackName(trackName) {
 }
 
 function trackToRoomElements(trackName) {
+    /*
+     * room must match a data-room attribute in _includes/floorplans/*.svg
+     * so the room-map popup can highlight it; divId is its floor plan.
+     */
     var mapping = {
         "Tech - Red": {
             heading: "Tech - Red (L.63)",
             tight: "Red (L.63)",
-            divId: "map-l"
+            room: "L.63",
+            divId: "map-l",
+            directions: "Level 1 (L), at the east end near the 59th St entrance. The large room next to Workshops (L.61)."
         },
         "Tech - Blue": {
             heading: "Tech - Blue (L2.84)",
             tight: "Blue (L2.84)",
-            divId: "map-l2"
+            room: "L2.84",
+            divId: "map-l2",
+            directions: "Take the stairs by the Info booth down to the Lower Level (L2). L2.84 is at the bottom of the stairs, next to L2.85."
         },
         "Tech - Other": {
             heading: "Tech - Other (L2.85)",
             tight: "Other (L2.85)",
-            divId: "map-l2"
+            room: "L2.85",
+            divId: "map-l2",
+            directions: "Take the stairs by the Info booth down to the Lower Level (L2). L2.85 is right at the bottom of the stairs, next to L2.84."
         },
         "Workshop": {
             heading: "Workshop (L.61)",
             tight: "Workshop (L.61)",
-            divId: "map-l"
+            room: "L.61",
+            divId: "map-l",
+            directions: "Level 1 (L), at the east end near the 59th St entrance, next to the Keynote room (L.63)."
         },
         "Entrepreneur": {
             heading: "Entrepreneur (L.76)",
             tight: "Entrepreneur (L.76)",
-            divId: "map-l"
+            room: "L.76",
+            divId: "map-l",
+            directions: "Level 1 (L). Head west along the main concourse, away from the 59th St entrance; L.76 is past the Mezzanine stairs and the first restrooms."
         }
     }
     if ( mapping.hasOwnProperty(trackName) ) {
@@ -55,11 +104,16 @@ function trackToRoomElements(trackName) {
     return { full: trackName, tight: trackName, divId: undefined }
 }
 
-function getTrackNameAndRoomHtml(trackName, heading, closeModal) {
+function getTrackNameAndRoomHtml(trackName, heading) {
     /*
      * Returns tight track name and room, within a
-     * html element meant to be .append()ed
+     * html element meant to be .append()ed. Rooms we have a floor plan
+     * for become links that open the room-map popup (see showRoomMap);
+     * without it they still lead to the plan on /map/.
      */
+    if ( !trackName ) {
+        return document.createTextNode("TBD");
+    }
     var elem = trackToRoomElements(trackName);
 
     if ( elem.divId === undefined ) {
@@ -67,17 +121,14 @@ function getTrackNameAndRoomHtml(trackName, heading, closeModal) {
     }
 
     var a = document.createElement("a");
-    a.classList.add("skip-modal");
-    a.href = "#" + elem.divId;
+    a.classList.add("skip-modal", "room-map-link");
+    a.href = SITE_BASEURL + "/map/#" + elem.divId;
+    a.dataset.roomMap = trackName;
+    a.title = "Show " + elem.room + " on the map";
     if ( heading ) {
         a.innerText = elem.heading;
     } else {
         a.innerText = elem.tight;
-    }
-
-    if ( closeModal ) {
-        a.setAttribute("data-bs-dismiss", "modal");
-        //a.setAttribute("aria-label", "close");
     }
     return a;
 }
@@ -175,7 +226,7 @@ function addSessionContentToModal(modalBody, session, trackName) {
     const caption = document.createElement("span");
     caption.classList.add("caption");
     caption.innerText = "Track: ";
-    room.append(caption, getTrackNameAndRoom(trackName));
+    room.append(caption, getTrackNameAndRoomHtml(trackName, false));
 
     const captionTime = document.createElement("span");
     captionTime.classList.add("caption");
@@ -213,8 +264,12 @@ function addSpeakerContentToModal(modalBody, speaker, baseUrl) {
     // Modals are built up front but stay hidden until clicked - stash the
     // URL in data-src rather than src so the browser doesn't fetch it
     // until the modal is actually opened (see show.bs.modal in scripts.js).
-    if (speaker.profilePicture) {
-        speakerHeadshot.dataset.src = speaker.profilePicture;
+    if ( "profilePicture" in speaker ) {
+        setSpeakerHeadshot(speakerHeadshot, speaker.profilePicture, 0, true);
+    } else {
+        // Schedule-grid speakers carry no photo; backfillSpeakerDetails
+        // (schedule.js) swaps in the real one once the speaker list loads
+        speakerHeadshot.dataset.src = SPEAKER_PLACEHOLDER;
     }
     headshot.append(speakerHeadshot);
     row.append(headshot);
@@ -303,3 +358,155 @@ function getLinkedInIcon(url, baseUrl) {
 
     return link;
 }
+
+/*
+ * Room-map popup: shows the floor plan for a session's room with the room
+ * highlighted. Plans come from the <template>s in floorplan-templates.html.
+ */
+let roomMapModal;
+
+function showRoomMap(trackName, fromModal) {
+    const elem = trackToRoomElements(trackName);
+    const tpl = document.getElementById("fp-tpl-" + elem.divId);
+    if ( !tpl || typeof bootstrap === "undefined" ) {
+        return false;
+    }
+
+    if ( !roomMapModal ) {
+        const { modal } = createBootstrapModal("roomMapModal", "roomMapLabel");
+        modal.classList.add("room-map-modal");
+        modal.querySelector(".modal-dialog").classList.replace("modal-lg", "modal-xl");
+        modal.addEventListener("shown.bs.modal", centerRoomMapTarget);
+        document.body.append(modal);
+        roomMapModal = modal;
+    }
+
+    const body = roomMapModal.querySelector(".modal-body");
+    body.querySelectorAll(":scope > :not(.btn-close)").forEach(node => node.remove());
+
+    const title = document.createElement("h4");
+    title.id = "roomMapLabel";
+    title.innerText = elem.heading;
+    body.append(title);
+
+    /*
+     * Which floor first: the all-floors overview with the room's floor lit,
+     * plus the floors between it and the entrance as the route
+     */
+    const overviewTpl = document.getElementById("vx-tpl");
+    const floor = document.createElement("p");
+    floor.classList.add("room-map-floor");
+    const floorName = document.createElement("strong");
+    floorName.innerText = tpl.dataset.floor;
+    floor.append(floorName);
+    body.append(floor);
+
+    if ( overviewTpl ) {
+        body.append(overviewTpl.content.cloneNode(true));
+        const overview = body.querySelector(".venue-xsection");
+        overview.classList.add("vx-focus");
+        overview.querySelector(".vx-note")?.remove();
+        overview.querySelectorAll("a").forEach(a => a.tabIndex = -1);
+
+        const floors = [...overview.querySelectorAll(".vx-floor")];
+        const spot = overview.querySelector('.vx-spot[data-room="' + elem.room + '"]');
+        const targetIdx = floors.indexOf(spot?.closest(".vx-floor"));
+        const entranceIdx = floors.findIndex(f => f.querySelector(".vx-entrance"));
+        if ( targetIdx >= 0 ) {
+            spot.classList.add("vx-target");
+            floors[targetIdx].classList.add("vx-floor-target");
+            if ( entranceIdx >= 0 ) {
+                const lo = Math.min(targetIdx, entranceIdx), hi = Math.max(targetIdx, entranceIdx);
+                floors.slice(lo, hi + 1).forEach(f => f.classList.add("vx-floor-route"));
+
+                // Floors are listed top to bottom, so a higher index is further down
+                const levels = targetIdx - entranceIdx;
+                const count = Math.abs(levels) === 1 ? "one level" : Math.abs(levels) + " levels";
+                // e.g. "one level down from the 59th St entrance"
+                const entrance = floors[entranceIdx].querySelector(".vx-entrance")
+                    .textContent.replace(/^\W+/, "").replace(/ Entrance$/, " entrance");
+                floor.append(" \u00b7 " + (levels === 0
+                    ? "same level as the " + entrance
+                    : count + (levels > 0 ? " down" : " up") + " from the " + entrance));
+            }
+        }
+    }
+
+    const directions = document.createElement("p");
+    directions.classList.add("room-map-directions");
+    directions.innerText = elem.directions || "";
+    body.append(directions);
+
+    // Then where on that floor: the plan, open by default only on wide screens
+    const plan = document.createElement("details");
+    plan.classList.add("room-map-plan");
+    plan.open = window.matchMedia("(min-width: 992px)").matches;
+    const summary = document.createElement("summary");
+    summary.innerText = "Floor plan: " + tpl.dataset.floor;
+    plan.append(summary, tpl.content.cloneNode(true));
+    plan.addEventListener("toggle", () => { if ( plan.open ) centerRoomMapTarget(); });
+    body.append(plan);
+
+    const svg = plan.querySelector("svg.fp");
+    svg.classList.add("fp-focus");
+    const target = svg.querySelector('[data-room="' + elem.room + '"]');
+    if ( target ) {
+        target.classList.add("fp-target");
+    }
+
+    const actions = document.createElement("div");
+    actions.classList.add("room-map-actions");
+    if ( fromModal ) {
+        const back = document.createElement("button");
+        back.type = "button";
+        back.className = "btn btn-outline-secondary btn-sm";
+        back.innerText = "\u2190 Back to session";
+        back.addEventListener("click", () => {
+            roomMapModal.addEventListener("hidden.bs.modal",
+                () => bootstrap.Modal.getOrCreateInstance(fromModal).show(), { once: true });
+            bootstrap.Modal.getInstance(roomMapModal).hide();
+        });
+        actions.append(back);
+    }
+    const all = document.createElement("a");
+    all.href = SITE_BASEURL + "/map/";
+    all.innerText = "Full venue map";
+    actions.append(all);
+    body.append(actions);
+
+    const open = () => bootstrap.Modal.getOrCreateInstance(roomMapModal).show();
+    if ( fromModal ) {
+        // Bootstrap can't stack modals, so close the session first
+        fromModal.addEventListener("hidden.bs.modal", open, { once: true });
+        bootstrap.Modal.getInstance(fromModal).hide();
+    } else {
+        open();
+    }
+    return true;
+}
+
+function centerRoomMapTarget() {
+    // On phones the plan scrolls sideways; bring the room into view
+    const scroller = roomMapModal.querySelector(".fp-scroll");
+    const target = roomMapModal.querySelector(".fp-target");
+    if ( !scroller || !target ) {
+        return;
+    }
+    const s = scroller.getBoundingClientRect();
+    const t = target.getBoundingClientRect();
+    scroller.scrollLeft += (t.left + t.width / 2) - (s.left + s.width / 2);
+}
+
+// Capture phase on window, so this runs before the skip-modal handlers and
+// before Bootstrap's data-bs-toggle handler (itself a capture listener on
+// document) can open the session behind the map
+window.addEventListener("click", event => {
+    const link = event.target.closest("[data-room-map]");
+    if ( !link ) {
+        return;
+    }
+    if ( showRoomMap(link.dataset.roomMap, link.closest(".modal.show")) ) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+}, true);

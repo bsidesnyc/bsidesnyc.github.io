@@ -1,0 +1,11 @@
+<!-- All-floors overview and floor plans for the room-map popup (showRoomMap in js/utils.js) -->
+<template id="vx-tpl">
+    {% include venue-overview.html %}
+</template>
+{% for map in site.venueFloorMaps %}
+<template id="fp-tpl-{{ map.divId }}" data-floor="{{ map.name }}">
+    <div class="fp-scroll">
+        {% include floorplan-svg.html map=map %}
+    </div>
+</template>
+{% endfor %}

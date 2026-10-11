@@ -69,10 +69,13 @@ layout: compress
     {% endcomment %}
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Lets scripts build links that work under a sub-path, e.g. a fork's Pages preview -->
+    <script>window.siteBaseUrl = "{{ site.baseurl }}";</script>
     <script src="{{ "/js/utils.js" | prepend: site.baseurl }}" defer></script>
 
     {% if page.permalink == '/speakers/' %}
         <script src="{{ "/js/schedule.js" | prepend: site.baseurl }}" defer></script>
+        {% include floorplan-templates.html %}
         <script src="{{ "/js/speakers.js" | prepend: site.baseurl }}" defer></script>
         <script>
             document.addEventListener('DOMContentLoaded', () => {
@@ -81,6 +84,7 @@ layout: compress
         </script>
     {% elsif page.permalink == '/schedule/' %}
         <script src="{{ "/js/schedule.js" | prepend: site.baseurl }}" defer></script>
+        {% include floorplan-templates.html %}
         <script>
             document.addEventListener('DOMContentLoaded', () => {
                 scheduleBuilder("{{ site.sessionizeJsonScheduleGrid }}", "{{ site.baseurl }}", "schedules");

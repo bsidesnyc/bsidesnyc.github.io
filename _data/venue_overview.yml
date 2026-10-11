@@ -1,0 +1,63 @@
+# Cross-section ("cruise ship") overview of John Jay used on /map/ and the
+# venue/schedule pages. Floors are listed top to bottom.
+#
+# Positions are rough west→east percentages across the building (11th Ave is
+# on the left). They are NOT to scale — only the relative order matters.
+#   x / w      left edge and width of a spot, in % of the floor lane
+#   kind       colour of the chip: tech-red, tech-blue, tech-other, workshop,
+#              entrepreneur, village, ctf, food, sponsor, info
+#   link       optional; defaults to the floor's detailed plan (divId)
+#   stairsDown x position of the staircase down to the next floor listed;
+#              keep it clear of the spots on both floors
+#   elevatorsX x position of the elevator bank drawn through every floor
+#   divId      anchor of the matching detailed plan in site.venueFloorMaps
+
+elevatorsX: 0
+
+floors:
+  - name: 2nd Floor
+    code: "2"
+    divId: map-2
+    how: Stairs or elevators up from Hound Square. Walk through the Villages to reach the CTFs.
+    stairsDown: 20.5
+    spots:
+      - {label: "Hands-On Villages", kind: village, x: 5, w: 14, link: "/villages/"}
+      - {label: "CTFs", kind: ctf, x: 22, w: 13, link: "/ctf/"}
+
+  - name: 1st Floor (Hound Square)
+    code: "1"
+    divId: map-1
+    how: Stairs up from the Mezzanine.
+    stairsDown: 39
+    spots:
+      - {label: "Career Center & Affinity Villages", kind: village, x: 23, w: 14, link: "/villages/"}
+
+  - name: Mezzanine
+    code: "M"
+    divId: map-l
+    how: Half a flight up from the Level 1 lobby.
+    stairsDown: 61.5
+    spots:
+      - {label: "Lunch & T-Shirts", kind: food, x: 41, w: 9}
+      - {label: "Sponsors", kind: sponsor, x: 51, w: 8, link: "/sponsors/"}
+
+  - name: Level 1
+    code: "L"
+    divId: map-l
+    how: Enter from 59th St. Registration and Info are just inside.
+    entrance: {label: "59th St Entrance", x: 87.5}
+    stairsDown: 61.5
+    spots:
+      - {label: "Entrepreneur", room: "L.76", kind: entrepreneur, x: 24, w: 11}
+      - {label: "Info Booth", kind: info, x: 64, w: 8}
+      - {label: "Keynote & Red", room: "L.63", kind: tech-red, x: 73, w: 10}
+      - {label: "Sponsors", kind: sponsor, x: 84, w: 7, link: "/sponsors/"}
+      - {label: "Workshops", room: "L.61", kind: workshop, x: 92, w: 8}
+
+  - name: Lower Level
+    code: "L2"
+    divId: map-l2
+    how: Stairs down from the Level 1 lobby, or elevators.
+    spots:
+      - {label: "Blue", room: "L2.84", kind: tech-blue, x: 40, w: 10}
+      - {label: "Other", room: "L2.85", kind: tech-other, x: 51, w: 9}

@@ -52,6 +52,20 @@ $small-label-width: 80px;
         border-bottom: $schedule-border;
     }
 }
+// The slot that's on now, on the day of the event (markCurrentTimeslot)
+.timeslot-now {
+    box-shadow: inset 4px 0 0 $main-color;
+    .timeslot-label::after {
+        content: "Now";
+        display: block;
+        margin-top: 6px;
+        color: $main-color;
+        font-size: 13px;
+        font-weight: $fw-extra-bold;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+}
 .track-header {
     z-index: 10;
     transition: $base-transition;
@@ -60,7 +74,11 @@ $small-label-width: 80px;
     // tall stacked block that would eat too much of the viewport if pinned.
     @media (min-width: 1200px) {
         position: sticky;
-        top: 80px; // Clear the fixed navigation header on desktop
+        // Pin flush under the fixed nav; js/scripts.js keeps the variable
+        // in step with the nav's height, which shrinks after scrolling
+        top: var(--top-header-height, 80px);
+        // A clear edge for the rows sliding underneath
+        box-shadow: 0 3px 4px -3px rgba(0, 0, 0, .25);
     }
     &.sticky {
         box-shadow: 0 0 5px rgba(0, 0, 0, .2), 0 1px 0 rgba(255, 255, 255, .15);

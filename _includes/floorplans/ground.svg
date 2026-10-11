@@ -1,0 +1,17 @@
+<rect class="fp-hall" x="60" y="235" width="960" height="110"/>
+<rect class="fp-hall" x="1020" y="170" width="150" height="175"/>
+<g class="fp-elev"><rect x="160" y="180" width="110" height="40" rx="6"/><text x="215" y="200">Elevators</text></g>
+<g class="fp-elev"><rect x="160" y="360" width="110" height="40" rx="6"/><text x="215" y="380">Elevators</text></g>
+<g class="fp-wc"><rect x="350" y="165" width="70" height="55" rx="6"/><text x="385" y="192">WC</text></g>
+<g class="fp-wc"><rect x="350" y="360" width="70" height="55" rx="6"/><text x="385" y="387">WC</text></g>
+<g class="fp-wc"><rect x="670" y="140" width="80" height="80" rx="6"/><text x="710" y="180">WC</text></g>
+<g class="fp-wc"><rect x="670" y="360" width="80" height="60" rx="6"/><text x="710" y="390">WC</text></g>
+<g class="fp-room fp-entrepreneur" data-room="L.76"><rect x="305" y="245" width="160" height="90" rx="8"/><text x="385" y="278">Entrepreneur</text><text class="fp-sub" x="385" y="308">L.76</text></g>
+<g class="fp-mezz"><rect x="600" y="252" width="200" height="76" rx="8"/><text x="700" y="279">Lunch &amp; Sponsors</text><text class="fp-sub" x="700" y="305">&#8593; on the Mezzanine</text></g>
+<g class="fp-stairs" transform="translate(845 290)"><circle r="27"/><polyline points="-14,12 -7,12 -7,5 0,5 0,-2 7,-2 7,-9 14,-9"/><text y="44">&#8593; M &#183; &#8595; L2</text></g>
+<g class="fp-room fp-info"><rect x="885" y="265" width="110" height="50" rx="6"/><text x="940" y="290">Info</text></g>
+<g class="fp-room fp-registration"><rect x="1030" y="180" width="130" height="44" rx="6"/><text class="fp-sm" x="1095" y="202">Registration</text></g>
+<a class="fp-room fp-sponsor" href="{{ site.baseurl }}/sponsors/"><rect x="1030" y="262" width="130" height="64" rx="6"/><text x="1095" y="294">Sponsors</text></a>
+<g class="fp-room fp-tech-red" data-room="L.63"><rect x="870" y="355" width="150" height="150" rx="8"/><text x="945" y="400">Keynote &amp;</text><text x="945" y="428">Red Track</text><text class="fp-sub" x="945" y="464">L.63</text></g>
+<g class="fp-room fp-workshop" data-room="L.61"><rect x="1026" y="355" width="140" height="150" rx="8"/><text class="fp-md" x="1096" y="414">Workshops</text><text class="fp-sub" x="1096" y="450">L.61</text></g>
+<g class="fp-entrance"><path d="M1095 22 v40 m-12 -14 l12 14 l12 -14"/><text x="1095" y="96">59th St Entrance</text></g>

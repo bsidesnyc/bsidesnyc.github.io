@@ -1,0 +1,11 @@
+<rect class="fp-hall" x="60" y="235" width="1110" height="110"/>
+<g class="fp-wc"><rect x="160" y="124" width="110" height="44" rx="6"/><text x="215" y="146">WC</text></g>
+<g class="fp-elev"><rect x="160" y="180" width="110" height="40" rx="6"/><text x="215" y="200">Elevators</text></g>
+<g class="fp-elev"><rect x="160" y="360" width="110" height="40" rx="6"/><text x="215" y="380">Elevators</text></g>
+<g class="fp-wc"><rect x="160" y="410" width="110" height="44" rx="6"/><text x="215" y="432">WC</text></g>
+<g class="fp-wc"><rect x="680" y="140" width="80" height="80" rx="6"/><text x="720" y="180">WC</text></g>
+<g class="fp-wc"><rect x="680" y="360" width="80" height="60" rx="6"/><text x="720" y="390">WC</text></g>
+<a class="fp-room fp-village" href="{{ site.baseurl }}/villages/"><rect x="380" y="205" width="210" height="150" rx="8"/><text x="485" y="248">Career Center</text><text x="485" y="276">&amp; Affinity</text><text x="485" y="304">Villages</text><text class="fp-sub" x="485" y="334">Hound Square</text></a>
+<g class="fp-mezz"><rect x="640" y="240" width="180" height="100" rx="8"/><text x="730" y="272">Lunch, T-Shirts</text><text x="730" y="298">&amp; Sponsors</text><text class="fp-sub" x="730" y="323">&#8595; Mezzanine</text></g>
+<g class="fp-stairs" transform="translate(320 290)"><circle r="27"/><polyline points="-14,12 -7,12 -7,5 0,5 0,-2 7,-2 7,-9 14,-9"/><text y="44">&#8593; 2nd</text></g>
+<g class="fp-stairs" transform="translate(875 290)"><circle r="27"/><polyline points="-14,12 -7,12 -7,5 0,5 0,-2 7,-2 7,-9 14,-9"/><text y="44">&#8595; Level 1</text></g>

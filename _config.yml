@@ -255,19 +255,24 @@ venuePhotosSecondary:
   - 240.webp
   - L615.webp
   - L763.webp
-venueMapsIntro: "Tracks are split across multiple floors. You'll enter and register on the Ground floor where the Red Track (L.63), Keynote (L.63), and Entrepreneur Track (L.61) are. Go down via stairs or elevator to Lower Level (L2) for the Blue Track (L2.84) and Other Track (L2.85). Go up via elevator to the 6th Floor for the Villages (Moot Court) and to the 9th for CTF."
+venueMapsIntro: "Enter on 59th St and register on Level 1 (L), home to the Keynote and Red Track (L.63), Workshops (L.61) and the Entrepreneur Track (L.76). Take the stairs down to the Lower Level (L2) for the Blue (L2.84) and Other (L2.85) tracks. Lunch, T-shirts and sponsors are half a flight up on the Mezzanine; keep going up to the 1st floor (Hound Square) for the Career Center & Affinity Villages, then the 2nd floor for the Hands-On Villages and CTFs."
+# svg: clean drawing in _includes/floorplans/; image: full architectural plan in img/venue/
 venueFloorMaps:
-  - name: Ground Floor (L)
+  - name: Level 1 (L)
     divId: map-l
     image: 2025_bsidesnyc_jj_GROUND_L1-1.webp
+    svg: ground.svg
   - name: Lower Level (L2)
-    image: 2025_bsidesnyc_jj_LOWER_LEVEL_L2-1.webp 
+    image: 2025_bsidesnyc_jj_LOWER_LEVEL_L2-1.webp
+    svg: l2.svg
     divId: map-l2
-  - name: 1st Floor
+  - name: 1st Floor (Hound Square)
     image: 2025_bsidesnyc_jj_1ST_FLOOR-1.webp
+    svg: 1st.svg
     divId: map-1
   - name: 2nd Floor
     image: 2025_bsidesnyc_jj_2ND_FLOOR-1.webp
+    svg: 2nd.svg
     divId: map-2
 
 #-----------------------------------------------

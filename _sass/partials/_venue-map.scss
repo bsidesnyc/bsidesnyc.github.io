@@ -1,0 +1,416 @@
+// Venue floor maps: cross-section overview + detailed floor plans
+
+$vx-label-width: 200px;
+$vx-lane-height: 88px;
+$vx-line: #d6d6d6;
+
+$vx-kinds: (
+    tech-red: ($track-color-tech-red, #fff),
+    tech-blue: ($track-color-tech-blue, #fff),
+    tech-other: ($track-color-tech-other, #222),
+    workshop: ($track-color-workshop, #fff),
+    entrepreneur: ($track-color-entrepreneur, #fff),
+    village: (#00796b, #fff),
+    ctf: (#37474f, #fff),
+    food: (#ef6c00, #fff),
+    sponsor: (#546e7a, #fff),
+    info: (#c2185b, #fff),
+    registration: (#00838f, #fff)
+);
+
+.venue-xsection {
+    margin: 10px 0 50px;
+}
+
+.vx-compass {
+    display: flex;
+    justify-content: space-between;
+    margin-left: $vx-label-width;
+    padding: 0 4px 6px;
+    color: $color-text-muted;
+    font-size: 12px;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+}
+
+.vx-floors {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid $color-text-heading;
+    border-bottom: 2px solid $color-text-heading;
+}
+
+.vx-floor {
+    display: flex;
+    &+.vx-floor {
+        border-top: 1px dashed $vx-line;
+    }
+}
+
+.vx-floor-label {
+    flex: 0 0 $vx-label-width;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 12px 12px 12px 0;
+    text-align: left;
+    .vx-code {
+        flex: 0 0 auto;
+        min-width: 40px;
+        height: 40px;
+        padding: 0 6px;
+        border-radius: 8px;
+        background: $color-text-heading;
+        color: #fff;
+        font-weight: $fw-extra-bold;
+        font-size: 17px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .vx-name {
+        margin: 0 0 2px;
+        font-size: 17px;
+        font-weight: $fw-extra-bold;
+        a { color: $color-text-heading; }
+    }
+    .vx-how {
+        margin: 0;
+        color: $color-text-secondary;
+        font-size: 12px;
+        line-height: 1.4;
+    }
+}
+
+.vx-lane {
+    position: relative;
+    flex: 1 1 auto;
+    min-height: $vx-lane-height;
+}
+
+.vx-spot {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 52px;
+    padding: 6px 8px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: $fw-extra-bold;
+    line-height: 1.2;
+    text-align: center;
+    transition: $base-transition;
+    &:hover, &:focus-visible {
+        transform: translateY(-50%) scale(1.05);
+        z-index: 2;
+    }
+    .vx-room {
+        font-size: 12px;
+        font-weight: $fw-bold;
+        opacity: .85;
+    }
+    @each $kind, $colors in $vx-kinds {
+        &.vx-#{$kind} {
+            background: nth($colors, 1);
+            &, &:hover, &:focus { color: nth($colors, 2); }
+        }
+    }
+}
+
+// One faint shaft per lane; stacked, they read as a single elevator bank
+.vx-elevators {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 3%;
+    min-width: 22px;
+    background: repeating-linear-gradient(0deg, #f1f1f1 0 6px, #e4e4e4 6px 12px);
+    span {
+        position: absolute;
+        top: 8px;
+        left: 50%;
+        transform: translateX(-50%) rotate(180deg);
+        writing-mode: vertical-rl;
+        color: $color-text-muted;
+        font-size: 10px;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+    }
+}
+
+// Sits on the boundary between this floor and the one below
+.vx-stairs {
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    z-index: 3;
+    width: 28px;
+    height: 28px;
+    padding: 5px;
+    border: 2px solid $color-text-heading;
+    border-radius: 50%;
+    background: #fff;
+    svg {
+        display: block;
+        width: 100%;
+        height: 100%;
+        fill: none;
+        stroke: $color-text-heading;
+        stroke-width: 2;
+        stroke-linejoin: round;
+    }
+}
+
+.vx-entrance {
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    padding: 2px 8px;
+    border-radius: 10px;
+    background: $color-text-heading;
+    color: #fff;
+    font-size: 11px;
+    font-weight: $fw-extra-bold;
+    white-space: nowrap;
+}
+
+.vx-note {
+    margin-top: 10px;
+    color: $color-text-muted;
+    font-size: 12px;
+}
+
+// Stacked list: drop the positioning and list each floor's spots under its
+// name. Used on phones / small tablets, and by the room-map popup when narrow.
+@mixin vx-list-layout {
+    .vx-compass, .vx-elevators, .vx-stairs { display: none; }
+    .vx-floor { flex-direction: column; }
+    .vx-floor-label { flex-basis: auto; padding-bottom: 8px; }
+    .vx-lane {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        min-height: 0;
+        padding-bottom: 14px;
+    }
+    .vx-spot, .vx-entrance {
+        position: static;
+        width: auto !important;
+        transform: none;
+        &:hover, &:focus-visible { transform: none; }
+    }
+    .vx-spot {
+        flex: 1 1 140px;
+        min-height: 0;
+        padding: 8px 10px;
+    }
+    .vx-entrance {
+        order: -1;
+        flex: 0 0 100%;
+        align-self: flex-start;
+        border-radius: 6px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    @include vx-list-layout;
+}
+
+// Detailed floor plans: inline SVG drawings (_includes/floorplans/)
+.venue-map-heading {
+    margin-top: 30px;
+    scroll-margin-top: 80px;
+}
+.floorplan {
+    margin: 0;
+    figcaption {
+        margin-top: 6px;
+        color: $color-text-muted;
+        font-size: 12px;
+        text-align: right;
+    }
+    .fp-hint { display: none; float: left; }
+    @media (max-width: 640px) {
+        .fp-hint { display: inline; }
+    }
+}
+// Below ~600px the labels get too small, so let the plan scroll sideways
+.fp-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+svg.fp {
+    display: block;
+    width: 100%;
+    min-width: 600px;
+    height: auto;
+    font-family: inherit;
+    text {
+        text-anchor: middle;
+        dominant-baseline: central;
+        font-size: 24px;
+        font-weight: 700;
+        fill: #fff;
+    }
+    .fp-sub { font-size: 19px; font-weight: 500; }
+    .fp-md { font-size: 21px; }
+    .fp-sm { font-size: 17px; }
+    .fp-muted { fill: $color-text-muted; font-weight: 500; }
+    .fp-street {
+        fill: $color-text-muted;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .fp-compass {
+        path, text { fill: $color-text-heading; }
+        text { font-size: 18px; }
+    }
+    .fp-bldg { fill: #eceff1; }
+    .fp-outline { fill: none; stroke: #37474f; stroke-width: 3; }
+    .fp-hall { fill: #fff; }
+    .fp-void { fill: #f7f9fa; stroke: #b0bec5; stroke-width: 2; stroke-dasharray: 8 6; }
+    .fp-elev {
+        rect { fill: #ffe082; stroke: #f9a825; stroke-width: 2; }
+        text { fill: #5d4037; font-size: 16px; }
+    }
+    .fp-wc {
+        rect { fill: #c5cae9; stroke: #5c6bc0; stroke-width: 2; }
+        text { fill: #283593; font-size: 16px; }
+    }
+    .fp-mezz {
+        rect { fill: #fff3e0; stroke: #ef6c00; stroke-width: 2; stroke-dasharray: 6 4; }
+        text { fill: #e65100; font-size: 19px; }
+        .fp-sub { font-size: 16px; }
+    }
+    .fp-stairs {
+        circle { fill: #fff; stroke: $color-text-heading; stroke-width: 3; }
+        polyline { fill: none; stroke: $color-text-heading; stroke-width: 3.5; stroke-linejoin: round; }
+        text { fill: $color-text-heading; font-size: 15px; font-weight: 600; }
+    }
+    .fp-entrance {
+        path { fill: none; stroke: $track-color-tech-red; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+        text { fill: $track-color-tech-red; font-size: 16px; }
+    }
+    @each $kind, $colors in $vx-kinds {
+        .fp-#{$kind} {
+            rect { fill: nth($colors, 1); }
+            text { fill: nth($colors, 2); }
+        }
+    }
+    a.fp-room:hover rect, a.fp-room:focus rect { filter: brightness(1.12); }
+}
+
+// Room-map popup (showRoomMap in js/utils.js): dim everything but the room
+svg.fp.fp-focus {
+    // Info and Registration stay lit: the directions use them as landmarks
+    .fp-room:not(.fp-target):not(.fp-info):not(.fp-registration), .fp-mezz { opacity: .3; }
+    .fp-wc, .fp-elev { opacity: .5; }
+    .fp-target rect {
+        stroke: $color-text-heading;
+        stroke-width: 5;
+        animation: fp-pulse 1.6s ease-in-out infinite;
+    }
+}
+@keyframes fp-pulse {
+    50% { stroke-width: 11; }
+}
+@media (prefers-reduced-motion: reduce) {
+    svg.fp.fp-focus .fp-target rect { animation: none; }
+}
+.room-map-modal {
+    .room-map-floor {
+        margin: 4px 0 10px;
+        color: $color-text-secondary;
+        font-size: 16px;
+        strong {
+            color: $color-text-heading;
+            font-size: 20px;
+            font-weight: $fw-extra-bold;
+        }
+    }
+    .room-map-directions {
+        margin: 12px 0 14px;
+        font-size: 15px;
+    }
+    // The popup has its own directions line, so slim the overview down
+    .venue-xsection {
+        margin: 0;
+        a { pointer-events: none; }
+        .vx-how { display: none; }
+        @media (min-width: 1200px) {
+            .vx-compass { margin-left: 150px; }
+            .vx-floor-label {
+                // Fixed, so a long one-word name (Mezzanine) can't widen its
+                // row and knock that floor's lane out of line
+                flex-basis: 150px;
+                max-width: 150px;
+                align-items: center;
+                .vx-name { font-size: 15px; overflow-wrap: anywhere; }
+            }
+            .vx-spot {
+                padding: 4px 3px;
+                font-size: 12px;
+            }
+        }
+        // Too narrow for positions: stack it, and only the floors on the way
+        // there keep their rooms
+        @media (max-width: 1199px) {
+            @include vx-list-layout;
+            .vx-floor:not(.vx-floor-route) {
+                .vx-lane { display: none; }
+                .vx-floor-label { padding: 6px 0; }
+                .vx-code { min-width: 30px; height: 30px; line-height: 30px; font-size: 14px; }
+            }
+        }
+    }
+    .room-map-plan {
+        summary {
+            cursor: pointer;
+            font-weight: $fw-extra-bold;
+        }
+        .fp-scroll { margin-top: 10px; }
+    }
+    .room-map-actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-top: 14px;
+        a { margin-left: auto; }
+    }
+}
+.room-map-link {
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
+}
+
+// Room-map popup, overview: light the room's floor and the route to it
+.venue-xsection.vx-focus {
+    .vx-floor { transition: none; }
+    .vx-floor:not(.vx-floor-route) { opacity: .3; }
+    .vx-floor-route:not(.vx-floor-target) .vx-spot { opacity: .45; }
+    .vx-floor-target {
+        background: #fff8e1;
+        box-shadow: inset 4px 0 0 $color-text-heading;
+        .vx-spot:not(.vx-target) { opacity: .4; }
+    }
+    .vx-target {
+        z-index: 2;
+        outline: 4px solid $color-text-heading;
+        outline-offset: 2px;
+        animation: vx-pulse 1.6s ease-in-out infinite;
+    }
+}
+@keyframes vx-pulse {
+    50% { outline-offset: 6px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .venue-xsection.vx-focus .vx-target { animation: none; }
+}

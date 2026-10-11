@@ -58,6 +58,14 @@
 
         const header = document.getElementById('top-header');
         const logo = document.querySelector('#logo-header .logo');
+
+        // Expose the fixed nav's live height (it shrinks once you scroll) so
+        // sticky elements like the schedule's room header can pin flush under it
+        if (header && 'ResizeObserver' in window) {
+            new ResizeObserver(() => {
+                document.documentElement.style.setProperty('--top-header-height', header.offsetHeight + 'px');
+            }).observe(header);
+        }
         if (window.scrollY >= 100) {
             if (header) header.classList.add('after-scroll');
             if (logo) {

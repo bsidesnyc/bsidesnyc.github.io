@@ -2,17 +2,31 @@
 <section id="venue-maps">
     <div class="content-wrapper">
         <div class="row">
-            <div class="col-lg-6 offset-lg-3 col-12">
+            <div class="col-lg-8 offset-lg-2 col-12">
                 <h3>Maps</h3>
                 <p>{{ site.venueMapsIntro }}</p>
             </div>
         </div>
 
+        <div class="row">
+            <div class="col-12">
+                {% include venue-overview.html %}
+            </div>
+        </div>
+
         {% for map in site.venueFloorMaps %}
         <div class="row venue-map-heading" id="{{ map.divId }}">
-            <div class="col-lg-6 offset-lg-3 col-12">
+            <div class="col-lg-10 offset-lg-1 col-12">
                 <h4>{{ map.name }}</h4>
-                <img class="animated venue-map" data-animation="fadeIn" src="{{ site.baseUrl }}/img/venue/{{ map.image }}" loading="lazy">
+                <figure class="floorplan">
+                    <div class="fp-scroll">
+                        {% include floorplan-svg.html map=map %}
+                    </div>
+                    <figcaption>
+                        <span class="fp-hint">Swipe sideways for the whole floor &rarr;</span>
+                        Not to scale. <a href="{{ site.baseurl }}/img/venue/{{ map.image }}" target="_blank" rel="noopener">Full architectural plan</a>
+                    </figcaption>
+                </figure>
             </div>
         </div>
         {% endfor %}

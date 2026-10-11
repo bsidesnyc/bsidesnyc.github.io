@@ -63,6 +63,9 @@
 	}
     &.white-solid {
         background: rgba(255, 255, 255, .9);
+        // Keep the frosted look but stop text behind it from reading through
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
     }
     &.gradient-overlay {
 	    background: linear-gradient(to bottom, rgba(0, 0, 0, .32) 0%, rgba(0, 0, 0, 0) 32%, rgba(0, 0, 0, .64) 100%);

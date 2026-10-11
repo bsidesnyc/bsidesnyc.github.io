@@ -1,0 +1,10 @@
+<!-- One floor plan drawing; pass map= an entry of site.venueFloorMaps -->
+<svg class="fp" viewBox="0 0 1200 560" role="group" aria-label="{{ include.map.name }} plan">
+    <text class="fp-street" x="600" y="32">59th Street</text>
+    <text class="fp-street" x="600" y="536">58th Street</text>
+    <text class="fp-street" x="30" y="285" transform="rotate(-90 30 285)">11th Avenue</text>
+    <g class="fp-compass" transform="translate(96 30)"><path d="M0 -16 L8 12 L0 7 L-8 12 Z"/><text x="20" y="0">N</text></g>
+    <rect class="fp-bldg" x="60" y="60" width="1110" height="450" rx="14"/>
+    {% include floorplans/{{ include.map.svg }} %}
+    <rect class="fp-outline" x="60" y="60" width="1110" height="450" rx="14"/>
+</svg>
