@@ -1,11 +1,21 @@
 async function onLoad(endpoint, baseUrl) {
+    const list = document.getElementById("speaker-list");
     try {
-        const response = await fetch(endpoint);
-        if (!response.ok) throw new Error("Network response was not ok: " + response.status);
-        const result = await response.json();
-        populateSpeakers(result, baseUrl);
+        // fetchJson (schedule.js): timeout + retries for lossy networks
+        populateSpeakers(await fetchJson(endpoint, 20000, 2), baseUrl);
     } catch (error) {
         console.error("onLoad: Failed to load speakers:", error);
+        if (!list) return;
+        const note = document.createElement("p");
+        note.className = "schedule-status schedule-status-error";
+        note.append("Couldn't load the speakers. Check your connection and ");
+        const retry = document.createElement("button");
+        retry.type = "button";
+        retry.className = "btn btn-sm btn-outline-secondary";
+        retry.innerText = "Try again";
+        retry.addEventListener("click", () => { note.remove(); onLoad(endpoint, baseUrl); });
+        note.append(retry);
+        list.before(note);
     }
 }
 

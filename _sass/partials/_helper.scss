@@ -71,6 +71,16 @@
 	    background: linear-gradient(to bottom, rgba(0, 0, 0, .32) 0%, rgba(0, 0, 0, 0) 32%, rgba(0, 0, 0, .64) 100%);
 	}
 }
+// Phones get the "-sm" photo when one exists (_includes/bg-image-style.html),
+// and pages that are all about their content can drop the hero photo
+@media (max-width: 767px) {
+    .image-section[style*="--bg-sm"] {
+        background-image: var(--bg-sm) !important;
+    }
+    .image-section.no-mobile-hero {
+        background-image: none !important;
+    }
+}
 .col-centered {
     float: none;
     margin: 0 auto;

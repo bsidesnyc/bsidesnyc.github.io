@@ -93,6 +93,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.webp"
 navigationLinks:
  - {permalink: "/venue/", text: "Venue"}
  - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/map/", text: "Map"}
  - {permalink: "/villages/", text: "Villages"}
  - {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/speakers/", text: "Speakers"}

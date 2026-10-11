@@ -4,13 +4,100 @@ Date.prototype.addHours = function(h) {
 }
 
 async function scheduleBuilder(endpoint, baseUrl, target) {
-    const response = await fetch(endpoint);
-    const result = await response.json();
     if ( target === "speakerBackfill" ) {
-        backfillSpeakerDetails(result, baseUrl);
+        // Nice-to-have (bios and photos in the popups): one quiet retry
+        try {
+            backfillSpeakerDetails(await fetchJson(endpoint, 20000, 1), baseUrl);
+        } catch (e) {
+            console.warn("Speaker details unavailable:", e);
+        }
     } else {
-        populateSchedule(result, baseUrl);
+        await loadSchedule(endpoint, baseUrl);
     }
+}
+
+/*
+ * Fetch JSON with a timeout, retrying with backoff - a lossy conference
+ * network drops requests, and one failure shouldn't leave a blank page
+ */
+async function fetchJson(url, timeoutMs, retries) {
+    for ( let attempt = 0; ; attempt++ ) {
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), timeoutMs);
+        try {
+            const response = await fetch(url, { signal: controller.signal });
+            if ( !response.ok ) throw new Error("HTTP " + response.status);
+            return await response.json();
+        } catch (e) {
+            if ( attempt >= retries ) throw e;
+            await new Promise(resolve => setTimeout(resolve, 2000 * (attempt + 1)));
+        } finally {
+            clearTimeout(timer);
+        }
+    }
+}
+
+const SCHEDULE_CACHE_KEY = "bsidesnyc-schedule";
+
+/*
+ * The schedule: use the download the <head> started (window.earlyFetch),
+ * retry if it fails, keep the last good copy in localStorage, and fall back
+ * to that copy - with a note saying so - when Sessionize can't be reached.
+ */
+async function loadSchedule(endpoint, baseUrl) {
+    const status = document.getElementById("schedule-status");
+    const say = (html, isError) => {
+        if ( !status ) return;
+        status.innerHTML = html;
+        status.hidden = !html;
+        status.classList.toggle("schedule-status-error", !!isError);
+        status.classList.remove("schedule-status-floating");
+    };
+
+    let grid;
+    try {
+        const early = window.earlyFetch && window.earlyFetch[endpoint];
+        if ( early ) delete window.earlyFetch[endpoint];
+        grid = await (early || Promise.reject()).catch(() => fetchJson(endpoint, 20000, 2));
+    } catch (e) {
+        console.warn("Schedule download failed:", e);
+    }
+
+    if ( grid ) {
+        try {
+            localStorage.setItem(SCHEDULE_CACHE_KEY, JSON.stringify({ savedAt: Date.now(), grid: grid }));
+        } catch (e) { /* storage full or disabled: fine, just no offline copy */ }
+        say("");
+        renderSchedule(grid, baseUrl);
+        return;
+    }
+
+    let saved;
+    try {
+        saved = JSON.parse(localStorage.getItem(SCHEDULE_CACHE_KEY));
+    } catch (e) { /* nothing usable saved */ }
+
+    const retry = '<button type="button" class="btn btn-sm btn-outline-secondary schedule-retry">Try again</button>';
+    if ( saved && saved.grid ) {
+        const at = new Date(saved.savedAt).toLocaleTimeString("en-US", { timeZone: "America/New_York", hour: "numeric", minute: "2-digit" });
+        say("Couldn't reach the schedule server, so this is the copy saved on your phone at " + at + ". " + retry, true);
+        // The page may jump to what's on now, so keep the note in view
+        status && status.classList.add("schedule-status-floating");
+        renderSchedule(saved.grid, baseUrl);
+    } else {
+        say("Couldn't load the schedule. Check your connection and " + retry, true);
+    }
+    status && status.querySelector(".schedule-retry").addEventListener("click", () => {
+        say("Loading the schedule&hellip;");
+        loadSchedule(endpoint, baseUrl);
+    });
+}
+
+function renderSchedule(grid, baseUrl) {
+    // A retry can re-render: clear the previous grid and its session popups
+    document.getElementById("schedule-wrapper").replaceChildren();
+    document.querySelectorAll('.modal[id^="sessionDetail-"]').forEach(modal => modal.remove());
+    populateSchedule(grid, baseUrl);
 }
 
 function sessionizeScheduleGetDayHeading(dayNumber, daySchedule) {
@@ -369,9 +456,17 @@ function sessionizeSchedule(scheduleGrid, baseUrl) {
     });
 }
 
+let scheduleRendered = false;
+
 function populateSchedule(scheduleGrid, baseUrl) {
     //createSchedule(scheduleGrid, baseUrl);
     sessionizeSchedule(scheduleGrid, baseUrl);
+    if ( scheduleRendered ) {
+        // Re-render after a retry: keep the visitor's place, just re-mark "now"
+        markCurrentTimeslot();
+        return;
+    }
+    scheduleRendered = true;
     scrollToCurrentTimeslot();
     setInterval(markCurrentTimeslot, 60000);
 }
