@@ -236,6 +236,9 @@ function sessionizeScheduleGetTimeslot(rooms, timeslot, scheduleDate, slotStartT
     row.classList.add("timeslot");
     row.classList.add("row");
     row.setAttribute("itemtype", "http://schema.org/subEvent");
+    // Read by markCurrentTimeslot(); the last slot has no end, so give it an hour
+    row.dataset.start = slotStartTime.toISOString();
+    row.dataset.end = (slotEndTime || new Date(slotStartTime.getTime() + 3600000)).toISOString();
 
 
     /*
@@ -369,6 +372,67 @@ function sessionizeSchedule(scheduleGrid, baseUrl) {
 function populateSchedule(scheduleGrid, baseUrl) {
     //createSchedule(scheduleGrid, baseUrl);
     sessionizeSchedule(scheduleGrid, baseUrl);
+    scrollToCurrentTimeslot();
+    setInterval(markCurrentTimeslot, 60000);
+}
+
+/*
+ * Event-day "now": Sessionize times are ET wall-clock read as UTC (see
+ * parseUtc), so build ET wall-clock now in that same frame. Add e.g.
+ * ?now=2026-10-17T13:20 to the URL to try it out before the day.
+ */
+function etNowAsUtc() {
+    const override = new URLSearchParams(location.search).get("now");
+    if ( override ) {
+        return parseUtc(override);
+    }
+    const parts = {};
+    new Intl.DateTimeFormat("en-US", {
+        timeZone: "America/New_York", hourCycle: "h23",
+        year: "numeric", month: "2-digit", day: "2-digit",
+        hour: "2-digit", minute: "2-digit", second: "2-digit"
+    }).formatToParts(new Date()).forEach(p => parts[p.type] = p.value);
+    return parseUtc(`${parts.year}-${parts.month}-${parts.day}T${parts.hour}:${parts.minute}:${parts.second}`);
+}
+
+function markCurrentTimeslot() {
+    /*
+     * Marks and returns the slot that's on now (or next up, between
+     * slots) - only while today's program is running
+     */
+    const now = etNowAsUtc();
+    const today = now.toISOString().slice(0, 10);
+    const rows = [...document.querySelectorAll(".timeslot[data-start]")]
+        .filter(row => row.dataset.start.slice(0, 10) === today);
+    const ended = row => now >= new Date(row.dataset.end);
+    const current = rows.length && now >= new Date(rows[0].dataset.start)
+        ? rows.find(row => !ended(row)) : undefined;
+
+    rows.forEach(row => row.classList.toggle("timeslot-now", row === current));
+    return current;
+}
+
+function scrollToCurrentTimeslot() {
+    const current = markCurrentTimeslot();
+    const nav = performance.getEntriesByType("navigation")[0];
+    // A #link to something specific, or Back/Forward restoring a spot, wins
+    if ( !current || location.hash || (nav && nav.type === "back_forward") ) {
+        return;
+    }
+
+    const align = () => {
+        const header = document.getElementById("top-header");
+        const trackHeader = current.closest(".schedule-table").querySelector(".track-header");
+        let offset = header ? header.offsetHeight : 0;
+        if ( trackHeader && getComputedStyle(trackHeader).position === "sticky" ) {
+            offset += trackHeader.offsetHeight;
+        }
+        window.scrollTo({ top: current.getBoundingClientRect().top + window.scrollY - offset - 8 });
+        return window.scrollY;
+    };
+    const landed = align();
+    // The nav shrinks once scrolled; re-align after that unless the visitor moved
+    setTimeout(() => { if ( window.scrollY === landed ) align(); }, 400);
 }
 
 function backfillSpeakerPronouns(speaker, element) {
@@ -482,14 +546,12 @@ function backfillSpeakerDetails(speakers, baseUrl) {
 
         /*
          * Backfill items on the modals. The headshot only gets a data-src
-         * here (never src) so it doesn't fetch until its modal is opened -
-         * see the show.bs.modal handler in scripts.js.
+         * here (src only if its modal was already opened) so it doesn't
+         * fetch until the modal opens - see show.bs.modal in scripts.js.
          */
         waitForElm("#speakerProfileUrl-" + speaker.id, speaker).then(([elements, speaker]) => {
             elements.forEach(element => {
-                if ( speaker.profilePicture != null ) {
-                    element.dataset.src = speaker.profilePicture;
-                }
+                setSpeakerHeadshot(element, speaker.profilePicture, 0, true);
             });
         });
         waitForElm("#speakerTagLine-" + speaker.id, speaker).then(([elements, speaker]) => {

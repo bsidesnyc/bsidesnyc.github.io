@@ -1,0 +1,42 @@
+<!-- Venue cross-section: every floor stacked, data in _data/venue_overview.yml -->
+{% assign overview = site.data.venue_overview %}
+<div class="venue-xsection">
+    <div class="vx-compass" aria-hidden="true">
+        <span>&larr; West &middot; 11th Ave</span>
+        <span>East &rarr;</span>
+    </div>
+    <ol class="vx-floors">
+        {% for floor in overview.floors %}
+        {% assign below = overview.floors[forloop.index] %}
+        <li class="vx-floor">
+            <div class="vx-floor-label">
+                <a href="#{{ floor.divId }}" class="vx-code">{{ floor.code }}</a>
+                <div>
+                    <h5 class="vx-name"><a href="#{{ floor.divId }}">{{ floor.name }}</a></h5>
+                    <p class="vx-how">{{ floor.how }}</p>
+                </div>
+            </div>
+            <div class="vx-lane">
+                {% if overview.elevatorsX %}
+                <span class="vx-elevators" style="left: {{ overview.elevatorsX }}%" aria-hidden="true">{% if forloop.first %}<span>Elevators</span>{% endif %}</span>
+                {% endif %}
+                {% if floor.entrance %}
+                <span class="vx-entrance" style="left: {{ floor.entrance.x }}%">&darr; {{ floor.entrance.label }}</span>
+                {% endif %}
+                {% for spot in floor.spots %}
+                <a class="vx-spot vx-{{ spot.kind }}"{% if spot.room %} data-room="{{ spot.room }}"{% endif %} style="left: {{ spot.x }}%; width: calc({{ spot.w }}% - 4px)" href="{% if spot.link %}{{ site.baseurl }}{{ spot.link }}{% else %}#{{ floor.divId }}{% endif %}">
+                    <span class="vx-spot-label">{{ spot.label }}</span>
+                    {% if spot.room %}<span class="vx-room">{{ spot.room }}</span>{% endif %}
+                </a>
+                {% endfor %}
+                {% if floor.stairsDown and below %}
+                <span class="vx-stairs" style="left: {{ floor.stairsDown }}%" role="img" aria-label="Stairs between {{ floor.name }} and {{ below.name }}" title="Stairs between {{ floor.name }} and {{ below.name }}">
+                    <svg viewBox="0 0 16 16" aria-hidden="true"><polyline points="1.5,14 5,14 5,10.5 8.5,10.5 8.5,7 12,7 12,3.5 14.5,3.5"/></svg>
+                </span>
+                {% endif %}
+            </div>
+        </li>
+        {% endfor %}
+    </ol>
+    <p class="vx-note">Not to scale &mdash; the relative positions are what matter. Tap a floor for its detailed plan.</p>
+</div>

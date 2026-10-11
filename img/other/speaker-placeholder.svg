@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="No photo">
+  <!-- Figure kept within y 110-290 so it survives the wide crop on speaker cards -->
+  <rect width="400" height="400" fill="#eceff1"/>
+  <g fill="none" stroke="#90a4ae" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="200" cy="160" r="40"/>
+    <path d="M128 288c0-44 32-70 72-70s72 26 72 70"/>
+  </g>
+</svg>

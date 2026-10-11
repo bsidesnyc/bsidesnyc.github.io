@@ -39,9 +39,7 @@ function addSpeakerToList(speaker, sessions, rooms, container) {
         bg.loading = "lazy";
         bg.decoding = "async";
         bg.alt = speaker.fullName || "";
-        if (speaker.profilePicture) {
-            bg.src = getSessionizeThumbnail(speaker.profilePicture, 400);
-        }
+        setSpeakerHeadshot(bg, speaker.profilePicture, 400, false);
         headshot.append(bg);
 
         const ribbonWrapper = document.createElement("ul");
