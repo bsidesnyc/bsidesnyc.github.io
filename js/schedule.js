@@ -176,7 +176,8 @@ function addSessionToSchedule(trackSlot, trackName, session, createModals, baseU
         const speakerPosition = document.createElement("span");
         speakerPosition.classList.add("speaker-position");
         speakerPosition.id = "speakerPosition-" + speaker.id;
-        speakerPosition.innerText = undefined;
+        // Filled in by backfillSpeakerDetails once the speaker list arrives
+        speakerPosition.innerText = "";
 
         speakerName.append(speaker.name, speakerPosition);
         performer.append(speakerName);
@@ -635,7 +636,7 @@ function backfillSpeakerDetails(speakers, baseUrl) {
          */
         waitForElm("#speakerPosition-" + speaker.id, speaker).then(([elements, speaker]) => {
             elements.forEach(element => {
-                element.innerText = speaker.tagLine;
+                element.innerText = speaker.tagLine || "";
             });
         });
 
@@ -651,7 +652,7 @@ function backfillSpeakerDetails(speakers, baseUrl) {
         });
         waitForElm("#speakerTagLine-" + speaker.id, speaker).then(([elements, speaker]) => {
             elements.forEach(element => {
-                element.innerText = speaker.tagLine;
+                element.innerText = speaker.tagLine || "";
                 backfillSpeakerSocial(speaker, element, baseUrl);
             });
         });

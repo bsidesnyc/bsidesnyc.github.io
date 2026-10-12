@@ -25,9 +25,11 @@ $small-label-width: 80px;
     .speaker-position {
         color: $color-text-secondary;
         display: block;
-        line-height: 1;
+        // Sit just under the name; a negative margin here made long names'
+        // descenders collide with the title, and wrapped titles need room
+        line-height: 1.3;
         font-size: 12px;
-        margin-top: -5px;
+        margin-top: 1px;
     }
 }
 .schedule-table {
