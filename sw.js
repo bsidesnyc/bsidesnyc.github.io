@@ -27,8 +27,9 @@ const PRECACHE = [
     BASE + "/js/utils.js" + V, BASE + "/js/schedule.js" + V, BASE + "/js/scripts.js" + V, BASE + "/js/speakers.js" + V,
     BASE + "/fonts/roboto/roboto-latin-wght-normal.woff2",
     BASE + "/img/about/logo_white.svg", BASE + "/img/about/logo_black.svg",
+    BASE + {{ "/img" | append: site.logoImage | jsonify }},  /* the landing page's big logo */
     BASE + "/img/other/speaker-placeholder.svg",
-    SESSIONIZE[0], SESSIONIZE[1]
+    SESSIONIZE[0], SESSIONIZE[1], SESSIONIZE[2]  /* schedule, speaker list, and the speakers page's data */
 ];
 
 self.addEventListener("install", event => {
