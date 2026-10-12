@@ -1,0 +1,16 @@
+{%- comment -%}
+Word-wraps include.text into lines of at most include.max characters,
+joined with "|" (SVG text doesn't wrap by itself). Used by venue-map-print.svg.
+{%- endcomment -%}
+{%- assign words = include.text | split: ' ' -%}
+{%- assign line = '' -%}{%- assign out = '' -%}
+{%- for word in words -%}
+  {%- assign candidate = line | append: ' ' | append: word | strip -%}
+  {%- if candidate.size > include.max and line != '' -%}
+    {%- assign out = out | append: line | append: '|' -%}
+    {%- assign line = word -%}
+  {%- else -%}
+    {%- assign line = candidate -%}
+  {%- endif -%}
+{%- endfor -%}
+{{- out | append: line -}}

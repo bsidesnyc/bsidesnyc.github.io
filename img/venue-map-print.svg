@@ -1,0 +1,7 @@
+---
+layout: null
+sitemap: false
+---
+{%- comment -%} Printable venue map: see _includes/venue-map-print.svg {%- endcomment -%}
+{%- capture logo %}{% include_relative about/logo_black.svg %}{% endcapture -%}
+{% include venue-map-print.svg logo=logo %}

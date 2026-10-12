@@ -1,0 +1,133 @@
+{%- comment -%}
+Printable all-floors ("cruise ship") map, 2:1 like the 2025 print signs.
+Drawn from _data/venue_overview.yml, the same data as the website's map.
+Params: logo (the logo SVG markup); for a YOU ARE HERE sign, here_floor (a
+floor code, e.g. "L"), here_spot (the label of the spot the sign stands at)
+and here_side ("left"/"right": where its label goes, in clear space).
+Colours mirror $track-color-* in _sass/partials/_base.scss and $vx-kinds in
+_sass/partials/_venue-map.scss - keep them in step.
+{%- endcomment -%}
+{%- assign o = site.data.venue_overview -%}
+{%- assign floors = o.floors -%}
+{%- assign W = 2000 -%}{%- assign H = 1000 -%}
+{%- assign top = 180 -%}{%- assign rowH = 152 -%}
+{%- assign laneX = 450 -%}{%- assign laneW = 1510 -%}{%- assign lanePct = 15.1 -%}
+{%- assign bottom = floors.size | times: rowH | plus: top -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {{ W }} {{ H }}" width="{{ W }}" height="{{ H }}" font-family="Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <title>BSidesNYC venue map{% if include.here_floor %}: you are here{% endif %}</title>
+  <rect width="{{ W }}" height="{{ H }}" fill="#fff"/>
+
+  <!-- Header -->
+  <svg x="40" y="36" width="230" height="106" viewBox="0 0 400 185">{{ include.logo | remove: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 185">' | remove: '</svg>' }}</svg>
+  <text x="300" y="112" font-size="76" font-weight="800" fill="#111">Venue map</text>
+  <text x="1960" y="82" font-size="26" font-weight="600" fill="#111" text-anchor="end">{{ site.venueTitle | xml_escape }}</text>
+  <text x="1960" y="118" font-size="22" fill="#555" text-anchor="end">Not to scale: the relative positions are what matter.</text>
+  <text x="{{ laneX }}" y="{{ top | minus: 14 }}" font-size="18" fill="#777" letter-spacing="2">&#8592; WEST &#183; 11TH AVE</text>
+  <text x="{{ laneX | plus: laneW }}" y="{{ top | minus: 14 }}" font-size="18" fill="#777" letter-spacing="2" text-anchor="end">EAST &#8594;</text>
+
+  <!-- Elevator bank, through every floor -->
+  {%- assign ex = o.elevatorsX | times: lanePct | plus: laneX %}
+  <rect x="{{ ex }}" y="{{ top }}" width="34" height="{{ bottom | minus: top }}" fill="#eceff1"/>
+  <text transform="translate({{ ex | plus: 23 }} {{ top | plus: 14 }}) rotate(90)" font-size="15" fill="#78909c" letter-spacing="3">ELEVATORS</text>
+
+  {%- for floor in floors %}
+  {%- assign y = forloop.index0 | times: rowH | plus: top %}
+  {%- assign cy = rowH | divided_by: 2 | plus: y %}
+  <!-- {{ floor.name }} -->
+  {%- if forloop.index0 > 0 %}
+  <line x1="40" y1="{{ y }}" x2="1960" y2="{{ y }}" stroke="#bbb" stroke-width="2" stroke-dasharray="10 8"/>
+  {%- endif %}
+  <rect x="40" y="{{ cy | minus: 40 }}" width="80" height="80" rx="14" fill="#111"/>
+  <text x="80" y="{{ cy | plus: 14 }}" font-size="{% if floor.code.size > 1 %}34{% else %}40{% endif %}" font-weight="800" fill="#fff" text-anchor="middle">{{ floor.code }}</text>
+  {%- capture nameLines %}{% include print-map/wrap.html text=floor.name max=16 %}{% endcapture %}
+  {%- assign nameLines = nameLines | split: '|' %}
+  {%- capture howLines %}{% include print-map/wrap.html text=floor.how max=27 %}{% endcapture %}
+  {%- assign howLines = howLines | split: '|' %}
+  {%- assign textH = nameLines.size | times: 36 | plus: howLines.size | times: 1 %}
+  {%- assign blockH = nameLines.size | times: 36 %}{%- assign howH = howLines.size | times: 24 %}
+  {%- assign ty = blockH | plus: howH | divided_by: 2 | minus: 26 %}{%- assign ty = cy | minus: ty %}
+  <text x="140" y="{{ ty }}" font-size="32" font-weight="700" fill="#111">{% for l in nameLines %}<tspan x="140" dy="{% if forloop.first %}0{% else %}36{% endif %}">{{ l | xml_escape }}</tspan>{% endfor %}</text>
+  {%- assign hy = nameLines.size | minus: 1 | times: 36 | plus: ty | plus: 30 %}
+  <text x="140" y="{{ hy }}" font-size="19" fill="#555">{% for l in howLines %}<tspan x="140" dy="{% if forloop.first %}0{% else %}24{% endif %}">{{ l | xml_escape }}</tspan>{% endfor %}</text>
+
+  {%- assign hereX = nil %}
+  {%- for spot in floor.spots %}
+  {%- assign sx = spot.x | times: lanePct | plus: laneX %}
+  {%- assign sw = spot.w | times: lanePct | minus: 8 %}
+  {%- comment %} Fit: shrink the label until its longest word fits, and the second line until the box fits the floor band {% endcomment %}
+  {%- assign inner = sw | minus: 14 %}
+  {%- assign longest = 1 %}{% assign lw = spot.label | split: ' ' %}{% for w in lw %}{% if w.size > longest %}{% assign longest = w.size %}{% endif %}{% endfor %}
+  {%- assign fsL = inner | times: 1.0 | divided_by: longest | divided_by: 0.6 | floor %}{% if fsL > 24 %}{% assign fsL = 24 %}{% endif %}{% if fsL < 14 %}{% assign fsL = 14 %}{% endif %}
+  {%- assign maxLabel = inner | times: 1.0 | divided_by: fsL | divided_by: 0.56 | floor %}
+  {%- capture labelLines %}{% include print-map/wrap.html text=spot.label max=maxLabel %}{% endcapture %}
+  {%- assign labelLines = labelLines | split: '|' %}
+  {%- assign second = spot.room | default: spot.sub %}
+  {%- assign fsS = 19 %}
+  {%- for attempt in (1..2) %}
+    {%- assign maxSub = inner | times: 1.0 | divided_by: fsS | divided_by: 0.52 | floor %}
+    {%- if second %}{% capture subLines %}{% include print-map/wrap.html text=second max=maxSub %}{% endcapture %}{% assign subLines = subLines | split: '|' %}{% else %}{% assign subLines = '' | split: '|' %}{% endif %}
+    {%- assign lhL = fsL | plus: 4 %}{% assign lhS = fsS | plus: 6 %}
+    {%- assign textH = labelLines.size | times: lhL %}{% assign subH = subLines.size | times: lhS %}{% assign textH = textH | plus: subH %}
+    {%- assign boxH = textH | plus: 30 %}
+    {%- assign limit = rowH | minus: 28 %}
+    {%- if boxH > limit and fsS > 15 %}{% assign fsS = 15 %}{% else %}{% break %}{% endif %}
+  {%- endfor %}
+  {%- if boxH < 96 %}{% assign boxH = 96 %}{% endif %}
+  {%- assign by = boxH | divided_by: 2 %}{%- assign by = cy | minus: by %}
+  {%- case spot.kind -%}
+    {%- when 'tech-red' -%}{%- assign fill = '#db4437' -%}{%- assign ink = '#fff' -%}
+    {%- when 'tech-blue' -%}{%- assign fill = '#4285f4' -%}{%- assign ink = '#fff' -%}
+    {%- when 'tech-other' -%}{%- assign fill = '#f4b400' -%}{%- assign ink = '#222' -%}
+    {%- when 'workshop' -%}{%- assign fill = '#ab47bc' -%}{%- assign ink = '#fff' -%}
+    {%- when 'entrepreneur' -%}{%- assign fill = '#0f9d58' -%}{%- assign ink = '#fff' -%}
+    {%- when 'village' -%}{%- assign fill = '#00796b' -%}{%- assign ink = '#fff' -%}
+    {%- when 'ctf' -%}{%- assign fill = '#37474f' -%}{%- assign ink = '#fff' -%}
+    {%- when 'food' -%}{%- assign fill = '#ef6c00' -%}{%- assign ink = '#fff' -%}
+    {%- when 'sponsor' -%}{%- assign fill = '#546e7a' -%}{%- assign ink = '#fff' -%}
+    {%- when 'info' -%}{%- assign fill = '#c2185b' -%}{%- assign ink = '#fff' -%}
+    {%- else -%}{%- assign fill = '#00838f' -%}{%- assign ink = '#fff' -%}
+  {%- endcase %}
+  <rect x="{{ sx }}" y="{{ by }}" width="{{ sw }}" height="{{ boxH }}" rx="10" fill="{{ fill }}"/>
+  {%- if include.here_floor == floor.code and include.here_spot == spot.label %}
+  {%- assign hereX = sx %}{% assign hereW = sw %}{% assign hereY = by %}{% assign hereH = boxH %}
+  {%- endif %}
+  {%- assign half = textH | divided_by: 2 %}{% assign ly = cy | minus: half | plus: fsL %}
+  {%- assign mx = sw | divided_by: 2 | plus: sx %}
+  <text x="{{ mx }}" y="{{ ly }}" font-size="{{ fsL }}" font-weight="700" fill="{{ ink }}" text-anchor="middle">{% for l in labelLines %}<tspan x="{{ mx }}" dy="{% if forloop.first %}0{% else %}{{ lhL }}{% endif %}">{{ l | xml_escape }}</tspan>{% endfor %}{% for l in subLines %}<tspan x="{{ mx }}" dy="{{ lhS }}" font-size="{{ fsS }}" font-weight="500">{{ l | xml_escape }}</tspan>{% endfor %}</text>
+  {%- endfor %}
+
+  {%- if floor.entrance %}
+  {%- assign enx = floor.entrance.x | times: lanePct | plus: laneX %}
+  <rect x="{{ enx | minus: 120 }}" y="{{ y | minus: 20 }}" width="240" height="40" rx="20" fill="#111"/>
+  <text x="{{ enx }}" y="{{ y | plus: 8 }}" font-size="20" font-weight="700" fill="#fff" text-anchor="middle">&#8595; {{ floor.entrance.label | xml_escape }}</text>
+  {%- endif %}
+
+  {%- if include.here_floor == floor.code and hereX %}
+  <!-- YOU ARE HERE: ring the spot the sign stands at, label + arrow in the clear space beside it -->
+  <rect x="{{ hereX | minus: 7 }}" y="{{ hereY | minus: 7 }}" width="{{ hereW | plus: 14 }}" height="{{ hereH | plus: 14 }}" rx="15" fill="none" stroke="#e1251b" stroke-width="6"/>
+  {%- if include.here_side == "right" %}
+  {%- assign ax1 = hereX | plus: hereW | plus: 14 %}{% assign ax2 = ax1 | plus: 46 %}
+  <path d="M{{ ax2 }} {{ cy }} H{{ ax1 | plus: 6 }} m14 -12 l-14 12 l14 12" fill="none" stroke="#e1251b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="{{ ax2 | plus: 12 }}" y="{{ cy | plus: 11 }}" font-size="30" font-weight="800" fill="#e1251b" letter-spacing="1">YOU ARE HERE</text>
+  {%- else %}
+  {%- assign ax2 = hereX | minus: 14 %}{% assign ax1 = ax2 | minus: 46 %}
+  <path d="M{{ ax1 }} {{ cy }} H{{ ax2 | minus: 6 }} m-14 -12 l14 12 l-14 12" fill="none" stroke="#e1251b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="{{ ax1 | minus: 12 }}" y="{{ cy | plus: 11 }}" font-size="30" font-weight="800" fill="#e1251b" letter-spacing="1" text-anchor="end">YOU ARE HERE</text>
+  {%- endif %}
+  {%- endif %}
+  {%- endfor %}
+
+  <!-- Stairs: on the line between a floor and the one below -->
+  {%- for floor in floors %}{% if floor.stairsDown and forloop.last == false %}
+  {%- assign sy = forloop.index | times: rowH | plus: top %}
+  {%- assign stx = floor.stairsDown | times: lanePct | plus: laneX %}
+  <g transform="translate({{ stx }} {{ sy }})"><circle r="26" fill="#fff" stroke="#111" stroke-width="3"/><polyline points="-14,11 -7,11 -7,4 0,4 0,-3 7,-3 7,-10 14,-10" fill="none" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/></g>
+  {%- endif %}{% endfor %}
+
+  <!-- Frame and footer -->
+  <line x1="40" y1="{{ top }}" x2="1960" y2="{{ top }}" stroke="#111" stroke-width="4"/>
+  <line x1="40" y1="{{ bottom }}" x2="1960" y2="{{ bottom }}" stroke="#111" stroke-width="4"/>
+  <text x="40" y="{{ bottom | plus: 50 }}" font-size="22" fill="#555">Schedule, maps and directions: <tspan font-weight="700" fill="#111">bsidesnyc.org/schedule</tspan></text>
+  <g transform="translate(1690 {{ bottom | plus: 42 }})"><circle r="16" fill="#fff" stroke="#111" stroke-width="2.5"/><polyline points="-9,7 -4.5,7 -4.5,2.5 0,2.5 0,-2 4.5,-2 4.5,-6.5 9,-6.5" fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/></g>
+  <text x="1716" y="{{ bottom | plus: 50 }}" font-size="22" fill="#555">Stairs between floors</text>
+</svg>
