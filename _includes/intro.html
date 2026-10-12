@@ -12,18 +12,26 @@
         </div>
         <!-- Not animated, so they show at once on a slow connection -->
         <!-- a div, not <nav>: the slide-out menu's styles apply to every nav element -->
-        <div class="intro-links" role="group" aria-label="Find your way">
+        <div class="intro-links" role="group" aria-label="Find your way" hidden>
             <a class="intro-link intro-link-primary intro-link-now" href="{{ site.baseurl }}/schedule/" hidden>What's on now</a>
             <a class="intro-link" href="{{ site.baseurl }}/schedule/">Schedule</a>
             <a class="intro-link" href="{{ site.baseurl }}/map/">Map</a>
         </div>
         <script>
-            /* On the event day (New York time) lead with "What's on now"; ?now=YYYY-MM-DD... overrides for testing */
+            /*
+             * Schedule/Map show from the day before to the day after the event,
+             * "What's on now" on the day itself (New York time). Decided here in
+             * the browser, so it stays right on a saved offline copy of the page.
+             * ?now=YYYY-MM-DD... overrides the date for testing.
+             */
             (function (eventDay) {
                 const override = new URLSearchParams(location.search).get("now");
                 const today = override ? override.slice(0, 10)
                     : new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York" }).format(new Date());
-                if (today === eventDay) document.querySelector(".intro-link-now").hidden = false;
+                const days = (Date.parse(today) - Date.parse(eventDay)) / 86400000;
+                if (days < -1 || days > 1) return;
+                document.querySelector(".intro-links").hidden = false;
+                if (days === 0) document.querySelector(".intro-link-now").hidden = false;
             })("{{ site.eventStartTime | slice: 0, 10 }}");
         </script>
     </div>

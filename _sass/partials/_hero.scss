@@ -81,7 +81,11 @@
         transform: translateY(-16px);
     }
 }
-// Schedule / Map (and "What's on now" on the event day) under the date
+// Schedule / Map under the date, around the event only (and "What's on
+// now" on the day): see the script in _includes/intro.html
+.intro-links[hidden] {
+    display: none;
+}
 .intro-links {
     position: relative;
     z-index: 2;
