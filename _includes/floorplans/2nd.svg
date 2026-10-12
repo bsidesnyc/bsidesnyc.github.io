@@ -1,7 +1,7 @@
 <rect class="fp-hall" x="60" y="235" width="410" height="110"/>
 <rect class="fp-void" x="480" y="72" width="676" height="424" rx="10"/>
 <text class="fp-muted" x="818" y="284">Open atrium &#8212; no event space</text>
-<a class="fp-room fp-village" href="{{ site.baseurl }}/villages/"><rect x="66" y="66" width="250" height="120" rx="8"/><text x="191" y="112">Hands-On</text><text x="191" y="142">Villages</text></a>
+<a class="fp-room fp-village" href="{{ site.baseurl }}/villages/"><rect x="66" y="66" width="250" height="120" rx="8"/><text x="191" y="98">Villages</text><text class="fp-sm" x="191" y="130">AI Security, Red Team</text><text class="fp-sm" x="191" y="154">IoT &amp; more</text></a>
 <a class="fp-room fp-ctf" href="{{ site.baseurl }}/ctf/"><rect x="326" y="66" width="140" height="120" rx="8"/><text x="396" y="126">CTFs</text></a>
 <text class="fp-muted fp-sm" x="300" y="213">Walk through the Villages to the CTFs &#8594;</text>
 <g class="fp-elev"><rect x="160" y="360" width="110" height="40" rx="6"/><text x="215" y="380">Elevators</text></g>

@@ -26,7 +26,7 @@
                 {% for spot in floor.spots %}
                 <a class="vx-spot vx-{{ spot.kind }}"{% if spot.room %} data-room="{{ spot.room }}"{% endif %} style="left: {{ spot.x }}%; width: calc({{ spot.w }}% - 4px)" href="{% if spot.link %}{{ site.baseurl }}{{ spot.link }}{% else %}#{{ floor.divId }}{% endif %}">
                     <span class="vx-spot-label">{{ spot.label }}</span>
-                    {% if spot.room %}<span class="vx-room">{{ spot.room }}</span>{% endif %}
+                    {% if spot.room %}<span class="vx-room">{{ spot.room }}</span>{% elsif spot.sub %}<span class="vx-room vx-sub">{{ spot.sub }}</span>{% endif %}
                 </a>
                 {% endfor %}
                 {% if floor.stairsDown and below %}
