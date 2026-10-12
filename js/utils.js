@@ -200,21 +200,6 @@ function createBootstrapModal(id, labelId) {
     };
 }
 
-function getSessionLevel(session) {
-    const categoryLevelId = 75411;
-    if (!session || !session.categories) {
-        return "TBD";
-    }
-    const category = session.categories.find(cat => cat.id === categoryLevelId);
-    if (category && category.categoryItems) {
-        const levelItem = category.categoryItems.find(item => item.name != null);
-        if (levelItem) {
-            return levelItem.name;
-        }
-    }
-    return "TBD";
-}
-
 function addSessionContentToModal(modalBody, session, trackName) {
     const title = document.createElement("h4");
     title.innerText = session.title;
@@ -233,10 +218,6 @@ function addSessionContentToModal(modalBody, session, trackName) {
     captionTime.innerText = "Time: " + getStartEndString(session);
     room.append(document.createElement("br"), captionTime);
 
-    const level = document.createElement("span");
-    level.classList.add("caption");
-    level.innerText = "Session Level: " + getSessionLevel(session);
-    room.append(document.createElement("br"), level);
     modalBody.append(room);
 
     const description = document.createElement("p");

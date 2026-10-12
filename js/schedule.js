@@ -7,7 +7,8 @@ async function scheduleBuilder(endpoint, baseUrl, target) {
     if ( target === "speakerBackfill" ) {
         // Nice-to-have (bios and photos in the popups): one quiet retry
         try {
-            backfillSpeakerDetails(await fetchJson(endpoint, 20000, 1), baseUrl);
+            lastSpeakers = await fetchJson(endpoint, 20000, 1);
+            backfillSpeakerDetails(lastSpeakers, baseUrl);
         } catch (e) {
             console.warn("Speaker details unavailable:", e);
         }
@@ -20,14 +21,16 @@ async function scheduleBuilder(endpoint, baseUrl, target) {
  * Fetch JSON with a timeout, retrying with backoff - a lossy conference
  * network drops requests, and one failure shouldn't leave a blank page
  */
-async function fetchJson(url, timeoutMs, retries) {
+async function fetchJson(url, timeoutMs, retries, withSavedAt) {
     for ( let attempt = 0; ; attempt++ ) {
         const controller = new AbortController();
         const timer = setTimeout(() => controller.abort(), timeoutMs);
         try {
             const response = await fetch(url, { signal: controller.signal });
             if ( !response.ok ) throw new Error("HTTP " + response.status);
-            return await response.json();
+            const data = await response.json();
+            // X-Saved-At: the service worker (sw.js) answered from its saved copy
+            return withSavedAt ? { data: data, savedAt: +response.headers.get("X-Saved-At") || 0 } : data;
         } catch (e) {
             if ( attempt >= retries ) throw e;
             await new Promise(resolve => setTimeout(resolve, 2000 * (attempt + 1)));
@@ -38,6 +41,10 @@ async function fetchJson(url, timeoutMs, retries) {
 }
 
 const SCHEDULE_CACHE_KEY = "bsidesnyc-schedule";
+const SCHEDULE_RECHECK_MS = 10 * 60 * 1000;
+let lastSpeakers = null;
+let lastGridJson = null;
+let scheduleRecheckSetUp = false;
 
 /*
  * The schedule: use the download the <head> started (window.earlyFetch),
@@ -54,28 +61,33 @@ async function loadSchedule(endpoint, baseUrl) {
         status.classList.remove("schedule-status-floating");
     };
 
-    let grid;
+    setUpScheduleRecheck(endpoint, baseUrl);
+
+    let result;
     try {
         const early = window.earlyFetch && window.earlyFetch[endpoint];
         if ( early ) delete window.earlyFetch[endpoint];
-        grid = await (early || Promise.reject()).catch(() => fetchJson(endpoint, 20000, 2));
+        result = await (early || Promise.reject()).catch(() => fetchJson(endpoint, 20000, 2, true));
     } catch (e) {
         console.warn("Schedule download failed:", e);
     }
 
-    if ( grid ) {
-        try {
-            localStorage.setItem(SCHEDULE_CACHE_KEY, JSON.stringify({ savedAt: Date.now(), grid: grid }));
-        } catch (e) { /* storage full or disabled: fine, just no offline copy */ }
+    if ( result && !result.savedAt ) {
+        saveScheduleCopy(result.data);
         say("");
-        renderSchedule(grid, baseUrl);
+        renderSchedule(result.data, baseUrl);
         return;
     }
 
+    // No signal: the service worker's saved copy, else the one in localStorage
     let saved;
-    try {
-        saved = JSON.parse(localStorage.getItem(SCHEDULE_CACHE_KEY));
-    } catch (e) { /* nothing usable saved */ }
+    if ( result ) {
+        saved = { savedAt: result.savedAt, grid: result.data };
+    } else {
+        try {
+            saved = JSON.parse(localStorage.getItem(SCHEDULE_CACHE_KEY));
+        } catch (e) { /* nothing usable saved */ }
+    }
 
     const retry = '<button type="button" class="btn btn-sm btn-outline-secondary schedule-retry">Try again</button>';
     if ( saved && saved.grid ) {
@@ -84,6 +96,8 @@ async function loadSchedule(endpoint, baseUrl) {
         // The page may jump to what's on now, so keep the note in view
         status && status.classList.add("schedule-status-floating");
         renderSchedule(saved.grid, baseUrl);
+        // A slow network can look like no signal: try again quietly soon
+        setTimeout(() => recheckSchedule(endpoint, baseUrl), 15000);
     } else {
         say("Couldn't load the schedule. Check your connection and " + retry, true);
     }
@@ -93,11 +107,58 @@ async function loadSchedule(endpoint, baseUrl) {
     });
 }
 
+function saveScheduleCopy(grid) {
+    try {
+        localStorage.setItem(SCHEDULE_CACHE_KEY, JSON.stringify({ savedAt: Date.now(), grid: grid }));
+    } catch (e) { /* storage full or disabled: fine, just no offline copy */ }
+}
+
 function renderSchedule(grid, baseUrl) {
-    // A retry can re-render: clear the previous grid and its session popups
+    // A retry or a recheck can re-render: clear the previous grid and its session popups
     document.getElementById("schedule-wrapper").replaceChildren();
     document.querySelectorAll('.modal[id^="sessionDetail-"]').forEach(modal => modal.remove());
+    lastGridJson = JSON.stringify(grid);
     populateSchedule(grid, baseUrl);
+    if ( lastSpeakers ) {
+        backfillSpeakerDetails(lastSpeakers, baseUrl);
+    }
+}
+
+/*
+ * Day-of changes in Sessionize reach pages that stay open: re-check every
+ * 10 minutes and when the page comes back to the front, and re-render (in
+ * place) only if the schedule actually changed.
+ */
+function setUpScheduleRecheck(endpoint, baseUrl) {
+    if ( scheduleRecheckSetUp ) return;
+    scheduleRecheckSetUp = true;
+    let lastCheck = Date.now();
+    const check = () => { lastCheck = Date.now(); recheckSchedule(endpoint, baseUrl); };
+    setInterval(check, SCHEDULE_RECHECK_MS);
+    document.addEventListener("visibilitychange", () => {
+        if ( !document.hidden && Date.now() - lastCheck > 2 * 60 * 1000 ) check();
+    });
+}
+
+async function recheckSchedule(endpoint, baseUrl) {
+    // Don't pull the page out from under someone reading a talk
+    if ( document.hidden || document.querySelector(".modal.show") ) return;
+    let result;
+    try {
+        result = await fetchJson(endpoint, 15000, 0, true);
+    } catch (e) {
+        return;
+    }
+    if ( result.savedAt ) return;  // still no signal: keep what's on screen
+    saveScheduleCopy(result.data);
+    const status = document.getElementById("schedule-status");
+    if ( status && status.classList.contains("schedule-status-floating") ) {
+        status.hidden = true;
+        status.classList.remove("schedule-status-floating");
+    }
+    if ( JSON.stringify(result.data) !== lastGridJson ) {
+        renderSchedule(result.data, baseUrl);
+    }
 }
 
 function sessionizeScheduleGetDayHeading(dayNumber, daySchedule) {

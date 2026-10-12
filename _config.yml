@@ -291,6 +291,23 @@ ctfHeaderMessage: ["We are so excited to offer multiple Capture The Flag (CTF) c
 ctfHeaderMessageFloor: # Visit the CTF space in the Cafeteria/Student Dining Hall (second floor, room 2.64)
 
 #-----------------------------------------------
+# Offline support (service worker: sw.js)
+#-----------------------------------------------
+# Keeps the event-day pages (schedule, map, venue, speakers) and the
+# Sessionize data on visitors' phones, so they still work with bad or no
+# signal. Nothing to do to get changes out:
+# - Schedule edits in Sessionize: phones with signal always fetch the data
+#   fresh (the saved copy is only a fallback), and an open schedule page
+#   re-checks every 10 minutes and whenever it's brought back to the front.
+# - Site changes: every deploy gets a new cache (named after the build time)
+#   and pages are fetched fresh first, so a push to master reaches phones on
+#   their next visit with signal.
+# - Emergency off switch: set enabled to false and push. Phones drop the
+#   service worker and everything it cached on their next visit.
+serviceWorker:
+  enabled: true
+
+#-----------------------------------------------
 # Sessionize Links
 #-----------------------------------------------
 sessionizeJsonSpeakerList: https://sessionize.com/api/v2/2ht8hdu4/view/Speakers
