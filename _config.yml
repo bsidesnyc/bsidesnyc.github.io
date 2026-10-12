@@ -93,6 +93,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.webp"
 navigationLinks:
  - {permalink: "/venue/", text: "Venue"}
  - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/map/", text: "Map"}
  - {permalink: "/villages/", text: "Villages"}
  - {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/speakers/", text: "Speakers"}
@@ -255,7 +256,7 @@ venuePhotosSecondary:
   - 240.webp
   - L615.webp
   - L763.webp
-venueMapsIntro: "Enter on 59th St and register on Level 1 (L), home to the Keynote and Red Track (L.63), Workshops (L.61) and the Entrepreneur Track (L.76). Take the stairs down to the Lower Level (L2) for the Blue (L2.84) and Other (L2.85) tracks. Lunch, T-shirts and sponsors are half a flight up on the Mezzanine; keep going up to the 1st floor (Hound Square) for the Career Center & Affinity Villages, then the 2nd floor for the Hands-On Villages and CTFs."
+venueMapsIntro: "Enter on 59th St and register on Level 1 (L), home to the Keynote and Red Track (L.63), Workshops (L.61) and the Entrepreneur Track (L.76). Take the stairs down to the Lower Level (L2) for the Blue (L2.84) and Other (L2.85) tracks. Lunch, T-shirts and sponsors are half a flight up on the Mezzanine; keep going up to the 1st floor (Hound Square) for the Blacks in Cybersecurity, CyberJutsu and Raíces Cyber villages, then the 2nd floor for the AI Security, Red Team and IoT villages and the CTFs."
 # svg: clean drawing in _includes/floorplans/; image: full architectural plan in img/venue/
 venueFloorMaps:
   - name: Level 1 (L)
@@ -288,6 +289,23 @@ ctfHeader: Game On!
 ctfHeaderMessage: ["We are so excited to offer multiple Capture The Flag (CTF) competitions. ",
 "Play one or play them all! All CTFs require a laptop and have both offensive and defensive challenges."]
 ctfHeaderMessageFloor: # Visit the CTF space in the Cafeteria/Student Dining Hall (second floor, room 2.64)
+
+#-----------------------------------------------
+# Offline support (service worker: sw.js)
+#-----------------------------------------------
+# Keeps the event-day pages (schedule, map, venue, speakers) and the
+# Sessionize data on visitors' phones, so they still work with bad or no
+# signal. Nothing to do to get changes out:
+# - Schedule edits in Sessionize: phones with signal always fetch the data
+#   fresh (the saved copy is only a fallback), and an open schedule page
+#   re-checks every 10 minutes and whenever it's brought back to the front.
+# - Site changes: every deploy gets a new cache (named after the build time)
+#   and pages are fetched fresh first, so a push to master reaches phones on
+#   their next visit with signal.
+# - Emergency off switch: set enabled to false and push. Phones drop the
+#   service worker and everything it cached on their next visit.
+serviceWorker:
+  enabled: true
 
 #-----------------------------------------------
 # Sessionize Links

@@ -3,6 +3,8 @@ layout: default
 title: Event Schedule
 permalink: /schedule/
 image: schedule.webp
+# On phones skip the photo so the schedule data gets the bandwidth
+mobileHero: false
 modal: all
 ---
 
@@ -34,6 +36,7 @@ WiFi / Floor Maps / Lunch Menu links, and Announcements - re-enable once ready
 <!-- Begin Schedule -->
 <section id="schedule" class="schedule">
     <h3>Schedule</h3>
+    <p class="schedule-status" id="schedule-status" role="status">Loading the schedule&hellip;</p>
     <div class="content-wrapper" id="schedule-wrapper">
     </div>
 </section>

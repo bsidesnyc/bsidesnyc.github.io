@@ -4,12 +4,160 @@ Date.prototype.addHours = function(h) {
 }
 
 async function scheduleBuilder(endpoint, baseUrl, target) {
-    const response = await fetch(endpoint);
-    const result = await response.json();
     if ( target === "speakerBackfill" ) {
-        backfillSpeakerDetails(result, baseUrl);
+        // Nice-to-have (bios and photos in the popups): one quiet retry
+        try {
+            lastSpeakers = await fetchJson(endpoint, 20000, 1);
+            backfillSpeakerDetails(lastSpeakers, baseUrl);
+        } catch (e) {
+            console.warn("Speaker details unavailable:", e);
+        }
     } else {
-        populateSchedule(result, baseUrl);
+        await loadSchedule(endpoint, baseUrl);
+    }
+}
+
+/*
+ * Fetch JSON with a timeout, retrying with backoff - a lossy conference
+ * network drops requests, and one failure shouldn't leave a blank page
+ */
+async function fetchJson(url, timeoutMs, retries, withSavedAt) {
+    for ( let attempt = 0; ; attempt++ ) {
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), timeoutMs);
+        try {
+            const response = await fetch(url, { signal: controller.signal });
+            if ( !response.ok ) throw new Error("HTTP " + response.status);
+            const data = await response.json();
+            // X-Saved-At: the service worker (sw.js) answered from its saved copy
+            return withSavedAt ? { data: data, savedAt: +response.headers.get("X-Saved-At") || 0 } : data;
+        } catch (e) {
+            if ( attempt >= retries ) throw e;
+            await new Promise(resolve => setTimeout(resolve, 2000 * (attempt + 1)));
+        } finally {
+            clearTimeout(timer);
+        }
+    }
+}
+
+const SCHEDULE_CACHE_KEY = "bsidesnyc-schedule";
+const SCHEDULE_RECHECK_MS = 10 * 60 * 1000;
+let lastSpeakers = null;
+let lastGridJson = null;
+let scheduleRecheckSetUp = false;
+
+/*
+ * The schedule: use the download the <head> started (window.earlyFetch),
+ * retry if it fails, keep the last good copy in localStorage, and fall back
+ * to that copy - with a note saying so - when Sessionize can't be reached.
+ */
+async function loadSchedule(endpoint, baseUrl) {
+    const status = document.getElementById("schedule-status");
+    const say = (html, isError) => {
+        if ( !status ) return;
+        status.innerHTML = html;
+        status.hidden = !html;
+        status.classList.toggle("schedule-status-error", !!isError);
+        status.classList.remove("schedule-status-floating");
+    };
+
+    setUpScheduleRecheck(endpoint, baseUrl);
+
+    let result;
+    try {
+        const early = window.earlyFetch && window.earlyFetch[endpoint];
+        if ( early ) delete window.earlyFetch[endpoint];
+        result = await (early || Promise.reject()).catch(() => fetchJson(endpoint, 20000, 2, true));
+    } catch (e) {
+        console.warn("Schedule download failed:", e);
+    }
+
+    if ( result && !result.savedAt ) {
+        saveScheduleCopy(result.data);
+        say("");
+        renderSchedule(result.data, baseUrl);
+        return;
+    }
+
+    // No signal: the service worker's saved copy, else the one in localStorage
+    let saved;
+    if ( result ) {
+        saved = { savedAt: result.savedAt, grid: result.data };
+    } else {
+        try {
+            saved = JSON.parse(localStorage.getItem(SCHEDULE_CACHE_KEY));
+        } catch (e) { /* nothing usable saved */ }
+    }
+
+    const retry = '<button type="button" class="btn btn-sm btn-outline-secondary schedule-retry">Try again</button>';
+    if ( saved && saved.grid ) {
+        const at = new Date(saved.savedAt).toLocaleTimeString("en-US", { timeZone: "America/New_York", hour: "numeric", minute: "2-digit" });
+        say("Couldn't reach the schedule server, so this is the copy saved on your phone at " + at + ". " + retry, true);
+        // The page may jump to what's on now, so keep the note in view
+        status && status.classList.add("schedule-status-floating");
+        renderSchedule(saved.grid, baseUrl);
+        // A slow network can look like no signal: try again quietly soon
+        setTimeout(() => recheckSchedule(endpoint, baseUrl), 15000);
+    } else {
+        say("Couldn't load the schedule. Check your connection and " + retry, true);
+    }
+    status && status.querySelector(".schedule-retry").addEventListener("click", () => {
+        say("Loading the schedule&hellip;");
+        loadSchedule(endpoint, baseUrl);
+    });
+}
+
+function saveScheduleCopy(grid) {
+    try {
+        localStorage.setItem(SCHEDULE_CACHE_KEY, JSON.stringify({ savedAt: Date.now(), grid: grid }));
+    } catch (e) { /* storage full or disabled: fine, just no offline copy */ }
+}
+
+function renderSchedule(grid, baseUrl) {
+    // A retry or a recheck can re-render: clear the previous grid and its session popups
+    document.getElementById("schedule-wrapper").replaceChildren();
+    document.querySelectorAll('.modal[id^="sessionDetail-"]').forEach(modal => modal.remove());
+    lastGridJson = JSON.stringify(grid);
+    populateSchedule(grid, baseUrl);
+    if ( lastSpeakers ) {
+        backfillSpeakerDetails(lastSpeakers, baseUrl);
+    }
+}
+
+/*
+ * Day-of changes in Sessionize reach pages that stay open: re-check every
+ * 10 minutes and when the page comes back to the front, and re-render (in
+ * place) only if the schedule actually changed.
+ */
+function setUpScheduleRecheck(endpoint, baseUrl) {
+    if ( scheduleRecheckSetUp ) return;
+    scheduleRecheckSetUp = true;
+    let lastCheck = Date.now();
+    const check = () => { lastCheck = Date.now(); recheckSchedule(endpoint, baseUrl); };
+    setInterval(check, SCHEDULE_RECHECK_MS);
+    document.addEventListener("visibilitychange", () => {
+        if ( !document.hidden && Date.now() - lastCheck > 2 * 60 * 1000 ) check();
+    });
+}
+
+async function recheckSchedule(endpoint, baseUrl) {
+    // Don't pull the page out from under someone reading a talk
+    if ( document.hidden || document.querySelector(".modal.show") ) return;
+    let result;
+    try {
+        result = await fetchJson(endpoint, 15000, 0, true);
+    } catch (e) {
+        return;
+    }
+    if ( result.savedAt ) return;  // still no signal: keep what's on screen
+    saveScheduleCopy(result.data);
+    const status = document.getElementById("schedule-status");
+    if ( status && status.classList.contains("schedule-status-floating") ) {
+        status.hidden = true;
+        status.classList.remove("schedule-status-floating");
+    }
+    if ( JSON.stringify(result.data) !== lastGridJson ) {
+        renderSchedule(result.data, baseUrl);
     }
 }
 
@@ -89,7 +237,8 @@ function addSessionToSchedule(trackSlot, trackName, session, createModals, baseU
         const speakerPosition = document.createElement("span");
         speakerPosition.classList.add("speaker-position");
         speakerPosition.id = "speakerPosition-" + speaker.id;
-        speakerPosition.innerText = undefined;
+        // Filled in by backfillSpeakerDetails once the speaker list arrives
+        speakerPosition.innerText = "";
 
         speakerName.append(speaker.name, speakerPosition);
         performer.append(speakerName);
@@ -369,9 +518,17 @@ function sessionizeSchedule(scheduleGrid, baseUrl) {
     });
 }
 
+let scheduleRendered = false;
+
 function populateSchedule(scheduleGrid, baseUrl) {
     //createSchedule(scheduleGrid, baseUrl);
     sessionizeSchedule(scheduleGrid, baseUrl);
+    if ( scheduleRendered ) {
+        // Re-render after a retry: keep the visitor's place, just re-mark "now"
+        markCurrentTimeslot();
+        return;
+    }
+    scheduleRendered = true;
     scrollToCurrentTimeslot();
     setInterval(markCurrentTimeslot, 60000);
 }
@@ -540,7 +697,7 @@ function backfillSpeakerDetails(speakers, baseUrl) {
          */
         waitForElm("#speakerPosition-" + speaker.id, speaker).then(([elements, speaker]) => {
             elements.forEach(element => {
-                element.innerText = speaker.tagLine;
+                element.innerText = speaker.tagLine || "";
             });
         });
 
@@ -556,7 +713,7 @@ function backfillSpeakerDetails(speakers, baseUrl) {
         });
         waitForElm("#speakerTagLine-" + speaker.id, speaker).then(([elements, speaker]) => {
             elements.forEach(element => {
-                element.innerText = speaker.tagLine;
+                element.innerText = speaker.tagLine || "";
                 backfillSpeakerSocial(speaker, element, baseUrl);
             });
         });

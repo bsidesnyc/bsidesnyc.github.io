@@ -81,3 +81,44 @@
         transform: translateY(-16px);
     }
 }
+// Schedule / Map under the date, around the event only (and "What's on
+// now" on the day): see the script in _includes/intro.html
+.intro-links[hidden] {
+    display: none;
+}
+.intro-links {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 28px;
+    .intro-link {
+        min-width: 120px;
+        padding: 11px 22px;
+        border: 2px solid #fff;
+        border-radius: 999px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: $fw-bold;
+        letter-spacing: .03em;
+        text-transform: uppercase;
+        transition: $base-transition;
+        &:hover, &:focus-visible {
+            background: #fff;
+            color: $color-text-heading;
+        }
+    }
+    // Darker than $main-color so white text stays readable (~4.9:1) outdoors
+    .intro-link-primary {
+        border-color: #0277bd;
+        background: #0277bd;
+        &:hover, &:focus-visible {
+            border-color: #fff;
+        }
+    }
+    .intro-link[hidden] {
+        display: none;
+    }
+}

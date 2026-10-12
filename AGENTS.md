@@ -32,10 +32,11 @@ Key sections:
 
 ### `_layouts/default.html`
 Master layout. Modernized features:
-- **Bootstrap 5.3.3**: Loaded via CDN.
+- **Bootstrap 5.3.3**: Self-hosted in `lib/bootstrap-5.3.3/` (byte-identical to the jsDelivr files). The JS loads `async`: it's only needed once someone taps.
 - **Zero jQuery**: The site is now fully Vanilla JS. jQuery has been removed entirely.
-- **Optimized Font Loading**: Uses `preconnect` and `font-display: swap` in the `<head>` for near-instant text rendering.
-- **Preloaded LCP**: Critical assets like the hero logo are preloaded.
+- **Self-hosted font**: Roboto is one variable woff2 in `fonts/roboto/` (`@font-face` in `_sass/partials/_fonts.scss`, `font-display: swap`). Deliberately not preloaded, so it doesn't compete with the CSS on a thin connection.
+- **No render-critical third parties**: CSS, JS and fonts all come from this site; only the Sessionize data is fetched from elsewhere.
+- **Preloaded LCP**: The home page hero logo is preloaded (home page only).
 - **Modular JS**: Logic for specific pages (Archive, Map) is split into standalone files and loaded with `defer`.
 
 ### CSS / SCSS
@@ -56,7 +57,7 @@ Dynamic pages fetch data via the Sessionize API using `fetch()`. The codebase us
 | File | Responsibility |
 |---|---|
 | `js/scripts.js` | Global behaviors: Sticky header (native scroll listener), IntersectionObserver for animations. |
-| `js/schedule.js` | Builds the schedule table and session modals. On the event day it marks the slot that's on now and scrolls to it (test with `?now=2026-10-17T13:20`). |
+| `js/schedule.js` | Builds the schedule table and session modals. `loadSchedule()` uses the download the layout starts in `<head>` (`window.earlyFetch`), retries with `fetchJson()`, keeps the last good copy in localStorage and falls back to it with a note. On the event day it marks the slot that's on now and scrolls to it (test with `?now=2026-10-17T13:20`). |
 | `js/speakers.js` | Builds the speaker grid. Cards "fill in" individually as images load. |
 | `js/utils.js` | **Centralized Utilities**: Contains `createBootstrapModal`, `addSessionContentToModal`, and `addSpeakerContentToModal` to ensure UI consistency. |
 | `js/archive.js` | Video modal logic and URL parsing for the Archive page. Utilizes **Plyr.js** for unified playback. |
@@ -81,11 +82,24 @@ Dynamic pages fetch data via the Sessionize API using `fetch()`. The codebase us
 
 **Update track→room mapping**: Edit `trackToRoomElements()` in `js/utils.js`.
 
+**Section background photos**: Use `{% include bg-image-style.html img=... %}` for the inline style. If `img/sections-background/<name>-sm.webp` exists (828px wide, ~quality 60), phones get it instead. A page can drop its hero photo on phones with `mobileHero: false` in its front matter (the schedule does).
+
 **Update venue maps**: The stacked all-floors overview on `/map/` is drawn from `_data/venue_overview.yml` (rough west→east positions, not to scale). Each floor's clean plan is an SVG fragment in `_includes/floorplans/`, listed under `venueFloorMaps` in `_config.yml` (`svg`, plus `image` for the original architectural plan in `img/venue/`); `_includes/floorplan-svg.html` wraps a fragment in the shared frame.
+
+**Printable venue map**: `img/venue-map-print.svg` (plus `-level-1` and `-hound-square` "YOU ARE HERE" versions) is built by Jekyll from the same `_data/venue_overview.yml` as the website's map, 2:1 like the 2025 signs. Drawn by `_includes/venue-map-print.svg`; each sign version is a three-line page in `img/` naming the floor, the spot the sign stands at and which side the label goes. Its colours mirror the SCSS ones, so keep them in step.
 
 **Room-map popup**: Room names in the schedule and session popups open `showRoomMap()` (`js/utils.js`), which clones that floor from the `<template>`s in `_includes/floorplan-templates.html` (included on `/schedule/` and `/speakers/`) and highlights the room. A track's `room` in `trackToRoomElements()` must match a `data-room` attribute in the floor SVG; its `directions` text is shown above the plan.
 
 ---
+
+**Offline support (service worker)**: `sw.js` (Jekyll-built) caches the event-day pages, their CSS/JS/font and the Sessionize data so phones keep working with bad or no signal. Switch and notes: "Offline support" in `_config.yml`.
+- Pages and Sessionize data are network-first and revalidate with the server (`cache: "no-cache"`), falling back to the saved copy only after a few seconds without an answer. Sessionize edits need no action; an open schedule page also re-checks every 10 minutes and when brought back to the front (`recheckSchedule()` in `js/schedule.js`).
+- Each deploy gets its own cache (`bsidesnyc-<build time>`); old ones are deleted. Local CSS/JS URLs carry `?v=<build time>` (`assetVersion` in the layout), so a page never runs with an older cached script. When adding a local CSS/JS tag, append `assetVersion` the same way.
+- Saved copies of Sessionize data carry an `X-Saved-At` header; the schedule shows "the copy saved on your phone at ..." when it gets one.
+- A new deploy carries over anything its install couldn't fetch from the old cache before deleting it, so a dropped connection mid-deploy never wipes a phone's offline copy. Pages and Sessionize retry once on a dropped connection; a never-saved page offline gets a small "No signal" page linking to the saved ones.
+- Off switch: `serviceWorker.enabled: false` makes `sw.js` remove itself and its caches, and the layout unregisters it.
+
+**Inline `<script>`s in layouts/includes**: `_layouts/compress.html` minifies HTML onto one line, so use `/* */` comments in inline scripts - a `//` comment swallows the rest of the script.
 
 ## Build / local dev
 

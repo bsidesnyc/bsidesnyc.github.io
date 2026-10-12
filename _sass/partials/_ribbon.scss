@@ -32,19 +32,19 @@ $wt-ribbon-border-color: #72e1b3;
         border-right: 4px solid $wt-ribbon-border-color;
     }
     .tech-red {
-        border-right: 4px solid #db4437;
+        border-right: 4px solid $track-color-tech-red;
     }
     .tech-blue {
-        border-right: 4px solid #4285f4;
+        border-right: 4px solid $track-color-tech-blue;
     }
     .tech-other {
-        border-right: 4px solid #f4b400;
+        border-right: 4px solid $track-color-tech-other;
     }
     .workshop {
-        border-right: 4px solid #0f9d58;
+        border-right: 4px solid $track-color-workshop;
     }
     .entrepreneur {
-        border-right: 4px solid #ab47bc;
+        border-right: 4px solid $track-color-entrepreneur;
     }
     .ribbon {
         font-size: 13px;

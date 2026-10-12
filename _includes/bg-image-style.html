@@ -1,0 +1,10 @@
+{%- comment -%}
+Inline style for a section background photo from img/sections-background/.
+If a phone-sized "<name>-sm.webp" sits next to it, phones get that instead
+(see .image-section[style*="--bg-sm"] in _sass/partials/_helper.scss).
+Usage: style="{% include bg-image-style.html img=page.image %}"
+{%- endcomment -%}
+{%- assign bg = include.img | prepend: '/img/sections-background/' -%}
+{%- assign sm = bg | replace: '.webp', '-sm.webp' -%}
+{%- assign has_sm = site.static_files | where: 'path', sm | size -%}
+background-image: url('{{ site.baseurl }}{{ bg }}');{% if has_sm > 0 %} --bg-sm: url('{{ site.baseurl }}{{ sm }}');{% endif %}

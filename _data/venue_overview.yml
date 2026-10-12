@@ -7,6 +7,7 @@
 #   kind       colour of the chip: tech-red, tech-blue, tech-other, workshop,
 #              entrepreneur, village, ctf, food, sponsor, info
 #   link       optional; defaults to the floor's detailed plan (divId)
+#   sub        optional second line, e.g. which villages are there (rooms use room)
 #   stairsDown x position of the staircase down to the next floor listed;
 #              keep it clear of the spots on both floors
 #   elevatorsX x position of the elevator bank drawn through every floor
@@ -21,7 +22,7 @@ floors:
     how: Stairs or elevators up from Hound Square. Walk through the Villages to reach the CTFs.
     stairsDown: 20.5
     spots:
-      - {label: "Hands-On Villages", kind: village, x: 5, w: 14, link: "/villages/"}
+      - {label: "Villages", sub: "AI Security, Red Team, IoT & more", kind: village, x: 5, w: 14, link: "/villages/"}
       - {label: "CTFs", kind: ctf, x: 22, w: 13, link: "/ctf/"}
 
   - name: 1st Floor (Hound Square)
@@ -30,7 +31,7 @@ floors:
     how: Stairs up from the Mezzanine.
     stairsDown: 39
     spots:
-      - {label: "Career Center & Affinity Villages", kind: village, x: 23, w: 14, link: "/villages/"}
+      - {label: "Villages", sub: "Blacks in Cybersecurity, CyberJutsu, Raíces Cyber", kind: village, x: 23, w: 14, link: "/villages/"}
 
   - name: Mezzanine
     code: "M"
