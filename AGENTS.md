@@ -94,6 +94,7 @@ Dynamic pages fetch data via the Sessionize API using `fetch()`. The codebase us
 - Pages and Sessionize data are network-first and revalidate with the server (`cache: "no-cache"`), falling back to the saved copy only after a few seconds without an answer. Sessionize edits need no action; an open schedule page also re-checks every 10 minutes and when brought back to the front (`recheckSchedule()` in `js/schedule.js`).
 - Each deploy gets its own cache (`bsidesnyc-<build time>`); old ones are deleted. Local CSS/JS URLs carry `?v=<build time>` (`assetVersion` in the layout), so a page never runs with an older cached script. When adding a local CSS/JS tag, append `assetVersion` the same way.
 - Saved copies of Sessionize data carry an `X-Saved-At` header; the schedule shows "the copy saved on your phone at ..." when it gets one.
+- A new deploy carries over anything its install couldn't fetch from the old cache before deleting it, so a dropped connection mid-deploy never wipes a phone's offline copy. Pages and Sessionize retry once on a dropped connection; a never-saved page offline gets a small "No signal" page linking to the saved ones.
 - Off switch: `serviceWorker.enabled: false` makes `sw.js` remove itself and its caches, and the layout unregisters it.
 
 **Inline `<script>`s in layouts/includes**: `_layouts/compress.html` minifies HTML onto one line, so use `/* */` comments in inline scripts - a `//` comment swallows the rest of the script.

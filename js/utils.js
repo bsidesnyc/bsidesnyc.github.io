@@ -21,7 +21,7 @@ function setSpeakerHeadshot(img, url, size, lazy) {
         sources.push(thumb);
         if ( thumb !== url ) sources.push(url);
     } else {
-        console.warn("No headshot in Sessionize for " + name + "; using placeholder");
+        console.info("No headshot in Sessionize for " + name + "; using placeholder");
     }
     sources.push(SPEAKER_PLACEHOLDER);
 

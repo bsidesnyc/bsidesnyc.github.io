@@ -40,10 +40,23 @@ self.addEventListener("install", event => {
 });
 
 self.addEventListener("activate", event => {
-    /* A new deploy means a new cache: drop the old ones */
-    event.waitUntil(caches.keys()
-        .then(keys => Promise.all(keys.filter(k => k.startsWith("bsidesnyc-") && k !== CACHE).map(k => caches.delete(k))))
-        .then(() => self.clients.claim()));
+    /*
+     * A new deploy means a new cache. Anything the install couldn't fetch
+     * (a dropped connection) is carried over from the old cache first, so a
+     * deploy never throws away a phone's good offline copy; then old caches go.
+     */
+    event.waitUntil(caches.keys().then(async keys => {
+        const old = keys.filter(k => k.startsWith("bsidesnyc-") && k !== CACHE);
+        const cache = await caches.open(CACHE);
+        for (const url of PRECACHE) {
+            if (await cache.match(url, { ignoreSearch: true, ignoreVary: true })) continue;
+            for (const name of old) {
+                const hit = await (await caches.open(name)).match(url, { ignoreSearch: true, ignoreVary: true });
+                if (hit) { await cache.put(url, hit); break; }
+            }
+        }
+        await Promise.all(old.map(k => caches.delete(k)));
+    }).then(() => self.clients.claim()));
 });
 
 /* Saved copies of Sessionize data carry X-Saved-At, so the page can say how old they are */
@@ -70,9 +83,12 @@ function networkFirst(event, wait, matchOptions) {
      * deploy or Sessionize edit shows up on the very next load. A navigate
      * request can't take options, hence rebuilding it from its URL.
      */
-    const fresh = req.mode === "navigate"
-        ? fetch(req.url, { cache: "no-cache", credentials: "same-origin" })
-        : fetch(req.url, { cache: "no-cache", mode: "cors", credentials: "omit" });
+    const options = req.mode === "navigate"
+        ? { cache: "no-cache", credentials: "same-origin" }
+        : { cache: "no-cache", mode: "cors", credentials: "omit" };
+    /* One retry: on a lossy network a single dropped connection is common */
+    const fresh = fetch(req.url, options)
+        .catch(() => new Promise(r => setTimeout(r, 800)).then(() => fetch(req.url, options)));
     const network = fresh.then(res => {
         const copy = res.clone();
         event.waitUntil(caches.open(CACHE).then(cache => save(cache, req, copy)));
@@ -87,9 +103,29 @@ function networkFirst(event, wait, matchOptions) {
         network.then(res => { clearTimeout(timer); if (!settled) { settled = true; resolve(res); } })
             .catch(err => {
                 clearTimeout(timer);
-                saved().then(hit => { if (!settled) { settled = true; hit ? resolve(hit) : reject(err); } });
+                saved().then(hit => {
+                    if (settled) return;
+                    settled = true;
+                    if (hit) resolve(hit);
+                    else if (req.mode === "navigate") resolve(offlinePage(req.url));
+                    else reject(err);
+                });
             });
     });
+}
+
+/* No signal and this page was never saved: point at the pages that are */
+function offlinePage(url) {
+    const link = (path, text) => '<a href="' + BASE + path + '">' + text + '</a>';
+    const html = '<!doctype html><html lang="en"><head><meta charset="utf-8">' +
+        '<meta name="viewport" content="width=device-width, initial-scale=1"><title>Offline \u2022 BSidesNYC</title>' +
+        '<style>body{margin:0;padding:48px 20px;font:17px/1.5 system-ui,sans-serif;background:#1f3a4a;color:#fff;text-align:center}' +
+        'a{display:inline-block;margin:6px;padding:11px 22px;border:2px solid #fff;border-radius:999px;color:#fff;text-decoration:none}' +
+        'p{max-width:28em;margin:0 auto 24px}</style></head><body>' +
+        '<h1>No signal right now</h1><p>This page isn\u2019t saved on your phone yet. These are:</p>' +
+        link("/schedule/", "Schedule") + link("/map/", "Map") + link("/venue/", "Venue") + link("/", "Home") +
+        '<p style="margin-top:28px"><a href="' + url.replace(/"/g, "&quot;") + '">Try again</a></p></body></html>';
+    return new Response(html, { headers: { "Content-Type": "text/html; charset=utf-8" } });
 }
 
 /* CSS/JS (build-stamped URLs), fonts, images: saved copy now, refresh in the background */
@@ -104,7 +140,10 @@ function staleWhileRevalidate(event) {
             return res;
         });
         if (hit) { event.waitUntil(network.catch(() => {})); return hit; }
-        return network;
+        /* Offline and this exact build's file isn't saved (e.g. a page carried
+           over from an older deploy): any saved version beats an unstyled page */
+        return network.catch(() => caches.match(req, { ignoreSearch: true })
+            .then(other => other || Response.error()));
     });
 }
 
@@ -115,7 +154,7 @@ self.addEventListener("fetch", event => {
     /* ignoreVary: a saved copy must still match if Sessionize varies on Origin */
     if (SESSIONIZE.includes(url.href)) return event.respondWith(networkFirst(event, 6000, { ignoreVary: true }));
     if (url.origin !== self.location.origin) return;  /* other third parties: leave alone */
-    if (req.mode === "navigate") return event.respondWith(networkFirst(event, 3500, { ignoreSearch: true }));
+    if (req.mode === "navigate") return event.respondWith(networkFirst(event, 3500, { ignoreSearch: true, ignoreVary: true }));
     event.respondWith(staleWhileRevalidate(event));
 });
 {% else %}
