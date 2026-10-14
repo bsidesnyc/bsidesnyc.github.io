@@ -249,6 +249,9 @@ registrationLink: https://events.ticketleap.com/tickets/bsidesnyc/bsidesnyc-0x06
 #-----------------------------------------------
 venueTitle: John Jay College of Criminal Justice
 venueAddress: 524 W. 59th Street, New York, NY
+# Statement John Jay asks for wherever the college is mentioned; shown in
+# the footer on every page. Leave empty to hide it.
+venueDisclaimer: "John Jay College educates fierce advocates for justice, a calling that demands robust debate, rigorous inquiry and respectful dissent. Consistent with this commitment, we support academic freedom and convene conversations reflecting multiple perspectives. The views expressed at events held at John Jay belong to the speaker(s) and do not represent the opinion of the college."
 venueWiFiSSID: John Jay Events
 venueWiFiPW: Events@Jay24
 venuePhotosPrimary: atrium.webp

@@ -33,6 +33,13 @@
 			</ul>
 		</div>
 	</div>
+	{% if site.venueDisclaimer and site.venueDisclaimer != "" %}
+	<div class="row">
+		<div class="col-12">
+			<p class="venue-disclaimer">{{ site.venueDisclaimer }}</p>
+		</div>
+	</div>
+	{% endif %}
 	<div class="row">
 		<!-- Please don't delete this line-->
 		<div class="col-md-6">

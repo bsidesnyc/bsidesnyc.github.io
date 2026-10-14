@@ -76,6 +76,8 @@ Dynamic pages fetch data via the Sessionize API using `fetch()`. The codebase us
 
 **Add a sponsor**: Add entry to `_data/sponsors.yml` under the correct tier. Update image in `img/sponsors/`.
 
+**Add a partner**: Add an entry to `_data/partners.yml` (shown under the sponsor tiers on `/sponsors/`). `imageUrl` (in `img/sponsors/`) is optional; without it the card shows the name as text.
+
 **Add a new archive year**:
 1. Create `_data/archive/YYYY.yml`.
 2. Edit `archive.html` and add `{% include archive-year.html year="YYYY" %}`.
