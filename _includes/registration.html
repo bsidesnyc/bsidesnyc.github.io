@@ -1,6 +1,13 @@
 <!-- Begin Registration Section -->
 <section id="registration" class="registration">
   <div class="col-md-8 offset-md-2 text-justify-center">
+      <!-- Always here so /registration/?soldout&waitlist can preview it (js/registration.js) -->
+      <div id="registration_soldout"{% unless site.registrationSoldOut %} hidden{% endunless %}>
+          <h1>Tickets are sold out!</h1>
+          <p>{{ site.registrationSoldOutMessage }}</p>
+          <a id="registration_waitlist_button" class="btn btn-primary" href="{{ site.registrationWaitlistLink }}" target="_blank" rel="noopener"{% unless site.registrationWaitlist %} hidden{% endunless %}>Join the waitlist</a>
+      </div>
+    {% unless site.registrationSoldOut %}
       <!-- Ok super hacker, you can see the link before others.. but it won't work until it's open... -->
       <div id="registration_open" hidden>
           <h1>Registration is Open!</h1>
@@ -13,6 +20,7 @@
           <p>Thanks for your interest in our conference! Tickets are <strong>Pay What You Can</strong>: $0, $15, $30, or $45.</p>
           <p id="registration_closed_message">When registration opens, we'll announce it on social media, Slack, and the mailing list!</p>
       </div>
+    {% endunless %}
   </div>
 </section>
 <!-- End Registration Section -->

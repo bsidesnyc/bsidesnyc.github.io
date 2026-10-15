@@ -191,7 +191,8 @@ layout: compress
         <script src="{{ "/js/registration.js" | prepend: site.baseurl | append: assetVersion }}" defer></script>
         <script>
             document.addEventListener('DOMContentLoaded', () => {
-                openRegistration({{ site.registrationOpen | jsonify }}, "{{ site.registrationOpenDate }}", "{{ site.registrationLink }}");
+                if (previewSoldOut()) return;
+                {% unless site.registrationSoldOut %}openRegistration({{ site.registrationOpen | jsonify }}, "{{ site.registrationOpenDate }}", "{{ site.registrationLink }}");{% endunless %}
             });
         </script>
     {% endif %}

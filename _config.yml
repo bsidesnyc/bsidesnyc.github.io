@@ -240,9 +240,18 @@ subscribeInfo: "^^^ Please ignore this message above from our mailing list provi
 # js/registration.js reveals the link automatically once registrationOpenDate
 # passes, without a page refresh.
 #
+# registrationSoldOut: true replaces the whole section with the sold-out
+# message. registrationWaitlist: true adds a waitlist sign-up button to it
+# (the Google Form at registrationWaitlistLink). Preview either without
+# changing them: /registration/?soldout or /registration/?soldout&waitlist
+#
 registrationOpen: True
 registrationOpenDate: "2026-09-28T20:00:00-04:00"
 registrationLink: https://events.ticketleap.com/tickets/bsidesnyc/bsidesnyc-0x06
+registrationSoldOut: true
+registrationSoldOutMessage: "Thank you all for the overwhelming interest!"
+registrationWaitlist: true
+registrationWaitlistLink: https://forms.gle/DkDiwuhAjKh5bxi88
 
 #-----------------------------------------------
 # Venue

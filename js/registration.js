@@ -35,3 +35,21 @@ function openRegistration(registrationOpen, registrationOpenDate, registrationLi
         }
     }, 1000);
 }
+
+// Preview the sold-out section without touching _config.yml:
+// /registration/?soldout shows it, /registration/?soldout&waitlist adds the
+// waitlist button. Returns true when a preview is shown.
+function previewSoldOut() {
+    const params = new URLSearchParams(location.search);
+    if (!params.has('soldout') && !params.has('waitlist')) return false;
+
+    ['registration_open', 'registration_closed'].forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) el.hidden = true;
+    });
+    document.getElementById('registration_soldout').hidden = false;
+    if (params.has('waitlist')) {
+        document.getElementById('registration_waitlist_button').hidden = false;
+    }
+    return true;
+}
