@@ -10,16 +10,15 @@ modal: all
 
 {% include top-section.html %}
 
-{% comment %}
-WiFi / Floor Maps / Lunch Menu links, and Announcements - re-enable once ready
 <section id="top-heading">
     <div class="container">
         <p><span>
             <a href="#venue-wifi">WiFi</a> -
             <a href="#venue-maps">Floor Maps</a> -
-            <a href="{{ '/assets/2025_lunchmenu.pdf' | prepend: site.baseurl }}">Lunch Menu</a>
+            <a href="{{ '/assets/2026_lunchmenu.pdf' | prepend: site.baseurl }}">Lunch Menu</a>
         </span></p>
 
+        {% comment %} Announcements - re-enable once ready
         <h4>Announcements</h4>
         <div class="row justify-content-center">
             <div class="col-12">
@@ -29,9 +28,9 @@ WiFi / Floor Maps / Lunch Menu links, and Announcements - re-enable once ready
                 </ul>
             </div>
         </div>
+        {% endcomment %}
     </div>
 </section>
-{% endcomment %}
 
 <!-- Begin Schedule -->
 <section id="schedule" class="schedule">
@@ -44,8 +43,6 @@ WiFi / Floor Maps / Lunch Menu links, and Announcements - re-enable once ready
 
 {% include venue-map.html %}
 
-{% comment %} WiFi section - re-enable once ready
 {% include venue-wifi.html %}
-{% endcomment %}
 
 
