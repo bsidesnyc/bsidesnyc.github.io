@@ -54,6 +54,8 @@ sponsors | `_config.yml` | `sponsorshipKitUrl` | new sponsorship PDF under `/ass
 tickets/registration | `_config.yml` | `ticketsOpen` |
 tickets/registration | `_config.yml` | `_config.yml` > `ticketsOpenDate` |
 tickets/registration | `_config.yml` | `_config.yml` > `ticketsButtons` | update _links_ for both `tickets_round_one` & `tickets_round_one`
+tickets/registration | `_config.yml` | `registrationSoldOut`, `registrationSoldOutMessage` | set `registrationSoldOut: true` once TicketLeap sells out
+tickets/registration | `_config.yml` | `registrationWaitlist`, `registrationWaitlistLink` | with `registrationSoldOut`, `registrationWaitlist: true` adds a waitlist button linking to the Google Form; preview both with `/registration/?soldout&waitlist`
 ctf | `/_data/ctf_judges.yml` | | as needed
 schedule | `/_data/schedule.yml` |  `date`, `dateReadable`, `tracks` > `titles`, `timeslots` > `sessionIds` | `sessionIds` map to `/_data/sessions.yml` > `id`
 schedule | `/_data/sessions.yml` | |
