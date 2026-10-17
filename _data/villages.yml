@@ -36,11 +36,6 @@
   logo: "jjcss.webp"
   handson: true
   description: "The Computer Science Society is the student-run computer science and technology club at CUNY John Jay College, giving students the skills, resources, and community to grow as leaders in STEM. They'll be running hands-on, laptop-based activities at their table throughout the day."
-- title: "Blacks in Cybersecurity"
-  url: "https://www.blacksincyberconf.com"
-  logo: "bic.webp"
-  handson: false
-  description: "Blacks in Cybersecurity is a community-driven initiative working to build the pipeline of Black practitioners in cybersecurity through meetups, workshops, conferences, and CTF events. A returning BSidesNYC village, they'll be on hand to share resources and connect with attendees looking to grow in the field."
 - title: "Red Team Village"
   url: "https://redteamvillage.io"
   logo: "rtv.webp"
@@ -57,7 +52,7 @@
   handson: true
   description: "The AI Security Village is presented by Align, a community founded at Black Hat 2024 to empower and elevate women and non-binary individuals across the entire spectrum of AI security. The village pairs hands-on AI security exercises, a CTF, and talks with Align's work in advocacy, education, and mentorship. All are welcome!"
 - title: "Script Kitty"
-  url: "https://retia.io"
+  url: "https://retia.io/collections/bsides-nyc"
   logo: "scriptkitty.webp"
   handson: true
   description: "Script Kitty is a cat-themed learning space for beginner-friendly ethical hacking, run by Retia, a team of ethical hackers, media producers, and STEM student volunteers. They bring workshops and open-source kits covering soldering, Wi-Fi hacking, bad USB attacks, and LoRa hacking, with hands-on sessions running at their Village tables throughout the day."
