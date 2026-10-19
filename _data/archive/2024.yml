@@ -22,6 +22,12 @@ schedule:
   - name: Huxley Barbee
     company: null
     title: void *huxley
+    bio: Huxley Barbee has been a fixture of the security community for over 20 years. Professionally, he was a security consultant
+      working with customers in finance, insurance, manufacturing, and higher education. Currently, he leads the security
+      engineering group at a fintech company. Beyond the day job, he is also active in the security and hacker community.
+      He started attending DEF CON in the late 90s, has spoken at many conferences throughout the US, and is the lead organizer
+      for BSidesNYC. He lives in New York. You should connect with him on social media, buy him a drink, or both.
+    photo: /img/archive/2024/speakers/huxley-barbee.webp
   description: null
   type: ceremony
   slides_url: null
@@ -36,6 +42,18 @@ schedule:
   - name: Wendy Nather
     company: null
     title: Some Kind of Cyber Professional
+    bio: 'Wendy Nather has been working in the industry for over 25 years.  She was previously Research Director at the Retail
+      ISAC, where she was responsible for advancing the state of resources and knowledge to help organizations defend their
+      infrastructure from attackers. Wendy was also Research Director of the Information Security Practice at independent
+      analyst firm 451 Research.
+
+
+      Wendy has served as a CISO in both the private and public sectors. She led IT security for the EMEA region of the investment
+      banking division of Swiss Bank Corporation (now UBS), as well as for the Texas Education Agency. Wendy was inducted
+      into the Infosecurity Europe Hall of Fame in 2021. She serves on the board of directors for Sightline Security, is a
+      Senior Fellow at the Atlantic Council''s Cyber Statecraft Initiative, and a steering committee member for the IST Ransomware
+      Task Force. She is based in Fort Collins, Colorado.'
+    photo: null
   description: Many of us have been in the industry for a long time, and we keep seeing the same problems over and over again.
     We scramble to keep up with the new technology, and the long tail of the older tech stretches ever further behind us but
     never goes away. And what's that definition of insanity again? trying the same things over and over again, expecting a
@@ -54,6 +72,16 @@ schedule:
   - name: Anshu Gupta
     company: Silicon Valley CISO Investments (SVCI)
     title: Investor, Silicon Valley CISO Investments (SVCI)
+    bio: Anshu Gupta is currently an investor with Silicon Valley CISO Investments (SVCI).  He is a senior level security
+      executive with Fortune 500 security consulting experience at Ernst & Young and KPMG where he worked at companies like
+      Microsoft, Salesforce, Oracle, Cisco, McAfee, Adobe, Yahoo, GAP, Kaiser among others. Based on advice from his mentors,
+      he then moved on to get startup experience at Coupa Software (now a public company), HelloSign (acquired by DropBox),
+      where he was the first security hire and had to build the whole security program from scratch and hire the information
+      security team as well. Anshu served as the Head of Security Engineering at Varo Bank wherein he helped them at the first
+      neobank to get FDIC approval and national OCC charter.  He also served as the VP, Security at Fast which was working
+      on solving the consumer identity and checkout experience in the Ecommerce space. Anshu last served as the VP, Security
+      and Privacy at SPAN.io
+    photo: /img/archive/2024/speakers/anshu-gupta.webp
   description: This session will delve into how to successfully engage with and raise money from cyber angel investment syndicates.
     The session will also shed light into the typical due diligence process of investors and how to avoid common mistakes.
   type: talk
@@ -69,9 +97,21 @@ schedule:
   - name: Ida Musheyev-Polishchuk
     company: Stroz Friedberg
     title: Senior Consultant at Stroz Friedberg's Digital Forensics and Incident Response
+    bio: Ida Musheyev-Polishchuk is a Senior Consultant at Stroz Friedberg’s Digital Forensics and Incident Response practice.
+      She leads and supports incident response matters including business email compromise, ransomware, and unauthorized access
+      investigations. She holds several GIAC certifications including GCFE, GCFA, GCFR, and GCIH. Ida has expertise surrounding
+      business email compromise investigations and has performed research on threat actor techniques during BECs.
+    photo: /img/archive/2024/speakers/ida-musheyev-polishchuk.webp
   - name: Natasha Vij
     company: Stroz Friedberg
     title: DFIR Consultant at Stroz Friedberg, an Aon Company
+    bio: Natasha Vij is a New York City based Consultant in the Digital Forensics and Incident Response practice of Stroz
+      Friedberg, an Aon Company. She actively investigates incident response for clients, including Fortune 500 companies,
+      non-profit organizations, government agencies.  Her skills include conducting forensic analysis of incident response
+      matters including ransomware, business email compromise, and advanced persistent threat (APT) investigations. Natasha
+      has expertise surrounding business email compromise investigations and regularly spends time researching how threat
+      actor behaviors during these incidents.
+    photo: /img/archive/2024/speakers/natasha-vij.webp
   description: As incident responders we investigate M365 Business email compromises ("BEC") daily. BEC's significantly disrupt
     operations, making swift and effective remediation essential. In this session, we will be discussing the top 10 insights
     gained from our extensive experience in investigating these matters. We will cover quick wins, data exfiltration techniques,
@@ -90,6 +130,15 @@ schedule:
   - name: Munish Walther-Puri
     company: NYU
     title: Adjunct @ NYU and Institute for Security & Technology
+    bio: 'Munish Walther-Puri (he/him) is the former and first Director of Cyber Risk for New York City Cyber Command. He
+      also teaches on cyber resiliency and critical infrastructure at NYU Center for Global Affairs and is a fellow at the
+      Institute for Security & Technology.
+
+
+      Previously, he worked at a dark web monitoring company, advised startups, and consulted independently on technology
+      and intelligence analysis. Munish is a CFR member and Fletcher Political Risk Group advisor. He is an ally for the #ShareTheMicInCyber
+      campaign and an Eagle Scout.'
+    photo: /img/archive/2024/speakers/munish-walther-puri.webp
   description: As the former director of cyber risk for NYC Cyber Command, I will share key lessons in cyber strategy for
     a federated environment, spanning scores of agencies.
   type: talk
@@ -105,6 +154,9 @@ schedule:
   - name: Nick Coblentz
     company: Virtue Security
     title: Application Penetration Team Lead at Virtue Security
+    bio: Nick has been an application penetration tester for more than 15 years. He also volunteers his time to help moderate
+      PortSwigger's discord server.
+    photo: /img/archive/2024/speakers/nick-coblentz.webp
   description: Pentesters often find it necessary to build their own Burp extensions in order to effectively carry out an
     application penetration test. This talk introduces using Kotlin to build those extensions. It then walks through example
     extensions created to solve challenges encountered in real world applications. I am also releasing an open source library
@@ -123,6 +175,8 @@ schedule:
   - name: t0mQuixote
     company: null
     title: Analyst
+    bio: Biography lorem ipsum
+    photo: /img/archive/2024/speakers/t0mquixote.webp
   description: null
   type: workshop
   slides_url: null
@@ -137,6 +191,13 @@ schedule:
   - name: halffinn
     company: FireTail
     title: Cofounder at FireTail
+    bio: Jeremy is the founder and CEO of FireTail.io, an end-to-end API security startup. Prior to FireTail, Jeremy worked
+      in M&A at Rapid7, a global cyber leader, where he worked on the acquisitions of 3 companies during the pandemic. Jeremy
+      previously led sales at DivvyCloud, one of the earliest cloud security posture management companies, and also led AWS
+      sales in southeast Asia. Jeremy started his career with 13 years in cyber and IT operations. Jeremy has an MBA from
+      Mason, a BA in computational linguistics from UNC, and has completed additional studies in Finland at Aalto University.
+      Jeremy speaks 5 languages and has lived in 5 countries.
+    photo: /img/archive/2024/speakers/halffinn.webp
   description: How do you navigate launching a point solution in the era of "platformization"?
   type: talk
   slides_url: null
@@ -151,6 +212,15 @@ schedule:
   - name: Lydia Stepanek
     company: Pen Loop Consulting
     title: Owner and Lead Engineer, Pen Loop Consulting
+    bio: 'Lydia Stepanek spent the past decade as a software and DevOps engineer working on data-related technologies at places
+      like MongoDB and Codecademy. She is the owner and lead developer of Pen Loop Consulting, specializing in improving development
+      setup processes and implementing database changes without compromising the developer experience.
+
+
+      In her free time, she builds apps – Too Phishy, her most recent, recently made the Google Workspace Top Rated – and
+      runs a cybersecurity blog that has made the front page of Hacker News multiple times. Outside of work, Lydia finds balance
+      in books and Brooklyn.'
+    photo: /img/archive/2024/speakers/lydia-stepanek.webp
   description: In the realm of cybersecurity, the battle against phishing attacks remains a perpetual challenge. While email
     providers offer spam filters and enterprises invest in sophisticated anti-phishing solutions, there's a noticeable gap
     in accessibility for the average internet user. This session delves into the journey of building an anti-phishing tool
@@ -168,9 +238,26 @@ schedule:
   - name: Tyler Schroder
     company: Yale University
     title: Director's Fellow, Digital Ethics Center at Yale University
+    bio: Tyler Schroder is a senior Computer Science BS/MS candidate at Yale University focusing on cyber security (both technical
+      and policy). Tyler is the inaugural Director's Fellow at Yale's Digital Ethics Center. He has been recognized as a CrowdStrike
+      Next-Gen Scholar and an ARRL Radio Digital Communications Scholar. His past research includes CVEs in password manager
+      applications and exploring process automation and improvement for businesses. Tyler holds a CompTIA Security Analytics
+      Professional (CySA+ Sec+ Net+ A+ Svr+), ISC2 Certified in Cyber Security, and a CrowdStrike Certified Falcon Administrator
+      and Responder. Previously IR @ Microsoft.
+    photo: /img/archive/2024/speakers/tyler-schroder.webp
   - name: Renee Sirbu
     company: Yale University
     title: Researcher, Yale Digital Ethics Center
+    bio: Renée Andrea Sirbu is a Postgraduate Associate at the Digital Ethics Center. She received her B.Sc. in Human Biology,
+      Bioethics, and Analytic Philosophy at the University of Toronto (‘21) and her M.P.H. in Health Policy and Public Health
+      Modeling from the Yale School of Public Health (‘23). Renée’s interests include information and privacy law, healthcare
+      and national cybersecurity, and AI/ML ethics. Her research is primarily focused on the ethical use of healthcare AI
+      in clinical settings, human-computer interaction, brain-computer interfaces, and the governance of AI/ML software as
+      a medical device (SaMD). She is working to create a regulatory landscape for postmortem digital autonomy, seeking to
+      answer the question “what happens to our digital selves after we die?” Renée is also an affiliate of the Faculty of
+      Medicine at Imperial College London, and an alumna trainee of the Population Health Analytics Laboratory at the Dalla
+      Lana School of Public Health (University of Toronto).
+    photo: /img/archive/2024/speakers/renee-sirbu.webp
   description: Brain-computer interfaces (BCIs) show enormous potential for advances in personalized medicine. Despite clear
     therapeutic benefits, BCIs offer a direct pathway to the brain, introducing new avenues for cyber-attacks or security
     compromises. In forthcoming original research with the Digital Ethics Center at Yale University, we make three core policy
@@ -188,9 +275,25 @@ schedule:
   - name: gl4ssesbo1
     company: null
     title: Security Engineer
+    bio: 'Bleon is an Info-sec passionate about Infrastructure Penetration Testing and Security, including Active Directory,
+      Cloud (AWS, Azure, GCP, Digital Ocean), Hybrid Infrastructures, as well as Defense, Detection and Thread Hunting. He
+      has presented in conferences like BlackHat and BSides on topics related to Cloud Penetration Testing and Security.
+
+      His research include Nebula, a Cloud Penetration Testing Framework (https://github.com/gl4ssesbo1/Nebula) and other
+      blogs, which you can also find on his blog (blog.pepperclipp.com).
+
+      He is also the author of the upcoming book "Deep Dive into Clouded Waters: An overview in Digital Ocean''s Pentest and
+      Security" (https://leanpub.com/deep-dive-into-clouded-waters-an-overview-in-digitaloceans-pentest-and-security)'
+    photo: /img/archive/2024/speakers/gl4ssesbo1.webp
   - name: Opie
     company: Permiso
     title: Senior Researcher @ Permiso P0 Labs
+    bio: Born with a screwdriver in his hand, Andy has been digging into the internals of technology since he opened his eyes
+      and in the security industry since the era of dial-up. Proudly a generalist, Andy has turned his hand at a wide swath
+      of security industry focuses on both the offensive and defensive sides over the last 25 years. When he’s not breaking
+      systems and questioning assumptions, you can find him suspiciously connecting his laptop to things, pushing buttons
+      that say “Do not press,” biking mountains, and climbing rocks.
+    photo: /img/archive/2024/speakers/opie.webp
   description: Amazon's AWSCompromisedKeyQuarantineV2 policy is not the panacea it might seem. Join us on an adventure of
     all the myriad ways to work around this policy, when you discover leaked keys in the wild. This presentation is a fun,
     multimedia exploration of all the shortcomings of the AWSCompromisedKeyQuarantineV2 policy that is attached whenever Amazon
@@ -209,6 +312,17 @@ schedule:
   - name: Charissa Kim
     company: Semgrep
     title: Technical Program Manager (Security TPM)
+    bio: 'Charissa Kim is a Security TPM at Semgrep. She has spoken on various panels and presented at conferences such as
+      the National Cryptologic Foundation (NCF), National Institute of Standards and Technology (NIST), National Initiative
+      for Cybersecurity Education (NICE), and many others. Charissa also founded Cyber Youth Tech (CyTech), a non-profit organization
+      devoted to empowering the next generation of STEM and cybersecurity professionals.
+
+
+      Furthermore, Charissa directed and produced K-12 Cyber Talk, a cybersecurity webcast sponsored by the National Security
+      Agency, providing a welcoming environment for K-12 students to learn and explore cybersecurity along with its diverse
+      career options and opportunities. She is also the first female All-American from the National CyberPatriot and Northrup
+      Grumman Nationals competition.'
+    photo: /img/archive/2024/speakers/charissa-kim.webp
   description: Over the past few months, I had the opportunity to witness Series C security startup, Semgrep, navigate its
     SOC 2 certification. I was also interested in the general understanding of SOC 2 with engineers, so I went and interviewed
     50 of them to hear their viewpoints! I uncovered surprising insights into SOC 2, GRC, and security policies. In this talk,
@@ -227,9 +341,13 @@ schedule:
   - name: Andrew Januszak
     company: null
     title: Systems Engineer and Pentester
+    bio: I work as a systems engineer in higher ed and also serve as a contract pentester for REN-ISAC.
+    photo: /img/archive/2024/speakers/andrew-januszak.webp
   - name: Keith Erekson
     company: null
     title: Systems Architect and Security Enthusiast
+    bio: Linux sysadmin for 20 years, unofficial/sometimes red- and blue-team conscript, systems architect, benevolent hacker
+    photo: /img/archive/2024/speakers/keith-erekson.webp
   description: Canaries (honeytokens, canary tokens, canary files, canary accounts, etc...) are relatively low-effort high-gain
     defensive tools. We wanted to use our existing infrastructure and tooling to implement canaries in various places across
     different services. We decided to build our own canaries, leveraging our ELK stack for data collection and our ElastAlert2
@@ -247,6 +365,12 @@ schedule:
   - name: Rashmi
     company: AWS
     title: Application Security Engineer, AWS
+    bio: Rashmi is a cybersecurity engineer specializing in application security with three years of experience in the field.
+      She has a keen expertise in safeguarding applications from cyber threats, ensuring robust and secure software environments.
+      Rashmi has worked organizations such as AWS and EA Sports, where she honed her skills and contributed to the security
+      of critical applications. Outside of work, Rashmi enjoys exploring comedy clubs, playing badminton, and reading books,
+      combining a love for both mental and physical activities.
+    photo: /img/archive/2024/speakers/rashmi.webp
   description: Quantum computing is poised to revolutionize the field of cybersecurity, introducing both unprecedented opportunities
     and significant challenges. This session will delve into the fundamental principles of quantum computing and its stark
     differences from classical computing. We will explore how quantum algorithms, like Shor's algorithm, threaten current
@@ -264,6 +388,11 @@ schedule:
   - name: Uri Aronovici
     company: ZEST Security
     title: Co-Founder & CTO - ZEST Security
+    bio: Ex Israeli intelligence with over a decade in cyber security specializing in both offensive and defensive practices
+      and operations and cloud and product security for large organizations. Uri led the security architecture activities
+      at Akamai where he oversaw global vulnerability management, product security and the company’s cloud security risk remediation
+      strategy.
+    photo: /img/archive/2024/speakers/uri-aronovici.webp
   description: Terraform by HashiCorp is a leading Infrastructure as Code (IaC) tool that enables DevOps to define and provision
     cloud infrastructure. At the heart of Terraform's functionality are many external modules, services and third-party components
     that are used for planning and deployment. We uncovered a new attack path which has high probability as it leverages commonly-used
@@ -283,6 +412,11 @@ schedule:
   - name: euphoricfall
     company: Pulsedive
     title: Cofounder & COO at Pulsedive
+    bio: Grace works closely with defensive security and CTI practitioners all over the world, ranging from local consulting
+      teams to enterprise operations. As a result, she has unique insights into the requirements and diverse traits of CTI
+      success for individuals, teams, and organizations. On the weekend, she’s a hyper-serious cooperative board gamer and
+      watercolorist.
+    photo: /img/archive/2024/speakers/euphoricfall.webp
   description: This is a true and transparent recounting about one company's journey bootstrapping in a sea of media coverage
     and interest around VC-backed investments. This talk covers the creation and organic growth of a US-based SaaS threat
     intelligence startup. Drawing from firsthand experiences, the presentation sheds light on the challenges, triumphs, and
@@ -300,9 +434,18 @@ schedule:
   - name: Jen Ozmen
     company: Google
     title: Software Engineer at Google's Web Security Team
+    bio: Jen Ozmen is a Software Engineer at Google, where she works on the Information Security Engineering team, focusing
+      on defense-in-depth mechanisms against common web vulnerabilities. She is passionate about building secure and reliable
+      software, and she is always looking for new ways to improve the security of Google's web ecosystem. She is an active
+      member of the tech community and enjoys sharing her knowledge through presentations at conferences like LibertyJS and
+      Frontrunners DC.
+    photo: /img/archive/2024/speakers/jen-ozmen.webp
   - name: Youssef Attia
     company: Google
     title: Software Engineer at Google's Web Security Team
+    bio: Youssef Attia is currently a Software Engineer on Google's Web Security team. He recently graduated from Cornell
+      CS May 2024. He was an on Google's Web Security Team and returned after graduating.
+    photo: /img/archive/2024/speakers/youssef-attia.webp
   description: DOM XSS continues to be the most critical threat to web security. It occurs when an attacker can inject malicious
     code into a web page, which can then be executed by the victim's browser. Our current best defense against DOM XSS is
     Trusted Types, a browser-based runtime feature to limit the uses of DOM APIs (and limit the possibility of DOM injection).
@@ -321,6 +464,10 @@ schedule:
   - name: Mariya Gedrich
     company: Recorded Future
     title: Threat Intelligence Analyst at Recorded Future
+    bio: Mariya Gedrich is a Threat Intelligence Analyst at Recorded Future. She is a part of the Cyber Assessments and Trends
+      (CAT) team, responsible for researching industry trends and creating strategic assessments across a broad range of topics.
+      Mariya is originally from New York City, and completed her bachelor’s degree in Computer Science at Brown University.
+    photo: /img/archive/2024/speakers/mariya-gedrich.webp
   description: In this proof of concept study, we delve into "logs" that were compromised by infostealer malware and obtained
     legally by Recorded Future. We use the large dataset of stolen data at our disposal to turn the tables on cybercriminals
     to identify criminal activity, arrive at geographic trends and make previously unseen connections between criminals.
@@ -337,6 +484,11 @@ schedule:
   - name: Scott Miller
     company: Accenture
     title: Scott Miller, Penetration Tester at Accenture
+    bio: Scott Miller is a Penetration Tester at Accenture and performs vulnerability assessments and penetration tests for
+      Accenture's clients, with his favorite domains being infrastructure and web. He enjoys traveling and attending conferences
+      and recruiting events related to security and/or diversity and inclusion. Scott is a musician and singer and also enjoys
+      fitness and doing activities like kayaking, hiking, and boxing.
+    photo: /img/archive/2024/speakers/scott-miller.webp
   description: In the ever-expanding realm of cloud computing, understanding the vulnerabilities of widely used services is
     crucial for effective penetration testing. This talk will focus on finding and exploiting vulnerabilities in Microsoft
     Azure and Azure Active Directory (AD), now called Entra ID. We will start by understanding the architecture of Azure and
@@ -355,6 +507,20 @@ schedule:
   - name: Ante Gojsalic
     company: SplxAI
     title: CTO & Co-Founder of SplxAI
+    bio: 'Ante Gojsalić is a Data & AI specialist turned entrepreneur with over a decade in software development. In 2023,
+      he jumped into the GenAI security game and founded SplxAI. The company is already crushing it, having nailed a pre-seed
+      investment round and rapidly growing a team that''s now 15-strong and counting.
+
+
+      Before starting SplxAI, Ante managed teams of 40+ software engineers and led projects all over the world. He''s delivered
+      more than 50 successful projects for big names like Ford and GM, proving he knows how to handle big, complex challenges.
+
+
+      Originally from Croatia, Ante is looking to move to the USA to take SplxAI to the next level. As a first-time founder,
+      dad, and passionate tech innovator, he''s combining his vast experience with a fresh approach to tackle GenAI security
+      challenges. Ante''s journey to the forefront of GenAI security is all about dedication, vision, and a relentless drive
+      to make things happen.'
+    photo: /img/archive/2024/speakers/ante-gojsalic.webp
   description: Ready to dive into the wild world of GenAI pentesting? Join Ante Gojsalic, CTO and Co-Founder of SplxAI, for
     a no-BS, hands-on workshop where you'll go from zero to hero in evading GenAI application defenses. This isn't your typical
     lecture - we're talking real hacking, real techniques, and real-time problem-solving. You'll learn how to spot and exploit
@@ -372,6 +538,15 @@ schedule:
   - name: Ela Dogjani
     company: Permiso
     title: Associate Threat Researcher at Permiso
+    bio: 'Ela Dogjani is an Associate Threat Researcher on Permiso Security’s P0 Labs team. Since the age of 14, Ela has been
+      deeply involved in technology, participating in numerous IT innovation competitions, trainings and cyber security conferences
+      in her home country of Albania. Her passion for cybersecurity and enthusiasm for tackling new security challenges have
+      driven her career forward, making her a valuable asset to the Permiso team.
+
+
+      Miss Dogjani is finishing her last semester to earn a Bachelor of Science in Software Engineering from the Canadian
+      Institute of Technology.'
+    photo: /img/archive/2024/speakers/ela-dogjani.webp
   description: In the complex landscape of cloud computing, effectively managing & retaining logs across multiple cloud providers
     is a vital but often daunting responsibility, especially for smaller organizations without budget for a SIEM. In this
     presentation I will publicly release CloudTail, an open-source framework designed to simplify the long-term retention
@@ -390,9 +565,33 @@ schedule:
   - name: Andi Ahmeti
     company: Permiso Security
     title: Associate Threat Researcher at Permiso Security
+    bio: 'Andi Ahmeti is an Associate Threat Researcher on Permiso Security''s P0 Labs team with 2 years of experience in
+      offensive security and threat hunting. He now is focused on hunting through product telemetry to identify undetected
+      and underrepresented evil and building tools to enrich extensive collection of cloud focused data.
+
+
+      He is the author of an open-source threat detection tool called CloudGrappler and co-author of the  Cloud Console Cartographer
+      defensive visibility framework. He has presented at numerous conferences around the world including Black Hat Asia,
+      FIRSTCON24, x33fcon, BSides Prishtina.
+
+
+      Mr. Ahmeti obtained a Bachelor of Science in Computer Engineering from the University of Prishtina Faculty of Computer
+      and Electrical Engineering (2023).'
+    photo: /img/archive/2024/speakers/andi-ahmeti.webp
   - name: Abian Morina
     company: Permiso Security
     title: Associate Threat Researcher
+    bio: Abian Morina is an Associate Threat Researcher on Permiso Security's P0 Labs team. He started his journey with computers
+      at a young age, beginning by hacking video games. At that time, he was unaware that this interest could lead to a specialized
+      field of study in security. During middle school, Abian's curiosity led him to hack cameras and speakers for fun, which
+      eventually introduced him to the world of cybersecurity. Abian's passion for cybersecurity grew as he participated in
+      various workshop and events, engaging in Capture the Flag competitions and attending security training sessions available
+      in Kosovo. Abian obtained a Bachelor's Degree in Computer Science and Engineering from the University of Business and
+      Technology. During his time as a student, he demonstrated exceptional leadership by guiding his university's Cyber Defense
+      Competition team to notable achievements, including 3rd place and 1st place in national competitions held by Iowa State
+      University, and after university continued with another 1st place win in a regional hackathon competition. Before joining
+      Permiso, Abian gained valuable experience as a freelance penetration tester and bug bounty hunter at Bugcrowd.
+    photo: /img/archive/2024/speakers/abian-morina.webp
   description: LUCR-3, also known as Scattered Spider, is a highly persistent threat actor group notorious for their sophisticated
     cloud-focused attacks. Moving beyond typical cryptomining campaigns, LUCR-3 employs advanced techniques such as push fatigue
     attacks and SIM swapping to bypass multi-factor authentication (MFA). Permiso's P0 Labs has tracked LUCR-3 for over 1.5
@@ -411,6 +610,21 @@ schedule:
     company: Helena
     title: CEO&Founder Helena | Cybersecurity SME | Keynote, Moderator, MC, Speaker | Strategic Cybersecurity Advisor |  Board
       Advisor | Board Member | Author | Podcaster | Mentor
+    bio: 'May Brooks began her tech journey in the 1990s, exploring game "cheats" and "hacks" on IRC chats. This sparked a
+      cyber career spanning from Penetration Testing to Security Architect, GRC consultant and Chief Information Security
+      Officer (CISO).
+
+      Today, she channels her extensive experience into strategic consulting, promoting innovative cybersecurity initiatives,
+      guiding startups, and mentoring professionals, through her pedagogical knowledge, technical skills, and CISO perspective.
+
+      May''s commitment to the profession is evident through her role as a member of the ISC2 Board of Directors as well as
+      a CISSP-authorized instructor and co-author.
+
+
+      As a mother of three, her biggest ambition is to make the online world a safer place. Through her podcasts and Facebook
+      community, she provides ongoing security tips and advice to tens of thousands of people. Her online courses and upcoming
+      book, "Think Safe Cyber - The Ultimate Guide to Online Safety," aims to empower an even broader audience.'
+    photo: /img/archive/2024/speakers/may-brooks.webp
   description: As a CISO I'm paid not to trust anyone, so how can you sell something to the CISO. Effective communication
     is crucial in cybersecurity, whether you're advocating for resources, explaining risks to non-technical stakeholders,
     or leading a security awareness program. This session will cover strategies for discussing cybersecurity concepts and
@@ -428,15 +642,30 @@ schedule:
   - name: Julie Agnes Sparks
     company: DataDog
     title: Security Engineer @ DataDog
+    bio: Julie Agnes Sparks is a Security Engineer specializing in threat detection, incident response, and data engineering
+      with over 7 years of security expereince. She is currently working under Security Research at DataDog and was previously
+      on Detection & Response teams at Brex and Cloudflare. In her spare time, she focuses on community building and mentorship
+      for those in security operations and those within the women in cybersecurity community.
+    photo: /img/archive/2024/speakers/julie-agnes-sparks.webp
   - name: Tammy Truong
     company: Snowflake
     title: Senior Threat Detection Engineer @ Snowflake
+    bio: Tammy Truong is a Security Engineer at Snowflake who focuses on building threat detections and more recently, on
+      insider threat. She is passionate about streamlining and scaling processes and collaborating across teams to put security
+      first.
+    photo: /img/archive/2024/speakers/tammy-truong.webp
   - name: Shannon McCormick
     company: Salesforce
     title: Sr Member of Technical Staff @ Salesforce
+    bio: Shannon McCormick is a Security Engineer specializing in threat detection and incident response. She is currently
+      a member of the Detection and Response team at Salesforce, and has previously worked in D&R teams at Stripe and AT&T.
+    photo: /img/archive/2024/speakers/shannon-mccormick.webp
   - name: xtina
     company: null
     title: Sr. Security Manager (previously @ Twitch)
+    bio: Senior Security Manager with 9 years of experience working in Detection & Response, most recently at Twitch, Stripe,
+      and NASA.
+    photo: /img/archive/2024/speakers/xtina.webp
   description: The threat landscape is always evolving. As organizations continue to get more value from public cloud providers
     and SaaS platforms, attackers have taken notice and are evolving their methodology to include this new attack surface
     area. Let's talk to several engineers about how their detection strategies are evolving to match the new cloud and SaaS
@@ -454,9 +683,34 @@ schedule:
   - name: Anita D'Amico
     company: Cotopaxi Consulting
     title: Advisor to security startups and investors, Software supply chain strategist
+    bio: 'Dr. Anita D''Amico is President of Cotopaxi Consulting, which is dedicated to technology commercialization of cybersecurity
+      innovations. She specializes in accelerating adoption of technologies that significantly impact software supply chain
+      security.  As a Vice President at Synopsys Software Integrity Group, Anita led the Products team responsible for their
+      entire industry-leading AppSec product portfolio. She also led their software supply chain security and SBOM business
+      strategy, and their product strategy for secure adoption of AI in software development.
+
+
+      Anita joined Synopsys when they acquired her startup, Code Dx, Inc. She is an innovator who has successfully completed
+      the journey from idea to prototyping and early sales, and then crossed the chasm into a successful commercial product.
+      As founder and CEO of Code Dx, Inc. she grew the business from a 6-month research project into a venture-funded commercial
+      supplier of B2B AppSec software, and acquisition by Synopsys.'
+    photo: /img/archive/2024/speakers/anita-d-amico.webp
   - name: Ken Zalevsky
     company: Vigilant Ops
     title: CEO, Vigilant Ops, Medical technology cybersecurity and SBOM expert
+    bio: 'Ken Zalevsky is the CEO of Vigilant Ops and the former head of Bayer Radiology Medical Device CyberSecurity. He
+      is a passionate advocate for improving cybersecurity across industries, with a special focus on medical technology (MedTech)
+      software.
+
+      Ken has collaborated with the US FDA, Dept. of Homeland Security, and NTIA (National Telecommunications and Information
+      Administration) on cyber simulation exercises, industry guidance documents, and SBOM initiatives. He advises medical
+      device manufacturers on cybersecurity best practices and assists hospitals in managing breaches. As Chair of the CyberSecurity
+      Working Group of DITTA and an active member of the CyberSecurity teams of MITA and AdvaMed, he is a recognized leader
+      in the field.
+
+      Ken is a certified CyberSecurity Leader from the School of Computer Science at Carnegie Mellon University and has authored
+      numerous cybersecurity whitepapers, blogs, and articles, and has been a featured speaker at many cybersecurity conferences.'
+    photo: /img/archive/2024/speakers/ken-zalevsky.webp
   description: Software suppliers produce Software Bills of Material (SBOMs) to fulfill regulatory or procurement requirements.
     But what happens to an SBOM after initial creation and what value does it really provide to an organization's cybersecurity?
     This session describes the lifecycle of an SBOM and its use in managing vulnerabilities in deployed software, with practical
@@ -474,6 +728,12 @@ schedule:
   - name: Danny Adamitis
     company: Lumen Technologies
     title: Principal Information Security Engineer
+    bio: Danny Adamitis is a principal information security engineer at Black Lotus Labs, the threat research team at Lumen
+      Technologies. Danny has tracked nation-state adversaries using both open-source and proprietary datasets in various
+      roles for several years. More recently he has focused on threats to ISPs, including campaigns in which actors targeted
+      networking equipment, Linux servers, and DNS infrastructure. Prior to joining Lumen Technologies, Daniel worked at Cisco
+      Talos. Danny has a bachelor's degree in Diplomacy and International Relations from Seton Hall University.
+    photo: /img/archive/2024/speakers/danny-adamitis.webp
   description: Last year we published our research on the HiatusRAT malware, which infected small office/home office (SOHO)
     routers of selected targets, and quietly stole access credentials for use against downstream systems. Now we'd like to
     present our latest research on a new malware that appears to have been written by the same authors, showing enhanced function
@@ -492,9 +752,15 @@ schedule:
   - name: Marcus Hallberg
     company: Spotify
     title: Senior Security Engineer, Spotify
+    bio: My name is Marcus, a security engineer at heart, and I work for Spotify in Stockholm, Sweden. I spend my time with
+      a mix of detection and response as well as cloud security where my passion is in forensics and automation. When I have
+      time off I enjoy rock climbing, folk dancing and cross-country skiing.
+    photo: /img/archive/2024/speakers/marcus-hallberg.webp
   - name: Marion Sackel
     company: Spotify
     title: Senior Security Engineer, Spotify
+    bio: I am a Security Engineer currently focusing on cloud security.
+    photo: /img/archive/2024/speakers/marion-sackel.webp
   description: We'll conduct a light-weight CTF that includes all needed resources for beginners as well as intermediate cloud
     practitioners to complete it. As a participant of the workshop, you will take the perspective of a red team and exploit
     a vulnerable Google Cloud project. After the exercise the participants will have a deeper understanding of Google Cloud
@@ -512,6 +778,14 @@ schedule:
   - name: Eldon Sprickerhoff
     company: Caledon Ventures
     title: Strategic Advisor, Caledon Ventures
+    bio: 'I am an active entrepreneur and company builder: active as an executive, investor, mentor, advisory and board member
+      at the intersections of information security, computer science, machine learning, SaaS, and finance. Within infosec,
+      I am likely best known for co-founding eSentire (a leading global cybersecurity Managed Detection and Response company).
+
+
+      With approaching 30 years of tactical information security experience, I am considered to be a subject matter expert
+      in information security analysis, particularly in regards to financial services firms on the buy-side.'
+    photo: /img/archive/2024/speakers/eldon-sprickerhoff.webp
   description: In this rapid-fire talk, attendees will learn the early steps of an entrepreneurial journey and how to overcome
     common challenges to survive in the cutthroat cybersecurity industry as a startup. By the end, participants will gain
     a clear understanding of the practical steps required to launch and grow their own cybersecurity startup, acting as the
@@ -529,6 +803,19 @@ schedule:
   - name: Moshiko
     company: Upwind Security
     title: Upwind Security, Research Lead
+    bio: 'Moshe Hassan is a seasoned cybersecurity leader with a distinguished career in both military and private sectors.
+      Since May 2023, he has led Upwind Security Research, driving innovation, content development, and press relations. Moshe
+      played a pivotal role in restoring Mamram’s cybersecurity unit during a critical three-month period, retiring from the
+      army as a Major and Group Leader.
+
+      In his military career, Moshe led six teams, overseeing 30 engineers and 10 SOC analysts. He rebuilt teams, enhanced
+      training, and developed advanced detection and prevention capabilities, earning the JI6 Commander Excellence Prize and
+      the Israel Defense Prize. He also created the first security measures for JI6 public cloud environments.
+
+      At Upwind, Moshe continues to push the boundaries of cyber defense and offense, safeguarding critical infrastructures.
+      He leads a dynamic team, addressing and discovering vulnerabilities, and has published several articles that contribute
+      to the field of cybersecurity.'
+    photo: /img/archive/2024/speakers/moshiko.webp
   description: In this presentation, we delve into a recent security research project where we discovered critical vulnerabilities
     in Google's Cloud Code, an IDE extension designed for enhancing GCP integration. Our research revealed exposed OAuth client
     IDs and secrets, which we exploited to impersonate legitimate Google tools and gain unauthorized access to GCP accounts.
@@ -545,6 +832,10 @@ schedule:
   - name: Gal Elbaz
     company: Oligo Security
     title: Co-founder & CTO at Oligo Security
+    bio: Co-founder & CTO at Oligo Security with 10+ years of experience in vulnerability research and practical hacking.
+      He previously worked as a Security Researcher at CheckPoint and served in the IDF Intelligence. In his free time, he
+      enjoys playing CTFs.
+    photo: /img/archive/2024/speakers/gal-elbaz.webp
   description: Security teams from Google to Firefox have taught the security industry a lot about isolating running programs
     from the broader system through sandboxing, which fundamentally changed the way hackers need to operate to inflict damage
     on systems. In this talk we'll present a first of its kind approach, built upon the powerful eBPF and KRSI technologies,
@@ -563,6 +854,10 @@ schedule:
   - name: Jonathan Goll
     company: CISA
     title: Cybersecurity Advisor | CISA Region 2
+    bio: Before joining federal employment in 2023 with CISA I spent 11+ years working various cybersecurity roles for DoD
+      contractors in the NY Metropolitan area. While I am not an intelligence analyst by trade, I spent more than my fair
+      share of time in a SCIF to understand the current cyber threat environment posed by our adversaries.
+    photo: /img/archive/2024/speakers/jonathan-goll.webp
   description: Volt Typhoon is a PRC sponsored threat actor who is looking to burrow deep within critical infrastructure networks.
     Current assessments indicate this is pre-positioning activity if there is an escalation that causes conflict with Taiwan.
     This briefing will cover the LOTL techniques used by Volt Typhoon, traditional attack path observed up to this point,
@@ -580,6 +875,13 @@ schedule:
   - name: Eric Olson
     company: JetBlue Airways
     title: Co. Founder; Startup Advisor; Currently also Director - Cyber Security; JetBlue Airways
+    bio: Eric helped pioneer the Cyber Intelligence space beginning in 1999, when he worked to develop some of the world's
+      first technologies and methods for mass-scale collection and exploitation of online content for threat identification.
+      Since then, Eric has led technology, development, and product management teams in hardware, software and services at
+      various cybersecurity and defense firms.  He advises cyber startups through his own firm, Polestar Analytics, and currently
+      oversees Vulnerability Management, Intelligence, Threat Detection and Incident Response as Director of Cyber Security
+      at JetBlue Airways in New York.
+    photo: /img/archive/2024/speakers/eric-olson.webp
   description: Every startup team, C-suite and Board agrees; Go fast. Get to MVP. Get to revenue. Grow. In the rush for speed,
     security is too often an afterthought. This talk will cover exactly why, and how, to do it right from the get-go.
   type: talk
@@ -595,6 +897,19 @@ schedule:
   - name: John Iwasz
     company: AVEVA
     title: Partner Technologist at AVEVA
+    bio: 'With over 25 years of experience in software development and architecture, John is a seasoned professional with
+      a wealth of knowledge and expertise. During his 12-year tenure at Microsoft, he worked with clients in the healthcare,
+      fintech, and pharmaceutical industries, utilizing his skills to deliver innovative solutions.
+
+
+      In addition to his work at Microsoft, John co-founded Whetstone Technologies, a startup that specializes in creating
+      innovative solutions for smart speakers such as Alexa and Google Home, as well as OEM devices. The company was accepted
+      into the PlayLabs incubator at MIT, showcasing John''s entrepreneurial spirit and ability to bring new ideas to fruition.
+
+
+      Currently, John works as a partner technologist at AVEVA, where he focuses on industrial IoT and cybersecurity. He is
+      dedicated to helping clients succeed through the use of cutting-edge technologies and a strong focus on quality.'
+    photo: /img/archive/2024/speakers/john-iwasz.webp
   description: Microsoft announced that the BinaryFormatter class is insecure and cannot be made secure, but how bad can it
     be? This can be exploited to launch a remote code execution exploit. We'll demo this attack and show this vulnerability
     using JSON and Newtonsoft. Demos and code samples are in C#, but this exploit is possible in any insecure deserialization
@@ -612,9 +927,14 @@ schedule:
   - name: Shelley
     company: Opal Security
     title: Opal Security
+    bio: Shelley is  a Product Manager at Opal Security. Prior to this, she was a Senior Security Engineer at Apple, Cruise,
+      and Twilio focusing on Kubernetes and Platform Security, Cloud Infrastructure Security, and Detection and Response Engineering.
+    photo: /img/archive/2024/speakers/shelley.webp
   - name: Stephen Spano
     company: Opal Security
     title: Opal Security, Software Engineer
+    bio: Software engineer at Opal Security
+    photo: /img/archive/2024/speakers/stephen-spano.webp
   description: Security teams are often tasked with safeguarding a company's most valuable assets from unauthorized access.
     As enterprises adapt their infrastructure strategies to operate in a cloud native world, large scale data storage and
     processing systems like Snowflake not only become core dependencies for businesses, but also inviting targets for attackers.
@@ -631,9 +951,19 @@ schedule:
   - name: Tristan Kalos
     company: Escape
     title: Co-founder and CEO of Escape
+    bio: Tristan Kalos, co-founder and CEO at Escape, draws from a background as a software engineer and Machine Learning
+      Researcher at UC Berkeley. Motivated by firsthand experience witnessing a client's database stolen through an API in
+      2018, he has since become an expert in API security, helping security engineers and developers worldwide building secure
+      applications. He is an experienced keynote and conference speaker, presenting at Forum InCyber, bSides, APIdays, GraphQL
+      conf, and other international software development and cyber security conferences.
+    photo: /img/archive/2024/speakers/tristan-kalos.webp
   - name: iCarossio
     company: Escape.tech
     title: Cofounder & CTO @ Escape.tech
+    bio: 'Former pentester for the French Intelligence Services.
+
+      Former Machine Learning Research @ Apple.'
+    photo: null
   description: GraphQL's capability to fetch precisely what's needed and nothing more, its efficient handling of real-time
     data, and its ease of integration with modern architectures make it a compelling choice for modern web and mobile applications.
     In this talk, security engineers will strengthen their GraphQL security skills by learning key techniques such as complexity
@@ -651,18 +981,46 @@ schedule:
   - name: JD
     company: Impart Security
     title: CEO and Co-founder, Impart Security
+    bio: Passionate about technology, security and venture; Jonathan is Co-Founder and CEO of Impart Security. Prior to founding
+      Impart, Jonathan was the VP of Product at Signal Sciences, an application security startup that sold to Fastly for $825M.
+      Prior to Signal Sciences, Jonathan was product lead at Edgecast Networks, a global content delivery network that sold
+      to Verizon for over $400M. After the sale of Edgecast Networks, Jonathan served as VP of Product at Verizon shaping
+      the digital product portfolio, leading to the acquisition of Uplynk, Volicon, AOL, and Yahoo. Jonathan started his career
+      building secure applications as a developer at the Wall Street Journal, 21 Century Fox, and Resource (acquired by IBM).
+    photo: /img/archive/2024/speakers/jd.webp
   - name: Brian McHenry
     company: Check Point
     title: Global Head of Cloud Security Engineering @ Check Point
+    bio: Brian McHenry is the Global Head of Cloud Security Engineering at Check Point Software, leading all pre-sales and
+      customer success functions for the CloudGuard portfolio. Formerly the VP of Product Management for WAF & API Security
+      at F5, Brian is passionate about aligning product strategies and solutions to more secure business outcomes. He is also
+      a co-founder of BSidesNYC, and is dedicated to making cybersecurity careers and conferences more equitable and accessible.
+    photo: /img/archive/2024/speakers/brian-mchenry.webp
   - name: Lee Weiner
     company: TrojAI
     title: CEO, TrojAI
+    bio: Lee is a board member, investor and the CEO of TrojAI, a company securing AI models.  He brings more than 25 years
+      of B2B software experience, with an extensive background in the cybersecurity sector. Lee has significant experience
+      leading early and growth stage companies to initial public offering and beyond. Prior to joining TrojAI, Lee was a senior
+      executive at Rapid7 for 11 years, leading products, engineering, and innovation as the company scaled from $40 million
+      to over $750 million in revenue. Earlier, he held senior roles with LogMeIn, Symantec, IMlogic and Netegrity.
+    photo: /img/archive/2024/speakers/lee-weiner.webp
   - name: Wesley Hales
     company: LeakSignal
     title: LeakSignal Co-Founder and CEO
+    bio: Wesley Hales is co-founder and CEO of LeakSignal, an open source cybersecurity project built to detect data leaks
+      and vulnerabilities across the data plane. He's an accredited author, engineer and cybersecurity leader who helped build
+      the the first bot detection and supply chain scanning technology at Shape Security. Before that he led open source projects
+      at Red Hat.
+    photo: /img/archive/2024/speakers/wesley-hales.webp
   - name: Justin Shattuck
     company: Resilience
     title: CSO @ Resilience
+    bio: Justin Shattuck has been a diligent security threat hunter for the last 15 years and has assisted law enforcement
+      agencies in tracking some of the industry’s most notable threat actors. Prior to Resilience, Justin used his relentless
+      pursuit of data hoarding to architect and lead engineering teams responsible for creating security solutions such as
+      Services (SaaS) in DDoS mitigation, Web Application Firewalls, and IDS/IPS and Threat Intelligence.
+    photo: /img/archive/2024/speakers/justin-shattuck.webp
   description: null
   type: panel
   slides_url: null
@@ -677,9 +1035,25 @@ schedule:
   - name: Joshua Prager
     company: SpecterOps
     title: SpecterOps, Principal Consultant, Defensive Services
+    bio: Josh Prager has over 13 years’ experience focusing on DoD red team infrastructure, cyber threat emulation and threat
+      hunting. As a former threat hunter in the Federal industry, he provided various cyber threat emulation and threat hunting
+      assessments throughout DOD environments. As a principal consultant at SpecterOps, he guides clients in developing the
+      maturity of their detection and response programs, building their detection engineering capabilities, and ensuring detective
+      and preventive coverage of offensive techniques.
+    photo: /img/archive/2024/speakers/joshua-prager.webp
   - name: Nico
     company: SpecterOps
     title: Adversary Detection Consultant - SpecterOps
+    bio: 'Josh Prager has over 13 years’ experience focusing on DoD red team infrastructure, cyber threat emulation and threat
+      hunting. As a former threat hunter for Accenture’s Adversary Research and Reconnaissance Team he developed various cyber
+      threat emulation and threat hunting programs within the Federal industry.
+
+
+      Nico is a Consultant on the Defensive Capability team. He graduated from the US Naval Academy (Beat Army) with a degree
+      in Cyber Operations. Prior to joining SpecterOps Nico served as a Surface Warfare Officer and as an Information Professional
+      Officer during his naval career. Nico loves finding new programming languages to play with and in his free time can
+      be found working on two of his other passions: music and movies.'
+    photo: /img/archive/2024/speakers/nico.webp
   description: This presentation will discuss offensive tradecraft for establishing elevated persistence within an Active
     Directory environment. We will discuss domain persistence techniques we have seen during compromise assessments and the
     adversary's attack paths to establish elevated control. For each offensive technique we discuss, we will also provide
@@ -698,6 +1072,11 @@ schedule:
   - name: Vaibhav Malik
     company: Cloudflare
     title: Vaibhav Malik, Partner Solutions Architect, Cloudflare
+    bio: Vaibhav Malik is a Global Partner Solution Architect at Cloudflare, where he works with global partners to design
+      and implement effective security solutions for their customers. With over 12 years of experience in networking, security,
+      and cloud technologies, Vaibhav is a recognized industry thought leader and expert in Zero Trust Security Architecture
+      for modern, distributed systems.
+    photo: /img/archive/2024/speakers/vaibhav-malik.webp
   description: In an age where artificial intelligence can create increasingly convincing fake videos and audio, the integrity
     of our democratic processes faces unprecedented challenges. This session delves into the technical landscape of deepfakes
     in political manipulation, exploring their potential to undermine election integrity and the cutting-edge cybersecurity
@@ -715,6 +1094,11 @@ schedule:
   - name: Joseph Edwards
     company: SentinelOne
     title: Staff DFIR Investigator at SentinelOne
+    bio: Joseph works in Digital Forensics and Incident Response at SentinelOne. Previously, he worked as Senior Malware Researcher
+      at ReversingLabs, focusing on malware delivery in uncommon file formats and supply chain threats. He has performed investigations
+      and malware analysis at manufacturing and technology organizations, and his research interests include industrial control
+      systems malware, IoT device forensics and especially evasive malware.
+    photo: /img/archive/2024/speakers/joseph-edwards.webp
   description: As malware analysts, the current mode of static reverse engineering in our space has us in a constant game
     of catch-up against unfriendly compilers, virtualization-based obfuscators and large binaries that generally break our
     tools and frustrate us. Our thinking is rooted in quaint beliefs about always being able to reconstruct original source
@@ -732,6 +1116,8 @@ schedule:
   - name: t0mQuixote
     company: null
     title: Analyst
+    bio: Biography lorem ipsum
+    photo: /img/archive/2024/speakers/t0mquixote.webp
   description: null
   type: workshop
   slides_url: null
@@ -746,6 +1132,18 @@ schedule:
   - name: Anita D'Amico
     company: Cotopaxi Consulting
     title: Advisor to security startups and investors, Software supply chain strategist
+    bio: 'Dr. Anita D''Amico is President of Cotopaxi Consulting, which is dedicated to technology commercialization of cybersecurity
+      innovations. She specializes in accelerating adoption of technologies that significantly impact software supply chain
+      security.  As a Vice President at Synopsys Software Integrity Group, Anita led the Products team responsible for their
+      entire industry-leading AppSec product portfolio. She also led their software supply chain security and SBOM business
+      strategy, and their product strategy for secure adoption of AI in software development.
+
+
+      Anita joined Synopsys when they acquired her startup, Code Dx, Inc. She is an innovator who has successfully completed
+      the journey from idea to prototyping and early sales, and then crossed the chasm into a successful commercial product.
+      As founder and CEO of Code Dx, Inc. she grew the business from a 6-month research project into a venture-funded commercial
+      supplier of B2B AppSec software, and acquisition by Synopsys.'
+    photo: /img/archive/2024/speakers/anita-d-amico.webp
   description: The speaker shares her story and lessons learned accumulated during an 11-year journey that began with a $99,000
     6-month government-funded research project and ended with her selling her startup to a publicly-traded company and serving
     as VP of Products at the U.S.'s leading provider of AppSec solutions.
@@ -762,9 +1160,23 @@ schedule:
   - name: Matt Kiely | HuskyHacks
     company: Huntress Labs
     title: HuskyHacks | Principal Security Researcher @ Huntress Labs
+    bio: Learn. Teach. Build. Repeat. Matt Kiely (HuskyHacks) is a cybersecurity practitioner with 12 years of experience
+      in offensive security research, malware reverse engineering, and network administration. Matt is a Principal Security
+      Researcher at Huntress Labs, where he spends most of his time turning cybercriminals into examples. He is also the creator
+      and instructor of Practical Malware Analysis & Triage (PMAT) available on TCM Security Academy and has a combined 40k
+      students under his tutelage across the globe. Matt thru-hiked the 2200 miles of the Appalachian Trail in 2023 to prevent
+      anyone from telling him to “touch grass” ever again.
+    photo: /img/archive/2024/speakers/matt-kiely-huskyhacks.webp
   - name: Christina Parry
     company: Huntress
     title: Staff ThreatOps Developer @ Huntress
+    bio: Christina Parry is a Staff ThreatOps Developer at Huntress. She is a TPM turned security engineer with 8+ years of
+      experience in tech and security, specializing in detection engineering, automation, and open-source software. From her
+      previous experiences at Morgan Stanley and Twitter/X, she has a penchant for building high-impact, scalable software
+      solutions to automate everyday security workflows and elevate detection and response teams. She  loves to give back
+      to the community by partnering with mentoring programs for women and underrepresented groups, giving talks to educate
+      the community on open-source technologies, and can be found at BSides LV and NYC.
+    photo: /img/archive/2024/speakers/christina-parry.webp
   description: Apps are not always your friend! In the Azure ecosystem, applications are a core part of the end user experience.
     But when these apps go rogue, what kinds of havoc ensues? How are applications leveraged by attackers to persist, infect,
     and bypass MFA? More importantly, how do we hunt these rogue apps down at scale?
@@ -781,6 +1193,11 @@ schedule:
   - name: Luke Jennings
     company: Push Security
     title: VP, R&D, Push Security
+    bio: Luke Jennings is a security researcher from the UK. He spent most of his early career focused on red teaming and
+      offensive security research at MWR, before moving on to developing new detection and response techniques and designing
+      EDR software as the Chief Research Officer for Countercept. He has now pivoted away from the endpoint to focusing on
+      emerging identity attacks as VP of R&D at Push Security.
+    photo: /img/archive/2024/speakers/luke-jennings.webp
   description: In the past, we thought of cyber-attacks in terms of recon, port scanning, enumeration, vulnerability identification
     and exploitation. As the cat-and-mouse game of security continued, this morphed into an endpoint compromise-focused process.
     But with the remote working and SaaS revolution, the way organizations work has changed radically - so what does the cyber
@@ -798,6 +1215,15 @@ schedule:
   - name: DevSecYoad
     company: Myrror Security
     title: DevOps Lead | Co-Founder & CEO at Myrror Security
+    bio: 'I''m a DevOps engineer with over 14 years of experience in IT, DevOps, and DevSecOps.
+
+      I''ve designed, built, and secured complex Cloud and On-Prem projects for both startups and large corporations.
+
+      At Microsoft, I led a team of DevOps engineers, and we took part in the incident response when Microsoft was hit by
+      the Solarwinds attack. This experience motivated me to start Myrror to address future software supply chain threats.
+
+      I''m a cat enthusiast and enjoy hitting the drums in my spare time.'
+    photo: /img/archive/2024/speakers/devsecyoad.webp
   description: 'Why did an individual, non-security-related person discover the XZ attack on such an important upstream open-source
     project as the XZ Utils? Four years after the SolarWinds attack and three years after the UA-Parser attack, we still see
     confusion about vulnerabilities, zero-days, and intentional attacks. In this session, we will spotlight a critical yet
@@ -815,6 +1241,14 @@ schedule:
   - name: Ross Haleliuk
     company: LimaCharlie
     title: 'Author of ''Cyber for Builders: The Essential Guide to Building a Cybersecurity Startup'''
+    bio: 'Ross is a head of product at LimaCharlie - a startup that enables organisations to detect & respond to threats,
+      automate processes, and future-proof their security operations. His areas of expertise include go-to-market and product
+      strategy, B2B product-led growth, strategic positioning, product-market fit expansion, operations, fundraising, and
+      growth. Outside of work, Ross is a startup advisor, angel investor, frequent contributor to TechCrunch, Forbes, and
+      VentureBeat, and author of VentureinSecurity.net. Ross’s book, ‘Cyber for Builders: The Essential Guide to Building
+      a Cybersecurity Startup’, became an instant Amazon best seller and is recognized as a critical read for any aspiring
+      and early-stage security entrepreneur.'
+    photo: /img/archive/2024/speakers/ross-haleliuk.webp
   description: Building products customers love is hard. Building cybersecurity products customers love is much harder. While
     the nature of product management doesn't change from one industry to another, the truth is that many commonly accepted
     product management best practices do not work to the same degree, or have a different shape when implemented in cybersecurity.
@@ -831,6 +1265,12 @@ schedule:
   - name: Jeff
     company: null
     title: Penetration Tester
+    bio: Jeff Tomkiewicz is a Offensive Security Engineer for a Healthcare Fortune 40 organization, where he specializes in
+      network penetration testing, social engineering, and physical penetration testing. With a rich background as a 21-year
+      Air Force veteran, Jeff has served in various capacities, including K9 handler and trainer, Intelligence, and Special
+      Operations. Residing in Colorado Springs, CO, Jeff enjoys spanning interests outside of his professional life to include
+      horror films, performing in improv shows, Muay Thai, gardening, and raising chickens.
+    photo: /img/archive/2024/speakers/jeff.webp
   description: This presentation delves into the critical issue of common network misconfigurations in large organizations
     as highlighted by a joint cybersecurity advisory from the NSA and CISA. Focusing specifically on Microsoft Active Directory
     (AD), the talk explores the top 10 security vulnerabilities that cyber actors often exploit.
@@ -847,6 +1287,13 @@ schedule:
   - name: eyrsec
     company: Zendesk
     title: Senior Product Security Engineer, Zendesk
+    bio: Nandita is a security professional with over 8 years of experience across security consulting and product security.
+      She enjoys brainstorming and discussing all things security - technologies, tools and processes - especially pertaining
+      to web and mobile applications, threat modeling, and secure development training. At present, she works at Zendesk as
+      a Senior Product Security Engineer. This allows her to dabble across security engagements, penetration testing, security
+      champions program, and security tooling. Her current focus is on API security, and strategizing and implementing secure
+      solutions at scale. Nandita lives in Herndon, VA where she enjoys running, and hiking with her family.
+    photo: /img/archive/2024/speakers/eyrsec.webp
   description: This talk will address an implementation of generative AI, with the goal of understanding what this means for
     an organization's security posture, and managing associated risk. The first 15 minutes of the talk will focus on a demo
     app showing an integration of generative AI as a product feature. The rest of the session will focus on managing risk
@@ -864,6 +1311,10 @@ schedule:
   - name: Dmitry
     company: null
     title: Research Specialist
+    bio: Dmitry Bestuzhev is a Cybersecurity Expert with over 20 years of experience in the industry and education sectors.
+      He has held senior positions at BlackBerry (Senior Director, CTI) and Kaspersky (Head of GReAT, Latin America), leading
+      cybersecurity teams. Currently, he conducts independent research and supports non-profit educational initiatives.
+    photo: /img/archive/2024/speakers/dmitry.webp
   description: We ran into the North Korean APT group Kimsuky's network infrastructure evolution from 2019 to 2024, correlating
     changes with major geopolitical events, focusing on intel related to South Korean policies, international perspectives
     on NK, and advanced military technologies. Our paper reveals adaptable approach to command and control (C2) infrastructure
@@ -881,6 +1332,21 @@ schedule:
   - name: Ben
     company: DataDome
     title: Co-founder & CEO, DataDome
+    bio: 'Benjamin Fabre is the co-founder & CEO of DataDome, a leading AI-powered cyberfraud platform. A serial entrepreneur
+      with a proven-track record, Benjamin boasts nearly 20 years’ experience in scalable web infrastructure, AI-powered data
+      stream processing, & SaaS technologies.
+
+
+      Under Benjamin''s leadership, DataDome has consistently been recognized as a leader in its field. The platform was named
+      a Leader in The Forrester Wave™ Bot Management Software 2024 report, is consistently ranked as a G2 Leader, & was honored
+      as one of G2’s Best Security Products of 2024. The company  has placed on both the Inc. 500 and Deloitte Technology
+      Fast 500 lists.
+
+
+      Before founding DataDome, Benjamin co-founded and led TrendyBuzz to a successful exit, with the company being acquired
+      by LinkFluence. He is also an active member of the Forbes Technology Council, serves on the Executive Board of La French
+      Tech New York & is an investor at Irregular Expressions.'
+    photo: /img/archive/2024/speakers/ben.webp
   description: Join Benjamin Fabre, co-founder and CEO of DataDome, as he shares invaluable lessons learned from building,
     running and growing a cybersecurity company. Within 9 short years, Benjamin has grown DataDome from a small, French startup
     to a global, Series C-funded, award-winning company with headquarters in New York, Paris and Singapore.
@@ -897,6 +1363,12 @@ schedule:
   - name: Huxley Barbee
     company: null
     title: void *huxley
+    bio: Huxley Barbee has been a fixture of the security community for over 20 years. Professionally, he was a security consultant
+      working with customers in finance, insurance, manufacturing, and higher education. Currently, he leads the security
+      engineering group at a fintech company. Beyond the day job, he is also active in the security and hacker community.
+      He started attending DEF CON in the late 90s, has spoken at many conferences throughout the US, and is the lead organizer
+      for BSidesNYC. He lives in New York. You should connect with him on social media, buy him a drink, or both.
+    photo: /img/archive/2024/speakers/huxley-barbee.webp
   description: null
   type: ceremony
   slides_url: null

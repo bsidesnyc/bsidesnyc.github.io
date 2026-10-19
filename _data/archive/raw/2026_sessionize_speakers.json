@@ -1,0 +1,3100 @@
+[
+  {
+    "id": "a30e285f-ab11-4e31-887d-d7925b83e30f",
+    "firstName": "Amir",
+    "lastName": "Kavousian",
+    "fullName": "Amir Kavousian",
+    "bio": "Amir Kavousian is a two-time cybersecurity founder and the CEO of DevArmor, an AI-native platform reinventing threat modeling and security design reviews for the AI era. Previously, he was co-founder and CTO of Altitude Networks (acquired by CoinList), where he led engineering and security for Fortune 500 clients. He also led engineering teams at Capital One and holds a PhD in Engineering from Stanford.\r\n\r\nAt DevArmor, Amir is tackling one of the most persistent challenges in AppSec: scaling secure-by-design practices without compromising developer speed. His team is building AI agents that automate threat modeling and security reviews, identify logic flaws, and embed security guardrails directly into development workflows.\r\n\r\nAmir lives in the Bay Area with his wife and two daughters. Outside of work, he’s an avid tennis player, a runner, and a former mountaineer hoping to return to high altitudes someday.",
+    "tagLine": "Founder & CEO, DevArmor",
+    "profilePicture": "https://cdn.sessionize.com/image/75f4-400o400o1-QGQDZA9KTquTdEByy2TgVP.jpg",
+    "sessions": [
+      {
+        "id": 1290424,
+        "name": "Content as Go-To-Market: Build a Category, Not a Funnel"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/kavousian",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/amir-kavousian/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "c833ea85-a860-425b-809c-1e53db35a3ae",
+    "firstName": "Andre",
+    "lastName": "Piazza",
+    "fullName": "Andre Piazza",
+    "bio": "Andre Piazza is a cybersecurity strategist at BforeAI who works left of boom, catching adversary infrastructure during its staging window, before ransomware, account fraud, or brand and supplier impersonation reaches a target. He treats attacks as infrastructure and behavior rather than content, working from public signals like WHOIS, DNS, certificate transparency, and ASN data, and linking domains by registration velocity, shared certificate fingerprints, and hosting overlap to surface lookalike infrastructure before it goes live. His work spans verification fraud, impersonation built with AI, scams that spin up around breaking news, and operational technology. He turns published threat research into methods practitioners can use the next day, and he is a regular speaker at the SANS AI Cybersecurity Summit, BSides conferences including Seattle and Charm, Hou.Sec.Con, and Cybr.Hak.Con. He weighs the human trust attackers exploit as heavily as the technology.",
+    "tagLine": "Cybersecurity Strategist at BforeAI",
+    "profilePicture": "https://cdn.sessionize.com/image/1d92-400o400o1-agQnK8YC4yh5HpquDrz1gY.jpg",
+    "sessions": [
+      {
+        "id": 1286504,
+        "name": "Verified Lies: Hunting Identity Fraud Infrastructure Behind Fake Verification Flows"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/andrepiazza",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "4e0fbb38-70ee-4002-8d2c-fb7ad256d41b",
+    "firstName": "Andrew",
+    "lastName": "Case",
+    "fullName": "Andrew Case",
+    "bio": "Andrew Case is the Director of Research at Volexity, and has significant experience in incident response handling and malware analysis. He has conducted numerous large-scale investigations that span enterprises and industries. Case is a core developer of the Volatility memory analysis framework, and a co-author of the highly popular and technical forensics analysis book “The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory.” He has presented at major industry conferences, including BSidesNYC, Black Hat, DEF CON, RSA, SecTor, DFRWS, and OMFW.",
+    "tagLine": "Director of Research, Volexity",
+    "profilePicture": "https://cdn.sessionize.com/image/99f7-400o400o1-3Lbi14dhfAgFmwyTzR4WwW.jpg",
+    "sessions": [
+      {
+        "id": 1237944,
+        "name": "Finding Evil Fast: Windows Memory Triage with Volatility 3"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/attrc",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/andrewcase/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": "attrc.bsky.social",
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "769dcede-1da2-4c51-81e5-0f78c6ec39be",
+    "firstName": "Anil",
+    "lastName": "Gali",
+    "fullName": "Anil Gali",
+    "bio": "Anil Gali is a security researcher and engineer specializing in application security, cloud credential management, and vulnerability analysis. He has led investigations uncovering runtime secrets in production environments and contributed to improving secure coding standards across enterprise teams. His research bridges bug‑bounty insights with scalable security engineering, offering actionable lessons for developers and security professionals alik",
+    "tagLine": "Sr. Security Engineer",
+    "profilePicture": "https://cdn.sessionize.com/image/55ce-400o400o1-QPiFEnz2yWYPCdsUwCmdv1.png",
+    "sessions": [
+      {
+        "id": 1211489,
+        "name": "Secrets That Survive Everything: Finding Runtime Credentials in Production Web Applications"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "f588d03d-0ebf-4d0a-a8d1-ffad7d05edb8",
+    "firstName": "Antoine",
+    "lastName": "Valadon",
+    "fullName": "Antoine Valadon",
+    "bio": "Antoine is a Physics and Computer Science student at the University of Arizona, focused on cyber threat intelligence and the crossover between scientific computing and security. Based in the University of Arizona's Lunar and Planetary Laboratory, his research under the deputy PI of NASA's HelioSwarm mission applies physics-informed machine learning to reconstruct turbulent plasma fields. His security background spans SOC analysis, federal cloud incident-response training provided by DHS/CISA, and competitive CTFs. He is also a participant in an NSF-funded quantum computing CyberTraining program. He is especially interested in bringing scientific problem-solving approaches to practical threat detection.",
+    "tagLine": "Threat Intelligence & Applied Physics-Informed ML Researcher | University of Arizona",
+    "profilePicture": "https://cdn.sessionize.com/image/724c-400o400o1-4EcxDr3qBVaViG8UHkE6WQ.jpg",
+    "sessions": [
+      {
+        "id": 1290515,
+        "name": "You're Qilin Me! Dissecting Qilin's 2026 Attack on TWU Local 100"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "26bcf75b-f004-415d-8d34-3513c80bf1ca",
+    "firstName": "Ariel",
+    "lastName": "Fogel",
+    "fullName": "Ariel Fogel",
+    "bio": "Ariel Fogel is a founding engineer & researcher at Pillar Security, where he hardens AI applications against real-world attacks and compliance risks. Over the past decade, he has built production systems in a variety of different domains, shipping everything from full-stack web apps to data analytics pipelines. His academic and professional research work spans data-science methods, learning analytics, health policy, and cybersecurity. In addition in addition to publishing research on a novel attack surfaces in the AI supply chain, he is an active member of the OWASP community. Among the initiatives he has been involved, he co-led the OWASP State of Agentic AI Security and Governance Report V2, was the section lead in the OWASP Securing Agentic Applications Guide V2, and is a core team member of OWASP's Agent Control Standard.",
+    "tagLine": "AI Security Researcher @ Office of the CTO, Pillar Security",
+    "profilePicture": "https://cdn.sessionize.com/image/23c7-400o400o1-UD6LB1c3GKGRwYS56aGkjk.jpg",
+    "sessions": [
+      {
+        "id": 1285477,
+        "name": "Weirder Machines: Compositional Attack Surfaces at the LLM-Tool Boundary"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/arielfogel/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "69b5d36d-fbb1-4392-b4a7-58a5f4006c58",
+    "firstName": "Arjun Sai Ranga",
+    "lastName": "Katneni",
+    "fullName": "Arjun Sai Ranga Katneni",
+    "bio": "Lead Security Engineer who owns SOC operations and vulnerability management at scale, spending most days thinking about what could go wrong so other people don't have to. \r\nBackground spans incident response, threat intelligence, detection engineering, machine learning security, and CI/CD security, with work that has included building detection systems, automating remediation, and open-sourcing a few tools along the way. Currently pursuing a PhD in Cyber Engineering, mostly because thinking about hard security problems during the day apparently wasn't enough. \r\nMost interested in making security an enabler rather than a gatekeeper, whether through mentoring or better defenses.",
+    "tagLine": "Lead Security Engineer",
+    "profilePicture": "https://cdn.sessionize.com/image/a1d2-400o400o1-S4hzNM5B1TKkbrDa1SfnEc.jpg",
+    "sessions": [
+      {
+        "id": 1254091,
+        "name": "IAM for AI: How Agentic Systems Break Traditional Threat Models"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/ArjunKatneni",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/arjunkatneni",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": "@arjunkatneni@infosec.exchange",
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": "sec-d.tech",
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "3017056c-debd-437e-9f43-dd9e12ff8c0d",
+    "firstName": "Bar",
+    "lastName": "Matalon",
+    "fullName": "Bar Matalon",
+    "bio": "Bar Matalon is the Threat Intelligence Team Lead at Palo Alto Networks’ Cortex research department, and has over a decade of experience in cyber intelligence research. After years of working in the defense sector, Matalon was a threat intelligence researcher for several international companies, including Novartis Pharmaceuticals and Intel Corporation. ",
+    "tagLine": "Threat Intelligence Team Lead @ Palo Alto Networks",
+    "profilePicture": "https://cdn.sessionize.com/image/ce65-400o400o1-39QwA6WiCev7oZ5JLsDFym.jpg",
+    "sessions": [
+      {
+        "id": 1290452,
+        "name": "Thinking Outside the Package: Hunting Supply Chain Behavior from the Endpoint Perspective"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/bar-matalon-5a87aa184/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "d4b59acd-b298-47bb-97fb-aeeec44f8357",
+    "firstName": "Betzabeth",
+    "lastName": "Narvaez",
+    "fullName": "Betzabeth Narvaez",
+    "bio": "Betzabeth is a cyber threat intelligence specialist with a background in data engineering, analytics, and API development. After discovering a passion for cybersecurity, she pivoted into CTI by building on her technical foundation through self-directed  upskilling. Betzabeth is especially passionate about making cyber threat intelligence more accessible and approachable for beginners.",
+    "tagLine": "Cyber Threat Intelligence Specialist",
+    "profilePicture": "https://cdn.sessionize.com/image/e3a5-400o400o1-RG3mYND13oK2ZGYV2zP2rJ.png",
+    "sessions": [
+      {
+        "id": 1288293,
+        "name": "Build, Lure, Learn: A Beginner’s Introduction to AWS Honeypots for Cyber Threat Intelligence"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/betzabeth-narvaez/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465181,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "7b8a7a0e-4194-4873-9b21-81066867c12e",
+    "firstName": "Carlota",
+    "lastName": "Sage",
+    "fullName": "Carlota Sage",
+    "bio": "Raised in the wilds of Alabama by angry chickens and crazy people, Wolfpack-educated in the Tar Hell/Blue Devil state, and indoctrinated into Security by Silicon Valley appliance vendors (which are either wolves or angry chickens…maybe both), Carlota has returned to the east coast, where she serves as a vCISO at Pocket CISO. When not picking other peoples’ brains for minutia, she strings beads, destroys cars, drinks whiskey and screams into the dark, dark void that is known as the Internet.",
+    "tagLine": "Sometimes CEO, virtual CISO, full-time problem solver",
+    "profilePicture": "https://cdn.sessionize.com/image/a644-400o400o1-0e-4194-4873-9b21-81066867c12e.0ce24b92-5ef5-463b-8016-ebfeb2c45428.png",
+    "sessions": [
+      {
+        "id": 1238037,
+        "name": "Self Employment Sucks, But Do It Anyway"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/carlotasage/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465182,
+            "name": "they/them"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "f7037310-31ef-47d3-8a69-65d174c154a8",
+    "firstName": "Chris",
+    "lastName": "Maenner",
+    "fullName": "Chris Maenner",
+    "bio": "Chris is Head of Cybersecurity at Ybor Technology, where he focuses on securing Kubernetes platforms, AI workloads, and cloud-native infrastructure. He has been working in security engineering since 2006, spanning roles from early-stage startups to enterprise platform teams.\r\n\r\nChris serves as a board member of BSidesPhilly and is a frequent speaker at security conferences, including multiple BSides events, Boardwalk Bytes, and corporate conferences. He's passionate about helping fast-moving teams build secure systems without sacrificing velocity.\r\n\r\nOutside of security, Chris builds music applications and spends his free time visiting music venues around the world.",
+    "tagLine": "BSidesPhilly Organizer",
+    "profilePicture": "https://cdn.sessionize.com/image/439d-400o400o1-Q7kT4diiwFz9jbvMWyhudL.jpg",
+    "sessions": [
+      {
+        "id": 1214126,
+        "name": "The Accidental Leader: An Engineer's Path to Startups and Conferences"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/dafinga",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/cmaenner",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": "dafinga.bsky.social",
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "649a8d0a-2029-4a66-a2ed-801a29457ecf",
+    "firstName": "Chris",
+    "lastName": "Wheeler",
+    "fullName": "Chris Wheeler",
+    "bio": "Chris is the CISO at Resilience. Prior to Resilience, Chris led the SOAR program and the CIRT Senior Analyst Team at Morgan Stanley.  He is a US Navy veteran and enjoys running, home networking, and joining too many fantasy football leagues.",
+    "tagLine": "CISO @ Resilience",
+    "profilePicture": "https://cdn.sessionize.com/image/e712-400o400o1-S2KMCdVzUZgMLy6KdteKS5.png",
+    "sessions": [
+      {
+        "id": 1289979,
+        "name": "Every Repo, Every Org: OSS Package Triage on a Budget"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/cwsec/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "06fd65e4-7afa-4c9e-97fa-776100670e17",
+    "firstName": "Clea",
+    "lastName": "Ostendorf",
+    "fullName": "Clea Ostendorf",
+    "bio": "Clea is Wolfpack Security’s Co-Founder and CEO. She leads the company in vision and delivery and brings the ability to bridge tech and people into the AppSec consulting space. She has been in security and tech for 15 years playing roles in sales, delivery, advisory and product management. Clea loves to get to the root cause of problems and find a win-win solution for everyone. Wolfpack was created as a way to improve application security posture overall to ensure the products we use are trustworthy of our information.\r\n\r\nPrior to Wolfpack, Clea worked at Code42 as Field CISO where she helped build and develop data security solutions. She has spoken at many conferences and podcasts  including Blackhat, Open Source North, The CISO Series, Enterprise Sec Weekly and more. She is active in the Women in Tech communities and continues to organize events nationwide.\r\n\r\n",
+    "tagLine": "Founder + People Connector + AppSec Fanatic ",
+    "profilePicture": "https://cdn.sessionize.com/image/59c1-400o400o1-Gi21dwETvzEG21JEX8F4qi.png",
+    "sessions": [
+      {
+        "id": 1286259,
+        "name": "Building in the Age of AI Whiplash"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/clealevinson/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465181,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "7fb99da0-3f43-43ac-b60f-0d77b4f02c56",
+    "firstName": "Darwin",
+    "lastName": "Salazar",
+    "fullName": "Darwin Salazar",
+    "bio": "Darwin Salazar is the founder of The Cybersecurity Pulse, a weekly newsletter read by more than 20K people, and leads growth at Monad.\r\n\r\nHe has spent nearly a decade in detection engineering, cloud security, product security, consulting, and red teaming, with experience at Datadog, Accenture, Johnson & Johnson, and Ford. He has presented at DEF CON and fwd:cloudsec and writes technical research for defenders. He loves Padel, hikes and platanos! \r\n",
+    "tagLine": "Founder @ The Cybersecurity Pulse newsletter + Head of Growth at Monad",
+    "profilePicture": "https://cdn.sessionize.com/image/4cee-400o400o1-YV7jwbmFo9gzcrgiTfZ35v.jpg",
+    "sessions": [
+      {
+        "id": 1290385,
+        "name": "Finding Signal Across AI Tooling Logs: Claude Code, Codex, Cursor, ChatGPT, and Gemini"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/darwin-salazar/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465184,
+            "name": "he/them"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "5cc8d1bc-a359-4561-88fc-4519b9f3f61a",
+    "firstName": "David",
+    "lastName": "Girvin",
+    "fullName": "David Girvin",
+    "bio": "Husband/Father,Hacker, Surfer, BJJ nerd, who somehow fell into AppSec and security. Focusing on breaking AI Agents and building solutions.",
+    "tagLine": "AI Security Researcher and Founder",
+    "profilePicture": "https://cdn.sessionize.com/image/8ad4-400o400o1-RunGsFsPs6AqWd5gJhbcUM.jpg",
+    "sessions": [
+      {
+        "id": 1286266,
+        "name": "No Funding, No SOC 2, No Problem? Bootstrapping a Security Company"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/honeybadgerhack",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/david-a-girvin/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "c3f17100-339d-417e-91da-de37a2270643",
+    "firstName": "David",
+    "lastName": "Schütz",
+    "fullName": "David Schütz",
+    "bio": "David Schütz is a Product Security Engineer at Meta, where he works on securing the systems behind AI experiences on wearable devices like the Ray-Ban Meta glasses. He got his start as an independent bug bounty hunter in 2018 while still in high school, spending nearly five years hunting vulnerabilities across the programs of Google, Meta, and others -- including a $70,000 Android lock screen bypass that let anyone unlock Pixel phones without the passcode. He later joined Meta's Bug Bounty team, triaging researcher reports and driving vulnerabilities through incident response.",
+    "tagLine": "Security Researcher",
+    "profilePicture": "https://cdn.sessionize.com/image/29d9-400o400o1-VPrvTLpKg9Tgks5FoCBobf.jpg",
+    "sessions": [
+      {
+        "id": 1290224,
+        "name": "Tesla Model 3's Brain on a Desk: Getting Started with Security Research"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/xdavidhu",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/xdavidhu/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "3314b53e-5ef8-4d71-a056-ae22628d2873",
+    "firstName": "Diane",
+    "lastName": "Lin",
+    "fullName": "Diane Lin",
+    "bio": "Dr. Diane Lin is a Tech Lead at Datadog, where she leads product development on self-evolving AI agents for the modern SOC. She was previously CTO and Co-founder of Culminate (acquired by Datadog), where her AI security analysts augmented human teams to place top 3 at DEF CON's CTRL+ALT+DETECT competition (formerly OpenSOC), a real-world benchmark for AI-driven threat detection under pressure.\r\n\r\nPrior to founding Culminate, Diane was Director of Machine Learning at Zscaler, leading the development of ML-based large-scale threat detection models. Before that, she was a founding scientist on the Amazon Alexa question-answering team and a senior researcher at robotics startup Vicarious (acquired by Google DeepMind). She holds a PhD in Machine Learning from Imperial College London with research affiliations at MIT's CSAIL and is an inventor on multiple patents and an active mentor in the AI and cybersecurity communities.",
+    "tagLine": "Datadog, AI SOC tech lead",
+    "profilePicture": "https://cdn.sessionize.com/image/689f-400o400o1-B5dY6SNeP29ycU2ySh3qT3.jpg",
+    "sessions": [
+      {
+        "id": 1290314,
+        "name": "Stop the LLM Flip-Flop: Hardening Your AI SOC Agent Against the Gray Zone"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/diane-dianhuan-lin-57210215/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465181,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "053bf183-629a-4dd5-b66e-e2b1d7142a49",
+    "firstName": "Dwayne",
+    "lastName": "McDaniel",
+    "fullName": "Dwayne McDaniel",
+    "bio": "Dwayne has been working as a Developer Relations professional since 2015 and has been involved in tech communities since 2005. He loves sharing his knowledge, and he has done so by giving talks at over a hundred events worldwide. Dwayne currently lives in Chicago. Outside of tech, he loves karaoke, live music, and performing improv.",
+    "tagLine": "Developer Advocate at GitGuardian and huge fan of open source",
+    "profilePicture": "https://cdn.sessionize.com/image/ede4-400o400o1-DcbN39HEhrgYQQ3D95ffwg.png",
+    "sessions": [
+      {
+        "id": 1270325,
+        "name": "Identity Has A Plan: A Call To Action For Security And DevOps"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/McDwayne",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/dwaynemcdaniel/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": "https://mastodon.social/@mcdwayne",
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": "https://bsky.app/profile/mdwayne-real.bsky.social",
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "08f07b0a-a9f3-428e-aab5-f3ebba4c5a98",
+    "firstName": "Eilon",
+    "lastName": "Cohen",
+    "fullName": "Eilon Cohen",
+    "bio": "Eilon Cohen is Head of Security Research at Pillar Security, where he hunts vulnerabilities in frontier AI agents and orchestration platforms. His work on n8n's expression sandbox produced several critical findings, including CVE-2026-25049, an unauthenticated RCE rated CVSS 10.0 that exposed hundreds of thousands of enterprise AI workflows. His current research covers sandbox escapes, adversarial campaigns against AI infrastructure, and vulnerabilities in widely used AI assistants. He co-founded the AIL Community, an AI security knowledge-sharing group that has run events with Microsoft, OpenAI, and Nvidia. He has presented at RSAC 2025 and OWASP Global AppSec EU 2025 on ecosystem-wide supply chain vulnerabilities he discovered.",
+    "tagLine": "Head of Security Research @ Pillar Security",
+    "profilePicture": "https://cdn.sessionize.com/image/30e2-400o400o1-p4gKtiWA2HRRnQziB8j1fb.jpg",
+    "sessions": [
+      {
+        "id": 1285477,
+        "name": "Weirder Machines: Compositional Attack Surfaces at the LLM-Tool Boundary"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/NoShitOasis",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/eilon-cohen/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "bc1eb648-b8be-45e9-8bd7-83133c8e79ae",
+    "firstName": "Eva",
+    "lastName": "Galperin",
+    "fullName": "Eva Galperin",
+    "bio": "Eva Galperin is EFF's Director of Cybersecurity. Prior to 2007, when she came to work for EFF, Eva worked in security and IT in Silicon Valley and earned degrees in Political Science and International Relations from SFSU. Her work is primarily focused on providing privacy and security for vulnerable populations around the world. To that end, she has applied the combination of her political science and technical background to everything from organizing EFF's Tor Relay Challenge, to writing privacy and security training materials (including Surveillance Self Defense and the Digital First Aid Kit), and publishing research on malware in Syria, Vietnam, Lebanon, and Kazakhstan. Since 2018, she has worked on addressing the digital privacy and security needs of survivors of domestic abuse. She is also a co-founder of the Coalition Against Stalkerware. ",
+    "tagLine": "Director of Cybersecurity, Electronic Frontier Foundation",
+    "profilePicture": "https://cdn.sessionize.com/image/595e-400o400o1-UDokRT8qBhqz1CR5L9UpYY.jpg",
+    "sessions": [
+      {
+        "id": 1328039,
+        "name": "Keynote"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465181,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "96598e8c-9860-45a0-8ed5-254c6c4b223e",
+    "firstName": "Gev",
+    "lastName": "Manekshaw",
+    "fullName": "Gev Manekshaw",
+    "bio": "Gev is a Philadelphia based Security Engineer and Researcher who thrives on tackling network security, web app vulnerabilities, system administration and container security, so much so that he even does it on weekends. With a knack for automating vulnerability hunting, Gev's vulnerability disclosures have earned him recognition from over 25 organizations.\r\n",
+    "tagLine": "Principal Security Engineer",
+    "profilePicture": "https://cdn.sessionize.com/image/72b3-400o400o1-nw3p6nLjYgc2VJ3rUEVoM4.jpg",
+    "sessions": [
+      {
+        "id": 1289819,
+        "name": "Browser-Based Port Scanning in the Age of LNA"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/gevmanekshaw/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "ffed6b49-533e-46ea-a43f-b514d095f4ba",
+    "firstName": "Hadar",
+    "lastName": "Waldman",
+    "fullName": "Hadar Waldman",
+    "bio": "Hadar Waldman leads security research and a part of the founding team of Artemis, the world’s first AI-Native detection and response platform. She previously led Check Point’s Incident Response Services in the Americas, guiding organizations through high-stakes cyber crises. Prior to that, she was leading threat intelligence teams at Check Point Research, shaping defensive strategies used by thousands of organizations worldwide. Hadar began her cybersecurity journey on the front lines- starting as a SOC analyst and progressing through nearly every role in security operations before eventually managing a 24/7 SOC supporting over 100,000 users across 20+ environments. ",
+    "tagLine": "Leads security research and a part of the founding team of Artemis, the world’s first AI-Native detection and response platform",
+    "profilePicture": "https://cdn.sessionize.com/image/9314-400o400o1-VnuA4Bjz7LH8vnNJpmKiKp.jpg",
+    "sessions": [
+      {
+        "id": 1290339,
+        "name": "The Cyber-IQ Test for LLMs"
+      },
+      {
+        "id": 1290329,
+        "name": "AI Threats: Defender Reality Check"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/hadar-waldman/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465181,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "9930ae6a-ac56-41f3-b074-55c90a33f11b",
+    "firstName": "Hemanth",
+    "lastName": "Gorijala",
+    "fullName": "Hemanth Gorijala",
+    "bio": "Hemanth Gorijala is an application security professional and penetration tester with 13 years of experience in a global Fortune 500 environment. He conducts web application security assessments and reviews vulnerability reports in enterprise bug bounty programs. The exploitation chains in this talk are drawn from his own authorized assessments. He built SecretSifter to close the runtime security gap.",
+    "tagLine": "Global Pentest Lead | Author of SecretSifter",
+    "profilePicture": "https://cdn.sessionize.com/image/084c-400o400o1-RUghAFY5DnRvV2XMhA4ZGM.jpg",
+    "sessions": [
+      {
+        "id": 1211489,
+        "name": "Secrets That Survive Everything: Finding Runtime Credentials in Production Web Applications"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "35978bb8-c6b4-4b85-8d0f-4585755a8f1e",
+    "firstName": "Jonathan",
+    "lastName": "Fuller",
+    "fullName": "Jonathan Fuller",
+    "bio": "Jonathan Fuller is Chief Information Security Officer at the United States Military Academy at West Point, where he leads cybersecurity strategy, risk, and operations for a mission-critical enterprise environment. His work focuses on building detection-driven security capabilities that align visibility, control, and response across hybrid systems.\r\n\r\nHis background includes adversary-focused research on malware infrastructure and command-and-control systems, along with operational leadership in complex environments. He shares analysis on adversary behavior, detection engineering, and AI system security through Empirical Defense.",
+    "tagLine": "CISO @ US Military Academy",
+    "profilePicture": "https://cdn.sessionize.com/image/612f-400o400o1-DhprGdS85CkL1kmu6q7r1x.jpg",
+    "sessions": [
+      {
+        "id": 1228222,
+        "name": "When Malware Analysis Leaks Passwords: What Shared Samples Reveal"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/fullsec",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "870eb863-5251-4ad7-af07-00ec77230495",
+    "firstName": "Josh",
+    "lastName": "Duke",
+    "fullName": "Josh Duke",
+    "bio": "Josh is a Senior Threat Intelligence Analyst at Volexity with experience in tracking nation-state threat actors and infrastructure analysis, transforming findings from these investigations into defenses for customer networks. With a strong understanding of Computer Science, holding both a MS and BS in the field, Josh is able to connect his understanding of software and networking to inform his work as an intelligence analyst.",
+    "tagLine": "Volexity, Senior Threat Intelligence Analyst",
+    "profilePicture": "https://cdn.sessionize.com/image/ef08-400o400o1-363R5c3eD7MPJ9Ue4smTJQ.png",
+    "sessions": [
+      {
+        "id": 1289958,
+        "name": "No Safe Harbor: OceanLotus and ROGUEHARBOR"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jdukesec/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "c000edd6-ce23-455d-bbc4-0b0b99a32e7d",
+    "firstName": "Joshua",
+    "lastName": "Connolly",
+    "fullName": "Joshua Connolly",
+    "bio": "I am a vulnerability researcher and reverse engineer focused on embedded device exploitation. I'm an avid CTFer but what I enjoy the most is teaching interesting topics to people.",
+    "tagLine": "Vulnerability Researcher/Reverse Engineer",
+    "profilePicture": "https://cdn.sessionize.com/image/b73c-400o400o1-SLfEWvan3dLoTGFUA57FHP.jpg",
+    "sessions": [
+      {
+        "id": 1211042,
+        "name": "Binary Jiujitsu: Your First Buffer Overflow"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/joshua-connolly-73660220a/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "9c77d92f-e682-494e-a7ea-6a764ae27984",
+    "firstName": "Joshua",
+    "lastName": "Crumbaugh",
+    "fullName": "Joshua Crumbaugh",
+    "bio": "Joshua Crumbaugh is a renowned ethical hacker, cybersecurity innovator, and host of the \"Phishing 4 Answers\" podcast. Known for challenging industry norms, Joshua emphasizes human-centric security awareness, using humor and relatable storytelling to simplify complex cybersecurity topics. As CEO of PhishFirewall, he leverages AI-driven simulations to foster engaging, intuitive learning that transforms organizational security culture. Joshua’s approach empowers individuals to recognize and respond to threats instinctively, significantly reducing risk.",
+    "tagLine": "CEO of PhishFirewall",
+    "profilePicture": "https://cdn.sessionize.com/image/73c8-400o400o1-Ea379Lz895hyddqDkWyJNK.jpg",
+    "sessions": [
+      {
+        "id": 1281747,
+        "name": "Building a Cybersecurity Company That Survives — The Hard Parts Nobody Tells You"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/phishdoctor",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/joshuacrumbaugh/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "7678add2-b05d-4afc-b8c0-004367c1e042",
+    "firstName": "Katie",
+    "lastName": "Paxton-Fear",
+    "fullName": "Katie Paxton-Fear",
+    "bio": "Dr Katie Paxton-Fear is a lecturer of cyber security at Manchester Metropolitan University, she's a hacker and YouTube, she's made 50+ videos on a range of topics, explaining vulnerabilities, tools etc, and made a splash as an API hacker",
+    "tagLine": "Lecturer and Educational YouTuber",
+    "profilePicture": "https://cdn.sessionize.com/image/4ff1-400o400o1-6eb0c81f-7562-4bde-9a17-02f664e50a57.jpg",
+    "sessions": [
+      {
+        "id": 1283575,
+        "name": "Off The (Book)Shelf Hacking: Hackable eReaders"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/InsiderPhD",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/katiepf/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465181,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "52639b1a-3bbd-494a-9ef6-b2355fe5d6e0",
+    "firstName": "Kennedy",
+    "lastName": "Toomey",
+    "fullName": "Kennedy Toomey",
+    "bio": "Kennedy Toomey is an Application Security Researcher & Advocate at Datadog. Previously she was an Application Security Engineer where she spent her time working with developers to help fix vulnerabilities and write more secure code.",
+    "tagLine": "Application Security Researcher & Advocate @ Datadog",
+    "profilePicture": "https://cdn.sessionize.com/image/22f8-400o400o1-pD6YvywzVoqTzW9Y5zs5Gr.jpg",
+    "sessions": [
+      {
+        "id": 1279505,
+        "name": "Rethinking CI/CD Security in the Age of GitHub Actions"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kennedy-toomey/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465181,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "70ec8bb9-ec3b-411b-9b3c-237de5e382aa",
+    "firstName": "Leif",
+    "lastName": "Dreizler",
+    "fullName": "Leif Dreizler",
+    "bio": "Leif Dreizler is an information security professional with over a decade of experience. He is currently the Founding Security Engineer at Raindrop. \r\n\r\nPreviously, Leif was a Security IC and Software EM at both Semgrep and Twilio Segment.",
+    "tagLine": "Founding Security Engineer @ Raindrop",
+    "profilePicture": "https://cdn.sessionize.com/image/6ceb-400o400o1-ETh1R5LCYQ4L3dUmScfToh.jpg",
+    "sessions": [
+      {
+        "id": 1266462,
+        "name": "Feeling the heat from Malicious Packages? Cooloff with Cooldowns"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/leifdreizler",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/leifdreizler",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "5bea29c0-8eeb-459b-89fe-e242a2fe6795",
+    "firstName": "Leo",
+    "lastName": "Meyerovich",
+    "fullName": "Leo Meyerovich",
+    "bio": "Leo Meyerovich is the founder and CEO of Graphistry and co-creator of Louie.ai, data-intensive investigation platforms employing AI, graphs, and GPUs that are used by teams across government, military, tech, media, and financial services for security, fraud, supply-chain, social media, and other investigative domains.\r\n\r\nLeo led development of the first autonomous AI agent to complete Splunk's Boss of the SOC CTF and the team that won the U.S. Cyber Command AI RPE on alert-volume reduction. He started GFQL, the first open-source GPU-native graph query language for large-scale investigations, and helped start what became Apache Arrow and Nvidia RAPIDS. Graphistry spun out of Leo’s PhD work at UC Berkeley, where his research received two SIGPLAN Test of Time Awards and multiple best paper awards.",
+    "tagLine": "Founder & CEO, Graphistry ",
+    "profilePicture": "https://cdn.sessionize.com/image/d6f7-400o400o1-9FmrSe3nVErNRRUrs16CPW.png",
+    "sessions": [
+      {
+        "id": 1290106,
+        "name": "Frontier AI Is Compromising Evals: The Test-Takers Are Also the Attackers"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/lmeyerov",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/leo-meyerovich-09649219/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "12c161d4-c13f-4ba3-95fb-6b13178b7721",
+    "firstName": "Luke",
+    "lastName": "Jennings",
+    "fullName": "Luke Jennings",
+    "bio": "Luke Jennings is a security researcher from the UK. He spent most of his early career focused on red teaming and offensive security research, before moving on to developing new detection and response techniques and designing EDR software. He has now pivoted away from the endpoint to focusing on browser and identity attacks as VP of R&D at Push Security and is the primary author and maintainer of the popular Browser and Identity Attacks matrix. \r\n",
+    "tagLine": "VP, R&D, Push Security",
+    "profilePicture": "https://cdn.sessionize.com/image/5827-400o400o1-soLFQgYiSYucDw1mCzHkJs.png",
+    "sessions": [
+      {
+        "id": 1255973,
+        "name": "Authorization phishing: phishing, but without the creds"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/jukelennings",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/luke-jennings-042b5619b/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "d3eff312-2ea0-40e7-8aed-5e0015472592",
+    "firstName": "Mark",
+    "lastName": "El-Khoury",
+    "fullName": "Mark El-Khoury",
+    "bio": "Mark started as an offensive security consultant, doing penetration testing and code and design reviews. Mark then expanded his skillset into the defensive side, leading cybersecurity at various organizations and industries, including: Gaming, fintech, and biometrics. Mark is a conference speaker, holds security certifications, and was an instructor at a Columbia University cybersecurity bootcamp for over four years. Mark is now Director of Security Engineering at Movable Ink.",
+    "tagLine": "Director, Security Engineering @ Movable Ink",
+    "profilePicture": "https://cdn.sessionize.com/image/fdce-400o400o1-U2ggj42VA8oHTFzU7vKPQu.jpg",
+    "sessions": [
+      {
+        "id": 1290313,
+        "name": "DIY Continuous Security Engineering"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/shw0rma",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/illillillillillillillillillillillillillillillill/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "ec2fcbc3-b1f8-48b1-bc3f-84368dba6198",
+    "firstName": "Max",
+    "lastName": "Saltonstall",
+    "fullName": "Max Saltonstall",
+    "bio": "Max Saltonstall tells stories about the Cloud, how to tell where it’s working (or not), and what diverse solutions our customers have created. He’s part of Datadog’s Advocacy team, with a passion for storytelling, narrative and dad jokes. Max loves to juggle, eat new foods and play games of all types. He lives in New York City with his partner and two children.",
+    "tagLine": "Technical Storytelling Advocate",
+    "profilePicture": "https://cdn.sessionize.com/image/31c6-400o400o1-N7SsHaCpZyVi252jHH3H1z.jpg",
+    "sessions": [
+      {
+        "id": 1279505,
+        "name": "Rethinking CI/CD Security in the Age of GitHub Actions"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/maxsaltonstall/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "9aeb7c0a-f84d-4f83-b42e-2d4d6fd15b04",
+    "firstName": "Miryam",
+    "lastName": "Adjiashvili Shdema",
+    "fullName": "Miryam Adjiashvili Shdema",
+    "bio": "Specializing in offensive security, penetration testing, and vulnerability research. With over a decade of experience in cybersecurity, she focuses on uncovering complex attack paths across Windows, Active Directory, and cloud environments. She is passionate about translating technical research into practical insights that help organizations better understand and defend against real-world threats.\r\n",
+    "tagLine": "Security Research Team Lead",
+    "profilePicture": "https://cdn.sessionize.com/image/b45d-400o400o1-7Aj4DhpGQudYKBWjjvRN4n.jpg",
+    "sessions": [
+      {
+        "id": 1220602,
+        "name": "Breaking Hybrid Boundaries Across Azure and Windows"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/miryam-adjiashvili/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465181,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "79fb2281-f865-497b-9100-ea0aa8c2cf3a",
+    "firstName": "Mohammad",
+    "lastName": "Eshan",
+    "fullName": "Mohammad Eshan",
+    "bio": "Mohammad Eshan is a security researcher, offensive operator, and the Founder and CEO of GhostEye (YC S25), an always-on red team for the human layer. Before founding GhostEye, he served on BlackRock's Red Team, where he built the offensive security program from scratch, and conducted offensive cyber operations at MITRE. He holds a Bachelor's and Master's in Cybersecurity from RIT.",
+    "tagLine": "Founder & CEO at GhostEye",
+    "profilePicture": "https://cdn.sessionize.com/image/b9fd-400o400o1-HcyWfbY2qeTagT7BdKux1B.png",
+    "sessions": [
+      {
+        "id": 1290356,
+        "name": "The Category Trap: You Don't Pick It, the Market Does"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/eshannnnnnnn",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/moheshan/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "af5b60db-5536-4c74-8e4a-1ec4c3f4fcdf",
+    "firstName": "Mohammed Ilyas",
+    "lastName": "Ahmed",
+    "fullName": "Mohammed Ilyas Ahmed",
+    "bio": "I am a security and AI-focused technology leader with deep expertise in helping organizations build, secure, and govern AI-driven systems across modern, cloud-native environments. I am an active contributor to the global technology community and a frequent speaker at leading industry conferences. I am also regularly invited to serve as a technical session judge. I maintain strong ties with academia and thought leadership. I contribute research associated with Harvard University, publishing work that advances discussions around AI governance, modern security practices, and risk management. I am also a distinguished member of the Harvard Business Review Advisory Council.  My work has a global reach through my role as a Member of the Global Advisory Board at VigiTrust Limited (Dublin, Ireland). I am the author of Cloud-Native DevOps, a practical guide to building scalable, reliable, and secure cloud-native applications. ",
+    "tagLine": "Making the Unachievable Achievable | Speaker | Author | Reviewer | Host | OWASP Contributor",
+    "profilePicture": "https://cdn.sessionize.com/image/0434-400o400o1-98GVit1FR3au8ieCrgQete.jpg",
+    "sessions": [
+      {
+        "id": 1281536,
+        "name": "Beyond the Flag: How CTF Players Become Product Security Engineers"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mdilyasahmed",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "dcde381e-f124-4e27-b0f4-feb2cdf97426",
+    "firstName": "Mohankumar",
+    "lastName": "Vengatachalam",
+    "fullName": "Mohankumar Vengatachalam",
+    "bio": "Mohan is a security leader with over a decade of experience in security architecture, engineering, and operations. He has a strong interest in developing robust security programs and a proven track record of creating proactive security roadmaps and strategies aligned with business objectives. He constantly seeks ways to elevate security processes and culture to the next level.",
+    "tagLine": "Security Leader",
+    "profilePicture": "https://cdn.sessionize.com/image/b435-400o400o1-hJrgW1HzsuTgsqw9ovYHSq.png",
+    "sessions": [
+      {
+        "id": 1290516,
+        "name": "What Technical Founders Miss in Their First Sales Motion"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/Vimokumar",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/vimokumar/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "0ad9f2ee-49b8-45ee-938e-db1176277a61",
+    "firstName": "Mona",
+    "lastName": "Ghadiri",
+    "fullName": "Mona Ghadiri",
+    "bio": "I am a 3x MVP and leader in Security operations using Microsoft technologies specializing in Managed Security Services for Microsoft Security, Compliance, and Identity (SCI) solutions and am a leading expert in Security Copilot. \r\n\r\nI currently work at Capgemini as a VP on the Global Portfolio team within the Cloud and Infrastructure Services team. \r\n\r\nI am a board member of Microsoft Zero to Hero Learning Community and a leader of MSFarsi, the learning community for Persian language speakers. \r\n\r\nMy  goal is to evangelize new Microsoft security advancements and create innovative and customer-centric products that address the evolving cyber threats and challenges faced by organizations of all sizes and sectors. Outside of work, I enjoy cooking and baking sourdough bread.",
+    "tagLine": "VP of CIS - Security Operations, Microsoft Security MVP | SIEM & XDR and Security Copilot",
+    "profilePicture": "https://cdn.sessionize.com/image/433d-400o400o1-XTSNefgxEqGiNy98KbFeSW.jpg",
+    "sessions": [
+      {
+        "id": 1284813,
+        "name": "It Costs More to Make Than It’s Worth: Lessons from the Penny for Your Sentinel Deployment"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/monaghadiri/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465181,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "6cf3f2aa-70f1-436a-9b2d-7328d775cd85",
+    "firstName": "Monish",
+    "lastName": "Alur Gowdru",
+    "fullName": "Monish Alur Gowdru",
+    "bio": "Monish Alur Gowdru is a cybersecurity professional with over 6 years of experience in application security and software development. He enjoys helping product teams to secure applications end-to-end throughout the software development lifecycle. He actively contributes to the cybersecurity community as a speaker, mentor, and judge. His ongoing involvement includes prominent work with DEF CON and BSides Edmonton. \r\n\r\nLinkedIn: https://www.linkedin.com/in/ag-monish/",
+    "tagLine": "Security Consultant, UltraViolet Cyber",
+    "profilePicture": "https://cdn.sessionize.com/image/0ee1-400o400o1-E7c2b4zEsZDiYb99DYtTe8.jpg",
+    "sessions": [
+      {
+        "id": 1281536,
+        "name": "Beyond the Flag: How CTF Players Become Product Security Engineers"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ag-monish/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "e9edeb2f-bfe3-407d-86b0-0e4e19130ef6",
+    "firstName": "Nadav",
+    "lastName": "Felman",
+    "fullName": "Nadav Felman",
+    "bio": "Nadav Felman is a Security Researcher at Cymulate with a background in IT and OT security research and industrial control systems programming. He focuses on attack path analysis, exploring how vulnerabilities and attacker techniques combine into multi-step compromises. Nadav develops adversary simulations to help organizations validate their defenses and understand how attackers move across their environments.",
+    "tagLine": "Security Researcher",
+    "profilePicture": "https://cdn.sessionize.com/image/6c7f-400o400o1-TPwWVi1aE7LDA29h9m1ZVe.jpg",
+    "sessions": [
+      {
+        "id": 1220602,
+        "name": "Breaking Hybrid Boundaries Across Azure and Windows"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nadav-felman",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "ae823f9d-518c-41be-80d2-6baf9398ad4a",
+    "firstName": "Naveen",
+    "lastName": "Konrajankuppam Mahavishnu",
+    "fullName": "Naveen Konrajankuppam Mahavishnu",
+    "bio": "Naveen is a Security Researcher with over 9 years of expertise specializing in AI, application, and cloud security. He invented 5 patents in Agentic Security space. \r\n\r\nHe possesses extensive knowledge in all aspects of product security, including threat modeling, DevSecOps, API security, and penetration testing. He is passionate about integrating security into the SDLC from design to deployment, ensuring the early detection and mitigation of vulnerabilities.\r\n",
+    "tagLine": "Security Researcher",
+    "profilePicture": "https://cdn.sessionize.com/image/f1b7-400o400o1-G5ykRnF8TsfHDTZRCFjzKh.jpg",
+    "sessions": [
+      {
+        "id": 1290516,
+        "name": "What Technical Founders Miss in Their First Sales Motion"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/naveenkm94/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "bfaccd7e-783d-4535-ae1d-470084bb8e15",
+    "firstName": "Neha",
+    "lastName": "Gautam",
+    "fullName": "Neha Gautam",
+    "bio": "Neha Gautam is a Product Manager at Microsoft Security and a Carnegie Mellon graduate specializing in the intersection of Identity and AI. From scaling platforms at Walmart to securing agentic AI at Microsoft, Neha’s mission is to translate complex security hurdles into seamless product experiences. She is a passionate mentor for women in tech and a frequent volunteer for WiCyS and Defcon Blue Team Village.  She is a CISSP, a frequent speaker and mentor, and an active contributor to the cybersecurity community through WiCyS, Defcon BTV, PPP Hacking team. Neha believes that the future of computing must be built by diverse perspectives—a philosophy she champions whether she's designing enterprise governance or coaching early-career professionals.",
+    "tagLine": "Product Manager | Microsoft Security & Identity",
+    "profilePicture": "https://cdn.sessionize.com/image/0833-400o400o1-MGKtaEAnoR8TygE56iUXbC.jpg",
+    "sessions": [
+      {
+        "id": 1286669,
+        "name": "The 40-Hour Hunt Problem: Where AI Actually Saves Time (and Where It Doesn't)"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/neha-gautam-cissp-a43058154/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465181,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "e216861d-8c70-4bf6-b4b1-01e85e760f87",
+    "firstName": "Nick",
+    "lastName": "Shrimankar",
+    "fullName": "Nick Shrimankar",
+    "bio": "Nick is the founder of Immersivle, a hands-on training platform for DevSecOps, cloud infrastructure and cybersecurity. With over a decade of experience spanning cloud architecture, application security and infrastructure automation, he built Immersivle from the ground up using AI agents as his primary development partners — shipping a full production platform as a solo engineer. He's an ACT-IAC Fellow and Founder Institute alum based in the DC area. Nick speaks about what it actually looks like to build with AI, with a focus on honest tradeoffs and practitioner-level takeaways over hype.",
+    "tagLine": "Immersivle, Inc, Founder",
+    "profilePicture": "https://cdn.sessionize.com/image/ffcc-400o400o1-4TK5ggEwpcrzKrrTbqkH25.jpg",
+    "sessions": [
+      {
+        "id": 1262552,
+        "name": "LLM Generated Code Works. It's Also Vulnerable."
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/dhavalshrimankar/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "95d5ee82-6354-4c24-8bad-2331ca33e584",
+    "firstName": "Nivea",
+    "lastName": "Sharma",
+    "fullName": "Nivea Sharma",
+    "bio": "Nivea Sharma is a Security Engineer at SpaceXAI, where she works on detection engineering, insider threat hunting, and security investigations. Before joining SpaceXAI, she interned with Apple's Information Security organization and earned her Master's in Information Security from Carnegie Mellon University. Whether building detections, investigating incidents, or evaluating new technologies, she's most interested in understanding how defenders actually work and using that understanding to build better tools, workflows, and measurements",
+    "tagLine": "Security Engineer @ SpaceXAI | Building detections, investigating incidents, measuring what matters",
+    "profilePicture": "https://cdn.sessionize.com/image/cea2-400o400o1-B3hc8TfLyw5of45N7uZwjF.jpg",
+    "sessions": [
+      {
+        "id": 1286669,
+        "name": "The 40-Hour Hunt Problem: Where AI Actually Saves Time (and Where It Doesn't)"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nivea-0311/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465181,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "e169e68b-788c-4395-a8db-2c102da05d4c",
+    "firstName": "Noa",
+    "lastName": "Dekel",
+    "fullName": "Noa Dekel",
+    "bio": "Noa Dekel is a Senior Threat Intelligence Analyst at Palo Alto Networks. Starting her career as a Threat Intelligence analyst in the Defense sector, today Noa specializes in threat hunting, malware analysis, and detection engineering.",
+    "tagLine": "Senior Threat Intelligence Researcher, Palo Alto Networks",
+    "profilePicture": "https://cdn.sessionize.com/image/d591-400o400o1-322jCPfC83dEyLnSfC59Ta.png",
+    "sessions": [
+      {
+        "id": 1290452,
+        "name": "Thinking Outside the Package: Hunting Supply Chain Behavior from the Endpoint Perspective"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/noa-stern-dekel-850014213/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465181,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "2ac639c7-07f9-4ab0-86bb-5ed37bf6154f",
+    "firstName": "Omar",
+    "lastName": "S",
+    "fullName": "Omar S",
+    "bio": "Omar is a Staff Security Engineer at Betterment where he focuses on building secure and reliable systems, stopping fraudsters, and in general enabling people to do their best work safely and securely. He has a 10 year old cat named Dumpling.",
+    "tagLine": "Staff Security Engineer, Betterment",
+    "profilePicture": "https://cdn.sessionize.com/image/49d7-400o400o1-GrNRpZjCNVv4smfoPSAVqF.jpeg",
+    "sessions": [
+      {
+        "id": 1290313,
+        "name": "DIY Continuous Security Engineering"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/omarthecat/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "17043b75-ca96-4789-b06a-dfb9f91e433d",
+    "firstName": "Raphael",
+    "lastName": "Silva",
+    "fullName": "Raphael Silva",
+    "bio": "Raphael Silva is a Security Researcher at Aikido Security, focused on web security, software supply-chain security, and vulnerability research. He has spoken at DEF CON, RootedCON, OWASP Global AppSec, Black Alps and OWASP local chapters, and has also run hands-on activities at DEF CON. His work centers on finding weird trust assumptions in real systems, turning them into clear attack models, and responsibly disclosing the results to vendors and open-source projects.",
+    "tagLine": "Security Researcher @ Aikido Security",
+    "profilePicture": "https://cdn.sessionize.com/image/f84e-400o400o1-WfweQWsb2oTK6txZCsBGe.jpg",
+    "sessions": [
+      {
+        "id": 1226320,
+        "name": "Install Me Maybe: Turning Claimable VS Code Extension IDs into Supply-Chain Attacks"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/0x_rcss",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/raphaelcssilva/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "063130df-1fc7-415d-9b9d-f25d40a1bfa5",
+    "firstName": "Rick",
+    "lastName": "Ramirez",
+    "fullName": "Rick Ramirez",
+    "bio": "Rick Ramirez is a product security engineer focused on cyber-physical systems, OT/ICS security, and RF telemetry exposure. He has experience across product security, medical device security, manufacturing security, logistics security, and critical infrastructure risk assessment. Before moving into cybersecurity, Rick served as a U.S. Marine Corps radio/electronics technician, where he developed a foundation in RF communications, field electronics, and signal systems. His current research explores how overlooked wireless telemetry can expose privacy and security risks in smart infrastructure.",
+    "tagLine": "Product security engineer and former Marine Corps radio/electronics technician researching RF telemetry exposure, OT/ICS security, and cyber-physical privacy risk",
+    "profilePicture": "https://cdn.sessionize.com/image/6c5d-400o400o1-aAENeGF76SmEZzyf1nV9pU.jpg",
+    "sessions": [
+      {
+        "id": 1246963,
+        "name": "Cleartext at the Edge: A Neptune R900 Case Study in RF Telemetry Exposure"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/rickramir",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "a07a0ee0-0c30-4ffe-80df-7ca9a5032612",
+    "firstName": "Ringmast4r",
+    "lastName": "N/A",
+    "fullName": "Ringmast4r N/A",
+    "bio": "Ringmast4r is an independent security researcher and licensed PI who built a passive OSINT pipeline auditing government infrastructure across 73 countries. His research recovered 5.6 million domains, 400+ GB of source code, 7 million developer emails, and 1,986 live credentials without triggering alerts. Bloomberg and 50+ global outlets covered his findings. Keynote speaker at GrrCON 2026, accepted speaker at Hacker Halted 2026. M.S. in Cybersecurity Management.",
+    "tagLine": "Hack The Planet",
+    "profilePicture": "https://cdn.sessionize.com/image/4898-400o400o1-K9cyxyMSSuaiWfHd5vngnC.png",
+    "sessions": [
+      {
+        "id": 1282049,
+        "name": "5.6 Million Domains, 400 GB of Code, Zero Alerts: How Nation-States Conduct Passive Intelligence"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "354e03af-6f9e-4ebc-be44-b3d7e2271e7e",
+    "firstName": "Sai",
+    "lastName": "Jagadeesh",
+    "fullName": "Sai Jagadeesh",
+    "bio": "Sai Jagadeesh is a Staff Security Engineer,  where he focuses on application security and offensive security. His work centers on identifying and exploiting vulnerabilities in modern applications, improving secure development practices, and building security controls that help engineering teams ship resilient systems at scale.\r\n\r\nPrior to this role, Sai worked as a Senior Security Engineer at Amazon, where he contributed to securing large distributed platforms and strengthening application security across development pipelines. His work there also included offensive security initiatives, helping identify security weaknesses through adversarial testing and vulnerability research.",
+    "tagLine": "Staff Security Engineer",
+    "profilePicture": "https://cdn.sessionize.com/image/7e3f-400o400o1-Yb7TsJv3iBu2nS56GddcNK.jpg",
+    "sessions": [
+      {
+        "id": 1240688,
+        "name": "Deep Link Vulnerabilities: When One Click Leads to Account Takeover"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/SJ_Source_Sink",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sai-j-350b08102/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "2c30e389-52c1-4fba-aa91-ecfe43ca55be",
+    "firstName": "Sean",
+    "lastName": "Sun",
+    "fullName": "Sean Sun",
+    "bio": "Founder and CEO of Miscreants, a cybersecurity focused creative agency. ",
+    "tagLine": "Founder and CEO of Miscreants",
+    "profilePicture": "https://cdn.sessionize.com/image/5de8-400o400o1-NeW4rPJvsBHMfqyNQYDtW1.jpg",
+    "sessions": [
+      {
+        "id": 1290497,
+        "name": "Building Cult Brands in Cybersecurity"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/seanqsun",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/seanqsun",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": "seanqsun",
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "32c04d4a-c5b7-4581-9b9d-7769084b0ee8",
+    "firstName": "Sharan",
+    "lastName": "Sankar",
+    "fullName": "Sharan Sankar",
+    "bio": "Sharan Sankar is a Founding Engineer at Artemis, building AI agents across the full detection and response lifecycle. Having served as an early engineer across multiple high-growth security startups, he draws on years of experience building specialized platforms for behavioral threat detection and AI-driven SOC automation to ground frontier AI in real-world SecOps.",
+    "tagLine": "Founding Engineer of Artemis, the world’s first AI-Native detection and response platform",
+    "profilePicture": "https://cdn.sessionize.com/image/e3be-400o400o1-aGy2wb4SU9XyHFY8DNv3Xz.png",
+    "sessions": [
+      {
+        "id": 1290339,
+        "name": "The Cyber-IQ Test for LLMs"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sharansankar/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "83f9de48-794a-4d65-974e-1fe9c1bc848c",
+    "firstName": "Swati",
+    "lastName": "Babbar",
+    "fullName": "Swati Babbar",
+    "bio": "CISSP-certified Security Engineer with 7 years of experience in application security, vulnerability management, and risk reduction at scale. Focused on evolving security practices for modern, cloud-native and AI-driven systems, with expertise in threat modeling, system design analysis, and security architecture.",
+    "tagLine": "Application Security Engineer, Amazon",
+    "profilePicture": "https://cdn.sessionize.com/image/4046-400o400o1-BrPCrpYcPyE1xq8WWvMk4E.jpg",
+    "sessions": [
+      {
+        "id": 1254091,
+        "name": "IAM for AI: How Agentic Systems Break Traditional Threat Models"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/swatibabbar/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465181,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "928682e2-603b-470b-bd7a-08d0c3051d7f",
+    "firstName": "Victoria",
+    "lastName": "Galloway",
+    "fullName": "Victoria Galloway",
+    "bio": "Victoria Galloway is a cybersecurity program leader focused on identity governance, privileged access management, and enterprise security transformation in complex environments. Her work spans IAM, PAM, governance, compliance, and cybersecurity program execution, with a focus on translating technical access risk into operational and executive decision-making. She is PMP-certified, holds a master’s degree in cybersecurity from UC Berkeley, and is passionate about helping organizations strengthen identity and privileged access controls as technology environments become more interconnected, automated, and operationally critical.",
+    "tagLine": "Cybersecurity Program Leader | Identity & Access | IT/OT Convergence | Transformation Strategist",
+    "profilePicture": "https://cdn.sessionize.com/image/f1fa-400o400o1-S4UWmv6zSrLfiBxPRRdD8K.jpg",
+    "sessions": [
+      {
+        "id": 1281746,
+        "name": "You Cannot Govern What You Cannot See: Security Lessons for the AI Agent Era"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/victoria-galloway",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465181,
+            "name": "she/her"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  },
+  {
+    "id": "e75fecf8-815c-4ecf-a08e-899a6e0b76c5",
+    "firstName": "Zach",
+    "lastName": "Rice",
+    "fullName": "Zach Rice",
+    "bio": "Zach Rice is the Head of Secrets Scanning at Aikido Security, the original author of Gitleaks, and the creator of Betterleaks. He is passionate about keeping secrets scanning low-friction and accessible for all developers.\r\n\r\nBefore joining Aikido, Zach honed his craft at Truffle Security and GitLab, and founded a small secrets scanning company.\r\n\r\nZach holds a BS in Computer Engineering from the University of Illinois Urbana-Champaign (UIUC).",
+    "tagLine": "Head of Secrets Scanning at Aikido | Betterleaks / Gitleaks author",
+    "profilePicture": "https://cdn.sessionize.com/image/f740-400o400o1-h11Vdd12FmwkqPF6SJqGhT.jpg",
+    "sessions": [
+      {
+        "id": 1229884,
+        "name": "Intro to Secret Scanning Research"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/lookatcomputer",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/zricethezav/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 128643,
+        "question": "Mastodon Handle and Instance",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 25,
+        "answerExtra": null
+      },
+      {
+        "id": 128651,
+        "question": "BlueSky Handle",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 26,
+        "answerExtra": null
+      }
+    ],
+    "categories": [
+      {
+        "id": 128644,
+        "name": "Pronouns",
+        "categoryItems": [
+          {
+            "id": 465180,
+            "name": "he/him"
+          }
+        ],
+        "sort": 27
+      }
+    ]
+  }
+]

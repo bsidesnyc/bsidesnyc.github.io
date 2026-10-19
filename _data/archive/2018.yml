@@ -33,9 +33,13 @@ schedule:
   - name: Dr. Richard Lovely
     company: John Jay College
     title: Director of the John Jay College Digital Forensics & Cybersecurity Program
+    bio: null
+    photo: null
   - name: Quiessence Phillips
     company: The City of New York
     title: Deputy CISO
+    bio: null
+    photo: /img/archive/2018/speakers/quiessence-phillips.webp
   description: Opening Remarks and Intros to D4CS & NYC Cyber Command
   type: ceremony
   slides_url: null
@@ -50,6 +54,8 @@ schedule:
   - name: Runa Sandvik
     company: The New York Times
     title: Director of Information Security
+    bio: null
+    photo: /img/archive/2018/speakers/runa-sandvik.webp
   description: null
   type: keynote
   slides_url: null
@@ -64,6 +70,8 @@ schedule:
   - name: Amber Baldet
     company: JPMorgan
     title: Blockchain Program Lead
+    bio: null
+    photo: /img/archive/2018/speakers/amber-baldet.webp
   description: null
   type: keynote
   slides_url: null
@@ -78,6 +86,8 @@ schedule:
   - name: Kelly Shortridge
     company: null
     title: null
+    bio: null
+    photo: /img/archive/2018/speakers/kelly-shortridge.webp
   description: null
   type: talk
   slides_url: null
@@ -92,6 +102,8 @@ schedule:
   - name: Loren Mahler
     company: Dealy Mahler Strategies
     title: Founder
+    bio: null
+    photo: /img/archive/2018/speakers/loren-mahler.webp
   description: null
   type: talk
   slides_url: null
@@ -106,6 +118,14 @@ schedule:
   - name: Kendra Cooley
     company: MailChimp
     title: Senior Security Operations Engineer
+    bio: 'Kendra has over five years of experience in several areas of Information Security including user administration,
+      security operations and compliance. She focuses primarily on Incident Response and user education. Kendra holds a Bachelor’s
+      degree in Digital Forensics and the CISSP certification.
+
+
+      Kendra speaks regularly at Security related events and is an advocate for practicing proper security hygiene. In her
+      free time she enjoys drinking wine and memorizing movie lines.'
+    photo: /img/archive/2018/speakers/kendra-cooley.webp
   description: 'Many organizations participate in Security Awareness training. Whether it is something that is produced internally
     or supplied by a third-party vendor, the goals are the same: educate the user to prevent becoming the next big breach
     in the news. We all know the phrase ''you can''t patch humans'', but what metrics can we use to see if our awareness efforts
@@ -124,6 +144,9 @@ schedule:
   - name: Mauricio Velazco
     company: null
     title: null
+    bio: Mauricio Velazco (@mvelazco) is a Peruvian, Infosec Geek who started his career as a penetration tester and moved
+      to defense 5 years ago. He currently leads the Threat Management team at a financial services company in New York.
+    photo: null
   description: After obtaining an initial foothold on an environment, attackers are forced to embark in lateral movement techniques
     in order to be successful in identifying and exfiltrating sensitive information. To stay ahead of the bad guys, the Blue
     team needs to have a clear understanding of these techniques as well as the forensic artifacts these techniques leave
@@ -154,6 +177,14 @@ schedule:
   - name: Galina Antova
     company: Claroty
     title: Co-Founder
+    bio: Galina Antova is cybersecurity executive and entrepreneur focused on OT/ICS cybersecurity. Galina co-founded Claroty
+      to help advance the state of cybersecurity for critical infrastructure. Prior to that, she was the Global Head of Industrial
+      Security Services at Siemens, overseeing development of its services that protect industrial customers against cyber-attacks.
+      She was also responsible for leading its Cyber Security Practice and Cyber Security Operations Center, which provided
+      managed security services for industrial control systems operators. Previously, Ms. Antova was with IBM Canada, with
+      roles in the Provisioning and Cloud Solutions business. She holds a BS in Computer Science from York University in Toronto,
+      and an MBA from the International Institute of Management and Development (IMD) in Lausanne, Switzerland.
+    photo: /img/archive/2018/speakers/galina-antova.webp
   description: null
   type: talk
   slides_url: null
@@ -168,6 +199,8 @@ schedule:
   - name: Paul Vixie
     company: Farsight Security
     title: Chairman and CEO
+    bio: null
+    photo: /img/archive/2018/speakers/paul-vixie.webp
   description: null
   type: talk
   slides_url: null
@@ -182,6 +215,11 @@ schedule:
   - name: Robert Portvliet
     company: Cylance
     title: Technical director of red team services
+    bio: 'Robert Portvliet is technical director of red team services at Cylance with over 8 years’ experience in various
+      disciplines of penetration testing. His focus is on embedded systems and wireless penetration testing and reverse engineering.
+      Prior to joining Cylance, he was the network security service line lead for Foundstone and taught the ‘Ultimate Hacking:
+      Wireless’ class at Blackhat 2011-2013'
+    photo: /img/archive/2018/speakers/robert-portvliet.webp
   description: 'Network accessible medical devices are ubiquitous in today''s clinical environment. These devices can be of
     great aid to healthcare professionals in assessing, treating and monitoring a patient''s condition. However, they can
     also fall victim to a number of systemic vulnerabilities that can expose personal health information or PHI, compromise
@@ -217,9 +255,19 @@ schedule:
   - name: Brandon Arvanaghi
     company: Gemini
     title: Security Engineer
+    bio: Brandon Arvanaghi is a security engineer at Gemini. Before Gemini, Brandon was a security consultant at Mandiant.
+      Brandon has written tools to detect webshells, obfuscated malware, and to evade sandboxes in every language. He is the
+      author of SessionGopher, CheckPlease, and a contributor to PowerShell Empire. Prior to working in the security industry,
+      Brandon conducted research on automated attack plan generation at Vanderbilt University.
+    photo: /img/archive/2018/speakers/brandon-arvanaghi.webp
   - name: Andrew Johnston
     company: Mandiant
     title: Proactive Consultant
+    bio: Andrew Johnston is a proactive consultant with Mandiant, a division of FireEye. His work focuses on gaining access
+      to critical places and systems through covert tactics. Andrew also is the lead researcher of a team at Fordham University
+      focused on using artificial intelligence to solve problems in the counterterrorism and national defense sphere. He holds
+      a bachelor's degree from Fordham University with a dual major in computer science and applied mathematics.
+    photo: /img/archive/2018/speakers/andrew-johnston.webp
   description: Detecting callouts to command-and-control (C2) servers used to be straightforward, but attackers in your network
     have found ways to communicate with the outside world even under the heaviest of scrutiny. In this talk, we discuss ways
     to use popular websites as means of getting commands and exfiltrating information. We examine the applications of asymmetric
@@ -260,6 +308,8 @@ schedule:
   - name: Roselle Safran
     company: Rosint Labs & EIR at Antecedent Ventures
     title: President
+    bio: null
+    photo: /img/archive/2018/speakers/roselle-safran.webp
   description: null
   type: talk
   slides_url: https://github.com/bsidesnyc/BSidesNYC2018/blob/master/Presentations/Roselle%20Safran%20-%20Venture%20Capital%20In%20Security.pdf
@@ -274,6 +324,23 @@ schedule:
   - name: Nicole Enslein
     company: Sublime Communications
     title: Founder and CEO
+    bio: 'As CEO & Founder of Sublime Communications, Nicole Enslein has successfully launched brands, reinvented well-known
+      brands, and created new brands and product categories for Fortune 500 companies. As the Agency of Record for Cylance,
+      a leading cyber security company, she led the development of a multi-channel global advertising campaign, which in a
+      single year generated incredible growth and recognition for the company. Over the course of the past year she has led
+      the team to become the AOR for Eureka and Cyberforce, a cyber security master reseller, the media buying AOR for Mimecast,
+      and AOR for Averon, a fully automated mobile security solution. She also works with other cyber security companies including
+      ProtectWise and Optiv. Prior to Sublime Communications, as Director of National Advertising for UPS, she developed a
+      new strategy to reposition and update the company. “What can Brown do for you?” became the campaign, which successfully
+      supported the brand for years. Along the way she managed a diverse portfolio of brands for major companies including:
+      Pfizer, GlaxoSmithKline, Johnson & Johnson, Wyeth, L’Oreal, Citibank, TD Ameritrade, Bayer, AstraZeneca, Ferring Pharmaceuticals,
+      Andrew Jergens, Liz Claiborne, Brown-Forman, Ferrero Rocher, Waterford Wedgwood and Boar’s Head Provisions. She has
+      also worked at many of the big agencies: J. Walter Thompson, Bozell, McCann-Erickson, Bates and Hill Holliday. Among
+      her biggest successes was exceeding revenue projections for Pfizer Consumer Healthcare, launching a new category and
+      product portfolio for the consumer healthcare division, as well as supporting existing brands Benadryl, Sudafed, PediaCare,
+      Neosporin and Unisom. She worked on the EFFIE Award-winning campaign that introduced SmithKline’s NicoDerm CQ, catapulting
+      it to category leadership. She also has strong product innovation expertise having patented technology for Pfizer.'
+    photo: /img/archive/2018/speakers/nicole-enslein.webp
   description: null
   type: talk
   slides_url: null
@@ -288,6 +355,11 @@ schedule:
   - name: Santiago Pontiroli
     company: Kaspersky Lab Latin America
     title: Security Analyst | Global Research and Analysis Team (GReAT)
+    bio: Santiago Pontiroli joined Kaspersky Lab as a Security Researcher in October 2013. His principal responsibilities
+      include the analysis and investigation of security threats in the SOLA region (South of Latin America), web application
+      security, the development of automatization tools stemming from threat intelligence studies and the reverse engineering
+      of programs with malicious code.
+    photo: /img/archive/2018/speakers/santiago-pontiroli.webp
   description: 'YARA has recently included a module that enables researchers the creation of more fine grained rules for malware
     written for the .NET framework. These files contain valuable metadata embedded which can enable us to pinpoint a specific
     threat and reduce our number of false positives detections.
@@ -310,6 +382,17 @@ schedule:
   - name: Richard Lethin
     company: Reservoir Labs
     title: President
+    bio: Richard Lethin is President at Reservoir Labs, a private research laboratory in New York City.  Reservoir performs
+      R&D for in the area of high performance computing, which includes projects developing new technologies for high speed
+      communication processing with applications to cyber security.  Some of these results are available as products, including
+      the ENSIGN tensor decomposition tool and the R-Scope networks sensor.  Richard formed Reservoir after completing his
+      Ph.D. at the MIT AI Laboratory in 1997, where for his thesis he contributed to the development and analysis of a massively
+      parallel message-driven computing system called the J-Machine, under the supervision of Professor William Dally.  Prior
+      to MIT, Richard worked as an engineer at the startup company Multiflow, founded by Dr. Josh Fisher, John O’Donnell and
+      John Ruttenberg, that developed the world’s first of the now ubiquitous Very Large Instruction Word (VLIW) computer
+      architectures, and where he was responsible for the floating point data paths. Richard is also Associate Professor (Adjunct)
+      in Electrical Engineering at Yale, where he teaches courses including Computer Architecture for Cognitive Computing.
+    photo: /img/archive/2018/speakers/richard-lethin.webp
   description: 'Advanced mathematics made simpler: Spectral Hypergraph Analysis for mortals. Imagine lighting up and "shining"
     your network logs through a special prism that would separate behaviors into a "spectrum" that would indicate to you things
     that are going on on your network. Some of the those things might be important discoveries with security implications.
@@ -341,18 +424,55 @@ schedule:
   - name: Mikala Vidal
     company: Uplevel Security
     title: Vice President of Marketing
+    bio: Mikala Vidal is the vice president of marketing at Uplevel Security, an adaptive system of record and intelligence
+      for modern security operations. In previous roles she’s helped cybersecurity companies like Cato Networks, Intralinks
+      (acquired by Synchronoss), Exabeam, WatchDox (acquired by BlackBerry), NSFOCUS and Waterfall Security stand out in crowded
+      markets, generate awareness, and gain market traction through targeted and effective storytelling. She is a data-driven
+      marketer who believes that transparency and authenticity are instrumental in making a company and its marketing successful.
+    photo: /img/archive/2018/speakers/mikala-vidal.webp
   - name: Lenny Zeltser
     company: Minerva Labs
     title: VP of Products
+    bio: Lenny is a seasoned business and tech leader with extensive experience in information security. He builds innovative
+      endpoint defense solutions as VP of Products at Minerva. Beforehand, Lenny served as a Director of Product Management
+      at a Fortune 500 company with a focus on security software and services. Previously, he led the enterprise security
+      consulting practice at a major cloud services provider. A frequent public speaker and writer, Lenny has co-authored
+      books on network security and malicious software. He is also a senior instructor at SANS Institute. Lenny holds an MBA
+      from MIT Sloan and a Computer Science degree from the University of Pennsylvania.
+    photo: /img/archive/2018/speakers/lenny-zeltser.webp
   - name: Omri Segev Moyal
     company: Minerva Labs
     title: Co-Founder, VP Research
+    bio: Omri is a curiosity-driven researcher and malware expert. Prior to Minerva Labs, Omri served as CTO of ClearSky Cybersecurity,
+      where he led the development and implementation of a wide spread cyber intelligence monitoring network and was head
+      of the Incident Response Team. In his previous roles Omri gained global experience and extensive expertise in reverse
+      engineering, malware research and testing advanced malware solutions in both laboratory and enterprise production environments.
+      Omri served in the Israel Defense Forces (IDF) Intelligence Unit and studied for a BSc in Computer and Information Sciences.
+    photo: /img/archive/2018/speakers/omri-segev-moyal.webp
   - name: Regine Gilbert
     company: null
     title: Sr. UX Design Consultant
+    bio: Regine Gilbert is a user experience designer, educator, and international public speaker in NYC with over 10 years
+      of experience working in the technology arena. Currently, she is a Sr. UX Design Consultant. Regine has a strong belief
+      in making the world a more accessible place--one that starts and ends with the user.  She started her career in design
+      as a fashion designer, then quickly evolved into working in a corporate information technology setting before returning
+      to the world of design. She is passionate about accessibility, design and technology.
+    photo: /img/archive/2018/speakers/regine-gilbert.webp
   - name: Joe Bernik
     company: McAfee
     title: Chief Strategist
+    bio: 'Joe Bernik has over two decades of experience creating and implementing cyber security management programs at global
+      financial institutions. While serving as CISO and head of information risk and security at ABN AMRO Bank, Fifth Third
+      Bank and BNY Mellon, Mr., Bernik lead global teams dedicated to protecting customer data, complying with data-related
+      laws and regulations, and managing incident response programs. Mr. Bernik started his career with the US Defense Department
+      of Defense (DOD) securing military systems.
+
+
+      Joe has is an avid speaker and writer and has held posts on several industry groups including the Federal Reserve Council
+      on Fraud the Financial Services Information Sharing and Analysis Center (FS-ISAC) and the Open Web Application Security
+      Project (OWASP). Mr. Bernik holds a bachelors in information systems from the University of Mary Washington and has
+      completed graduate studies in business administration at The City University of New York.'
+    photo: /img/archive/2018/speakers/joe-bernik.webp
   description: null
   type: talk
   slides_url: null
@@ -367,6 +487,8 @@ schedule:
   - name: Paul Vixie
     company: Farsight Security
     title: Chairman and CEO
+    bio: null
+    photo: /img/archive/2018/speakers/paul-vixie.webp
   description: 'Internet communications is cyclic; provisioning and security decisions are not made with one-off traffic units
     in mind. Traditional in-path firewalls are for this reason often stateful, but the value-add from such state-keeping comes
     with a healthy downside: the state-keeping is a new attack surface. Given the fate-sharing that goes on behind a firewall,
@@ -387,6 +509,24 @@ schedule:
   - name: Dmitry Bestuzhev
     company: Kaspersky
     title: Head of Global Research and Analysis Team for Latin America
+    bio: 'Dmitry Bestuzhev serves as Head of Kaspersky Lab’s Global Research and Analysis Team for Latin America, where he
+      oversees the anti-malware development and investigations of the company’s experts in the region. Dmitry joined Kaspersky
+      Lab in 2007 as a Malware Analyst and was responsible for monitoring the local threat landscape and providing preliminary
+      analyses before going on to become Senior Regional Researcher for the Latin American region in 2008. In 2010, he was
+      appointed to his current role.
+
+
+      In addition to supervising the work of the network of experts in Latin America, Dmitry’s current role also includes
+      producing reports and forecasts for the region and is frequently sought out by international media and organizations
+      for his expert commentary on IT security. Dmitry’s wide field of expertise covers everything from online fraud, through
+      the use of social networking sites by cybercriminals, to corporate security and cyberwar and cyber espionage. Additionally,
+      Dmitry participates in various educational initiatives throughout Latin America.
+
+
+      Dmitry has more than 17 years of experience in IT security across a wide variety of roles and is fluent in English,
+      Spanish and Russian. He’s been working in analysis of targeted attacks for financial institutions, producing intelligence
+      reports.'
+    photo: /img/archive/2018/speakers/dmitry-bestuzhev.webp
   description: Not matter what APT threat actor operate in the victims network, there is something in common they share and
     it's Internet for data exfiltration. I'd like to present a few Anti-APT techniques used by the threat actors in LatAm,
     Eastern Europe and other regions to bypass detections. All techniques are from real campaigns we track on.
@@ -414,6 +554,8 @@ schedule:
   - name: Kevin Chung
     company: CTFd
     title: Founder
+    bio: null
+    photo: /img/archive/2018/speakers/kevin-chung.webp
   description: null
   type: talk
   slides_url: null
@@ -428,6 +570,12 @@ schedule:
   - name: Adrian Mahieu
     company: Cortex Insight
     title: Co-Founder and CEO
+    bio: Adrian has many years experience working within the security functions of industries and understands the business
+      side of security. Building and running companies & events in a number of vertical sectors has given him the skills and
+      experience to lead the Cortex Insight team. Adrian also founded alien8 Security, the European distributor for Immunity
+      Inc. He is the Co-founder and Event Director of ‘44CON’ and Founder of Infosec in the City taking place in Singapore
+      in May 2018. Adrian has a MSc in Information Security from Royal Holloway and a BSc in Computer Science.
+    photo: /img/archive/2018/speakers/adrian-mahieu.webp
   description: null
   type: talk
   slides_url: null
@@ -442,9 +590,19 @@ schedule:
   - name: Julian Cohen
     company: Automatic Playbook Testing
     title: null
+    bio: Julian Cohen is a risk philosopher. He has passion for creating thoughtful and effective security programs. Julian
+      has been making a name for himself speaking about attackers and the necessity of focusing on offensive security tactics
+      ever since he popped into this world. He is also putting all these ideas into practice at his startup, "Automatic Playbook
+      Testing." In a previous life, Julian was a super spy hacker and an urban explorer.
+    photo: /img/archive/2018/speakers/julian-cohen.webp
   - name: Justin Berman
     company: Zenefits
     title: CISO
+    bio: Justin Berman is the CISO of Zenefits, but he’s not your typical CISO.  Justin thinks very deeply about security
+      concepts and processes that most take for granted.  Reflecting on every detail of his program allows him to make more
+      informed decisions where it matters most.  Justin cares genuinely about the wellbeing of his team and the efficacy of
+      his program.  In a previous life, Justin was a professional photographer and a professional chef.
+    photo: /img/archive/2018/speakers/justin-berman.webp
   description: 'The security industry has been talking about powerful concepts like good threat intelligence and attacker
     cost for a long time now, but most organizations are not using these concepts in their security programs, causing them
     to waste money, time, and energy on efforts that do not stop real attackers.
@@ -478,6 +636,8 @@ schedule:
   - name: David Hartley
     company: MWR InfoSecurity
     title: null
+    bio: null
+    photo: null
   description: 'Adversarial Simulation, Red Team, Threat Emulation, Blue Team, Targeted Attack Simulation, Purple Team or
     Gold Team - So many labels and buzzwords. No matter what you call it or whatever color shirt you wear / team you identify
     most with - this talk offers something for you; no matter the camp you are in.
@@ -533,6 +693,19 @@ schedule:
   - name: Jessica Santana
     company: New York On Tech
     title: Co-Founder & Director
+    bio: Jessica Santana is an entrepreneur, technologist, writer and philanthropist who is passionate about people, products
+      and building community. In 2014, she co-founded New York On Tech (NYOT), an award winning organization that creates
+      pathways for underrepresented students into degrees and careers in tech. NYOT's work has been featured in media outlets
+      such as Forbes, CNN and Huffington Post. Jessica has presented and spoken to over 50 different audiences and been named
+      a Forbes 30 Under 30, Wells Fargo Millennial Activist, Ashoka / American Express Emerging Innovator, Pahara Institute
+      Next-Gen Leader, Camelback Ventures Social Innovation Fellow and a World Economic Forum Global Shaper. Jessica is a
+      member of the NationSwell Council and one of the ambassadors for the NCWIT and Televisa Foundation's TECHNOLOchicas
+      initiative. Prior to NYOT, she worked as a technology consultant for global brands that include Accenture and Deloitte.
+      She worked on digital projects for financial services organizations and federal agencies in New York and Washington
+      D.C. Her specialties are in product strategy, design and management. She completed the JPMorganChase Global Enterprise
+      Technology Leadership program and was recognized as a Deloitte Future Leaders Apprentice and a Morgan Stanley Emerging
+      Leader. She graduated with degrees in Accounting and Information Technology from Syracuse University.
+    photo: /img/archive/2018/speakers/jessica-santana.webp
   description: null
   type: talk
   slides_url: null
@@ -547,6 +720,13 @@ schedule:
   - name: Lenny Zeltser
     company: Minerva Labs
     title: VP of Products
+    bio: Lenny is a seasoned business and tech leader with extensive experience in information security. He builds innovative
+      endpoint defense solutions as VP of Products at Minerva. Beforehand, Lenny served as a Director of Product Management
+      at a Fortune 500 company with a focus on security software and services. Previously, he led the enterprise security
+      consulting practice at a major cloud services provider. A frequent public speaker and writer, Lenny has co-authored
+      books on network security and malicious software. He is also a senior instructor at SANS Institute. Lenny holds an MBA
+      from MIT Sloan and a Computer Science degree from the University of Pennsylvania.
+    photo: /img/archive/2018/speakers/lenny-zeltser.webp
   description: Established enterprises as well as startups have much to consider when deciding how to build, deliver and maintain
     information security products that make sense for their businesses and customers. The individuals tasked with creating
     and overseeing such offerings often have "product management" in their titles. What do these people do? What skills do
@@ -567,6 +747,8 @@ schedule:
   - name: Stuart Morgan
     company: MWR InfoSecurity
     title: null
+    bio: null
+    photo: null
   description: These days, most adversaries will attempt to run code somewhere on your network in order to establish a command
     and control channel; application whitelisting is a key security control. This talk will demonstrate a number of common
     and less common techniques for being able to run code or interact with a locked down environment, seen through the eyes
@@ -584,6 +766,26 @@ schedule:
   - name: Paul Jaramillo
     company: CrowdStrike
     title: Principal Consultant
+    bio: 'Paul Jaramillo has over ten years of experience conducting incident response and enterprise security operations,
+      including a career with the U.S. Department of Energy’s National Nuclear Security Administration. As a Principal Consultant
+      based out of CrowdStrike’s St. Louis office, Paul participates in customer engagements ranging from breach response
+      to proactive compromise and adversary assessments. Along with the Midwest office, Paul helps customers in taking the
+      fight to the adversary.
+
+
+      Prior to his work at CrowdStrike, Paul was Sr. Manager of IT Security for a Fortune 500 energy company. In this role,
+      he led a global team responsible for incident response, digital forensics, IT security risk management, security operations,
+      and security awareness. Paul also was responsible for building a 10 person, 24/7 global incident response capability
+      at a Fortune 100 international manufacturer. In addition, he has spent time on the offensive side of security as a pen
+      tester for a Fortune 10 conglomerate, as well as 10 years in the telecommunications industry.
+
+
+      Paul has a Bachelors of Business Administration in Management Information Systems from the University of Oklahoma, which
+      he attended as a National Merit and Regents scholarship recipient. Paul currently holds his CISSP and GCFA certification
+      and has previously held EnCE, CCNA, and C|EH certifications. While working for the government, he held both DoD Top
+      Secret and DoE Q clearances. Paul is also the founder of the St. Louis security conference ArchCON. Paul has most recently
+      spoken at BsidesNOLA, ArchCon, BsidesSanDiego and the SANS Threat Hunting Summit.'
+    photo: /img/archive/2018/speakers/paul-jaramillo.webp
   description: How many organizations have an effective strategic threat intelligence operation? Many have failed and many
     struggle to obtain executive buy in or even mild interest in any of their cyber threat intelligence reports. By examining
     the history of the POTUS's use of intelligence, some powerful lessons can be learned. For instance, one president created
@@ -616,6 +818,32 @@ schedule:
   - name: Ryan Young
     company: Atlantic IT Group
     title: Chief Operating Officer
+    bio: 'As co-founder and COO of Atlantic IT Group, Ryan uses his entrepreneurial, strategy, sales, branding, and leadership
+      experience to help customers isolate and implement break through security and IT technology infrastructure solutions
+      to reduce complexity and streamline business operations. In addition, Ryan serves as an investor and board member on
+      several technology start-up companies overseeing their go-to- market strategy and business development. Some of these
+      technology verticals include:
+
+
+      - Security
+
+      - Smart A/V
+
+      - IoT
+
+      - Artificial intelligence
+
+      - WAN infrastructure
+
+      - Open-source software
+
+
+      Before devoting his efforts to Atlantic IT Group, Ryan was a co-founder and COO of TorreyPoint, a network consultancy
+      which became an $85M+/year company that was ranked #10 in Silicon Valley and #755 in America on Inc''s Fastest Growing
+      Companies list in 2012. Torrey Point was sold to FishNet Security in 2013, which was subsequently merged with Accuvant
+      Security to become North America''s largest private security company, Optiv. Ryan’s portfolio of customers include some
+      of the largest enterprise, service provider and public sector brands in the world.'
+    photo: /img/archive/2018/speakers/ryan-young.webp
   description: null
   type: talk
   slides_url: null
@@ -630,9 +858,20 @@ schedule:
   - name: Irena Damsky
     company: ThreatSTOP
     title: VP Research
+    bio: Irena Damsky is an Israeli security and intelligence researcher with a disturbing affection to cats and unicorns.
+      When she is not busy watching cartoons she is the VP Research for ThreatSTOP running the security analysis team and
+      making the internet safer for everyone. In the past she used to work for Check Point, reached a rank of Captain (now
+      in reserve) in the Israeli Defense forces and even managed to earn both an Bsc and Msc in computer science.
+    photo: /img/archive/2018/speakers/irena-damsky.webp
   - name: Omri Segev Moyal
     company: Minerva Labs
     title: Co-Founder, VP Research
+    bio: Omri is a curiosity-driven researcher and malware expert. Prior to Minerva Labs, Omri served as CTO of ClearSky Cybersecurity,
+      where he led the development and implementation of a wide spread cyber intelligence monitoring network and was head
+      of the Incident Response Team. In his previous roles Omri gained global experience and extensive expertise in reverse
+      engineering, malware research and testing advanced malware solutions in both laboratory and enterprise production environments.
+      Omri served in the Israel Defense Forces (IDF) Intelligence Unit and studied for a BSc in Computer and Information Sciences.
+    photo: /img/archive/2018/speakers/omri-segev-moyal.webp
   description: null
   type: talk
   slides_url: null
@@ -647,6 +886,8 @@ schedule:
   - name: Roel Schouwenberg
     company: The Celsus Advisory Group
     title: null
+    bio: null
+    photo: null
   description: 'In recent years more services and people have moved to two-factor authentication. While everybody loves talking
     about the advantages of 2FA, little attention has been given to its downsides. Attackers have started adapting to ubiquitous
     2FA and are finding new ways to take over accounts ranging anywhere from email to online banking and (crypto currency)
@@ -668,6 +909,8 @@ schedule:
   - name: Katie Knowles
     company: MWR InfoSecurity
     title: null
+    bio: null
+    photo: null
   description: Cranes, trains, building controls, oil rigs, and ...ceiling fans? Recent developments have made secure wireless
     protocols more common, but the fact is there's still a swarm of simpler RF controls in the wireless world around us. Luckily,
     the onset of Software Defined Radios (SDRs) means analyzing these insecure signals is easier than ever! We'll explore

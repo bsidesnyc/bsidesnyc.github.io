@@ -40,7 +40,7 @@
 
     <div class="row">
       {% for session in year_data.schedule %}
-        {% if session.type == "talk" or session.type == "keynote" %}
+        {% if session.type == "talk" or session.type == "keynote" or session.type == "workshop" %}
           {% assign track_slug = session.track | replace: " ", "" | replace: "-", "" | downcase %}
           {% capture session_speakers %}
             {% for speaker in session.speakers %}{{ speaker.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}
@@ -70,6 +70,12 @@
                     &#9654; Watch
                   </button>
                 {% endif %}
+                {% for link in session.links %}
+                  <a href="{{ link.url }}"
+                     class="btn btn-sm btn-outline-primary"
+                     target="_blank"
+                     rel="noopener">{{ link.label }}</a>
+                {% endfor %}
               </div>
             </div>
           </div>

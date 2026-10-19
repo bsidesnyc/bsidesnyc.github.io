@@ -10,6 +10,7 @@
           </div>
           <h3>{{ site.eventDate }}<p>at John Jay College of Criminal Justice</p></h3>
         </div>
+        {% if site.introDayOfLinks %}
         <!-- Not animated, so they show at once on a slow connection -->
         <!-- a div, not <nav>: the slide-out menu's styles apply to every nav element -->
         <div class="intro-links" role="group" aria-label="Find your way" hidden>
@@ -34,6 +35,7 @@
                 if (days === 0) document.querySelector(".intro-link-now").hidden = false;
             })("{{ site.eventStartTime | slice: 0, 10 }}");
         </script>
+        {% endif %}
     </div>
     </div>
 </section>

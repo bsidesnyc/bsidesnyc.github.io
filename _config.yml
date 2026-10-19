@@ -91,16 +91,16 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.webp"
 # Navigation
 #-----------------------------------------------
 navigationLinks:
- - {permalink: "/venue/", text: "Venue"}
+ # - {permalink: "/venue/", text: "Venue"}
  - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/map/", text: "Map"}
+ # - {permalink: "/map/", text: "Map"}
  - {permalink: "/villages/", text: "Villages"}
  - {permalink: "/ctf/", text: "CTF"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/archive/", text: "Archive"}
- - {permalink: "/registration/", text: "Registration"}
+ # - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/sponsors/", text: "Sponsors"}
- - {permalink: "/cfp/", text: "CFP"}
+ # - {permalink: "/cfp/", text: "CFP"}
  - {permalink: "/about/", text: "About"}
 bottomNavigationLinks:
 rightNavigationButtons:
@@ -202,6 +202,9 @@ eventNavigationLink: https://goo.gl/maps/7vwHt4ARqjr
 eventStartTime: "2026-10-17T08:00"
 eventDoorTime: "09:00"
 eventEndTime: "2026-10-17T17:00"
+# Homepage Schedule/Map/"What's on now" buttons (_includes/intro.html). When
+# true they show from the day before to the day after eventStartTime.
+introDayOfLinks: false
 eventPlaceCoordinates: "4087709863, -73.9899653"
 mapCenterCoordinates: "40.7709863, -73.9899653"
 mapMobileCenterCoordinates: "40.7709863, -73.9899653"

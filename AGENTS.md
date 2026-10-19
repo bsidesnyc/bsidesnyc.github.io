@@ -82,6 +82,8 @@ Dynamic pages fetch data via the Sessionize API using `fetch()`. The codebase us
 1. Create `_data/archive/YYYY.yml`.
 2. Edit `archive.html` and add `{% include archive-year.html year="YYYY" %}`.
 
+Archive speakers carry `bio` and `photo` (a local copy, `/img/archive/YYYY/speakers/<name>.webp`, ≤400px) so they survive Sessionize dropping old events; save the raw Sessionize exports in `_data/archive/raw/` too. Sessions can add `links` (`{label, url}`) for extra buttons.
+
 **Update track→room mapping**: Edit `trackToRoomElements()` in `js/utils.js`.
 
 **Section background photos**: Use `{% include bg-image-style.html img=... %}` for the inline style. If `img/sections-background/<name>-sm.webp` exists (828px wide, ~quality 60), phones get it instead. A page can drop its hero photo on phones with `mobileHero: false` in its front matter (the schedule does).

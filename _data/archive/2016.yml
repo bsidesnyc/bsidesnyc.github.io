@@ -1,8 +1,8 @@
 conference:
   name: BSidesNYC
-  edition: "0x01"
+  edition: '0x01'
   year: 2016
-  date: "2016-01-23"
+  date: '2016-01-23'
   venue:
     name: John Jay College of Criminal Justice
     address: 524 W 59th St., New York, NY 10019
@@ -12,501 +12,577 @@ conference:
   url: https://bsidesnyc.org
   registration_url: null
   attendee_count: null
-
 schedule:
-  - time_start: "08:00"
-    time_end: "08:50"
-    track: null
-    room: null
-    title: Registration / Coffee
-    speakers: []
-    description: null
-    type: break
-    slides_url: null
-    video_url: null
-    recorded: false
+- time_start: 08:00
+  time_end: 08:50
+  track: null
+  room: null
+  title: Registration / Coffee
+  speakers: []
+  description: null
+  type: break
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: 08:50
+  time_end: 09:00
+  track: null
+  room: null
+  title: Opening Remarks - Dr. Lovely's Intro on D4CS
+  speakers: []
+  description: null
+  type: ceremony
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: 09:00
+  time_end: 09:30
+  track: null
+  room: null
+  title: Keynote
+  speakers:
+  - name: Chris Wysopal
+    company: Veracode
+    title: Co-founder and Chief Technology Officer
+    bio: Chris Wysopal, Co-founder and Chief Technology Officer of Veracode, is responsible for the security analysis capabilities
+      of Veracode technology. Wysopal is recognized as an expert and a well known speaker in the information security field.
+      He was recently named one of InfoWorld’s Top 25 CTO’s and one of the 100 most influential people in IT, by the editorial
+      staffs of eWeek, CIO Insight and Baseline Magazine. Wysopal’s groundbreaking work in 2002 while at the company @stake,
+      was instrumental in developing industry guidelines for responsibly disclosing software security vulnerabilities.
+    photo: null
+  description: null
+  type: keynote
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/Chris%20Wysopal%20-%20Keynote.pdf
+  video_url: null
+  recorded: false
+- time_start: 09:30
+  time_end: '10:00'
+  track: null
+  room: null
+  title: Visionary Keynote
+  speakers:
+  - name: Dino Dai Zovi
+    company: Square
+    title: Mobile Security Lead
+    bio: Dino Dai Zovi is the Mobile Security Lead at Square. He has been working in information security for over 15 years
+      with experience in red teaming, penetration testing, software security, information security management, and cybersecurity
+      R&D. Dino is also a regular speaker at information security conferences having presented his independent research on
+      memory corruption exploitation techniques, 802.11 wireless client attacks, and Intel VT-x virtualization rootkits at
+      conferences around the world including DEFCON, BlackHat, and CanSecWest. He is a co-author of the books “The iOS Hacker’s
+      Handbook” (Wiley, 2012), “The Mac Hacker’s Handbook” (Wiley, 2009) and “The Art of Software Security Testing” (Addison-Wesley,
+      2006). In 2008, eWEEK named him one of the 15 Most Influential People in Security. He is best known in the information
+      security and Mac communities for winning the first PWN2OWN contest at CanSecWest 2007.
+    photo: null
+  description: null
+  type: keynote
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/Dino.Dai.Zovi.-.Visionary.Keynote.pdf
+  video_url: null
+  recorded: false
+- time_start: '10:00'
+  time_end: '10:45'
+  track: Track 1
+  room: L.63
+  title: Docker Containers for Malware Analysis
+  speakers:
+  - name: Lenny Zeltser
+    company: NCR Corp
+    title: Product Management Director
+    bio: 'Lenny Zeltser is a seasoned business and tech leader with extensive experience in information technology and security.
+      As a product management director at NCR Corp, he heads the software and services group that address customers’ data
+      protection needs. Before NCR, Lenny led the enterprise security consulting practice at a major cloud services provider.
+      He also trains professionals in digital forensics and malware combat at SANS Institute. In addition, Lenny is a Board
+      of Directors member at SANS Technology Institute.
 
-  - time_start: "08:50"
-    time_end: "09:00"
-    track: null
-    room: null
-    title: "Opening Remarks - Dr. Lovely's Intro on D4CS"
-    speakers: []
-    description: null
-    type: ceremony
-    slides_url: null
-    video_url: null
-    recorded: false
 
-  - time_start: "09:00"
-    time_end: "09:30"
-    track: null
-    room: null
-    title: Keynote
-    speakers:
-      - name: Chris Wysopal
-        company: Veracode
-        title: Co-founder and Chief Technology Officer
-    description: null
-    type: keynote
-    slides_url: "https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/Chris%20Wysopal%20-%20Keynote.pdf"
-    video_url: null
-    recorded: false
+      Lenny’s expertise is strongest at the intersection of business, technology, and information security and includes incident
+      response, cloud services, and product management. He frequently speaks at conferences, writes articles, and has co-authored
+      books on network security and malicious software. Lenny has an MBA degree from MIT Sloan, a Computer Science degree
+      from the University of Pennsylvania and has earned the prestigious GIAC Security Expert designation from SANS Institute.'
+    photo: null
+  description: There are wonderful malware analysis applications out there that run well on Linux; however, installing and
+    configuring them could be quite challenging. A relatively new approach using such tools involves running them as application
+    containers. This session will discuss how you can use malware analysis tools that are already distributed as Docker images
+    as part of the REMnux project. These tools include Thug, Viper, JSDetox, and others. It will also offer tips for packaging
+    your favorite apps in a similar manner. Attend this session to start learning about Docker containers, so you can not
+    only use them when examining malicious software, but also so you better understand what application containers are and
+    what role they might play alongside other infrastructure technologies.
+  type: talk
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/Lenny%20Zeltser%20-%20Docker%20Containers%20for%20Malware%20Analysis.pdf
+  video_url: null
+  recorded: false
+- time_start: '10:00'
+  time_end: '10:45'
+  track: Track 2
+  room: L.76
+  title: 'The Ransomware Threat: Tracking the Digital Footprints'
+  speakers:
+  - name: Kevin Bottomley
+    company: null
+    title: null
+    bio: null
+    photo: null
+  description: The continuing evolution of ransomware is a constant threat to businesses of all types. Taking a stroll through
+    the timeline of ransomware from its infancy to current variants, this session will walk through the methodologies for
+    prevention, containment, and detection... both inside the system and by following the digital footprints to hunt it in
+    the wild.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '10:00'
+  time_end: '10:45'
+  track: Track 3
+  room: L.61
+  title: Entrepreneur Hour
+  speakers:
+  - name: Elad Yoran
+    company: Security Growth Partners
+    title: CEO
+    bio: 'Elad Yoran serves as CEO of Security Growth Partners (SGP) and Executive Chairman of KoolSpan. Elad’s nearly 20
+      years in the cyber security industry spans experience as an executive, investor, investment banker and a several-time
+      successful entrepreneur. He works with leading cyber security companies and drives them to rapid growth. Elad serves
+      as Executive Chairman of KoolSpan, and a Director at Infinidat, Red Owl Analytics and Mischel Kwon Associates.
 
-  - time_start: "09:30"
-    time_end: "10:00"
-    track: null
-    room: null
-    title: Visionary Keynote
-    speakers:
-      - name: Dino Dai Zovi
-        company: Square
-        title: Mobile Security Lead
-    description: null
-    type: keynote
-    slides_url: "https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/Dino.Dai.Zovi.-.Visionary.Keynote.pdf"
-    video_url: null
-    recorded: false
 
-  - time_start: "10:00"
-    time_end: "10:45"
-    track: Track 1
-    room: L.63
-    title: Docker Containers for Malware Analysis
-    speakers:
-      - name: Lenny Zeltser
-        company: NCR Corp
-        title: Product Management Director
-    description: >-
-      There are wonderful malware analysis applications out there that run well
-      on Linux; however, installing and configuring them could be quite
-      challenging. A relatively new approach using such tools involves running
-      them as application containers. This session will discuss how you can use
-      malware analysis tools that are already distributed as Docker images as
-      part of the REMnux project. These tools include Thug, Viper, JSDetox, and
-      others. It will also offer tips for packaging your favorite apps in a
-      similar manner. Attend this session to start learning about Docker
-      containers, so you can not only use them when examining malicious software,
-      but also so you better understand what application containers are and what
-      role they might play alongside other infrastructure technologies.
-    type: talk
-    slides_url: "https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/Lenny%20Zeltser%20-%20Docker%20Containers%20for%20Malware%20Analysis.pdf"
-    video_url: null
-    recorded: false
+      Elad’s entrepreneurial experience includes Riptech, a provider of managed security services to governments and Fortune
+      500 corporations around the world, acquired by Symantec Corporation; MediaSentry, a provider of anti-piracy technology
+      solutions to the motion picture, music and software industries, acquired by SafeNet; Sentrigo, a provider of database
+      security acquired by McAfee; and Vaultive, a pioneering cloud encryption company. In addition, Elad was a strategic
+      investor in and advisor to NetWitness (acquired by EMC/RSA), ThreatGrid (acquired by Cisco), and Insightix (acquired
+      by McAfee).'
+    photo: null
+  - name: Stephen A. Ridley
+    company: Xipiter
+    title: Principal Researcher
+    bio: 'Stephen A. Ridley is principal researcher at Xipiter. Stephen has more than 10 years of experience insoftware development,
 
-  - time_start: "10:00"
-    time_end: "10:45"
-    track: Track 2
-    room: L.76
-    title: "The Ransomware Threat: Tracking the Digital Footprints"
-    speakers:
-      - name: Kevin Bottomley
-        company: null
-        title: null
-    description: >-
-      The continuing evolution of ransomware is a constant threat to businesses
-      of all types. Taking a stroll through the timeline of ransomware from its
-      infancy to current variants, this session will walk through the
-      methodologies for prevention, containment, and detection... both inside the
-      system and by following the digital footprints to hunt it in the wild.
-    type: talk
-    slides_url: null
-    video_url: null
-    recorded: false
+      software security, and reverse engineering. Within that last few years, he has presented his research and spoken about
+      reverse engineering and software security research on every continent except Antarctica. He’s been featured on NPR,
+      SecurityWeek, Wired and numerous other publications.
 
-  - time_start: "10:00"
-    time_end: "10:45"
-    track: Track 3
-    room: L.61
-    title: Entrepreneur Hour
-    speakers:
-      - name: Elad Yoran
-        company: Security Growth Partners
-        title: CEO
-      - name: Stephen A. Ridley
-        company: Xipiter
-        title: Principal Researcher
-      - name: Dr. Ang Cui
-        company: Red Balloon Security Inc.
-        title: Founder and Chief Scientist
-      - name: Vera Sell
-        company: Senrio
-        title: VP of Marketing and Co-founder
-    description: null
-    type: talk
-    slides_url: null
-    video_url: null
-    recorded: false
 
-  - time_start: "10:45"
-    time_end: "11:00"
-    track: null
-    room: null
-    title: Break
-    speakers: []
-    description: null
-    type: break
-    slides_url: null
-    video_url: null
-    recorded: false
+      Prior to his current work at Xipiter, Mr. Ridley previously served as the Chief Information Security Officer of a financial
+      services firm. Prior to that, various information security researcher/consultant roles (Matasano, et al), Senior Security
+      Architect at McAfee. Earlier in his career, Stephen was a founding member of the Security and Mission Assurance (SMA)
+      group at a major U.S. Defense contractor where he did vulnerability research and reverse engineering in support of the
+      U.S. Defense and Intelligence community.'
+    photo: null
+  - name: Dr. Ang Cui
+    company: Red Balloon Security Inc.
+    title: Founder and Chief Scientist
+    bio: Dr. Ang Cui, Founder & Chief Scientist of Red Balloon Security Inc., has focused on developing new technologies to
+      defend embedded systems against exploitation. Dr. Cui is the inventor of the Software Symbiote technology and the creator
+      of FRAK. During the course of his research, he has also uncovered a number of serious vulnerabilities within ubiquitous
+      embedded devices like Cisco routers, HP printers and Cisco IP phones. He has received numerous awards on his work in
+      defending and attacking ubiquitous commercial embedded devices and was recently named a 2015 DARPA Riser.
+    photo: null
+  - name: Vera Sell
+    company: Senrio
+    title: VP of Marketing and Co-founder
+    bio: Vera Sell is the VP of Marketing and a co-founder at Senrio (http://senr.io/), an enterprise-grade security solution
+      for connected embedded devices (aka “Internet of Things”) serving the industrial control, MedTech, and corporate IT
+      industries. She is an active Angel investor with the Oregon Angel Fund and TiE Angels Oregon; serving as the TiE Angels
+      Program Director and member of the screening committee throughout 2015. From this vantage point, Vera reviewed and screened
+      100+ investment applications, worked closely with entrepreneurs to get them pitch- and funding-ready, and personally
+      invested in four local tech-startups. She is the Operational Partner in the TAP Fund, a side car fund investing alongside
+      TiE Angels Oregon. Prior to her work at Senrio, Vera held product marketing and marketing communication positions at
+      Tektronix, Biamp Systems and Avenra with a focus on connected and distributed technologies. Vera holds a Master of International
+      Management from Portland State University and a Bachelor in International Business (Double Degree) from the University
+      of Applied Sciences in Dresden and Plekhanov Russian University of Economics, Moscow, Russia.
+    photo: null
+  description: null
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '10:45'
+  time_end: '11:00'
+  track: null
+  room: null
+  title: Break
+  speakers: []
+  description: null
+  type: break
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '11:00'
+  time_end: '11:45'
+  track: Track 1
+  room: L.63
+  title: Defense at Scale
+  speakers:
+  - name: Jan Schaumann
+    company: null
+    title: null
+    bio: null
+    photo: null
+  description: An old infosec truism notes that companies are divided into those who have been hacked and those who don't
+    know they've been hacked. As the industry evolves, systems grow more and more complex, simultaneously increasing the attack
+    surface manifold. What's worse, the Internet of (Insecure) Things combines brand new attack vectors with decades old bugs.
+    How can we keep up? This talk delves into the idea of defending smarter, not harder; the techniques we need to apply to
+    develop intelligent and automated defenses; the necessity of scaling your team beyond a reactive stance.
+  type: talk
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/Jan%20Schaumann%20-%20Defense%20at%20Scale.pdf
+  video_url: null
+  recorded: false
+- time_start: '11:00'
+  time_end: '11:45'
+  track: Track 2
+  room: L.76
+  title: How Hackers View Your Web Site
+  speakers:
+  - name: Patrick Laverty
+    company: null
+    title: null
+    bio: null
+    photo: null
+  description: We know about web vulnerabilities. We know web sites have them. In this talk, we see them all together, maybe
+    including some that you weren't thinking of or aware of. Let's see how a hacker sees your web site and all those vectors
+    for attack.
+  type: talk
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/Patrick%20Laverty%20-%20How%20A%20Hacker%20Sees%20Your%20Site.pdf
+  video_url: null
+  recorded: false
+- time_start: '11:00'
+  time_end: '11:45'
+  track: Track 3
+  room: L.61
+  title: 'Villages: Electronics Workshop / LP Village / CTF'
+  speakers: []
+  description: null
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '11:45'
+  time_end: '13:00'
+  track: null
+  room: null
+  title: Lunch
+  speakers: []
+  description: null
+  type: break
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '13:00'
+  time_end: '13:45'
+  track: Track 1
+  room: L.63
+  title: Mobile implants in the age of cyber-espionage
+  speakers:
+  - name: Dmitry Bestuzhev
+    company: Kaspersky Lab
+    title: Head of Global Research and Analysis Team for Latin America
+    bio: 'Dmitry Bestuzhev serves as Head of Kaspersky Lab’s Global Research and Analysis Team for Latin America, where he
+      oversees the anti-malware development and investigations of the company’s experts in the region. Dmitry joined Kaspersky
+      Lab in 2007 as a Malware Analyst and was responsible for monitoring the local threat landscape and providing preliminary
+      analyses before going on to become Senior Regional Researcher for the Latin American region in 2008. In 2010, he was
+      appointed to his current role.
 
-  - time_start: "11:00"
-    time_end: "11:45"
-    track: Track 1
-    room: L.63
-    title: Defense at Scale
-    speakers:
-      - name: Jan Schaumann
-        company: null
-        title: null
-    description: >-
-      An old infosec truism notes that companies are divided into those who have
-      been hacked and those who don't know they've been hacked. As the industry
-      evolves, systems grow more and more complex, simultaneously increasing the
-      attack surface manifold. What's worse, the Internet of (Insecure) Things
-      combines brand new attack vectors with decades old bugs. How can we keep
-      up? This talk delves into the idea of defending smarter, not harder; the
-      techniques we need to apply to develop intelligent and automated defenses;
-      the necessity of scaling your team beyond a reactive stance.
-    type: talk
-    slides_url: "https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/Jan%20Schaumann%20-%20Defense%20at%20Scale.pdf"
-    video_url: null
-    recorded: false
 
-  - time_start: "11:00"
-    time_end: "11:45"
-    track: Track 2
-    room: L.76
-    title: How Hackers View Your Web Site
-    speakers:
-      - name: Patrick Laverty
-        company: null
-        title: null
-    description: >-
-      We know about web vulnerabilities. We know web sites have them. In this
-      talk, we see them all together, maybe including some that you weren't
-      thinking of or aware of. Let's see how a hacker sees your web site and all
-      those vectors for attack.
-    type: talk
-    slides_url: "https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/Patrick%20Laverty%20-%20How%20A%20Hacker%20Sees%20Your%20Site.pdf"
-    video_url: null
-    recorded: false
+      In addition to supervising the work of the network of experts in Latin America, Dmitry’s current role also includes
+      producing reports and forecasts for the region and is frequently sought out by international media and organizations
+      for his expert commentary on IT security. Dmitry’s wide field of expertise covers everything from online fraud, through
+      the use of social networking sites by cybercriminals, to corporate security and cyberwar and cyber espionage.  Additionally,
+      Dmitry participates in various educational initiatives throughout Latin America.
 
-  - time_start: "11:00"
-    time_end: "11:45"
-    track: Track 3
-    room: L.61
-    title: "Villages: Electronics Workshop / LP Village / CTF"
-    speakers: []
-    description: null
-    type: village
-    slides_url: null
-    video_url: null
-    recorded: false
 
-  - time_start: "11:45"
-    time_end: "13:00"
-    track: null
-    room: null
-    title: Lunch
-    speakers: []
-    description: null
-    type: break
-    slides_url: null
-    video_url: null
-    recorded: false
+      Dmitry has more than 15 years of experience in IT security across a wide variety of roles and is fluent in English,
+      Spanish and Russian.'
+    photo: null
+  description: This research is about mobile implants used in APT attacks. I will go through implants used ITW to spy on targets
+    using iOS, Android, Windows Mobile and Android. I'll present current APT-threat actors mobile capabilities based on the
+    code analysis/reversing I did. All samples are not PoC but real in-the-wild samples.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '13:00'
+  time_end: '13:45'
+  track: Track 2
+  room: L.76
+  title: 'Beyond IDS: Practical Network Hunting'
+  speakers:
+  - name: Josh Liburdi
+    company: null
+    title: null
+    bio: null
+    photo: null
+  description: Aimed at incident response and threat detection attendees, this talk highlights practical hunting techniques
+    for identifying adversaries in network-based data. The talk will review general hunting techniques that can be applied
+    to any dataset, discuss tools that make network-based hunting possible, and dive deep into practical ways to hunt adversaries
+    in network-based data. Open source code for the Bro network security monitor tool will be released on the day of the talk
+    to support some of the hunting techniques that will be discussed.
+  type: talk
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/Josh%20Liburdi%20-%20Beyond%20IDS.%20Practical%20Network%20Hunting.pdf
+  video_url: null
+  recorded: false
+- time_start: '13:00'
+  time_end: '17:45'
+  track: Track 3
+  room: L.61
+  title: 'Villages: Electronics Workshop / LP Village / CTF / Embedded Exploitation Village'
+  speakers: []
+  description: null
+  type: village
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '14:00'
+  time_end: '14:45'
+  track: Track 1
+  room: L.63
+  title: 99 Problems but a Microkernel ain't one!
+  speakers:
+  - name: Alex Plaskett
+    company: null
+    title: null
+    bio: null
+    photo: null
+  description: Cars, Safety Critical Systems and consumer devices (phones) all run QNX, however, very little security research
+    has been performed in this area. This talk will provide an overview of QNX security architecture with Blackberry 10 used
+    as the primary target. It will discuss research on a locked down highly secured embedded OS, the OS attack surface and
+    methods of identifying vulnerabilities from both a reverse engineering perspective and automated fuzzing approach. This
+    talk will also highlight some of the novel QNX weaknesses identified with this research and the challenges faced with
+    exploit development on the platform.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '14:00'
+  time_end: '14:45'
+  track: Track 2
+  room: L.76
+  title: The Insecurity Of Things
+  speakers:
+  - name: Stephen A. Ridley
+    company: Xipiter
+    title: Principal Researcher
+    bio: 'Stephen A. Ridley is principal researcher at Xipiter. Stephen has more than 10 years of experience insoftware development,
 
-  - time_start: "13:00"
-    time_end: "13:45"
-    track: Track 1
-    room: L.63
-    title: Mobile implants in the age of cyber-espionage
-    speakers:
-      - name: Dmitry Bestuzhev
-        company: Kaspersky Lab
-        title: Head of Global Research and Analysis Team for Latin America
-    description: >-
-      This research is about mobile implants used in APT attacks. I will go
-      through implants used ITW to spy on targets using iOS, Android, Windows
-      Mobile and Android. I'll present current APT-threat actors mobile
-      capabilities based on the code analysis/reversing I did. All samples are
-      not PoC but real in-the-wild samples.
-    type: talk
-    slides_url: null
-    video_url: null
-    recorded: false
+      software security, and reverse engineering. Within that last few years, he has presented his research and spoken about
+      reverse engineering and software security research on every continent except Antarctica. He’s been featured on NPR,
+      SecurityWeek, Wired and numerous other publications.
 
-  - time_start: "13:00"
-    time_end: "13:45"
-    track: Track 2
-    room: L.76
-    title: "Beyond IDS: Practical Network Hunting"
-    speakers:
-      - name: Josh Liburdi
-        company: null
-        title: null
-    description: >-
-      Aimed at incident response and threat detection attendees, this talk
-      highlights practical hunting techniques for identifying adversaries in
-      network-based data. The talk will review general hunting techniques that
-      can be applied to any dataset, discuss tools that make network-based
-      hunting possible, and dive deep into practical ways to hunt adversaries in
-      network-based data. Open source code for the Bro network security monitor
-      tool will be released on the day of the talk to support some of the
-      hunting techniques that will be discussed.
-    type: talk
-    slides_url: "https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/Josh%20Liburdi%20-%20Beyond%20IDS.%20Practical%20Network%20Hunting.pdf"
-    video_url: null
-    recorded: false
 
-  - time_start: "13:00"
-    time_end: "17:45"
-    track: Track 3
-    room: L.61
-    title: "Villages: Electronics Workshop / LP Village / CTF / Embedded Exploitation Village"
-    speakers: []
-    description: null
-    type: village
-    slides_url: null
-    video_url: null
-    recorded: false
+      Prior to his current work at Xipiter, Mr. Ridley previously served as the Chief Information Security Officer of a financial
+      services firm. Prior to that, various information security researcher/consultant roles (Matasano, et al), Senior Security
+      Architect at McAfee. Earlier in his career, Stephen was a founding member of the Security and Mission Assurance (SMA)
+      group at a major U.S. Defense contractor where he did vulnerability research and reverse engineering in support of the
+      U.S. Defense and Intelligence community.'
+    photo: null
+  description: There is a latent distrust of the growing Internet Of Things market. The data collected by them is becoming
+    more personal all while proliferation of internet connected devices is continuing without regard to privacy or security.
+    Recent news stories have consumers concerned not only with privacy but also surveillance and data handling. The enterprise,
+    medtech, industrial control, and other verticals have plenty to worry about also. To compound the problem, IoT and internet
+    connected consumer devices are each made from custom hardware and software. This lack of homogeneity in design makes traditional
+    software-based security (like anti-virus) virtually impossible. Since the traditional solutions aren't applicable to these
+    new ubiquitous devices, new techniques and technologies are needed. We'll talk about how we've been approaching the problem
+    with a new platform called Senrio. At Xipiter we've been working on the security of embedded systems and IOT devices.
+    Xipiter has built several industry unique trainings on mobile security and embedded device security. Each of which has
+    sold out at Blackhat (the largest security conference in the world) for three years in a row. We've helped numerous manufacturers
+    secure their embedded devices. From Point Sales and Entertainment Systems to the more esoteric vendors of Gaming systems
+    and Industrial Controls Systems.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '15:00'
+  time_end: '15:45'
+  track: Track 1
+  room: L.63
+  title: 'Change is the only constant: A day in the life of DNS changes'
+  speakers:
+  - name: Ben April
+    company: null
+    title: null
+    bio: null
+    photo: null
+  description: We took a one-day snapshot of Farsight's new DNS Changes channel and tore into it like an unsupervised 9 year
+    old with a screwdriver. Inside we found CDNs, DGAs, phone-home services, VPN tunnels, some RTFM moments, and some WTF
+    moments. Catch this inside glimpse of what you can learn about your network or your adversary by monitoring DNS.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '15:00'
+  time_end: '15:45'
+  track: Track 2
+  room: L.76
+  title: Making & Breaking Machine Learning Anomaly Detectors in Real Life
+  speakers:
+  - name: Clarence Chio
+    company: Shape Security
+    title: Product Developer
+    bio: Clarence graduated with a B.S. and M.S. in Computer Science from Stanford University in 2014, specializing in data
+      mining and artificial intelligence. He currently works at Shape Security, building a product that protects from malicious
+      bots and automated attacks on Global 2000 customer websites. At Shape, he works on the big data analysis systems that
+      are used to tackle this problem. Clarence has spoken at security conferences in Russia, Japan, Canada, and within the
+      US. He is also the founder and organizer of the biggest data science and security meetup group in the San Francisco
+      Bay Area.
+    photo: null
+  description: Machine learning (ML) techniques used in network intrusion detection are susceptible to adversarial model poisoning.
+    We demonstrate this attack and analyze some proposals for how to circumvent it, then consider specific use cases of ML
+    and anomaly detection in a security context. We analyze how ML can be used in security and why it is not as straightforward
+    as once thought.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '15:45'
+  time_end: '16:00'
+  track: null
+  room: null
+  title: Break
+  speakers: []
+  description: null
+  type: break
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '16:00'
+  time_end: '16:45'
+  track: Track 1
+  room: L.63
+  title: No Silver Bullet. Multi contextual threat detection via Machine Learning
+  speakers:
+  - name: Rod Soto
+    company: Splunk User Behavioral Analytics
+    title: Security Researcher
+    bio: Rod Soto has over 15 years of experience in information technology and security. Currently working as a Security
+      Researcher at Splunk User Behavioral Analytics. He has spoken at ISSA, ISC2, OWASP, DEFCON, Hackmiami, Bsides and also
+      been featured in Rolling Stone Magazine, Pentest Magazine, Univision and CNN. Rod Soto was the winner of the 2012 BlackHat
+      Las vegas CTF competition and is the founder and lead developer of the Kommand && KonTroll competitive hacking Tournament
+      series.
+    photo: null
+  - name: Joseph Zadeh
+    company: null
+    title: Security Data Scientist
+    bio: 'Joseph Zadeh studied mathematics in college and received a BS from University California, Riverside and an MS and
+      PhD from Purdue University. While in college, he worked in a Network Operation Center focused on security and network
+      performance baselines and during that time he spoke at DEFCON and Torcon security conferences.
 
-  - time_start: "14:00"
-    time_end: "14:45"
-    track: Track 1
-    room: L.63
-    title: 99 Problems but a Microkernel ain't one!
-    speakers:
-      - name: Alex Plaskett
-        company: null
-        title: null
-    description: >-
-      Cars, Safety Critical Systems and consumer devices (phones) all run QNX,
-      however, very little security research has been performed in this area.
-      This talk will provide an overview of QNX security architecture with
-      Blackberry 10 used as the primary target. It will discuss research on a
-      locked down highly secured embedded OS, the OS attack surface and methods
-      of identifying vulnerabilities from both a reverse engineering perspective
-      and automated fuzzing approach. This talk will also highlight some of the
-      novel QNX weaknesses identified with this research and the challenges
-      faced with exploit development on the platform.
-    type: talk
-    slides_url: null
-    video_url: null
-    recorded: false
 
-  - time_start: "14:00"
-    time_end: "14:45"
-    track: Track 2
-    room: L.76
-    title: The Insecurity Of Things
-    speakers:
-      - name: Stephen A. Ridley
-        company: Xipiter
-        title: Principal Researcher
-    description: >-
-      There is a latent distrust of the growing Internet Of Things market. The
-      data collected by them is becoming more personal all while proliferation of
-      internet connected devices is continuing without regard to privacy or
-      security. Recent news stories have consumers concerned not only with
-      privacy but also surveillance and data handling. The enterprise, medtech,
-      industrial control, and other verticals have plenty to worry about also. To
-      compound the problem, IoT and internet connected consumer devices are each
-      made from custom hardware and software. This lack of homogeneity in design
-      makes traditional software-based security (like anti-virus) virtually
-      impossible. Since the traditional solutions aren't applicable to these new
-      ubiquitous devices, new techniques and technologies are needed. We'll talk
-      about how we've been approaching the problem with a new platform called
-      Senrio. At Xipiter we've been working on the security of embedded systems
-      and IOT devices. Xipiter has built several industry unique trainings on
-      mobile security and embedded device security. Each of which has sold out
-      at Blackhat (the largest security conference in the world) for three years
-      in a row. We've helped numerous manufacturers secure their embedded
-      devices. From Point Sales and Entertainment Systems to the more esoteric
-      vendors of Gaming systems and Industrial Controls Systems.
-    type: talk
-    slides_url: null
-    video_url: null
-    recorded: false
-
-  - time_start: "15:00"
-    time_end: "15:45"
-    track: Track 1
-    room: L.63
-    title: "Change is the only constant: A day in the life of DNS changes"
-    speakers:
-      - name: Ben April
-        company: null
-        title: null
-    description: >-
-      We took a one-day snapshot of Farsight's new DNS Changes channel and tore
-      into it like an unsupervised 9 year old with a screwdriver. Inside we
-      found CDNs, DGAs, phone-home services, VPN tunnels, some RTFM moments,
-      and some WTF moments. Catch this inside glimpse of what you can learn
-      about your network or your adversary by monitoring DNS.
-    type: talk
-    slides_url: null
-    video_url: null
-    recorded: false
-
-  - time_start: "15:00"
-    time_end: "15:45"
-    track: Track 2
-    room: L.76
-    title: Making & Breaking Machine Learning Anomaly Detectors in Real Life
-    speakers:
-      - name: Clarence Chio
-        company: Shape Security
-        title: Product Developer
-    description: >-
-      Machine learning (ML) techniques used in network intrusion detection are
-      susceptible to adversarial model poisoning. We demonstrate this attack and
-      analyze some proposals for how to circumvent it, then consider specific use
-      cases of ML and anomaly detection in a security context. We analyze how ML
-      can be used in security and why it is not as straightforward as once
-      thought.
-    type: talk
-    slides_url: null
-    video_url: null
-    recorded: false
-
-  - time_start: "15:45"
-    time_end: "16:00"
-    track: null
-    room: null
-    title: Break
-    speakers: []
-    description: null
-    type: break
-    slides_url: null
-    video_url: null
-    recorded: false
-
-  - time_start: "16:00"
-    time_end: "16:45"
-    track: Track 1
-    room: L.63
-    title: No Silver Bullet. Multi contextual threat detection via Machine Learning
-    speakers:
-      - name: Rod Soto
-        company: Splunk User Behavioral Analytics
-        title: Security Researcher
-      - name: Joseph Zadeh
-        company: null
-        title: Security Data Scientist
-    description: >-
-      Current threat detection technologies lack the ability to present an
-      accurate and complete picture of how threats are executed and fail to put
-      together the multi contextual relationship of exploit chain indicators. A
-      combination of behavioral and machine learning technologies can provide a
-      more effective and complete assessment and prevention of threats in
-      organizations relying on dispersed, static single indicator technologies.
-      This approach also makes use of current static and single threat indicator
-      technologies using Big Data computational models.
-    type: talk
-    slides_url: null
-    video_url: null
-    recorded: false
-
-  - time_start: "16:00"
-    time_end: "16:45"
-    track: Track 2
-    room: L.76
-    title: The Pagentry of Lateral Movement
-    speakers:
-      - name: Stuart Morgan
-        company: null
-        title: null
-    description: >-
-      In order to meaningfully compromise a client, you need to take advantage of
-      every opportunity to gather information and laterally move around the
-      network. This talk will discuss ways of abusing Pageant (PuTTY's SSH
-      agent) on a fully patched Windows host, including a demonstration of a
-      meterpreter extension which can tunnel SSH agent traffic in a manner that
-      is almost undetectable with default logging options, and the way that an
-      existing reconnaissance tool from 2012 was improved to make its output
-      easier to use during a simulated attack or penetration test.
-    type: talk
-    slides_url: null
-    video_url: null
-    recorded: false
-
-  - time_start: "17:00"
-    time_end: "17:45"
-    track: Track 1
-    room: L.63
-    title: An Adversarial View of SaaS Malware Sandboxes
-    speakers:
-      - name: Jason Trost
-        company: ThreatStream, Inc.
-        title: VP of Threat Research
-      - name: Aaron Shelmire
-        company: ThreatStream
-        title: Security Professional
-    description: >-
-      Anyone attending this conference knows the usefulness of running malware in
-      a sandbox to perform triage, speed security analysts' workflow, extract
-      indicators of compromise (IOCs), and to gather useful information for
-      detection and mitigation. When analysts do this, what are the OPSEC
-      concerns regarding tipping the adversary off? Which sandbox providers are
-      better than others in this regard? In this talk we will present some
-      research on taking an adversarial view of the free and widely used SaaS
-      malware sandboxes. When an adversary's malware is detonated in a sandbox,
-      what network artifacts can they see? Can they determine which sandbox
-      provider based on the network? How do malware and related IOCs submitted to
-      these sandboxes propagate to security companies and ultimately threat
-      intelligence feeds? In this talk, we will answer all these questions and
-      more.
-    type: talk
-    slides_url: "https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/Jason%20Trost%20%26%20Aaron%20Shelmire%20-%20An%20Adversarial%20View%20of%20SaaS%20Sandboxes.pdf"
-    video_url: null
-    recorded: false
-
-  - time_start: "17:00"
-    time_end: "17:45"
-    track: Track 2
-    room: L.76
-    title: Warranty Void If Label Removed - Attacking MPLS Networks
-    speakers:
-      - name: G. Geshev
-        company: null
-        title: null
-    description: >-
-      This talk will be a walk-through of research findings from assessing
-      multiple MPLS implementations and the various key weaknesses that were
-      found to affect a number of leading vendors. General MPLS and MPLS related
-      terms and concepts will be briefly introduced to the audience, followed by
-      an overview of a typical service provider network, classic topologies and
-      basic traffic engineering strategies. It should be noted that none of the
-      examples and demonstrations require access to the MPLS backbone. This talk
-      will be concluded with both general and, where applicable, vendor specific
-      best practices and recommendations on reducing the attack surface of an
-      MPLS network.
-    type: talk
-    slides_url: "https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/G.%20Geshev%20-%20Warranty%20Void%20If%20Label%20Removed.pdf"
-    video_url: null
-    recorded: false
-
-  - time_start: "17:45"
-    time_end: "18:00"
-    track: null
-    room: null
-    title: Closing Remarks
-    speakers: []
-    description: null
-    type: ceremony
-    slides_url: null
-    video_url: null
-    recorded: false
-
+      Most recently he joined Caspida as a security data scientist. Previously, Joseph was part of the data science consulting
+      team at Greenplum/Pivotal helping focused on Cyber Security analytics and also part of Kaiser Permanente’s first Cyber
+      Security R&D team.'
+    photo: null
+  description: Current threat detection technologies lack the ability to present an accurate and complete picture of how threats
+    are executed and fail to put together the multi contextual relationship of exploit chain indicators. A combination of
+    behavioral and machine learning technologies can provide a more effective and complete assessment and prevention of threats
+    in organizations relying on dispersed, static single indicator technologies. This approach also makes use of current static
+    and single threat indicator technologies using Big Data computational models.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '16:00'
+  time_end: '16:45'
+  track: Track 2
+  room: L.76
+  title: The Pagentry of Lateral Movement
+  speakers:
+  - name: Stuart Morgan
+    company: null
+    title: null
+    bio: null
+    photo: null
+  description: In order to meaningfully compromise a client, you need to take advantage of every opportunity to gather information
+    and laterally move around the network. This talk will discuss ways of abusing Pageant (PuTTY's SSH agent) on a fully patched
+    Windows host, including a demonstration of a meterpreter extension which can tunnel SSH agent traffic in a manner that
+    is almost undetectable with default logging options, and the way that an existing reconnaissance tool from 2012 was improved
+    to make its output easier to use during a simulated attack or penetration test.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: false
+- time_start: '17:00'
+  time_end: '17:45'
+  track: Track 1
+  room: L.63
+  title: An Adversarial View of SaaS Malware Sandboxes
+  speakers:
+  - name: Jason Trost
+    company: ThreatStream, Inc.
+    title: VP of Threat Research
+    bio: Jason Trost is the VP of Threat Research at ThreatStream, Inc. and leads ThreatStream Labs, the research team. He
+      has worked in security for more than ten years, and he has several years of experience leveraging big data technologies
+      for security data mining and analytics. He is deeply interested in network security, DFIR, honeypots, big data and machine
+      learning. He is currently focused on building highly scalable systems for processing, analyzing, and visualizing high
+      speed network/security events in real-time as well as systems for analyzing massive amounts of malware. He is a regular
+      attendee of Big Data and security conferences, and he has spoken at Blackhat, BSidesSF, BSidesLV, BSidesDC, FloCon,
+      and Hadoop Summit. He has contributed to several security and big data related open source projects including the Modern
+      Honey Network (MHN), BinaryPig, ElasticSearch, Apache Accumulo, and Apache Storm. He has held senior technical positions
+      with the U.S. Department of Defense, Booz Allen Hamilton, and Endgame Inc. He holds a M.S. in Information Security from
+      Georgia Institute of Technology and a B.S. in Computer Science from Florida State University.
+    photo: null
+  - name: Aaron Shelmire
+    company: ThreatStream
+    title: Security Professional
+    bio: While having “played around” with computers as Pittsburgh, PA far back as high school, Aaron held out hope to become
+      a famous dj or video game creator in the 90s. It wasn’t until 2004 when he began his long twisted journey into information
+      security, when the super computers he was working on at PSC were hacked by a dire and sophisticated threat that penetrated
+      over a thousand organizations over a multi‐year period...that turned out to be a 16 year old kid in Uppsala, Sweden
+      during the Stakkato attacks. Aaron switched gears, began piecing together a security practice at the PSC, went to grad
+      school at Carnegie Mellon, and hopped gigs to go work at CERT/CC. He then began sharing his knowledge with graduate
+      students at CMU as adjunct faculty. After a few years of “applied research”, he jumped gigs for more “applied”‐ness
+      / less “research”‐ness in the Dell SecureWorks CounterThreatUnit’s Special Ops team, which created and operated an end
+      point detection platform in Targeted Incident Response engagements. Recently he has been focused on sharing threat intelligence
+      in a programmatic way at ThreatStream.
+    photo: null
+  description: Anyone attending this conference knows the usefulness of running malware in a sandbox to perform triage, speed
+    security analysts' workflow, extract indicators of compromise (IOCs), and to gather useful information for detection and
+    mitigation. When analysts do this, what are the OPSEC concerns regarding tipping the adversary off? Which sandbox providers
+    are better than others in this regard? In this talk we will present some research on taking an adversarial view of the
+    free and widely used SaaS malware sandboxes. When an adversary's malware is detonated in a sandbox, what network artifacts
+    can they see? Can they determine which sandbox provider based on the network? How do malware and related IOCs submitted
+    to these sandboxes propagate to security companies and ultimately threat intelligence feeds? In this talk, we will answer
+    all these questions and more.
+  type: talk
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/Jason%20Trost%20%26%20Aaron%20Shelmire%20-%20An%20Adversarial%20View%20of%20SaaS%20Sandboxes.pdf
+  video_url: null
+  recorded: false
+- time_start: '17:00'
+  time_end: '17:45'
+  track: Track 2
+  room: L.76
+  title: Warranty Void If Label Removed - Attacking MPLS Networks
+  speakers:
+  - name: G. Geshev
+    company: null
+    title: null
+    bio: null
+    photo: null
+  description: This talk will be a walk-through of research findings from assessing multiple MPLS implementations and the
+    various key weaknesses that were found to affect a number of leading vendors. General MPLS and MPLS related terms and
+    concepts will be briefly introduced to the audience, followed by an overview of a typical service provider network, classic
+    topologies and basic traffic engineering strategies. It should be noted that none of the examples and demonstrations require
+    access to the MPLS backbone. This talk will be concluded with both general and, where applicable, vendor specific best
+    practices and recommendations on reducing the attack surface of an MPLS network.
+  type: talk
+  slides_url: https://github.com/bsidesnyc/BSidesNYC2016/blob/master/Presentations/G.%20Geshev%20-%20Warranty%20Void%20If%20Label%20Removed.pdf
+  video_url: null
+  recorded: false
+- time_start: '17:45'
+  time_end: '18:00'
+  track: null
+  room: null
+  title: Closing Remarks
+  speakers: []
+  description: null
+  type: ceremony
+  slides_url: null
+  video_url: null
+  recorded: false
 sponsors: []
-
 villages:
-  - name: Electronics Workshop
-    url: null
-  - name: LP Village
-    url: null
-  - name: CTF
-    url: null
-  - name: Embedded Exploitation Village
-    url: null
+- name: Electronics Workshop
+  url: null
+- name: LP Village
+  url: null
+- name: CTF
+  url: null
+- name: Embedded Exploitation Village
+  url: null

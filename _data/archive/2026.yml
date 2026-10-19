@@ -1,0 +1,1826 @@
+# Optional per-session buttons on /archive/, shown after Slides/Watch:
+#   links:
+#   - label: Lab Guide
+#     url: https://example.com/lab
+conference:
+  name: BSidesNYC
+  edition: '0x06'
+  year: 2026
+  date: '2026-10-17'
+  venue:
+    name: John Jay College of Criminal Justice
+    address: 524 W 59th St., New York, NY 10019
+    coordinates:
+      lat: 40.7709863
+      lng: -73.9899653
+  url: https://bsidesnyc.org
+  registration_url: https://events.ticketleap.com/tickets/bsidesnyc/bsidesnyc-0x06
+  attendee_count: null
+schedule:
+- time_start: 09:00
+  time_end: 09:15
+  track: Tech - Red
+  room: Tech - Red
+  title: BSidesNYC 0x06 Launch
+  speakers: []
+  description: null
+  type: ceremony
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: 09:15
+  time_end: '10:00'
+  track: Tech - Red
+  room: Tech - Red
+  title: Keynote
+  speakers:
+  - name: Eva Galperin
+    company: Electronic Frontier Foundation
+    title: Director of Cybersecurity, Electronic Frontier Foundation
+    bio: Eva Galperin is EFF's Director of Cybersecurity. Prior to 2007, when she came to work for EFF, Eva worked in security
+      and IT in Silicon Valley and earned degrees in Political Science and International Relations from SFSU. Her work is
+      primarily focused on providing privacy and security for vulnerable populations around the world. To that end, she has
+      applied the combination of her political science and technical background to everything from organizing EFF's Tor Relay
+      Challenge, to writing privacy and security training materials (including Surveillance Self Defense and the Digital First
+      Aid Kit), and publishing research on malware in Syria, Vietnam, Lebanon, and Kazakhstan. Since 2018, she has worked
+      on addressing the digital privacy and security needs of survivors of domestic abuse. She is also a co-founder of the
+      Coalition Against Stalkerware.
+    photo: /img/archive/2026/speakers/eva-galperin.webp
+  description: null
+  type: keynote
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '10:00'
+  time_end: '10:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: 'Content as Go-To-Market: Build a Category, Not a Funnel'
+  speakers:
+  - name: Amir Kavousian
+    company: DevArmor
+    title: Founder & CEO, DevArmor
+    bio: 'Amir Kavousian is a two-time cybersecurity founder and the CEO of DevArmor, an AI-native platform reinventing threat
+      modeling and security design reviews for the AI era. Previously, he was co-founder and CTO of Altitude Networks (acquired
+      by CoinList), where he led engineering and security for Fortune 500 clients. He also led engineering teams at Capital
+      One and holds a PhD in Engineering from Stanford.
+
+
+      At DevArmor, Amir is tackling one of the most persistent challenges in AppSec: scaling secure-by-design practices without
+      compromising developer speed. His team is building AI agents that automate threat modeling and security reviews, identify
+      logic flaws, and embed security guardrails directly into development workflows.
+
+
+      Amir lives in the Bay Area with his wife and two daughters. Outside of work, he’s an avid tennis player, a runner, and
+      a former mountaineer hoping to return to high altitudes someday.'
+    photo: /img/archive/2026/speakers/amir-kavousian.webp
+  description: 'Most security startups run "content marketing" the same way: gate an ebook behind a form, capture the emails,
+    drip a nurture sequence, and call it a funnel. That may work for some time, but it doesn''t work when you are building
+    a new category.
+
+
+    My thesis is that if you want to own a space, don''t just run a funnel. Instead, build the map everyone else navigates
+    by. Write the reference material, define the vocabulary, and become the default name people reach for when budget finally
+    shows up for this category. That''s content as category creation, and it compounds over time. A good funnel degrades when
+    you stop paying, but a canonical resource accrues authority, citations, and inbound for years.
+
+    In this talk I''ll share my playbook: how to find the category artifact nobody owns yet and make the definitive version
+    of it; why giving it away for free and naming your competitors is what builds the trust that drives inbound; how a newsletter
+    keeps an audience warm between the big drops; and how to think honestly about pipeline. I''ll also call out the tarpits:
+    gating everything and strangling your own reach, dressing a sales pitch up as "content," publishing once and expecting
+    it to compound, and chasing SEO-slop volume instead of authority.
+
+    Threat modeling is my running example because it''s what I''ve spent my career on, but the mechanics work for anyone trying
+    to own a niche, including practitioners who want to build real authority in a space without turning into a LinkedIn influencer.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '10:00'
+  time_end: '10:55'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: 'Finding Evil Fast: Windows Memory Triage with Volatility 3'
+  speakers:
+  - name: Andrew Case
+    company: Volexity
+    title: Director of Research, Volexity
+    bio: 'Andrew Case is the Director of Research at Volexity, and has significant experience in incident response handling
+      and malware analysis. He has conducted numerous large-scale investigations that span enterprises and industries. Case
+      is a core developer of the Volatility memory analysis framework, and a co-author of the highly popular and technical
+      forensics analysis book “The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory.”
+      He has presented at major industry conferences, including BSidesNYC, Black Hat, DEF CON, RSA, SecTor, DFRWS, and OMFW.'
+    photo: /img/archive/2026/speakers/andrew-case.webp
+  description: 'Memory analysis is an essential investigative technique for detecting modern, memory-resident malware. Unfortunately,
+    it is often perceived as a difficult and manual process requiring expert knowledge of operating systems and malware internals.
+    This talk challenges that assumption by presenting five checks that can be automatically performed against Windows memory
+    samples to quickly surface signs of malicious code execution or attacker access.  The presented checks answer five critical
+    triage questions: 1) are any processes running with unexpected privileges, 2)  are restricted resources being accessed
+    by unexpected processes, 3) are any processes executing code in a suspicious manner, 4) has malware entered the kernel,
+    and 5) does any process or kernel driver match known threat intelligence? All checks will be demonstrated using Volatility
+    3, the most widely used open source framework for memory analysis. Attendees will leave with a compact workflow that SOC
+    analysts, threat hunters, and incident handlers can use to automatically identify memory-only malware, toolkits, and attacker
+    activity, helping them rapidly prioritize systems during large-scale triage and decide where deeper forensic analysis
+    is warranted.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '10:00'
+  time_end: '10:25'
+  track: Tech - Other
+  room: Tech - Other
+  title: Rethinking CI/CD Security in the Age of GitHub Actions
+  speakers:
+  - name: Kennedy Toomey
+    company: Datadog
+    title: Application Security Researcher & Advocate @ Datadog
+    bio: Kennedy Toomey is an Application Security Researcher & Advocate at Datadog. Previously she was an Application Security
+      Engineer where she spent her time working with developers to help fix vulnerabilities and write more secure code.
+    photo: /img/archive/2026/speakers/kennedy-toomey.webp
+  - name: Max Saltonstall
+    company: null
+    title: Technical Storytelling Advocate
+    bio: Max Saltonstall tells stories about the Cloud, how to tell where it’s working (or not), and what diverse solutions
+      our customers have created. He’s part of Datadog’s Advocacy team, with a passion for storytelling, narrative and dad
+      jokes. Max loves to juggle, eat new foods and play games of all types. He lives in New York City with his partner and
+      two children.
+    photo: /img/archive/2026/speakers/max-saltonstall.webp
+  description: 'GitHub Actions can be scary. Growing exponentially, they have quietly become one of the most privileged execution
+    environments in modern software delivery, and thus emerged as a major vector. They run on every commit, with access to
+    secrets, cloud credentials, and deployment pipelines, yet many teams still treat them as harmless automations.
+
+
+    In several recent high-impact npm compromises, GitHub Actions were part of the attack surface as workflows were used to
+    gain initial access and exfiltrate data. These incidents reveal a broader issue: Github actions are underestimated. These
+    systems are deeply trusted, highly privileged, and often poorly secured.
+
+
+    This talk will break down common abuse patterns, explain why popular defensive advice falls short, and examine how third-party
+    actions function as a largely unexamined dependency layer. You''ll leave with practical ways to harden GitHub Actions,
+    spot risky patterns, and keep your automation from becoming someone else''s automation.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '10:00'
+  time_end: '10:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: Breaking Hybrid Boundaries Across Azure and Windows
+  speakers:
+  - name: Miryam Adjiashvili Shdema
+    company: null
+    title: Security Research Team Lead
+    bio: Specializing in offensive security, penetration testing, and vulnerability research. With over a decade of experience
+      in cybersecurity, she focuses on uncovering complex attack paths across Windows, Active Directory, and cloud environments.
+      She is passionate about translating technical research into practical insights that help organizations better understand
+      and defend against real-world threats.
+    photo: /img/archive/2026/speakers/miryam-adjiashvili-shdema.webp
+  - name: Nadav Felman
+    company: null
+    title: Security Researcher
+    bio: Nadav Felman is a Security Researcher at Cymulate with a background in IT and OT security research and industrial
+      control systems programming. He focuses on attack path analysis, exploring how vulnerabilities and attacker techniques
+      combine into multi-step compromises. Nadav develops adversary simulations to help organizations validate their defenses
+      and understand how attackers move across their environments.
+    photo: /img/archive/2026/speakers/nadav-felman.webp
+  description: 'Hybrid environments link on-premises systems with Azure cloud services, creating shared management and trust
+    layers that organizations often assume secure by design. Our research shows how this assumption hides critical exposure
+    across Microsoft hybrid components.
+
+    During assessments of Windows Admin Center and Azure Arc agent services, we uncovered five zero-day vulnerabilities that
+    chain into full kill chains reaching from the local OS to the Azure tenant, including cross-tenant compromise.
+
+    The issues include a cryptographic flaw enabling unauthenticated cross-tenant influence, a local privilege escalation
+    in WAC, token verification weaknesses allowing identity and authorization bypass, a chain of client and server-side validation
+    flaws enabling RCE and AD compromise, and a race condition in Azure Arc that lets a low-privileged user hijack cloud identity
+    and escalate to SYSTEM. These findings span two core Microsoft hybrid platforms and reveal how management services operating
+    across host, cloud, and browser layers create pathways across boundaries normally isolated.
+
+    This presentation shows how attackers progress from unauthenticated external or low-privileged internal positions to full
+    administrative control of both environments. Viewed through the lens of trust design, credential handling, and service
+    initialization logic, the research exposes architectural blind spots common to hybrid platforms.
+
+    These findings earned $31,000 in bounty from Microsoft across five CVEs.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '10:00'
+  time_end: '11:55'
+  track: Workshop
+  room: Workshop
+  title: 'Binary Jiujitsu: Your First Buffer Overflow'
+  speakers:
+  - name: Joshua Connolly
+    company: null
+    title: Vulnerability Researcher/Reverse Engineer
+    bio: I am a vulnerability researcher and reverse engineer focused on embedded device exploitation. I'm an avid CTFer but
+      what I enjoy the most is teaching interesting topics to people.
+    photo: /img/archive/2026/speakers/joshua-connolly.webp
+  description: This hands-on workshop teaches developers how buffer overflows work by exploiting one. Students skip the theory-heavy
+    preamble and get straight to the stack — learning how function calls are laid out in memory, how user input can corrupt
+    a return address, and how an attacker turns that corruption into arbitrary code execution. The workshop closes with students
+    executing an exploit against a live target.
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: null
+  links: []
+- time_start: '10:30'
+  time_end: '10:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: Feeling the heat from Malicious Packages? Cooloff with Cooldowns
+  speakers:
+  - name: Leif Dreizler
+    company: Raindrop
+    title: Founding Security Engineer @ Raindrop
+    bio: 'Leif Dreizler is an information security professional with over a decade of experience. He is currently the Founding
+      Security Engineer at Raindrop.
+
+
+      Previously, Leif was a Security IC and Software EM at both Semgrep and Twilio Segment.'
+    photo: /img/archive/2026/speakers/leif-dreizler.webp
+  description: 'We’ve seen a surge in attacks that compromise third-party packages, resulting in costly and disruptive incident
+    response for engineering and security teams.
+
+
+    The good news is that detection is getting faster. Many malicious package versions are identified and removed from public
+    registries within hours or days of being published.
+
+
+    If you avoid installing recently released versions, you can dramatically reduce your exposure to these attacks. In response,
+    package managers are introducing cooldowns—simple controls that delay adopting new releases long enough for malicious
+    versions to be caught and removed.
+
+
+    In this talk, I''ll share how we rolled out dependency cooldowns across multiple package managers at Semgrep. I’ll provide
+    concrete examples and takeaways you can use to protect your organization without disrupting development workflows.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '11:00'
+  time_end: '11:30'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: 'The Category Trap: You Don''t Pick It, the Market Does'
+  speakers:
+  - name: Mohammad Eshan
+    company: GhostEye
+    title: Founder & CEO at GhostEye
+    bio: Mohammad Eshan is a security researcher, offensive operator, and the Founder and CEO of GhostEye (YC S25), an always-on
+      red team for the human layer. Before founding GhostEye, he served on BlackRock's Red Team, where he built the offensive
+      security program from scratch, and conducted offensive cyber operations at MITRE. He holds a Bachelor's and Master's
+      in Cybersecurity from RIT.
+    photo: /img/archive/2026/speakers/mohammad-eshan.webp
+  description: 'Every security company gets sorted into a category whether it wants to or not. That category decides your
+    budget line, your buyer, who you get compared against, and what a deal is worth before you say a word. You don''t pick
+    it. The market picks the cheapest box that sort of fits.
+
+
+    We learned this the hard way. We built something that lived between two categories, and the market kept filing us under
+    the cheaper one. We wanted a line in the detection-and-response budget; buyers kept paying us out of the scanner budget
+    instead. Same product, same demos, a fraction of the deal size, benchmarked against tools we were nothing like. For months
+    I was sure we had a messaging problem. We had a category problem, and that''s a different and far more dangerous thing.
+
+
+    Using our own story plus other mis-sorted companies (EDR priced as AV, ASM priced as a scanner), this talk breaks down
+    the trap: what a category actually buys you, the tell that says the market has mis-sorted you, the real cost of the wrong
+    bucket, and the concrete moves to climb out, with what each one cost us.
+
+
+    You''ll leave able to diagnose your own category, not just reconstruct ours, and to catch the wrong bucket before it quietly
+    costs you a year of runway. There''s a beat for buyers too: how to spot a category-trapped vendor and why it explains
+    the pricing you''re staring at. For an early company, positioning isn''t branding. It''s survival.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '11:00'
+  time_end: '12:00'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: 'Every Repo, Every Org: OSS Package Triage on a Budget'
+  speakers:
+  - name: Chris Wheeler
+    company: Resilience
+    title: CISO @ Resilience
+    bio: Chris is the CISO at Resilience. Prior to Resilience, Chris led the SOAR program and the CIRT Senior Analyst Team
+      at Morgan Stanley.  He is a US Navy veteran and enjoys running, home networking, and joining too many fantasy football
+      leagues.
+    photo: /img/archive/2026/speakers/chris-wheeler.webp
+  description: 'The last year has been a steady run of mass supply-chain compromises: Shai-Hulud x2, Trivy, axios, @antv...
+    the list goes on. Some advisories have named as many as 600 affected packages which grows as the incident unfolds.
+
+
+    When one drops, your team needs to answer one question fast: are we affected, and where? For a small team that can''t
+    afford (or hasn''t configured) SCA for every repository, that''s a challenge. Your product repos might have SBOMs and
+    CI, but your prototypes, internal tools, and the app Chad in Marketing vibe-coded probably don''t.
+
+
+    To solve this ourselves, we built an open-source tool that helps us do three main things: 1) consolidate SBOMs for every
+    repo across multiple GitHub orgs and ingest them into another excellent open source project called Dependency Track. 2)
+    quickly parse a threat advisory''s list of affected packages, and 3) query for all of them simultaneously to see if you''re
+    affected and where.
+
+
+    The tool uses GitHub''s free SBOM endpoint, so the only configuration cost is enabling one setting which we''ll provide
+    you a script to audit yourself. TCO for our usage is ~$100/month in AWS infrastructure charges.
+
+
+    In this talk, I''ll walk through our previous and improved incident-response process, a live demo of the tool, and some
+    additional automations our team has built now that we have consolidated coverage.  I''ll also cover the limits of the
+    approach, where we''re still refining, and some things we learned along the way.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '11:00'
+  time_end: '12:00'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'Beyond the Flag: How CTF Players Become Product Security Engineers'
+  speakers:
+  - name: Monish Alur Gowdru
+    company: UltraViolet Cyber
+    title: Security Consultant, UltraViolet Cyber
+    bio: 'Monish Alur Gowdru is a cybersecurity professional with over 6 years of experience in application security and software
+      development. He enjoys helping product teams to secure applications end-to-end throughout the software development lifecycle.
+      He actively contributes to the cybersecurity community as a speaker, mentor, and judge. His ongoing involvement includes
+      prominent work with DEF CON and BSides Edmonton.
+
+
+      LinkedIn: https://www.linkedin.com/in/ag-monish/'
+    photo: /img/archive/2026/speakers/monish-alur-gowdru.webp
+  - name: Mohammed Ilyas Ahmed
+    company: null
+    title: Making the Unachievable Achievable | Speaker | Author | Reviewer | Host | OWASP Contributor
+    bio: I am a security and AI-focused technology leader with deep expertise in helping organizations build, secure, and
+      govern AI-driven systems across modern, cloud-native environments. I am an active contributor to the global technology
+      community and a frequent speaker at leading industry conferences. I am also regularly invited to serve as a technical
+      session judge. I maintain strong ties with academia and thought leadership. I contribute research associated with Harvard
+      University, publishing work that advances discussions around AI governance, modern security practices, and risk management.
+      I am also a distinguished member of the Harvard Business Review Advisory Council.  My work has a global reach through
+      my role as a Member of the Global Advisory Board at VigiTrust Limited (Dublin, Ireland). I am the author of Cloud-Native
+      DevOps, a practical guide to building scalable, reliable, and secure cloud-native applications.
+    photo: /img/archive/2026/speakers/mohammed-ilyas-ahmed.webp
+  description: 'Capture The Flag competitions are often dismissed as “just games,” but modern Product Security teams increasingly
+    rely on the exact skills they develop: adversarial thinking, vulnerability analysis, exploit chaining, and secure design
+    under pressure.
+
+
+    Whether you are an aspiring security professional or an experienced offensive security practitioner, in this session,
+    you will learn a structured CTF-driven learning roadmap for developing practical security skills and will learn how hands-on,
+    real-world customer-facing offensive engagements contribute to building deep product security expertise. We will also
+    cover how AI capabilities are accelerating this journey of learning and securing the systems. Attendees will participate
+    in a hands-on exercise to explore the challenge through the lenses of CTF problem solving, penetration testing, and Product
+    Security.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '11:00'
+  time_end: '11:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'Authorization phishing: phishing, but without the creds'
+  speakers:
+  - name: Luke Jennings
+    company: Push Security
+    title: VP, R&D, Push Security
+    bio: Luke Jennings is a security researcher from the UK. He spent most of his early career focused on red teaming and
+      offensive security research, before moving on to developing new detection and response techniques and designing EDR
+      software. He has now pivoted away from the endpoint to focusing on browser and identity attacks as VP of R&D at Push
+      Security and is the primary author and maintainer of the popular Browser and Identity Attacks matrix.
+    photo: /img/archive/2026/speakers/luke-jennings.webp
+  description: 'Credential phishing used to be simple: trick a victim into typing their password into a fake login page, then
+    reuse it. Then MFA meant a password alone wasn''t enough. Attackers responded with real-time proxies to steal valid sessions
+    via Attacker-in-the-Middle (AITM) phishing. Then we deployed passkeys, the "unphishable" factor, and attackers responded
+    with MFA downgrade attacks against vulnerable backup methods.
+
+
+    But what if attackers could convince targets to grant account access without ever touching their credentials, where MFA
+    and passkeys don''t matter because the login isn''t the target at all?
+
+
+    Authorization phishing is a growing class of attack abusing OAuth authorization flows rather than authentication. The
+    umbrella includes consent phishing, device code phishing, and ConsentFix.
+
+    These are being mass adopted as authentication controls mature and passkey adoption accelerates, giving attackers a technical
+    and human advantage in unfamiliar phishing scenarios. Device code phishing has exploded from tiny volumes to a tier-1
+    threat in early 2026, while ConsentFix was newly discovered in late 2025 after a Russia-linked campaign.
+
+
+    This talk covers the history that led us here, technical details and demos of every attack, in-the-wild examples, and
+    practical guidance on how organizations can prevent and detect them.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '11:30'
+  time_end: '11:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: Building in the Age of AI Whiplash
+  speakers:
+  - name: Clea Ostendorf
+    company: null
+    title: Founder + People Connector + AppSec Fanatic
+    bio: 'Clea is Wolfpack Security’s Co-Founder and CEO. She leads the company in vision and delivery and brings the ability
+      to bridge tech and people into the AppSec consulting space. She has been in security and tech for 15 years playing roles
+      in sales, delivery, advisory and product management. Clea loves to get to the root cause of problems and find a win-win
+      solution for everyone. Wolfpack was created as a way to improve application security posture overall to ensure the products
+      we use are trustworthy of our information.
+
+
+      Prior to Wolfpack, Clea worked at Code42 as Field CISO where she helped build and develop data security solutions. She
+      has spoken at many conferences and podcasts  including Blackhat, Open Source North, The CISO Series, Enterprise Sec
+      Weekly and more. She is active in the Women in Tech communities and continues to organize events nationwide.'
+    photo: /img/archive/2026/speakers/clea-ostendorf.webp
+  description: 'In 2024 we started Wolfpack Security, another penetration testing company...in one of the most crowded cybersecurity
+    markets imaginable. Like many startups, our challenge wasn''t building a product—it was convincing customers why another
+    security consultancy deserved to exist.
+
+
+    Then AI arrived. Almost overnight, the conversation shifted from "Why should we hire you?" to "Can AI replace you?" Every
+    assumption about our business model was challenged.
+
+
+    This talk isn''t about AI tools. It''s about what founders do when the market changes faster than their roadmap. I''ll
+    share how we stopped defending our original positioning, listened to where customers were headed, and evolved from selling
+    point-in-time testing to building continuous security validation around the strengths only humans provide.
+
+
+    Attendees will leave with what we did to navigating rapid market shifts, making strategic pivots without abandoning their
+    mission, and why trust, adaptability, and relationships become the ultimate competitive advantage when technology is changing
+    every quarter.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '12:00'
+  time_end: '12:55'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: '5.6 Million Domains, 400 GB of Code, Zero Alerts: How Nation-States Conduct Passive Intelligence'
+  speakers:
+  - name: Ringmast4r N/A
+    company: null
+    title: Hack The Planet
+    bio: Ringmast4r is an independent security researcher and licensed PI who built a passive OSINT pipeline auditing government
+      infrastructure across 73 countries. His research recovered 5.6 million domains, 400+ GB of source code, 7 million developer
+      emails, and 1,986 live credentials without triggering alerts. Bloomberg and 50+ global outlets covered his findings.
+      Keynote speaker at GrrCON 2026, accepted speaker at Hacker Halted 2026. M.S. in Cybersecurity Management.
+    photo: /img/archive/2026/speakers/ringmast4r-n-a.webp
+  description: 'What if I told you that a solo researcher with open-source tools recovered 5.6 million government domains,
+    400+ gigabytes of source code, and 2.9 million developer identities across 73 countries, and triggered zero alerts? This
+    talk reveals the methodology behind large-scale passive OSINT operations: how certificate logs, DNS enumeration, and git
+    reconstruction expose government infrastructure at the nation-state level. Real findings include live credentials on election
+    systems, military communications source code with valid authentication tokens, and supply chain vulnerabilities affecting
+    critical infrastructure globally. For defenders: the clock is ticking, and you need to understand this threat model now.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '12:00'
+  time_end: '12:25'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'Cleartext at the Edge: A Neptune R900 Case Study in RF Telemetry Exposure'
+  speakers:
+  - name: Rick Ramirez
+    company: null
+    title: Product security engineer and former Marine Corps radio/electronics technician researching RF telemetry exposure,
+      OT/ICS security, and cyber-physical privacy risk
+    bio: Rick Ramirez is a product security engineer focused on cyber-physical systems, OT/ICS security, and RF telemetry
+      exposure. He has experience across product security, medical device security, manufacturing security, logistics security,
+      and critical infrastructure risk assessment. Before moving into cybersecurity, Rick served as a U.S. Marine Corps radio/electronics
+      technician, where he developed a foundation in RF communications, field electronics, and signal systems. His current
+      research explores how overlooked wireless telemetry can expose privacy and security risks in smart infrastructure.
+    photo: /img/archive/2026/speakers/rick-ramirez.webp
+  description: 'Security teams are trained to think in terms of networks, endpoints, cloud systems, identity, and applications.
+    But many cyber-physical systems communicate through a layer that often sits outside traditional security visibility: radio
+    frequency.
+
+    This talk presents a passive RF case study of Neptune R900 water meter telemetry and the broader security implications
+    of cleartext AMR communications. Using low-cost software-defined radio tooling and receive-only observation, the research
+    examines how wireless meter telemetry can expose structured data such as meter identifiers, consumption readings, status
+    indicators, timestamps, and signal metadata before that data ever reaches utility-controlled systems.
+
+
+    The presentation walks through the RF security model, the AMR data flow from meter endpoint to utility systems, and the
+    privacy risks created when repeated cleartext telemetry becomes pattern-of-life data. It also maps the findings to a qualitative
+    risk model focused on likelihood, impact, and cyber-physical context. The discussion includes responsible research boundaries,
+    disclosure considerations, and recommendations for utilities, vendors, and security teams.
+
+
+    Attendees will leave with a practical understanding of why RF telemetry should be treated as part of the attack surface,
+    why legacy AMR design assumptions create modern privacy and trust-boundary risks, and how procurement, threat modeling,
+    and architecture reviews can better account for signal-layer exposure.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '12:00'
+  time_end: '12:25'
+  track: Tech - Red
+  room: Tech - Red
+  title: Browser-Based Port Scanning in the Age of LNA
+  speakers:
+  - name: Gev Manekshaw
+    company: null
+    title: Principal Security Engineer
+    bio: Gev is a Philadelphia based Security Engineer and Researcher who thrives on tackling network security, web app vulnerabilities,
+      system administration and container security, so much so that he even does it on weekends. With a knack for automating
+      vulnerability hunting, Gev's vulnerability disclosures have earned him recognition from over 25 organizations.
+    photo: /img/archive/2026/speakers/gev-manekshaw.webp
+  description: 'Modern browsers are adding Local Network Access controls to prevent public websites from silently interacting
+    with localhost and private-network services. But introducing a new security boundary also creates new browser behavior
+    and new opportunities for unintended exposure.
+
+
+    This talk presents independent research into an unexpected side channel in the browser’s handling of local-network requests.
+    From the context of a web page, it is possible to infer details about services reachable by a user’s browser without reading
+    their responses or obtaining local-network permission.
+
+
+    Browser-based port scanning has historically been used for fingerprinting and tracking, helping websites infer which applications
+    or services may be running on a device. Because the browser can reach both public and local network resources, this technique
+    has important privacy and security implications.
+
+
+    I will explain how the behavior was discovered, how it was tested, and how it became a working proof of concept. The session
+    will also cover the practical limits of the technique and what it reveals about security checks that occur before a permission
+    decision is made.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '12:00'
+  time_end: '12:55'
+  track: Workshop
+  room: Workshop
+  title: DIY Continuous Security Engineering
+  speakers:
+  - name: Mark El-Khoury
+    company: Movable Ink
+    title: Director, Security Engineering @ Movable Ink
+    bio: 'Mark started as an offensive security consultant, doing penetration testing and code and design reviews. Mark then
+      expanded his skillset into the defensive side, leading cybersecurity at various organizations and industries, including:
+      Gaming, fintech, and biometrics. Mark is a conference speaker, holds security certifications, and was an instructor
+      at a Columbia University cybersecurity bootcamp for over four years. Mark is now Director of Security Engineering at
+      Movable Ink.'
+    photo: /img/archive/2026/speakers/mark-el-khoury.webp
+  - name: Omar S
+    company: Betterment
+    title: Staff Security Engineer, Betterment
+    bio: Omar is a Staff Security Engineer at Betterment where he focuses on building secure and reliable systems, stopping
+      fraudsters, and in general enabling people to do their best work safely and securely. He has a 10 year old cat named
+      Dumpling.
+    photo: /img/archive/2026/speakers/omar-s.webp
+  description: 'There’s no shortage of acronyms being invented every week in the realm of security engineering. Instead of
+    wading through these buzzwords that might not even be around by the end of the year, we’ll dig into the principles that
+    we think make for a good security program. We’ll then apply these principles with practical hands-on exercises where we’ll
+    use free and open source security tools to build continuous security automation and alerting similar to ones we’ve built
+    when starting new security programs.
+
+
+    We want this workshop to be a hands-on exercise in building a good security program. We’ve built security programs from
+    scratch at multiple companies and have found that while the companies can vary, the fundamentals remain roughly the same.
+    We want to bridge the gap between common infosec vendor jargon and practical security engineering work.'
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: null
+  links: []
+- time_start: '12:30'
+  time_end: '12:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: What Technical Founders Miss in Their First Sales Motion
+  speakers:
+  - name: Mohankumar Vengatachalam
+    company: null
+    title: Security Leader
+    bio: Mohan is a security leader with over a decade of experience in security architecture, engineering, and operations.
+      He has a strong interest in developing robust security programs and a proven track record of creating proactive security
+      roadmaps and strategies aligned with business objectives. He constantly seeks ways to elevate security processes and
+      culture to the next level.
+    photo: /img/archive/2026/speakers/mohankumar-vengatachalam.webp
+  - name: Naveen Konrajankuppam Mahavishnu
+    company: null
+    title: Security Researcher
+    bio: 'Naveen is a Security Researcher with over 9 years of expertise specializing in AI, application, and cloud security.
+      He invented 5 patents in Agentic Security space.
+
+
+      He possesses extensive knowledge in all aspects of product security, including threat modeling, DevSecOps, API security,
+      and penetration testing. He is passionate about integrating security into the SDLC from design to deployment, ensuring
+      the early detection and mitigation of vulnerabilities.'
+    photo: /img/archive/2026/speakers/naveen-konrajankuppam-mahavishnu.webp
+  description: 'Three hours. Six calls. Great demo. They were not ready to buy that year. We missed the signs early.
+
+
+    Naveen and I are technical founders learning how to sell. We spent our careers in security. That experience gave us credibility,
+    but it did not prepare us to sell.
+
+
+    The biggest shift was treating outbound as a learning engine, not a numbers game. Every silence, reply, and objection
+    is data. Read what comes back, adjust the message, and try again.
+
+
+    We also stopped giving every deal the same attention. Using Mark Suster’s framework, A deals can close within three months
+    and get most of our time. B deals are three to 12 months away and stay warm. C deals are not happening this year, so marketing
+    nurtures them while we move on. That change gave us better conversations, shorter cycles, and more time for deals that
+    could actually move.
+
+
+    We learned that facts alone do not carry a product story. Buyers need to feel why the problem matters now. Finding founder-operator
+    mentors who had already built security companies also helped us learn faster and avoid mistakes they had already made.
+
+
+    This talk is for technical founders, early startup employees, and security buyers. We will share what worked, what we
+    missed, and how we now read buying intent.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '12:30'
+  time_end: '12:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'It Costs More to Make Than It’s Worth: Lessons from the Penny for Your Sentinel Deployment'
+  speakers:
+  - name: Mona Ghadiri
+    company: null
+    title: VP of CIS - Security Operations, Microsoft Security MVP | SIEM & XDR and Security Copilot
+    bio: 'I am a 3x MVP and leader in Security operations using Microsoft technologies specializing in Managed Security Services
+      for Microsoft Security, Compliance, and Identity (SCI) solutions and am a leading expert in Security Copilot.
+
+
+      I currently work at Capgemini as a VP on the Global Portfolio team within the Cloud and Infrastructure Services team.
+
+
+      I am a board member of Microsoft Zero to Hero Learning Community and a leader of MSFarsi, the learning community for
+      Persian language speakers.
+
+
+      My  goal is to evangelize new Microsoft security advancements and create innovative and customer-centric products that
+      address the evolving cyber threats and challenges faced by organizations of all sizes and sectors. Outside of work,
+      I enjoy cooking and baking sourdough bread.'
+    photo: /img/archive/2026/speakers/mona-ghadiri.webp
+  description: 'The US penny was retired because it cost more to produce than its face value. A lot of Sentinel deployments
+    have the same problem…data flowing into the wrong tier, connectors nobody is monitoring, and ingestion costs that don’t
+    map to actual detection value. The difference is nobody retired the bad design.
+
+
+    This session connects three things most Sentinel engineers are treating as separate problems: ingestion visibility, tier
+    architecture, and DCR design. We’ll use the new Data Insights Connector Observability preview as the diagnostic lens.
+    A centralized dashboard that finally surfaces what’s flowing where, which connectors own which tables, and where ingestion
+    anomalies are silently eroding your coverage is within reach.
+
+
+    From there we go deeper: how multi-destination DCRs let you deliberately split data streams at ingestion, routing high-fidelity
+    events to Analytics for real-time detection while offloading lower-value telemetry to the data lake tier without losing
+    it. And critically why that architectural decision only works if your observability is in place first.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '12:30'
+  time_end: '12:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'Deep Link Vulnerabilities: When One Click Leads to Account Takeover'
+  speakers:
+  - name: Sai Jagadeesh
+    company: null
+    title: Staff Security Engineer
+    bio: 'Sai Jagadeesh is a Staff Security Engineer,  where he focuses on application security and offensive security. His
+      work centers on identifying and exploiting vulnerabilities in modern applications, improving secure development practices,
+      and building security controls that help engineering teams ship resilient systems at scale.
+
+
+      Prior to this role, Sai worked as a Senior Security Engineer at Amazon, where he contributed to securing large distributed
+      platforms and strengthening application security across development pipelines. His work there also included offensive
+      security initiatives, helping identify security weaknesses through adversarial testing and vulnerability research.'
+    photo: /img/archive/2026/speakers/sai-jagadeesh.webp
+  description: 'Deep links are widely used in mobile applications to provide seamless navigation to specific screens inside
+    an app. However, when deep links are improperly validated, they can become powerful attack vectors that allow external
+    inputs to directly influence internal application behavior.
+
+
+    This lightning talk explores how seemingly harmless deep links can lead to serious security issues such as token leakage,
+    WebView exploitation, and even one-click account takeover.
+
+
+    In one example, a crafted deep link forces the app to open an attacker-controlled URL inside a WebView while automatically
+    appending the victim’s authentication token, allowing the attacker to hijack the account with a single click.
+
+
+    We will also look at how vulnerable WebView configurations combined with exported deep link activities can enable attackers
+    to exfiltrate session cookies, load malicious content, or execute privileged actions inside the app context.
+
+
+    This talk highlights common developer mistakes, demonstrates how attackers chain deep link handling with WebView behavior,
+    and provides practical mitigation strategies to secure mobile applications against these hidden entry points.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '13:00'
+  time_end: '13:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: Building a Cybersecurity Company That Survives — The Hard Parts Nobody Tells You
+  speakers:
+  - name: Joshua Crumbaugh
+    company: PhishFirewall
+    title: CEO of PhishFirewall
+    bio: Joshua Crumbaugh is a renowned ethical hacker, cybersecurity innovator, and host of the "Phishing 4 Answers" podcast.
+      Known for challenging industry norms, Joshua emphasizes human-centric security awareness, using humor and relatable
+      storytelling to simplify complex cybersecurity topics. As CEO of PhishFirewall, he leverages AI-driven simulations to
+      foster engaging, intuitive learning that transforms organizational security culture. Joshua’s approach empowers individuals
+      to recognize and respond to threats instinctively, significantly reducing risk.
+    photo: /img/archive/2026/speakers/joshua-crumbaugh.webp
+  description: 'Starting a cybersecurity company sounds simple on paper: find a problem, build a solution, sell it. In reality,
+    founders run into a much harder set of challenges — identifying a painful enough problem, proving the market cares, getting
+    early customers to trust you, and building something that survives long enough to matter.
+
+
+    This talk is a practical founder''s view of what it actually takes to start a cybersecurity company and get it moving.
+    We''ll cover the hardest parts of the journey: choosing the right problem, validating demand, turning technical ideas
+    into a product people buy, navigating long sales cycles, earning credibility in a crowded market, and avoiding the common
+    mistakes that kill security startups early.
+
+
+    Attendees will leave with:
+
+    1. a clearer framework for choosing a cybersecurity problem worth building around,
+
+    2. a realistic view of the early-stage startup traps that slow founders down,
+
+    3. and concrete lessons on how to build momentum, trust, and traction in a difficult market.
+
+
+    This is not a theory talk. It''s a founder-level look at what it actually takes to turn a cybersecurity idea into a company.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '13:00'
+  time_end: '13:25'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: 'Stop the LLM Flip-Flop: Hardening Your AI SOC Agent Against the Gray Zone'
+  speakers:
+  - name: Diane Lin
+    company: Datadog
+    title: Datadog, AI SOC tech lead
+    bio: 'Dr. Diane Lin is a Tech Lead at Datadog, where she leads product development on self-evolving AI agents for the
+      modern SOC. She was previously CTO and Co-founder of Culminate (acquired by Datadog), where her AI security analysts
+      augmented human teams to place top 3 at DEF CON''s CTRL+ALT+DETECT competition (formerly OpenSOC), a real-world benchmark
+      for AI-driven threat detection under pressure.
+
+
+      Prior to founding Culminate, Diane was Director of Machine Learning at Zscaler, leading the development of ML-based
+      large-scale threat detection models. Before that, she was a founding scientist on the Amazon Alexa question-answering
+      team and a senior researcher at robotics startup Vicarious (acquired by Google DeepMind). She holds a PhD in Machine
+      Learning from Imperial College London with research affiliations at MIT''s CSAIL and is an inventor on multiple patents
+      and an active mentor in the AI and cybersecurity communities.'
+    photo: /img/archive/2026/speakers/diane-lin.webp
+  description: 'Run the same task twice through the same LLM model, and sometimes you get two semantically different answers.
+    This is not a quirk; it is a vulnerability.
+
+
+    In this session, we reveal that LLM flip-flops are not random noise. They cluster precisely near the decision boundary,
+    the "gray zone", the same region that adversarial machine learning has exploited for years. RL-based malware evasion tools
+    probe this boundary to slip past classifiers. Modern LLM jailbreaks (GCG and its variants) use gradient-based search to
+    push the model''s internal state across the alignment boundary. The fuzziness that makes your SOC agent inconsistent is
+    the exact same fuzziness that attackers weaponize.
+
+
+    We present a lightweight, memory-augmented architecture that attacks this problem from both ends. Drawing on the cognitive
+    science distinction between episodic and semantic memory, we show how to equip AI agents with two complementary defenses:
+    episodic memory and semantic memory. Together, they sharpen the decision boundary without the cost or opacity of fine-tuning.
+
+
+    The results are concrete: verdict flip-flops drop by over 60%. The residual ambiguous cases are automatically surfaced
+    for focused human review,  turning a liability into a calibration mechanism. Attendees will leave with a practical, deployable
+    workflow for making their AI agents more consistent, more trustworthy, and significantly harder to manipulate.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '13:00'
+  time_end: '13:25'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'Off The (Book)Shelf Hacking: Hackable eReaders'
+  speakers:
+  - name: Katie Paxton-Fear
+    company: null
+    title: Lecturer and Educational YouTuber
+    bio: Dr Katie Paxton-Fear is a lecturer of cyber security at Manchester Metropolitan University, she's a hacker and YouTube,
+      she's made 50+ videos on a range of topics, explaining vulnerabilities, tools etc, and made a splash as an API hacker
+    photo: /img/archive/2026/speakers/katie-paxton-fear.webp
+  description: 'Kindles, Kobos, Boox and BigMes, there''s no shortage of eReaders to choose from in 2026, with their paper-like
+    eInk displays designed for one thing: reading books. But underneath that minimalist surface sits a surprisingly hackable
+    IoT device! But when it comes to these devices there are a few quirks, from the locked-down Kindle in need of a jailbreak,
+    to the xteink''s open source Crosspoint firmware.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '13:00'
+  time_end: '13:25'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'Frontier AI Is Compromising Evals: The Test-Takers Are Also the Attackers'
+  speakers:
+  - name: Leo Meyerovich
+    company: Graphistry
+    title: Founder & CEO, Graphistry
+    bio: 'Leo Meyerovich is the founder and CEO of Graphistry and co-creator of Louie.ai, data-intensive investigation platforms
+      employing AI, graphs, and GPUs that are used by teams across government, military, tech, media, and financial services
+      for security, fraud, supply-chain, social media, and other investigative domains.
+
+
+      Leo led development of the first autonomous AI agent to complete Splunk''s Boss of the SOC CTF and the team that won
+      the U.S. Cyber Command AI RPE on alert-volume reduction. He started GFQL, the first open-source GPU-native graph query
+      language for large-scale investigations, and helped start what became Apache Arrow and Nvidia RAPIDS. Graphistry spun
+      out of Leo’s PhD work at UC Berkeley, where his research received two SIGPLAN Test of Time Awards and multiple best
+      paper awards.'
+    photo: /img/archive/2026/speakers/leo-meyerovich.webp
+  description: 'Evals help determine which AI systems get deployed and trusted. Frustratingly, frontier AI has made evals
+    adversarial. The system under test can autonomously use tools, execute code, inspect files and networks, retain state,
+    modify its measurement environment, and is incentivized to cheat. The test-taker is now also the attacker.
+
+
+    We saw this while evaluating AI agents on pre-AI investigations. As scores rose, agents gave correct answers without doing
+    the intended work. They found published solutions, read leaked harness state, escaped sandboxes, and worked around firewall
+    rules. We never asked them to cheat, yet each blocked path was followed by another exploit.
+
+
+    This talk turns two years of cat-and-mouse experience into a threat model spanning the model, provider, harness, tools,
+    workspace, benchmark, and grader. Using traces from agent speed runs of blue-team CTFs, we separate real benchmark gains
+    from attacks like model contamination and evaluator leakage.
+
+
+    We map these attacks to defenses like hidden and regenerating tasks and trace analysis. Likewise, we share tools like
+    BotsBench for tracking performance and new failures, and our maturity model for how to approach evals, including for investigation
+    agents.
+
+
+    Ultimately, treat AI evals as adversarial security infrastructure, not just static AI/ML benchmarks: distrust scores by
+    default, audit everything, and systematically perform defense-in-depth.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '13:00'
+  time_end: '15:00'
+  track: Workshop
+  room: Workshop
+  title: 'Build, Lure, Learn: A Beginner’s Introduction to AWS Honeypots for Cyber Threat Intelligence'
+  speakers:
+  - name: Betzabeth Narvaez
+    company: null
+    title: Cyber Threat Intelligence Specialist
+    bio: Betzabeth is a cyber threat intelligence specialist with a background in data engineering, analytics, and API development.
+      After discovering a passion for cybersecurity, she pivoted into CTI by building on her technical foundation through
+      self-directed  upskilling. Betzabeth is especially passionate about making cyber threat intelligence more accessible
+      and approachable for beginners.
+    photo: /img/archive/2026/speakers/betzabeth-narvaez.webp
+  description: 'Want to see real attacker traffic without risking your home network? Curious about cyber threat intelligence
+    but don’t know where to start? Never touched AWS before?
+
+    In this hands-on beginner session, you’ll learn how to deploy T-Pot, a powerful open-source honeypot platform, using AWS,
+    even if you''ve never touched cloud infrastructure or cyber threat intelligence tools before. For under $10, you''ll launch
+    cloud infrastructure with cost controls, set up a honeypot, collect live attacker data, explore the attacker data using
+    T-Pot’s integrated cyber threat intelligence tools, and learn how to clean up everything when you’re done. This session
+    is designed specifically for complete beginners with little to no experience in AWS or cyber threat intelligence. By the
+    end, you''ll understand how honeypots can generate valuable intelligence, give insight into attacker behavior, and how
+    that information can inform better defenses.
+
+
+    You’ll Leave With:
+
+    - A deployed cloud-based honeypot running on AWS
+
+    - Practical exposure to open-source CTI tools like Suricata, Cowrie, and the ELK Stack
+
+    - Firsthand experience collecting and reviewing real-world malicious traffic
+
+    - A better understanding of how to extract actionable intelligence from honeypot logs to inform security decisions
+
+    - Step-by-step knowledge of deploying cloud infrastructure safely and affordably, even as a complete beginner'
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: null
+  links: []
+- time_start: '13:30'
+  time_end: '13:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: You're Qilin Me! Dissecting Qilin's 2026 Attack on TWU Local 100
+  speakers:
+  - name: Antoine Valadon
+    company: University of Arizona
+    title: Threat Intelligence & Applied Physics-Informed ML Researcher | University of Arizona
+    bio: Antoine is a Physics and Computer Science student at the University of Arizona, focused on cyber threat intelligence
+      and the crossover between scientific computing and security. Based in the University of Arizona's Lunar and Planetary
+      Laboratory, his research under the deputy PI of NASA's HelioSwarm mission applies physics-informed machine learning
+      to reconstruct turbulent plasma fields. His security background spans SOC analysis, federal cloud incident-response
+      training provided by DHS/CISA, and competitive CTFs. He is also a participant in an NSF-funded quantum computing CyberTraining
+      program. He is especially interested in bringing scientific problem-solving approaches to practical threat detection.
+    photo: /img/archive/2026/speakers/antoine-valadon.webp
+  description: 'Qilin, a ransomware-as-a-service gang, didn''t just claim to hit TWU Local 100 in February 2026. That''s the
+    union behind the people running NYC''s subways and buses. Qilin dumped 700,000 files. That''s 551GB. The union confirmed
+    it. SSNs, medical records, pension files, disciplinary history. All of it, in the wrong hands.
+
+
+    This talk skips the generic recap. It goes straight to how. We''ll dissect one real Qilin intrusion, start to finish.
+    An MSP used a remote-access tool. Attackers phished it with a fake login page. The page stole a password. It also stole
+    a live MFA code. That turned into ransomware across every one of that MSP''s customers. It happened overnight. Then we''ll
+    show the same failure mode in a second, faster case.
+
+
+    You''ll leave knowing exactly what to hunt for in your own environment. And you''ll know why unions, associations, and
+    anyone with a small security team and a big membership list are exactly what this organization frequently targets.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '13:30'
+  time_end: '13:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'Finding Signal Across AI Tooling Logs: Claude Code, Codex, Cursor, ChatGPT, and Gemini'
+  speakers:
+  - name: Darwin Salazar
+    company: Monad
+    title: Founder @ The Cybersecurity Pulse newsletter + Head of Growth at Monad
+    bio: 'Darwin Salazar is the founder of The Cybersecurity Pulse, a weekly newsletter read by more than 20K people, and
+      leads growth at Monad.
+
+
+      He has spent nearly a decade in detection engineering, cloud security, product security, consulting, and red teaming,
+      with experience at Datadog, Accenture, Johnson & Johnson, and Ford. He has presented at DEF CON and fwd:cloudsec and
+      writes technical research for defenders. He loves Padel, hikes and platanos!'
+    photo: /img/archive/2026/speakers/darwin-salazar.webp
+  description: 'Claude Code, Codex, Cursor, ChatGPT Enterprise, and Gemini all produce security-relevant logs, but the visibility
+    they provide is wildly inconsistent.
+
+
+    This talk compares what each source captures, which fields are useful for investigations and detection, and where the
+    logs fall short. We’ll separate control plane visibility, such as admin actions, configuration changes, and user access,
+    from data plane visibility into actual tool usage, prompts, files, commands, and model interactions.
+
+
+    We’ll also look at the differences between audit events and OpenTelemetry data, the context defenders often have to add
+    themselves, and the assumptions that can lead teams to overestimate their coverage.
+
+
+    Attendees will leave knowing which of these sources are worth collecting, what use cases each support, and where additional
+    context may still be required.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '14:00'
+  time_end: '14:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: Self Employment Sucks, But Do It Anyway
+  speakers:
+  - name: Carlota Sage
+    company: null
+    title: Sometimes CEO, virtual CISO, full-time problem solver
+    bio: Raised in the wilds of Alabama by angry chickens and crazy people, Wolfpack-educated in the Tar Hell/Blue Devil state,
+      and indoctrinated into Security by Silicon Valley appliance vendors (which are either wolves or angry chickens…maybe
+      both), Carlota has returned to the east coast, where she serves as a vCISO at Pocket CISO. When not picking other peoples’
+      brains for minutia, she strings beads, destroys cars, drinks whiskey and screams into the dark, dark void that is known
+      as the Internet.
+    photo: /img/archive/2026/speakers/carlota-sage.webp
+  description: I've been self-employed as a vCISO for most of the last seven years. I hate running a small consulting company.
+    But I love working for myself...most days. Here's everything I've learned that will help you decide
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '14:00'
+  time_end: '14:55'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: 'Identity Has A Plan: A Call To Action For Security And DevOps'
+  speakers:
+  - name: Dwayne McDaniel
+    company: GitGuardian
+    title: Developer Advocate at GitGuardian and huge fan of open source
+    bio: Dwayne has been working as a Developer Relations professional since 2015 and has been involved in tech communities
+      since 2005. He loves sharing his knowledge, and he has done so by giving talks at over a hundred events worldwide. Dwayne
+      currently lives in Chicago. Outside of tech, he loves karaoke, live music, and performing improv.
+    photo: /img/archive/2026/speakers/dwayne-mcdaniel.webp
+  description: 'Security has fallen behind the pace of modern attacks. One developer installing the wrong package can put
+    even well-funded teams at risk. By the time an open source infostealing worm makes headlines, it may already be inside
+    your ecosystem.
+
+    Now, AI agents are entering the picture. They are autonomous, probabilistic actors with real access to real data, and
+    enterprises are pushing teams to deploy them fast. That expands the attack surface at exactly the wrong time.
+
+    There is a practical path forward: eliminate long-lived secrets that grant standing privileges. IAM teams already have
+    realistic models for this, from workload identity patterns used at Google to low-latency internal agent architectures
+    at Uber.
+
+    This talk covers supply chain infostealers, why NPM and PyPI mitigations are not enough, agentic AI as workers and customers,
+    IAM basics like authentication and authorization, and how teams can move from secret rotation to real change. Security
+    at human speed is over. It is time to act.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '14:00'
+  time_end: '14:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'Secrets That Survive Everything: Finding Runtime Credentials in Production Web Applications'
+  speakers:
+  - name: Hemanth Gorijala
+    company: null
+    title: Global Pentest Lead | Author of SecretSifter
+    bio: Hemanth Gorijala is an application security professional and penetration tester with 13 years of experience in a
+      global Fortune 500 environment. He conducts web application security assessments and reviews vulnerability reports in
+      enterprise bug bounty programs. The exploitation chains in this talk are drawn from his own authorized assessments.
+      He built SecretSifter to close the runtime security gap.
+    photo: /img/archive/2026/speakers/hemanth-gorijala.webp
+  - name: Anil Gali
+    company: null
+    title: Sr. Security Engineer
+    bio: Anil Gali is a security researcher and engineer specializing in application security, cloud credential management,
+      and vulnerability analysis. He has led investigations uncovering runtime secrets in production environments and contributed
+      to improving secure coding standards across enterprise teams. His research bridges bug‑bounty insights with scalable
+      security engineering, offering actionable lessons for developers and security professionals alik
+    photo: /img/archive/2026/speakers/anil-gali.webp
+  description: 'A bug bounty researcher found Azure credentials in a JavaScript file and called it done. I kept going - four
+    Azure AD credentials in a public JS file, enough to authenticate as the application itself. The application''s token had
+    been granted user-level permissions - every account in the system was reachable. SAST and GitLeaks were running. The credentials
+    were still live.
+
+
+    That was one chain. A second application used CryptoJS to encrypt its configuration. The decryption key was hardcoded
+    three lines away from the encrypted blob. The secret to unlock everything was sitting next to the lock. Same result.
+
+
+    Shift-left tools scan what you commit. They do not scan what you serve. Build-time injection, CI/CD substitution, SSR
+    state blobs, lazy-loaded chunks, runtime-fetched config, and deliberate scanner suppression each put live credentials
+    in production after every scanner has run. Once a secret reaches production, it disappears from every scanner''s view.
+    The only things finding runtime secrets are manual penetration testers, bug bounty researchers, and attackers. Two of
+    those three report what they find.
+
+
+    This talk walks through both chains, maps the full shift-right gap, and closes with a live demo using a purpose-built
+    intentionally vulnerable healthcare portal. SecretSifter - a free Burp extension and browser tool - finds every secret
+    passively, without configuration, as traffic flows.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '14:00'
+  time_end: '14:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'IAM for AI: How Agentic Systems Break Traditional Threat Models'
+  speakers:
+  - name: Swati Babbar
+    company: Amazon
+    title: Application Security Engineer, Amazon
+    bio: CISSP-certified Security Engineer with 7 years of experience in application security, vulnerability management, and
+      risk reduction at scale. Focused on evolving security practices for modern, cloud-native and AI-driven systems, with
+      expertise in threat modeling, system design analysis, and security architecture.
+    photo: /img/archive/2026/speakers/swati-babbar.webp
+  - name: Arjun Sai Ranga Katneni
+    company: null
+    title: Lead Security Engineer
+    bio: 'Lead Security Engineer who owns SOC operations and vulnerability management at scale, spending most days thinking
+      about what could go wrong so other people don''t have to.
+
+      Background spans incident response, threat intelligence, detection engineering, machine learning security, and CI/CD
+      security, with work that has included building detection systems, automating remediation, and open-sourcing a few tools
+      along the way. Currently pursuing a PhD in Cyber Engineering, mostly because thinking about hard security problems during
+      the day apparently wasn''t enough.
+
+      Most interested in making security an enabler rather than a gatekeeper, whether through mentoring or better defenses.'
+    photo: /img/archive/2026/speakers/arjun-sai-ranga-katneni.webp
+  description: 'AI agents introduce a new security actor: software that can autonomously choose tools, call APIs, and chain
+    actions to achieve goals.
+
+
+    As organizations grant agents access to cloud resources, internal systems, and deployment workflows, many are treated
+    like traditional service accounts. This creates excessive permissions, weak trust boundaries, and attack paths that existing
+    threat models often miss.
+
+
+    Through a demonstration, this session shows how prompt injection and tool abuse can manipulate an AI agent into performing
+    actions beyond its intended scope—without exploiting a traditional software vulnerability.
+
+
+    We''ll examine common risks in agentic AI architectures and present a practical framework for evaluating agent identities,
+    permissions, trust assumptions, and autonomous decision-making.
+
+
+    Attendees will leave with actionable guidance for securing AI agents, implementing least-privilege access controls, and
+    adapting threat modeling practices for autonomous software.
+
+
+    Key Takeaways
+
+    • Understand why AI agents should be treated as a distinct security principal
+
+    • Learn how prompt injection and tool abuse can lead to unauthorized actions
+
+    • Identify common IAM anti-patterns in agentic AI deployments
+
+    • Apply an AI-focused threat modeling framework to evaluate permissions and trust boundaries
+
+    • Leave with practical controls that can be implemented immediately'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '15:00'
+  time_end: '15:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: No Funding, No SOC 2, No Problem? Bootstrapping a Security Company
+  speakers:
+  - name: David Girvin
+    company: null
+    title: AI Security Researcher and Founder
+    bio: Husband/Father,Hacker, Surfer, BJJ nerd, who somehow fell into AppSec and security. Focusing on breaking AI Agents
+      and building solutions.
+    photo: /img/archive/2026/speakers/david-girvin.webp
+  description: 'We started a security company with two founders, no outside funding, and no SOC 2 report. Three things conventional
+    wisdom says you need before you can sell into an enterprise. This talk is about what happens when you ignore that. What
+    deals you can and can''t win without a compliance badge, how bootstrapping changes your product and sales decisions when
+    you''re up against VC-backed competitors with a war chest, and why speed ended up being our only real advantage. I''ll
+    get specific about the trade-offs: what we said no to, what almost killed early deals, and what I''d tell a technical
+    founder about to build a security company on their own money instead of someone else''s. No fundraising-flex, no vanity
+    growth metrics  just an honest account of building security software without a safety net.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '15:00'
+  time_end: '15:55'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: The Cyber-IQ Test for LLMs
+  speakers:
+  - name: Hadar Waldman
+    company: Artemis
+    title: Leads security research and a part of the founding team of Artemis, the world’s first AI-Native detection and response
+      platform
+    bio: Hadar Waldman leads security research and a part of the founding team of Artemis, the world’s first AI-Native detection
+      and response platform. She previously led Check Point’s Incident Response Services in the Americas, guiding organizations
+      through high-stakes cyber crises. Prior to that, she was leading threat intelligence teams at Check Point Research,
+      shaping defensive strategies used by thousands of organizations worldwide. Hadar began her cybersecurity journey on
+      the front lines- starting as a SOC analyst and progressing through nearly every role in security operations before eventually
+      managing a 24/7 SOC supporting over 100,000 users across 20+ environments.
+    photo: /img/archive/2026/speakers/hadar-waldman.webp
+  - name: Sharan Sankar
+    company: Artemis
+    title: Founding Engineer of Artemis, the world’s first AI-Native detection and response platform
+    bio: Sharan Sankar is a Founding Engineer at Artemis, building AI agents across the full detection and response lifecycle.
+      Having served as an early engineer across multiple high-growth security startups, he draws on years of experience building
+      specialized platforms for behavioral threat detection and AI-driven SOC automation to ground frontier AI in real-world
+      SecOps.
+    photo: /img/archive/2026/speakers/sharan-sankar.webp
+  description: 'If you have wired an LLM into a security workflow, you have seen this: the model produces a confident sentence
+    about a log, and it is wrong in a way the analyst cannot catch from the log itself. The model said the user logged in
+    three times. It was one login. That is not a reasoning failure, it is a knowledge failure — and no prompt engineering
+    fixes a thing the model simply does not know.
+
+
+    So we measured it. From a production AI-native SOC we extracted 1,973 atomic pieces of per-source tribal knowledge — the
+    field names that lie, the batching artifacts, the empty-but-required fields — turned the 30 hardest into a 74-question
+    test backed by real sanitized production logs, and ran it against nine frontier models from three providers. The results
+    are not what the pricing pages imply: eight of nine cluster inside a 1.4-point band, the cheap tiers tie the frontier
+    tiers, and one question is answered wrong by all nine, with the identical wrong answer. That blind spot breaks every model-driven
+    Okta investigation flow shipping today, including probably yours. You will vote on real bench questions before I show
+    what the models picked.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '15:00'
+  time_end: '15:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'Tesla Model 3''s Brain on a Desk: Getting Started with Security Research'
+  speakers:
+  - name: David Schütz
+    company: null
+    title: Security Researcher
+    bio: David Schütz is a Product Security Engineer at Meta, where he works on securing the systems behind AI experiences
+      on wearable devices like the Ray-Ban Meta glasses. He got his start as an independent bug bounty hunter in 2018 while
+      still in high school, spending nearly five years hunting vulnerabilities across the programs of Google, Meta, and others
+      -- including a $70,000 Android lock screen bypass that let anyone unlock Pixel phones without the passcode. He later
+      joined Meta's Bug Bounty team, triaging researcher reports and driving vulnerabilities through incident response.
+    photo: /img/archive/2026/speakers/david-schutz.webp
+  description: 'What if you could buy a Tesla''s brain on eBay and boot it up on your desk? In this talk, I''ll walk through
+    how I assembled a fully working Tesla Model 3 computer, MCU, autopilot board, and touchscreen, entirely from parts salvaged
+    off crashed cars, and turned it into a security research rig.
+
+
+    Expect live demos on a real Tesla computer sitting on stage: booting the OS, poking at the exposed network interfaces,
+    and interacting with the car''s services in real time to demonstrate the attack surfaces an adversary could target.
+
+
+    You''ll leave knowing how to build your own affordable car-hacking lab from salvage parts, and a practical map of where
+    to start looking once it''s running.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '15:00'
+  time_end: '15:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'When Malware Analysis Leaks Passwords: What Shared Samples Reveal'
+  speakers:
+  - name: Jonathan Fuller
+    company: US Military Academy
+    title: CISO @ US Military Academy
+    bio: 'Jonathan Fuller is Chief Information Security Officer at the United States Military Academy at West Point, where
+      he leads cybersecurity strategy, risk, and operations for a mission-critical enterprise environment. His work focuses
+      on building detection-driven security capabilities that align visibility, control, and response across hybrid systems.
+
+
+      His background includes adversary-focused research on malware infrastructure and command-and-control systems, along
+      with operational leadership in complex environments. He shares analysis on adversary behavior, detection engineering,
+      and AI system security through Empirical Defense.'
+    photo: /img/archive/2026/speakers/jonathan-fuller.webp
+  description: 'Security teams are often advised not to upload suspicious files directly to public malware-analysis platforms
+    like VirusTotal, but to avoid tipping off adversaries. While this reflects a well-understood risk, it overlooks another
+    exposure that receives far less attention.
+
+
+    In this talk, we demonstrate how common binary analysis techniques, combining static inspection with targeted symbolic
+    execution, can recover authentication material embedded in executables, scripts, and configuration artifacts. These techniques
+    are routinely used to analyze malware; here, we apply them to identify and extract credential-bearing API calls across
+    a range of samples.
+
+
+    We present several case studies showing how credentials such as FTP logins can be recovered directly from binaries, often
+    revealing internal systems and access patterns. In each case, the credentials are not intentionally exposed, but are embedded
+    as part of normal application behavior and become accessible through standard analysis workflows.
+
+
+    We then examine how samples circulating through shared analysis ecosystems can be monitored and mined for this information,
+    and how recovered credentials can be operationalized.
+
+
+    Attendees will leave with a clear understanding of how credential material appears in binaries, how it can be extracted
+    in practice, and why publicly shared analysis environments may expose more than intended.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '15:00'
+  time_end: '16:55'
+  track: Workshop
+  room: Workshop
+  title: Intro to Secret Scanning Research
+  speakers:
+  - name: Zach Rice
+    company: Aikido
+    title: Head of Secrets Scanning at Aikido | Betterleaks / Gitleaks author
+    bio: 'Zach Rice is the Head of Secrets Scanning at Aikido Security, the original author of Gitleaks, and the creator of
+      Betterleaks. He is passionate about keeping secrets scanning low-friction and accessible for all developers.
+
+
+      Before joining Aikido, Zach honed his craft at Truffle Security and GitLab, and founded a small secrets scanning company.
+
+
+      Zach holds a BS in Computer Engineering from the University of Illinois Urbana-Champaign (UIUC).'
+    photo: /img/archive/2026/speakers/zach-rice.webp
+  description: 'Leaked secrets are everywhere, and scanning for them is relatively straightforward: download data, scan the
+    data. Because of this, it''s a rather saturated research area. Producing truly novel security research requires one of
+    three things: new secret detection techniques, new secret detectors, or new sources for leaked secrets.
+
+
+    In this 2-hour workshop, we''ll walk attendees through the major OSS secret scanners: gitleaks, trufflehog, and kingfisher.
+    We''ll discuss the pros and cons of each, and when to use which. Then we''ll show how to customize a brand new open-source
+    tool, Betterleaks, a modern build of gitleaks.
+
+
+    Live, during class, attendees will create detection signatures for never-before-detected secret types and then scan a
+    few novel sources.
+
+
+    Attendees will walk away having seen previously undetected secrets surfaced in real time, along with a repeatable process
+    for producing novel research on their own.
+
+
+    This workshop is taught by two secret scanning experts:
+
+    - Zach Rice is the original author of Gitleaks and is actively building the next-generation secret scanner Betterleaks.
+
+    - Joe Leon formerly led secret scanning security research at Truffle Security, the company behind TruffleHog.'
+  type: workshop
+  slides_url: null
+  video_url: null
+  recorded: null
+  links: []
+- time_start: '16:00'
+  time_end: '16:25'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: LLM Generated Code Works. It's Also Vulnerable.
+  speakers:
+  - name: Nick Shrimankar
+    company: Immersivle, Inc
+    title: Immersivle, Inc, Founder
+    bio: Nick is the founder of Immersivle, a hands-on training platform for DevSecOps, cloud infrastructure and cybersecurity.
+      With over a decade of experience spanning cloud architecture, application security and infrastructure automation, he
+      built Immersivle from the ground up using AI agents as his primary development partners — shipping a full production
+      platform as a solo engineer. He's an ACT-IAC Fellow and Founder Institute alum based in the DC area. Nick speaks about
+      what it actually looks like to build with AI, with a focus on honest tradeoffs and practitioner-level takeaways over
+      hype.
+    photo: /img/archive/2026/speakers/nick-shrimankar.webp
+  description: 'LLM-generated code has a dangerous quality: it works. It runs, it passes the quick eyeball test, and that''s
+    exactly the problem; because working and secure are not the same thing. This talk is about the new review skill nobody
+    trained us for: spotting and hardening the vulnerabilities in code a machine wrote before it reaches production.
+
+    When a human writes a risky line, another human usually catches it in review. That safety net has held for decades. But
+    AI generates code so fast and so fluently that the net now has holes in it, and most teams haven''t noticed.
+
+    Here''s the trap. LLM-generated code looks finished. It reads clean, it compiles, it runs. So reviewers relax because
+    polish feels like proof. But fluent isn''t the same as safe, and the very confidence that makes AI code pleasant to read
+    is what makes it slip past us.
+
+    I''ll walk through four areas: where machine-generated code quietly breaks trust boundaries, the classes of vulnerability
+    that show up most often and why they hide so well, what a sane review process looks like when a real share of your commits
+    had a non-human co-author, and how to build the habits so this scales. Think of it like onboarding a brilliant new hire
+    who writes beautiful code and has zero memory of your security policies. You don''t stop the hire. You build the habits
+    that catch what they miss.
+
+    You''ll leave able to spot the failure patterns, ask the right questions and put guardrails in place before AI code ships
+    rather than after it breaks.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '16:00'
+  time_end: '16:55'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: 'Verified Lies: Hunting Identity Fraud Infrastructure Behind Fake Verification Flows'
+  speakers:
+  - name: Andre Piazza
+    company: BforeAI
+    title: Cybersecurity Strategist at BforeAI
+    bio: Andre Piazza is a cybersecurity strategist at BforeAI who works left of boom, catching adversary infrastructure during
+      its staging window, before ransomware, account fraud, or brand and supplier impersonation reaches a target. He treats
+      attacks as infrastructure and behavior rather than content, working from public signals like WHOIS, DNS, certificate
+      transparency, and ASN data, and linking domains by registration velocity, shared certificate fingerprints, and hosting
+      overlap to surface lookalike infrastructure before it goes live. His work spans verification fraud, impersonation built
+      with AI, scams that spin up around breaking news, and operational technology. He turns published threat research into
+      methods practitioners can use the next day, and he is a regular speaker at the SANS AI Cybersecurity Summit, BSides
+      conferences including Seattle and Charm, Hou.Sec.Con, and Cybr.Hak.Con. He weighs the human trust attackers exploit
+      as heavily as the technology.
+    photo: /img/archive/2026/speakers/andre-piazza.webp
+  description: 'Verification exists to answer one question: is this real? Increasingly, attackers do not answer it, they impersonate
+    the question itself, cloning the login flow and staging a check that was never checking anything. I show how to hunt the
+    cloned portal from public signals and pivot from one to the whole campaign.
+
+
+    The lens is financial services, where verification language is a staging tell across lookalike finance domains you can
+    surface yourself from certificate transparency and public newly-registered-domain feeds, before the fraud those pages
+    carry. I walk two cases my team investigated: a cloned US Department of Education G5 grant portal that staged a fake /verify/
+    step to harvest credentials, timed to agency disruption, and a UK retail scam riding the DragonForce intrusions that weaponized
+    identity checks and reused infrastructure across brands. In both, the catchable signal lived in the infrastructure, not
+    a vulnerability.
+
+
+    I then show how you run the same checks with free public tools: certificate transparency, WHOIS / RDAP and ASN, and page
+    tells like reused language, favicon, and script, mapped to ATT&CK so hunting a clone becomes a detection you keep. I close
+    with a live read of a staged credential-harvesting page, pivoting to siblings live when they share a favicon, script,
+    or certificate. You will leave able to tell verification bypass from impersonation, spot a staged portal and pivot to
+    its siblings from public signals, and rerun the whole hunt on free tools.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '16:00'
+  time_end: '16:25'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'The 40-Hour Hunt Problem: Where AI Actually Saves Time (and Where It Doesn''t)'
+  speakers:
+  - name: Nivea Sharma
+    company: SpaceXAI
+    title: Security Engineer @ SpaceXAI | Building detections, investigating incidents, measuring what matters
+    bio: Nivea Sharma is a Security Engineer at SpaceXAI, where she works on detection engineering, insider threat hunting,
+      and security investigations. Before joining SpaceXAI, she interned with Apple's Information Security organization and
+      earned her Master's in Information Security from Carnegie Mellon University. Whether building detections, investigating
+      incidents, or evaluating new technologies, she's most interested in understanding how defenders actually work and using
+      that understanding to build better tools, workflows, and measurements
+    photo: /img/archive/2026/speakers/nivea-sharma.webp
+  - name: Neha Gautam
+    company: Microsoft
+    title: Product Manager | Microsoft Security & Identity
+    bio: Neha Gautam is a Product Manager at Microsoft Security and a Carnegie Mellon graduate specializing in the intersection
+      of Identity and AI. From scaling platforms at Walmart to securing agentic AI at Microsoft, Neha’s mission is to translate
+      complex security hurdles into seamless product experiences. She is a passionate mentor for women in tech and a frequent
+      volunteer for WiCyS and Defcon Blue Team Village.  She is a CISSP, a frequent speaker and mentor, and an active contributor
+      to the cybersecurity community through WiCyS, Defcon BTV, PPP Hacking team. Neha believes that the future of computing
+      must be built by diverse perspectives—a philosophy she champions whether she's designing enterprise governance or coaching
+      early-career professionals.
+    photo: /img/archive/2026/speakers/neha-gautam.webp
+  description: 'Every AI-SOC vendor has a number that sounds too good to ignore - investigations that used to take hours now
+    finish in minutes, workloads cut by 80%. But nobody actually measures where hunt time goes in the first place. A real
+    proactive hunt isn''t just writing a query - it''s forming a hypothesis, pivoting across tools, reading thousands of events,
+    validating findings, and documenting what matters. That process can easily take 40+ hours, which is exactly why most SOCs
+    can''t hunt as often as they''d like.
+
+    This talk answers the question directly. We ran the same credential-abuse hunt twice - hunting anomalous sign-ins and
+    token replay for signs of account compromise - once manually, once with AI copilots, using the same lab environment, dataset,
+    and starting hypothesis both times, timing every phase. We''ll walk through exactly where AI saved real hours, where it
+    helped us think faster, and where it confidently produced wrong leads that took longer to verify than they were worth.
+    To show the pattern holds, we''ll close with a comparison against two more hunt types, plus a lightweight framework attendees
+    can use to test AI-hunting claims themselves.
+
+    This isn''t a vendor demo or a promise that AI fixes SOC burnout - it''s a measured, honest look at where AI actually
+    helps and where it doesn''t. No vendor, no product, no pitch - just a stopwatch, a real hunt, and the number nobody''s
+    bothered to measure.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '16:00'
+  time_end: '16:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'Weirder Machines: Compositional Attack Surfaces at the LLM-Tool Boundary'
+  speakers:
+  - name: Ariel Fogel
+    company: Pillar Security
+    title: AI Security Researcher @ Office of the CTO, Pillar Security
+    bio: Ariel Fogel is a founding engineer & researcher at Pillar Security, where he hardens AI applications against real-world
+      attacks and compliance risks. Over the past decade, he has built production systems in a variety of different domains,
+      shipping everything from full-stack web apps to data analytics pipelines. His academic and professional research work
+      spans data-science methods, learning analytics, health policy, and cybersecurity. In addition in addition to publishing
+      research on a novel attack surfaces in the AI supply chain, he is an active member of the OWASP community. Among the
+      initiatives he has been involved, he co-led the OWASP State of Agentic AI Security and Governance Report V2, was the
+      section lead in the OWASP Securing Agentic Applications Guide V2, and is a core team member of OWASP's Agent Control
+      Standard.
+    photo: /img/archive/2026/speakers/ariel-fogel.webp
+  - name: Eilon Cohen
+    company: Pillar Security
+    title: Head of Security Research @ Pillar Security
+    bio: Eilon Cohen is Head of Security Research at Pillar Security, where he hunts vulnerabilities in frontier AI agents
+      and orchestration platforms. His work on n8n's expression sandbox produced several critical findings, including CVE-2026-25049,
+      an unauthenticated RCE rated CVSS 10.0 that exposed hundreds of thousands of enterprise AI workflows. His current research
+      covers sandbox escapes, adversarial campaigns against AI infrastructure, and vulnerabilities in widely used AI assistants.
+      He co-founded the AIL Community, an AI security knowledge-sharing group that has run events with Microsoft, OpenAI,
+      and Nvidia. He has presented at RSAC 2025 and OWASP Global AppSec EU 2025 on ecosystem-wide supply chain vulnerabilities
+      he discovered.
+    photo: /img/archive/2026/speakers/eilon-cohen.webp
+  description: 'The agentic-AI security debate has stalled on prompt injection. In this talk we argue that this emphasis has
+    us watching the wrong boundary.
+
+    We begin by walking through three patched cases: Cursor, Google''s Antigravity IDE, and RTK (a small CLI proxy). In Cursor''s
+    strictest mode (CVE-2026-22708, CVSS 9.8), an empty allowlist and exempt shell built-ins produced zero-click code execution,
+    while Antigravity''s Secure Mode kept all three of its promises even as a planted repo comment launched code. RTK involved
+    no prompt injection at all: following filter rules an attacker committed to the repo, it silently stripped the backdoor
+    lines from the output, so the model reasoned correctly over a filtered view and approved code it never fully saw.
+
+    The through-line is a structural bug class we call the weirder machine, where a stochastic component upstream of a deterministic
+    boundary makes its unmodeled instruction set searchable, as it did in a CVSS 10.0 RCE in Google''s Gemini CLI. Sometimes
+    the model is steered, and other times it serves only as the laundering stage. We argue that the class forces a rethink
+    of common defenses: output sanitizing and injection detection both fail, and the fix is to invert control policy at the
+    tool boundary by allowing on argument shape, tracking config provenance, making enforcement mode-aware, and isolating
+    execution. We put forward the OWASP''s new Agent Control Standard as a way to standardize the wire contract those controls
+    require.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '16:30'
+  time_end: '16:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: 'The Accidental Leader: An Engineer''s Path to Startups and Conferences'
+  speakers:
+  - name: Chris Maenner
+    company: BSidesPhilly
+    title: BSidesPhilly Organizer
+    bio: 'Chris is Head of Cybersecurity at Ybor Technology, where he focuses on securing Kubernetes platforms, AI workloads,
+      and cloud-native infrastructure. He has been working in security engineering since 2006, spanning roles from early-stage
+      startups to enterprise platform teams.
+
+
+      Chris serves as a board member of BSidesPhilly and is a frequent speaker at security conferences, including multiple
+      BSides events, Boardwalk Bytes, and corporate conferences. He''s passionate about helping fast-moving teams build secure
+      systems without sacrificing velocity.
+
+
+      Outside of security, Chris builds music applications and spends his free time visiting music venues around the world.'
+    photo: /img/archive/2026/speakers/chris-maenner.webp
+  description: 'In 2006, I was an engineer who just wanted to solve hard technical problems. I never planned to run security
+    teams, lead startups, or help build conferences. But somewhere along the way, the path forked—and I kept saying yes.
+
+
+    This talk is the story of that journey: from individual contributor to Head of Security, from attendee to BSides board
+    member, from employee to startup operator. It''s about the moments that forced me to grow, the mistakes I made along the
+    way, and what I wish someone had told me earlier.
+
+
+    We''ll cover:
+
+    - When to stay technical vs. when to step into leadership
+
+    - What running a startup actually looks like (spoiler: less glamorous than Instagram suggests)
+
+    - How building conferences changed how I think about community and career
+
+    - The skills that transferred and the ones I had to learn from scratch
+
+
+    This isn''t a talk about frameworks or methodologies. It''s an honest conversation about building things that matter companies,
+    teams, and communities.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '16:30'
+  time_end: '16:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'AI Threats: Defender Reality Check'
+  speakers:
+  - name: Hadar Waldman
+    company: Artemis
+    title: Leads security research and a part of the founding team of Artemis, the world’s first AI-Native detection and response
+      platform
+    bio: Hadar Waldman leads security research and a part of the founding team of Artemis, the world’s first AI-Native detection
+      and response platform. She previously led Check Point’s Incident Response Services in the Americas, guiding organizations
+      through high-stakes cyber crises. Prior to that, she was leading threat intelligence teams at Check Point Research,
+      shaping defensive strategies used by thousands of organizations worldwide. Hadar began her cybersecurity journey on
+      the front lines- starting as a SOC analyst and progressing through nearly every role in security operations before eventually
+      managing a 24/7 SOC supporting over 100,000 users across 20+ environments.
+    photo: /img/archive/2026/speakers/hadar-waldman.webp
+  description: 'Since late 2024, every major vendor has published the same prediction for how AI agents would change the threat
+    landscape: self-adapting malware, deepfake-driven collapse, a 100x explosion in exploitation. It''s the end of 2026. Some
+    of it happened. But as an incident responder who has worked with dozens of organizations on hundreds of attacks this past
+    year, I don''t think most of those predictions came to pass in any way that changed how we actually practice detection
+    and response. Plenty has changed. It just wasn''t on anyone''s list.
+
+
+    This is a practitioner-to-practitioner breakdown of what genuinely shifted for defenders since coding agents became commodity
+    tooling, and what is still marketing. I''ll take the five areas the predictions covered- phishing, social engineering,
+    CVE volume, supply chain, malware- put real numbers and real detection experience against each, and grade them: escalated,
+    overhyped, or mis-framed. Then the one that nobody put on a slide on 2024.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '17:00'
+  time_end: '17:55'
+  track: Entrepreneur
+  room: Entrepreneur
+  title: Building Cult Brands in Cybersecurity
+  speakers:
+  - name: Sean Sun
+    company: Miscreants
+    title: Founder and CEO of Miscreants
+    bio: Founder and CEO of Miscreants, a cybersecurity focused creative agency.
+    photo: /img/archive/2026/speakers/sean-sun.webp
+  description: 'A cult brand is a company who is able to actually and consistently resonate with a specific slice of a customer''s
+    identity. When this happens, the customer becomes a fan, wearing the merch and even arguing for you in threads that no
+    one pays them to be in.
+
+
+    In cybersecurity, with the amount of slop design and follower marketing, building a cult brand is how startups can actually
+    hold their own.
+
+
+    This talk is meant to be a tactical way for any founder/future founder to rethink the storytelling of their company with
+    frameworks, examples, and (hopefully) an audience exercise.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '17:00'
+  time_end: '17:25'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'No Safe Harbor: OceanLotus and ROGUEHARBOR'
+  speakers:
+  - name: Josh Duke
+    company: Volexity
+    title: Volexity, Senior Threat Intelligence Analyst
+    bio: Josh is a Senior Threat Intelligence Analyst at Volexity with experience in tracking nation-state threat actors and
+      infrastructure analysis, transforming findings from these investigations into defenses for customer networks. With a
+      strong understanding of Computer Science, holding both a MS and BS in the field, Josh is able to connect his understanding
+      of software and networking to inform his work as an intelligence analyst.
+    photo: /img/archive/2026/speakers/josh-duke.webp
+  description: The OceanLotus threat actor continues to target human-rights organizations with a focus on Southeast Asia,
+    contacting individuals via messaging platforms like WhatsApp to send malware. The most recent campaign Volexity observed
+    involved a virtual hard disk being sent to an individual of one of these organizations over WhatsApp in the guise of a
+    document. When the file inside this hard disk is opened, a multi-stage infection chain begins that results in the deployment
+    of a fully-featured modular RAT Volexity tracks as ROGUEHARBOR. This presentation details the targeting and infection
+    chain details to provide additional insights into the recent activities of OceanLotus.
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '17:00'
+  time_end: '17:55'
+  track: Tech - Red
+  room: Tech - Red
+  title: 'Install Me Maybe: Turning Claimable VS Code Extension IDs into Supply-Chain Attacks'
+  speakers:
+  - name: Raphael Silva
+    company: Aikido Security
+    title: Security Researcher @ Aikido Security
+    bio: Raphael Silva is a Security Researcher at Aikido Security, focused on web security, software supply-chain security,
+      and vulnerability research. He has spoken at DEF CON, RootedCON, OWASP Global AppSec, Black Alps and OWASP local chapters,
+      and has also run hands-on activities at DEF CON. His work centers on finding weird trust assumptions in real systems,
+      turning them into clear attack models, and responsibly disclosing the results to vendors and open-source projects.
+    photo: /img/archive/2026/speakers/raphael-silva.webp
+  description: 'Developer tools trust extension identifiers more than they probably should.
+
+
+    "Extension Confusion" is dependency confusion but for IDE extensions. A repo, devcontainer, IDE, or migration flow references
+    an ID like publisher.extension. The identifier may be trusted in one marketplace, but the editor resolves it in another
+    where the publisher namespace is still unclaimed. If an attacker claims it first, stale config becomes code execution
+    inside a developer environment.
+
+
+    I found this bug class while tracing VS Code extension IDs across the Microsoft Marketplace, Open VSX, VS Code-derived
+    editors, AI IDEs, sync/import tooling, and devcontainer workflows. I will show where the trust boundary breaks, how I
+    found claimable identifiers in the wild, and what happened when I published proof-of-concept extensions to measure real-world
+    impact.
+
+
+    The scale is what surprised me the most: 250k+ callbacks, reports to 100+ organizations, and $130k+ in bounties so far.
+    I’ll show how a handful of these extensions let me hack into laptops, managed corporate machines, remote dev setups, WSL,
+    and containers across SaaS, fintech, Fortune 500, healthcare, government, universities and more.
+
+
+    A trusted name, a missing namespace, and the marketplace gap no one was watching.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '17:30'
+  time_end: '17:55'
+  track: Tech - Blue
+  room: Tech - Blue
+  title: 'Thinking Outside the Package: Hunting Supply Chain Behavior from the Endpoint Perspective'
+  speakers:
+  - name: Bar Matalon
+    company: Palo Alto Networks
+    title: Threat Intelligence Team Lead @ Palo Alto Networks
+    bio: Bar Matalon is the Threat Intelligence Team Lead at Palo Alto Networks’ Cortex research department, and has over
+      a decade of experience in cyber intelligence research. After years of working in the defense sector, Matalon was a threat
+      intelligence researcher for several international companies, including Novartis Pharmaceuticals and Intel Corporation.
+    photo: /img/archive/2026/speakers/bar-matalon.webp
+  - name: Noa Dekel
+    company: Palo Alto Networks
+    title: Senior Threat Intelligence Researcher, Palo Alto Networks
+    bio: Noa Dekel is a Senior Threat Intelligence Analyst at Palo Alto Networks. Starting her career as a Threat Intelligence
+      analyst in the Defense sector, today Noa specializes in threat hunting, malware analysis, and detection engineering.
+    photo: /img/archive/2026/speakers/noa-dekel.webp
+  description: 'For years, software supply chain security in npm and PyPI was treated as a "developer problem." But since
+    2025, the threat landscape has escalated. We are no longer fighting simple credential stealers - we face massive campaigns
+    of destructive malware and self-replicating worms.
+
+    This shift is amplified by AI-assisted "vibe coding." As more users implement code they don''t fully understand, attackers
+    weaponize AI to compromise packages and hallucinate malicious ones at scale.
+
+    In this session, we analyze the anatomy of these modern compromises. We strip away the abstraction: when users run npm
+    install or pip install, they aren''t just downloading files. They are executing a process tree with full user privileges.
+
+    We will demonstrate why endpoint visibility is the missing link in defense. By the time a registry removes a malicious
+    package, it''s too late: the code has already executed. We will expose the attacker’s playbook, dissecting notable campaigns
+    to reveal their tradecraft. You will see every step of the kill chain mapped out, from the initial install command to
+    malicious child processes and network beacons.
+
+    Attendees will leave with practical hunting tips and specific query logic, empowering defenders to detect anomalies and
+    stop compromised supply chains before they spread.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '17:30'
+  time_end: '17:55'
+  track: Tech - Other
+  room: Tech - Other
+  title: 'You Cannot Govern What You Cannot See: Security Lessons for the AI Agent Era'
+  speakers:
+  - name: Victoria Galloway
+    company: null
+    title: Cybersecurity Program Leader | Identity & Access | IT/OT Convergence | Transformation Strategist
+    bio: Victoria Galloway is a cybersecurity program leader focused on identity governance, privileged access management,
+      and enterprise security transformation in complex environments. Her work spans IAM, PAM, governance, compliance, and
+      cybersecurity program execution, with a focus on translating technical access risk into operational and executive decision-making.
+      She is PMP-certified, holds a master’s degree in cybersecurity from UC Berkeley, and is passionate about helping organizations
+      strengthen identity and privileged access controls as technology environments become more interconnected, automated,
+      and operationally critical.
+    photo: /img/archive/2026/speakers/victoria-galloway.webp
+  description: 'AI agents are being introduced into business workflows before security teams fully understand what they can
+    access, what actions they can take, who owns them, and how they are monitored. This talk connects AI agents to familiar
+    security concepts: identity, least privilege, logging, access reviews, incident response, and accountability.'
+  type: talk
+  slides_url: null
+  video_url: null
+  recorded: null
+- time_start: '18:00'
+  time_end: '18:45'
+  track: Tech - Red
+  room: Tech - Red
+  title: BSidesNYC 0x06 Closing Ceremonies
+  speakers: []
+  description: null
+  type: ceremony
+  slides_url: null
+  video_url: null
+  recorded: null
+sponsors:
+- name: APTORI
+  tier: Gigabit
+  url: https://aptori.dev/
+- name: Artemis
+  tier: Gigabit
+  url: https://artemissecurity.com/
+- name: Copia
+  tier: Gigabit
+  url: https://copia.io/
+- name: Crogl
+  tier: Gigabit
+  url: https://www.crogl.com/
+- name: Jane Street
+  tier: Gigabit
+  url: https://www.janestreet.com/
+- name: Scanner
+  tier: Gigabit
+  url: https://scanner.dev/
+- name: Aikido
+  tier: Megabit
+  url: https://www.aikido.dev/
+- name: Casco
+  tier: Megabit
+  url: https://casco.com/
+- name: Corridor
+  tier: Megabit
+  url: https://www.corridor.dev/
+- name: Fortra
+  tier: Megabit
+  url: https://www.fortra.com/
+- name: Red Sift
+  tier: Megabit
+  url: https://redsift.com/
+- name: SpecterOps
+  tier: Megabit
+  url: https://specterops.io/
+- name: White Knight Labs
+  tier: Megabit
+  url: https://whiteknightlabs.com/
+- name: Starseer
+  tier: Kilobit
+  url: https://starseer.ai/
+villages:
+- name: Ginger Hacking Initiative
+  url: https://gingerhacker.org
+- name: Raíces Cyber
+  url: https://www.raicescyber.org
+- name: Electronic Frontier Foundation
+  url: https://www.eff.org
+- name: Women's Society of Cyberjutsu
+  url: https://womenscyberjutsu.org
+- name: Cloud Village
+  url: https://cloud-village.org
+- name: IoT Village
+  url: https://www.iotvillage.org
+- name: John Jay Computer Science Society
+  url: https://linktr.ee/css.jjay
+- name: Red Team Village
+  url: https://redteamvillage.io
+- name: WiCyS NY Metro Affiliate
+  url: https://www.wicys.org/wicys-ny-metro-affiliate
+- name: AI Security Village
+  url: https://align-sec.org/events/bsidesnyc-ai-security-village
+- name: Script Kitty
+  url: https://retia.io/collections/bsides-nyc
+- name: Lockpick Village by Lockpick Extreme
+  url: https://lockpickextreme.com
+- name: NYC Resistor
+  url: https://www.nycresistor.com
